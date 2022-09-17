@@ -1,0 +1,32 @@
+div.game {
+  margin-bottom: 6px;
+  vertical-align: top;
+  display: inline-grid;
+  width: 500px;
+  grid-template-columns: 0.75fr 1fr;
+}
+div.game > img {
+  grid-column: 1;
+  width: 200px;
+}
+div.game > p {
+  grid-column: 2;
+  margin-top: 0;
+}
+code {
+  font-size: 1.5em;
+}
+sup a {
+  text-decoration: none;
+}
+span.tag {
+  white-space: nowrap;
+}
+.chkhideshow > span {
+  min-width: 12em;
+  display: inline-block;
+}
+fieldset {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

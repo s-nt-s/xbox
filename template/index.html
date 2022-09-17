@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<base target="_blank" />
+    <meta charset="UTF-8">
+    <title>{{juegos | length | millar}} juegos</title>
+    <link rel="stylesheet" href="main.css" />
+		<script src="info.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<p>
+			<label for="list">Listar</label> <select id="list">
+					<option value="A" selected>Todo</option>
+					<option value="G">GamePass</option>
+					<option value="F">Gratis</option>
+			</select>
+		</p>
+		<fieldset class="chkhideshow">
+			<legend><select id="chkhideshow">
+					<option value="H" selected>Ocultar</option>
+					<option value="S">Mostrar</option>
+			</select></legend>
+			{% for t in tags %}
+			<span><input type="checkbox" id="{{t}}"/> <label for="{{t}}">#{{t}}</label></span>
+			{% endfor %}
+		</fieldset>
+{% for j in juegos %}
+<div class="game" id="{{j.id}}">
+<img src="{{j.poster}}"/>
+<p>
+	<b><a href="{{j.url}}" class="title">{{j.title}}</a> <sup>[<a href="{{j.js}}">js</a>]</sup></b>
+	<br/>
+	<code>{{j.rate | decimal}}</code> estrellas || <code>{{j.price | round | int}} €</code><br/>
+	<!--
+	{% if j.langs %}
+		[ {{" / ".join(j.langs) }} ]</br>
+	{% endif %}
+	-->
+	{% if j.tags %}
+	{% for t in j.tags %}<span class="tag">#{{t}}</span> {% endfor %}<br/>
+	{% endif %}
+	<a href="https://www.youtube.com/results?search_query={{j.title}}">videos</a> -
+	<a href="https://www.google.es/search?tbm=isch&q={{j.title}}">imagenes</a>
+</p>
+</div>
+{% endfor %}
+  </body>
+</html>
