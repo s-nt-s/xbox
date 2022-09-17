@@ -51,7 +51,7 @@ for i in items:
     tags = tags.union(i.tags)
 tags = sorted(tags - set({'GamePass', 'Free'}))
 
-j = Jnj2("template/", "out/")
+j = Jnj2("template/", "docs/")
 j.create_script("info.js", GAME=info)
 j.save("index.html",
        juegos=items,
