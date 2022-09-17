@@ -44,9 +44,19 @@ function filtrar() {
     }
     if (show=="G" && !j.gamepass) return false;
     if (show=="F" && !j.tags.includes("Free")) return false;
-    const hs = isCross(chhs, j.tags);
-    if (hdsh == "S" && !hs) return false;
-    if (hdsh == "H" && hs) return false;
+    const fl = (() => {
+      if (chhs.length == 0) {
+        if (hdsh[0]=='S') return false;
+        if (hdsh[0]=='H') return true;
+      }
+      const hs = chhs.filter(v => j.tags.includes(v));
+      if (hdsh == "SO") return hs.length  > 0;
+      if (hdsh == "HO") return hs.length == 0;
+      if (hdsh == "SA") return hs.length == chhs.length;
+      if (hdsh == "HA") return hs.length != chhs.length;
+      console.log(hdsh, chhs, j.tags, hs);
+    })();
+    if (!fl) return false;
     return true;
   });
   ok.forEach((i) => i.style.display = "");
