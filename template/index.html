@@ -4,6 +4,7 @@
 		<base target="_blank" />
     <meta charset="UTF-8">
     <title>{{juegos | length | millar}} juegos</title>
+		<meta http-equiv="Last-Modified" content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}">
     <link rel="stylesheet" href="main.css" />
 		<script src="info.js"></script>
 		<script src="main.js"></script>
@@ -14,6 +15,9 @@
 					<option value="A" selected>Todo</option>
 					<option value="G">GamePass</option>
 					<option value="F">Gratis</option>
+					{% if precio > 0 %}
+					<option value="{{precio}}"> 0 &lt; precio &lt;= {{precio}} €</option>
+					{% endif %}
 			</select>
 		</p>
 		<fieldset class="chkhideshow">

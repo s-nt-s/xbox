@@ -124,6 +124,17 @@ class Api:
         if len(rt) == 1:
             return rt[0]
         return None
+    
+    @Cache("rec/ps/{0}.json", maxOld=10)
+    def get_preload_state(self, id, **kvargs):
+        url = "https://www.xbox.com/es-es/games/store/a/"+id
+        r = requests.get(url)
+        for l in r.text.split("\n"):
+            l = l.strip()
+            if l.startswith("window.__PRELOADED_STATE__"):
+                l = l.split("=", 1)[-1].strip().rstrip(";")
+                j = json.loads(l)
+                return j
 
     @Cache("rec/ac/{1}.json", maxOld=10)
     def get_actions(self, web, id, **kvargs):
@@ -174,6 +185,7 @@ class Game:
         self.i = i
         self.collections = set()
         self.productActions = {"productActions":[]}
+        self.preload_state = None
 
     @property
     def id(self):
@@ -228,24 +240,42 @@ class Game:
         return act
 
     @property
-    def notSoldSeparately(self):
-        return 'NotSoldSeparately' in self.actions
+    def legalNotices(self):
+        if self.preload_state is None:
+            return []
+        obj = dict(self.preload_state)
+        for k in ('core2', 'products', 'productSummaries' , self.id, 'legalNotices'):
+            obj = obj.get(k)
+            if obj is None:
+                return []
+        if obj is None:
+            return []
+        return obj
 
     @property
+    def requiresGame(self):
+        return 'DlcRequiresGame' in self.legalNotices
+
+    @property
+    def notSoldSeparately(self):
+        return 'NotSoldSeparately' in self.actions
+    
+    @property
     def langs(self):
-        def find_lang(arr, lng):
+        def find_lang(lng, arr):
             for l in arr:
                 l = l.lower()
                 if l == lng or l.startswith(lng+'-'):
                     return True
             return False
-        langs = []
+        langs = set()
         for x in (self.i['DisplaySkuAvailabilities'] or []):
             for m in (x['Sku']['MarketProperties'] or []):
-                if find_lang(m['SupportedLanguages'], 'es'):
-                    langs.append('ES')
-                elif find_lang(m['SupportedLanguages'], 'en'):
-                    langs.append('EN')
+                if find_lang('es', m['SupportedLanguages']):
+                    langs.add('ES')
+                elif find_lang('en', m['SupportedLanguages']):
+                    langs.add('EN')
+        langs = sorted(langs)
         return tuple(langs)
 
     @property

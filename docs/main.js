@@ -1,7 +1,5 @@
 function get_words(s) {
-  s = s.toLowerCase().trim().split(/\s+/).filter(function(w){
-    return w.length>0;
-  });
+  s = s.toLowerCase().trim().split(/\s+/).filter(w => w.length>0);
   s = [...new Set(s)];
   return s;
 }
@@ -34,6 +32,7 @@ function fe(slc, fnc) {
 }
 function filtrar() {
   const show = document.querySelector("#list").value;
+  const nShow = Number(show);
   const hdsh = document.querySelector("#chkhideshow").value;
   const chhs = qs(".chkhideshow input", (i) => i.checked?i.id:null);
   const { ok, ko } = filter("div.game", (i) => {
@@ -44,6 +43,7 @@ function filtrar() {
     }
     if (show=="G" && !j.gamepass) return false;
     if (show=="F" && !j.tags.includes("Free")) return false;
+    if (!isNaN(nShow) && (j.price == 0 || j.price > nShow)) return false;
     const fl = (() => {
       if (chhs.length == 0) {
         if (hdsh[0]=='S') return false;
@@ -67,11 +67,9 @@ function filtrar() {
     document.title = `${ok.length}/${ok.length+ko.length} juegos`;
   }
 }
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   fe("input, select", (i) => {
-    i.addEventListener('change',function(){
-      filtrar();
-    });
+    i.addEventListener('change', filtrar);
   })
   filtrar();
 }, false);
