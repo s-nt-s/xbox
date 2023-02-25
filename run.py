@@ -32,8 +32,8 @@ def do_filter2(i):
         return False
     if i.notSoldSeparately:
         return False
-    if 'Trial' in i.actions:
-        return False
+    #if 'Trial' in i.actions:
+    #    return False
     return True
 
 def iter_progress(arr):

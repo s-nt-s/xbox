@@ -287,6 +287,10 @@ class Game:
         return 'GamePass' in self.collections or 'EAPlay' in self.collections
 
     @property
+    def trial(self):
+        return 'Trial' in self.actions
+    
+    @property
     def tags(self):
         tags = []
         for x in self.categories:

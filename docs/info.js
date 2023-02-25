@@ -30,6 +30,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos - Chicken Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MT8HTJC4GSB"
   },
   "9MT8PTGVHX2P": {
@@ -74,6 +75,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Halo: la colecci\u00f3n Jefe Maestro",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MT8PTGVHX2P"
   },
   "9MT9Q2MBBZ0X": {
@@ -104,6 +106,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Metal: Hellsinger (Xbox One)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MT9Q2MBBZ0X"
   },
   "9MTCRVZQN3GV": {
@@ -135,6 +138,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Trek to Yomi",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MTCRVZQN3GV"
   },
   "9MV2S7Q5PHSW": {
@@ -168,6 +172,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Forager",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MV2S7Q5PHSW"
   },
   "9MV6MCVLT8GR": {
@@ -202,6 +207,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Lonely Mountains: Downhill",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MV6MCVLT8GR"
   },
   "9MVN4ND41DD3": {
@@ -236,6 +242,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Bard's Tale Trilogy",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MVN4ND41DD3"
   },
   "9MVVDHS95RCL": {
@@ -274,6 +281,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "NARAKA: BLADEPOINT - Edici\u00f3n Standard",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MVVDHS95RCL"
   },
   "9MVXMVT8ZKWC": {
@@ -318,6 +326,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Minecraft",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MVXMVT8ZKWC"
   },
   "9MW9469V91LM": {
@@ -349,6 +358,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Hollow Knight: Edici\u00f3n Coraz\u00f3n Vac\u00edo",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MW9469V91LM"
   },
   "9MWBT3HFCZ3Z": {
@@ -387,6 +397,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "La Patrulla Canina: Grand Prix",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MWBT3HFCZ3Z"
   },
   "9MWHMJ0SRBXV": {
@@ -422,6 +433,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Jurassic World Evolution 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MWHMJ0SRBXV"
   },
   "9MX3ZLK7N799": {
@@ -454,6 +466,7 @@ var GAME = {
       "Free"
     ],
     "title": "Inops",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MX3ZLK7N799"
   },
   "9MXND4PQLK3W": {
@@ -485,6 +498,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DOOM 64",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MXND4PQLK3W"
   },
   "9MZ4GBWX9GND": {
@@ -513,6 +527,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Cities: Skylines - Remastered",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZ4GBWX9GND"
   },
   "9MZ8RZSD0NFQ": {
@@ -548,6 +563,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Crusader Kings III",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZ8RZSD0NFQ"
   },
   "9MZCQQK860T1": {
@@ -588,6 +604,7 @@ var GAME = {
       "Free"
     ],
     "title": "Destroy All Humans! - Clone Carnage",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZCQQK860T1"
   },
   "9MZGGWHPKQ4C": {
@@ -618,6 +635,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Tainted Grail: Conquest",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZGGWHPKQ4C"
   },
   "9MZKW7QMXQRV": {
@@ -662,6 +680,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Madden NFL 23 para Xbox Series X|S",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZKW7QMXQRV"
   },
   "9MZN3SMXN824": {
@@ -694,6 +713,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "New Super Lucky's Tale",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZN3SMXN824"
   },
   "9MZNS9NZ97PF": {
@@ -729,6 +749,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Monster Sanctuary",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZNS9NZ97PF"
   },
   "9MZRSLLWKWDV": {
@@ -762,6 +783,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Prodeus",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZRSLLWKWDV"
   },
   "9MZVSHQZ666K": {
@@ -796,6 +818,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Kill It With Fire",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZVSHQZ666K"
   },
   "9N0102B834ZM": {
@@ -821,6 +844,7 @@ var GAME = {
       "Racing & flying"
     ],
     "title": "Fantasy Dash",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N0102B834ZM"
   },
   "9N02PBHR35KM": {
@@ -852,6 +876,7 @@ var GAME = {
       "Free"
     ],
     "title": "World of Warships: Legends \u2014 Fuerzas conjuntas",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N02PBHR35KM"
   },
   "9N05CV7HCQZ0": {
@@ -893,6 +918,7 @@ var GAME = {
       "Free"
     ],
     "title": "Knockout City\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N05CV7HCQZ0"
   },
   "9N0T8V0R7MBC": {
@@ -926,6 +952,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Turnip Boy Commits Tax Evasion",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N0T8V0R7MBC"
   },
   "9N0TRF57SMQH": {
@@ -957,6 +984,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "SpiderHeck",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N0TRF57SMQH"
   },
   "9N1CS194W1Q6": {
@@ -998,6 +1026,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "FIFA 22 Xbox Series X|S",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N1CS194W1Q6"
   },
   "9N1NBJNDD08J": {
@@ -1033,6 +1062,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Commandos 3 - HD Remaster",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N1NBJNDD08J"
   },
   "9N1PS56BR6VK": {
@@ -1066,6 +1096,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Somerville",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N1PS56BR6VK"
   },
   "9N1VP8WDQK4D": {
@@ -1114,6 +1145,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Monster Hunter Rise",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N1VP8WDQK4D"
   },
   "9N1WWRPJ12FK": {
@@ -1146,6 +1178,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Chained Echoes",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N1WWRPJ12FK"
   },
   "9N29VZ9LRNNQ": {
@@ -1180,6 +1213,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "FAR: Changing Tides",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N29VZ9LRNNQ"
   },
   "9N2Z748SPMTM": {
@@ -1212,6 +1246,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Age of Empires II: Definitive Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N2Z748SPMTM"
   },
   "9N2ZK1Z9FD6Z": {
@@ -1247,6 +1282,7 @@ var GAME = {
       "Free"
     ],
     "title": "Queen's Quest 5: Symphony of Death (Xbox Version)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N2ZK1Z9FD6Z"
   },
   "9N3KJT4MHM4Z": {
@@ -1282,6 +1318,7 @@ var GAME = {
       "Free"
     ],
     "title": "Capcom Arcade 2nd Stadium",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N3KJT4MHM4Z"
   },
   "9N4PGNQQ7ZFK": {
@@ -1316,6 +1353,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Shredders",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N4PGNQQ7ZFK"
   },
   "9N5521ZQMQMJ": {
@@ -1351,6 +1389,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Serious Sam 4",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N5521ZQMQMJ"
   },
   "9N5JRWWGMS1R": {
@@ -1394,6 +1433,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "ARK: Ultimate Survivor Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N5JRWWGMS1R"
   },
   "9N6PB00DXQ7H": {
@@ -1425,6 +1465,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Olija",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N6PB00DXQ7H"
   },
   "9N6PHQ93Z451": {
@@ -1458,6 +1499,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Shadowrun Returns",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N6PHQ93Z451"
   },
   "9N6Z8DQXSQWH": {
@@ -1495,6 +1537,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Disneyland Adventures",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N6Z8DQXSQWH"
   },
   "9N7CJX93ZGWN": {
@@ -1535,6 +1578,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Chivalry 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N7CJX93ZGWN"
   },
   "9N7GCF5SGCXC": {
@@ -1570,6 +1614,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Battletoads",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N7GCF5SGCXC"
   },
   "9N7PL7D5CDJ8": {
@@ -1605,6 +1650,7 @@ var GAME = {
       "Free"
     ],
     "title": "Juego de cartas Eternal",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N7PL7D5CDJ8"
   },
   "9N7PQ80B145R": {
@@ -1639,6 +1685,7 @@ var GAME = {
       "Free"
     ],
     "title": "Capcom Arcade Stadium",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N7PQ80B145R"
   },
   "9N872VFSPPQL": {
@@ -1671,6 +1718,7 @@ var GAME = {
       "Free"
     ],
     "title": "Super Animal Royale",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N872VFSPPQL"
   },
   "9N8CD0XZKLP4": {
@@ -1712,6 +1760,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Ori and the Will of the Wisps",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N8CD0XZKLP4"
   },
   "9N8KTVPKX66N": {
@@ -1752,6 +1801,7 @@ var GAME = {
       "Free"
     ],
     "title": "Techwars Global Conflict",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N8KTVPKX66N"
   },
   "9N8NJ74FZTG9": {
@@ -1790,6 +1840,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Minecraft Dungeons",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N8NJ74FZTG9"
   },
   "9N8Q2DKWVLNX": {
@@ -1822,6 +1873,7 @@ var GAME = {
       "Free"
     ],
     "title": "Darwin Project",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N8Q2DKWVLNX"
   },
   "9N8WRDC25K6J": {
@@ -1854,6 +1906,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Pikuniku",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N8WRDC25K6J"
   },
   "9N9606CC950J": {
@@ -1884,6 +1937,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "OCTOPATH TRAVELER",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N9606CC950J"
   },
   "9N961B11FJ4W": {
@@ -1916,6 +1970,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Hello Neighbor 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N961B11FJ4W"
   },
   "9N9GL8NX4WW8": {
@@ -1953,6 +2008,7 @@ var GAME = {
       "Free"
     ],
     "title": "Yu-Gi-Oh! Master Duel",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N9GL8NX4WW8"
   },
   "9N9HW342BZ2X": {
@@ -1987,6 +2043,7 @@ var GAME = {
       "Free"
     ],
     "title": "Space Jam: A New Legacy - The Game",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N9HW342BZ2X"
   },
   "9N9J38LPVSM3": {
@@ -2028,6 +2085,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "FIFA 22 Xbox One",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N9J38LPVSM3"
   },
   "9NB3L7C7227G": {
@@ -2061,6 +2119,7 @@ var GAME = {
       "Free"
     ],
     "title": "Century: Age of Ashes - The Journeyer Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NB3L7C7227G"
   },
   "9NB7FZ2GV5N1": {
@@ -2096,6 +2155,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dreamscaper",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NB7FZ2GV5N1"
   },
   "9NBFGKQLMV33": {
@@ -2128,6 +2188,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "House Flipper",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBFGKQLMV33"
   },
   "9NBL0XKVCN5L": {
@@ -2160,6 +2221,7 @@ var GAME = {
       "Free"
     ],
     "title": "Tell Me Why",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBL0XKVCN5L"
   },
   "9NBLGGH1Z6FQ": {
@@ -2191,6 +2253,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "ReCore",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBLGGH1Z6FQ"
   },
   "9NBLGGH4PBBM": {
@@ -2236,6 +2299,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gears of War 4",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBLGGH4PBBM"
   },
   "9NBLGGH556N4": {
@@ -2262,6 +2326,7 @@ var GAME = {
       "Free"
     ],
     "title": "Fallout Shelter",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBLGGH556N4"
   },
   "9NBNL7WNTMPF": {
@@ -2285,6 +2350,7 @@ var GAME = {
       "Shooter"
     ],
     "title": "Hunt Ducks 4",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBNL7WNTMPF"
   },
   "9NBR2VXT87SJ": {
@@ -2320,6 +2386,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Psychonauts 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBR2VXT87SJ"
   },
   "9NC781DK18GN": {
@@ -2354,6 +2421,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Neon Abyss",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NC781DK18GN"
   },
   "9NCB34V82CHR": {
@@ -2388,6 +2456,7 @@ var GAME = {
       "Free"
     ],
     "title": "Techwars Global Conflict - Birthday Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NCB34V82CHR"
   },
   "9NCBTKXHFF8K": {
@@ -2421,6 +2490,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Legend of Tianding",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NCBTKXHFF8K"
   },
   "9NCF3MRQ8480": {
@@ -2459,6 +2529,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "You Suck at Parking",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NCF3MRQ8480"
   },
   "9ND0JVB184XL": {
@@ -2498,6 +2569,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "A Plague Tale: Requiem",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9ND0JVB184XL"
   },
   "9ND8C4314ZZG": {
@@ -2532,6 +2604,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Hardspace: Shipbreaker",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9ND8C4314ZZG"
   },
   "9NDJLXD2X2DM": {
@@ -2565,6 +2638,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mi Amiga, Peppa Pig",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NDJLXD2X2DM"
   },
   "9NDKXXBL90GF": {
@@ -2601,6 +2675,7 @@ var GAME = {
       "Free"
     ],
     "title": "MultiVersus",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NDKXXBL90GF"
   },
   "9NDZ7NXFF622": {
@@ -2632,6 +2707,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Death's Door",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NDZ7NXFF622"
   },
   "9NF83PRZK6K3": {
@@ -2659,6 +2735,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Tell Me Why: Cap\u00edtulo 1-3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NF83PRZK6K3"
   },
   "9NFM39PSFXJD": {
@@ -2696,6 +2773,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Townscaper",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NFM39PSFXJD"
   },
   "9NFTC552K3GJ": {
@@ -2733,6 +2811,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Hi-Fi RUSH",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NFTC552K3GJ"
   },
   "9NFWSNN4JWKB": {
@@ -2768,6 +2847,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Life is Strange: True Colors",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NFWSNN4JWKB"
   },
   "9NG07QJNK38J": {
@@ -2803,6 +2883,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Among Us",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NG07QJNK38J"
   },
   "9NG37X3WBRNX": {
@@ -2836,6 +2917,7 @@ var GAME = {
       "Free"
     ],
     "title": "Century: Age of Ashes - Edici\u00f3n Ravager",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NG37X3WBRNX"
   },
   "9NG5CJB0F5R1": {
@@ -2861,6 +2943,7 @@ var GAME = {
       "Platformer"
     ],
     "title": "Temple Dash: Jungle Adventure",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NG5CJB0F5R1"
   },
   "9NGZ7PN3W8DX": {
@@ -2903,6 +2986,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "HOT WHEELS UNLEASHED\u2122 - Game Of The Year Edition - Xbox Series X|S",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NGZ7PN3W8DX"
   },
   "9NH5HN11FG4M": {
@@ -2936,6 +3020,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Unpacking",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NH5HN11FG4M"
   },
   "9NHDJC0NW20M": {
@@ -2974,6 +3059,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "PowerWash Simulator",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NHDJC0NW20M"
   },
   "9NHFVWX1V7QJ": {
@@ -3014,6 +3100,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Deep Rock Galactic",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NHFVWX1V7QJ"
   },
   "9NHKL695M9F2": {
@@ -3056,6 +3143,7 @@ var GAME = {
       "Free"
     ],
     "title": "Enlisted",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NHKL695M9F2"
   },
   "9NHMS63FGKC0": {
@@ -3089,6 +3177,7 @@ var GAME = {
       "Free"
     ],
     "title": "Roller Champions\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NHMS63FGKC0"
   },
   "9NHS18LXM05W": {
@@ -3113,6 +3202,7 @@ var GAME = {
       "Platformer"
     ],
     "title": "Little Mage Adventure",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NHS18LXM05W"
   },
   "9NJG36MFVR1L": {
@@ -3147,6 +3237,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Exo One",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NJG36MFVR1L"
   },
   "9NJWL0XVLP7T": {
@@ -3180,6 +3271,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Persona 3 Portable",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NJWL0XVLP7T"
   },
   "9NKJBN2RMQXB": {
@@ -3214,6 +3306,7 @@ var GAME = {
       "Free"
     ],
     "title": "Island Saver",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NKJBN2RMQXB"
   },
   "9NKK6CX54183": {
@@ -3244,6 +3337,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Day of the Tentacle Remastered",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NKK6CX54183"
   },
   "9NKKDCVR3VW9": {
@@ -3276,6 +3370,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "OPUS: Echo of Starsong - Full Bloom Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NKKDCVR3VW9"
   },
   "9NKTJLP2HKWK": {
@@ -3315,6 +3410,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Football Manager 2023 Console",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NKTJLP2HKWK"
   },
   "9NKX70BBCDRN": {
@@ -3346,6 +3442,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Forza Horizon 5: Edici\u00f3n Est\u00e1ndar",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NKX70BBCDRN"
   },
   "9NL4714VTLRS": {
@@ -3379,6 +3476,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "High On Life",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NL4714VTLRS"
   },
   "9NL4KTK0N4CG": {
@@ -3409,6 +3507,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "A Memoir Blue",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NL4KTK0N4CG"
   },
   "9NLLP82XVSKH": {
@@ -3439,6 +3538,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Tinykin",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NLLP82XVSKH"
   },
   "9NLRT31Z4RWM": {
@@ -3469,6 +3569,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "TUNIC",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NLRT31Z4RWM"
   },
   "9NLX3GWW0HF1": {
@@ -3499,6 +3600,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Fuga: Melodies of Steel",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NLX3GWW0HF1"
   },
   "9NM3TNRPQXLR": {
@@ -3532,6 +3634,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Scorn",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NM3TNRPQXLR"
   },
   "9NM4WPJTLWF6": {
@@ -3565,6 +3668,7 @@ var GAME = {
       "Free"
     ],
     "title": "GUNDAM EVOLUTION",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NM4WPJTLWF6"
   },
   "9NMBJQ0265ZK": {
@@ -3603,6 +3707,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Need for Speed\u2122 Hot Pursuit Remastered",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NMBJQ0265ZK"
   },
   "9NMD6VV08WGF": {
@@ -3630,6 +3735,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Eiyuden Chronicle: Rising",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NMD6VV08WGF"
   },
   "9NMG7ZJ9XK0H": {
@@ -3665,6 +3771,7 @@ var GAME = {
       "Free"
     ],
     "title": "It Takes Two - Pase de amigo",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NMG7ZJ9XK0H"
   },
   "9NN1Z8LHMFBV": {
@@ -3701,6 +3808,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Chorus",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NN1Z8LHMFBV"
   },
   "9NN3HCKW5TPC": {
@@ -3734,6 +3842,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gears Tactics",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NN3HCKW5TPC"
   },
   "9NN82NH949D5": {
@@ -3764,6 +3873,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "HITMAN World of Assassination",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NN82NH949D5"
   },
   "9NNFG8BQRCXL": {
@@ -3801,6 +3911,7 @@ var GAME = {
       "Free"
     ],
     "title": "Call of Duty\u00ae: Warzone\u2122 2.0",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NNFG8BQRCXL"
   },
   "9NP1G0T8JDMR": {
@@ -3836,6 +3947,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DC Liga de Supermascotas: Aventuras de Krypto & Ace",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP1G0T8JDMR"
   },
   "9NP1P1WFS0LB": {
@@ -3872,6 +3984,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Halo: Infinite (campa\u00f1a)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP1P1WFS0LB"
   },
   "9NP4BGBLLLXM": {
@@ -3908,6 +4021,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Monster Train",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP4BGBLLLXM"
   },
   "9NP539LHJD8S": {
@@ -3942,6 +4056,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Frostpunk: Console Edition",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP539LHJD8S"
   },
   "9NP5PZH96PFR": {
@@ -3976,6 +4091,7 @@ var GAME = {
       "Free"
     ],
     "title": "Techwars Global Conflict - The Last Emperor From Hell Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP5PZH96PFR"
   },
   "9NP6V9LFVJ87": {
@@ -4019,6 +4135,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Super Mega Baseball 3",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP6V9LFVJ87"
   },
   "9NPP17LHJ3MK": {
@@ -4050,6 +4167,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Yakuza 0",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NPP17LHJ3MK"
   },
   "9NQ0V4DWRK49": {
@@ -4084,6 +4202,7 @@ var GAME = {
       "Free"
     ],
     "title": "Dauntless",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NQ0V4DWRK49"
   },
   "9NQ87FZ67JZM": {
@@ -4117,6 +4236,7 @@ var GAME = {
       "Free"
     ],
     "title": "Techwars Global Conflict - Heroic Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NQ87FZ67JZM"
   },
   "9NQNT54RXT6H": {
@@ -4141,6 +4261,7 @@ var GAME = {
       "Puzzle"
     ],
     "title": "Minemaze",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NQNT54RXT6H"
   },
   "9NR7XDNVP5SW": {
@@ -4185,6 +4306,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "As Dusk Falls",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NR7XDNVP5SW"
   },
   "9NRMXFFD3K13": {
@@ -4222,6 +4344,7 @@ var GAME = {
       "Free"
     ],
     "title": "Century: Age of Ashes",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NRMXFFD3K13"
   },
   "9NRN0G8KJPSL": {
@@ -4256,6 +4379,7 @@ var GAME = {
       "SinglePlayer"
     ],
     "title": "World Enduro Rally - Carreras de motos y Motocross",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NRN0G8KJPSL"
   },
   "9NRPPQHL2MZM": {
@@ -4293,6 +4417,7 @@ var GAME = {
       "Free"
     ],
     "title": "Minion Masters",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NRPPQHL2MZM"
   },
   "9NS2JVJPFGTQ": {
@@ -4327,6 +4452,7 @@ var GAME = {
       "Free"
     ],
     "title": "Techwars Global Conflict - Demigod Legacy Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NS2JVJPFGTQ"
   },
   "9NS2WF6GVWQ6": {
@@ -4355,6 +4481,7 @@ var GAME = {
       "Free"
     ],
     "title": "Opus Castle",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NS2WF6GVWQ6"
   },
   "9NS3673HVH41": {
@@ -4391,6 +4518,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NS3673HVH41"
   },
   "9NSBX56ZNP7X": {
@@ -4422,6 +4550,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Eastward",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NSBX56ZNP7X"
   },
   "9NSF0BGH8D86": {
@@ -4457,6 +4586,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Disney Dreamlight Valley",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NSF0BGH8D86"
   },
   "9NSFGM8J6MBJ": {
@@ -4496,6 +4626,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Trailmakers",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NSFGM8J6MBJ"
   },
   "9NSHNMCM0JR8": {
@@ -4524,6 +4655,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Tom Clancy's Rainbow Six\u00ae Siege Deluxe Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NSHNMCM0JR8"
   },
   "9NSL68D814GC": {
@@ -4556,6 +4688,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DOOM 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NSL68D814GC"
   },
   "9NT1ZBBV6WH6": {
@@ -4593,6 +4726,7 @@ var GAME = {
       "Free"
     ],
     "title": "eFootball\u2122 2023",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NT1ZBBV6WH6"
   },
   "9NT4X7P8B9NB": {
@@ -4635,6 +4769,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "State of Decay 2: Juggernaut Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NT4X7P8B9NB"
   },
   "9NT57N0G00Q9": {
@@ -4666,6 +4801,7 @@ var GAME = {
       "Free"
     ],
     "title": "To the Moon and Beyond",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NT57N0G00Q9"
   },
   "9NVBKDF85W8T": {
@@ -4700,6 +4836,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Road 96",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NVBKDF85W8T"
   },
   "9NVJWR50KRXX": {
@@ -4725,6 +4862,7 @@ var GAME = {
       "Free"
     ],
     "title": "HITMAN 3 - Free Starter Pack",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NVJWR50KRXX"
   },
   "9NVR4ZQKNBSB": {
@@ -4759,6 +4897,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Superliminal",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NVR4ZQKNBSB"
   },
   "9NVRJS95FLM9": {
@@ -4792,6 +4931,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Lost in Random\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NVRJS95FLM9"
   },
   "9NVS3XC24H69": {
@@ -4817,6 +4957,7 @@ var GAME = {
       "Free"
     ],
     "title": "World of Tanks: Paquete inicial \u00abValiente\u00bb",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NVS3XC24H69"
   },
   "9NX6K9HN4F4K": {
@@ -4845,6 +4986,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Pentiment",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NX6K9HN4F4K"
   },
   "9NXCSWCQTNFG": {
@@ -4880,6 +5022,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Yakuza: Like a Dragon",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NXCSWCQTNFG"
   },
   "9NXNST9MKMK1": {
@@ -4915,6 +5058,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Stranded Deep",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NXNST9MKMK1"
   },
   "9NXR6469DM2P": {
@@ -4954,6 +5098,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Crackdown 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NXR6469DM2P"
   },
   "9NXVC0482QS5": {
@@ -4990,6 +5135,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "It Takes Two - Versi\u00f3n digital",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NXVC0482QS5"
   },
   "9NZ240K9K7RC": {
@@ -5017,6 +5163,7 @@ var GAME = {
       "Free"
     ],
     "title": "STORY OF SEASONS: Friends of Mineral Town - Purchase Bonus",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NZ240K9K7RC"
   },
   "9NZDHXL9SJJ8": {
@@ -5051,6 +5198,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Persona 5 Royal",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NZDHXL9SJJ8"
   },
   "9NZG72SH3H4W": {
@@ -5089,6 +5237,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Totally Reliable Delivery Service",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NZG72SH3H4W"
   },
   "9NZQPT0MWTD0": {
@@ -5128,6 +5277,7 @@ var GAME = {
       "Free"
     ],
     "title": "Asphalt 9: Legends",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NZQPT0MWTD0"
   },
   "9P008L2LS87F": {
@@ -5161,6 +5311,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Gunk",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P008L2LS87F"
   },
   "9P01JWGQGQ9C": {
@@ -5201,6 +5352,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gunfire Reborn",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P01JWGQGQ9C"
   },
   "9P0B86JN5X28": {
@@ -5233,6 +5385,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Weird West",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P0B86JN5X28"
   },
   "9P0FQ0XCV0LB": {
@@ -5266,6 +5419,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Bugsnax",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P0FQ0XCV0LB"
   },
   "9P0NV2LSS99C": {
@@ -5309,6 +5463,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Madden NFL 23 para Xbox One",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P0NV2LSS99C"
   },
   "9P0T51BDDWVT": {
@@ -5347,6 +5502,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Battlefield\u2122 2042 para Xbox Series X|S",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P0T51BDDWVT"
   },
   "9P0VF4BSN88L": {
@@ -5378,6 +5534,7 @@ var GAME = {
       "Free"
     ],
     "title": "Century: Age of Ashes - Elite Sentry Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P0VF4BSN88L"
   },
   "9P16M6LF0QFH": {
@@ -5411,6 +5568,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "My Friend Pedro",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P16M6LF0QFH"
   },
   "9P1D8RPHKF2N": {
@@ -5444,6 +5602,7 @@ var GAME = {
       "Free"
     ],
     "title": "Century: Age of Ashes - Mercenary Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P1D8RPHKF2N"
   },
   "9P1P5Q3BNM7J": {
@@ -5479,6 +5638,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Phoenix Point",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P1P5Q3BNM7J"
   },
   "9P1RSQ5MGPCR": {
@@ -5511,6 +5671,7 @@ var GAME = {
       "Free"
     ],
     "title": "Phantasy Star Online 2 New Genesis",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P1RSQ5MGPCR"
   },
   "9P1Z43KRNQD4": {
@@ -5555,6 +5716,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Quake",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P1Z43KRNQD4"
   },
   "9P2N57MC619K": {
@@ -5593,6 +5755,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Sea of Thieves",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P2N57MC619K"
   },
   "9P2Z4DTVCB7Z": {
@@ -5626,6 +5789,7 @@ var GAME = {
       "Free"
     ],
     "title": "Techwars Global Conflict - Premium start",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P2Z4DTVCB7Z"
   },
   "9P3NT9H51RMR": {
@@ -5667,6 +5831,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Escape Academy",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P3NT9H51RMR"
   },
   "9P3PL76N0KWZ": {
@@ -5703,6 +5868,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "RUSH: A Disney \u2022 PIXAR Adventure",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P3PL76N0KWZ"
   },
   "9P3ZRGNQVC7D": {
@@ -5733,6 +5899,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Full Throttle Remastered",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P3ZRGNQVC7D"
   },
   "9P4811KBD5R9": {
@@ -5773,6 +5940,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "JoJo's Bizarre Adventure: All-Star Battle R",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P4811KBD5R9"
   },
   "9P4D41K02WB8": {
@@ -5808,6 +5976,7 @@ var GAME = {
       "Free"
     ],
     "title": "Spacelords",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P4D41K02WB8"
   },
   "9P4KMR76PLLQ": {
@@ -5854,6 +6023,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gears 5: Edici\u00f3n Juego del a\u00f1o",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P4KMR76PLLQ"
   },
   "9P4R2M0NRWNK": {
@@ -5885,6 +6055,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Beacon Pines",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P4R2M0NRWNK"
   },
   "9P4S1BPJLPHZ": {
@@ -5919,6 +6090,7 @@ var GAME = {
       "Free"
     ],
     "title": "Splitgate",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P4S1BPJLPHZ"
   },
   "9P544PGZXC0P": {
@@ -5956,6 +6128,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DJMAX RESPECT V",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P544PGZXC0P"
   },
   "9P5B81KVDGP1": {
@@ -5993,6 +6166,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Maneater",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P5B81KVDGP1"
   },
   "9P5S26314HWQ": {
@@ -6032,6 +6206,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DOOM Eternal Standard Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P5S26314HWQ"
   },
   "9P5Z4530318L": {
@@ -6075,6 +6250,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DEATHLOOP",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P5Z4530318L"
   },
   "9P5ZDVMCJMFD": {
@@ -6107,6 +6283,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Despot's Game",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P5ZDVMCJMFD"
   },
   "9P66GGSJR71M": {
@@ -6147,6 +6324,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Matchpoint - Tennis Championships",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P66GGSJR71M"
   },
   "9P6CPB2M27WX": {
@@ -6175,6 +6353,7 @@ var GAME = {
       "Free"
     ],
     "title": "Tales of Arise Demo Version",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P6CPB2M27WX"
   },
   "9P6FTM76L1S7": {
@@ -6208,6 +6387,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Kentucky Route Zero: TV Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P6FTM76L1S7"
   },
   "9P6N45QZR81R": {
@@ -6240,6 +6420,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Shadow Warrior 3: Definitive Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P6N45QZR81R"
   },
   "9P6N58X27150": {
@@ -6285,6 +6466,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "MotoGP\u212222",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P6N58X27150"
   },
   "9P6SRW1HVW9K": {
@@ -6324,6 +6506,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Farming Simulator 22",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P6SRW1HVW9K"
   },
   "9P6W46XMDJM5": {
@@ -6358,6 +6541,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Slay The Spire",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P6W46XMDJM5"
   },
   "9P70TQ6KZN7X": {
@@ -6396,6 +6580,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "SD GUNDAM BATTLE ALLIANCE",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P70TQ6KZN7X"
   },
   "9P731Z4BBCT3": {
@@ -6432,6 +6617,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Atomic Heart",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P731Z4BBCT3"
   },
   "9P77VD8MGJX8": {
@@ -6463,6 +6649,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Moonscars",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P77VD8MGJX8"
   },
   "9P798W4VDT91": {
@@ -6492,6 +6679,7 @@ var GAME = {
       "Free"
     ],
     "title": "Insects: Una Experiencia de Xbox One X Enhanced",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P798W4VDT91"
   },
   "9P7JBQJ691KL": {
@@ -6526,6 +6714,7 @@ var GAME = {
       "Free"
     ],
     "title": "Zaccaria Pinball",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P7JBQJ691KL"
   },
   "9P7SL78VHVMF": {
@@ -6559,6 +6748,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Ni no Kuni La ira de la Bruja Blanca\u2122 Remastered",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P7SL78VHVMF"
   },
   "9P825CZVX852": {
@@ -6599,6 +6789,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "HOT WHEELS UNLEASHED\u2122 - Game Of The Year Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P825CZVX852"
   },
   "9P87CLMPXSN6": {
@@ -6631,6 +6822,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gungrave G.O.R.E",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P87CLMPXSN6"
   },
   "9P8N66DTG10T": {
@@ -6663,6 +6855,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Let's Build a Zoo",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P8N66DTG10T"
   },
   "9P8XJRLCLH2P": {
@@ -6696,6 +6889,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Moonlighter",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P8XJRLCLH2P"
   },
   "9P94PCKP864B": {
@@ -6737,6 +6931,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Riftbreaker",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9P94PCKP864B"
   },
   "9PC12991NZ5N": {
@@ -6773,6 +6968,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Eville",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PC12991NZ5N"
   },
   "9PC288TN7R8K": {
@@ -6803,6 +6999,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Grim Fandango Remastered",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PC288TN7R8K"
   },
   "9PC2BJDXR2LK": {
@@ -6837,6 +7034,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mortal Shell: Enhanced Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PC2BJDXR2LK"
   },
   "9PC4R8N1N2T6": {
@@ -6869,6 +7067,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Return to Monkey Island",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PC4R8N1N2T6"
   },
   "9PC4RWP34M2D": {
@@ -6909,6 +7108,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Totally Accurate Battle Simulator",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9PC4RWP34M2D"
   },
   "9PCDNBHR11MR": {
@@ -6944,6 +7144,7 @@ var GAME = {
       "Free"
     ],
     "title": "Phantom Dust",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PCDNBHR11MR"
   },
   "9PCKBVF3P67H": {
@@ -6973,6 +7174,7 @@ var GAME = {
       "Free"
     ],
     "title": "Pinball FX3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PCKBVF3P67H"
   },
   "9PCTMQ9233RS": {
@@ -7004,6 +7206,7 @@ var GAME = {
       "Free"
     ],
     "title": "World of Warships: Legends \u2013 Inicio a lo grande 4",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PCTMQ9233RS"
   },
   "9PCW1SMN9RGG": {
@@ -7037,6 +7240,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Two Point Campus",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PCW1SMN9RGG"
   },
   "9PD5BM2Z8C4L": {
@@ -7068,6 +7272,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Vampire Survivors",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PD5BM2Z8C4L"
   },
   "9PDDP6ML6XHF": {
@@ -7102,6 +7307,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Medieval Dynasty",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9PDDP6ML6XHF"
   },
   "9PDHWZ7X3P03": {
@@ -7141,6 +7347,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mount & Blade II: Bannerlord",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PDHWZ7X3P03"
   },
   "9PDV8FKWP3B4": {
@@ -7170,6 +7377,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "La Tierra Media\u2122: Sombras de Guerra\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PDV8FKWP3B4"
   },
   "9PDXJP3805DN": {
@@ -7203,6 +7411,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Metal: Hellsinger",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PDXJP3805DN"
   },
   "9PF432CVQBXT": {
@@ -7243,6 +7452,7 @@ var GAME = {
       "Free"
     ],
     "title": "Enlisted Xbox One",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PF432CVQBXT"
   },
   "9PFD00CZJ35V": {
@@ -7273,6 +7483,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DRAGON QUEST BUILDERS 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PFD00CZJ35V"
   },
   "9PFQTLC9BHFB": {
@@ -7309,6 +7520,7 @@ var GAME = {
       "Free"
     ],
     "title": "Starlit Adventures",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PFQTLC9BHFB"
   },
   "9PGLL77C201J": {
@@ -7342,6 +7554,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Marvel's Guardians of the Galaxy",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PGLL77C201J"
   },
   "9PGPQK0XTHRZ": {
@@ -7392,6 +7605,7 @@ var GAME = {
       "Free"
     ],
     "title": "Rec Room",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PGPQK0XTHRZ"
   },
   "9PH1Q5TKPQCQ": {
@@ -7424,6 +7638,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Midnight Fight Express",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PH1Q5TKPQCQ"
   },
   "9PHFJ0N31NV1": {
@@ -7457,6 +7672,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Slime Rancher 2",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9PHFJ0N31NV1"
   },
   "9PHJTVJZ429L": {
@@ -7490,6 +7706,7 @@ var GAME = {
       "Free"
     ],
     "title": "Century: Age of Ashes - Strength of Jaarlandt Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PHJTVJZ429L"
   },
   "9PJ06TZX4NMH": {
@@ -7529,6 +7746,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Zoo Tycoon: Ultimate Animal Collection",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJ06TZX4NMH"
   },
   "9PJ1045MHZJ0": {
@@ -7567,6 +7785,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Soccer Story",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJ1045MHZJ0"
   },
   "9PJ2C9R9XN4Z": {
@@ -7591,6 +7810,7 @@ var GAME = {
       "Free"
     ],
     "title": "World of Tanks: Modern Armor \u2014 Poder combinado",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJ2C9R9XN4Z"
   },
   "9PJ2FC2LK9QD": {
@@ -7622,6 +7842,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Ghost Song",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJ2FC2LK9QD"
   },
   "9PJD2KMX7TZ6": {
@@ -7653,6 +7874,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Pillars of Eternity II: Deadfire - Ultimate Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJD2KMX7TZ6"
   },
   "9PJGGX9XJXPB": {
@@ -7683,6 +7905,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Undertale",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJGGX9XJXPB"
   },
   "9PJL0VR9K32X": {
@@ -7713,6 +7936,7 @@ var GAME = {
       "Free"
     ],
     "title": "Virtual Villagers Origins 2 Xbox",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJL0VR9K32X"
   },
   "9PK4B09SMN5C": {
@@ -7746,6 +7970,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Persona 4 Golden",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PK4B09SMN5C"
   },
   "9PK5G9HBH6NH": {
@@ -7775,6 +8000,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Disc Room",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PK5G9HBH6NH"
   },
   "9PKLF2W8J0TF": {
@@ -7806,6 +8032,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Edici\u00f3n especial de Umurangi Generation",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PKLF2W8J0TF"
   },
   "9PKW9CKH3TWK": {
@@ -7837,6 +8064,7 @@ var GAME = {
       "Free"
     ],
     "title": "Space Science Investigations",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PKW9CKH3TWK"
   },
   "9PKWHT7G60WQ": {
@@ -7875,6 +8103,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mass Effect\u2122 Legendary Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PKWHT7G60WQ"
   },
   "9PL36RW9ZTPW": {
@@ -7917,6 +8146,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Rubber Bandits",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PL36RW9ZTPW"
   },
   "9PLF2RS7JRZL": {
@@ -7947,6 +8177,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "SIGNALIS",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PLF2RS7JRZL"
   },
   "9PLSCHRN5715": {
@@ -7987,6 +8218,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Zombie Army 4: Dead War",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PLSCHRN5715"
   },
   "9PLT62LRF9V7": {
@@ -8025,6 +8257,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DOOM II (Classic)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PLT62LRF9V7"
   },
   "9PLTP0XJ75GS": {
@@ -8059,6 +8292,7 @@ var GAME = {
       "Free"
     ],
     "title": "Pinball FX",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PLTP0XJ75GS"
   },
   "9PLZPHBNHTMF": {
@@ -8095,6 +8329,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DOOM (1993)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PLZPHBNHTMF"
   },
   "9PM1905P9LQ6": {
@@ -8125,6 +8360,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Immortality",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PM1905P9LQ6"
   },
   "9PM6DBHQJCWD": {
@@ -8150,6 +8386,7 @@ var GAME = {
       "Platformer"
     ],
     "title": "Super Pixel Kid",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PM6DBHQJCWD"
   },
   "9PMM21KVRD72": {
@@ -8182,6 +8419,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Amnesia: Rebirth",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMM21KVRD72"
   },
   "9PMM5T8C0CN6": {
@@ -8218,6 +8456,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Young Souls",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMM5T8C0CN6"
   },
   "9PMM6V93MRKW": {
@@ -8246,6 +8485,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Danganronpa V3: Killing Harmony Anniversary Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMM6V93MRKW"
   },
   "9PMPPXZSF88C": {
@@ -8278,6 +8518,7 @@ var GAME = {
       "Free"
     ],
     "title": "Crossout \u2014 \u2018Snappy\u2019 Bundle",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMPPXZSF88C"
   },
   "9PMQDM08SNK9": {
@@ -8314,6 +8555,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Microsoft Flight Simulator Standard 40th Anniversary Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMQDM08SNK9"
   },
   "9PMXH5249DG5": {
@@ -8348,6 +8590,7 @@ var GAME = {
       "Free"
     ],
     "title": "Fall Guys",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMXH5249DG5"
   },
   "9PMZ66VCN46S": {
@@ -8379,6 +8622,7 @@ var GAME = {
       "Free"
     ],
     "title": "World of Warships: Legends \u2014 Un viejo fiable",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMZ66VCN46S"
   },
   "9PN3VDFTB5HZ": {
@@ -8414,6 +8658,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Bard's Tale ARPG: Remastered and Resnarkled",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PN3VDFTB5HZ"
   },
   "9PN99PX1P1LX": {
@@ -8447,6 +8692,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Train Sim World\u00ae 3: Standard Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PN99PX1P1LX"
   },
   "9PN9WG83X4XF": {
@@ -8489,6 +8735,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Aragami 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PN9WG83X4XF"
   },
   "9PNJXVCVWD4K": {
@@ -8529,6 +8776,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Forza Horizon 4: Edici\u00f3n Est\u00e1ndar",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PNJXVCVWD4K"
   },
   "9PP09MJRH2XD": {
@@ -8562,6 +8810,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Garden Story",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PP09MJRH2XD"
   },
   "9PP5G1F0C2B6": {
@@ -8605,6 +8854,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Halo Infinite",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PP5G1F0C2B6"
   },
   "9PP6RNF7V71T": {
@@ -8639,6 +8889,7 @@ var GAME = {
       "Free"
     ],
     "title": "Starlit Kart Racing",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PP6RNF7V71T"
   },
   "9PP8Q82H79LC": {
@@ -8684,6 +8935,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Sniper Elite 5",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PP8Q82H79LC"
   },
   "9PPBVK3TK83M": {
@@ -8728,6 +8980,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Tetris\u00ae Effect: Connected",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PPBVK3TK83M"
   },
   "9WZDNCRDBV2N": {
@@ -8761,6 +9014,7 @@ var GAME = {
       "Free"
     ],
     "title": "Galaxy Control: Arena",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9WZDNCRDBV2N"
   },
   "BNCZHKWRZ7BR": {
@@ -8790,6 +9044,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Peggle 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNCZHKWRZ7BR"
   },
   "BNKDKQXMXRR2": {
@@ -8815,6 +9070,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Skate 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNKDKQXMXRR2"
   },
   "BNKKJL1VRR5P": {
@@ -8842,6 +9098,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Crysis\u00ae 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNKKJL1VRR5P"
   },
   "BNLWDLTJ5D68": {
@@ -8872,6 +9129,7 @@ var GAME = {
       "Free"
     ],
     "title": "Armored Warfare",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNLWDLTJ5D68"
   },
   "BNN7BPDZ6GQB": {
@@ -8897,6 +9155,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Crysis",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNN7BPDZ6GQB"
   },
   "BNQ94HH98ZTP": {
@@ -8925,6 +9184,7 @@ var GAME = {
       "Free"
     ],
     "title": "Powerstar Golf",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNQ94HH98ZTP"
   },
   "BNRH7BRC1D02": {
@@ -8958,6 +9218,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Plants vs. Zombies\u2122 Garden Warfare 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNRH7BRC1D02"
   },
   "BNZ2TD4Q2PVD": {
@@ -8989,6 +9250,7 @@ var GAME = {
       "Free"
     ],
     "title": "Idle Champions of the Forgotten Realms",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNZ2TD4Q2PVD"
   },
   "BP021F0PG0D4": {
@@ -9022,6 +9284,7 @@ var GAME = {
       "Free"
     ],
     "title": "The Four Kings Casino and Slots",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BP021F0PG0D4"
   },
   "BP15SF17LH13": {
@@ -9051,6 +9314,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Battlefield 4",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BP15SF17LH13"
   },
   "BP4S3XLJG78M": {
@@ -9086,6 +9350,7 @@ var GAME = {
       "Free"
     ],
     "title": "Killer Instinct",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BP4S3XLJG78M"
   },
   "BP5HKF86C1NJ": {
@@ -9115,6 +9380,7 @@ var GAME = {
       "Free"
     ],
     "title": "Life Is Strange",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BP5HKF86C1NJ"
   },
   "BP73LMGB1DFD": {
@@ -9140,6 +9406,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dead Space\u2122 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BP73LMGB1DFD"
   },
   "BP96WRTVD7C1": {
@@ -9165,6 +9432,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mirror's Edge\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BP96WRTVD7C1"
   },
   "BPBV3PCB0X44": {
@@ -9204,6 +9472,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "UFC\u00ae 4",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPBV3PCB0X44"
   },
   "BPH82WMZ6W7N": {
@@ -9232,6 +9501,7 @@ var GAME = {
       "Free"
     ],
     "title": "Battle Islands: Commanders",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPH82WMZ6W7N"
   },
   "BPHSZ44NGDB2": {
@@ -9269,6 +9539,7 @@ var GAME = {
       "Free"
     ],
     "title": "Rogue Company",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPHSZ44NGDB2"
   },
   "BPKDQSSFQ9WV": {
@@ -9294,6 +9565,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gears of War 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPKDQSSFQ9WV"
   },
   "BPKVH4C4XV4N": {
@@ -9326,6 +9598,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Injustice\u2122 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPKVH4C4XV4N"
   },
   "BPL68T0XK96W": {
@@ -9354,6 +9627,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Battlefield\u2122 1 Revolution",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPL68T0XK96W"
   },
   "BPN08ZDRPSFK": {
@@ -9379,6 +9653,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gears of War",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPN08ZDRPSFK"
   },
   "BPNDKQN84N6L": {
@@ -9405,6 +9680,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Quantum Break",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPNDKQN84N6L"
   },
   "BPQ955FQFPH6": {
@@ -9444,6 +9720,7 @@ var GAME = {
       "Free"
     ],
     "title": "Destiny 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPQ955FQFPH6"
   },
   "BPQZT43FWD49": {
@@ -9479,6 +9756,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gang Beasts",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPQZT43FWD49"
   },
   "BPRPQSKXTD1L": {
@@ -9509,6 +9787,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Halo Wars: Definitive Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPRPQSKXTD1L"
   },
   "BPS3XF74B9V1": {
@@ -9549,6 +9828,7 @@ var GAME = {
       "Free"
     ],
     "title": "Warframe",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPS3XF74B9V1"
   },
   "BPT4J5TL5B4Z": {
@@ -9584,6 +9864,7 @@ var GAME = {
       "Free"
     ],
     "title": "Skyforge",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPT4J5TL5B4Z"
   },
   "BPV4GXTDCNSH": {
@@ -9615,6 +9896,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Wolfenstein: The Old Blood",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BPV4GXTDCNSH"
   },
   "BQ0T326DSPLQ": {
@@ -9645,6 +9927,7 @@ var GAME = {
       "Free"
     ],
     "title": "Battle Islands",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQ0T326DSPLQ"
   },
   "BQ1TN1T79V9K": {
@@ -9683,6 +9966,7 @@ var GAME = {
       "Free"
     ],
     "title": "ROBLOX",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQ1TN1T79V9K"
   },
   "BQ1W1T1FC14W": {
@@ -9718,6 +10002,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQ1W1T1FC14W"
   },
   "BQ216SGGM4M8": {
@@ -9745,6 +10030,7 @@ var GAME = {
       "Free"
     ],
     "title": "Too Human",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQ216SGGM4M8"
   },
   "BQ49WQ00XTWX": {
@@ -9780,6 +10066,7 @@ var GAME = {
       "Free"
     ],
     "title": "Warface",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQ49WQ00XTWX"
   },
   "BQ9T0JF0D3L4": {
@@ -9817,6 +10104,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Wasteland 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQ9T0JF0D3L4"
   },
   "BQBTGDT4P54J": {
@@ -9842,6 +10130,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Crysis 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQBTGDT4P54J"
   },
   "BQCLQ73MFGJ8": {
@@ -9872,6 +10161,7 @@ var GAME = {
       "Free"
     ],
     "title": "Battle Ages",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQCLQ73MFGJ8"
   },
   "BQF41W70ZLSV": {
@@ -9911,6 +10201,7 @@ var GAME = {
       "Free"
     ],
     "title": "3on3 FreeStyle",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQF41W70ZLSV"
   },
   "BQG162F04T2L": {
@@ -9937,6 +10228,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "FIGHT NIGHT CHAMPION",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQG162F04T2L"
   },
   "BQL8L17RV09Z": {
@@ -9974,6 +10266,7 @@ var GAME = {
       "Free"
     ],
     "title": "Vigor",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQL8L17RV09Z"
   },
   "BQMQ3K1BLV1T": {
@@ -10003,6 +10296,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Burnout\u2122 Paradise Remastered",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQMQ3K1BLV1T"
   },
   "BQMVWCMB8P59": {
@@ -10035,6 +10329,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Prey",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/BQMVWCMB8P59"
   },
   "BQR7QS0F8SJ3": {
@@ -10060,6 +10355,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Walking Dead: A New Frontier - The Complete Season (Episodes 1-5)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQR7QS0F8SJ3"
   },
   "BQSCNS1T8PHQ": {
@@ -10092,6 +10388,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dead Cells",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQSCNS1T8PHQ"
   },
   "BQT2R5FK3P7R": {
@@ -10118,6 +10415,7 @@ var GAME = {
       "Free"
     ],
     "title": "The Council - Episode 1: The Mad Ones",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQT2R5FK3P7R"
   },
   "BQVQTL3PCH05": {
@@ -10160,6 +10458,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "No Man's Sky",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQVQTL3PCH05"
   },
   "BQZKFWSZX483": {
@@ -10189,6 +10488,7 @@ var GAME = {
       "Free"
     ],
     "title": "Gems of War",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQZKFWSZX483"
   },
   "BR1D9CR82ZM8": {
@@ -10216,6 +10516,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Plantas contra Zombis",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BR1D9CR82ZM8"
   },
   "BR1ZD21DCXJR": {
@@ -10241,6 +10542,7 @@ var GAME = {
       "Free"
     ],
     "title": "The Walking Dead",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BR1ZD21DCXJR"
   },
   "BR27BSZ2M3SR": {
@@ -10267,6 +10569,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "RAGE",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BR27BSZ2M3SR"
   },
   "BR46KM4D5B9L": {
@@ -10300,6 +10603,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Fable III",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BR46KM4D5B9L"
   },
   "BR7X7MVBBQKM": {
@@ -10332,6 +10636,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Far Cry\u00ae 5",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BR7X7MVBBQKM"
   },
   "BRFHK8R9ZX53": {
@@ -10359,6 +10664,7 @@ var GAME = {
       "Free"
     ],
     "title": "Frozen Free Fall: Batalla de bolas de nieve",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRFHK8R9ZX53"
   },
   "BRFKNLB9B2ZW": {
@@ -10384,6 +10690,7 @@ var GAME = {
       "Free"
     ],
     "title": "The Walking Dead: Season Two",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRFKNLB9B2ZW"
   },
   "BRJLJ6RPLQTJ": {
@@ -10409,6 +10716,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dead Space (2008)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRJLJ6RPLQTJ"
   },
   "BRJNRZ9N734V": {
@@ -10440,6 +10748,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Wreckfest",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/BRJNRZ9N734V"
   },
   "BRKX5CRMRTC2": {
@@ -10471,6 +10780,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Elder Scrolls\u00ae Online",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRKX5CRMRTC2"
   },
   "BRL7GC0GP1BM": {
@@ -10501,6 +10811,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "7 Days to Die",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRL7GC0GP1BM"
   },
   "BRMFLRV79C3H": {
@@ -10527,6 +10838,7 @@ var GAME = {
       "Free"
     ],
     "title": "King's Quest\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRMFLRV79C3H"
   },
   "BRN6BHDHB58J": {
@@ -10552,6 +10864,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Battlefield 3\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRN6BHDHB58J"
   },
   "BRRC2BP0G9P0": {
@@ -10583,6 +10896,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Halo 5: Guardians",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRRC2BP0G9P0"
   },
   "BRRSMNBM1QGG": {
@@ -10609,6 +10923,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "LIGHTNING RETURNS FFXIII",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRRSMNBM1QGG"
   },
   "BRT1K9FV4LRR": {
@@ -10635,6 +10950,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Broken Age",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRT1K9FV4LRR"
   },
   "BRZHFR5XBLQS": {
@@ -10666,6 +10982,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Sunset Overdrive",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BRZHFR5XBLQS"
   },
   "BS0PFBB91B3V": {
@@ -10705,6 +11022,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "GRID",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/BS0PFBB91B3V"
   },
   "BS1NPTPJGD4G": {
@@ -10732,6 +11050,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Viva Pi\u00f1ata: TIP",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BS1NPTPJGD4G"
   },
   "BS34VNW7H61F": {
@@ -10763,6 +11082,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Pillars of Eternity: Complete Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BS34VNW7H61F"
   },
   "BS46X64QCJ5J": {
@@ -10795,6 +11115,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Conan Exiles",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BS46X64QCJ5J"
   },
   "BS4R9GLTJBRL": {
@@ -10828,6 +11149,7 @@ var GAME = {
       "Free"
     ],
     "title": "Korgan",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BS4R9GLTJBRL"
   },
   "BS70ZCL9NZ9N": {
@@ -10856,6 +11178,7 @@ var GAME = {
       "Free"
     ],
     "title": "TERA",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BS70ZCL9NZ9N"
   },
   "BS9SX4Q6XJRF": {
@@ -10881,6 +11204,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dragon Age: Origins",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BS9SX4Q6XJRF"
   },
   "BSCCQL7DZ9KD": {
@@ -10906,6 +11230,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Peggle",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSCCQL7DZ9KD"
   },
   "BSHMMGRP84N4": {
@@ -10931,6 +11256,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gears of War: Judgment",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSHMMGRP84N4"
   },
   "BSJG7TTSWVJ2": {
@@ -10958,6 +11284,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Banjo-Kazooie",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSJG7TTSWVJ2"
   },
   "BSLX1RNXR6H7": {
@@ -10985,6 +11312,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Batman\u2122: Arkham Knight",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSLX1RNXR6H7"
   },
   "BSMZH25V6V46": {
@@ -11031,6 +11359,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Human Fall Flat",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSMZH25V6V46"
   },
   "BSNZHRCKC13J": {
@@ -11056,6 +11385,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Alice: Madness Returns",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSNZHRCKC13J"
   },
   "BSR9NLHVF1KL": {
@@ -11089,6 +11419,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DayZ",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSR9NLHVF1KL"
   },
   "BSRXXBC5L1BV": {
@@ -11115,6 +11446,7 @@ var GAME = {
       "Free"
     ],
     "title": "The Walking Dead: A New Frontier - Episode 1",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSRXXBC5L1BV"
   },
   "BSXLFN5QQZSC": {
@@ -11146,6 +11478,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Watch Dogs\u00ae2",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/BSXLFN5QQZSC"
   },
   "BSXSL6WBJ0V7": {
@@ -11173,6 +11506,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Viva Pi\u00f1ata",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSXSL6WBJ0V7"
   },
   "BSZM480TSWGP": {
@@ -11205,6 +11539,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dishonored 2",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/BSZM480TSWGP"
   },
   "BT5P2X999VH2": {
@@ -11239,6 +11574,7 @@ var GAME = {
       "Free"
     ],
     "title": "Fortnite",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BT5P2X999VH2"
   },
   "BT9FFLG51VVG": {
@@ -11271,6 +11607,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Wolfenstein: The New Order",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BT9FFLG51VVG"
   },
   "BTB7HC3ZDL2V": {
@@ -11308,6 +11645,7 @@ var GAME = {
       "Free"
     ],
     "title": "DEAD OR ALIVE 6: Core Fighters",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BTB7HC3ZDL2V"
   },
   "BTC0L0BW6LWC": {
@@ -11349,6 +11687,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mortal Kombat 11",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BTC0L0BW6LWC"
   },
   "BTCS0LP052HL": {
@@ -11375,6 +11714,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "BLACK\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BTCS0LP052HL"
   },
   "BTJ0T8C04ZBV": {
@@ -11408,6 +11748,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Plants vs. Zombies Garden Warfare",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BTJ0T8C04ZBV"
   },
   "BTNPS60N3114": {
@@ -11449,7 +11790,42 @@ var GAME = {
       "GamePass"
     ],
     "title": "Terraria",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BTNPS60N3114"
+  },
+  "BTNTWQD5V8WG": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode",
+      "Trial"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BTNTWQD5V8WG",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BTNTWQD5V8WG",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.44785.70470042064943167.c9e7fe51-510c-4e2c-9430-9bab1290f27f.1c626ff5-8a83-4379-8fbc-99b5781eab57",
+    "price": 0.0,
+    "rate": 4.0,
+    "requiresGame": false,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "Free"
+    ],
+    "title": "Life is Strange 2 - Episodio 1",
+    "trial": true,
+    "url": "https://www.xbox.com/es-es/games/store/a/BTNTWQD5V8WG"
   },
   "BV5N90RDT0SH": {
     "actions": [
@@ -11474,6 +11850,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mass Effect",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BV5N90RDT0SH"
   },
   "BV83SM3191S5": {
@@ -11502,6 +11879,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Kameo",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BV83SM3191S5"
   },
   "BV95S3CSP2DW": {
@@ -11533,6 +11911,7 @@ var GAME = {
       "Free"
     ],
     "title": "Happy Wars",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BV95S3CSP2DW"
   },
   "BV9ML45J2Q5V": {
@@ -11566,6 +11945,7 @@ var GAME = {
       "Free"
     ],
     "title": "Apex Legends\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BV9ML45J2Q5V"
   },
   "BVJLKDG2TX8H": {
@@ -11604,6 +11984,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Overcooked! 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BVJLKDG2TX8H"
   },
   "BVM002M8HH0S": {
@@ -11640,6 +12021,7 @@ var GAME = {
       "Free"
     ],
     "title": "Fishing Planet",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BVM002M8HH0S"
   },
   "BVQ3FL3201P8": {
@@ -11672,6 +12054,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Killer Instinct: Definitive Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BVQ3FL3201P8"
   },
   "BVR64CDJ01FJ": {
@@ -11700,6 +12083,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Baches y Cachivaches",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BVR64CDJ01FJ"
   },
   "BVTKN6CQ8W5F": {
@@ -11732,6 +12116,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Outer Worlds",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BVTKN6CQ8W5F"
   },
   "BVX4Z50ZBH5Q": {
@@ -11765,6 +12150,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "NBA LIVE 19",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BVX4Z50ZBH5Q"
   },
   "BW0D9LH9GG6D": {
@@ -11790,6 +12176,7 @@ var GAME = {
       "Free"
     ],
     "title": "A KING'S TALE: FINAL FANTASY XV",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BW0D9LH9GG6D"
   },
   "BW6B077FCH11": {
@@ -11816,6 +12203,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Walking Dead: The Complete First Season",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BW6B077FCH11"
   },
   "BW85KQB8Q31M": {
@@ -11844,6 +12232,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Ori and the Blind Forest: Definitive Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BW85KQB8Q31M"
   },
   "BW9TWC8L4JCS": {
@@ -11874,6 +12263,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Assassin's Creed\u00ae Odyssey",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BW9TWC8L4JCS"
   },
   "BWC95BZPFBS7": {
@@ -11911,6 +12301,7 @@ var GAME = {
       "Free"
     ],
     "title": "Path of Exile",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BWC95BZPFBS7"
   },
   "BWL72GR7Z7GK": {
@@ -11945,6 +12336,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Stellaris: Console Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BWL72GR7Z7GK"
   },
   "BWMZDGGJ19VG": {
@@ -11971,6 +12363,7 @@ var GAME = {
       "Free"
     ],
     "title": "Doritos Crash Course",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BWMZDGGJ19VG"
   },
   "BWQ7GGKXG28T": {
@@ -11997,6 +12390,7 @@ var GAME = {
       "Free"
     ],
     "title": "Harms Way",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BWQ7GGKXG28T"
   },
   "BWVBNCMF22ZK": {
@@ -12032,6 +12426,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "A Way Out",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/BWVBNCMF22ZK"
   },
   "BX1DTCBD1HXJ": {
@@ -12072,6 +12467,7 @@ var GAME = {
       "Free"
     ],
     "title": "War Thunder",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BX1DTCBD1HXJ"
   },
   "BX1FZX1X4132": {
@@ -12105,6 +12501,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "My Time at Portia",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BX1FZX1X4132"
   },
   "BX1JCFLJT5KX": {
@@ -12134,6 +12531,7 @@ var GAME = {
       "Free"
     ],
     "title": "Pinball Arcade",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BX1JCFLJT5KX"
   },
   "BX3JNK07Z6QK": {
@@ -12161,6 +12559,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Fallout: New Vegas",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BX3JNK07Z6QK"
   },
   "BXBJQ1932138": {
@@ -12195,6 +12594,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "theHunter: Call of the Wild",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BXBJQ1932138"
   },
   "BXHL9BJH9XKC": {
@@ -12220,6 +12620,7 @@ var GAME = {
       "Free"
     ],
     "title": "Hexic HD",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BXHL9BJH9XKC"
   },
   "BXKVN6G9C5WJ": {
@@ -12250,6 +12651,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Darkest Dungeon\u00ae",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BXKVN6G9C5WJ"
   },
   "BXQ6MXMCSNR7": {
@@ -12276,6 +12678,7 @@ var GAME = {
       "Fighting"
     ],
     "title": "Dead Island Retro Revenge",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BXQ6MXMCSNR7"
   },
   "BXRB4ZH2GJHK": {
@@ -12321,6 +12724,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Tom Clancy\u2019s Rainbow Six\u00ae Extraction",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/BXRB4ZH2GJHK"
   },
   "BXT6TD05Q930": {
@@ -12356,6 +12760,7 @@ var GAME = {
       "Free"
     ],
     "title": "Prominence Poker",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BXT6TD05Q930"
   },
   "BXWJNW4170RM": {
@@ -12385,6 +12790,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Need for Speed\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BXWJNW4170RM"
   },
   "BZ4WD43D8DTS": {
@@ -12410,6 +12816,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Elder Scrolls III: Morrowind",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BZ4WD43D8DTS"
   },
   "BZ910SG8ML8X": {
@@ -12435,6 +12842,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Heavy Weapon",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BZ910SG8ML8X"
   },
   "BZ92FB6PWXFJ": {
@@ -12461,6 +12869,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Costume Quest 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BZ92FB6PWXFJ"
   },
   "BZF7N4FQWHNR": {
@@ -12489,6 +12898,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Perfect Dark Zero",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BZF7N4FQWHNR"
   },
   "BZFB1F31614J": {
@@ -12526,6 +12936,7 @@ var GAME = {
       "Free"
     ],
     "title": "Dungeon Defenders II",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BZFB1F31614J"
   },
   "BZGJRJC1FGF3": {
@@ -12561,6 +12972,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Assassin's Creed\u00ae Origins",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BZGJRJC1FGF3"
   },
   "C040H652PD98": {
@@ -12587,6 +12999,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mass Effect\u2122 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C040H652PD98"
   },
   "C07KJZRH0L7S": {
@@ -12622,6 +13035,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Immortals Fenyx Rising\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C07KJZRH0L7S"
   },
   "C083G6BGJ334": {
@@ -12662,6 +13076,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "OUTRIDERS",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C083G6BGJ334"
   },
   "C08JXNK0VG5L": {
@@ -12690,6 +13105,7 @@ var GAME = {
       "Free"
     ],
     "title": "Los Sims\u2122 4",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C08JXNK0VG5L"
   },
   "C0FZNGPNQQRQ": {
@@ -12724,6 +13140,7 @@ var GAME = {
       "Free"
     ],
     "title": "Crossout",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0FZNGPNQQRQ"
   },
   "C0GQP41KXPVZ": {
@@ -12752,6 +13169,7 @@ var GAME = {
       "Free"
     ],
     "title": "Neverwinter",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0GQP41KXPVZ"
   },
   "C0GWTPD0S8S1": {
@@ -12785,6 +13203,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "STAR WARS\u2122 Battlefront\u2122 II",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0GWTPD0S8S1"
   },
   "C0JN2J76L7C9": {
@@ -12811,6 +13230,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Battlefield Bad Company 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0JN2J76L7C9"
   },
   "C0MKH58NBHRG": {
@@ -12836,6 +13256,7 @@ var GAME = {
       "Free"
     ],
     "title": "Crackdown 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0MKH58NBHRG"
   },
   "C0MN5DN8KR3F": {
@@ -12865,6 +13286,7 @@ var GAME = {
       "Free"
     ],
     "title": "PUBG: BATTLEGROUNDS",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0MN5DN8KR3F"
   },
   "C0N22P73QZ60": {
@@ -12904,6 +13326,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dead by Daylight",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0N22P73QZ60"
   },
   "C0SFCF4PBRSZ": {
@@ -12930,6 +13353,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Max: The Curse of Brotherhood",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0SFCF4PBRSZ"
   },
   "C0SWGV4560W1": {
@@ -12958,6 +13382,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Perfect Dark",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0SWGV4560W1"
   },
   "C0VQBXFNZ1Q0": {
@@ -12985,6 +13410,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Walking Dead: La temporada final: The Complete Season",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0VQBXFNZ1Q0"
   },
   "C0X2HNVH08FB": {
@@ -13014,6 +13440,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Titanfall\u2122 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0X2HNVH08FB"
   },
   "C0X6N5963CTW": {
@@ -13039,6 +13466,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dante's Inferno\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0X6N5963CTW"
   },
   "C0Z1N477W100": {
@@ -13064,6 +13492,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mass Effect 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C0Z1N477W100"
   },
   "C11KKHB5H7QJ": {
@@ -13091,6 +13520,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Unravel",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C11KKHB5H7QJ"
   },
   "C125W9BG2K0V": {
@@ -13133,6 +13563,7 @@ var GAME = {
       "Free"
     ],
     "title": "Rocket League\u00ae",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C125W9BG2K0V"
   },
   "C17GQF31D617": {
@@ -13165,6 +13596,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "INSIDE",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C17GQF31D617"
   },
   "C1C4DZJPBC2V": {
@@ -13202,6 +13634,7 @@ var GAME = {
       "Free"
     ],
     "title": "Overwatch\u00ae 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1C4DZJPBC2V"
   },
   "C1H9V6SLK2K5": {
@@ -13229,6 +13662,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Alien: Isolation",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1H9V6SLK2K5"
   },
   "C1HZV4PRZ39K": {
@@ -13258,6 +13692,7 @@ var GAME = {
       "Free"
     ],
     "title": "APB Reloaded",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1HZV4PRZ39K"
   },
   "C1JXWJR46913": {
@@ -13285,6 +13720,7 @@ var GAME = {
       "Free"
     ],
     "title": "Hawken",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1JXWJR46913"
   },
   "C1QQ7GM9HLKG": {
@@ -13315,6 +13751,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Battlefield 1943\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1QQ7GM9HLKG"
   },
   "C1SDBNRFXT1D": {
@@ -13340,6 +13777,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Gears of War 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1SDBNRFXT1D"
   },
   "C1ZT6N30L1WH": {
@@ -13382,6 +13820,7 @@ var GAME = {
       "Free"
     ],
     "title": "World of Warships: Legends",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1ZT6N30L1WH"
   },
   "C1ZWH2BZ9TSF": {
@@ -13409,6 +13848,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Joy Ride Turbo",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C1ZWH2BZ9TSF"
   },
   "C20WW4W29FQ1": {
@@ -13442,6 +13882,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Generation Zero\u00ae",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C20WW4W29FQ1"
   },
   "C22T53SQ7FLM": {
@@ -13476,6 +13917,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Rare Replay",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C22T53SQ7FLM"
   },
   "C23M2TC1ZFPJ": {
@@ -13507,6 +13949,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "SOMA",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C23M2TC1ZFPJ"
   },
   "C2592KJZ0Q1X": {
@@ -13531,6 +13974,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Double Dragon Neon",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2592KJZ0Q1X"
   },
   "C27QL5JBKQ8M": {
@@ -13574,6 +14018,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Ascent",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C27QL5JBKQ8M"
   },
   "C299QVC2BSJF": {
@@ -13605,6 +14050,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dishonored\u00ae Definitive Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C299QVC2BSJF"
   },
   "C29HQ887KH4B": {
@@ -13630,6 +14076,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Fallout 3",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C29HQ887KH4B"
   },
   "C2B4T86TXLRS": {
@@ -13663,6 +14110,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Bard's Tale IV: Director's Cut",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2B4T86TXLRS"
   },
   "C2BD1F6CB3L5": {
@@ -13691,6 +14139,7 @@ var GAME = {
       "Free"
     ],
     "title": "Resident Evil Revelations 2 (Episodio 1)",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2BD1F6CB3L5"
   },
   "C2CSDTSCBZ0C": {
@@ -13727,6 +14176,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "STAR WARS Jedi: Fallen Order\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2CSDTSCBZ0C"
   },
   "C2DQXX0CB42F": {
@@ -13753,6 +14203,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Walking Dead: Season Two",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2DQXX0CB42F"
   },
   "C2GMBPMTHDDK": {
@@ -13783,6 +14234,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Destroy All Humans!",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/C2GMBPMTHDDK"
   },
   "C2M8HBNVPT1T": {
@@ -13816,6 +14268,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Evil Within",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2M8HBNVPT1T"
   },
   "C2MHS238PDNS": {
@@ -13850,6 +14303,7 @@ var GAME = {
       "Free"
     ],
     "title": "SMITE",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2MHS238PDNS"
   },
   "C2N9CS4FS1QR": {
@@ -13887,6 +14341,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Tom Clancy\u2019s Ghost Recon\u00ae Wildlands - Standard Edition",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/C2N9CS4FS1QR"
   },
   "C2PB7STLJGS0": {
@@ -13912,6 +14367,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dead Space\u2122 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2PB7STLJGS0"
   },
   "C2Q32JM0BPZL": {
@@ -13938,6 +14394,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Fable Anniversary",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2Q32JM0BPZL"
   },
   "C2WKJJ9F5936": {
@@ -13966,6 +14423,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Fable II",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2WKJJ9F5936"
   },
   "C2XNJC9WK15X": {
@@ -13991,6 +14449,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Walking Dead: Michonne - The Complete Season",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2XNJC9WK15X"
   },
   "C2Z9D406G0KQ": {
@@ -14021,6 +14480,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "PAYDAY 2: CRIMEWAVE EDITION",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C2Z9D406G0KQ"
   },
   "C355T88BBX1S": {
@@ -14050,6 +14510,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Need for Speed\u2122 Payback",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C355T88BBX1S"
   },
   "C35NTVN04WK5": {
@@ -14084,6 +14545,7 @@ var GAME = {
       "Free"
     ],
     "title": "Realm Royale Reforged",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C35NTVN04WK5"
   },
   "C36X13QTJ3V5": {
@@ -14112,6 +14574,7 @@ var GAME = {
       "Free"
     ],
     "title": "Stern Pinball Arcade",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C36X13QTJ3V5"
   },
   "C3B1V55CDL0C": {
@@ -14150,6 +14613,7 @@ var GAME = {
       "Free"
     ],
     "title": "Brawlhalla",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C3B1V55CDL0C"
   },
   "C3D891Z6TNQM": {
@@ -14186,6 +14650,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Stardew Valley",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C3D891Z6TNQM"
   },
   "C3KLDKZBHNCZ": {
@@ -14218,6 +14683,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Fallout 4",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C3KLDKZBHNCZ"
   },
   "C3LF9PCRP9RP": {
@@ -14246,6 +14712,7 @@ var GAME = {
       "Free"
     ],
     "title": "Star Trek Online",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C3LF9PCRP9RP"
   },
   "C3NNLTHW9T9W": {
@@ -14280,6 +14747,7 @@ var GAME = {
       "Free"
     ],
     "title": "CRSED: F.O.A.D.",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C3NNLTHW9T9W"
   },
   "C3QH42WRGM3R": {
@@ -14311,6 +14779,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "DOOM",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C3QH42WRGM3R"
   },
   "C3VNJHHD7MM4": {
@@ -14339,6 +14808,7 @@ var GAME = {
       "Free"
     ],
     "title": "Crackdown",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C3VNJHHD7MM4"
   },
   "C4060P46HH4D": {
@@ -14365,6 +14835,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Sea of Solitude",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4060P46HH4D"
   },
   "C40860J5R2MP": {
@@ -14399,6 +14870,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Evil Within\u00ae 2",
+    "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/C40860J5R2MP"
   },
   "C41ZDFQ82M1G": {
@@ -14432,6 +14904,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "The Long Dark",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C41ZDFQ82M1G"
   },
   "C43H00X6KZRJ": {
@@ -14458,6 +14931,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Medal of Honor Airborne",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C43H00X6KZRJ"
   },
   "C46KTZB9HK8B": {
@@ -14498,6 +14972,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Insurgency: Sandstorm",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C46KTZB9HK8B"
   },
   "C47GZZBMR5WG": {
@@ -14527,6 +15002,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dragon Age\u2122: Inquisition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C47GZZBMR5WG"
   },
   "C48LBRJJCP2L": {
@@ -14552,6 +15028,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Mirror's Edge\u2122 Catalyst",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C48LBRJJCP2L"
   },
   "C4F7ZHLN6B2J": {
@@ -14580,6 +15057,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Ryse: edici\u00f3n Legendario",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4F7ZHLN6B2J"
   },
   "C4G76555T4QN": {
@@ -14606,6 +15084,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dragon Age\u2122 2",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4G76555T4QN"
   },
   "C4GH8N6ZXG5L": {
@@ -14637,6 +15116,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Cities: Skylines - Xbox One Edition",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4GH8N6ZXG5L"
   },
   "C4HZC7LJG6PX": {
@@ -14673,6 +15153,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Plants vs. Zombies\u2122: La Batalla de Neighborville",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4HZC7LJG6PX"
   },
   "C4LLMHFQ1BXQ": {
@@ -14702,6 +15183,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Wolfenstein\u00ae II: The New Colossus\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4LLMHFQ1BXQ"
   },
   "C4M5BK5HMGJD": {
@@ -14733,6 +15215,7 @@ var GAME = {
       "Free"
     ],
     "title": "Trove",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4M5BK5HMGJD"
   },
   "C4PZ0V39GXN2": {
@@ -14770,6 +15253,7 @@ var GAME = {
       "Free"
     ],
     "title": "Paladins",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4PZ0V39GXN2"
   },
   "C4SG06H48738": {
@@ -14795,6 +15279,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Zuma",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4SG06H48738"
   },
   "C4VKLMG1HLZW": {
@@ -14827,6 +15312,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Unravel Two",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4VKLMG1HLZW"
   },
   "C4Z7QM8FSXM2": {
@@ -14860,6 +15346,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Hellblade: Senua's Sacrifice",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C4Z7QM8FSXM2"
   },
   "C521HDXRTS7F": {
@@ -14889,6 +15376,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Wasteland 2: Director's Cut",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C521HDXRTS7F"
   },
   "C57L9GR0HHB7": {
@@ -14926,6 +15414,7 @@ var GAME = {
       "Free"
     ],
     "title": "World of Tanks",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C57L9GR0HHB7"
   },
   "C59QBPB8P1XJ": {
@@ -14958,6 +15447,7 @@ var GAME = {
       "Free"
     ],
     "title": "DC Universe Online",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C59QBPB8P1XJ"
   },
   "C5CZ41LM1DLM": {
@@ -14984,6 +15474,7 @@ var GAME = {
       "Free"
     ],
     "title": "Clicker Heroes",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C5CZ41LM1DLM"
   },
   "C5DZFZ6NC5SQ": {
@@ -15013,6 +15504,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Br\u00fctal Legend",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C5DZFZ6NC5SQ"
   },
   "C5F2XDQPPJKZ": {
@@ -15041,6 +15533,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Dishonored\u00ae: La muerte del Forastero\u2122",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C5F2XDQPPJKZ"
   },
   "C5GDG0CQ99RJ": {
@@ -15078,6 +15571,7 @@ var GAME = {
       "Free"
     ],
     "title": "DEAD OR ALIVE 5 Last Round: Luchadores b\u00e1sicos",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C5GDG0CQ99RJ"
   },
   "C5HHPG1TXDNG": {
@@ -15106,6 +15600,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Psychonauts",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C5HHPG1TXDNG"
   },
   "C5K89TFLSV19": {
@@ -15131,6 +15626,7 @@ var GAME = {
       "GamePass"
     ],
     "title": "Oblivion",
+    "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/C5K89TFLSV19"
   }
 };

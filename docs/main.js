@@ -43,6 +43,7 @@ function filtrar() {
     }
     if (show=="G" && !j.gamepass) return false;
     if (show=="F" && !j.tags.includes("Free")) return false;
+    if (show=="T" && !j.trial) return false;
     if (!isNaN(nShow) && (j.price == 0 || j.price > nShow)) return false;
     const fl = (() => {
       if (chhs.length == 0) {
