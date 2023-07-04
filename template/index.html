@@ -16,11 +16,40 @@
 					<option value="G">GamePass</option>
 					<option value="F">Gratis</option>
 					<option value="T">Prueba gratuita</option>
-					{% if precio > 0 %}
-					<option value="{{precio}}"> 0 &lt; precio &lt;= {{precio}} €</option>
-					{% endif %}
 			</select>
 		</p>
+		</fieldset>
+		<fieldset>
+			<legend>Precio</legend>
+			<p>
+			<label for="price_min">Desde
+				<input type="number" step="1"  style="width: 5em;" required id="price_min" value="0">
+			</label>
+			<label for="price_max">hasta
+				<input type="number" step="1"  style="width: 5em;" required id="price_max" value="{{mx.precio}}"> €
+			</label>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Reviews</legend>
+			<p>
+			<label for="reviews_min">Desde
+				<input type="number" step="1"  style="width: 5em;" required id="reviews_min" value="0">
+			</label>
+			<label for="reviews_max">hasta
+				<input type="number" step="1"  style="width: 5em;" required id="reviews_max" value="{{mx.reviews}}">
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Estrellas</legend>
+			<label for="rate_min">Desde
+				<input type="number" step="1"  style="width: 5em;" required id="rate_min" value="0">
+			</label>
+			<label for="rate_max">hasta
+				<input type="number" step="1"  style="width: 5em;" required id="rate_max" value="{{mx.rate}}">
+			</label>
+			</p>
+		</fieldset>
 		<fieldset class="chkhideshow">
 			<legend><select id="chkhideshow">
 					<option value="HO" selected>Ocultar (OR)</option>
@@ -38,7 +67,7 @@
 <p>
 	<b><a href="{{j.url}}" class="title">{{j.title}}</a> <sup>[<a href="{{j.js}}">js</a>]</sup></b>
 	<br/>
-	<code>{{j.rate | decimal}}</code> estrellas || <code>{{j.price | round | int}} €</code><br/>
+	<code>{{j.rate | decimal}}</code> estrellas || {{j.reviews | millar}} reviews || <code style=" white-space: nowrap;">{{j.price | round | int}} €</code><br/>
 	<!--
 	{% if j.langs %}
 		[ {{" / ".join(j.langs) }} ]</br>

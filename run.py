@@ -2,15 +2,15 @@
 
 from munch import Munch
 
-from core.api import Api
+from core.api import Api, ApiDriver
 from core.j2 import Jnj2
-from core.web import Driver
 from datetime import datetime
+from math import ceil
 
 import argparse
 
 parser = argparse.ArgumentParser(description='Lista juegos de xbox del gamepass o de menos de X€')
-parser.add_argument("--precio", type=float, help='Precio máximo', default=1)
+parser.add_argument("--precio", type=float, help='Precio máximo', default=9999)
 
 args = parser.parse_args()
 
@@ -60,10 +60,11 @@ print("Aplicando 2º filtro", end="\r")
 items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
 
-print("Obteniendo acciones")
-with Driver(browser="wirefirefox") as f:
+print("Obteniendo acciones y reviews")
+with ApiDriver(browser="wirefirefox") as f:
     for i in iter_progress(items):
         i.productActions = api.get_actions(f, i.id)
+        i.reviews = (api.get_reviews(f, i.id) or {}).get('totalRatingsCount')
 
 
 print("Aplicando 2º filtro", end="\r")
@@ -71,7 +72,7 @@ items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
 
 print("Generando web")
-items = sorted(items, key=lambda x: (-x.rate, x.title))
+items = sorted(items, key=lambda x: (-x.reviews, -x.rate, x.title))
 
 info = map(lambda x:x.to_dict(), items)
 info = sorted(info, key=lambda x:x["id"])
@@ -89,7 +90,11 @@ j.create_script("info.js", GAME=info, replace=True)
 j.save("index.html",
        juegos=items,
        tags=tags,
-       precio=args.precio,
+       mx=dict(
+           precio=ceil(max([i.price for i in items])),
+           reviews=ceil(max([i.reviews for i in items])),
+           rate=ceil(max([i.rate for i in items]))
+       ),
        now=datetime.now()
 )
 print("Fin")

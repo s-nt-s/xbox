@@ -6,9 +6,11 @@ from simplejson.errors import JSONDecodeError
 
 from .decorators import Cache
 from .filemanager import FM
-from .web import get_session
+from .web import get_session, Driver
 import json
 import inspect
+from seleniumwire.webdriver.request import Request as WireRequest
+from typing import NamedTuple
 
 '''
 https://www.reddit.com/r/XboxGamePass/comments/jt214y/public_api_for_fetching_the_list_of_game_pass/
@@ -62,6 +64,71 @@ def get_js(url):
         if len(text) == 0:
             raise myex(e, 'becouse request.get("%s") is empty' % (url))
         raise myex(e, 'in request.get("%s") = %s' % (url, rq.text))
+
+
+class WR(NamedTuple):
+    id: str
+    requests: WireRequest
+    body: dict
+
+    def replay(self, id):
+        s = requests.Session()
+        s.headers = self.requests.headers
+        r = requests.request(
+            self.requests.method,
+            self.requests.path.replace(self.id, id),
+            headers=self.requests.headers
+        )
+        return r.json()
+
+
+class ApiDriver:
+    def __init__(self, *args, **kwargs):
+        self.__web = None
+        self.__args = args
+        self.__kwargs = kwargs
+        self.__endpoints: dict[str, WR] = {}
+
+    def __enter__(self, *args, **kwargs):
+        return self
+
+    def __exit__(self, *args, **kwargs):
+        if self.__web is not None:
+            self.__web.close()
+
+    @property
+    def web(self):
+        if self.__web is None:
+            self.__web = Driver(*self.__args, **self.__kwargs)
+        return self.__web
+
+    def find_requests(self, id, path):
+        url = "https://www.xbox.com/es-es/games/store/a/"+id
+        self.web.get(url)
+        while True:
+            if "Error response" in str(self.web.get_soup()):
+                self.web.get(url)
+            for r in self.web._driver.requests:
+                if (path+id) not in r.path:
+                    continue
+                if r.response and r.response.body:
+                    js = r.response.body
+                    js = js.decode('utf-8')
+                    js = js.strip()
+                    js = json.loads(js)
+                    return WR(
+                        id=id,
+                        requests=r,
+                        body=js
+                    )
+
+    def get(self, id, path):
+        if path in self.__endpoints:
+            js = self.__endpoints[path].replay(id)
+            return js
+        r = self.find_requests(id, path)
+        self.__endpoints[path] = r
+        return r.body
 
 
 class Api:
@@ -137,23 +204,19 @@ class Api:
                 return j
 
     @Cache("rec/ac/{1}.json", maxOld=10)
-    def get_actions(self, web, id, **kvargs):
-        url = "https://www.xbox.com/es-es/games/store/a/"+id
-        web.get(url)
-        while True:
-            if "Error response" in str(web.get_soup()):
-                web.get(url)
-            for r in web._driver.requests:
-                if ("://emerald.xboxservices.com/xboxcomfd/productActions/"+id) not in r.path:
-                    continue
-                if r.response and r.response.body:
-                    js = r.response.body
-                    js = js.decode('utf-8')
-                    js = js.strip()
-                    js = json.loads(js)
-                    return js
-        return None
+    def get_actions(self, web: ApiDriver, id, **kvargs):
+        js = web.get(id, "://emerald.xboxservices.com/xboxcomfd/productActions/")
+        return js
 
+    @Cache("rec/rw/{1}.json", maxOld=10)
+    def get_reviews(self, web: ApiDriver, id, **kvargs):
+        js = web.get(id, "://emerald.xboxservices.com/xboxcomfd/ratingsandreviews/summaryandreviews/")
+        if 'ratingsSummary' not in js and js.get('totalReviews') == 0:
+            return {
+                "totalRatingsCount": 0
+            }
+        return js['ratingsSummary']
+    
     def get_items(self, *ids):
         if len(ids)==0:
             ids = [i['Id'] for i in self.get_all()]

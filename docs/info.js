@@ -1,4 +1,38 @@
 var GAME = {
+  "9MSMGTKDM41V": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XblClubs",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MSMGTKDM41V",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MSMGTKDM41V",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.57502.13825062722038903.94daf739-8cfd-4e49-8a65-231865b3a532.a37fb440-f6a2-49eb-a8ac-4d3c05ff155a",
+    "price": 119.99,
+    "rate": 3.4,
+    "requiresGame": false,
+    "reviews": 124,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Far Cry\u00ae 6 Game of the Year Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MSMGTKDM41V"
+  },
   "9MSPCTN183CS": {
     "actions": [
       "EditionSelector",
@@ -31,6 +65,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -62,6 +97,7 @@ var GAME = {
     "price": 76.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -97,6 +133,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Platformer",
@@ -135,6 +172,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action",
       "Platformer",
@@ -145,6 +183,35 @@ var GAME = {
     "title": "Fury Unleashed",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MSRMB4L8LRJ"
+  },
+  "9MSRVGH2Z18D": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MSRVGH2Z18D",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MSRVGH2Z18D",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.14654.13826685209596351.2e212b53-84ac-4ad5-a630-03c3e768cf08.e3f80baf-ef46-4a67-a73b-34e7aad377f1",
+    "price": 84.99,
+    "rate": 2.9,
+    "requiresGame": false,
+    "reviews": 4,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Just Dance\u00ae 2023 Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MSRVGH2Z18D"
   },
   "9MSVVM5NS9L6": {
     "actions": [
@@ -171,6 +238,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -203,6 +271,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 659,
     "tags": [
       "SinglePlayer"
     ],
@@ -234,6 +303,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -269,6 +339,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -300,6 +371,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -336,6 +408,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Role playing",
@@ -372,6 +445,7 @@ var GAME = {
     "price": 74.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 107,
     "tags": [
       "Action",
       "Role playing",
@@ -406,6 +480,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -439,6 +514,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Role playing",
       "Strategy",
@@ -483,6 +559,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 616,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -518,6 +595,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -548,6 +626,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Music",
@@ -581,6 +660,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "HITMAN World of Assassination Deluxe Pack",
     "trial": false,
@@ -609,6 +689,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 140,
     "tags": [
       "Action",
       "Fighting",
@@ -644,6 +725,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "MOBA",
@@ -678,6 +760,7 @@ var GAME = {
     "price": 12.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -710,6 +793,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -738,6 +822,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 521,
     "tags": [],
     "title": "Tom Clancy's Rainbow Six\u00ae Siege - Operator Edition",
     "trial": false,
@@ -783,6 +868,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Racing & flying",
       "Family",
@@ -796,6 +882,38 @@ var GAME = {
     "title": "F1\u00ae 23",
     "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9MTK0S8CQ0QV"
+  },
+  "9MTLKM2DJMZ2": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MTLKM2DJMZ2",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MTLKM2DJMZ2",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.23625.13806078025361171.9723cf5e-1e29-4d9d-ad0a-cc37a95bb75d.e02f4ead-d89b-45cd-8eb5-5dcbf44ae91f",
+    "price": 99.99,
+    "rate": 3.0,
+    "requiresGame": false,
+    "reviews": 1453,
+    "tags": [
+      "MultiPlayer"
+    ],
+    "title": "Forza Horizon 5 Edici\u00f3n Premium",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MTLKM2DJMZ2"
   },
   "9MTMSS84NW5R": {
     "actions": [
@@ -821,6 +939,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -851,6 +970,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -884,6 +1004,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -918,6 +1039,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Shooter",
@@ -957,6 +1079,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Fighting",
       "Platformer",
@@ -990,6 +1113,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -998,6 +1122,42 @@ var GAME = {
     "title": "United Assault - Battle of the Bulge",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MTPNLC84N6N"
+  },
+  "9MTQG8PS5VD7": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MTQG8PS5VD7",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MTQG8PS5VD7",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.22778.13808199837738344.17bd5eab-95b5-4c7c-b318-346e44d79ba0.3313c366-de11-4da4-b82c-150023b42cf9",
+    "price": 99.99,
+    "rate": 3.4,
+    "requiresGame": false,
+    "reviews": 24,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Lote PGA TOUR 2K23 x NBA 2K23",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MTQG8PS5VD7"
   },
   "9MTRDL96RQHS": {
     "actions": [
@@ -1024,6 +1184,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Classics",
@@ -1063,6 +1224,7 @@ var GAME = {
     "price": 59.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Simulation",
       "Strategy",
@@ -1095,6 +1257,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -1128,6 +1291,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -1160,12 +1324,44 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Crysis Remastered Trilogy",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MTW722JFZ5Z"
+  },
+  "9MTXPTRRNLN8": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MTXPTRRNLN8",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MTXPTRRNLN8",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.42132.13804064421012543.036b4952-77dc-4e0d-863b-2c6b98364354.3c980e37-97ca-4e72-890d-2f15ba4b4590",
+    "price": 99.99,
+    "rate": 4.9,
+    "requiresGame": false,
+    "reviews": 339,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Atomic Heart - Gold Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MTXPTRRNLN8"
   },
   "9MTZ4L5PFJF2": {
     "actions": [
@@ -1190,6 +1386,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action"
@@ -1221,6 +1418,7 @@ var GAME = {
     "price": 13.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -1254,6 +1452,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Action",
       "Simulation",
@@ -1292,6 +1491,7 @@ var GAME = {
     "price": 12.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -1332,6 +1532,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Shooter",
       "Action",
@@ -1364,6 +1565,7 @@ var GAME = {
     "price": 3.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -1399,6 +1601,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 113,
     "tags": [
       "Action",
       "Racing & flying",
@@ -1432,6 +1635,7 @@ var GAME = {
     "price": 12.49,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -1466,6 +1670,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer",
@@ -1502,6 +1707,7 @@ var GAME = {
     "price": 19.49,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -1535,6 +1741,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Classics",
@@ -1564,6 +1771,7 @@ var GAME = {
     "price": 1.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Fighting"
     ],
@@ -1595,6 +1803,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -1628,6 +1837,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Puzzle",
@@ -1659,6 +1869,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -1690,6 +1901,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -1721,6 +1933,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Role playing",
@@ -1752,6 +1965,7 @@ var GAME = {
     "price": 74.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [],
     "title": "The DioField Chronicle Digitale Deluxe Edition",
     "trial": false,
@@ -1779,6 +1993,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -1810,6 +2025,7 @@ var GAME = {
     "price": 14.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -1838,6 +2054,7 @@ var GAME = {
     "price": 44.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -1870,6 +2087,7 @@ var GAME = {
     "price": 12.49,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Classics",
       "Role playing",
@@ -1907,6 +2125,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -1941,6 +2160,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Action",
       "Family",
@@ -1951,6 +2171,31 @@ var GAME = {
     "title": "Untitled Goose Game",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MVTCTDTHH23"
+  },
+  "9MVTKWTFXSRS": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MVTKWTFXSRS",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MVTKWTFXSRS",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.1523.13856735781047901.9b1b8ebe-8ab3-472e-9b40-911d4deac774.5b59a987-01dd-4347-81b8-11ce54a7c2fd",
+    "price": 99.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [],
+    "title": "The Crew\u2122 Motorfest Gold Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MVTKWTFXSRS"
   },
   "9MVTM9V0GWVP": {
     "actions": [
@@ -1976,6 +2221,7 @@ var GAME = {
     "price": 21.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Shooter",
@@ -2007,6 +2253,7 @@ var GAME = {
     "price": 3.79,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action"
     ],
@@ -2035,6 +2282,7 @@ var GAME = {
     "price": 19.99,
     "rate": 1.5,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "SinglePlayer"
     ],
@@ -2066,6 +2314,7 @@ var GAME = {
     "price": 13.49,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -2104,6 +2353,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -2138,6 +2388,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -2167,6 +2418,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "SinglePlayer"
     ],
@@ -2207,6 +2459,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 20838,
     "tags": [
       "Action",
       "Family",
@@ -2242,6 +2495,7 @@ var GAME = {
     "price": 9.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4381,
     "tags": [
       "MultiPlayer"
     ],
@@ -2273,6 +2527,7 @@ var GAME = {
     "price": 0.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -2281,6 +2536,69 @@ var GAME = {
     "title": "Danger Scavenger",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MW0S9FBHLCP"
+  },
+  "9MW10GX140N1": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MW10GX140N1",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MW10GX140N1",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.32479.13691913205617753.f6e26030-0333-4769-93ec-84fbff276e91.800e3ebc-8013-4415-bcf8-957f62b82047",
+    "price": 84.99,
+    "rate": 4.4,
+    "requiresGame": false,
+    "reviews": 107,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Hogwarts Legacy: Edici\u00f3n Digital Deluxe",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MW10GX140N1"
+  },
+  "9MW2BZZHLVW0": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MW2BZZHLVW0",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MW2BZZHLVW0",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.26403.13852397496525813.9407e38d-e2bb-465e-a76d-2309ee8fd7a1.01dd497a-eb26-4b08-9ff7-b595eb4c4d43",
+    "price": 89.99,
+    "rate": 4.4,
+    "requiresGame": false,
+    "reviews": 388,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "ELDEN RING Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MW2BZZHLVW0"
   },
   "9MW2MR3GV8DD": {
     "actions": [
@@ -2306,6 +2624,7 @@ var GAME = {
     "price": 18.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -2339,6 +2658,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -2369,6 +2689,7 @@ var GAME = {
     "price": 13.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -2405,6 +2726,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Shooter",
@@ -2438,6 +2760,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Educational",
@@ -2477,6 +2800,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Family",
@@ -2514,6 +2838,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 287,
     "tags": [
       "Action",
       "Platformer",
@@ -2549,6 +2874,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "Family",
@@ -2583,6 +2909,7 @@ var GAME = {
     "price": 15.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -2616,6 +2943,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -2644,6 +2972,7 @@ var GAME = {
     "price": 44.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -2677,6 +3006,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Simulation",
       "Strategy",
@@ -2708,6 +3038,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -2743,6 +3074,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 72,
     "tags": [
       "Simulation",
       "Strategy",
@@ -2774,6 +3106,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action"
     ],
@@ -2803,6 +3136,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Puzzle",
@@ -2836,6 +3170,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "SinglePlayer"
     ],
@@ -2873,6 +3208,7 @@ var GAME = {
     "price": 74.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Fighting",
       "Simulation",
@@ -2909,6 +3245,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Simulation",
       "Family",
@@ -2946,6 +3283,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -2978,6 +3316,7 @@ var GAME = {
     "price": 12.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -2985,6 +3324,44 @@ var GAME = {
     "title": "Ship Graveyard Simulator",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MWWZ61HJXGW"
+  },
+  "9MWZ27L26QQS": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "DolbyAtmos",
+      "SinglePlayer",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MWZ27L26QQS",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MWZ27L26QQS",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.37357.13687178912608182.29ad10eb-5d8c-4180-b4f9-9987d26c5161.bec373a4-edf8-48ce-a1ba-ca92f4f54c61",
+    "price": 114.99,
+    "rate": 4.2,
+    "requiresGame": false,
+    "reviews": 16,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Street Fighter\u2122 6 Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MWZ27L26QQS"
   },
   "9MWZ8JV5TSQG": {
     "actions": [
@@ -3011,6 +3388,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "SinglePlayer"
     ],
@@ -3042,6 +3420,7 @@ var GAME = {
     "price": 5.59,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -3071,6 +3450,7 @@ var GAME = {
     "price": 34.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 313,
     "tags": [
       "MultiPlayer"
     ],
@@ -3099,6 +3479,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Platformer",
@@ -3135,6 +3516,7 @@ var GAME = {
     "price": 10.49,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -3165,6 +3547,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -3197,6 +3580,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -3230,6 +3614,7 @@ var GAME = {
     "price": 5.99,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -3265,6 +3650,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -3297,6 +3683,7 @@ var GAME = {
     "price": 59.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -3334,6 +3721,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "Action",
@@ -3369,6 +3757,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -3401,6 +3790,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 57,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -3434,6 +3824,7 @@ var GAME = {
     "price": 22.49,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 64,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -3465,6 +3856,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 178,
     "tags": [
       "Platformer",
       "Action",
@@ -3498,6 +3890,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -3528,6 +3921,7 @@ var GAME = {
     "price": 59.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 194,
     "tags": [
       "SinglePlayer"
     ],
@@ -3558,6 +3952,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Classics",
       "Shooter",
@@ -3598,6 +3993,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -3632,6 +4028,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -3666,6 +4063,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 79,
     "tags": [
       "MultiPlayer"
     ],
@@ -3698,6 +4096,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -3731,6 +4130,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Classics",
@@ -3769,6 +4169,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Action",
       "Shooter",
@@ -3804,6 +4205,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Action",
@@ -3833,6 +4235,7 @@ var GAME = {
     "price": 64.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -3863,6 +4266,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -3898,6 +4302,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Strategy",
@@ -3932,6 +4337,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 98,
     "tags": [],
     "title": "Forza Horizon 5: Paquete de complementos Premium",
     "trial": false,
@@ -3971,6 +4377,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -4005,6 +4412,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -4040,6 +4448,7 @@ var GAME = {
     "price": 8.57,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Strategy",
@@ -4074,6 +4483,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer",
@@ -4107,6 +4517,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Role playing",
@@ -4138,6 +4549,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Simulation",
       "GamePass"
@@ -4171,6 +4583,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 110,
     "tags": [
       "Action",
       "Music",
@@ -4206,6 +4619,7 @@ var GAME = {
     "price": 54.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [],
     "title": "Planet Coaster: Edici\u00f3n Deluxe",
     "trial": false,
@@ -4233,6 +4647,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Role playing",
@@ -4266,6 +4681,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Sports",
       "LocalMultiPlayer"
@@ -4297,6 +4713,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -4331,6 +4748,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Role playing",
       "Simulation",
@@ -4363,6 +4781,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer"
     ],
@@ -4392,6 +4811,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -4420,6 +4840,7 @@ var GAME = {
     "price": 29.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -4453,6 +4874,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Cards",
       "Role playing",
@@ -4492,6 +4914,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "Shooter",
@@ -4529,6 +4952,7 @@ var GAME = {
     "price": 5.99,
     "rate": 1.7,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Sports",
       "Family",
@@ -4566,6 +4990,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Action",
@@ -4606,6 +5031,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -4617,6 +5043,36 @@ var GAME = {
     "title": "Guilty Gear -Strive-",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9MZDL6L34KF2"
+  },
+  "9MZF4HF3BN10": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9MZF4HF3BN10",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9MZF4HF3BN10",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.55371.13871892748730121.7914f074-fabe-4c77-9b6d-4df85c42bc19.b85ca9a9-1de5-47a7-a366-3ae77d212658",
+    "price": 99.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 134,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "The Wired Narrative Bundle",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9MZF4HF3BN10"
   },
   "9MZFT7ZBGCVQ": {
     "actions": [
@@ -4640,6 +5096,7 @@ var GAME = {
     "price": 9.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -4670,6 +5127,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 66,
     "tags": [
       "Cards",
       "Role playing",
@@ -4702,6 +5160,7 @@ var GAME = {
     "price": 4.49,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer",
@@ -4733,6 +5192,7 @@ var GAME = {
     "price": 3.14,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -4769,6 +5229,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -4804,6 +5265,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "LocalMultiPlayer",
@@ -4838,6 +5300,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -4872,6 +5335,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 84,
     "tags": [
       "Action",
       "Platformer",
@@ -4905,6 +5369,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 61,
     "tags": [
       "Action",
       "Platformer",
@@ -4940,6 +5405,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Role playing",
       "Strategy",
@@ -4977,6 +5443,7 @@ var GAME = {
     "price": 52.49,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -5009,6 +5476,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -5041,6 +5509,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -5075,6 +5544,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 99,
     "tags": [
       "Action",
       "Shooter",
@@ -5105,6 +5575,7 @@ var GAME = {
     "price": 29.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "SinglePlayer"
     ],
@@ -5138,6 +5609,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -5171,6 +5643,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -5208,6 +5681,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -5239,6 +5713,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -5272,6 +5747,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Strategy",
@@ -5304,6 +5780,7 @@ var GAME = {
     "price": 12.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -5340,6 +5817,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Strategy",
@@ -5375,6 +5853,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -5400,6 +5879,7 @@ var GAME = {
     "price": 0.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -5434,6 +5914,7 @@ var GAME = {
     "price": 9.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -5474,6 +5955,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Racing & flying",
       "Sports",
@@ -5511,6 +5993,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -5542,6 +6025,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -5579,6 +6063,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 89,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -5609,6 +6094,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -5639,6 +6125,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -5671,6 +6158,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 331,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -5700,6 +6188,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Action"
     ],
@@ -5736,6 +6225,7 @@ var GAME = {
     "price": 39.99,
     "rate": 1.8,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -5767,6 +6257,7 @@ var GAME = {
     "price": 27.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -5798,6 +6289,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -5830,6 +6322,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -5866,6 +6359,7 @@ var GAME = {
     "price": 8.74,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Classics",
@@ -5901,6 +6395,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -5932,6 +6427,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -5940,6 +6436,45 @@ var GAME = {
     "title": "Century: Age of Ashes - Gilded Scales Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N0K0Q39X4NT"
+  },
+  "9N0KRV3ZL4GQ": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblOnlineCoop",
+      "XblPresence",
+      "XboxLive",
+      "XboxLiveCrossGenMP"
+    ],
+    "gamepass": false,
+    "id": "9N0KRV3ZL4GQ",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N0KRV3ZL4GQ",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.23305.13703497164728639.5c8a14e1-c438-4798-83bc-e6a6b19d235c.08c7af32-a002-4f28-bc48-ec0c8322cd67",
+    "price": 89.99,
+    "rate": 4.3,
+    "requiresGame": false,
+    "reviews": 39,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform"
+    ],
+    "title": "DEAD ISLAND 2 GOLD EDITION",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N0KRV3ZL4GQ"
   },
   "9N0LBD52QHKF": {
     "actions": [
@@ -5964,6 +6499,7 @@ var GAME = {
     "price": 16.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -5994,6 +6530,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -6027,6 +6564,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "Sports",
@@ -6060,6 +6598,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Classics",
       "Shooter",
@@ -6093,6 +6632,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Strategy",
       "Action",
@@ -6127,6 +6667,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 50,
     "tags": [
       "Action",
       "Role playing",
@@ -6160,6 +6701,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Platformer",
@@ -6193,6 +6735,7 @@ var GAME = {
     "price": 24.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -6225,6 +6768,7 @@ var GAME = {
     "price": 29.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -6258,6 +6802,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 2694,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -6288,6 +6833,7 @@ var GAME = {
     "price": 9.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -6317,6 +6863,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Classics",
@@ -6351,6 +6898,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -6383,6 +6931,7 @@ var GAME = {
     "price": 2.59,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Educational",
       "Family",
@@ -6414,6 +6963,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Puzzle",
@@ -6422,6 +6972,39 @@ var GAME = {
     "title": "Sally Face",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N1C74G2JXHM"
+  },
+  "9N1CD2RR7DC2": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N1CD2RR7DC2",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N1CD2RR7DC2",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.8936.13904075110450355.53594a81-ec96-445a-a82e-ed0ac1866c0d.ea5ed5a8-f6e3-47df-ba01-4ca7ea11ff81",
+    "price": 109.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Gold Edition de Avatar: Frontiers of Pandora\u2122",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N1CD2RR7DC2"
   },
   "9N1CS194W1Q6": {
     "actions": [
@@ -6455,6 +7038,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 133,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -6488,6 +7072,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -6516,6 +7101,7 @@ var GAME = {
     "price": 32.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "SinglePlayer"
     ],
@@ -6551,6 +7137,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 73,
     "tags": [
       "SinglePlayer"
     ],
@@ -6585,6 +7172,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -6619,6 +7207,7 @@ var GAME = {
     "price": 16.49,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -6648,6 +7237,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action",
       "Strategy",
@@ -6682,6 +7272,7 @@ var GAME = {
     "price": 27.49,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 105,
     "tags": [
       "Action",
       "Platformer",
@@ -6718,6 +7309,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -6747,6 +7339,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -6792,6 +7385,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 152,
     "tags": [
       "Action",
       "Role playing",
@@ -6827,6 +7421,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 152,
     "tags": [
       "Role playing",
       "Action",
@@ -6859,6 +7454,7 @@ var GAME = {
     "price": 17.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "SinglePlayer"
     ],
@@ -6889,6 +7485,7 @@ var GAME = {
     "price": 46.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -6919,6 +7516,7 @@ var GAME = {
     "price": 3.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "Action",
@@ -6954,6 +7552,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 49,
     "tags": [
       "Sports",
       "SinglePlayer",
@@ -6990,6 +7589,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Racing & flying",
@@ -7023,6 +7623,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Action",
@@ -7056,6 +7657,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -7088,6 +7690,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -7116,12 +7719,50 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Alan Wake 2",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N274JBXLD8T"
+  },
+  "9N29K0BW4KM0": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N29K0BW4KM0",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N29K0BW4KM0",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.47370.13955657286610345.5d7ade7e-332e-4655-a72b-35431eab4617.1938ce39-4a9d-4065-8b62-da161de16bd1",
+    "price": 119.99,
+    "rate": 4.4,
+    "requiresGame": false,
+    "reviews": 3,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "WWE 2K23 Edici\u00f3n Icono",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N29K0BW4KM0"
   },
   "9N29VZ9LRNNQ": {
     "actions": [
@@ -7149,6 +7790,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 71,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -7178,6 +7820,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer"
     ],
@@ -7207,6 +7850,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Action",
@@ -7242,6 +7886,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "SinglePlayer"
     ],
@@ -7273,6 +7918,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -7306,6 +7952,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -7340,6 +7987,7 @@ var GAME = {
     "price": 22.49,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -7371,6 +8019,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -7401,6 +8050,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -7434,6 +8084,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Classics",
       "Shooter",
@@ -7469,6 +8120,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -7501,6 +8153,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "Simulation",
@@ -7538,6 +8191,7 @@ var GAME = {
     "price": 27.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -7571,6 +8225,7 @@ var GAME = {
     "price": 10.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer",
@@ -7600,10 +8255,85 @@ var GAME = {
     "price": 39.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 129,
     "tags": [],
     "title": "Resident Evil Village",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N2S04LGXXH4"
+  },
+  "9N2TTV4T0D0D": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "DolbyAtmos",
+      "SinglePlayer",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N2TTV4T0D0D",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N2TTV4T0D0D",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.30326.13941478999310354.1ce669dd-cd22-4247-a9b1-14df410e71c8.50f8f479-f574-4d29-8e06-9aac3b2edc9a",
+    "price": 94.99,
+    "rate": 3.1,
+    "requiresGame": false,
+    "reviews": 16,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Street Fighter\u2122 6 Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N2TTV4T0D0D"
+  },
+  "9N2W03KZ5776": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N2W03KZ5776",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N2W03KZ5776",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.3673.13948820153582427.90f2ba94-88bf-4884-a2af-f09a2c471807.bcd39daf-7570-4df4-8646-fa80fbd513e1",
+    "price": 99.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 94,
+    "tags": [
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Battlefield\u2122 2042 Elite Edition para Xbox One y Xbox Series X|S",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N2W03KZ5776"
   },
   "9N2XZFRWG6R8": {
     "actions": [
@@ -7628,6 +8358,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Platformer",
@@ -7662,6 +8393,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 2813,
     "tags": [
       "SinglePlayer",
       "MultiPlayer",
@@ -7695,6 +8427,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 596,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -7728,6 +8461,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 218,
     "tags": [
       "Action",
       "Family",
@@ -7761,6 +8495,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Simulation",
       "Strategy",
@@ -7800,6 +8535,7 @@ var GAME = {
     "price": 11.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -7808,6 +8544,40 @@ var GAME = {
     "title": "Tennis World Tour 2 Ace Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N30NRTCRCGH"
+  },
+  "9N318CTH77J9": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "CapabilityHDR",
+      "DolbyAtmos",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N318CTH77J9",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N318CTH77J9",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.3980.14397220066329324.04c89901-528d-49c3-9829-a0dbfe8b2d2c.3793b8d8-b45e-4f8f-a8fb-723e56003d1b",
+    "price": 109.99,
+    "rate": 2.9,
+    "requiresGame": false,
+    "reviews": 567,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Redfall Bite Back Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N318CTH77J9"
   },
   "9N31VQP7DZZN": {
     "actions": [
@@ -7834,6 +8604,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -7843,6 +8614,36 @@ var GAME = {
     "title": "Wonderland Nights: White Rabbit's Diary",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N31VQP7DZZN"
+  },
+  "9N33XSL8FKGC": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N33XSL8FKGC",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N33XSL8FKGC",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.38193.13944049589220012.a252dea7-0aa3-459d-a3ce-4b44af21f42c.f23e1905-45ee-476b-ade7-df57ff294ffd",
+    "price": 94.99,
+    "rate": 4.0,
+    "requiresGame": false,
+    "reviews": 30,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Train Sim World\u00ae 3: US Super Bundle",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N33XSL8FKGC"
   },
   "9N355W8C68TG": {
     "actions": [
@@ -7870,6 +8671,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -7905,6 +8707,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -7937,6 +8740,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Puzzle",
@@ -7972,6 +8776,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "Simulation",
@@ -8009,6 +8814,7 @@ var GAME = {
     "price": 26.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -8038,6 +8844,7 @@ var GAME = {
     "price": 12.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -8072,6 +8879,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -8110,6 +8918,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Role playing",
@@ -8147,6 +8956,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -8181,6 +8991,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 2792,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -8218,6 +9029,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -8250,6 +9062,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -8285,6 +9098,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -8321,6 +9135,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Classics",
       "Shooter",
@@ -8355,6 +9170,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 526,
     "tags": [
       "MultiPlayer"
     ],
@@ -8384,6 +9200,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Music",
@@ -8419,6 +9236,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -8449,6 +9267,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -8481,6 +9300,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -8510,6 +9330,7 @@ var GAME = {
     "price": 24.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Balls of Fame Ultimate Bundle",
     "trial": false,
@@ -8539,6 +9360,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -8573,6 +9395,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Classics",
@@ -8610,6 +9433,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Simulation",
       "Family",
@@ -8637,6 +9461,7 @@ var GAME = {
     "price": 0.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Shooter",
       "Strategy"
@@ -8668,6 +9493,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Classics",
@@ -8703,6 +9529,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -8733,6 +9560,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -8765,6 +9593,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -8799,6 +9628,7 @@ var GAME = {
     "price": 12.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -8829,6 +9659,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "SinglePlayer"
     ],
@@ -8865,6 +9696,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 241,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -8895,6 +9727,7 @@ var GAME = {
     "price": 24.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -8930,6 +9763,7 @@ var GAME = {
     "price": 31.49,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 68,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -8964,6 +9798,7 @@ var GAME = {
     "price": 24.49,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Puzzle",
@@ -8998,6 +9833,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -9033,6 +9869,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -9068,6 +9905,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Role playing",
@@ -9102,6 +9940,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -9135,6 +9974,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "SinglePlayer",
       "GamePass"
@@ -9142,6 +9982,34 @@ var GAME = {
     "title": "Coffee Talk Episode 2: Hibiscus and Butterfly",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N4DC4325HLM"
+  },
+  "9N4H3J2JX5J4": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N4H3J2JX5J4",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N4H3J2JX5J4",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.26476.13983293144448959.930e0436-5b30-40d0-b840-cb6968e0a5fa.a0b5779b-7baa-45e3-acc9-f2e040c4ade1",
+    "price": 94.99,
+    "rate": 3.5,
+    "requiresGame": false,
+    "reviews": 6,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "ONE PIECE ODYSSEY Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N4H3J2JX5J4"
   },
   "9N4J5LFGPD87": {
     "actions": [
@@ -9167,6 +10035,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -9201,6 +10070,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -9232,6 +10102,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "SinglePlayer",
@@ -9267,6 +10138,7 @@ var GAME = {
     "price": 2.79,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -9309,6 +10181,7 @@ var GAME = {
     "price": 79.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 172,
     "tags": [
       "Simulation",
       "Sports",
@@ -9343,6 +10216,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -9372,6 +10246,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -9404,6 +10279,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Simulation",
@@ -9412,6 +10288,39 @@ var GAME = {
     "title": "7 Days of Rose",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N4N6GCS2782"
+  },
+  "9N4PQN0ZH3LF": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N4PQN0ZH3LF",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N4PQN0ZH3LF",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.42276.14601770572274042.dca2036b-371d-45c9-af8e-1e3349c2abc1.66a2c0b9-4a0a-4ec6-aef3-21cd393a6f64",
+    "price": 89.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 396,
+    "tags": [
+      "MultiPlayer"
+    ],
+    "title": "The Elder Scrolls Online Deluxe Collection: Necrom",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N4PQN0ZH3LF"
   },
   "9N4RZW1MSGDQ": {
     "actions": [
@@ -9437,6 +10346,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Simulation",
@@ -9470,6 +10380,7 @@ var GAME = {
     "price": 13.39,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Role playing",
@@ -9505,6 +10416,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Role playing",
@@ -9539,6 +10451,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 128,
     "tags": [
       "Family",
       "Music",
@@ -9550,6 +10463,44 @@ var GAME = {
     "title": "Taiko no Tatsujin: The Drum Master!",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N4V8K7Z5RRG"
+  },
+  "9N4VN4TTZW9L": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "RayTracing",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblClubs",
+      "XblLocalCoop",
+      "XblOnlineCoop",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N4VN4TTZW9L",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N4VN4TTZW9L",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.34741.13979868870348147.8ecbeec8-deeb-46af-8803-a1338a261dbd.b5a525dd-d52b-43b9-b741-265955857b61",
+    "price": 99.99,
+    "rate": 4.1,
+    "requiresGame": false,
+    "reviews": 14,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "The Dark Pictures Anthology: Season One",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N4VN4TTZW9L"
   },
   "9N4WNGSGQKLK": {
     "actions": [
@@ -9573,6 +10524,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -9606,6 +10558,7 @@ var GAME = {
     "price": 17.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -9641,6 +10594,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -9672,6 +10626,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -9706,6 +10661,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Simulation",
       "Strategy",
@@ -9737,6 +10693,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 69,
     "tags": [
       "Action",
       "Role playing",
@@ -9768,6 +10725,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -9775,6 +10733,38 @@ var GAME = {
     "title": "RE:CALL",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N52H7CN3FR1"
+  },
+  "9N52LMB298BX": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N52LMB298BX",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N52LMB298BX",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.52710.13975931014734887.9eaa103c-aac4-41cf-a891-a3194ba1cc23.6b3410c0-4077-49a3-8e33-e425f2ed8db0",
+    "price": 84.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Reserva SWORD ART ONLINE Last Recollection Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N52LMB298BX"
   },
   "9N52LRVRFGD7": {
     "actions": [
@@ -9799,6 +10789,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -9836,6 +10827,7 @@ var GAME = {
     "price": 44.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -9868,6 +10860,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Action",
       "Role playing",
@@ -9878,6 +10871,32 @@ var GAME = {
     "title": "DEMON'S TILT",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N5344N0TFR7"
+  },
+  "9N54CX9XJBP6": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N54CX9XJBP6",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N54CX9XJBP6",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.64394.13975040199706147.0c601c19-b296-417a-8a4e-52c0d5104260.a1a44dc7-2b4a-4137-b3cd-628dc1ce967d",
+    "price": 199.99,
+    "rate": 4.3,
+    "requiresGame": false,
+    "reviews": 29753,
+    "tags": [],
+    "title": "Paquete de ediciones Premium de Forza Horizon 4 y Forza Horizon 5",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N54CX9XJBP6"
   },
   "9N54K31CFGC1": {
     "actions": [
@@ -9899,6 +10918,7 @@ var GAME = {
     "price": 53.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -9929,6 +10949,7 @@ var GAME = {
     "price": 39.99,
     "rate": 1.0,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -9959,6 +10980,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "Action",
@@ -9992,6 +11014,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Shooter",
       "Strategy",
@@ -10028,6 +11051,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -10060,6 +11084,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -10090,6 +11115,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -10097,6 +11123,42 @@ var GAME = {
     "title": "Wavetale",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N5CWNHPNQJ6"
+  },
+  "9N5D4NT9DJCQ": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N5D4NT9DJCQ",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N5D4NT9DJCQ",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.5461.14035646862614231.dda281f5-bc7a-439d-b581-2f4b5ae2c13b.992dc4d4-f9cc-494e-8d7a-e8b553dff2e6",
+    "price": 89.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "HOT WHEELS UNLEASHED\u2122 2 - Turbocharged - Legendary Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N5D4NT9DJCQ"
   },
   "9N5DFXF075DZ": {
     "actions": [
@@ -10125,6 +11187,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -10156,6 +11219,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -10191,6 +11255,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -10221,6 +11286,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -10251,6 +11317,7 @@ var GAME = {
     "price": 26.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "SinglePlayer"
     ],
@@ -10278,6 +11345,7 @@ var GAME = {
     "price": 33.49,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -10309,6 +11377,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 66,
     "tags": [
       "Action",
       "Role playing",
@@ -10347,6 +11416,7 @@ var GAME = {
     "price": 74.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -10381,6 +11451,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Action",
@@ -10414,6 +11485,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Puzzle",
       "Family",
@@ -10446,6 +11518,7 @@ var GAME = {
     "price": 20.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "MultiPlayer"
     ],
@@ -10479,6 +11552,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -10511,6 +11585,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Forza Motorsport Premium Add-Ons Bundle",
     "trial": false,
@@ -10540,6 +11615,7 @@ var GAME = {
     "price": 59.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -10572,6 +11648,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action",
       "Shooter",
@@ -10607,6 +11684,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Role playing",
@@ -10639,6 +11717,7 @@ var GAME = {
     "price": 14.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -10672,6 +11751,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Classics",
@@ -10707,6 +11787,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 60,
     "tags": [
       "MultiPlayer"
     ],
@@ -10736,6 +11817,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "MultiPlayer"
     ],
@@ -10770,6 +11852,7 @@ var GAME = {
     "price": 8.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -10805,6 +11888,7 @@ var GAME = {
     "price": 7.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -10837,6 +11921,7 @@ var GAME = {
     "price": 9.89,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -10868,6 +11953,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -10901,6 +11987,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -10938,6 +12025,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 142,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -10968,6 +12056,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 73,
     "tags": [
       "Racing & flying"
     ],
@@ -10998,6 +12087,7 @@ var GAME = {
     "price": 21.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -11029,6 +12119,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -11059,6 +12150,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Fighting"
     ],
@@ -11096,6 +12188,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -11130,6 +12223,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -11165,6 +12259,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Simulation",
       "Sports",
@@ -11200,6 +12295,7 @@ var GAME = {
     "price": 20.09,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -11233,6 +12329,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action",
       "Shooter",
@@ -11241,6 +12338,43 @@ var GAME = {
     "title": "Hotline Miami Collection",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N69G2L33Z7S"
+  },
+  "9N69TLHB90L9": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "SpatialSound",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N69TLHB90L9",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N69TLHB90L9",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.59659.14017405861674106.a2dc56c4-26f6-4053-bb00-29797a2a58a6.0481234d-8afd-4655-8ed2-cee94a9d3fdb",
+    "price": 94.99,
+    "rate": 3.1,
+    "requiresGame": false,
+    "reviews": 3,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "EA SPORTS\u2122 PGA TOUR\u2122 Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N69TLHB90L9"
   },
   "9N6C6J7C3GTQ": {
     "actions": [
@@ -11265,6 +12399,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Platformer",
       "Action",
@@ -11296,6 +12431,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -11327,6 +12463,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -11360,6 +12497,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -11393,6 +12531,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -11428,6 +12567,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -11465,6 +12605,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Fighting",
@@ -11499,6 +12640,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -11529,6 +12671,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -11560,6 +12703,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Platformer",
@@ -11600,6 +12744,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -11631,6 +12776,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Action",
       "Platformer",
@@ -11639,6 +12785,34 @@ var GAME = {
     "title": "Olija",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N6PB00DXQ7H"
+  },
+  "9N6Q97VF35KW": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XblClubs",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N6Q97VF35KW",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N6Q97VF35KW",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.38711.14009233261709698.3131d3cd-1e38-4097-9eaa-04a1e63ab4af.83ff8f5f-e886-44be-8502-94997fbff11a",
+    "price": 89.99,
+    "rate": 3.7,
+    "requiresGame": false,
+    "reviews": 64,
+    "tags": [],
+    "title": "The Crew\u00ae 2 Gold Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N6Q97VF35KW"
   },
   "9N6QGMLTG2B4": {
     "actions": [
@@ -11660,6 +12834,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 124,
     "tags": [],
     "title": "PSO2:NGS - Sonic Collab: Suits/C-Space Edition",
     "trial": false,
@@ -11689,6 +12864,7 @@ var GAME = {
     "price": 23.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 86,
     "tags": [
       "SinglePlayer"
     ],
@@ -11720,6 +12896,7 @@ var GAME = {
     "price": 22.39,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -11751,6 +12928,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Shooter",
@@ -11784,6 +12962,7 @@ var GAME = {
     "price": 3.89,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 154,
     "tags": [
       "Action",
       "Family",
@@ -11817,6 +12996,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Platformer",
@@ -11857,6 +13037,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 805,
     "tags": [
       "Family",
       "LocalMultiPlayer",
@@ -11888,6 +13069,7 @@ var GAME = {
     "price": 35.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -11921,6 +13103,7 @@ var GAME = {
     "price": 89.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -11952,6 +13135,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -11982,6 +13166,7 @@ var GAME = {
     "price": 3.29,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -12014,6 +13199,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Music",
@@ -12048,6 +13234,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -12077,6 +13264,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1083,
     "tags": [
       "SinglePlayer"
     ],
@@ -12121,6 +13309,7 @@ var GAME = {
     "price": 79.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -12165,6 +13354,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 106,
     "tags": [
       "Action",
       "Fighting",
@@ -12202,6 +13392,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Role playing",
@@ -12238,6 +13429,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -12267,6 +13459,7 @@ var GAME = {
     "price": 64.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "SinglePlayer"
     ],
@@ -12297,6 +13490,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -12334,6 +13528,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 156,
     "tags": [
       "Action",
       "Fighting",
@@ -12365,6 +13560,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -12400,6 +13596,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 411,
     "tags": [
       "Action",
       "Classics",
@@ -12437,6 +13634,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -12477,6 +13675,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 70,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -12509,6 +13708,7 @@ var GAME = {
     "price": 13.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -12541,6 +13741,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -12577,6 +13778,7 @@ var GAME = {
     "price": 6.24,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -12609,6 +13811,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -12641,6 +13844,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Cards",
       "Strategy",
@@ -12677,6 +13881,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Classics",
       "Shooter",
@@ -12713,6 +13918,7 @@ var GAME = {
     "price": 5.24,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -12747,6 +13953,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Action",
       "Family",
@@ -12781,6 +13988,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "Platformer",
@@ -12812,6 +14020,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "GamePass"
@@ -12843,6 +14052,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "Fighting",
@@ -12880,6 +14090,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -12916,6 +14127,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -12952,6 +14164,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Role playing",
       "Action",
@@ -12987,6 +14200,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -13016,6 +14230,7 @@ var GAME = {
     "price": 34.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -13047,6 +14262,7 @@ var GAME = {
     "price": 8.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Educational",
       "Family",
@@ -13081,6 +14297,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -13113,6 +14330,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -13144,6 +14362,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -13175,6 +14394,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -13210,6 +14430,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -13240,6 +14461,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -13273,6 +14495,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Platformer",
       "Family",
@@ -13317,6 +14540,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 715,
     "tags": [
       "Action",
       "Platformer",
@@ -13352,12 +14576,43 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "MultiPlayer"
     ],
     "title": "World of Warships: Legends \u2013 F\u00e9nix de la suerte",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N8GK34GSDWZ"
+  },
+  "9N8HNB1BSNJH": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "XblAchievements",
+      "XblClubs",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N8HNB1BSNJH",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N8HNB1BSNJH",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.19056.13817400022230876.ddda4ae3-d1e1-4cd5-b2fb-a308cdf34238.8c0e28ce-b219-4231-bf37-55afcc23e566",
+    "price": 84.99,
+    "rate": 4.7,
+    "requiresGame": false,
+    "reviews": 4,
+    "tags": [],
+    "title": "STAR OCEAN THE DIVINE FORCE DIGITAL DELUXE EDITION",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N8HNB1BSNJH"
   },
   "9N8HXSLXQS4V": {
     "actions": [
@@ -13384,6 +14639,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Classics",
@@ -13417,6 +14673,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -13451,6 +14708,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "MOBA",
@@ -13490,6 +14748,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -13526,6 +14785,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 100,
     "tags": [
       "Action",
       "Role playing",
@@ -13560,6 +14820,7 @@ var GAME = {
     "price": 17.49,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -13591,6 +14852,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "Shooter",
@@ -13600,6 +14862,38 @@ var GAME = {
     "title": "Darwin Project",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9N8Q2DKWVLNX"
+  },
+  "9N8V7M317PZH": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "CapabilityHDR",
+      "DolbyAtmos",
+      "RayTracing",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9N8V7M317PZH",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9N8V7M317PZH",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.11093.14042389929912806.b343d8c7-06e7-4fa3-9035-714c0b196373.8df634c9-dbd4-4b9e-ada6-9523e7200439",
+    "price": 99.99,
+    "rate": 4.1,
+    "requiresGame": false,
+    "reviews": 38,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "STAR WARS Jedi: Survivor\u2122 Edici\u00f3n Deluxe",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9N8V7M317PZH"
   },
   "9N8VDJ5XX7JP": {
     "actions": [
@@ -13625,6 +14919,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -13659,6 +14954,7 @@ var GAME = {
     "price": 8.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Family",
@@ -13693,6 +14989,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Platformer",
       "SinglePlayer",
@@ -13726,6 +15023,7 @@ var GAME = {
     "price": 79.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 103,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -13759,6 +15057,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -13801,6 +15100,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -13836,6 +15136,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Classics",
       "Shooter",
@@ -13868,6 +15169,7 @@ var GAME = {
     "price": 17.49,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -13910,6 +15212,7 @@ var GAME = {
     "price": 41.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Sports",
       "Family",
@@ -13945,6 +15248,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 168,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -13977,6 +15281,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 78,
     "tags": [
       "Action",
       "Family",
@@ -14013,6 +15318,7 @@ var GAME = {
     "price": 13.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Platformer",
@@ -14049,6 +15355,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Action",
@@ -14084,6 +15391,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Cards",
       "Simulation",
@@ -14127,6 +15435,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "Sports",
@@ -14163,6 +15472,7 @@ var GAME = {
     "price": 33.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -14194,6 +15504,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Classics",
@@ -14231,6 +15542,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -14272,6 +15584,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 137,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -14307,6 +15620,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -14342,6 +15656,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -14380,6 +15695,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "SinglePlayer",
       "MultiPlayer",
@@ -14411,6 +15727,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Racing & flying",
@@ -14443,6 +15760,7 @@ var GAME = {
     "price": 22.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -14477,6 +15795,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -14509,6 +15828,7 @@ var GAME = {
     "price": 4.89,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Simulation",
@@ -14544,6 +15864,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -14573,6 +15894,7 @@ var GAME = {
     "price": 10.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -14605,6 +15927,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 108,
     "tags": [
       "Action",
       "Role playing",
@@ -14639,6 +15962,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 110,
     "tags": [
       "Action",
       "Platformer",
@@ -14676,6 +16000,7 @@ var GAME = {
     "price": 25.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -14718,6 +16043,7 @@ var GAME = {
     "price": 69.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 387,
     "tags": [
       "Action",
       "Role playing",
@@ -14754,6 +16080,7 @@ var GAME = {
     "price": 26.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 483,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -14787,6 +16114,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Role playing",
@@ -14823,6 +16151,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "SinglePlayer"
     ],
@@ -14853,6 +16182,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Shooter",
       "LocalMultiPlayer"
@@ -14884,6 +16214,7 @@ var GAME = {
     "price": 8.74,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -14919,6 +16250,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Role playing",
@@ -14952,6 +16284,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Platformer",
       "Classics",
@@ -14983,6 +16316,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -15015,6 +16349,7 @@ var GAME = {
     "price": 11.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Shooter",
       "Simulation",
@@ -15050,6 +16385,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Fighting",
@@ -15087,6 +16423,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -15120,6 +16457,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -15155,6 +16493,7 @@ var GAME = {
     "price": 6.44,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -15187,6 +16526,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Platformer",
@@ -15219,6 +16559,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -15249,6 +16590,7 @@ var GAME = {
     "price": 9.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -15281,6 +16623,7 @@ var GAME = {
     "price": 14.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -15315,6 +16658,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "Role playing",
@@ -15351,6 +16695,7 @@ var GAME = {
     "price": 26.24,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -15389,6 +16734,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 99,
     "tags": [
       "SinglePlayer",
       "MultiPlayer",
@@ -15423,6 +16769,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -15456,6 +16803,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 90,
     "tags": [
       "Action",
       "Platformer",
@@ -15487,6 +16835,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -15521,6 +16870,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 551,
     "tags": [
       "Action",
       "GamePass"
@@ -15555,6 +16905,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Sports",
@@ -15585,6 +16936,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 62,
     "tags": [
       "Action"
     ],
@@ -15611,6 +16963,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Platformer"
     ],
@@ -15653,6 +17006,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 4326,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -15689,6 +17043,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "Action",
       "Racing & flying",
@@ -15718,6 +17073,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 591,
     "tags": [
       "Role playing",
       "Simulation",
@@ -15746,6 +17102,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action"
     ],
@@ -15775,6 +17132,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Action",
       "Platformer",
@@ -15808,6 +17166,7 @@ var GAME = {
     "price": 23.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -15833,6 +17192,7 @@ var GAME = {
     "price": 0.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter"
     ],
@@ -15864,6 +17224,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -15900,6 +17261,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 421,
     "tags": [
       "Action",
       "Platformer",
@@ -15934,6 +17296,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Simulation",
       "Strategy",
@@ -15970,6 +17333,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Role playing",
@@ -16008,12 +17372,50 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 430,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Lote de Cyberpunk 2077 y Phantom Liberty",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NBSQ40B01HJ"
+  },
+  "9NBSSCJFC7R7": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblCrossPlatformMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NBSSCJFC7R7",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NBSSCJFC7R7",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.14012.13577083362163818.1f37febc-f04a-435c-b251-422bd39c8075.1b605f74-73c7-4d55-a6fd-2f308fa0f71e",
+    "price": 89.99,
+    "rate": 2.9,
+    "requiresGame": false,
+    "reviews": 93,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Need for Speed\u2122 Unbound Palace Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NBSSCJFC7R7"
   },
   "9NBT669VWMK3": {
     "actions": [
@@ -16037,6 +17439,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -16071,6 +17474,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -16106,6 +17510,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Simulation",
@@ -16141,6 +17546,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -16174,6 +17580,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 89,
     "tags": [
       "SinglePlayer"
     ],
@@ -16208,6 +17615,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "SinglePlayer",
       "MultiPlayer",
@@ -16239,6 +17647,7 @@ var GAME = {
     "price": 4.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -16273,6 +17682,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Platformer",
       "Shooter",
@@ -16307,6 +17717,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -16346,6 +17757,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -16385,6 +17797,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 139,
     "tags": [
       "MultiPlayer"
     ],
@@ -16415,6 +17828,7 @@ var GAME = {
     "price": 18.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -16447,6 +17861,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -16481,6 +17896,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -16513,6 +17929,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -16545,6 +17962,7 @@ var GAME = {
     "price": 3.49,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -16581,6 +17999,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Racing & flying",
       "SinglePlayer",
@@ -16615,6 +18034,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Shooter",
@@ -16649,6 +18069,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -16681,6 +18102,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -16711,6 +18133,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -16743,6 +18166,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Puzzle",
@@ -16775,6 +18199,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "Puzzle",
@@ -16808,6 +18233,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -16838,6 +18264,7 @@ var GAME = {
     "price": 6.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -16871,6 +18298,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -16901,6 +18329,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Educational",
@@ -16937,6 +18366,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 78,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -16969,6 +18399,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -17006,6 +18437,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 114,
     "tags": [
       "Cards",
       "Strategy",
@@ -17037,6 +18469,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -17069,6 +18502,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -17100,6 +18534,7 @@ var GAME = {
     "price": 10.39,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -17131,6 +18566,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -17164,6 +18600,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -17199,6 +18636,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -17231,6 +18669,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -17261,6 +18700,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -17294,6 +18734,7 @@ var GAME = {
     "price": 4.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -17334,6 +18775,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 436,
     "tags": [
       "Action",
       "Role playing",
@@ -17375,6 +18817,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -17411,6 +18854,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Music",
       "Platformer",
@@ -17445,6 +18889,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -17476,6 +18921,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "SinglePlayer"
     ],
@@ -17508,6 +18954,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Simulation",
@@ -17540,6 +18987,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -17572,6 +19020,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Simulation",
       "Strategy",
@@ -17607,6 +19056,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -17641,6 +19091,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 50,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -17682,6 +19133,7 @@ var GAME = {
     "price": 69.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 104,
     "tags": [
       "Simulation",
       "Sports",
@@ -17719,6 +19171,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "Classics",
@@ -17752,6 +19205,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "Puzzle",
@@ -17785,6 +19239,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Simulation",
       "Strategy",
@@ -17822,6 +19277,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -17852,6 +19308,7 @@ var GAME = {
     "price": 35.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -17885,6 +19342,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 130,
     "tags": [
       "Family",
       "SinglePlayer",
@@ -17916,6 +19374,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -17948,6 +19407,7 @@ var GAME = {
     "price": 11.24,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "Strategy",
@@ -17977,6 +19437,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -18010,6 +19471,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action",
       "Family",
@@ -18044,6 +19506,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -18080,6 +19543,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Action",
       "Role playing",
@@ -18114,6 +19578,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Family",
       "Platformer",
@@ -18153,6 +19618,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Music",
@@ -18191,6 +19657,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Family",
@@ -18226,6 +19693,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 127,
     "tags": [
       "Action",
       "GamePass"
@@ -18260,6 +19728,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Puzzle",
@@ -18293,6 +19762,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -18332,6 +19802,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Action",
       "Strategy",
@@ -18367,6 +19838,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -18398,6 +19870,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -18431,6 +19904,7 @@ var GAME = {
     "price": 5.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "SinglePlayer"
     ],
@@ -18464,6 +19938,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Family",
@@ -18499,6 +19974,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -18533,6 +20009,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Role playing",
@@ -18566,6 +20043,7 @@ var GAME = {
     "price": 2.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -18598,6 +20076,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Simulation",
@@ -18631,6 +20110,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -18663,6 +20143,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Strategy",
@@ -18693,6 +20174,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 211,
     "tags": [
       "SinglePlayer",
       "GamePass"
@@ -18724,6 +20206,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -18756,6 +20239,7 @@ var GAME = {
     "price": 22.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -18789,6 +20273,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -18822,6 +20307,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -18853,6 +20339,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Classics",
       "Shooter",
@@ -18884,6 +20371,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Strategy",
@@ -18922,6 +20410,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Family",
       "Simulation",
@@ -18955,6 +20444,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -18989,6 +20479,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Shooter",
@@ -19024,6 +20515,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -19033,6 +20525,92 @@ var GAME = {
     "title": "Petite Adventure",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NFQQGDML0WP"
+  },
+  "9NFSKMKBZP2B": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "DolbyAtmos",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "SpatialSound",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XblPresence",
+      "XboxLive",
+      "XboxLiveCrossGenMP"
+    ],
+    "gamepass": false,
+    "id": "9NFSKMKBZP2B",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NFSKMKBZP2B",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.37517.13616217073784636.1d7c368f-039f-4d78-b0ea-aca6ed645867.1c6f1103-6480-4111-b73e-162156fb56cb",
+    "price": 109.99,
+    "rate": 3.1,
+    "requiresGame": false,
+    "reviews": 203,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Call of Duty\u00ae: Modern Warfare\u00ae II - Edici\u00f3n de Archivo",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NFSKMKBZP2B"
+  },
+  "9NFSPW7BLH9R": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NFSPW7BLH9R",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NFSPW7BLH9R",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.64373.14411145056006361.61ed9f35-3bd8-47e2-ab6a-954337ecb823.aca69269-567c-4456-b55c-a802d969282e",
+    "price": 109.99,
+    "rate": 2.8,
+    "requiresGame": false,
+    "reviews": 64,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Diablo\u00ae IV - Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NFSPW7BLH9R"
   },
   "9NFSR96G6K4N": {
     "actions": [
@@ -19061,6 +20639,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 6019,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -19091,6 +20670,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer",
@@ -19130,6 +20710,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 656,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -19158,6 +20739,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -19190,6 +20772,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -19225,6 +20808,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -19264,6 +20848,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 127,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -19292,6 +20877,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -19331,6 +20917,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 131,
     "tags": [
       "Action",
       "Role playing",
@@ -19367,6 +20954,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Fighting",
@@ -19404,6 +20992,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 223,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -19442,6 +21031,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Simulation",
@@ -19475,6 +21065,7 @@ var GAME = {
     "price": 4.99,
     "rate": 1.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -19506,6 +21097,7 @@ var GAME = {
     "price": 69.99,
     "rate": 1.6,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -19540,6 +21132,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Role playing",
@@ -19574,6 +21167,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 214,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -19604,6 +21198,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -19634,6 +21229,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -19663,12 +21259,46 @@ var GAME = {
     "price": 36.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Kao the Kangaroo: Anniversary Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NGCPDC7XD28"
+  },
+  "9NGD7FMC4SMX": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NGD7FMC4SMX",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NGD7FMC4SMX",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.23141.13647573782274497.3905cad4-aaa8-40d4-aa37-4fc037b63ea9.39c0f56c-3605-4a38-83ab-4bf16c34b576",
+    "price": 99.99,
+    "rate": 5.0,
+    "requiresGame": false,
+    "reviews": 56,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "SnowRunner - 3-Year Anniversary Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NGD7FMC4SMX"
   },
   "9NGDLSC2W857": {
     "actions": [
@@ -19694,6 +21324,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 6292,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -19726,6 +21357,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 131,
     "tags": [
       "Action",
       "Music",
@@ -19756,6 +21388,7 @@ var GAME = {
     "price": 32.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "SinglePlayer"
     ],
@@ -19787,6 +21420,7 @@ var GAME = {
     "price": 54.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -19816,6 +21450,7 @@ var GAME = {
     "price": 34.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4381,
     "tags": [
       "MultiPlayer"
     ],
@@ -19843,6 +21478,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -19872,6 +21508,7 @@ var GAME = {
     "price": 5.24,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Classics",
@@ -19905,6 +21542,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -19938,6 +21576,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -19972,6 +21611,7 @@ var GAME = {
     "price": 44.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Simulation",
       "Strategy"
@@ -20003,6 +21643,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -20036,6 +21677,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -20065,6 +21707,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "SinglePlayer"
     ],
@@ -20099,6 +21742,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -20135,6 +21779,7 @@ var GAME = {
     "price": 1.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -20170,6 +21815,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 223,
     "tags": [
       "Action",
       "Shooter",
@@ -20205,6 +21851,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -20239,6 +21886,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -20248,6 +21896,48 @@ var GAME = {
     "title": "STRIKERS 1945 II",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NH038ZN4PMV"
+  },
+  "9NH0692FHFJQ": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "DTSX",
+      "DolbyAtmos",
+      "SinglePlayer",
+      "SpatialSound",
+      "XblClubs",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NH0692FHFJQ",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NH0692FHFJQ",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.16655.13635856794979045.d4f07b3e-449f-40ad-99ba-e6b66a9a73a3.a5c0adbd-3785-4c5d-a607-b801f2ca539e",
+    "price": 99.99,
+    "rate": 3.4,
+    "requiresGame": false,
+    "reviews": 27,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Edici\u00f3n Karakuri de WILD HEARTS\u2122",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NH0692FHFJQ"
   },
   "9NH0JJGR3Z6N": {
     "actions": [
@@ -20272,6 +21962,7 @@ var GAME = {
     "price": 5.24,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Role playing",
@@ -20304,6 +21995,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -20342,6 +22034,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 111,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -20373,6 +22066,7 @@ var GAME = {
     "price": 14.49,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -20403,6 +22097,7 @@ var GAME = {
     "price": 8.74,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 78,
     "tags": [
       "Action",
       "Platformer",
@@ -20439,6 +22134,7 @@ var GAME = {
     "price": 22.49,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -20448,6 +22144,38 @@ var GAME = {
     "title": "Meet Your Maker",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NH31NZ46729"
+  },
+  "9NH3JQ8CMQSK": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "RayTracing",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NH3JQ8CMQSK",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NH3JQ8CMQSK",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.21630.13638059319637814.3417d12f-dc9b-400b-9116-4479323bdf2c.827ac969-3d3e-48d2-b7e2-1199594ae3b8",
+    "price": 89.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Immortals of Aveum\u2122 Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NH3JQ8CMQSK"
   },
   "9NH3QTH5N007": {
     "actions": [
@@ -20472,6 +22200,7 @@ var GAME = {
     "price": 35.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -20504,6 +22233,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 198,
     "tags": [
       "Family",
       "Puzzle",
@@ -20538,6 +22268,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -20565,6 +22296,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -20599,6 +22331,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 180,
     "tags": [
       "Action",
       "Role playing",
@@ -20608,6 +22341,43 @@ var GAME = {
     "title": "Ravenlok",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NH88HNTGNDZ"
+  },
+  "9NH8N0M7CWLN": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblClubs",
+      "XblOnlineMultiPlayer",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NH8N0M7CWLN",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NH8N0M7CWLN",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.57274.13630274674230323.ef522ebd-e0ea-449e-b0c8-3271887caa67.2e92ae62-cd3e-458f-a8f8-3927865645e2",
+    "price": 89.99,
+    "rate": 3.6,
+    "requiresGame": false,
+    "reviews": 1004,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Microsoft Flight Simulator Deluxe 40th Anniversary Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NH8N0M7CWLN"
   },
   "9NHB8VWG6G5J": {
     "actions": [
@@ -20629,6 +22399,7 @@ var GAME = {
     "price": 44.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "SinglePlayer"
     ],
@@ -20661,6 +22432,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -20695,6 +22467,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -20733,6 +22506,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 86,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -20766,6 +22540,7 @@ var GAME = {
     "price": 38.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -20804,6 +22579,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 127,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -20845,6 +22621,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 498,
     "tags": [
       "Action",
       "Shooter",
@@ -20879,6 +22656,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -20913,6 +22691,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "Role playing",
@@ -20948,6 +22727,7 @@ var GAME = {
     "price": 4.19,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Role playing",
@@ -20980,6 +22760,7 @@ var GAME = {
     "price": 34.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -21010,6 +22791,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Racing & flying",
       "Sports",
@@ -21045,6 +22827,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -21084,6 +22867,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Fighting",
       "Simulation",
@@ -21119,6 +22903,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -21147,6 +22932,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "SinglePlayer"
     ],
@@ -21178,6 +22964,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -21209,6 +22996,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -21234,6 +23022,7 @@ var GAME = {
     "price": 0.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer"
@@ -21262,6 +23051,7 @@ var GAME = {
     "price": 79.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 436,
     "tags": [
       "SinglePlayer"
     ],
@@ -21292,6 +23082,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Educational",
@@ -21323,6 +23114,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -21355,6 +23147,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -21387,6 +23180,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -21418,6 +23212,7 @@ var GAME = {
     "price": 2.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "Family",
@@ -21450,6 +23245,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 94,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -21483,6 +23279,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 163,
     "tags": [
       "Action",
       "Role playing",
@@ -21525,6 +23322,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -21559,6 +23357,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -21592,6 +23391,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -21624,6 +23424,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "MultiPlayer",
       "Free"
@@ -21657,6 +23458,7 @@ var GAME = {
     "price": 47.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 95,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -21690,6 +23492,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 94,
     "tags": [
       "Action",
       "Racing & flying",
@@ -21726,6 +23529,7 @@ var GAME = {
     "price": 6.49,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Sports",
@@ -21760,6 +23564,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -21795,6 +23600,7 @@ var GAME = {
     "price": 4.24,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Platformer",
@@ -21829,6 +23635,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -21860,6 +23667,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "SinglePlayer"
@@ -21893,6 +23701,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Racing & flying",
@@ -21929,6 +23738,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 479,
     "tags": [
       "Platformer",
       "SinglePlayer",
@@ -21964,6 +23774,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -21995,6 +23806,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -22023,6 +23835,7 @@ var GAME = {
     "price": 48.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Super Mega Baseball\u2122 4 Ballpark Edition",
     "trial": false,
@@ -22055,6 +23868,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Family",
@@ -22092,6 +23906,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -22123,6 +23938,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -22156,6 +23972,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -22188,6 +24005,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -22222,6 +24040,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Role playing",
@@ -22253,6 +24072,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -22284,6 +24104,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -22292,6 +24113,46 @@ var GAME = {
     "title": "Century: Age of Ashes - Frost Heir Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NK53Q901G9P"
+  },
+  "9NK6X8JHTQSS": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NK6X8JHTQSS",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NK6X8JHTQSS",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.51638.13662065475218063.34063d08-8b45-4ed3-bab5-137253b2b61a.8d2b792d-3cff-442e-a18f-d967325ffb7a",
+    "price": 99.99,
+    "rate": 4.2,
+    "requiresGame": false,
+    "reviews": 100,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Borderlands 3: Edici\u00f3n Definitiva",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NK6X8JHTQSS"
   },
   "9NK7HNCG0R8D": {
     "actions": [
@@ -22319,6 +24180,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 73,
     "tags": [
       "Action",
       "Platformer",
@@ -22354,6 +24216,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action",
       "Shooter",
@@ -22390,6 +24253,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 67,
     "tags": [
       "MultiPlayer"
     ],
@@ -22421,6 +24285,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -22451,6 +24316,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -22483,6 +24349,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -22515,6 +24382,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 101,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -22546,6 +24414,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 127,
     "tags": [
       "SinglePlayer"
     ],
@@ -22580,6 +24449,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Shooter",
@@ -22614,6 +24484,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Educational",
@@ -22648,6 +24519,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Strategy",
@@ -22679,6 +24551,7 @@ var GAME = {
     "price": 21.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -22711,6 +24584,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -22745,6 +24619,7 @@ var GAME = {
     "price": 4.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 81,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -22774,6 +24649,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action"
     ],
@@ -22805,6 +24681,7 @@ var GAME = {
     "price": 9.74,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -22833,6 +24710,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -22869,6 +24747,7 @@ var GAME = {
     "price": 24.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Simulation",
       "Sports",
@@ -22902,6 +24781,7 @@ var GAME = {
     "price": 35.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "SinglePlayer"
     ],
@@ -22926,6 +24806,7 @@ var GAME = {
     "price": 0.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer"
@@ -22959,6 +24840,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 1729,
     "tags": [
       "MultiPlayer",
       "GamePass"
@@ -22990,6 +24872,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -23018,6 +24901,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer"
@@ -23050,6 +24934,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -23082,6 +24967,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Simulation",
@@ -23112,6 +24998,7 @@ var GAME = {
     "price": 54.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -23144,6 +25031,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 572,
     "tags": [
       "Action",
       "Shooter",
@@ -23176,6 +25064,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -23212,6 +25101,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "Role playing",
@@ -23243,6 +25133,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 313,
     "tags": [
       "MultiPlayer"
     ],
@@ -23276,6 +25167,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -23310,6 +25202,7 @@ var GAME = {
     "price": 24.99,
     "rate": 1.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -23345,6 +25238,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Sports",
       "Simulation",
@@ -23375,6 +25269,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -23405,6 +25300,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -23443,6 +25339,7 @@ var GAME = {
     "price": 74.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "SinglePlayer",
       "MultiPlayer",
@@ -23478,6 +25375,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -23487,6 +25385,36 @@ var GAME = {
     "title": "Construction Simulator",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NLFZVMSQ7CC"
+  },
+  "9NLGBHLSWXM8": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NLGBHLSWXM8",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NLGBHLSWXM8",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.35303.13712287846761789.1652a012-acec-4b90-ac85-1c1bcf092962.d620a085-fe66-4c15-82ec-afe56df0032b",
+    "price": 109.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Starfield Premium Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NLGBHLSWXM8"
   },
   "9NLHWTCWLKGX": {
     "actions": [
@@ -23511,6 +25439,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -23547,6 +25476,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Puzzle",
       "Action",
@@ -23582,6 +25512,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -23617,6 +25548,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -23648,6 +25580,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 181,
     "tags": [
       "Action",
       "Role playing",
@@ -23682,6 +25615,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -23714,6 +25648,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 63,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -23745,6 +25680,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Family",
       "Simulation",
@@ -23778,6 +25714,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 308,
     "tags": [
       "Action",
       "GamePass"
@@ -23805,6 +25742,7 @@ var GAME = {
     "price": 13.74,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 67,
     "tags": [],
     "title": "Surviving the Aftermath: Ultimate Colony Edition",
     "trial": false,
@@ -23836,6 +25774,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Shooter",
       "Action",
@@ -23873,6 +25812,7 @@ var GAME = {
     "price": 6.29,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Family",
@@ -23906,6 +25846,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -23937,6 +25878,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -23945,6 +25887,46 @@ var GAME = {
     "title": "The Entropy Centre",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NLTMM4KTQRM"
+  },
+  "9NLTSH03F6BV": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NLTSH03F6BV",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NLTSH03F6BV",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.35847.13700710618941185.fc859d4b-12a6-47e1-8c7b-cd88b347bedc.40bb7348-f790-4f93-b75b-bcc2a804329b",
+    "price": 99.99,
+    "rate": 3.4,
+    "requiresGame": false,
+    "reviews": 1,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "LEGO\u00ae 2K Drive Edici\u00f3n Alucinante",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NLTSH03F6BV"
   },
   "9NLV3X229LG1": {
     "actions": [
@@ -23974,6 +25956,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Simulation",
@@ -24011,6 +25994,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -24046,6 +26030,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -24080,6 +26065,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Role playing",
       "GamePass"
@@ -24115,6 +26101,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -24150,6 +26137,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -24186,6 +26174,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Action",
@@ -24222,6 +26211,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 433,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -24255,6 +26245,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -24289,6 +26280,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Role playing",
@@ -24320,6 +26312,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -24356,6 +26349,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -24390,6 +26384,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -24427,6 +26422,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Simulation",
       "LocalMultiPlayer",
@@ -24460,6 +26456,7 @@ var GAME = {
     "price": 59.98,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Action",
       "Role playing",
@@ -24490,6 +26487,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 79,
     "tags": [
       "Action",
       "GamePass"
@@ -24525,6 +26523,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 130,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer",
@@ -24556,6 +26555,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 80,
     "tags": [
       "MultiPlayer"
     ],
@@ -24585,6 +26585,7 @@ var GAME = {
     "price": 4.54,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Platformer",
@@ -24615,6 +26616,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 78,
     "tags": [
       "SinglePlayer"
     ],
@@ -24644,6 +26646,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "LocalMultiPlayer",
@@ -24680,6 +26683,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -24716,6 +26720,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -24747,6 +26752,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -24785,6 +26791,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -24817,6 +26824,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 183,
     "tags": [
       "Action",
       "Strategy",
@@ -24825,6 +26833,36 @@ var GAME = {
     "title": "Mutant Year Zero: Road to Eden",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NMP9B9KMKLF"
+  },
+  "9NMQ4H43DJPH": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NMQ4H43DJPH",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NMQ4H43DJPH",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.65123.13753733217119410.73ef4c96-306c-40d6-a63f-7c1dcd37389d.e65b68d0-e86b-43dc-8af0-10ffab2ab238",
+    "price": 119.99,
+    "rate": 4.5,
+    "requiresGame": false,
+    "reviews": 157,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "DRAGON BALL Z: KAKAROT Legendary Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NMQ4H43DJPH"
   },
   "9NMTZWKL8CGM": {
     "actions": [
@@ -24847,6 +26885,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -24878,6 +26917,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -24908,6 +26948,7 @@ var GAME = {
     "price": 7.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Cards",
       "Classics",
@@ -24943,6 +26984,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -24977,6 +27019,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 118,
     "tags": [
       "Action",
       "Racing & flying",
@@ -25010,6 +27053,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -25046,6 +27090,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 2705,
     "tags": [
       "SinglePlayer",
       "GamePass"
@@ -25073,6 +27118,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action"
     ],
@@ -25105,6 +27151,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -25138,6 +27185,7 @@ var GAME = {
     "price": 24.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -25169,6 +27217,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -25200,6 +27249,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -25233,6 +27283,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "MultiPlayer",
       "Free"
@@ -25263,6 +27314,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer"
     ],
@@ -25292,6 +27344,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -25326,6 +27379,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "GamePass"
     ],
@@ -25360,6 +27414,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Sports",
       "SinglePlayer",
@@ -25397,6 +27452,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -25429,6 +27485,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 175,
     "tags": [
       "SinglePlayer"
     ],
@@ -25459,6 +27516,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -25493,6 +27551,7 @@ var GAME = {
     "price": 59.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -25525,6 +27584,7 @@ var GAME = {
     "price": 2.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -25562,6 +27622,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 356,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -25592,6 +27653,7 @@ var GAME = {
     "price": 44.99,
     "rate": 1.0,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "SinglePlayer"
     ],
@@ -25620,6 +27682,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -25654,6 +27717,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Family",
@@ -25689,6 +27753,7 @@ var GAME = {
     "price": 54.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "SinglePlayer",
       "MultiPlayer",
@@ -25723,6 +27788,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -25756,6 +27822,7 @@ var GAME = {
     "price": 4.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Strategy",
@@ -25787,6 +27854,7 @@ var GAME = {
     "price": 2.24,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Shooter",
@@ -25820,6 +27888,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Simulation",
       "Strategy",
@@ -25850,6 +27919,7 @@ var GAME = {
     "price": 29.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -25881,6 +27951,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -25911,6 +27982,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -25949,6 +28021,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -25980,6 +28053,7 @@ var GAME = {
     "price": 19.49,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Cards",
       "Strategy",
@@ -26010,6 +28084,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 49,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -26044,6 +28119,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Family",
@@ -26077,6 +28153,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -26109,6 +28186,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -26117,6 +28195,34 @@ var GAME = {
     "title": "Little Disaster",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP0H6TNBSQL"
+  },
+  "9NP1B2V92QZX": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XblClubs",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NP1B2V92QZX",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NP1B2V92QZX",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.61981.13959819632152004.cdf7fb2d-7428-47e4-82ed-ea0003da5b3a.bf2c464b-9236-4869-8423-14e7a6362433",
+    "price": 139.99,
+    "rate": 4.3,
+    "requiresGame": false,
+    "reviews": 167,
+    "tags": [],
+    "title": "Assassin's Creed Valhalla Complete Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NP1B2V92QZX"
   },
   "9NP1DK14F46F": {
     "actions": [
@@ -26141,6 +28247,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -26178,6 +28285,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 923,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -26212,6 +28320,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "MOBA",
       "Strategy",
@@ -26250,6 +28359,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 52,
     "tags": [
       "Cards",
       "Strategy",
@@ -26290,6 +28400,7 @@ var GAME = {
     "price": 49.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Fighting",
@@ -26327,6 +28438,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Simulation",
       "Strategy",
@@ -26363,6 +28475,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -26371,6 +28484,44 @@ var GAME = {
     "title": "Techwars Global Conflict - The Last Emperor From Hell Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NP5PZH96PFR"
+  },
+  "9NP5S7RDH5QB": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NP5S7RDH5QB",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NP5S7RDH5QB",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.42186.13729589989151677.596f7807-2e42-40d0-b9f0-a3622f1f2b74.b18f3c51-3079-4b8b-a7bd-908646f3eccf",
+    "price": 99.99,
+    "rate": 3.0,
+    "requiresGame": false,
+    "reviews": 113,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "EA SPORTS\u2122 FIFA 23 Ultimate Edition para Xbox One y Xbox Series X|S",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NP5S7RDH5QB"
   },
   "9NP5W1FVVQ92": {
     "actions": [
@@ -26394,6 +28545,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -26424,6 +28576,7 @@ var GAME = {
     "price": 39.99,
     "rate": 1.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Educational",
@@ -26464,6 +28617,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -26505,6 +28659,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Family",
@@ -26540,6 +28695,7 @@ var GAME = {
     "price": 19.24,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -26571,6 +28727,7 @@ var GAME = {
     "price": 21.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -26606,6 +28763,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -26637,6 +28795,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -26676,6 +28835,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Sports",
       "SinglePlayer",
@@ -26711,6 +28871,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -26743,6 +28904,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -26751,6 +28913,45 @@ var GAME = {
     "title": "Raiden IV x MIKADO remix",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NPC29BL574S"
+  },
+  "9NPCD8S1ZRVD": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblClubs",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NPCD8S1ZRVD",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NPCD8S1ZRVD",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.47467.13725572606452219.a4dffb94-6b02-4273-90f0-6a0ef6f40b4e.c070576f-32df-41a0-99c5-731a42729ffa",
+    "price": 89.99,
+    "rate": 3.6,
+    "requiresGame": false,
+    "reviews": 123,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Far Cry\u00ae 6 Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NPCD8S1ZRVD"
   },
   "9NPFX39PFZW7": {
     "actions": [
@@ -26775,6 +28976,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -26810,6 +29012,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "CrossPlatform",
@@ -26841,6 +29044,7 @@ var GAME = {
     "price": 20.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 136,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -26871,6 +29075,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -26902,6 +29107,7 @@ var GAME = {
     "price": 7.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -26930,6 +29136,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -26959,6 +29166,7 @@ var GAME = {
     "price": 39.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -26988,6 +29196,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 99,
     "tags": [
       "Action",
       "Platformer",
@@ -27020,6 +29229,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -27056,6 +29266,7 @@ var GAME = {
     "price": 8.74,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Strategy",
@@ -27085,6 +29296,7 @@ var GAME = {
     "price": 34.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -27114,6 +29326,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -27147,6 +29360,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "Shooter",
@@ -27184,6 +29398,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Puzzle",
       "Action",
@@ -27216,6 +29431,7 @@ var GAME = {
     "price": 2.79,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -27248,6 +29464,7 @@ var GAME = {
     "price": 4.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -27279,6 +29496,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -27309,12 +29527,43 @@ var GAME = {
     "price": 31.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
     "title": "House Builder & Tank Mechanic Simulator",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NPZS4HWD4DP"
+  },
+  "9NQ0B2PWQF70": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NQ0B2PWQF70",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NQ0B2PWQF70",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.18336.13854264780659597.3157f110-dc83-4a91-917c-33993dce7e86.f120c21a-ea08-4ade-9bfb-14257da9193e",
+    "price": 109.99,
+    "rate": 4.4,
+    "requiresGame": false,
+    "reviews": 16,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "SWORD ART ONLINE Alicization Lycoris Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NQ0B2PWQF70"
   },
   "9NQ0RTGTTBWL": {
     "actions": [
@@ -27344,6 +29593,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -27388,6 +29638,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 102,
     "tags": [
       "Action",
       "Role playing",
@@ -27424,6 +29675,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -27457,6 +29709,7 @@ var GAME = {
     "price": 16.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Family",
@@ -27490,6 +29743,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -27526,6 +29780,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -27559,6 +29814,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -27590,6 +29846,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Platformer",
@@ -27621,6 +29878,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 76,
     "tags": [
       "Action",
       "Racing & flying"
@@ -27654,6 +29912,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Classics",
@@ -27692,6 +29951,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "MultiPlayer",
       "CrossPlatform",
@@ -27725,6 +29985,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -27732,6 +29993,47 @@ var GAME = {
     "title": "Ghost Trick: Detective fantasma",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NQ8Q7H7S40B"
+  },
+  "9NQ91QCRL7PD": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NQ91QCRL7PD",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NQ91QCRL7PD",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.17395.13777799954390265.85862621-b9d5-498a-b093-985cdbf8cefe.eb756bcc-a4e8-46f4-b6b5-c6ce5671b9de",
+    "price": 99.99,
+    "rate": 3.7,
+    "requiresGame": false,
+    "reviews": 2,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "MLB\u00ae The Show\u2122 23 edici\u00f3n digital deluxe para Xbox One y Xbox Series X|S",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NQ91QCRL7PD"
   },
   "9NQ9K86NLZB7": {
     "actions": [
@@ -27755,6 +30057,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -27787,6 +30090,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Puzzle",
       "Strategy"
@@ -27794,6 +30098,34 @@ var GAME = {
     "title": "Neighbours back From Hell",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NQBFK993V7C"
+  },
+  "9NQBX2L5LL8L": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NQBX2L5LL8L",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NQBX2L5LL8L",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.38340.14469513505000628.f3a7faac-8925-49e7-ab5d-e00fa48dd3da.42d22277-e6d1-428f-88dc-db8879a4bfac",
+    "price": 89.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Cities Skylines II - Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NQBX2L5LL8L"
   },
   "9NQBZCGN459G": {
     "actions": [
@@ -27818,6 +30150,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Racing & flying",
       "SinglePlayer"
@@ -27848,6 +30181,7 @@ var GAME = {
     "price": 59.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -27877,6 +30211,7 @@ var GAME = {
     "price": 17.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 181,
     "tags": [
       "Action",
       "Platformer",
@@ -27910,6 +30245,7 @@ var GAME = {
     "price": 14.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "MultiPlayer"
     ],
@@ -27946,6 +30282,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -27979,6 +30316,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -28015,6 +30353,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Puzzle",
@@ -28044,6 +30383,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Lote Cross-Gen de The Crew\u2122 Motorfest",
     "trial": false,
@@ -28075,6 +30415,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Sports",
       "Racing & flying",
@@ -28107,6 +30448,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Shooter"
@@ -28141,6 +30483,7 @@ var GAME = {
     "price": 3.89,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -28175,6 +30518,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 285,
     "tags": [],
     "title": "Resident Evil 7 Gold Edition & Village Gold Edition",
     "trial": false,
@@ -28202,6 +30546,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Educational",
@@ -28237,6 +30582,7 @@ var GAME = {
     "price": 71.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -28273,6 +30619,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -28309,6 +30656,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Role playing",
@@ -28338,6 +30686,7 @@ var GAME = {
     "price": 21.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -28367,6 +30716,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -28400,6 +30750,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -28440,6 +30791,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -28473,6 +30825,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Role playing",
@@ -28517,6 +30870,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 284,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -28553,6 +30907,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "Action",
       "Family",
@@ -28585,6 +30940,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 103,
     "tags": [
       "Action",
       "Platformer",
@@ -28615,6 +30971,7 @@ var GAME = {
     "price": 26.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -28651,6 +31008,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Action",
       "Platformer",
@@ -28684,6 +31042,7 @@ var GAME = {
     "price": 1.39,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Strategy",
@@ -28692,6 +31051,37 @@ var GAME = {
     "title": "Seeds of Resilience",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NRFDW1KLM6S"
+  },
+  "9NRFRWFVM8WQ": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "CapabilityHDR",
+      "SinglePlayer",
+      "SpatialSound",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NRFRWFVM8WQ",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NRFRWFVM8WQ",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.34784.14388292228455151.7f64d07e-dfd0-4230-8c7f-6bcd11b3f58b.8a5c3f03-d7e8-4204-8ed3-463472dee7cf",
+    "price": 89.99,
+    "rate": 3.0,
+    "requiresGame": false,
+    "reviews": 3,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Park Beyond Visioneer Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NRFRWFVM8WQ"
   },
   "9NRHBKDPTWCQ": {
     "actions": [
@@ -28714,6 +31104,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Shooter"
     ],
@@ -28744,6 +31135,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Platformer",
@@ -28778,6 +31170,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -28811,6 +31204,7 @@ var GAME = {
     "price": 39.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -28840,6 +31234,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Platformer",
@@ -28870,6 +31265,7 @@ var GAME = {
     "price": 41.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -28899,6 +31295,7 @@ var GAME = {
     "price": 5.94,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -28933,6 +31330,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -28943,6 +31341,42 @@ var GAME = {
     "title": "Puzzle Quest 3",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NRL0NM003WW"
+  },
+  "9NRLFGXZNFK4": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NRLFGXZNFK4",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NRLFGXZNFK4",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.39559.14083109180989187.59fcd12e-10ea-4fc6-b07f-99ad73fd0386.aa63f8d0-c505-4ba6-9bea-c9435f0d5e7c",
+    "price": 109.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "RIDE 5 - Special Edition - Pre-order",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NRLFGXZNFK4"
   },
   "9NRLPMG805GL": {
     "actions": [
@@ -28970,6 +31404,7 @@ var GAME = {
     "price": 3.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -29007,6 +31442,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Family",
@@ -29040,6 +31476,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -29069,6 +31506,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 141,
     "tags": [],
     "title": "La Tierra Media\u2122: Sombras de Guerra\u2122 - Edici\u00f3n Definitiva",
     "trial": false,
@@ -29100,6 +31538,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "Action",
       "MOBA",
@@ -29136,6 +31575,7 @@ var GAME = {
     "price": 27.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Strategy",
@@ -29173,6 +31613,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Fighting",
       "Sports",
@@ -29209,6 +31650,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -29242,6 +31684,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 87,
     "tags": [
       "Cards",
       "MOBA",
@@ -29285,6 +31728,7 @@ var GAME = {
     "price": 74.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 95,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -29324,6 +31768,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Strategy",
       "LocalMultiPlayer",
@@ -29358,6 +31803,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Puzzle",
       "Family",
@@ -29389,6 +31835,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -29421,6 +31868,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Classics",
       "Shooter",
@@ -29456,6 +31904,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -29488,6 +31937,7 @@ var GAME = {
     "price": 9.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -29520,6 +31970,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -29558,6 +32009,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -29592,6 +32044,7 @@ var GAME = {
     "price": 4.24,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Platformer",
@@ -29629,6 +32082,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -29659,6 +32113,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "SinglePlayer",
       "Free"
@@ -29693,6 +32148,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 160,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -29729,6 +32185,7 @@ var GAME = {
     "price": 8.79,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Simulation",
@@ -29762,6 +32219,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -29793,6 +32251,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -29827,6 +32286,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Fighting",
       "Action",
@@ -29860,6 +32320,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 50,
     "tags": [
       "Action",
       "Family",
@@ -29899,6 +32360,7 @@ var GAME = {
     "price": 3.49,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -29929,6 +32391,7 @@ var GAME = {
     "price": 28.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -29964,6 +32427,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Family",
@@ -30000,6 +32464,7 @@ var GAME = {
     "price": 14.99,
     "rate": 1.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -30028,6 +32493,7 @@ var GAME = {
     "price": 9.74,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "SinglePlayer"
     ],
@@ -30058,6 +32524,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Action",
       "Role playing",
@@ -30091,6 +32558,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -30134,6 +32602,7 @@ var GAME = {
     "price": 69.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -30174,6 +32643,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 110,
     "tags": [
       "Simulation",
       "Action",
@@ -30210,6 +32680,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Simulation",
@@ -30243,6 +32714,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Role playing",
@@ -30275,6 +32747,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "MultiPlayer"
     ],
@@ -30307,6 +32780,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -30341,6 +32815,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 75,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -30372,6 +32847,7 @@ var GAME = {
     "price": 29.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -30402,6 +32878,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Strategy",
       "Classics",
@@ -30444,6 +32921,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Family",
       "Racing & flying",
@@ -30482,6 +32960,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Family",
@@ -30516,6 +32995,7 @@ var GAME = {
     "price": 31.49,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Role playing",
@@ -30549,6 +33029,7 @@ var GAME = {
     "price": 3.59,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -30583,6 +33064,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 196,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -30591,6 +33073,43 @@ var GAME = {
     "title": "Solasta: Lightbringers Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NSRXC0BMSXH"
+  },
+  "9NSTHB5F1702": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NSTHB5F1702",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NSTHB5F1702",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.54391.14356834782179617.3b927680-bbfc-4ea7-a6c8-fb3575e04613.f5c71b13-7973-440e-b56b-00de3cc91c0b",
+    "price": 99.99,
+    "rate": 4.1,
+    "requiresGame": false,
+    "reviews": 5,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "WWE 2K23 Edici\u00f3n Deluxe",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NSTHB5F1702"
   },
   "9NSWJKRV55V1": {
     "actions": [
@@ -30617,6 +33136,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -30647,6 +33167,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Fighting",
       "Action",
@@ -30678,6 +33199,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -30712,6 +33234,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 600,
     "tags": [
       "Sports",
       "SinglePlayer",
@@ -30746,6 +33269,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -30786,6 +33310,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 2481,
     "tags": [
       "Action",
       "Role playing",
@@ -30818,6 +33343,7 @@ var GAME = {
     "price": 6.39,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "SinglePlayer"
     ],
@@ -30846,6 +33372,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Cards",
       "Educational",
@@ -30880,6 +33407,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -30912,6 +33440,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 99,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -30950,6 +33479,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Role playing",
@@ -30979,6 +33509,7 @@ var GAME = {
     "price": 0.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -31011,6 +33542,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Shooter",
@@ -31042,6 +33574,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -31083,6 +33616,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -31119,6 +33653,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -31149,6 +33684,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action",
       "Shooter"
@@ -31180,6 +33716,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -31212,6 +33749,7 @@ var GAME = {
     "price": 23.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -31244,6 +33782,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 95,
     "tags": [
       "Action",
       "Platformer",
@@ -31282,6 +33821,7 @@ var GAME = {
     "price": 8.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Classics",
@@ -31316,6 +33856,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -31350,6 +33891,7 @@ var GAME = {
     "price": 23.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -31383,6 +33925,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -31415,6 +33958,7 @@ var GAME = {
     "price": 0.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Classics",
@@ -31453,6 +33997,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 80,
     "tags": [
       "SinglePlayer"
     ],
@@ -31480,6 +34025,7 @@ var GAME = {
     "price": 9.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -31511,6 +34057,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -31544,6 +34091,7 @@ var GAME = {
     "price": 4.99,
     "rate": 1.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -31578,6 +34126,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Racing & flying",
       "SinglePlayer"
@@ -31606,6 +34155,7 @@ var GAME = {
     "price": 11.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -31637,6 +34187,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -31670,6 +34221,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Action",
       "Role playing",
@@ -31703,6 +34255,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Cards",
       "Action",
@@ -31739,6 +34292,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 136,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -31769,6 +34323,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -31800,6 +34355,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "CrossPlatform"
@@ -31832,6 +34388,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Fighting",
@@ -31865,6 +34422,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Role playing",
@@ -31896,6 +34454,7 @@ var GAME = {
     "price": 19.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -31928,6 +34487,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -31958,6 +34518,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -31993,6 +34554,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -32003,6 +34565,37 @@ var GAME = {
     "title": "Paper Flight - Speed Rush",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NVGC3SLHNRC"
+  },
+  "9NVJ4ZJNTR10": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NVJ4ZJNTR10",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NVJ4ZJNTR10",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.39867.14398160617270101.08b246f5-d883-4159-b9f3-7059acd45072.700051c4-3e6f-4716-bdd9-0c2542fd1188",
+    "price": 109.99,
+    "rate": 4.4,
+    "requiresGame": false,
+    "reviews": 339,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Atomic Heart - Premium Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NVJ4ZJNTR10"
   },
   "9NVJGRV0X1ZD": {
     "actions": [
@@ -32027,6 +34620,7 @@ var GAME = {
     "price": 2.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Family",
@@ -32056,6 +34650,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Free"
     ],
@@ -32089,6 +34684,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 62,
     "tags": [
       "Action",
       "Fighting",
@@ -32123,6 +34719,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -32152,6 +34749,7 @@ var GAME = {
     "price": 20.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -32182,6 +34780,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -32218,6 +34817,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Cards",
       "Puzzle",
@@ -32256,6 +34856,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 210,
     "tags": [
       "Action",
       "Puzzle",
@@ -32292,6 +34893,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -32326,6 +34928,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 70,
     "tags": [
       "Action",
       "Cards",
@@ -32357,6 +34960,7 @@ var GAME = {
     "price": 11.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer"
     ],
@@ -32387,6 +34991,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Simulation",
       "Strategy",
@@ -32417,6 +35022,7 @@ var GAME = {
     "price": 24.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -32449,6 +35055,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -32484,6 +35091,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 129,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -32518,6 +35126,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Simulation",
@@ -32555,6 +35164,7 @@ var GAME = {
     "price": 9.99,
     "rate": 1.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -32590,6 +35200,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -32624,6 +35235,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Role playing",
       "Simulation",
@@ -32662,6 +35274,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -32694,6 +35307,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Action",
       "Platformer",
@@ -32735,6 +35349,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -32774,6 +35389,7 @@ var GAME = {
     "price": 6.49,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Family",
@@ -32811,6 +35427,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Strategy",
       "MultiPlayer"
@@ -32844,6 +35461,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 129,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -32874,6 +35492,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -32903,6 +35522,7 @@ var GAME = {
     "price": 5.49,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -32936,6 +35556,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Puzzle",
       "Action",
@@ -32945,6 +35566,40 @@ var GAME = {
     "title": "Demon Hunter: Chronicles from Beyond (Xbox Version)",
     "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9NWDHD37NHBQ"
+  },
+  "9NWDL03WDJP1": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "DolbyAtmos",
+      "RayTracing",
+      "SinglePlayer",
+      "SpatialSound",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NWDL03WDJP1",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NWDL03WDJP1",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.4354.13693778038105664.6c21053d-003b-4d28-939c-dd28e8d29d47.8810bee3-51d0-4e33-b8cb-fbc60c3e5954",
+    "price": 89.99,
+    "rate": 4.8,
+    "requiresGame": false,
+    "reviews": 182,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Ghostwire: Tokyo Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NWDL03WDJP1"
   },
   "9NWGTQ9N9SDK": {
     "actions": [
@@ -32971,6 +35626,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -33002,6 +35658,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Platformer",
@@ -33039,6 +35696,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -33073,6 +35731,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Action",
       "Role playing",
@@ -33110,6 +35769,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Shooter",
       "Strategy",
@@ -33145,6 +35805,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -33183,6 +35844,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Puzzle",
       "Action",
@@ -33219,6 +35881,7 @@ var GAME = {
     "price": 5.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -33250,6 +35913,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Shooter",
@@ -33281,6 +35945,7 @@ var GAME = {
     "price": 2.49,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Simulation",
       "Strategy",
@@ -33313,6 +35978,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -33341,6 +36007,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -33372,6 +36039,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -33404,6 +36072,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Puzzle",
@@ -33438,6 +36107,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 180,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -33470,6 +36140,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 52,
     "tags": [
       "Action",
       "Platformer",
@@ -33507,6 +36178,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 256,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -33515,6 +36187,51 @@ var GAME = {
     "title": "Yakuza: Like a Dragon",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NXCSWCQTNFG"
+  },
+  "9NXCXBGNVQ3W": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "120fps",
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "DTSX",
+      "DolbyAtmos",
+      "RayTracing",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "SpatialSound",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NXCXBGNVQ3W",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NXCXBGNVQ3W",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.44741.14427742074973082.c9a74ca6-14f6-4777-951c-f258d5aa7d48.053ebfcf-65e6-4a1d-b497-59ce775f4b86",
+    "price": 99.99,
+    "rate": 3.0,
+    "requiresGame": false,
+    "reviews": 15,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "F1\u00ae 23 Champions Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NXCXBGNVQ3W"
   },
   "9NXDR9SSKTJ4": {
     "actions": [
@@ -33538,6 +36255,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -33569,6 +36287,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "Role playing",
@@ -33600,6 +36319,7 @@ var GAME = {
     "price": 44.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -33632,6 +36352,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -33667,6 +36388,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Racing & flying",
       "Shooter",
@@ -33699,6 +36421,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -33734,6 +36457,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 96,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -33766,6 +36490,7 @@ var GAME = {
     "price": 24.99,
     "rate": 1.3,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -33801,6 +36526,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Action",
       "Simulation",
@@ -33834,6 +36560,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Action"
     ],
@@ -33863,6 +36590,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Action",
       "Strategy",
@@ -33871,6 +36599,42 @@ var GAME = {
     "title": "Sea Salt",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NXQ4PX4TZJZ"
+  },
+  "9NXQ7HHKJVPJ": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblClubs",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NXQ7HHKJVPJ",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NXQ7HHKJVPJ",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.18329.14495541231925689.87cddd19-b73b-401b-b708-13b9eaef685f.9039ccf3-88be-4d02-9a06-fe316c480408",
+    "price": 89.99,
+    "rate": 3.6,
+    "requiresGame": false,
+    "reviews": 167,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Assassin's Creed\u00ae Valhalla Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NXQ7HHKJVPJ"
   },
   "9NXR6469DM2P": {
     "actions": [
@@ -33903,6 +36667,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 210,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -33935,6 +36700,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -33968,6 +36734,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -34005,6 +36772,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 171,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer",
@@ -34036,6 +36804,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -34066,6 +36835,7 @@ var GAME = {
     "price": 25.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "SinglePlayer"
     ],
@@ -34105,6 +36875,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Fighting",
       "Action",
@@ -34140,6 +36911,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -34171,6 +36943,7 @@ var GAME = {
     "price": 24.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -34199,6 +36972,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "Free"
@@ -34228,6 +37002,7 @@ var GAME = {
     "price": 12.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -34266,6 +37041,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -34308,6 +37084,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Role playing",
@@ -34342,6 +37119,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 70,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -34373,6 +37151,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "Casino",
@@ -34406,6 +37185,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -34443,6 +37223,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -34474,6 +37255,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 430,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -34509,6 +37291,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 317,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -34544,6 +37327,7 @@ var GAME = {
     "price": 7.19,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Puzzle",
@@ -34581,6 +37365,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Action",
       "Family",
@@ -34614,6 +37399,7 @@ var GAME = {
     "price": 7.99,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "SinglePlayer"
@@ -34645,6 +37431,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -34683,6 +37470,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -34719,6 +37507,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -34751,6 +37540,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -34786,6 +37576,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "Action",
       "Role playing",
@@ -34818,6 +37609,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -34857,6 +37649,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -34892,6 +37685,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "Platformer",
@@ -34928,6 +37722,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -34964,6 +37759,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Action",
@@ -34996,6 +37792,7 @@ var GAME = {
     "price": 34.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -35030,6 +37827,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 16581,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -35042,6 +37840,31 @@ var GAME = {
     "title": "Asphalt 9: Legends",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9NZQPT0MWTD0"
+  },
+  "9NZSHP237NTD": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9NZSHP237NTD",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9NZSHP237NTD",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.38474.14469969079530021.e19066eb-adc6-4ae1-8e7c-5e960d11616f.59037267-8922-4ba8-9e18-62c69e1d65a9",
+    "price": 119.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [],
+    "title": "The Crew\u2122 Motorfest Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9NZSHP237NTD"
   },
   "9NZV28P1ZMQ0": {
     "actions": [
@@ -35068,6 +37891,7 @@ var GAME = {
     "price": 75.0,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -35102,6 +37926,7 @@ var GAME = {
     "price": 74.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -35132,6 +37957,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -35163,6 +37989,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Music",
@@ -35196,6 +38023,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Cards",
@@ -35231,6 +38059,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 304,
     "tags": [
       "Action",
       "Platformer",
@@ -35267,6 +38096,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Strategy",
       "MultiPlayer"
@@ -35299,6 +38129,7 @@ var GAME = {
     "price": 18.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "Fighting",
@@ -35339,6 +38170,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "Shooter",
@@ -35376,6 +38208,7 @@ var GAME = {
     "price": 4.37,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -35405,6 +38238,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -35436,6 +38270,7 @@ var GAME = {
     "price": 6.24,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 135,
     "tags": [
       "Action",
       "Platformer",
@@ -35467,6 +38302,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Strategy",
@@ -35496,6 +38332,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -35525,6 +38362,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -35553,6 +38391,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Kit de contenido de la \u00faltima edici\u00f3n",
     "trial": false,
@@ -35583,6 +38422,7 @@ var GAME = {
     "price": 1.39,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer",
@@ -35619,6 +38459,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "Role playing",
@@ -35656,6 +38497,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Music",
       "LocalMultiPlayer",
@@ -35692,6 +38534,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -35723,6 +38566,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "Role playing",
@@ -35756,6 +38600,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "SinglePlayer"
     ],
@@ -35786,6 +38631,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Educational",
@@ -35820,6 +38666,7 @@ var GAME = {
     "price": 7.79,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Music",
@@ -35855,6 +38702,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -35888,6 +38736,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -35895,6 +38744,36 @@ var GAME = {
     "title": "RUST Console Edition - Deluxe",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P0LR428JQH9"
+  },
+  "9P0MSPDNLS40": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P0MSPDNLS40",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P0MSPDNLS40",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.54447.14523977563312687.c079f48a-21ce-4b15-8dc5-1071782d8939.6b943d9e-3fe5-42ec-8e25-e21c9313396d",
+    "price": 89.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "LocalMultiPlayer"
+    ],
+    "title": "Let's Sing 2023 incluye Canciones Espa\u00f1olas Platinum Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P0MSPDNLS40"
   },
   "9P0MVFV3VQ9Q": {
     "actions": [
@@ -35920,6 +38799,7 @@ var GAME = {
     "price": 9.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -35928,6 +38808,38 @@ var GAME = {
     "title": "Moonrise Fall",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P0MVFV3VQ9Q"
+  },
+  "9P0N5HPX5KRB": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "SpatialSound",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P0N5HPX5KRB",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P0N5HPX5KRB",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.14799.14523500754146655.a7d389ce-5ea0-419a-b5c9-ec5e93979092.fc909350-0fe9-4542-abf6-c5928a6793fc",
+    "price": 89.99,
+    "rate": 4.9,
+    "requiresGame": false,
+    "reviews": 58,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Dead Space - Edici\u00f3n Digital Deluxe",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P0N5HPX5KRB"
   },
   "9P0NPLQ9P1DB": {
     "actions": [
@@ -35956,6 +38868,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -35990,6 +38903,7 @@ var GAME = {
     "price": 7.19,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Classics",
       "Shooter",
@@ -36024,6 +38938,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Family",
       "SinglePlayer"
@@ -36054,6 +38969,7 @@ var GAME = {
     "price": 34.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "SinglePlayer"
     ],
@@ -36083,6 +38999,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -36113,6 +39030,7 @@ var GAME = {
     "price": 79.99,
     "rate": 1.3,
     "requiresGame": false,
+    "reviews": 431,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -36149,6 +39067,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Role playing",
@@ -36189,6 +39108,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 187,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -36221,6 +39141,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "CrossPlatform",
       "MultiPlayer",
@@ -36255,6 +39176,7 @@ var GAME = {
     "price": 5.24,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -36294,6 +39216,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -36325,6 +39248,7 @@ var GAME = {
     "price": 34.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Role playing",
@@ -36359,6 +39283,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -36392,6 +39317,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Strategy",
@@ -36427,6 +39353,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "Family",
@@ -36461,6 +39388,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -36492,6 +39420,7 @@ var GAME = {
     "price": 8.49,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "Action",
@@ -36525,6 +39454,7 @@ var GAME = {
     "price": 29.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -36557,6 +39487,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 73,
     "tags": [
       "Action",
       "Platformer",
@@ -36589,6 +39520,7 @@ var GAME = {
     "price": 25.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -36620,6 +39552,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -36651,6 +39584,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Puzzle",
@@ -36679,6 +39613,7 @@ var GAME = {
     "price": 39.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Not for Broadcast Deluxe Edition",
     "trial": false,
@@ -36708,6 +39643,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -36740,6 +39676,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -36773,6 +39710,7 @@ var GAME = {
     "price": 7.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -36806,6 +39744,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -36837,6 +39776,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -36847,6 +39787,38 @@ var GAME = {
     "title": "The Creepy Syndrome",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P1G70N9ZBHQ"
+  },
+  "9P1HX37NMJLT": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P1HX37NMJLT",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P1HX37NMJLT",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.7859.14506879174941978.138d3eab-0b06-443b-a252-c99592521394.33a348aa-892d-49b8-9ef2-6ff06c22cf96",
+    "price": 89.99,
+    "rate": 3.2,
+    "requiresGame": false,
+    "reviews": 1300,
+    "tags": [
+      "MultiPlayer"
+    ],
+    "title": "Forza Horizon 5 Edici\u00f3n Deluxe",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P1HX37NMJLT"
   },
   "9P1K4FCX2SB9": {
     "actions": [
@@ -36880,6 +39852,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -36912,6 +39885,7 @@ var GAME = {
     "price": 15.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -36943,6 +39917,7 @@ var GAME = {
     "price": 7.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -36981,6 +39956,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Racing & flying",
       "Sports",
@@ -37015,6 +39991,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -37050,6 +40027,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 143,
     "tags": [
       "MultiPlayer"
     ],
@@ -37088,6 +40066,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -37120,6 +40099,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 124,
     "tags": [
       "Action",
       "Role playing",
@@ -37153,6 +40133,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Family",
       "Simulation",
@@ -37185,6 +40166,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 56,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -37217,6 +40199,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -37248,6 +40231,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -37290,6 +40274,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 95,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -37327,6 +40312,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Classics",
@@ -37365,6 +40351,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Family",
@@ -37403,6 +40390,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Family",
       "Action",
@@ -37436,6 +40424,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Platformer",
@@ -37470,6 +40459,7 @@ var GAME = {
     "price": 15.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "SinglePlayer"
     ],
@@ -37501,6 +40491,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 100,
     "tags": [
       "Action",
       "Puzzle",
@@ -37534,6 +40525,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -37568,6 +40560,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Sports",
       "Family",
@@ -37605,6 +40598,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -37635,6 +40629,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -37670,6 +40665,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -37701,6 +40697,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -37729,6 +40726,7 @@ var GAME = {
     "price": 79.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -37759,6 +40757,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -37791,6 +40790,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "CrossPlatform",
       "LocalMultiPlayer",
@@ -37832,6 +40832,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 2689,
     "tags": [
       "Action",
       "CrossPlatform",
@@ -37864,6 +40865,7 @@ var GAME = {
     "price": 6.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -37898,6 +40900,7 @@ var GAME = {
     "price": 16.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "Shooter",
@@ -37931,6 +40934,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Family",
@@ -37964,6 +40968,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -37998,6 +41003,7 @@ var GAME = {
     "price": 15.74,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 6293,
     "tags": [
       "MultiPlayer"
     ],
@@ -38027,6 +41033,7 @@ var GAME = {
     "price": 13.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Platformer",
@@ -38061,6 +41068,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -38090,12 +41098,46 @@ var GAME = {
     "price": 31.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "SinglePlayer"
     ],
     "title": "House Builder & Thief Simulator",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P2VJBJKSTZ8"
+  },
+  "9P2XZHB9LSM5": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P2XZHB9LSM5",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P2XZHB9LSM5",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.53365.14549005910277368.9324e51c-2f34-4b3a-9386-ca12a7667775.abe9915f-086d-4e1e-b1bc-c372c9677779",
+    "price": 129.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Ultimate Edition de Avatar: Frontiers of Pandora\u2122",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P2XZHB9LSM5"
   },
   "9P2Z4DTVCB7Z": {
     "actions": [
@@ -38122,6 +41164,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "MultiPlayer",
       "CrossPlatform",
@@ -38156,6 +41199,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 68,
     "tags": [
       "Role playing",
       "Action",
@@ -38165,6 +41209,45 @@ var GAME = {
     "title": "Ghostlore",
     "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/9P2Z4ZP862VP"
+  },
+  "9P2Z7XVXJX90": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "120fps",
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "SpatialSound",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P2Z7XVXJX90",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P2Z7XVXJX90",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.50842.14552909990709401.00cd40b8-9213-4eae-9633-87c5cb27fee5.a7e7dbcb-7aa2-41b2-8861-d3d593181db1",
+    "price": 109.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Madden NFL 24 Edici\u00f3n Deluxe para Xbox Series X|S y Xbox One + bonificaci\u00f3n por tiempo limitado",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P2Z7XVXJX90"
   },
   "9P31WJ3N46KB": {
     "actions": [
@@ -38190,6 +41273,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Role playing",
@@ -38228,6 +41312,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "SinglePlayer"
     ],
@@ -38260,6 +41345,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -38298,6 +41384,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -38336,6 +41423,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -38364,6 +41452,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer"
     ],
@@ -38393,6 +41482,7 @@ var GAME = {
     "price": 3.49,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -38425,6 +41515,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Classics",
       "Puzzle",
@@ -38459,6 +41550,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Classics",
       "Simulation",
@@ -38492,6 +41584,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "SinglePlayer"
     ],
@@ -38522,6 +41615,7 @@ var GAME = {
     "price": 8.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -38552,6 +41646,7 @@ var GAME = {
     "price": 5.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -38583,6 +41678,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -38618,6 +41714,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 385,
     "tags": [
       "Action",
       "Role playing",
@@ -38653,6 +41750,7 @@ var GAME = {
     "price": 10.49,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -38688,6 +41786,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 60,
     "tags": [
       "Action",
       "Role playing",
@@ -38729,6 +41828,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 75,
     "tags": [
       "Action",
       "Puzzle",
@@ -38766,6 +41866,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -38803,6 +41904,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1364,
     "tags": [
       "Family",
       "LocalMultiPlayer",
@@ -38837,6 +41939,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -38871,6 +41974,7 @@ var GAME = {
     "price": 14.49,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action",
       "Family",
@@ -38904,6 +42008,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -38936,6 +42041,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Classics",
@@ -38973,6 +42079,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "Platformer",
@@ -39008,6 +42115,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -39045,6 +42153,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Fighting",
       "Sports",
@@ -39079,6 +42188,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -39110,6 +42220,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -39141,6 +42252,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -39170,6 +42282,7 @@ var GAME = {
     "price": 14.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -39200,6 +42313,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -39234,6 +42348,7 @@ var GAME = {
     "price": 9.99,
     "rate": 1.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -39266,6 +42381,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -39296,6 +42412,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 147,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -39326,6 +42443,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Platformer",
@@ -39361,6 +42479,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Role playing",
       "Strategy",
@@ -39393,6 +42512,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 79,
     "tags": [
       "MultiPlayer"
     ],
@@ -39430,6 +42550,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 57,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -39467,6 +42588,7 @@ var GAME = {
     "price": 15.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Role playing",
@@ -39502,6 +42624,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Shooter",
@@ -39536,6 +42659,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 131,
     "tags": [
       "Action",
       "Shooter",
@@ -39573,6 +42697,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Family",
@@ -39607,6 +42732,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -39640,6 +42766,7 @@ var GAME = {
     "price": 7.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Educational",
@@ -39674,6 +42801,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Role playing",
       "Simulation",
@@ -39706,6 +42834,7 @@ var GAME = {
     "price": 18.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -39735,6 +42864,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 814,
     "tags": [
       "MultiPlayer"
     ],
@@ -39765,6 +42895,7 @@ var GAME = {
     "price": 16.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -39799,6 +42930,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -39845,6 +42977,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 10855,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -39885,6 +43018,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 166,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -39918,6 +43052,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -39948,6 +43083,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -39982,6 +43118,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -40018,6 +43155,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -40055,6 +43193,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 20838,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -40087,6 +43226,7 @@ var GAME = {
     "price": 39.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -40117,6 +43257,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -40125,6 +43266,43 @@ var GAME = {
     "title": "Heidelberg 1693",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P4W5GXW6GC2"
+  },
+  "9P4Z34DJ9XH3": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "RayTracing",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblOnlineCoop",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P4Z34DJ9XH3",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P4Z34DJ9XH3",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.7913.14579653183745034.200a051e-3db9-4188-8f66-8bfd13672617.34a5cb28-d63c-4f2a-8579-ea2a6427d8ed",
+    "price": 109.99,
+    "rate": 3.6,
+    "requiresGame": false,
+    "reviews": 114,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Dying Light 2 Stay Human - Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P4Z34DJ9XH3"
   },
   "9P4Z4TW66LPV": {
     "actions": [
@@ -40148,6 +43326,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 618,
     "tags": [
       "Action",
       "Puzzle",
@@ -40180,6 +43359,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "Platformer",
@@ -40213,6 +43393,7 @@ var GAME = {
     "price": 4.79,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -40220,6 +43401,46 @@ var GAME = {
     "title": "Seduction: A Monk's Fate",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P50C3S59NG7"
+  },
+  "9P513P4MWC71": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P513P4MWC71",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P513P4MWC71",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.29799.14582624973508592.2000000000007863648.c6853463-3ddd-4434-ba48-0661d492be61",
+    "price": 99.99,
+    "rate": 3.4,
+    "requiresGame": false,
+    "reviews": 29868,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Forza Horizon 4 Edici\u00f3n Excepcional",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P513P4MWC71"
   },
   "9P51XTM56WZN": {
     "actions": [
@@ -40245,6 +43466,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action"
@@ -40276,6 +43498,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -40307,6 +43530,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -40342,6 +43566,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Music",
       "SinglePlayer",
@@ -40377,6 +43602,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 226,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -40407,6 +43633,7 @@ var GAME = {
     "price": 2.59,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Role playing",
@@ -40447,6 +43674,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Simulation",
       "Strategy",
@@ -40487,6 +43715,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 165,
     "tags": [
       "Action",
       "Role playing",
@@ -40518,6 +43747,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Action",
@@ -40552,6 +43782,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "Action",
       "Platformer",
@@ -40586,6 +43817,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -40619,6 +43851,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Role playing",
       "GamePass"
@@ -40652,6 +43885,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "Action",
       "Role playing",
@@ -40685,6 +43919,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -40718,6 +43953,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Role playing",
@@ -40749,6 +43985,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Family",
       "Simulation",
@@ -40784,6 +44021,7 @@ var GAME = {
     "price": 18.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Fighting",
@@ -40821,6 +44059,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -40852,6 +44091,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Simulation",
@@ -40888,6 +44128,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -40924,6 +44165,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -40964,6 +44206,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 142,
     "tags": [
       "SinglePlayer",
       "MultiPlayer",
@@ -40995,6 +44238,7 @@ var GAME = {
     "price": 5.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -41026,6 +44270,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -41061,6 +44306,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -41092,6 +44338,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -41123,6 +44370,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 64,
     "tags": [],
     "title": "The Crew\u00ae 2 Special Edition",
     "trial": false,
@@ -41151,6 +44399,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Cards",
@@ -41184,6 +44433,7 @@ var GAME = {
     "price": 28.99,
     "rate": 1.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -41216,6 +44466,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -41252,6 +44503,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -41293,6 +44545,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 167,
     "tags": [
       "Action",
       "Shooter",
@@ -41329,6 +44582,7 @@ var GAME = {
     "price": 54.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Simulation",
       "Sports",
@@ -41367,6 +44621,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -41403,6 +44658,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -41437,6 +44693,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -41445,6 +44702,46 @@ var GAME = {
     "title": "reky",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P64S626T6PD"
+  },
+  "9P64SQC33RN1": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SharedSplitScreen",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P64SQC33RN1",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P64SQC33RN1",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.25023.14630985186781322.206ff257-18c6-41db-88b6-1770a8e4e411.389db39a-6a74-48e7-b3e4-6ab936d4dc4b",
+    "price": 119.99,
+    "rate": 3.5,
+    "requiresGame": false,
+    "reviews": 1,
+    "tags": [
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Edici\u00f3n LEGO\u00ae 2K Drive Awesome Rivals",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P64SQC33RN1"
   },
   "9P656L6N6P4Q": {
     "actions": [
@@ -41471,6 +44768,7 @@ var GAME = {
     "price": 19.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Simulation",
@@ -41504,6 +44802,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Role playing",
@@ -41541,6 +44840,7 @@ var GAME = {
     "price": 21.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 139,
     "tags": [
       "Action",
       "Role playing",
@@ -41575,6 +44875,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -41603,6 +44904,7 @@ var GAME = {
     "price": 2.62,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Bundle 2 Games My Night Sun Games",
     "trial": false,
@@ -41630,6 +44932,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -41661,6 +44964,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "Action",
       "Platformer",
@@ -41694,6 +44998,7 @@ var GAME = {
     "price": 2.49,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Cards",
@@ -41730,6 +45035,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action",
       "Family",
@@ -41761,6 +45067,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "SinglePlayer",
       "Free"
@@ -41793,6 +45100,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Racing & flying",
@@ -41825,6 +45133,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Simulation",
@@ -41860,6 +45169,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -41890,6 +45200,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -41921,6 +45232,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -41954,6 +45266,7 @@ var GAME = {
     "price": 27.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 131,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -41986,6 +45299,7 @@ var GAME = {
     "price": 19.99,
     "rate": 1.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -42021,6 +45335,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 58,
     "tags": [
       "Action",
       "Shooter",
@@ -42055,6 +45370,7 @@ var GAME = {
     "price": 35.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "SinglePlayer"
     ],
@@ -42087,6 +45403,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "Classics",
@@ -42096,6 +45413,31 @@ var GAME = {
     "title": "Myst",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P6PQLFP9BN0"
+  },
+  "9P6QRN476FT0": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P6QRN476FT0",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P6QRN476FT0",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.34445.14614731197045125.fdc63042-b323-45ba-b8c5-8c312c5e8e1e.ba5764a1-23ff-4262-93af-a2d1f55f3496",
+    "price": 99.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [],
+    "title": "Mortal Kombat 1: Premium Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P6QRN476FT0"
   },
   "9P6QRRZQKPCM": {
     "actions": [
@@ -42122,6 +45464,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 87,
     "tags": [
       "Racing & flying",
       "SinglePlayer",
@@ -42161,6 +45504,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -42195,6 +45539,7 @@ var GAME = {
     "price": 5.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -42228,6 +45573,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -42262,6 +45608,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 90,
     "tags": [
       "Cards",
       "Role playing",
@@ -42296,6 +45643,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -42330,6 +45678,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -42363,6 +45712,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -42399,6 +45749,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 339,
     "tags": [
       "Action",
       "Shooter",
@@ -42433,6 +45784,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -42467,6 +45819,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Platformer",
@@ -42498,6 +45851,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Educational",
       "SinglePlayer",
@@ -42530,6 +45884,7 @@ var GAME = {
     "price": 22.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -42561,6 +45916,7 @@ var GAME = {
     "price": 8.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Role playing",
@@ -42594,6 +45950,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Fighting",
@@ -42628,6 +45985,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 57,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -42658,6 +46016,7 @@ var GAME = {
     "price": 4.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Puzzle",
@@ -42690,6 +46049,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -42722,6 +46082,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Classics",
       "Simulation",
@@ -42757,6 +46118,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Classics",
@@ -42799,6 +46161,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -42835,6 +46198,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Classics",
@@ -42872,6 +46236,7 @@ var GAME = {
     "price": 18.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -42904,6 +46269,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Fighting",
@@ -42933,6 +46299,7 @@ var GAME = {
     "price": 62.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -42965,6 +46332,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -42995,6 +46363,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Role playing",
       "Strategy",
@@ -43030,6 +46399,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 97,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -43063,6 +46433,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "Action",
       "Platformer"
@@ -43092,12 +46463,39 @@ var GAME = {
     "price": 14.79,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Tycoon Bundle",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P7TNGPF3WXW"
+  },
+  "9P7V09FQ5C56": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P7V09FQ5C56",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P7V09FQ5C56",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.38319.14100662442940359.810f12e4-3157-4d32-9f8c-a6fca2042ee2.0a257d58-2e7a-4de4-bf1d-8e1cc33efe72",
+    "price": 99.99,
+    "rate": 3.4,
+    "requiresGame": false,
+    "reviews": 4,
+    "tags": [],
+    "title": "Paquete de actualizaci\u00f3n Premium Forza Horizon 4 + 5",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P7V09FQ5C56"
   },
   "9P7V1MC4MC87": {
     "actions": [
@@ -43119,6 +46517,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 124,
     "tags": [],
     "title": "PSO2:NGS - Crimson Lotus Stia/Type 1 Edition",
     "trial": false,
@@ -43150,6 +46549,7 @@ var GAME = {
     "price": 18.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Platformer",
@@ -43186,6 +46586,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -43220,6 +46621,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -43255,6 +46657,7 @@ var GAME = {
     "price": 13.49,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -43288,6 +46691,7 @@ var GAME = {
     "price": 1.92,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -43323,6 +46727,7 @@ var GAME = {
     "price": 5.24,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -43353,6 +46758,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -43394,6 +46800,7 @@ var GAME = {
     "price": 79.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Sports",
       "Family",
@@ -43433,6 +46840,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -43465,6 +46873,7 @@ var GAME = {
     "price": 2.79,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -43493,6 +46902,7 @@ var GAME = {
     "price": 16.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [],
     "title": "Reky + Brawl Chess",
     "trial": false,
@@ -43520,6 +46930,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -43553,6 +46964,7 @@ var GAME = {
     "price": 49.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 105,
     "tags": [
       "Action",
       "Fighting",
@@ -43585,6 +46997,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "SinglePlayer"
     ],
@@ -43620,6 +47033,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -43660,6 +47074,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Shooter",
@@ -43695,6 +47110,7 @@ var GAME = {
     "price": 4.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -43726,6 +47142,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -43757,6 +47174,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -43789,6 +47207,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 275,
     "tags": [
       "Action",
       "Role playing",
@@ -43818,6 +47237,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -43847,6 +47267,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -43878,6 +47299,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -43916,6 +47338,7 @@ var GAME = {
     "price": 79.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 566,
     "tags": [
       "Action",
       "Shooter",
@@ -43953,6 +47376,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Platformer",
@@ -43986,6 +47410,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -44016,6 +47441,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -44046,6 +47472,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Cards",
@@ -44081,6 +47508,7 @@ var GAME = {
     "price": 11.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Shooter",
       "Simulation",
@@ -44089,6 +47517,31 @@ var GAME = {
     "title": "Hunting Simulator 2 Xbox Series X|S",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P8P3B0PVKGQ"
+  },
+  "9P8PGC771MLP": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P8PGC771MLP",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P8PGC771MLP",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.23691.14083713035901346.16619c9c-f1cb-4fd8-93b8-e5754d238bfe.4052cbaa-13c5-47d9-b436-27e536e0a197",
+    "price": 99.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [],
+    "title": "Forza Motorsport Premium Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P8PGC771MLP"
   },
   "9P8PQTRQM6Q5": {
     "actions": [
@@ -44110,6 +47563,7 @@ var GAME = {
     "price": 6.99,
     "rate": 1.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -44141,6 +47595,7 @@ var GAME = {
     "price": 21.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -44171,6 +47626,7 @@ var GAME = {
     "price": 19.99,
     "rate": 1.8,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -44199,6 +47655,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 2399,
     "tags": [],
     "title": "Grand Theft Auto V (Xbox One y Xbox Series X|S)",
     "trial": false,
@@ -44231,6 +47688,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Music",
@@ -44264,6 +47722,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -44291,6 +47750,7 @@ var GAME = {
     "price": 74.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Mortal Kombat 1",
     "trial": false,
@@ -44322,6 +47782,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 85,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -44353,6 +47814,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "SinglePlayer"
     ],
@@ -44382,6 +47844,7 @@ var GAME = {
     "price": 26.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "SinglePlayer"
     ],
@@ -44413,6 +47876,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -44447,6 +47911,7 @@ var GAME = {
     "price": 54.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -44482,6 +47947,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -44511,6 +47977,7 @@ var GAME = {
     "price": 34.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 52,
     "tags": [
       "SinglePlayer"
     ],
@@ -44539,6 +48006,7 @@ var GAME = {
     "price": 21.59,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "SinglePlayer"
     ],
@@ -44570,6 +48038,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Simulation",
@@ -44602,6 +48071,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Simulation",
@@ -44635,6 +48105,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -44667,6 +48138,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -44697,6 +48169,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -44730,6 +48203,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "CrossPlatform",
@@ -44764,6 +48238,7 @@ var GAME = {
     "price": 2.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -44794,6 +48269,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -44826,6 +48302,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 184,
     "tags": [],
     "title": "Outer Wilds: Archaeologist Edition",
     "trial": false,
@@ -44861,6 +48338,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Cards",
@@ -44895,6 +48373,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "SinglePlayer"
     ],
@@ -44925,6 +48404,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -44955,6 +48435,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Platformer",
@@ -44987,6 +48468,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -45015,12 +48497,51 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Assassin's Creed\u00ae Mirage Deluxe Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P9MQJSL5K6D"
+  },
+  "9P9N0VB61K3H": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P9N0VB61K3H",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P9N0VB61K3H",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.29361.14039569190849434.fb7c515c-e48c-44d0-83b1-0bf89f1b7278.01e075cd-fe00-4bc3-85f2-64287014a79c",
+    "price": 99.99,
+    "rate": 3.3,
+    "requiresGame": false,
+    "reviews": 64,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Diablo\u00ae IV - Digital Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P9N0VB61K3H"
   },
   "9P9NVPF9KM3P": {
     "actions": [
@@ -45047,6 +48568,7 @@ var GAME = {
     "price": 7.49,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -45080,6 +48602,7 @@ var GAME = {
     "price": 44.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -45088,6 +48611,43 @@ var GAME = {
     "title": "Gloomhaven Gold Edition",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9P9NZPCCMBV5"
+  },
+  "9P9PJHJND42C": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XblCrossPlatformMultiPlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9P9PJHJND42C",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9P9PJHJND42C",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.53290.14138748892529808.f4bf7c32-70ea-4bfd-9d1b-9069ab5501d0.8e5226e8-92d9-4aa3-b250-a1bba2a825d2",
+    "price": 84.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 57,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "JoJo's Bizarre Adventure: All-Star Battle R Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9P9PJHJND42C"
   },
   "9P9STFSPH997": {
     "actions": [
@@ -45112,6 +48672,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -45140,6 +48701,7 @@ var GAME = {
     "price": 44.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -45172,6 +48734,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Simulation",
       "Family",
@@ -45206,6 +48769,7 @@ var GAME = {
     "price": 34.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 80,
     "tags": [
       "Action",
       "Puzzle",
@@ -45240,6 +48804,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -45278,6 +48843,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -45313,6 +48879,7 @@ var GAME = {
     "price": 13.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -45350,6 +48917,7 @@ var GAME = {
     "price": 29.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 89,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -45383,6 +48951,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -45413,6 +48982,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -45420,6 +48990,32 @@ var GAME = {
     "title": "John Wick Hex",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PB1C8S0922M"
+  },
+  "9PB2P9N524ZX": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PB2P9N524ZX",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PB2P9N524ZX",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.9082.14127236013342069.4c9af48e-14ef-4174-9908-8d09a4e543ab.144d7ee7-2b60-4812-a668-f3c421dfcb53",
+    "price": 110.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 3,
+    "tags": [],
+    "title": "The MEGA FMV Bundle",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PB2P9N524ZX"
   },
   "9PB3FDWRWB9L": {
     "actions": [
@@ -45447,6 +49043,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Classics",
@@ -45487,6 +49084,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -45515,6 +49113,7 @@ var GAME = {
     "price": 59.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [],
     "title": "Fuga: Melodies of Steel 2 - Edici\u00f3n Deluxe",
     "trial": false,
@@ -45542,6 +49141,7 @@ var GAME = {
     "price": 34.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -45570,6 +49170,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Role playing",
@@ -45600,6 +49201,7 @@ var GAME = {
     "price": 54.99,
     "rate": 1.0,
     "requiresGame": false,
+    "reviews": 468,
     "tags": [
       "SinglePlayer"
     ],
@@ -45627,6 +49229,7 @@ var GAME = {
     "price": 34.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "SinglePlayer"
     ],
@@ -45659,6 +49262,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -45668,6 +49272,37 @@ var GAME = {
     "title": "Manifold Garden",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PB9HN36H4F0"
+  },
+  "9PB9N4BTH6P6": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PB9N4BTH6P6",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PB9N4BTH6P6",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.46830.14122461684222091.4cf6650c-f0cb-4a5d-9d05-66c6f24cb6c7.8c8e8e15-f4aa-41df-894a-8a14ea65534b",
+    "price": 109.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 7,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Lote Fusi\u00f3n",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PB9N4BTH6P6"
   },
   "9PBB49G96Q4J": {
     "actions": [
@@ -45694,6 +49329,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [],
     "title": "Anno 1800\u2122 Edici\u00f3n de consola - Deluxe",
     "trial": false,
@@ -45722,6 +49358,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "SinglePlayer",
       "GamePass"
@@ -45753,6 +49390,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 212,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -45787,6 +49425,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 143,
     "tags": [
       "Action",
       "Role playing",
@@ -45823,6 +49462,7 @@ var GAME = {
     "price": 41.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -45858,6 +49498,7 @@ var GAME = {
     "price": 65.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -45888,6 +49529,7 @@ var GAME = {
     "price": 54.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 221,
     "tags": [
       "MultiPlayer"
     ],
@@ -45916,6 +49558,7 @@ var GAME = {
     "price": 69.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 105,
     "tags": [
       "MultiPlayer"
     ],
@@ -45945,6 +49588,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 120,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -45975,6 +49619,7 @@ var GAME = {
     "price": 26.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Family",
@@ -46007,6 +49652,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Simulation",
@@ -46037,6 +49683,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -46076,6 +49723,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 122,
     "tags": [
       "Action",
       "Shooter",
@@ -46109,6 +49757,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -46144,6 +49793,7 @@ var GAME = {
     "price": 23.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -46179,6 +49829,7 @@ var GAME = {
     "price": 5.24,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -46212,6 +49863,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -46250,6 +49902,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 49,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -46284,6 +49937,7 @@ var GAME = {
     "price": 1.79,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Simulation",
       "Family",
@@ -46293,6 +49947,39 @@ var GAME = {
     "title": "Dragon Pinball",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PBTH183Z1SK"
+  },
+  "9PBTMJ6PW9MK": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "RayTracing",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PBTMJ6PW9MK",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PBTMJ6PW9MK",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.53845.66884503338856196.48c0632d-46db-4864-890a-b82ca4e65898.027f039b-113a-4124-9b4d-0d4a48033908",
+    "price": 119.99,
+    "rate": 3.7,
+    "requiresGame": false,
+    "reviews": 56,
+    "tags": [
+      "MultiPlayer"
+    ],
+    "title": "Watch Dogs: Legion - Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PBTMJ6PW9MK"
   },
   "9PBV5P4DR4MZ": {
     "actions": [
@@ -46317,6 +50004,7 @@ var GAME = {
     "price": 5.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -46347,6 +50035,7 @@ var GAME = {
     "price": 29.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -46377,6 +50066,7 @@ var GAME = {
     "price": 38.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "SinglePlayer"
     ],
@@ -46410,6 +50100,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action",
       "Platformer",
@@ -46443,6 +50134,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -46478,6 +50170,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "SinglePlayer",
@@ -46486,6 +50179,39 @@ var GAME = {
     "title": "Shatter Remastered Deluxe",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PBZ6RSFR471"
+  },
+  "9PBZLMJZ5MMW": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PBZLMJZ5MMW",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PBZLMJZ5MMW",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.54086.14109303679650926.f56b1278-08ef-4c36-9ab1-91978f014364.304453fe-15d4-4831-b802-f830687bebaa",
+    "price": 99.99,
+    "rate": 4.0,
+    "requiresGame": false,
+    "reviews": 86,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "TEKKEN 7 - Originals Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PBZLMJZ5MMW"
   },
   "9PBZN2DT8T91": {
     "actions": [
@@ -46512,6 +50238,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -46543,6 +50270,7 @@ var GAME = {
     "price": 7.19,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -46577,6 +50305,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 50,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -46610,6 +50339,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "MultiPlayer"
     ],
@@ -46640,6 +50370,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -46674,6 +50405,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 136,
     "tags": [
       "Action",
       "Role playing",
@@ -46705,6 +50437,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -46736,6 +50469,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 102,
     "tags": [
       "Action",
       "Puzzle",
@@ -46775,6 +50509,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 171,
     "tags": [
       "Fighting",
       "Simulation",
@@ -46816,6 +50551,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "SinglePlayer"
     ],
@@ -46849,6 +50585,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -46880,6 +50617,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Shooter",
@@ -46914,6 +50652,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 125,
     "tags": [
       "Action",
       "CrossPlatform",
@@ -46945,6 +50684,7 @@ var GAME = {
     "price": 24.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "SinglePlayer"
     ],
@@ -46973,6 +50713,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -46981,6 +50722,34 @@ var GAME = {
     "title": "The Many Pieces of Mr. Coo",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PCGG15VSS07"
+  },
+  "9PCJS4XW5LHL": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XblClubs",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PCJS4XW5LHL",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PCJS4XW5LHL",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.37165.14592799277590787.d3b50db0-608a-4063-9141-186c48890ce3.f1858ff7-49f4-4b0c-a7b0-efa313fa4515",
+    "price": 99.99,
+    "rate": 4.2,
+    "requiresGame": false,
+    "reviews": 168,
+    "tags": [],
+    "title": "Assassin's Creed Valhalla Ragnar\u00f6k Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PCJS4XW5LHL"
   },
   "9PCK3VJWZCXQ": {
     "actions": [
@@ -47004,6 +50773,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -47032,6 +50802,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 63,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -47062,6 +50833,7 @@ var GAME = {
     "price": 73.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [],
     "title": "RimWorld Console Edition - Chronicles Bundle",
     "trial": false,
@@ -47095,6 +50867,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -47129,6 +50902,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -47166,6 +50940,7 @@ var GAME = {
     "price": 2.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "MOBA",
       "Shooter",
@@ -47201,6 +50976,7 @@ var GAME = {
     "price": 44.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 113,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -47231,6 +51007,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -47262,6 +51039,7 @@ var GAME = {
     "price": 17.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -47295,6 +51073,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -47330,6 +51109,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -47337,6 +51117,39 @@ var GAME = {
     "title": "Fernbus Simulator",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PCVP9219CTB"
+  },
+  "9PCVWW89JKVW": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "RayTracing",
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PCVWW89JKVW",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PCVWW89JKVW",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.6952.14161721025429084.b6be6847-bc03-4b31-b6f2-56633ea1d9b2.6092517e-8453-4baf-a205-aa4156f06b4c",
+    "price": 99.99,
+    "rate": 4.2,
+    "requiresGame": false,
+    "reviews": 31,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Marvel's Midnight Suns Edici\u00f3n Legendaria para Xbox Series X|S",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PCVWW89JKVW"
   },
   "9PCW1SMN9RGG": {
     "actions": [
@@ -47363,6 +51176,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "Simulation",
       "Strategy",
@@ -47392,10 +51206,37 @@ var GAME = {
     "price": 79.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [],
     "title": "CRISIS CORE \u2013FINAL FANTASY VII\u2013 REUNION DIGITAL DELUXE EDITION",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PCWV3FWJZ18"
+  },
+  "9PCZC0GZ9B0T": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PCZC0GZ9B0T",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PCZC0GZ9B0T",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.37802.14164554422039406.8cabc281-ec6a-4b08-ad3d-ed618fce7dec.6c1c0d20-71c0-44fb-b8c8-eb04026f2cfe",
+    "price": 89.99,
+    "rate": 3.0,
+    "requiresGame": false,
+    "reviews": 521,
+    "tags": [],
+    "title": "Tom Clancy's Rainbow Six\u00ae Siege - Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PCZC0GZ9B0T"
   },
   "9PD0N6M0QJT2": {
     "actions": [
@@ -47421,6 +51262,7 @@ var GAME = {
     "price": 31.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -47453,6 +51295,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Cards",
@@ -47490,6 +51333,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -47520,6 +51364,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer"
     ],
@@ -47552,6 +51397,7 @@ var GAME = {
     "price": 19.99,
     "rate": 1.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Shooter",
@@ -47583,6 +51429,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Puzzle",
@@ -47616,6 +51463,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 331,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -47656,6 +51504,7 @@ var GAME = {
     "price": 13.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -47688,6 +51537,7 @@ var GAME = {
     "price": 23.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -47719,6 +51569,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 134,
     "tags": [
       "MultiPlayer"
     ],
@@ -47751,6 +51602,7 @@ var GAME = {
     "price": 34.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 149,
     "tags": [
       "Action",
       "Role playing",
@@ -47783,6 +51635,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Role playing"
@@ -47814,6 +51667,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -47845,6 +51699,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -47877,6 +51732,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Puzzle",
       "Strategy",
@@ -47908,6 +51764,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -47940,6 +51797,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -47971,6 +51829,7 @@ var GAME = {
     "price": 19.99,
     "rate": 1.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Action",
@@ -48004,6 +51863,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 72,
     "tags": [
       "SinglePlayer"
     ],
@@ -48035,6 +51895,7 @@ var GAME = {
     "price": 24.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -48067,6 +51928,7 @@ var GAME = {
     "price": 35.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "SinglePlayer"
     ],
@@ -48098,12 +51960,50 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 203,
     "tags": [
       "GamePass"
     ],
     "title": "La Tierra Media\u2122: Sombras de Guerra\u2122",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PDV8FKWP3B4"
+  },
+  "9PDWBHVD24T3": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PDWBHVD24T3",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PDWBHVD24T3",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.44699.13545226972463945.243c2304-9ad6-440a-b0b7-bd7c5607e076.5f927f75-0113-42a2-bd40-e17017f989b9",
+    "price": 94.99,
+    "rate": 4.3,
+    "requiresGame": false,
+    "reviews": 389,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Wo Long: Fallen Dynasty Digital Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PDWBHVD24T3"
   },
   "9PDXJP3805DN": {
     "actions": [
@@ -48130,6 +52030,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 109,
     "tags": [
       "Action",
       "Music",
@@ -48166,6 +52067,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -48200,6 +52102,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Classics",
@@ -48239,6 +52142,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 657,
     "tags": [
       "Action",
       "Shooter",
@@ -48272,6 +52176,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -48303,6 +52208,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "Platformer",
@@ -48335,6 +52241,7 @@ var GAME = {
     "price": 12.79,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -48366,6 +52273,7 @@ var GAME = {
     "price": 17.49,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -48400,6 +52308,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -48432,6 +52341,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -48467,6 +52377,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -48503,6 +52414,7 @@ var GAME = {
     "price": 49.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -48534,6 +52446,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 90,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -48567,6 +52480,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "Family",
@@ -48603,6 +52517,7 @@ var GAME = {
     "price": 59.99,
     "rate": 1.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -48634,6 +52549,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -48664,6 +52580,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action"
     ],
@@ -48696,6 +52613,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -48728,6 +52646,7 @@ var GAME = {
     "price": 7.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -48759,6 +52678,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation"
     ],
@@ -48793,6 +52713,7 @@ var GAME = {
     "price": 41.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -48838,6 +52759,7 @@ var GAME = {
     "price": 79.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 225,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -48872,6 +52794,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -48879,6 +52802,40 @@ var GAME = {
     "title": "Strayed Lights",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PFNPTNJC42S"
+  },
+  "9PFPM1P9HQN6": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblLocalCoop",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PFPM1P9HQN6",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PFPM1P9HQN6",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.12851.14200905021825545.b1e068c4-2f65-4da4-8b3b-cef5522057b3.2d482663-c7df-473e-8e80-910624e426f3",
+    "price": 84.99,
+    "rate": 4.5,
+    "requiresGame": false,
+    "reviews": 4,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "The Quarry - Edici\u00f3n Deluxe",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PFPM1P9HQN6"
   },
   "9PFQTLC9BHFB": {
     "actions": [
@@ -48904,6 +52861,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Classics",
@@ -48943,6 +52901,7 @@ var GAME = {
     "price": 12.49,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -48976,6 +52935,7 @@ var GAME = {
     "price": 24.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Puzzle",
@@ -49009,6 +52969,7 @@ var GAME = {
     "price": 6.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Family",
@@ -49042,6 +53003,7 @@ var GAME = {
     "price": 4.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -49073,6 +53035,7 @@ var GAME = {
     "price": 1.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -49103,6 +53066,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -49135,6 +53099,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Family",
@@ -49168,6 +53133,7 @@ var GAME = {
     "price": 4.99,
     "rate": 1.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -49201,6 +53167,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -49232,6 +53199,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -49262,6 +53230,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -49293,6 +53262,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -49326,6 +53296,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Action",
       "Family",
@@ -49359,6 +53330,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -49391,6 +53363,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Action",
       "Role playing",
@@ -49426,6 +53399,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 976,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -49456,6 +53430,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -49485,6 +53460,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 524,
     "tags": [
       "GamePass"
     ],
@@ -49517,6 +53493,7 @@ var GAME = {
     "price": 4.99,
     "rate": 1.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -49549,6 +53526,7 @@ var GAME = {
     "price": 74.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -49581,6 +53559,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "SinglePlayer"
     ],
@@ -49614,6 +53593,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -49643,6 +53623,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -49677,6 +53658,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -49708,6 +53690,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -49739,6 +53722,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -49773,6 +53757,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Role playing",
       "Classics",
@@ -49807,6 +53792,7 @@ var GAME = {
     "price": 9.79,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -49837,6 +53823,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Platformer",
@@ -49869,6 +53856,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -49905,6 +53893,7 @@ var GAME = {
     "price": 20.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 464,
     "tags": [
       "SinglePlayer"
     ],
@@ -49935,6 +53924,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Simulation",
       "SinglePlayer"
@@ -49967,6 +53957,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -50001,6 +53992,7 @@ var GAME = {
     "price": 8.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "LocalMultiPlayer",
@@ -50035,6 +54027,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "Platformer",
@@ -50068,6 +54061,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 1590,
     "tags": [
       "Action",
       "Cards",
@@ -50119,6 +54113,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 6292,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -50126,6 +54121,40 @@ var GAME = {
     "title": "War Thunder - Su-39 Bundle",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PGQ10210V32"
+  },
+  "9PGRLPCDJ45C": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "SinglePlayer",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PGRLPCDJ45C",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PGRLPCDJ45C",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.25189.14245681909173174.b6f23d97-c630-44a3-94be-2736205bcfb1.40fe919a-ecf3-4056-8e37-e3cdd3bd863f",
+    "price": 89.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "PAYDAY 3: Gold Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PGRLPCDJ45C"
   },
   "9PGTJTW38JFW": {
     "actions": [
@@ -50149,6 +54178,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 94,
     "tags": [
       "MultiPlayer"
     ],
@@ -50179,6 +54209,7 @@ var GAME = {
     "price": 17.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Educational",
       "Simulation",
@@ -50210,6 +54241,7 @@ var GAME = {
     "price": 29.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "SinglePlayer"
     ],
@@ -50241,6 +54273,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -50270,6 +54303,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Action",
@@ -50308,6 +54342,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Puzzle",
@@ -50317,6 +54352,39 @@ var GAME = {
     "title": "We Were Here Forever",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PH2TSF7M48X"
+  },
+  "9PH339L3Z99C": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PH339L3Z99C",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PH339L3Z99C",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.53664.68337312437833304.5b641957-dc26-40ad-bfd7-ee9a1aed613f.b06287cb-d0d6-4998-b126-590b1032e92d",
+    "price": 99.99,
+    "rate": 4.7,
+    "requiresGame": false,
+    "reviews": 553,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Red Dead Redemption 2: Ultimate Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PH339L3Z99C"
   },
   "9PH57MV3K2G4": {
     "actions": [
@@ -50342,6 +54410,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -50385,6 +54454,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -50422,6 +54492,7 @@ var GAME = {
     "price": 16.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Shooter",
@@ -50455,6 +54526,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Family",
       "Puzzle",
@@ -50493,6 +54565,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -50531,6 +54604,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -50562,6 +54636,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action"
     ],
@@ -50594,6 +54669,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 85,
     "tags": [
       "Action",
       "Shooter",
@@ -50626,6 +54702,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Action",
@@ -50662,6 +54739,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -50695,6 +54773,7 @@ var GAME = {
     "price": 3.49,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Shooter",
@@ -50728,6 +54807,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -50761,6 +54841,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -50793,6 +54874,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -50825,6 +54907,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Shooter",
@@ -50858,6 +54941,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [],
     "title": "Anno 1800\u2122 Edici\u00f3n de Consola",
     "trial": false,
@@ -50887,6 +54971,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Simulation",
       "Classics",
@@ -50922,6 +55007,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -50953,6 +55039,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Classics",
       "SinglePlayer"
@@ -50984,6 +55071,7 @@ var GAME = {
     "price": 29.99,
     "rate": 1.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -51013,6 +55101,7 @@ var GAME = {
     "price": 16.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -51045,6 +55134,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -51078,6 +55168,7 @@ var GAME = {
     "price": 17.49,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 80,
     "tags": [
       "MultiPlayer"
     ],
@@ -51108,6 +55199,7 @@ var GAME = {
     "price": 4.54,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Puzzle",
       "Simulation",
@@ -51139,6 +55231,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -51173,6 +55266,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Shooter",
       "Simulation",
@@ -51208,6 +55302,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Simulation",
       "Strategy",
@@ -51237,6 +55332,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -51274,6 +55370,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 642,
     "tags": [
       "Family",
       "SinglePlayer",
@@ -51309,6 +55406,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "MultiPlayer",
       "Free"
@@ -51342,6 +55440,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -51377,6 +55476,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Family",
@@ -51389,6 +55489,43 @@ var GAME = {
     "title": "Soccer Story",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJ1045MHZJ0"
+  },
+  "9PJ15D3RDXMV": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblClubs",
+      "XblOnlineMultiPlayer",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PJ15D3RDXMV",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PJ15D3RDXMV",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.5176.14225646405929875.ed2b05a2-f9fd-4a33-b808-807366c017bf.ec671c43-7121-4f72-b10a-85e5c4b83540",
+    "price": 119.99,
+    "rate": 3.7,
+    "requiresGame": false,
+    "reviews": 1018,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Microsoft Flight Simulator Premium Deluxe 40th Anniversary Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PJ15D3RDXMV"
   },
   "9PJ2C9R9XN4Z": {
     "actions": [
@@ -51408,6 +55545,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 356,
     "tags": [
       "Free"
     ],
@@ -51436,6 +55574,7 @@ var GAME = {
     "price": 31.49,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "SinglePlayer"
     ],
@@ -51466,6 +55605,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 72,
     "tags": [
       "Action",
       "Role playing",
@@ -51502,6 +55642,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "CrossPlatform",
@@ -51536,6 +55677,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -51564,6 +55706,7 @@ var GAME = {
     "price": 6.59,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "SinglePlayer"
     ],
@@ -51592,6 +55735,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 112,
     "tags": [
       "Action",
       "Platformer"
@@ -51622,6 +55766,7 @@ var GAME = {
     "price": 4.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -51654,6 +55799,7 @@ var GAME = {
     "price": 1.74,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Strategy",
@@ -51686,6 +55832,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Role playing",
       "Strategy",
@@ -51720,6 +55867,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Fighting",
@@ -51755,6 +55903,7 @@ var GAME = {
     "price": 41.99,
     "rate": 1.9,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -51785,6 +55934,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 87,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -51818,6 +55968,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -51849,6 +56000,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 124,
     "tags": [],
     "title": "PSO2:NGS - Crimson Lotus Stia/Type 2 Edition",
     "trial": false,
@@ -51874,6 +56026,7 @@ var GAME = {
     "price": 24.99,
     "rate": 1.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -51903,6 +56056,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -51933,6 +56087,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer"
     ],
@@ -51959,6 +56114,7 @@ var GAME = {
     "price": 54.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -51998,6 +56154,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 156,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -52030,6 +56187,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Fighting",
@@ -52066,6 +56224,7 @@ var GAME = {
     "price": 23.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "Classics",
@@ -52105,6 +56264,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -52137,6 +56297,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Family",
@@ -52174,6 +56335,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -52206,6 +56368,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Family",
@@ -52242,6 +56405,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -52275,6 +56439,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -52307,6 +56472,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -52342,6 +56508,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -52382,6 +56549,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -52419,6 +56587,7 @@ var GAME = {
     "price": 69.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -52452,6 +56621,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Cards",
       "SinglePlayer",
@@ -52460,6 +56630,34 @@ var GAME = {
     "title": "Ticket to Ride",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PJZXCCK7VLW"
+  },
+  "9PK1D30WX6M1": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PK1D30WX6M1",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PK1D30WX6M1",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.25328.14271855285331588.44535260-ba96-49e2-917e-88ac67ae89a7.e848d446-4c10-4ce2-9b38-bf6963748a9b",
+    "price": 89.99,
+    "rate": 4.7,
+    "requiresGame": false,
+    "reviews": 5,
+    "tags": [
+      "MultiPlayer"
+    ],
+    "title": "Age of Wonders 4: Premium Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PK1D30WX6M1"
   },
   "9PK2M8HG5QHW": {
     "actions": [
@@ -52487,6 +56685,7 @@ var GAME = {
     "price": 10.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Platformer",
@@ -52524,6 +56723,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -52553,6 +56753,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer"
     ],
@@ -52582,6 +56783,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -52617,6 +56819,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Platformer",
       "Action",
@@ -52657,6 +56860,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Simulation",
       "Family",
@@ -52693,6 +56897,7 @@ var GAME = {
     "price": 13.49,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -52722,6 +56927,7 @@ var GAME = {
     "price": 8.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Cards",
@@ -52751,6 +56957,7 @@ var GAME = {
     "price": 24.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -52780,6 +56987,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 78,
     "tags": [
       "SinglePlayer"
     ],
@@ -52814,6 +57022,7 @@ var GAME = {
     "price": 14.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -52844,6 +57053,7 @@ var GAME = {
     "price": 20.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4381,
     "tags": [],
     "title": "Crossout \u2013 Steel shield bundle",
     "trial": false,
@@ -52872,6 +57082,7 @@ var GAME = {
     "price": 59.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -52904,6 +57115,7 @@ var GAME = {
     "price": 12.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -52944,6 +57156,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 182,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -52975,6 +57188,7 @@ var GAME = {
     "price": 8.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -53011,6 +57225,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Fighting",
       "Music",
@@ -53047,6 +57262,7 @@ var GAME = {
     "price": 49.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -53079,6 +57295,7 @@ var GAME = {
     "price": 2.09,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Classics",
       "Sports",
@@ -53110,6 +57327,7 @@ var GAME = {
     "price": 14.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -53143,6 +57361,7 @@ var GAME = {
     "price": 14.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -53174,6 +57393,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.3,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -53205,6 +57425,7 @@ var GAME = {
     "price": 9.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -53235,6 +57456,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Educational",
       "Family",
@@ -53273,6 +57495,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "Classics",
@@ -53308,6 +57531,7 @@ var GAME = {
     "price": 26.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 144,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -53338,6 +57562,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "Action",
@@ -53370,6 +57595,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -53409,6 +57635,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Family",
@@ -53444,6 +57671,7 @@ var GAME = {
     "price": 5.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -53476,6 +57704,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Classics",
@@ -53486,6 +57715,41 @@ var GAME = {
     "title": "Arcade Classics Anniversary Collection",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PL5V82NZNJS"
+  },
+  "9PL746F501P9": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "SinglePlayer",
+      "XblLocalCoop",
+      "XblLocalMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PL746F501P9",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PL746F501P9",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.12351.14252428234163284.15b2ab18-b915-4786-a3f8-e09dcd65158b.5c673eee-c1eb-43bc-b3df-960306f875c2",
+    "price": 99.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 15,
+    "tags": [
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "Warhammer Ultimate Pack: Hack and Slash",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PL746F501P9"
   },
   "9PL75HZNHP4Q": {
     "actions": [
@@ -53510,6 +57774,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Puzzle",
       "Simulation",
@@ -53542,6 +57807,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Classics",
@@ -53578,6 +57844,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Simulation",
@@ -53614,6 +57881,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -53645,6 +57913,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -53678,6 +57947,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 90,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -53708,6 +57978,7 @@ var GAME = {
     "price": 10.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -53736,6 +58007,7 @@ var GAME = {
     "price": 41.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "SinglePlayer"
     ],
@@ -53768,6 +58040,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Simulation",
       "Strategy",
@@ -53803,6 +58076,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "Family",
@@ -53836,6 +58110,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 144,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -53875,6 +58150,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -53908,6 +58184,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action",
       "Platformer",
@@ -53938,6 +58215,7 @@ var GAME = {
     "price": 5.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "SinglePlayer"
     ],
@@ -53968,6 +58246,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -54001,6 +58280,7 @@ var GAME = {
     "price": 2.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Cards",
@@ -54030,6 +58310,7 @@ var GAME = {
     "price": 79.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [],
     "title": "Forza Motorsport Standard Edition",
     "trial": false,
@@ -54062,6 +58343,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -54093,6 +58375,7 @@ var GAME = {
     "price": 69.99,
     "rate": 1.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -54122,6 +58405,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "CrossPlatform",
       "MultiPlayer"
@@ -54161,6 +58445,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 95,
     "tags": [
       "Action",
       "Shooter",
@@ -54196,6 +58481,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -54235,6 +58521,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -54268,6 +58555,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action"
@@ -54302,6 +58590,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.0,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -54334,6 +58623,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -54368,6 +58658,7 @@ var GAME = {
     "price": 21.24,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -54399,6 +58690,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -54435,6 +58727,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -54468,6 +58761,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -54502,6 +58796,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 396,
     "tags": [
       "MultiPlayer"
     ],
@@ -54532,6 +58827,7 @@ var GAME = {
     "price": 4.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Simulation",
@@ -54565,6 +58861,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Platformer",
@@ -54596,6 +58893,7 @@ var GAME = {
     "price": 14.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
@@ -54620,6 +58918,7 @@ var GAME = {
     "price": 0.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Classics",
@@ -54652,6 +58951,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -54682,6 +58982,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "Action"
@@ -54713,6 +59014,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Action",
@@ -54748,6 +59050,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -54781,6 +59084,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -54811,6 +59115,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -54845,6 +59150,7 @@ var GAME = {
     "price": 9.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -54876,6 +59182,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Role playing",
@@ -54913,6 +59220,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Role playing",
       "Action",
@@ -54947,6 +59255,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Family",
@@ -54982,6 +59291,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -55011,6 +59321,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Strategy"
     ],
@@ -55040,6 +59351,7 @@ var GAME = {
     "price": 35.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -55074,6 +59386,7 @@ var GAME = {
     "price": 10.49,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -55109,6 +59422,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action",
       "Role playing",
@@ -55142,6 +59456,7 @@ var GAME = {
     "price": 7.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -55176,6 +59491,7 @@ var GAME = {
     "price": 24.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 99,
     "tags": [
       "Action",
       "Platformer",
@@ -55212,6 +59528,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 4381,
     "tags": [
       "MultiPlayer",
       "Free"
@@ -55240,6 +59557,7 @@ var GAME = {
     "price": 19.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer"
     ],
@@ -55277,6 +59595,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 1037,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -55314,6 +59633,7 @@ var GAME = {
     "price": 13.39,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Platformer",
@@ -55349,6 +59669,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -55383,6 +59704,7 @@ var GAME = {
     "price": 29.99,
     "rate": 1.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -55426,6 +59748,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -55459,6 +59782,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 239,
     "tags": [
       "Platformer",
       "CrossPlatform",
@@ -55492,6 +59816,7 @@ var GAME = {
     "price": 17.99,
     "rate": 1.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -55528,6 +59853,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Sports",
@@ -55537,6 +59863,35 @@ var GAME = {
     "title": "Hyper Gunsport",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PMZXQS27CNH"
+  },
+  "9PN089KML0BL": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PN089KML0BL",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PN089KML0BL",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.6952.14287968304277401.101b833f-a74b-4da6-b759-49afa4554f3e.93f85047-e582-480b-b291-4eacf02f0930",
+    "price": 99.99,
+    "rate": 4.6,
+    "requiresGame": false,
+    "reviews": 1,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "Marvel's Midnight Suns Edici\u00f3n Legendaria para Xbox One",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PN089KML0BL"
   },
   "9PN0L7N91H8B": {
     "actions": [
@@ -55559,6 +59914,7 @@ var GAME = {
     "price": 31.49,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "SinglePlayer"
     ],
@@ -55592,6 +59948,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -55624,6 +59981,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -55656,6 +60014,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -55692,6 +60051,7 @@ var GAME = {
     "price": 16.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Classics",
@@ -55729,6 +60089,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Shooter",
@@ -55739,6 +60100,31 @@ var GAME = {
     "title": "Police Stories",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PN42GDJ8XFG"
+  },
+  "9PN4DRJDLZT7": {
+    "actions": [
+      "EditionSelector",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PN4DRJDLZT7",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PN4DRJDLZT7",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.46025.14351182556820670.6ebc5ba2-47c4-4eaf-9672-c9ba92ad71f9.4d2219c4-1d62-4021-8446-6520f8bcaa22",
+    "price": 89.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 0,
+    "tags": [],
+    "title": "Forza Motorsport Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PN4DRJDLZT7"
   },
   "9PN4RZCTD4S1": {
     "actions": [
@@ -55764,6 +60150,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -55796,6 +60183,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -55832,6 +60220,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -55865,6 +60254,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Platformer",
@@ -55896,6 +60286,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Family",
       "Racing & flying",
@@ -55930,6 +60321,7 @@ var GAME = {
     "price": 14.49,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -55961,6 +60353,7 @@ var GAME = {
     "price": 9.89,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Strategy",
@@ -55993,6 +60386,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -56026,6 +60420,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action",
       "Shooter",
@@ -56062,6 +60457,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -56101,6 +60497,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Sports",
       "SinglePlayer",
@@ -56133,6 +60530,7 @@ var GAME = {
     "price": 5.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer"
@@ -56171,6 +60569,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "Family",
@@ -56208,6 +60607,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -56240,6 +60640,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
@@ -56269,6 +60670,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Puzzle"
     ],
@@ -56308,6 +60710,7 @@ var GAME = {
     "price": 64.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 38031,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -56344,6 +60747,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Family",
@@ -56380,6 +60784,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "Action",
       "Role playing",
@@ -56406,6 +60811,7 @@ var GAME = {
     "price": 0.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer"
@@ -56436,6 +60842,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Platformer",
@@ -56469,6 +60876,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -56501,6 +60909,7 @@ var GAME = {
     "price": 24.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -56535,6 +60944,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "Role playing",
@@ -56568,6 +60978,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
@@ -56596,6 +61007,7 @@ var GAME = {
     "price": 7.49,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "SinglePlayer"
     ],
@@ -56631,6 +61043,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Strategy",
@@ -56669,6 +61082,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Classics",
@@ -56705,6 +61119,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -56739,6 +61154,7 @@ var GAME = {
     "price": 5.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -56770,6 +61186,7 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -56799,6 +61216,7 @@ var GAME = {
     "price": 13.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "Strategy",
@@ -56831,6 +61249,7 @@ var GAME = {
     "price": 21.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -56867,6 +61286,7 @@ var GAME = {
     "price": 15.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Family",
       "SinglePlayer",
@@ -56897,6 +61317,7 @@ var GAME = {
     "price": 29.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "MultiPlayer"
     ],
@@ -56927,6 +61348,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -56963,6 +61385,7 @@ var GAME = {
     "price": 12.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -57005,6 +61428,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 652,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -57039,6 +61463,7 @@ var GAME = {
     "price": 35.99,
     "rate": 1.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "SinglePlayer"
     ],
@@ -57073,6 +61498,7 @@ var GAME = {
     "price": 39.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -57106,6 +61532,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Simulation",
       "Role playing",
@@ -57140,6 +61567,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -57169,6 +61597,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 356,
     "tags": [
       "Free"
     ],
@@ -57207,6 +61636,7 @@ var GAME = {
     "price": 79.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 89,
     "tags": [
       "Racing & flying",
       "Action",
@@ -57248,6 +61678,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 69,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -57282,6 +61713,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -57325,6 +61757,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 97,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -57356,6 +61789,7 @@ var GAME = {
     "price": 44.99,
     "rate": 5.0,
     "requiresGame": false,
+    "reviews": 109,
     "tags": [
       "SinglePlayer"
     ],
@@ -57387,6 +61821,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "Action",
@@ -57418,6 +61853,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Cards",
       "Casino",
@@ -57451,6 +61887,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Shooter",
@@ -57483,6 +61920,7 @@ var GAME = {
     "price": 0.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Family",
@@ -57519,6 +61957,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -57549,12 +61988,50 @@ var GAME = {
     "price": 64.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Edici\u00f3n Deluxe de F1\u00ae Manager 2023",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PPG6KN2J32S"
+  },
+  "9PPGSQKQ0MZT": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "120fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "XblAchievements",
+      "XblCrossPlatformCoop",
+      "XblCrossPlatformMultiPlayer",
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PPGSQKQ0MZT",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PPGSQKQ0MZT",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.14415.13760232858988218.e7cd9c8f-b045-403f-aeb2-92aaaa22de59.e43e5a0a-1123-4a1e-b002-87aea81ef0ed",
+    "price": 99.99,
+    "rate": 0.0,
+    "requiresGame": false,
+    "reviews": 89,
+    "tags": [
+      "CrossPlatform",
+      "MultiPlayer"
+    ],
+    "title": "Black Desert: Edici\u00f3n del conquistador",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PPGSQKQ0MZT"
   },
   "9PPJ8ZS17CZX": {
     "actions": [
@@ -57578,6 +62055,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -57607,6 +62085,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "SinglePlayer"
     ],
@@ -57640,6 +62119,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 71,
     "tags": [
       "Role playing",
       "Strategy",
@@ -57678,6 +62158,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Cards",
       "Family",
@@ -57714,12 +62195,49 @@ var GAME = {
     "price": 69.99,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "SinglePlayer"
     ],
     "title": "Edici\u00f3n digital deluxe de Lies of P",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/9PPN99NS6PSL"
+  },
+  "9PPNKCB9ZZVV": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "60fps",
+      "Capability4k",
+      "CapabilityHDR",
+      "RayTracing",
+      "SinglePlayer",
+      "XblAchievements",
+      "XblCloudSaves",
+      "XblPresence",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "9PPNKCB9ZZVV",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=9PPNKCB9ZZVV",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.50915.14175264600255945.9eccbc9d-05e0-4741-adb8-bcf078ccecd2.75cfbbd6-6817-45ca-bfec-211c12373d28",
+    "price": 89.99,
+    "rate": 4.2,
+    "requiresGame": false,
+    "reviews": 77,
+    "tags": [
+      "SinglePlayer"
+    ],
+    "title": "The Callisto Protocol\u2122 for Xbox Series X|S \u2013 Digital Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/9PPNKCB9ZZVV"
   },
   "9PPQX9ZGQW6N": {
     "actions": [
@@ -57743,6 +62261,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Family",
       "Strategy",
@@ -57774,6 +62293,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing"
@@ -57805,6 +62325,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -57837,6 +62358,7 @@ var GAME = {
     "price": 49.49,
     "rate": 0.0,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -57870,6 +62392,7 @@ var GAME = {
     "price": 5.59,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -57904,6 +62427,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Family",
@@ -57938,6 +62462,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -57971,6 +62496,7 @@ var GAME = {
     "price": 69.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 319,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -58013,6 +62539,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1251,
     "tags": [
       "Action",
       "Role playing",
@@ -58046,6 +62573,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 163,
     "tags": [
       "Role playing"
     ],
@@ -58080,6 +62608,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -58110,6 +62639,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -58117,6 +62647,34 @@ var GAME = {
     "title": "Yesterday Origins",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BNDZ00KQ76JJ"
+  },
+  "BNF5Q9ZSD84Z": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BNF5Q9ZSD84Z",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BNF5Q9ZSD84Z",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.25725.67877837198810386.c4340dad-7a88-4223-9042-efd926564ff6.4cee48b6-e291-478f-900e-11e06c8aec20",
+    "price": 99.99,
+    "rate": 4.5,
+    "requiresGame": false,
+    "reviews": 218,
+    "tags": [],
+    "title": "Assassin's Creed\u00ae Odyssey - GOLD EDITION",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/BNF5Q9ZSD84Z"
   },
   "BNG91PT95LQN": {
     "actions": [
@@ -58144,6 +62702,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 131,
     "tags": [
       "Action",
       "Role playing",
@@ -58173,6 +62732,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "Action"
     ],
@@ -58202,6 +62762,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -58229,6 +62790,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 52,
     "tags": [
       "Role playing"
     ],
@@ -58260,6 +62822,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 62,
     "tags": [
       "Action",
       "Shooter",
@@ -58288,6 +62851,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "Sports",
       "GamePass"
@@ -58316,6 +62880,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -58348,6 +62913,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -58379,6 +62945,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 185,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -58407,6 +62974,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action",
       "Shooter",
@@ -58441,6 +63009,7 @@ var GAME = {
     "price": 34.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 49,
     "tags": [
       "MultiPlayer"
     ],
@@ -58467,6 +63036,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Shooter",
       "GamePass"
@@ -58502,6 +63072,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Platformer",
       "LocalMultiPlayer",
@@ -58532,6 +63103,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Platformer",
       "LocalMultiPlayer"
@@ -58559,6 +63131,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 124,
     "tags": [
       "Family",
       "Sports",
@@ -58588,6 +63161,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 262,
     "tags": [
       "Action"
     ],
@@ -58616,6 +63190,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "MultiPlayer"
     ],
@@ -58647,6 +63222,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 143,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -58676,6 +63252,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 300,
     "tags": [],
     "title": "Assassin's Creed\u00ae Syndicate Gold Edition",
     "trial": false,
@@ -58706,6 +63283,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 322,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -58741,6 +63319,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action",
       "Strategy",
@@ -58776,6 +63355,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 136,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -58803,6 +63383,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action",
       "Role playing"
@@ -58830,6 +63411,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 59,
     "tags": [
       "Action"
     ],
@@ -58855,6 +63437,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 66,
     "tags": [
       "Action"
     ],
@@ -58882,6 +63465,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "Role playing"
     ],
@@ -58914,6 +63498,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -58944,6 +63529,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "Family",
@@ -58977,6 +63563,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "SinglePlayer"
     ],
@@ -59009,6 +63596,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -59045,6 +63633,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "Action",
       "Role playing",
@@ -59077,6 +63666,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "Strategy",
@@ -59106,6 +63696,7 @@ var GAME = {
     "price": 7.98,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 56,
     "tags": [
       "Action"
     ],
@@ -59133,6 +63724,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 299,
     "tags": [
       "Action"
     ],
@@ -59162,6 +63754,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.4,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Cards",
       "Casino",
@@ -59194,6 +63787,7 @@ var GAME = {
     "price": 64.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 67,
     "tags": [
       "MultiPlayer"
     ],
@@ -59223,6 +63817,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 916,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -59251,6 +63846,7 @@ var GAME = {
     "price": 35.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 86,
     "tags": [],
     "title": "DMC4SE Demon Hunter Bundle",
     "trial": false,
@@ -59276,6 +63872,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action"
     ],
@@ -59309,6 +63906,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "Role playing",
@@ -59340,6 +63938,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 380,
     "tags": [
       "Action"
     ],
@@ -59371,6 +63970,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 66,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -59403,6 +64003,7 @@ var GAME = {
     "price": 36.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -59435,6 +64036,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 683,
     "tags": [
       "Action",
       "Fighting",
@@ -59465,6 +64067,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action"
     ],
@@ -59494,6 +64097,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -59521,6 +64125,7 @@ var GAME = {
     "price": 4.79,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action"
     ],
@@ -59549,6 +64154,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 230,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -59577,6 +64183,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 203,
     "tags": [
       "Action"
     ],
@@ -59609,6 +64216,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 59,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -59635,6 +64243,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action"
     ],
@@ -59662,6 +64271,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 67,
     "tags": [
       "Action",
       "Classics",
@@ -59702,6 +64312,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Racing & flying",
       "SinglePlayer",
@@ -59731,6 +64342,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 62,
     "tags": [
       "Action",
       "GamePass"
@@ -59761,6 +64373,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -59796,6 +64409,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -59825,6 +64439,7 @@ var GAME = {
     "price": 15.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Family",
       "Strategy",
@@ -59857,6 +64472,7 @@ var GAME = {
     "price": 69.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action"
     ],
@@ -59883,6 +64499,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Action",
       "GamePass"
@@ -59914,6 +64531,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Simulation",
       "Strategy",
@@ -59946,6 +64564,7 @@ var GAME = {
     "price": 5.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -59974,6 +64593,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 139,
     "tags": [
       "Action",
       "Role playing"
@@ -60000,6 +64620,7 @@ var GAME = {
     "price": 4.79,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action",
       "Fighting",
@@ -60037,6 +64658,7 @@ var GAME = {
     "price": 69.99,
     "rate": 2.1,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Fighting",
@@ -60078,6 +64700,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 113,
     "tags": [
       "Action",
       "Role playing",
@@ -60109,6 +64732,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Sports",
       "LocalMultiPlayer"
@@ -60135,6 +64759,7 @@ var GAME = {
     "price": 9.49,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Platformer"
@@ -60165,6 +64790,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "Action",
       "Platformer",
@@ -60195,6 +64821,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "Family",
@@ -60227,6 +64854,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "MultiPlayer"
     ],
@@ -60253,6 +64881,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action"
     ],
@@ -60278,6 +64907,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 66,
     "tags": [
       "Action"
     ],
@@ -60304,6 +64934,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Simulation",
       "Strategy",
@@ -60342,6 +64973,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 81,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -60379,6 +65011,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 171,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -60410,6 +65043,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action",
       "Platformer"
@@ -60442,6 +65076,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 88,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -60475,6 +65110,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 449,
     "tags": [
       "MultiPlayer",
       "GamePass"
@@ -60506,6 +65142,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Action"
     ],
@@ -60540,6 +65177,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 121,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -60570,6 +65208,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Action"
     ],
@@ -60597,6 +65236,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1216,
     "tags": [
       "Action",
       "GamePass"
@@ -60628,6 +65268,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 102,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -60655,6 +65296,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Shooter"
     ],
@@ -60681,6 +65323,7 @@ var GAME = {
     "price": 7.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action",
       "Platformer",
@@ -60710,6 +65353,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 196,
     "tags": [
       "Shooter"
     ],
@@ -60738,6 +65382,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 238,
     "tags": [
       "Action",
       "Role playing"
@@ -60775,6 +65420,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 309,
     "tags": [
       "Action",
       "Shooter",
@@ -60807,6 +65453,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 172,
     "tags": [
       "MultiPlayer"
     ],
@@ -60840,6 +65487,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 190,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -60873,6 +65521,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 139,
     "tags": [
       "Action"
     ],
@@ -60902,6 +65551,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Sports",
       "Strategy",
@@ -60935,6 +65585,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Strategy",
       "Simulation",
@@ -60974,6 +65625,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 454,
     "tags": [
       "Action",
       "Shooter",
@@ -61010,6 +65662,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 50,
     "tags": [
       "Action",
       "Role playing",
@@ -61041,6 +65694,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 74,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -61073,6 +65727,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 101,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -61102,6 +65757,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Shooter",
       "LocalMultiPlayer"
@@ -61131,6 +65787,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
@@ -61157,6 +65814,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Shooter"
     ],
@@ -61187,6 +65845,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Role playing",
@@ -61217,6 +65876,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 66,
     "tags": [
       "Action"
     ],
@@ -61247,6 +65907,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 243,
     "tags": [
       "Action",
       "Fighting",
@@ -61278,6 +65939,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 57,
     "tags": [
       "Simulation",
       "Strategy",
@@ -61308,6 +65970,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Strategy",
       "Simulation",
@@ -61339,6 +66002,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 154,
     "tags": [
       "MultiPlayer"
     ],
@@ -61371,6 +66035,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 441,
     "tags": [
       "Action",
       "Family",
@@ -61412,6 +66077,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 341,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -61439,6 +66105,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "Role playing",
@@ -61468,6 +66135,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 70,
     "tags": [
       "Action"
     ],
@@ -61494,6 +66162,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 255,
     "tags": [
       "Action"
     ],
@@ -61522,6 +66191,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -61558,6 +66228,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 459,
     "tags": [
       "Action"
     ],
@@ -61584,6 +66255,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 61,
     "tags": [],
     "title": "Batman: The Telltale Series - The Complete Season (Episodes 1-5)",
     "trial": false,
@@ -61607,6 +66279,7 @@ var GAME = {
     "price": 5.03,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action",
       "Platformer"
@@ -61640,6 +66313,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 944,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -61668,12 +66342,44 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Role playing"
     ],
     "title": "Star Wars KOTOR II",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BQ4GD4LDGLTB"
+  },
+  "BQ5KC1NMPP8P": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "SinglePlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BQ5KC1NMPP8P",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BQ5KC1NMPP8P",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.48953.68390719155753798.8bea6df9-2078-4a9d-8707-e3f4d17d5824.6e87ae9d-78bb-4db1-b53d-78e0617132b9",
+    "price": 89.99,
+    "rate": 3.4,
+    "requiresGame": false,
+    "reviews": 2354,
+    "tags": [
+      "SinglePlayer",
+      "MultiPlayer"
+    ],
+    "title": "Grand Theft Auto V: Edici\u00f3n Premium y tarjeta Tibur\u00f3n megalodonte",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/BQ5KC1NMPP8P"
   },
   "BQ765BPQ7JGL": {
     "actions": [
@@ -61695,6 +66401,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
@@ -61724,6 +66431,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 179,
     "tags": [
       "Action",
       "Platformer",
@@ -61754,6 +66462,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 52,
     "tags": [
       "Action"
     ],
@@ -61790,6 +66499,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 72,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -61818,6 +66528,7 @@ var GAME = {
     "price": 14.39,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action"
     ],
@@ -61844,6 +66555,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Shooter",
       "GamePass"
@@ -61870,6 +66582,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action"
     ],
@@ -61898,6 +66611,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 52,
     "tags": [
       "Simulation",
       "Strategy",
@@ -61928,6 +66642,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 130,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -61958,6 +66673,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -61987,6 +66703,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action"
     ],
@@ -62022,6 +66739,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Sports",
@@ -62053,6 +66771,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Fighting",
       "Sports",
@@ -62083,6 +66802,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 234,
     "tags": [
       "MultiPlayer"
     ],
@@ -62109,6 +66829,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Shooter"
     ],
@@ -62136,6 +66857,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -62165,6 +66887,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 146,
     "tags": [
       "Action"
     ],
@@ -62194,6 +66917,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.7,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "Shooter",
@@ -62231,6 +66955,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 2165,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -62263,6 +66988,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 184,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -62292,6 +67018,7 @@ var GAME = {
     "price": 6.98,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Sports",
       "LocalMultiPlayer"
@@ -62322,6 +67049,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Racing & flying",
       "MultiPlayer",
@@ -62357,6 +67085,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 147,
     "tags": [
       "Action",
       "GamePass"
@@ -62385,6 +67114,7 @@ var GAME = {
     "price": 22.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 216,
     "tags": [],
     "title": "Layers of Fear: Masterpiece Edition",
     "trial": false,
@@ -62414,6 +67144,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Family",
@@ -62446,6 +67177,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Classics"
     ],
@@ -62474,6 +67206,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Platformer",
@@ -62505,6 +67238,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 184,
     "tags": [
       "Action"
     ],
@@ -62532,6 +67266,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 63,
     "tags": [
       "GamePass"
     ],
@@ -62566,6 +67301,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -62595,6 +67331,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action"
     ],
@@ -62631,6 +67368,7 @@ var GAME = {
     "price": 19.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -62663,6 +67401,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 76,
     "tags": [
       "MultiPlayer"
     ],
@@ -62695,6 +67434,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "Action",
       "Platformer",
@@ -62724,6 +67464,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Free"
@@ -62753,6 +67494,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 151,
     "tags": [
       "MultiPlayer"
     ],
@@ -62791,6 +67533,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 547,
     "tags": [
       "Action",
       "Role playing",
@@ -62822,6 +67565,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 58,
     "tags": [
       "Action"
     ],
@@ -62849,6 +67593,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 116,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -62877,6 +67622,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 61,
     "tags": [
       "Strategy",
       "Simulation",
@@ -62906,6 +67652,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 79,
     "tags": [
       "Action",
       "Role playing",
@@ -62937,6 +67684,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 964,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -62964,6 +67712,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Action",
       "Strategy",
@@ -62992,6 +67741,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 60,
     "tags": [
       "Role playing"
     ],
@@ -63020,6 +67770,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 101,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -63047,6 +67798,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action"
     ],
@@ -63073,6 +67825,7 @@ var GAME = {
     "price": 14.49,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Strategy",
@@ -63103,6 +67856,7 @@ var GAME = {
     "price": 13.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -63129,6 +67883,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Free"
@@ -63156,6 +67911,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Shooter",
@@ -63185,6 +67941,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "Racing & flying",
@@ -63214,6 +67971,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 305,
     "tags": [
       "Action"
     ],
@@ -63240,6 +67998,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Puzzle"
@@ -63267,6 +68026,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Action"
     ],
@@ -63293,6 +68053,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 436,
     "tags": [],
     "title": "Alien: Isolation - La Colecci\u00f3n",
     "trial": false,
@@ -63321,6 +68082,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 64,
     "tags": [
       "Action",
       "Strategy",
@@ -63358,6 +68120,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Simulation",
@@ -63388,6 +68151,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 69,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
@@ -63418,6 +68182,7 @@ var GAME = {
     "price": 39.98,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -63444,6 +68209,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "Action"
     ],
@@ -63474,6 +68240,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 659,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -63503,6 +68270,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 1505,
     "tags": [
       "Action",
       "Role playing"
@@ -63534,6 +68302,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -63572,6 +68341,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 149,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -63601,6 +68371,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Shooter"
     ],
@@ -63633,6 +68404,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Racing & flying",
       "CrossPlatform",
@@ -63666,6 +68438,7 @@ var GAME = {
     "price": 16.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "SinglePlayer"
     ],
@@ -63693,6 +68466,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Platformer"
@@ -63719,6 +68493,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Family",
       "Platformer"
@@ -63745,6 +68520,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Role playing",
       "Shooter"
@@ -63771,6 +68547,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Shooter"
     ],
@@ -63798,6 +68575,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "Role playing",
@@ -63827,6 +68605,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 61,
     "tags": [
       "Puzzle",
       "LocalMultiPlayer",
@@ -63854,6 +68633,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 3,
     "tags": [
       "Action",
       "Free"
@@ -63886,6 +68666,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1048,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -63913,6 +68694,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "Platformer"
@@ -63939,6 +68721,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "Family"
@@ -63968,6 +68751,7 @@ var GAME = {
     "price": 59.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "Family",
       "Sports",
@@ -64000,6 +68784,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
@@ -64027,6 +68812,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Strategy",
       "Simulation"
@@ -64054,6 +68840,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 417,
     "tags": [
       "Action",
       "GamePass"
@@ -64085,6 +68872,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 74,
     "tags": [
       "Action",
       "Racing & flying",
@@ -64118,6 +68906,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 672,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -64148,6 +68937,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 58,
     "tags": [
       "Role playing"
     ],
@@ -64180,6 +68970,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 534,
     "tags": [
       "MultiPlayer",
       "GamePass"
@@ -64206,6 +68997,7 @@ var GAME = {
     "price": 9.49,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Classics",
@@ -64233,6 +69025,7 @@ var GAME = {
     "price": 6.59,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action"
     ],
@@ -64259,6 +69052,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Action",
       "Free"
@@ -64286,6 +69080,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Shooter",
       "GamePass"
@@ -64315,6 +69110,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 183,
     "tags": [
       "MultiPlayer"
     ],
@@ -64347,6 +69143,7 @@ var GAME = {
     "price": 49.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "Shooter",
@@ -64375,6 +69172,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "Action"
     ],
@@ -64405,6 +69203,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 706,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -64437,6 +69236,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 976,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -64468,6 +69268,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "Simulation",
@@ -64496,6 +69297,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Fighting"
     ],
@@ -64521,6 +69323,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action"
     ],
@@ -64548,6 +69351,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "GamePass"
@@ -64577,6 +69381,7 @@ var GAME = {
     "price": 69.98,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "MultiPlayer"
     ],
@@ -64603,6 +69408,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 150,
     "tags": [],
     "title": "Batman: Return to Arkham",
     "trial": false,
@@ -64630,6 +69436,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 75,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -64659,6 +69466,7 @@ var GAME = {
     "price": 59.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 177,
     "tags": [
       "Action",
       "Family",
@@ -64689,6 +69497,7 @@ var GAME = {
     "price": 6.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Strategy",
       "Simulation"
@@ -64720,6 +69529,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 510,
     "tags": [
       "Action",
       "Shooter",
@@ -64751,6 +69561,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 441,
     "tags": [
       "MultiPlayer"
     ],
@@ -64780,6 +69591,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Music",
@@ -64818,6 +69630,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Racing & flying",
@@ -64851,6 +69664,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 75,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -64880,6 +69694,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Family",
       "GamePass"
@@ -64909,6 +69724,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Role playing",
@@ -64938,6 +69754,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 267,
     "tags": [
       "Action"
     ],
@@ -64967,6 +69784,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Platformer",
@@ -65000,6 +69818,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "Role playing",
       "Action",
@@ -65033,6 +69852,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 237,
     "tags": [
       "MultiPlayer"
     ],
@@ -65058,6 +69878,7 @@ var GAME = {
     "price": 9.49,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Classics",
       "Platformer"
@@ -65090,6 +69911,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -65118,6 +69940,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Action"
     ],
@@ -65143,6 +69966,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action"
     ],
@@ -65170,6 +69994,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 113,
     "tags": [
       "Role playing",
       "MultiPlayer",
@@ -65201,6 +70026,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 64,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -65230,6 +70056,7 @@ var GAME = {
     "price": 14.98,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 242,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -65256,6 +70083,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Role playing"
     ],
@@ -65282,6 +70110,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 62,
     "tags": [
       "Role playing",
       "GamePass"
@@ -65316,6 +70145,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -65348,6 +70178,7 @@ var GAME = {
     "price": 14.98,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Action",
       "Family",
@@ -65376,6 +70207,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Action",
       "Classics",
@@ -65406,6 +70238,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Role playing"
     ],
@@ -65432,6 +70265,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Puzzle",
       "GamePass"
@@ -65458,6 +70292,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action"
     ],
@@ -65483,6 +70318,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Racing & flying"
     ],
@@ -65508,6 +70344,7 @@ var GAME = {
     "price": 15.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Role playing"
     ],
@@ -65537,6 +70374,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 403,
     "tags": [
       "MultiPlayer"
     ],
@@ -65565,6 +70403,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 58,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -65593,6 +70432,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 266,
     "tags": [],
     "title": "Lords of the Fallen Complete Edition (2014)",
     "trial": false,
@@ -65625,6 +70465,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -65656,6 +70497,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action"
     ],
@@ -65684,6 +70526,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 81,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -65712,6 +70555,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Classics",
       "Platformer",
@@ -65741,6 +70585,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -65769,6 +70614,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 305,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -65798,6 +70644,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 357,
     "tags": [
       "Action",
       "GamePass"
@@ -65828,6 +70675,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
@@ -65858,6 +70706,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Strategy",
       "Simulation",
@@ -65888,6 +70737,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 94,
     "tags": [
       "Role playing"
     ],
@@ -65929,6 +70779,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Action",
       "Platformer",
@@ -65962,6 +70813,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 72,
     "tags": [
       "Role playing"
     ],
@@ -65992,6 +70844,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 58,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -66023,6 +70876,7 @@ var GAME = {
     "price": 12.49,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Action",
       "Cards",
@@ -66055,6 +70909,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 101,
     "tags": [
       "Action",
       "GamePass"
@@ -66087,6 +70942,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Simulation",
       "Strategy",
@@ -66120,6 +70976,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 155,
     "tags": [
       "Action",
       "Platformer",
@@ -66129,6 +70986,32 @@ var GAME = {
     "title": "RiME",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BSQZ03S3RV54"
+  },
+  "BSR5BPN8NMMJ": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BSR5BPN8NMMJ",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BSR5BPN8NMMJ",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.10261.69893236204139217.c5ea69cb-885e-45eb-ac81-87ddd0f973aa.d85da14e-55c8-4cfd-86cf-4c2247da00d9",
+    "price": 99.99,
+    "rate": 3.9,
+    "requiresGame": false,
+    "reviews": 830,
+    "tags": [],
+    "title": "Edici\u00f3n digital Pro de Call of Duty\u00ae: Advanced Warfare",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/BSR5BPN8NMMJ"
   },
   "BSR9NLHVF1KL": {
     "actions": [
@@ -66154,6 +71037,7 @@ var GAME = {
     "price": 49.99,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 208,
     "tags": [
       "Action",
       "Role playing",
@@ -66187,6 +71071,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Fighting",
@@ -66218,6 +71103,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Action",
       "Role playing",
@@ -66248,6 +71134,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Free"
@@ -66275,6 +71162,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Action",
       "Strategy",
@@ -66302,6 +71190,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "Classics"
@@ -66329,6 +71218,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 127,
     "tags": [
       "Action",
       "Platformer"
@@ -66364,6 +71254,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Action",
       "Role playing",
@@ -66392,6 +71283,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action"
     ],
@@ -66425,6 +71317,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -66457,6 +71350,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 136,
     "tags": [
       "Action",
       "MultiPlayer",
@@ -66487,6 +71381,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Family",
       "GamePass"
@@ -66514,6 +71409,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 71,
     "tags": [
       "Action",
       "Strategy",
@@ -66543,6 +71439,7 @@ var GAME = {
     "price": 12.49,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Action"
     ],
@@ -66575,6 +71472,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 113,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -66602,6 +71500,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Shooter"
     ],
@@ -66628,6 +71527,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action"
     ],
@@ -66656,6 +71556,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "MultiPlayer"
     ],
@@ -66681,6 +71582,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "Action"
     ],
@@ -66712,6 +71614,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Platformer",
@@ -66753,6 +71656,7 @@ var GAME = {
     "price": 74.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -66784,6 +71688,7 @@ var GAME = {
     "price": 69.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -66792,6 +71697,65 @@ var GAME = {
     "title": "ONE PIECE BURNING BLOOD",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BT3RWJD102LX"
+  },
+  "BT51M2LPKPZD": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode",
+      "Upsell"
+    ],
+    "attributes": [
+      "CapabilityHDR",
+      "XblOnlineCoop",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BT51M2LPKPZD",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BT51M2LPKPZD",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.12645.70715356435952169.d07ecf3e-7a12-4c6f-95e7-688a54e7e769.35735f71-a947-4b91-8b3d-d2fa68e9cea3",
+    "price": 99.99,
+    "rate": 4.4,
+    "requiresGame": false,
+    "reviews": 9,
+    "tags": [
+      "MultiPlayer"
+    ],
+    "title": "Ultimate Edition de Tom Clancy's Ghost Recon\u00ae Wildlands",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/BT51M2LPKPZD"
+  },
+  "BT5397FJ3KTW": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BT5397FJ3KTW",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BT5397FJ3KTW",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.30966.70714258191819698.d43a6d51-770d-4e30-8758-0dece5aa6c86.35b55519-9418-49d9-818b-8fc111d0bbe0",
+    "price": 94.99,
+    "rate": 4.5,
+    "requiresGame": false,
+    "reviews": 140,
+    "tags": [],
+    "title": "We Happy Few Digital Deluxe",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/BT5397FJ3KTW"
   },
   "BT5P2X999VH2": {
     "actions": [
@@ -66815,6 +71779,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 3353,
     "tags": [
       "Action",
       "Shooter",
@@ -66852,6 +71817,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 157,
     "tags": [
       "Action",
       "Role playing",
@@ -66880,6 +71846,7 @@ var GAME = {
     "price": 2.87,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Shooter"
     ],
@@ -66909,6 +71876,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Action",
       "Shooter",
@@ -66939,6 +71907,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Cards",
@@ -66974,6 +71943,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 329,
     "tags": [
       "Action",
       "Shooter",
@@ -67002,6 +71972,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Classics",
@@ -67038,6 +72009,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -67080,6 +72052,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 137,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -67119,6 +72092,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -67147,6 +72121,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Shooter",
       "GamePass"
@@ -67176,6 +72151,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
@@ -67206,6 +72182,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1081,
     "tags": [
       "MultiPlayer"
     ],
@@ -67232,6 +72209,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action"
     ],
@@ -67257,6 +72235,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 122,
     "tags": [
       "Role playing"
     ],
@@ -67289,6 +72268,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 416,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -67319,6 +72299,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Family",
@@ -67358,6 +72339,7 @@ var GAME = {
     "price": 18.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 118,
     "tags": [
       "Action",
       "Platformer",
@@ -67396,6 +72378,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -67428,6 +72411,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "Role playing",
@@ -67459,6 +72443,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 178,
     "tags": [
       "Action"
     ],
@@ -67488,6 +72473,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 49,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -67495,6 +72481,39 @@ var GAME = {
     "title": "Shantae and the Pirate's Curse",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BTQP8RRP1PKD"
+  },
+  "BTSGLCR6DGTD": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "XblLocalMultiPlayer",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BTSGLCR6DGTD",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BTSGLCR6DGTD",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.21160.70543695624933493.70986566-95c3-497c-a0bd-afbe7e9cd047.5caab79c-324c-4200-95dd-cee76831beb1",
+    "price": 84.99,
+    "rate": 3.8,
+    "requiresGame": false,
+    "reviews": 32,
+    "tags": [
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ],
+    "title": "DEAD OR ALIVE 6 Digital Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/BTSGLCR6DGTD"
   },
   "BTSLS8RHRHRW": {
     "actions": [
@@ -67525,6 +72544,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Role playing",
@@ -67557,6 +72577,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 56,
     "tags": [
       "Simulation",
       "Strategy",
@@ -67584,6 +72605,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Action",
       "Family"
@@ -67613,6 +72635,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -67640,6 +72663,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Action",
       "Shooter",
@@ -67668,6 +72692,7 @@ var GAME = {
     "price": 6.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "Platformer"
@@ -67697,6 +72722,7 @@ var GAME = {
     "price": 13.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 225,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -67723,6 +72749,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Action"
     ],
@@ -67752,6 +72779,7 @@ var GAME = {
     "price": 59.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 2350,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -67780,6 +72808,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Action",
       "Cards",
@@ -67813,6 +72842,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -67843,6 +72873,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 63,
     "tags": [
       "Action"
     ],
@@ -67876,6 +72907,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Family",
       "Racing & flying",
@@ -67907,6 +72939,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 529,
     "tags": [],
     "title": "PAQUETE FAR CRY 4 + FAR CRY PRIMAL",
     "trial": false,
@@ -67934,6 +72967,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -67967,6 +73001,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 113,
     "tags": [
       "SinglePlayer"
     ],
@@ -67998,6 +73033,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "Racing & flying",
@@ -68027,6 +73063,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "Role playing",
       "GamePass"
@@ -68056,6 +73093,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 162,
     "tags": [
       "Shooter"
     ],
@@ -68083,6 +73121,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 539,
     "tags": [],
     "title": "Metro Redux Bundle",
     "trial": false,
@@ -68106,6 +73145,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Racing & flying"
@@ -68135,6 +73175,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -68166,6 +73207,7 @@ var GAME = {
     "price": 69.98,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -68194,6 +73236,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action"
     ],
@@ -68222,6 +73265,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "Family",
@@ -68250,6 +73294,7 @@ var GAME = {
     "price": 20.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [],
     "title": "Oddworld: New 'n' Tasty - Deluxe Edition",
     "trial": false,
@@ -68276,6 +73321,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 141,
     "tags": [
       "Action",
       "MOBA",
@@ -68311,6 +73357,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 411,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -68342,6 +73389,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 224,
     "tags": [
       "Role playing",
       "MultiPlayer"
@@ -68368,6 +73416,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "Fighting"
     ],
@@ -68397,6 +73446,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 74,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -68425,6 +73475,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -68462,6 +73513,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 278,
     "tags": [
       "Action"
     ],
@@ -68488,6 +73540,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Action"
     ],
@@ -68514,6 +73567,7 @@ var GAME = {
     "price": 14.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 167,
     "tags": [
       "Action"
     ],
@@ -68540,6 +73594,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [],
     "title": "Trine: Ultimate Collection",
     "trial": false,
@@ -68564,6 +73619,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 133,
     "tags": [],
     "title": "Edici\u00f3n deluxe de LEGO\u00ae Marvel's Vengadores",
     "trial": false,
@@ -68598,6 +73654,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Family",
       "SinglePlayer",
@@ -68629,6 +73686,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Platformer"
@@ -68662,6 +73720,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Family",
       "Simulation",
@@ -68692,6 +73751,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Action"
     ],
@@ -68717,6 +73777,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 157,
     "tags": [
       "Shooter"
     ],
@@ -68744,6 +73805,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "Racing & flying"
@@ -68771,6 +73833,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "Platformer"
@@ -68799,6 +73862,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action"
     ],
@@ -68824,6 +73888,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Shooter"
@@ -68853,6 +73918,7 @@ var GAME = {
     "price": 14.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 85,
     "tags": [
       "Action",
       "Platformer",
@@ -68886,6 +73952,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 703,
     "tags": [
       "LocalMultiPlayer",
       "CrossPlatform",
@@ -68925,6 +73992,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 138,
     "tags": [
       "Role playing",
       "MultiPlayer"
@@ -68953,6 +74021,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Platformer",
@@ -68983,6 +74052,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
@@ -69010,6 +74080,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action"
     ],
@@ -69042,6 +74113,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 236,
     "tags": [
       "Action",
       "Role playing",
@@ -69071,6 +74143,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action"
     ],
@@ -69097,6 +74170,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -69124,6 +74198,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action"
     ],
@@ -69151,6 +74226,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 224,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -69183,6 +74259,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -69214,6 +74291,7 @@ var GAME = {
     "price": 12.98,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Family",
@@ -69242,6 +74320,7 @@ var GAME = {
     "price": 4.79,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Fighting"
     ],
@@ -69269,6 +74348,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 140,
     "tags": [
       "Action",
       "Puzzle",
@@ -69304,6 +74384,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 129,
     "tags": [
       "SinglePlayer"
     ],
@@ -69332,6 +74413,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "MultiPlayer"
     ],
@@ -69357,6 +74439,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Action",
       "Shooter"
@@ -69383,6 +74466,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "Free"
@@ -69413,6 +74497,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 399,
     "tags": [
       "Action",
       "Role playing",
@@ -69440,6 +74525,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Shooter"
     ],
@@ -69466,6 +74552,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "Shooter"
@@ -69494,6 +74581,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 246,
     "tags": [
       "Action",
       "GamePass"
@@ -69523,6 +74611,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 367,
     "tags": [
       "Action",
       "Platformer",
@@ -69556,6 +74645,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Simulation",
       "Strategy",
@@ -69590,6 +74680,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -69628,6 +74719,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Role playing",
       "LocalMultiPlayer",
@@ -69659,6 +74751,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -69691,6 +74784,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 207,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -69718,6 +74812,7 @@ var GAME = {
     "price": 4.49,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action",
       "Shooter"
@@ -69753,6 +74848,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 144,
     "tags": [
       "Action",
       "Role playing",
@@ -69783,6 +74879,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Shooter"
@@ -69812,6 +74909,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action",
       "Shooter",
@@ -69847,6 +74945,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -69877,6 +74976,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Classics",
@@ -69908,6 +75008,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Shooter"
     ],
@@ -69934,6 +75035,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 96,
     "tags": [
       "Action",
       "Platformer",
@@ -69966,6 +75068,7 @@ var GAME = {
     "price": 39.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Action",
       "Role playing",
@@ -69995,6 +75098,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action"
     ],
@@ -70020,6 +75124,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 224,
     "tags": [
       "Action",
       "Shooter"
@@ -70049,6 +75154,7 @@ var GAME = {
     "price": 15.98,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 60,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -70082,6 +75188,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Simulation",
       "Strategy",
@@ -70120,6 +75227,7 @@ var GAME = {
     "price": 34.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "Action",
       "Role playing",
@@ -70158,6 +75266,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 242,
     "tags": [
       "Action"
     ],
@@ -70188,6 +75297,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 100,
     "tags": [
       "Platformer",
       "SinglePlayer"
@@ -70214,6 +75324,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Platformer",
       "Racing & flying",
@@ -70246,6 +75357,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 421,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -70273,6 +75385,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Classics",
       "Shooter",
@@ -70300,6 +75413,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "Family"
@@ -70329,6 +75443,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "Strategy",
@@ -70362,6 +75477,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -70394,6 +75510,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 89,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -70420,6 +75537,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Racing & flying",
       "Shooter",
@@ -70460,6 +75578,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Simulation",
@@ -70495,6 +75614,7 @@ var GAME = {
     "price": 10.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 56,
     "tags": [
       "MultiPlayer"
     ],
@@ -70523,6 +75643,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action"
     ],
@@ -70548,6 +75669,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Fighting"
     ],
@@ -70579,6 +75701,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 412,
     "tags": [
       "Action",
       "Shooter",
@@ -70615,6 +75738,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 206,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -70647,6 +75771,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -70680,6 +75805,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Action",
       "Role playing",
@@ -70708,6 +75834,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Classics"
     ],
@@ -70741,6 +75868,7 @@ var GAME = {
     "price": 69.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 138,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -70773,6 +75901,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -70806,6 +75935,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "SinglePlayer",
       "LocalMultiPlayer",
@@ -70844,6 +75974,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 6292,
     "tags": [
       "Action",
       "Shooter",
@@ -70882,6 +76013,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -70911,6 +76043,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Action",
       "Classics",
@@ -70945,6 +76078,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "Role playing",
@@ -70975,6 +76109,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Classics",
@@ -71002,6 +76137,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action"
     ],
@@ -71028,6 +76164,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 108,
     "tags": [
       "Action",
       "Role playing",
@@ -71065,6 +76202,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 430,
     "tags": [
       "Role playing",
       "SinglePlayer"
@@ -71096,6 +76234,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 285,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -71127,6 +76266,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Simulation",
       "Action",
@@ -71156,6 +76296,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 175,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -71183,6 +76324,7 @@ var GAME = {
     "price": 12.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -71211,6 +76353,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action"
     ],
@@ -71239,6 +76382,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -71267,6 +76411,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Action"
     ],
@@ -71294,6 +76439,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "Platformer"
@@ -71301,6 +76447,35 @@ var GAME = {
     "title": "The Final Station",
     "trial": false,
     "url": "https://www.xbox.com/es-es/games/store/a/BX8HV1B694PC"
+  },
+  "BX8J66WFQ1VK": {
+    "actions": [
+      "EditionSelector",
+      "Gift",
+      "RedeemACode",
+      "Upsell"
+    ],
+    "attributes": [
+      "Capability4k",
+      "CapabilityHDR",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "BX8J66WFQ1VK",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=BX8J66WFQ1VK",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.52235.63522818950068614.67559cb0-9f5b-4bc6-89e8-95e130121990.6f1381e2-b338-4a3d-ab8f-cc69b0663041",
+    "price": 99.99,
+    "rate": 4.7,
+    "requiresGame": false,
+    "reviews": 38,
+    "tags": [],
+    "title": "Assassin's Creed\u00ae Origins - GOLD EDITION",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/BX8J66WFQ1VK"
   },
   "BXBJQ1932138": {
     "actions": [
@@ -71325,6 +76500,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 94,
     "tags": [
       "Action",
       "Shooter",
@@ -71363,6 +76539,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Shooter",
@@ -71391,6 +76568,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Shooter"
     ],
@@ -71419,6 +76597,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 402,
     "tags": [
       "Simulation",
       "Strategy"
@@ -71451,6 +76630,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 158,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -71479,6 +76659,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Role playing"
     ],
@@ -71507,6 +76688,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -71534,6 +76716,7 @@ var GAME = {
     "price": 14.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 61,
     "tags": [
       "Action"
     ],
@@ -71559,6 +76742,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Puzzle",
@@ -71590,6 +76774,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Action"
     ],
@@ -71619,6 +76804,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 68,
     "tags": [
       "Action",
       "Platformer",
@@ -71648,6 +76834,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 147,
     "tags": [
       "Action"
     ],
@@ -71673,6 +76860,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Classics"
     ],
@@ -71698,6 +76886,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Puzzle",
       "Free"
@@ -71725,6 +76914,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 68,
     "tags": [
       "Role playing"
     ],
@@ -71751,6 +76941,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action"
     ],
@@ -71779,6 +76970,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "Role playing",
@@ -71809,6 +77001,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Action",
       "Platformer"
@@ -71839,6 +77032,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -71882,6 +77076,7 @@ var GAME = {
     "price": 49.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 83,
     "tags": [
       "Action",
       "Shooter",
@@ -71913,6 +77108,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 32,
     "tags": [
       "Action",
       "Platformer",
@@ -71944,6 +77140,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Cards",
       "Casino",
@@ -71976,6 +77173,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Puzzle",
       "Role playing"
@@ -72005,6 +77203,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 237,
     "tags": [
       "Action"
     ],
@@ -72030,6 +77229,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "Racing & flying"
@@ -72060,6 +77260,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 231,
     "tags": [
       "Racing & flying",
       "MultiPlayer",
@@ -72092,6 +77293,7 @@ var GAME = {
     "price": 1.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 79,
     "tags": [
       "Action",
       "Puzzle",
@@ -72121,6 +77323,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 72,
     "tags": [
       "SinglePlayer"
     ],
@@ -72151,6 +77354,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Family",
       "LocalMultiPlayer"
@@ -72177,6 +77381,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Shooter"
     ],
@@ -72204,6 +77409,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Platformer",
@@ -72232,6 +77438,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "Action",
       "Family"
@@ -72258,6 +77465,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Shooter"
     ],
@@ -72292,6 +77500,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 263,
     "tags": [],
     "title": "RESIDENT EVIL 2 Deluxe Edition",
     "trial": false,
@@ -72321,6 +77530,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 42,
     "tags": [
       "Action",
       "Shooter",
@@ -72350,6 +77560,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Role playing",
       "GamePass"
@@ -72377,6 +77588,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 63,
     "tags": [
       "Action",
       "Classics",
@@ -72414,6 +77626,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 77,
     "tags": [
       "Action",
       "Shooter",
@@ -72445,6 +77658,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action",
       "Classics",
@@ -72479,6 +77693,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 110,
     "tags": [
       "Action",
       "Shooter",
@@ -72506,6 +77721,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Classics",
       "Racing & flying"
@@ -72536,6 +77752,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 442,
     "tags": [
       "MultiPlayer"
     ],
@@ -72562,6 +77779,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 166,
     "tags": [],
     "title": "Resident Evil: Deluxe Origins Bundle",
     "trial": false,
@@ -72586,6 +77804,7 @@ var GAME = {
     "price": 9.49,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "GamePass"
@@ -72614,6 +77833,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 91,
     "tags": [
       "Action",
       "GamePass"
@@ -72640,6 +77860,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 147,
     "tags": [
       "Role playing"
     ],
@@ -72668,6 +77889,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Role playing",
       "LocalMultiPlayer"
@@ -72694,6 +77916,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 73,
     "tags": [
       "Action"
     ],
@@ -72722,6 +77945,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -72751,6 +77975,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Shooter",
@@ -72783,6 +78008,7 @@ var GAME = {
     "price": 16.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Racing & flying",
@@ -72820,6 +78046,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "Action",
       "Role playing",
@@ -72853,6 +78080,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 221,
     "tags": [],
     "title": "Far Cry Primal - Apex Edition",
     "trial": false,
@@ -72886,6 +78114,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 319,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -72913,6 +78142,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Platformer",
       "Puzzle"
@@ -72942,6 +78172,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 192,
     "tags": [
       "Action",
       "Family",
@@ -72974,6 +78205,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Family",
@@ -73003,6 +78235,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Classics"
     ],
@@ -73030,6 +78263,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 50,
     "tags": [],
     "title": "MONOPOLY FAMILY FUN PACK",
     "trial": false,
@@ -73053,6 +78287,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Strategy",
@@ -73081,6 +78316,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 353,
     "tags": [],
     "title": "Wolfenstein\u00ae: The Two-Pack",
     "trial": false,
@@ -73106,6 +78342,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Music",
       "LocalMultiPlayer"
@@ -73133,6 +78370,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action"
     ],
@@ -73158,6 +78396,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 72,
     "tags": [
       "Action",
       "Shooter"
@@ -73191,6 +78430,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Platformer",
       "SinglePlayer",
@@ -73225,6 +78465,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "Role playing",
@@ -73258,6 +78499,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -73288,6 +78530,7 @@ var GAME = {
     "price": 69.98,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 90,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -73317,6 +78560,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Role playing"
@@ -73345,6 +78589,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Simulation",
       "Strategy",
@@ -73372,6 +78617,7 @@ var GAME = {
     "price": 6.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Role playing"
@@ -73400,6 +78646,7 @@ var GAME = {
     "price": 17.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Strategy",
       "Simulation"
@@ -73428,6 +78675,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action"
     ],
@@ -73455,6 +78703,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 62,
     "tags": [
       "Action"
     ],
@@ -73481,6 +78730,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Platformer"
@@ -73522,6 +78772,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 104,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -73551,6 +78802,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Action",
       "Classics",
@@ -73582,6 +78834,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "MultiPlayer"
     ],
@@ -73608,6 +78861,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Action",
       "Platformer"
@@ -73635,6 +78889,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action"
     ],
@@ -73660,6 +78915,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action"
     ],
@@ -73689,6 +78945,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 523,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -73717,6 +78974,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 209,
     "tags": [
       "Action"
     ],
@@ -73742,6 +79000,7 @@ var GAME = {
     "price": 3.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Shooter"
@@ -73770,6 +79029,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 166,
     "tags": [
       "Shooter"
     ],
@@ -73796,6 +79056,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Action",
       "Role playing",
@@ -73823,6 +79084,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Role playing"
     ],
@@ -73851,6 +79113,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 153,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -73877,6 +79140,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 10,
     "tags": [
       "Action",
       "Platformer"
@@ -73913,6 +79177,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 102,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -73942,6 +79207,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Shooter",
       "LocalMultiPlayer"
@@ -73970,6 +79236,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action"
     ],
@@ -74006,6 +79273,7 @@ var GAME = {
     "price": 49.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 367,
     "tags": [
       "Action",
       "Role playing",
@@ -74043,6 +79311,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 153,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -74072,6 +79341,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Simulation",
       "Strategy",
@@ -74101,6 +79371,7 @@ var GAME = {
     "price": 69.98,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 63,
     "tags": [
       "Role playing"
     ],
@@ -74126,6 +79397,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Platformer"
@@ -74153,6 +79425,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Role playing"
     ],
@@ -74179,6 +79452,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Platformer",
@@ -74211,6 +79485,7 @@ var GAME = {
     "price": 14.99,
     "rate": 2.8,
     "requiresGame": false,
+    "reviews": 74,
     "tags": [
       "Cards",
       "Classics",
@@ -74241,6 +79516,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 11,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -74273,6 +79549,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -74305,6 +79582,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 4381,
     "tags": [
       "Action",
       "Racing & flying",
@@ -74341,6 +79619,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 47,
     "tags": [
       "SinglePlayer"
     ],
@@ -74366,6 +79645,7 @@ var GAME = {
     "price": 2.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Strategy",
@@ -74397,6 +79677,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "MultiPlayer"
     ],
@@ -74430,6 +79711,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -74461,6 +79743,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -74489,6 +79772,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 318,
     "tags": [
       "Role playing",
       "MultiPlayer",
@@ -74523,6 +79807,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 213,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -74553,6 +79838,7 @@ var GAME = {
     "price": 18.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Racing & flying",
@@ -74583,6 +79869,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action"
     ],
@@ -74613,6 +79900,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 345,
     "tags": [
       "Action",
       "Shooter",
@@ -74642,6 +79930,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Role playing"
     ],
@@ -74676,6 +79965,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Role playing",
@@ -74705,6 +79995,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "Free"
@@ -74734,6 +80025,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 701,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -74773,6 +80065,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 196,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -74802,6 +80095,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 96,
     "tags": [
       "Shooter"
     ],
@@ -74830,6 +80124,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "Role playing"
     ],
@@ -74857,6 +80152,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 488,
     "tags": [
       "Action",
       "GamePass"
@@ -74884,6 +80180,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 56,
     "tags": [
       "Action",
       "Platformer"
@@ -74913,6 +80210,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 91,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -74942,6 +80240,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Classics",
       "Shooter",
@@ -74971,6 +80270,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Action",
       "Strategy",
@@ -75001,6 +80301,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 98,
     "tags": [
       "Action",
       "Shooter",
@@ -75028,6 +80329,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action"
     ],
@@ -75057,6 +80359,7 @@ var GAME = {
     "price": 23.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "GamePass"
     ],
@@ -75082,6 +80385,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "Action",
       "Family",
@@ -75113,6 +80417,7 @@ var GAME = {
     "price": 4.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Cards",
       "Family",
@@ -75143,6 +80448,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 320,
     "tags": [
       "Action",
       "Puzzle"
@@ -75173,6 +80479,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 298,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -75201,6 +80508,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 80,
     "tags": [
       "Action",
       "GamePass"
@@ -75229,6 +80537,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 50,
     "tags": [
       "Action"
     ],
@@ -75255,6 +80564,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Role playing",
       "GamePass"
@@ -75288,6 +80598,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 84,
     "tags": [
       "Action",
       "Role playing",
@@ -75316,6 +80627,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Role playing"
     ],
@@ -75348,6 +80660,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Family",
@@ -75381,6 +80694,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Action",
       "Role playing",
@@ -75421,6 +80735,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 49,
     "tags": [
       "Action",
       "Racing & flying",
@@ -75453,6 +80768,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 272,
     "tags": [
       "Platformer",
       "GamePass"
@@ -75482,6 +80798,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -75522,6 +80839,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 1259,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -75559,6 +80877,7 @@ var GAME = {
     "price": 7.49,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action",
       "Fighting",
@@ -75590,6 +80909,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "Platformer"
@@ -75616,6 +80936,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Shooter"
     ],
@@ -75643,6 +80964,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Racing & flying",
@@ -75676,6 +80998,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 318,
     "tags": [
       "Action",
       "Platformer",
@@ -75704,6 +81027,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 56,
     "tags": [
       "Fighting"
     ],
@@ -75730,6 +81054,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "Shooter"
@@ -75761,6 +81086,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Family",
@@ -75799,6 +81125,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 814,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -75827,6 +81154,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Classics"
     ],
@@ -75858,6 +81186,7 @@ var GAME = {
     "price": 44.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Shooter",
       "MultiPlayer"
@@ -75884,6 +81213,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 54,
     "tags": [
       "Action",
       "Puzzle"
@@ -75910,6 +81240,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Shooter"
@@ -75943,6 +81274,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Platformer",
@@ -75972,6 +81304,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 363,
     "tags": [
       "Action"
     ],
@@ -75998,6 +81331,7 @@ var GAME = {
     "price": 2.49,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action",
       "Puzzle"
@@ -76026,6 +81360,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 117,
     "tags": [
       "Action",
       "Shooter",
@@ -76055,6 +81390,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 96,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -76084,6 +81420,7 @@ var GAME = {
     "price": 12.98,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Action",
       "Shooter",
@@ -76113,6 +81450,7 @@ var GAME = {
     "price": 15.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Fighting",
@@ -76144,6 +81482,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 233,
     "tags": [
       "Action",
       "Fighting",
@@ -76180,6 +81519,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Simulation",
       "Strategy",
@@ -76208,6 +81548,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Role playing"
     ],
@@ -76233,6 +81574,7 @@ var GAME = {
     "price": 9.49,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Classics"
     ],
@@ -76260,6 +81602,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -76290,6 +81633,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Simulation",
@@ -76323,6 +81667,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -76355,6 +81700,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 51,
     "tags": [
       "Strategy",
       "Simulation",
@@ -76382,6 +81728,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 48,
     "tags": [
       "Action"
     ],
@@ -76411,6 +81758,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Shooter",
@@ -76440,6 +81788,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Puzzle"
@@ -76466,6 +81815,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "Shooter"
@@ -76492,6 +81842,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Action",
       "Shooter"
@@ -76524,6 +81875,7 @@ var GAME = {
     "price": 18.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "Family",
@@ -76555,6 +81907,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 550,
     "tags": [
       "MultiPlayer"
     ],
@@ -76580,6 +81933,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Action",
       "Puzzle"
@@ -76606,6 +81960,7 @@ var GAME = {
     "price": 4.79,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Family",
@@ -76642,6 +81997,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 256,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -76681,6 +82037,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 181,
     "tags": [
       "Shooter",
       "SinglePlayer"
@@ -76708,6 +82065,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action"
     ],
@@ -76733,6 +82091,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Family"
@@ -76760,6 +82119,7 @@ var GAME = {
     "price": 26.99,
     "rate": 4.9,
     "requiresGame": false,
+    "reviews": 496,
     "tags": [],
     "title": "INSIDE & LIMBO Bundle",
     "trial": false,
@@ -76783,6 +82143,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Platformer"
     ],
@@ -76810,6 +82171,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 114,
     "tags": [
       "Action"
     ],
@@ -76839,6 +82201,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action",
       "Shooter",
@@ -76872,6 +82235,7 @@ var GAME = {
     "price": 4.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 2,
     "tags": [
       "Shooter",
       "Sports",
@@ -76903,6 +82267,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Action",
       "Role playing"
@@ -76942,6 +82307,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 148,
     "tags": [
       "Action",
       "Shooter",
@@ -76974,6 +82340,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 20,
     "tags": [
       "Family",
       "Racing & flying",
@@ -77005,6 +82372,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 597,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -77034,6 +82402,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 371,
     "tags": [
       "SinglePlayer"
     ],
@@ -77059,6 +82428,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Shooter"
     ],
@@ -77086,6 +82456,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Cards"
     ],
@@ -77111,6 +82482,7 @@ var GAME = {
     "price": 3.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Shooter"
     ],
@@ -77143,6 +82515,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 105,
     "tags": [
       "Action",
       "Shooter",
@@ -77174,6 +82547,7 @@ var GAME = {
     "price": 4.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "LocalMultiPlayer"
@@ -77208,6 +82582,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 300,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer",
@@ -77238,6 +82613,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "Role playing"
@@ -77245,6 +82621,35 @@ var GAME = {
     "title": "Ghost of a Tale",
     "trial": true,
     "url": "https://www.xbox.com/es-es/games/store/a/C232CL8LQQ9N"
+  },
+  "C23CWXL81H3L": {
+    "actions": [
+      "Gift",
+      "RedeemACode"
+    ],
+    "attributes": [
+      "XblOnlineCoop",
+      "XblOnlineMultiPlayer",
+      "XboxLive"
+    ],
+    "gamepass": false,
+    "id": "C23CWXL81H3L",
+    "js": "https://displaycatalog.mp.microsoft.com/v7.0/products?MS-CV=DGU1mcuYo0WMMp+F.1&market=ES&languages=es-es&bigIds=C23CWXL81H3L",
+    "langs": [
+      "ES"
+    ],
+    "notSoldSeparately": false,
+    "poster": "http://store-images.s-microsoft.com/image/apps.26308.65765405318615559.1860d263-d982-466f-947a-523231ff1c3f.5ed26900-c677-4743-a9f1-67a46b866cd6",
+    "price": 94.49,
+    "rate": 4.7,
+    "requiresGame": false,
+    "reviews": 533,
+    "tags": [
+      "MultiPlayer"
+    ],
+    "title": "DARK SOULS\u2122 III - Deluxe Edition",
+    "trial": false,
+    "url": "https://www.xbox.com/es-es/games/store/a/C23CWXL81H3L"
   },
   "C23M2TC1ZFPJ": {
     "actions": [
@@ -77270,6 +82675,7 @@ var GAME = {
     "price": 4.49,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 92,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -77303,6 +82709,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -77330,6 +82737,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 30,
     "tags": [
       "Fighting"
     ],
@@ -77356,6 +82764,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 1370,
     "tags": [],
     "title": "Fallout 4: Game of the Year Edition",
     "trial": false,
@@ -77383,6 +82792,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -77414,6 +82824,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.2,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Platformer",
@@ -77445,6 +82856,7 @@ var GAME = {
     "price": 54.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 296,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -77473,6 +82885,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Platformer",
       "LocalMultiPlayer"
@@ -77502,6 +82915,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 265,
     "tags": [
       "Role playing"
     ],
@@ -77530,6 +82944,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 282,
     "tags": [
       "Action",
       "Platformer",
@@ -77562,6 +82977,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -77592,6 +83008,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 80,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
@@ -77618,6 +83035,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Family"
@@ -77645,6 +83063,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 108,
     "tags": [
       "Action"
     ],
@@ -77674,6 +83093,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 58,
     "tags": [
       "Platformer"
     ],
@@ -77700,6 +83120,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Action",
       "Platformer"
@@ -77726,6 +83147,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Action"
     ],
@@ -77752,6 +83174,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Platformer"
@@ -77784,6 +83207,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 131,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -77813,6 +83237,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 310,
     "tags": [],
     "title": "Lote de Battlefield",
     "trial": false,
@@ -77837,6 +83262,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 203,
     "tags": [
       "Role playing",
       "GamePass"
@@ -77870,6 +83296,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "Role playing",
@@ -77898,6 +83325,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 46,
     "tags": [
       "Shooter"
     ],
@@ -77925,6 +83353,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 127,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -77953,6 +83382,7 @@ var GAME = {
     "price": 11.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action"
     ],
@@ -77989,6 +83419,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 289,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -78024,6 +83455,7 @@ var GAME = {
     "price": 39.99,
     "rate": 2.9,
     "requiresGame": false,
+    "reviews": 124,
     "tags": [
       "Action",
       "Shooter",
@@ -78055,6 +83487,7 @@ var GAME = {
     "price": 14.98,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 24,
     "tags": [
       "Action",
       "Platformer",
@@ -78085,6 +83518,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 120,
     "tags": [
       "Action",
       "GamePass"
@@ -78116,6 +83550,7 @@ var GAME = {
     "price": 54.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "MultiPlayer"
     ],
@@ -78142,6 +83577,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Platformer"
@@ -78172,6 +83608,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -78199,6 +83636,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 113,
     "tags": [],
     "title": "BioShock: The Collection",
     "trial": false,
@@ -78222,6 +83660,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 53,
     "tags": [
       "Role playing"
     ],
@@ -78252,6 +83691,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 781,
     "tags": [
       "Simulation",
       "Strategy",
@@ -78284,6 +83724,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 103,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -78312,6 +83753,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 43,
     "tags": [
       "Action",
       "Role playing"
@@ -78358,6 +83800,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 10778,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -78395,6 +83838,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 238,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -78423,6 +83867,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 8,
     "tags": [
       "Action",
       "Family",
@@ -78457,6 +83902,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 313,
     "tags": [
       "Action",
       "MOBA",
@@ -78485,6 +83931,7 @@ var GAME = {
     "price": 9.49,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Classics",
@@ -78513,6 +83960,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 115,
     "tags": [],
     "title": "Little Nightmares Complete Edition",
     "trial": false,
@@ -78537,6 +83985,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 9,
     "tags": [
       "Action",
       "Classics",
@@ -78576,6 +84025,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 211,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -78611,6 +84061,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 195,
     "tags": [
       "Action",
       "Shooter",
@@ -78648,6 +84099,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -78678,6 +84130,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 14,
     "tags": [
       "Action",
       "Platformer",
@@ -78706,6 +84159,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 81,
     "tags": [
       "Action",
       "GamePass"
@@ -78734,6 +84188,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 52,
     "tags": [
       "Role playing",
       "GamePass"
@@ -78760,6 +84215,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 26,
     "tags": [
       "Action"
     ],
@@ -78788,6 +84244,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 57,
     "tags": [
       "Action"
     ],
@@ -78813,6 +84270,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Racing & flying"
     ],
@@ -78838,6 +84296,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action"
     ],
@@ -78867,6 +84326,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -78897,6 +84357,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 388,
     "tags": [
       "MultiPlayer"
     ],
@@ -78925,6 +84386,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Role playing",
       "LocalMultiPlayer",
@@ -78954,6 +84416,7 @@ var GAME = {
     "price": 12.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 62,
     "tags": [
       "GamePass"
     ],
@@ -78979,6 +84442,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action"
     ],
@@ -79009,6 +84473,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 135,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -79036,6 +84501,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Racing & flying",
       "Sports"
@@ -79064,6 +84530,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "Strategy",
@@ -79091,6 +84558,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Platformer",
@@ -79123,6 +84591,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Racing & flying",
@@ -79153,6 +84622,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "Platformer"
@@ -79182,6 +84652,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Strategy",
@@ -79221,6 +84692,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 93,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -79255,6 +84727,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.3,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Sports",
       "MultiPlayer"
@@ -79287,6 +84760,7 @@ var GAME = {
     "price": 19.98,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 86,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -79316,6 +84790,7 @@ var GAME = {
     "price": 6.98,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Racing & flying"
@@ -79349,6 +84824,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 44,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -79377,6 +84853,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action",
       "Family"
@@ -79405,6 +84882,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Racing & flying",
@@ -79433,6 +84911,7 @@ var GAME = {
     "price": 0.0,
     "rate": 2.5,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Classics",
@@ -79466,6 +84945,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.8,
     "requiresGame": false,
+    "reviews": 58,
     "tags": [
       "SinglePlayer"
     ],
@@ -79498,6 +84978,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 70,
     "tags": [
       "Family",
       "Fighting",
@@ -79533,6 +85014,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Sports",
       "LocalMultiPlayer"
@@ -79564,6 +85046,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 222,
     "tags": [
       "SinglePlayer"
     ],
@@ -79593,6 +85076,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -79627,6 +85111,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 88,
     "tags": [
       "Role playing",
       "Simulation",
@@ -79659,6 +85144,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 429,
     "tags": [],
     "title": "Batman: Arkham Knight Premium Edition",
     "trial": false,
@@ -79687,6 +85173,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 40,
     "tags": [
       "Action",
       "Platformer",
@@ -79718,6 +85205,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 755,
     "tags": [
       "MultiPlayer"
     ],
@@ -79743,6 +85231,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 15,
     "tags": [
       "Action"
     ],
@@ -79778,6 +85267,7 @@ var GAME = {
     "price": 29.99,
     "rate": 2.6,
     "requiresGame": false,
+    "reviews": 244,
     "tags": [
       "Action",
       "CrossPlatform",
@@ -79806,6 +85296,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 88,
     "tags": [
       "Role playing"
     ],
@@ -79832,6 +85323,7 @@ var GAME = {
     "price": 14.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 27,
     "tags": [
       "Action"
     ],
@@ -79865,6 +85357,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 1347,
     "tags": [
       "Role playing",
       "GamePass"
@@ -79891,6 +85384,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Action",
       "Shooter"
@@ -79920,6 +85414,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 114,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -79957,6 +85452,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 38,
     "tags": [
       "Action",
       "Role playing",
@@ -79988,6 +85484,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "Action",
       "Simulation",
@@ -80019,6 +85516,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Role playing",
       "MultiPlayer",
@@ -80050,6 +85548,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 262,
     "tags": [
       "MultiPlayer"
     ],
@@ -80075,6 +85574,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 4,
     "tags": [
       "Action"
     ],
@@ -80103,6 +85603,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 761,
     "tags": [
       "MultiPlayer"
     ],
@@ -80136,6 +85637,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 2127,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -80171,6 +85673,7 @@ var GAME = {
     "price": 9.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Platformer",
@@ -80200,6 +85703,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 21,
     "tags": [
       "Racing & flying",
       "Sports"
@@ -80232,6 +85736,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 332,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -80261,6 +85766,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Action",
       "Family",
@@ -80294,6 +85800,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 78,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -80323,6 +85830,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "Action",
       "Role playing"
@@ -80353,6 +85861,7 @@ var GAME = {
     "price": 69.98,
     "rate": 3.1,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -80380,6 +85889,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 36,
     "tags": [
       "Action",
       "Fighting",
@@ -80420,6 +85930,7 @@ var GAME = {
     "price": 69.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 141,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -80447,6 +85958,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 55,
     "tags": [
       "Action"
     ],
@@ -80474,6 +85986,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 57,
     "tags": [
       "Action",
       "GamePass"
@@ -80509,6 +86022,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 156,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -80540,6 +86054,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 103,
     "tags": [
       "Action",
       "Puzzle"
@@ -80567,6 +86082,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action"
     ],
@@ -80598,6 +86114,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 208,
     "tags": [
       "Action",
       "Simulation",
@@ -80628,6 +86145,7 @@ var GAME = {
     "price": 34.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 90,
     "tags": [
       "Action",
       "Family",
@@ -80659,6 +86177,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 312,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -80686,6 +86205,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 28,
     "tags": [
       "Action",
       "Shooter",
@@ -80718,6 +86238,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Strategy",
       "Simulation",
@@ -80756,6 +86277,7 @@ var GAME = {
     "price": 39.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 60,
     "tags": [
       "Action",
       "Shooter",
@@ -80787,6 +86309,7 @@ var GAME = {
     "price": 14.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Action",
       "Role playing"
@@ -80817,6 +86340,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 354,
     "tags": [
       "Role playing",
       "MultiPlayer",
@@ -80844,6 +86368,7 @@ var GAME = {
     "price": 2.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 16,
     "tags": [
       "Action",
       "Racing & flying",
@@ -80878,6 +86403,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -80906,6 +86432,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 168,
     "tags": [
       "GamePass"
     ],
@@ -80937,6 +86464,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "Racing & flying",
@@ -80965,6 +86493,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Strategy",
       "Simulation"
@@ -80993,6 +86522,7 @@ var GAME = {
     "price": 79.99,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 925,
     "tags": [],
     "title": "Pack triple Assassin's Creed: Black Flag, Unity, Syndicate",
     "trial": false,
@@ -81016,6 +86546,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 141,
     "tags": [
       "Action",
       "Shooter"
@@ -81045,6 +86576,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 2387,
     "tags": [
       "MultiPlayer"
     ],
@@ -81072,6 +86604,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 74,
     "tags": [
       "Action",
       "Platformer",
@@ -81103,6 +86636,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 5,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -81133,6 +86667,7 @@ var GAME = {
     "price": 11.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 7,
     "tags": [
       "Action"
     ],
@@ -81167,6 +86702,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -81197,6 +86733,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 70,
     "tags": [
       "Action",
       "Platformer"
@@ -81228,6 +86765,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 428,
     "tags": [
       "Action",
       "MultiPlayer"
@@ -81260,6 +86798,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 279,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -81290,6 +86829,7 @@ var GAME = {
     "price": 44.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 1251,
     "tags": [
       "MultiPlayer",
       "GamePass"
@@ -81318,6 +86858,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Action",
       "Role playing",
@@ -81350,6 +86891,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 35,
     "tags": [
       "Action",
       "CrossPlatform",
@@ -81381,6 +86923,7 @@ var GAME = {
     "price": 49.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 1143,
     "tags": [
       "MultiPlayer"
     ],
@@ -81410,6 +86953,7 @@ var GAME = {
     "price": 14.98,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 1,
     "tags": [
       "Action",
       "Family",
@@ -81439,6 +86983,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.1,
     "requiresGame": false,
+    "reviews": 34,
     "tags": [
       "Action",
       "Role playing",
@@ -81472,6 +87017,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 1082,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -81501,6 +87047,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 370,
     "tags": [],
     "title": "Batman: Arkham Collection",
     "trial": false,
@@ -81526,6 +87073,7 @@ var GAME = {
     "price": 64.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 75,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -81557,6 +87105,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 172,
     "tags": [
       "SinglePlayer",
       "CrossPlatform",
@@ -81595,6 +87144,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 96,
     "tags": [
       "Simulation",
       "Strategy",
@@ -81623,6 +87173,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Shooter"
@@ -81657,6 +87208,7 @@ var GAME = {
     "price": 19.98,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 6,
     "tags": [
       "Action",
       "SinglePlayer"
@@ -81687,6 +87239,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 117,
     "tags": [
       "Action",
       "Shooter",
@@ -81715,6 +87268,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.8,
     "requiresGame": false,
+    "reviews": 65,
     "tags": [
       "Action",
       "Family",
@@ -81747,6 +87301,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 442,
     "tags": [],
     "title": "Outlast: Bundle of Terror",
     "trial": false,
@@ -81773,6 +87328,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.2,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -81800,6 +87356,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 12,
     "tags": [
       "Action",
       "Shooter"
@@ -81834,6 +87391,7 @@ var GAME = {
     "price": 39.98,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "Platformer",
@@ -81870,6 +87428,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 193,
     "tags": [
       "MOBA",
       "Shooter",
@@ -81900,6 +87459,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 111,
     "tags": [
       "Action"
     ],
@@ -81931,6 +87491,7 @@ var GAME = {
     "price": 69.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 45,
     "tags": [
       "Action",
       "Role playing",
@@ -81961,6 +87522,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Strategy",
       "Simulation"
@@ -81991,6 +87553,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 937,
     "tags": [
       "MultiPlayer"
     ],
@@ -82017,6 +87580,7 @@ var GAME = {
     "price": 4.79,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 17,
     "tags": [
       "Puzzle",
       "GamePass"
@@ -82050,6 +87614,7 @@ var GAME = {
     "price": 19.99,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 29,
     "tags": [
       "Platformer",
       "LocalMultiPlayer",
@@ -82081,6 +87646,7 @@ var GAME = {
     "price": 59.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Role playing"
     ],
@@ -82106,6 +87672,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 31,
     "tags": [
       "Shooter"
     ],
@@ -82139,6 +87706,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 456,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -82170,6 +87738,7 @@ var GAME = {
     "price": 49.99,
     "rate": 3.0,
     "requiresGame": false,
+    "reviews": 13,
     "tags": [
       "LocalMultiPlayer"
     ],
@@ -82197,6 +87766,7 @@ var GAME = {
     "price": 24.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 70,
     "tags": [
       "Action",
       "Role playing",
@@ -82230,6 +87800,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 22,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -82261,6 +87832,7 @@ var GAME = {
     "price": 44.99,
     "rate": 3.6,
     "requiresGame": false,
+    "reviews": 2357,
     "tags": [
       "SinglePlayer",
       "MultiPlayer"
@@ -82296,6 +87868,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 39,
     "tags": [
       "LocalMultiPlayer",
       "MultiPlayer"
@@ -82324,6 +87897,7 @@ var GAME = {
     "price": 39.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 1052,
     "tags": [
       "MultiPlayer"
     ],
@@ -82352,6 +87926,7 @@ var GAME = {
     "price": 79.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 59,
     "tags": [],
     "title": "Darksiders III - Blades & Whip Edition",
     "trial": false,
@@ -82384,6 +87959,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.7,
     "requiresGame": false,
+    "reviews": 356,
     "tags": [
       "Action",
       "Shooter",
@@ -82416,6 +87992,7 @@ var GAME = {
     "price": 18.49,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 37,
     "tags": [
       "Strategy",
       "Simulation",
@@ -82446,6 +88023,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 126,
     "tags": [
       "MultiPlayer"
     ],
@@ -82479,6 +88057,7 @@ var GAME = {
     "price": 24.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 182,
     "tags": [
       "Action",
       "Racing & flying",
@@ -82514,6 +88093,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.4,
     "requiresGame": false,
+    "reviews": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -82548,6 +88128,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 117,
     "tags": [
       "Action",
       "Fighting",
@@ -82577,6 +88158,7 @@ var GAME = {
     "price": 0.0,
     "rate": 3.5,
     "requiresGame": false,
+    "reviews": 18,
     "tags": [
       "Action",
       "Role playing",
@@ -82606,6 +88188,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.7,
     "requiresGame": false,
+    "reviews": 33,
     "tags": [
       "Action",
       "Strategy",
@@ -82639,6 +88222,7 @@ var GAME = {
     "price": 29.99,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 19,
     "tags": [
       "Action",
       "GamePass"
@@ -82671,6 +88255,7 @@ var GAME = {
     "price": 29.99,
     "rate": 3.9,
     "requiresGame": false,
+    "reviews": 25,
     "tags": [
       "Classics",
       "LocalMultiPlayer",
@@ -82700,6 +88285,7 @@ var GAME = {
     "price": 19.99,
     "rate": 3.4,
     "requiresGame": false,
+    "reviews": 231,
     "tags": [
       "Action",
       "Role playing"
@@ -82735,6 +88321,7 @@ var GAME = {
     "price": 0.0,
     "rate": 4.0,
     "requiresGame": false,
+    "reviews": 66,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -82766,6 +88353,7 @@ var GAME = {
     "price": 9.99,
     "rate": 4.5,
     "requiresGame": false,
+    "reviews": 41,
     "tags": [
       "Action",
       "Classics",
@@ -82795,6 +88383,7 @@ var GAME = {
     "price": 14.99,
     "rate": 4.6,
     "requiresGame": false,
+    "reviews": 67,
     "tags": [
       "Role playing",
       "GamePass"
@@ -82821,6 +88410,7 @@ var GAME = {
     "price": 14.39,
     "rate": 4.3,
     "requiresGame": false,
+    "reviews": 23,
     "tags": [
       "Action",
       "Role playing"

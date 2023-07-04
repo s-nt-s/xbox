@@ -4,6 +4,19 @@ function get_words(s) {
   return s;
 }
 
+function getVal(id) {
+  const elm = document.getElementById(id);
+  if (elm == null) {
+    console.log("No se ha encontrado #"+ id);
+    return null;
+  }
+  const val = elm.value;
+  if (val == null || val.length==0) return null;
+  const num = parseInt(val);
+  if (!isNaN(num)) return num;
+  return val;
+}
+
 function isCross(arr1, arr2){
   if (arr1.length==0 || arr2.length==0) return false;
   let i;
@@ -58,6 +71,18 @@ function filtrar() {
       console.log(hdsh, chhs, j.tags, hs);
     })();
     if (!fl) return false;
+    const rgs = ["price", "rate", "reviews"].map(k =>{
+      let vl = j[k];
+      if (vl==null) {
+        console.log(i.id, "no tine", k);
+        return true;
+      }
+      let mn = getVal(k+"_min");
+      let mx = getVal(k+"_max");
+      if (mn == null || mx == null) return true;
+      return (vl >= mn) && (vl <= mx);
+    })
+    if (rgs.includes(false)) return false;
     return true;
   });
   ok.forEach((i) => i.style.display = "");
