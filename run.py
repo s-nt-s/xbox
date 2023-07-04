@@ -6,6 +6,7 @@ from core.api import Api, ApiDriver
 from core.j2 import Jnj2
 from datetime import datetime
 from math import ceil
+from core.game import Game
 
 import argparse
 
@@ -17,7 +18,7 @@ args = parser.parse_args()
 api = Api()
 
 
-def do_filter1(i):
+def do_filter1(i: Game):
     if i.gamepass:
         return True
     if (i.price is None or i.price <= args.precio):
@@ -25,7 +26,7 @@ def do_filter1(i):
     return 'TopFree' in i.collections
     # return 'TopFree' not in i.collections and i.price == 0
 
-def do_filter2(i):
+def do_filter2(i: Game):
     if i.gamepass:
         return True
     if i.requiresGame:
@@ -36,7 +37,7 @@ def do_filter2(i):
     #    return False
     return True
 
-def iter_progress(arr):
+def iter_progress(arr: list[Game]):
     total = len(arr)
     for i, a in enumerate(arr):
         i = i+1
@@ -64,7 +65,7 @@ print("Obteniendo acciones y reviews")
 with ApiDriver(browser="wirefirefox") as f:
     for i in iter_progress(items):
         i.productActions = api.get_actions(f, i.id)
-        i.reviews = (api.get_reviews(f, i.id) or {}).get('totalRatingsCount')
+        i.reviewsInfo = (api.get_reviews(f, i.id) or {})
 
 
 print("Aplicando 2º filtro", end="\r")

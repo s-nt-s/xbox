@@ -30,3 +30,13 @@ fieldset {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+input[type=number] {
+  width: 5em;
+  text-align: right;
+}
+
+fieldset.rangos label span {
+  display: inline-block;
+  min-width: 5em;
+}

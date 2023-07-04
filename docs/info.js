@@ -131,7 +131,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62874.13827422363724313.8c1d5a20-5dc6-4f5a-8195-61d71a6c6c86.c4b1b4a0-f91a-429f-b9a8-f374bbbcc78d",
     "price": 19.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -203,7 +203,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14654.13826685209596351.2e212b53-84ac-4ad5-a630-03c3e768cf08.e3f80baf-ef46-4a67-a73b-34e7aad377f1",
     "price": 84.99,
-    "rate": 2.9,
+    "rate": 1.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -236,7 +236,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7521.13820556954312705.006dce88-d561-4c02-9195-4cc503fd0ad1.d81e1200-3429-43d4-8727-2c8429d6d5b9",
     "price": 24.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -269,7 +269,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19361.13822550954602894.ce624ce9-35c4-4c76-90cb-0e6ac397cc62.43d995e3-38ac-4dbf-891a-1ea2a504c1d1",
     "price": 39.99,
-    "rate": 4.9,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 659,
     "tags": [
@@ -337,7 +337,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55740.13820970907746141.b01ed7e4-f89a-4d3c-a945-8a083400524e.74c712f0-56bb-4bb2-ab61-c08a6eaa500a",
     "price": 4.99,
-    "rate": 3.4,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -369,7 +369,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60849.13816141614350160.e139705e-655e-4351-a31a-252edcd35d2a.2383ae80-94b9-4c06-a7d0-7c5fc3b0da9f",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -406,7 +406,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46228.13815339636559757.28175bd2-9980-4ed8-b424-43eec50e6e22.57933bb0-fb77-4643-a38e-9375d1043bf3",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -443,7 +443,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11179.13814785456466922.4e78e496-4e8c-4f2c-93df-55ea1fa48e05.0d64da1c-8197-4d17-ba47-9e7494b62f6e",
     "price": 74.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 107,
     "tags": [
@@ -478,7 +478,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15460.13818178861591472.06d4cfd1-e581-4b7f-8268-7ed2cfca3f35.4df1e370-a679-4bdb-8a09-01ea6481da81",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -512,7 +512,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8896.13817077164703749.cd543429-7cae-4721-ab65-6ad0bd406b04.fe30a3c6-8907-42ea-88fa-5650c8a7abe6",
     "price": 39.99,
-    "rate": 3.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -557,7 +557,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13367.13817186670444302.148c432a-9fce-4c7d-bf13-8a2bd3a527b3.f26b74f0-8b1f-41eb-a82f-06843ec33473",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 616,
     "tags": [
@@ -624,7 +624,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52817.14211614393053975.a4ffed37-2d8b-4964-b012-03eb22bf47cc.73f7b01a-d730-4271-8afd-2fb9df504dd3",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -687,7 +687,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46922.13810431892468749.e5f7414c-2e05-4304-bb90-5df4b5221508.ce236bdd-62e7-49df-9d42-e4adc670761d",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 140,
     "tags": [
@@ -723,7 +723,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41158.13810632846944855.4d6cf1f5-a3c6-4b96-8464-db6ec377ff02.e3cc519f-0344-4ef7-ad10-871f79193486",
     "price": 29.99,
-    "rate": 2.4,
+    "rate": 1.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -820,7 +820,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31494.13717600353442810.83a772b8-93a0-4e8b-9352-93b13f5a7058.2c7925b1-6595-4492-b2dd-0950dac001ad",
     "price": 69.99,
-    "rate": 3.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 521,
     "tags": [],
@@ -866,7 +866,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59851.13807378106780361.8a115783-cbb5-4535-8490-7cd4bfae3e22.3b8029b5-5051-41b5-929f-0aa95482cb28",
     "price": 79.99,
-    "rate": 3.7,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -905,7 +905,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23625.13806078025361171.9723cf5e-1e29-4d9d-ad0a-cc37a95bb75d.e02f4ead-d89b-45cd-8eb5-5dcbf44ae91f",
     "price": 99.99,
-    "rate": 3.0,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 1453,
     "tags": [
@@ -1002,7 +1002,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54031.13809114893833724.6058a588-6db2-445c-b783-833f4c17eda0.954bb8b5-2608-4de7-bf03-05bba2386e8a",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -1037,7 +1037,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8352.13809006273445269.ec037fc4-0908-4175-8e48-a1570f516d91.62dace1e-63d3-4ba2-a574-5138e3bdf711",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -1077,7 +1077,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12204.13808971964800843.8d744e13-e068-4bd4-bd8e-09b66e7a9193.6ef276a8-ec7c-4ba6-b156-27638c9c8e7f",
     "price": 0.0,
-    "rate": 3.7,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -1147,7 +1147,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22778.13808199837738344.17bd5eab-95b5-4c7c-b318-346e44d79ba0.3313c366-de11-4da4-b82c-150023b42cf9",
     "price": 99.99,
-    "rate": 3.4,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -1182,7 +1182,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10043.13802804347868381.0cddfba9-fc4e-4ed2-a443-781b7b225e4a.48568c68-d325-478a-bdee-dd6a37cde46d",
     "price": 4.99,
-    "rate": 2.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -1222,7 +1222,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7801.13802500396742521.cf0bb6cf-5de9-4d71-9ff7-ec27594264d8.469f4016-0283-4f02-a004-30a2c6051dad",
     "price": 59.99,
-    "rate": 2.8,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -1322,7 +1322,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49240.13804733588434200.b2e337fe-42a3-433f-8821-0d47072bb25f.54a9b116-34f2-4271-a6e7-ad2deff3c7ea",
     "price": 49.99,
-    "rate": 4.1,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -1353,7 +1353,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42132.13804064421012543.036b4952-77dc-4e0d-863b-2c6b98364354.3c980e37-97ca-4e72-890d-2f15ba4b4590",
     "price": 99.99,
-    "rate": 4.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 339,
     "tags": [
@@ -1450,7 +1450,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49517.13796714672158376.aa1c19be-0d47-46ac-9fb3-74c8d6d9fdf8.061b6ecc-7883-45e5-be31-fb740679ad70",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -1530,7 +1530,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14272.13799308423565051.a9914fa8-1cb5-4a0f-b21c-179a98c8d7e4.1cdbde45-72e5-4284-a4aa-3d4ce25de3aa",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -1599,7 +1599,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4555.13794437146560212.1c2132e1-8e75-4ecb-8f54-2474cd20e67a.b855d795-fc09-4fac-a974-0aa07086d762",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 113,
     "tags": [
@@ -1668,7 +1668,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57691.13792825953770393.d724f3b1-bed5-49fc-bf91-6573fe71ba5f.817c65e4-ca09-4334-a571-86453274d9a6",
     "price": 4.99,
-    "rate": 3.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -1705,7 +1705,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65105.13792657252556859.78b6cae3-6edb-4220-9489-ef1ffbd0f145.84b53ef8-6df9-4e2d-8298-31781223b821",
     "price": 19.49,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -1739,7 +1739,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2632.13796335524190676.4b83e87b-ff34-41bb-8ee3-361c74b76916.54450c75-50b3-4aab-9166-23c2cfae10a9",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -1769,7 +1769,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17435.13795296756631087.6b8652d4-01b4-4dc7-8d39-e400474fb5e5.49e5b23a-37ca-4784-8d85-36271a0d72c6",
     "price": 1.99,
-    "rate": 3.6,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -1835,7 +1835,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15577.13858975022296791.64d5586a-62bd-4f77-9370-71b0895fc03b.96abaee3-b792-4a2b-8ecb-9903c963a214",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -1931,7 +1931,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22043.13862100111765227.35e75219-9967-4453-a330-3b4fe39cb363.6a9375de-6778-430f-b486-a01fb44f01e9",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -1963,7 +1963,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46040.13636903382248062.d98422ff-7a55-44ea-b80b-454dfdbb74fe.7d987875-1419-4096-8526-60f589561086",
     "price": 74.99,
-    "rate": 3.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [],
@@ -2023,7 +2023,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65367.13860552841700913.2396f2a5-3f6e-4551-a82d-66f9fce78989.a34969d3-3972-4c8e-81da-260ecee7cda1",
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -2052,7 +2052,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1613.13860503414303162.41c55b39-cc14-4be5-8571-051056dcacdc.637c5b80-b60a-4435-b0d2-135887e84c46",
     "price": 44.99,
-    "rate": 4.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -2085,7 +2085,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54095.13855942306543540.f07392fd-5f64-460d-82f5-27790455d1e0.c50e5981-bde6-47f2-b839-b73b3e7fd14f",
     "price": 12.49,
-    "rate": 3.8,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -2158,7 +2158,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25596.13856628096419252.2543d50f-bd53-4ec1-90dd-d76914de6757.df5a7952-3ea7-44b8-a791-0c3884d9b256",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -2219,7 +2219,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35535.13856772653567098.7c0fb407-e314-44e9-a089-5d3013a4a39d.c58ab317-0c4c-480c-9108-22a8334e0e22",
     "price": 21.99,
-    "rate": 4.7,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -2251,7 +2251,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12222.13856574721759042.8dcfc12f-1c01-4a98-a1eb-59f338376f3e.82888309-b5d7-4421-ab81-95b442d7b1b9",
     "price": 3.79,
-    "rate": 3.2,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -2280,7 +2280,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20463.13856593890209608.934cf156-4448-4224-a173-ae30cb74ae6b.3c418867-a2a4-4b92-8745-dd9da2fda943",
     "price": 19.99,
-    "rate": 1.5,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -2351,7 +2351,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32512.13856197661114247.d18d95b4-04ab-4306-83a8-f6f7868b9215.e938ab81-e2b1-4de5-a665-051e6bff659b",
     "price": 19.99,
-    "rate": 2.1,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -2386,7 +2386,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63139.13851391740379976.c9930f26-536e-45f3-ac11-65d8954c94a8.9a432cc9-37db-4ce7-a585-0d79dbf6ed3a",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -2416,7 +2416,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11663.13851061681579915.11e7af81-dbb0-4ea7-96e9-96d0bc33c5ab.f383ffb0-8da1-4b05-a1da-431e507b54d4",
     "price": 59.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -2493,7 +2493,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37945.13853535281176200.46dbd6fc-1739-479d-9b64-693fb39fd7e8.50536b23-9f47-498a-888c-b0224375e941",
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4381,
     "tags": [
@@ -2525,7 +2525,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17827.13853142538356360.d786e6f0-87ca-4de3-9908-bb6a2624f8f9.7f863404-051c-4cf9-a1dc-c7089234b4cd",
     "price": 0.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -2557,7 +2557,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32479.13691913205617753.f6e26030-0333-4769-93ec-84fbff276e91.800e3ebc-8013-4415-bcf8-957f62b82047",
     "price": 84.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 107,
     "tags": [
@@ -2589,7 +2589,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26403.13852397496525813.9407e38d-e2bb-465e-a76d-2309ee8fd7a1.01dd497a-eb26-4b08-9ff7-b595eb4c4d43",
     "price": 89.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 388,
     "tags": [
@@ -2656,7 +2656,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38142.13852123419364100.80cf36ec-3f30-4196-8a6f-2b48833507d5.b7d4729e-80ea-4a57-8160-bb9e9f9cc772",
     "price": 12.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -2724,7 +2724,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3216.13846061471160003.d09c13c5-4528-4f33-bd5a-fe66269ec8fd.0ed53cb1-d412-40fa-aac1-dba6ec19baa2",
     "price": 59.99,
-    "rate": 4.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -2798,7 +2798,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4079.13848924916324468.12bdf8c7-e5a1-44a8-a104-e3ccc1aa184b.fd5d9594-d937-40b8-a3c4-b27f372a108a",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -2836,7 +2836,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20679.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.a9c33280-e038-4151-8002-79d0794f308d",
     "price": 14.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 287,
     "tags": [
@@ -2872,7 +2872,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29804.13847362610196715.79aa5710-6cfc-4c4b-b608-eac138d4c50a.53b62685-b776-433f-beef-885332e47dde",
     "price": 4.99,
-    "rate": 3.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -2907,7 +2907,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43492.13842728141535299.ed20beb9-a689-47ec-b5b0-033afda91905.2e7d9ba5-3824-4f4a-a551-53bc6952997e",
     "price": 15.99,
-    "rate": 5.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -3004,7 +3004,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65055.13844418893196377.510762aa-d551-457e-849f-ba6ffa3fa149.3ff989c1-a54a-49e9-8a4e-c25e6b431c18",
     "price": 49.99,
-    "rate": 3.3,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -3072,7 +3072,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1077.13843646153700405.faf0a0ab-da0c-4a73-a182-1b5794b3f805.46323daa-e6c1-4bdd-a1e4-2c78222de22e",
     "price": 59.99,
-    "rate": 3.8,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 72,
     "tags": [
@@ -3134,7 +3134,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46140.13839485803089860.b556732e-a6a4-4fe9-94b8-c9be28d7a875.3359ba83-9d0f-4e62-8967-d0a8bcbac069",
     "price": 39.99,
-    "rate": 3.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -3168,7 +3168,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12718.13839137676655214.0b01fff9-297b-4f4c-a938-ca189d72cc5b.1ae6041b-7258-4b4c-89e5-66fc134224d7",
     "price": 14.99,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -3206,7 +3206,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6607.13832162077177308.4b9b30d2-1a59-489d-8273-6bb626848ec3.4f7c8f2d-55aa-4b8e-950d-449ad6d7a11d",
     "price": 74.99,
-    "rate": 3.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -3243,7 +3243,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59845.13831899588425405.96d5bb63-1eb4-4ffb-9b86-c289a7d40a7f.7a97c000-5759-4db5-854a-78817e5da84a",
     "price": 2.99,
-    "rate": 3.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -3314,7 +3314,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12452.13835253341797144.70932f31-6ee4-4e18-a4ae-8ab4ddeeaccd.57dcd0f4-48db-4ab4-9c53-a884a6c03a3e",
     "price": 12.99,
-    "rate": 3.8,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -3350,7 +3350,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37357.13687178912608182.29ad10eb-5d8c-4180-b4f9-9987d26c5161.bec373a4-edf8-48ce-a1ba-ca92f4f54c61",
     "price": 114.99,
-    "rate": 4.2,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -3386,7 +3386,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13558.13834460331765421.558847a2-67db-436f-8c51-7e8b2888bd88.1db523f9-a164-4ffe-ba07-ef2c0afe2afb",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -3418,7 +3418,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33556.13829333407004313.f44f25cf-434e-4a93-91ef-89ec611d80a2.3f860024-1cdc-4c0b-9a33-c7e0b83c2fb4",
     "price": 5.59,
-    "rate": 4.5,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -3448,7 +3448,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6443.13625276084135725.4cff4fda-de8e-4781-92ab-afdd694954a7.949de743-9481-4e8e-b020-8e076abf1c79",
     "price": 34.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 313,
     "tags": [
@@ -3477,7 +3477,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24057.13831340893709572.f8050d39-41ef-4d1c-8c02-093ca7f40332.d0ca76a4-e05d-4748-976c-4263c5edba7c",
     "price": 0.0,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -3514,7 +3514,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8506.13831084893244954.bd9192c1-e676-492e-9233-0591569d0747.09f6470a-255b-421b-a413-7bb316fbb289",
     "price": 10.49,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -3648,7 +3648,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59357.13895334412764328.559da51b-cee3-4463-b8c6-75819f96d69c.7038b9c7-f3b8-44d2-a1c8-8603d9d132af",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -3681,7 +3681,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38593.13894174701369821.12034e42-2b88-4b21-9546-324d2deffcdd.8bab3e08-5eec-4a08-9fe4-022cea5319ac",
     "price": 59.99,
-    "rate": 5.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -3719,7 +3719,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36698.13893803059830471.400d9a6b-fd3b-4cf4-9154-7db367d3925a.f219d8f0-fac3-492f-884a-e20ba35a98d1",
     "price": 4.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -3755,7 +3755,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20561.13893851604354559.6e97936c-c75e-444c-96e0-a176f4f8f13e.30da42f3-b102-400c-823b-23407b1c76a6",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -3788,7 +3788,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11702.13890660958509322.81a390b1-5ffb-4e5e-9b51-d8f3f2f45a2a.30dc93a1-8fa9-4431-93f0-d14cbb15685f",
     "price": 19.99,
-    "rate": 2.6,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 57,
     "tags": [
@@ -3822,7 +3822,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28927.13890607987740036.b6f87bec-a194-4807-a04e-32da6d1564b1.7e03edf1-d2db-4d09-8608-48f020805efe",
     "price": 22.49,
-    "rate": 4.7,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 64,
     "tags": [
@@ -3854,7 +3854,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50793.13893421366981179.51ad56f7-1d70-465a-9fc2-517da8c59416.21627984-e9d9-4db1-addb-040ffd2b1c39",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 178,
     "tags": [
@@ -3888,7 +3888,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10939.13892507251339849.bf8b2659-cf58-40f6-a91c-dcddcba69f90.f5e72522-662a-437e-8258-933c7e5a3280",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -3919,7 +3919,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57363.13891741615152497.1b51db0f-d07a-4f3e-99a9-33969e284e22.33f75fbf-7153-4b7a-8f8b-7ce2aa42219a",
     "price": 59.99,
-    "rate": 2.8,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 194,
     "tags": [
@@ -3950,7 +3950,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37742.13886780434132750.58497d0f-3220-4d2f-a7ff-96dcff27bc5f.e10ab652-fd3c-4438-94fc-0d7f958d5609",
     "price": 4.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -4026,7 +4026,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3042.13885479758554514.4790f2a3-6258-4331-80e4-b9113b0a42e5.64a9189c-fd04-4ccb-8ef8-443eeb28a205",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -4061,7 +4061,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43234.13888346813674465.994a36e2-e001-4c99-932a-4d92d3833740.f11a087d-f9fe-4853-84fc-a1a088ab4d41",
     "price": 17.99,
-    "rate": 4.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 79,
     "tags": [
@@ -4128,7 +4128,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26427.13882345728390792.0b3ebcfd-c6b0-4348-8e21-9249bcea3373.586cd8df-9747-4f33-860f-067d55dc8e50",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -4167,7 +4167,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10675.13881713022499400.de0661f6-d8cd-4a88-af6f-82edd085e4df.23dfb2ce-9c92-4553-a010-dbf2df548a6c",
     "price": 14.99,
-    "rate": 2.2,
+    "rate": 2.1,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -4264,7 +4264,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60205.13881050179853678.8a9e1407-c7c9-4180-afe1-5a2b5d303e16.097f0bd0-14b6-4b01-b9c2-374f0a814ad9",
     "price": 4.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -4300,7 +4300,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63562.13884128761862804.2b90eb6f-e196-428e-94d0-0ae18e04d37a.585a79de-5fa5-4a64-b1f9-adeb24c676a9",
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -4335,7 +4335,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44618.13884136572674855.441b2b11-d00a-46b4-b735-7819ef92da81.9276506d-f3c6-402c-8e39-2238a04bc1c7",
     "price": 49.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 98,
     "tags": [],
@@ -4375,7 +4375,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6677.13883884071125451.e7212451-a97c-482e-bed4-8f193b79fa8c.162e8a9b-26af-4f07-99af-0395440825fc",
     "price": 39.98,
-    "rate": 4.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -4446,7 +4446,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51158.13883453968163142.6ad3c5c9-57cb-4566-aee5-8a82492d073c.e71b3a49-6539-4ee4-a7fc-33d6f80e87da",
     "price": 8.57,
-    "rate": 3.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -4481,7 +4481,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13060.13882907625045892.99a57e68-93ce-4911-8c85-62ff9b834f1e.4c8c77a4-f8bf-4595-974b-800e6e93369f",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -4515,7 +4515,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23907.13877550494146159.eb45e7a0-5059-4e9d-b580-976afb6233c8.7b661939-6deb-4904-93cb-bac1684a1f02",
     "price": 16.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -4547,7 +4547,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41631.13877341660077011.7198ab78-e545-4cfe-8105-110d8c697dac.7f82efb8-521a-4424-89b3-3d8c14075fcc",
     "price": 39.99,
-    "rate": 3.3,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -4581,7 +4581,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42996.13877048315750586.5e908d8a-c86a-4f67-bfe4-83508748e166.42058da3-4b55-4edb-9295-589d880a5208",
     "price": 24.99,
-    "rate": 3.2,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 110,
     "tags": [
@@ -4617,7 +4617,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3274.13877062896026237.6fc845a9-33a0-4208-adb6-cca8bccef7ef.6c0148d4-50a9-449c-bbfe-e51d019773ff",
     "price": 54.99,
-    "rate": 3.5,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 8,
     "tags": [],
@@ -4711,7 +4711,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21013.13879944175798933.59e72925-905a-415e-a5dd-44dd759a65e8.a5ad9f13-a92d-430b-87ff-836d1f5a7c70",
     "price": 3.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -4746,7 +4746,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25959.13879075332331019.da1cf290-ab60-45cb-891e-71702235fa65.847bbb2b-fe13-4c8e-89fc-c9229398af78",
     "price": 49.99,
-    "rate": 3.2,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -4779,7 +4779,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2663.13709808626029914.0bf5e9de-eee3-4bf3-b915-a3716e9d5cf6.d26ea02b-075d-4f30-9e4d-3829cc940c3e",
     "price": 24.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -4838,7 +4838,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17082.13873094279610982.0efd10bb-e287-4f4f-8cba-d200696a6524.cc3aaf97-dbf7-48e1-a0c9-37d2fd9b87ec",
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -4872,7 +4872,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32075.13873084786078744.2e36af82-a094-4c51-8b20-bfcf3b90233a.2cf672b8-19e2-476f-b262-ee00c185208a",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -4912,7 +4912,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19943.13872770617632504.67bfb3e9-aefa-41f8-95a0-1605182224cf.b30ec3fe-5634-46cc-a66a-05b8189e58b5",
     "price": 0.0,
-    "rate": 2.9,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -4950,7 +4950,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50764.13872531912981081.6fc46326-deb4-48c2-b08e-3f53f66abe87.53a868fd-0293-45c9-a033-d554fee97cab",
     "price": 5.99,
-    "rate": 1.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -5029,7 +5029,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27922.13872214727680763.7401cf68-944c-4d38-9d71-4d4226492658.f804fdb8-d65e-4ab3-970d-8abfdca5118a",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -5064,7 +5064,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55371.13871892748730121.7914f074-fabe-4c77-9b6d-4df85c42bc19.b85ca9a9-1de5-47a7-a366-3ae77d212658",
     "price": 99.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 134,
     "tags": [
@@ -5094,7 +5094,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52469.13875801348895993.a9082008-3efb-4a68-8dd9-16607af7c7bc.f8e65fb9-5189-4f9d-826a-61618f789492",
     "price": 9.99,
-    "rate": 5.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -5125,7 +5125,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57959.13875132150834532.ace67c6c-ec94-4b40-8c63-1fe7e6049203.74ee6051-8151-492b-8e39-8a207ef21cdb",
     "price": 6.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 66,
     "tags": [
@@ -5158,7 +5158,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50376.13874287189866673.a6e73b76-1c4e-468e-b0c5-6505d918c3b2.c8f614a9-d44e-409e-af88-35d6c6b7c510",
     "price": 4.49,
-    "rate": 4.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -5190,7 +5190,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29120.13873748093615167.297cc7ee-dff7-4dd9-928e-23ee774b1334.2cce125d-0445-4d74-b7b6-14f62fed4491",
     "price": 3.14,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -5227,7 +5227,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21075.13869231495760802.1762fc65-0158-4245-b277-0578122997a9.0d53d0e6-79d3-446b-b3af-3171f41d286e",
     "price": 24.99,
-    "rate": 3.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -5367,7 +5367,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39915.13871193739196601.a1cca675-db24-4dff-8274-f9b0983c449b.24e76fc9-6f8e-4e7a-825d-afff7985ab1d",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 61,
     "tags": [
@@ -5403,7 +5403,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65158.13871023289633408.3b8d784d-b4cc-454a-bad2-973666e4a18a.87603f47-f669-4450-a112-f56e16f4f454",
     "price": 5.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -5441,7 +5441,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5736.13870633261961501.77cdc3ff-e227-4608-b333-923fd1917c6d.cb9e5257-dba2-4afd-8447-47c69cc1ce0b",
     "price": 52.49,
-    "rate": 2.9,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -5542,7 +5542,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37345.13864617007662897.03b7fc2a-1fd2-4210-88c8-75473c498d80.e9736207-6171-46dc-bdb3-3d06992604e4",
     "price": 24.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 99,
     "tags": [
@@ -5573,7 +5573,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30208.13864752308904988.70e00f41-e9ce-414b-8089-b144acda730b.2188e998-d984-43dc-8a90-490130517a9f",
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -5679,7 +5679,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62311.13863542898373381.6204f1c6-10ef-4f2b-9130-a18f9653ce7b.3cc97272-d4ed-4831-ab40-959b17d01b61",
     "price": 49.99,
-    "rate": 4.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -5745,7 +5745,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29348.13866014981515536.28f917c7-ebb4-450c-85a8-920805de8df6.691003b7-092a-438b-9b22-a168ec2ce19c",
     "price": 29.99,
-    "rate": 2.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -5778,7 +5778,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42698.13866154432401799.1e2bf9e8-5b38-43e7-8131-359514a6f8b4.bbd5c8ac-a109-49a3-a9f8-30982bf20461",
     "price": 12.99,
-    "rate": 3.8,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -5815,7 +5815,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38941.13865731980356266.c76fd7fb-c55d-485c-a218-cd0d96fc4295.030a8dfc-cc7c-4a35-b7f3-14530fa521fe",
     "price": 19.99,
-    "rate": 2.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -5851,7 +5851,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43017.13864960736509568.2a74f3a7-54a5-49f9-95d1-579d46380a7f.d8317b23-4511-4641-b006-6e2d3685f72e",
     "price": 29.99,
-    "rate": 3.3,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -5953,7 +5953,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12601.13929807647902137.38a53ce6-26b2-46d3-a4f5-54b363f7efcd.5a51a75a-b7d2-4138-8be9-9ce92ae4b837",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -5991,7 +5991,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52174.13929391768962810.78455eb5-207d-4ba0-b8bc-74fac43a9d0e.3f9c821d-6525-4d70-93a3-855111309ccf",
     "price": 0.0,
-    "rate": 3.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -6061,7 +6061,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52261.13932671813062211.868c4477-237c-41b3-b472-2c315e3db147.aade40e6-c76b-4a0d-bce4-09a5a97d44ce",
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 89,
     "tags": [
@@ -6156,7 +6156,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17767.13931022979538067.aca8dc58-349a-48af-866d-0f6ca6c9382b.a858925c-885b-4a53-a83d-49365e83815b",
     "price": 49.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 331,
     "tags": [
@@ -6186,7 +6186,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33047.13926025773515961.65bfebc1-45c3-4c37-966f-35fa549dd9ce.43a0a446-3158-46b0-aa8e-212a58f4bfd5",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -6223,7 +6223,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13973.13928529033541362.d88b5957-903f-453e-b9eb-40a46319c000.aec67a3a-1ea8-4029-83c2-f11b9bc8956f",
     "price": 39.99,
-    "rate": 1.8,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -6393,7 +6393,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34181.13919870880363490.388c4b30-f3c1-4644-a5db-d3f088555c13.ebcd8da8-9173-4110-be65-9e6ee9c4027d",
     "price": 4.99,
-    "rate": 4.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -6425,7 +6425,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9854.13919966729852726.fda904aa-6b94-4f03-83ed-6e3a26a1a230.065e84a4-3588-4360-aee3-9775ea243075",
     "price": 0.0,
-    "rate": 3.9,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -6497,7 +6497,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51645.13923565946703344.f9f99892-8899-4019-83d2-b95273e61694.4a588346-ada5-4e09-ac1c-4341e85781cd",
     "price": 16.99,
-    "rate": 0.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -6562,7 +6562,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63980.13919628404645961.78a49480-c626-4540-8de4-34a3eb91a9ea.ed030f49-eff3-443e-a19f-e73ea0a7fbd2",
     "price": 19.99,
-    "rate": 2.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -6596,7 +6596,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14774.13919562563409512.9c5c6faa-3a61-4495-9ae9-ce84eb057bf8.734f948c-24fd-4d36-a9f2-0cad2701189b",
     "price": 7.19,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -6630,7 +6630,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26842.13919694925419630.d822718d-f6d4-40f3-88ed-ed1e7d96f97b.ecbc1f40-0967-410a-bbf8-d3993af83cd3",
     "price": 9.99,
-    "rate": 2.9,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -6665,7 +6665,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.150.13918938342247004.3a4e9214-ba82-4550-b1da-17c3eefbdfa4.f925ea20-6b89-443d-9c14-cdf4aec4b580",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 50,
     "tags": [
@@ -6699,7 +6699,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32869.13912923203844716.8fa38533-ebf3-4920-b1d3-c99fec37ddf3.7aed91c9-4343-4f30-a936-f6b4129d3855",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 1.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -6800,7 +6800,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39285.13913712399960661.506399d5-07a1-4fd5-979a-31c6ee224cfa.fa5f81a8-1357-4788-950f-2eab6ac1ebe2",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 2694,
     "tags": [
@@ -6861,7 +6861,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13543.13910698564677106.107e7651-98cd-4862-9f02-f8cb9bc01ac6.1138821c-3fae-4a50-aaae-5cd27c6535db",
     "price": 4.99,
-    "rate": 3.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -6929,7 +6929,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.363.13910044150339300.e564a254-ddd5-4276-9ae0-9ad3c289238b.94834518-1b78-46d4-bfcb-f3f86df992fe",
     "price": 2.59,
-    "rate": 4.4,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -6961,7 +6961,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10536.13904081337549250.548b8982-4629-4970-97f1-9b1d2916ed80.89339ecb-e805-406c-8b59-21d5d5096eb7",
     "price": 14.99,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -7070,7 +7070,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10796.13906521422183545.0f72dcf0-8dcb-4dd7-ba2a-cca9efafc873.50d0aec7-599e-4e34-849d-0866a791602f",
     "price": 4.99,
-    "rate": 3.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -7099,7 +7099,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1897.13904504341411917.90d0f09f-7873-414a-b6fb-5c47bf25ae07.d669dcd3-ae49-4cdc-b086-e2e0f80b554e",
     "price": 32.99,
-    "rate": 5.0,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -7135,7 +7135,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58803.13811176246156808.4ffec24c-6cbb-48f1-a24f-7054713839a9.dba347b0-23d8-4637-84cd-03260cdb949d",
     "price": 69.99,
-    "rate": 4.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 73,
     "tags": [
@@ -7235,7 +7235,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44211.13902015313629704.8685c9db-40e8-4a4d-86dd-ff4b513b8c9a.a1f2490d-f9f3-4baa-8e41-ad2a54f50593",
     "price": 49.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -7383,7 +7383,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51280.13964127228191263.1e380cc1-7db3-433f-a0fb-1cfb65b83ff5.747065d8-5e9e-4f9c-a940-ee3c72e6da1c",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 152,
     "tags": [
@@ -7419,7 +7419,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.286.13967692908687056.7893a3a8-746a-4e4f-aec4-16ec6b5ba396.f9562186-65ed-4df7-81b1-b3ea794c92d1",
     "price": 24.99,
-    "rate": 4.2,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 152,
     "tags": [
@@ -7452,7 +7452,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60493.13966205284726241.e613b0dc-53a8-441c-8d1a-d921c3769afa.ed97b690-1663-4854-a411-89dc0c9f6103",
     "price": 17.99,
-    "rate": 5.0,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -7483,7 +7483,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57717.13961171660125418.32866663-da2e-44c9-978b-b118f6148eba.8318885b-8d7e-4202-9da4-bb7cadca8fc4",
     "price": 46.49,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -7514,7 +7514,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48647.13960343018998415.4a4b2dd8-de37-4906-9fdf-b55fa14e7d45.71abf696-4778-497f-8c3f-5d47829ac1a5",
     "price": 3.99,
-    "rate": 2.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -7550,7 +7550,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12305.13960214545711625.430c5652-1978-4e19-92b1-8e901cdd420c.201aaed1-f70c-4f5d-807d-90e52ec03997",
     "price": 19.99,
-    "rate": 3.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 49,
     "tags": [
@@ -7688,7 +7688,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21610.13962024083839300.d3feb091-535f-4855-9cb5-0ecbfdb2c3de.c9e8eca7-fd7a-419e-b0de-b3ab16520e09",
     "price": 24.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -7752,7 +7752,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47370.13955657286610345.5d7ade7e-332e-4655-a72b-35431eab4617.1938ce39-4a9d-4065-8b62-da161de16bd1",
     "price": 119.99,
-    "rate": 4.4,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -7788,7 +7788,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9089.13955748726326945.7931fe0b-e479-493c-a5eb-ac7155d10f18.fb1961e9-40d7-4adc-ac37-19c3c48cd7c8",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 71,
     "tags": [
@@ -7818,7 +7818,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62575.13955168698915456.421b010a-ffd0-41fd-a20d-6560e0c4494d.808dff99-7d72-4b4e-b294-93ecac7710e9",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -7884,7 +7884,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26700.13958823218105189.5a0e6185-5389-4d7e-8836-9555f629f20e.b0394933-db71-4ebf-8b2d-1100158fdb9c",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -7916,7 +7916,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8332.13958058689766613.d2063075-aa02-47de-a4d0-b91e58eb3fd8.addaa459-7560-4bef-8185-3a663c817a2d",
     "price": 9.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -7985,7 +7985,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39927.13952794893730454.f35434a6-6529-432f-90f5-32e973dfb355.a757e415-7cf3-495d-a422-56b0cecc5dbf",
     "price": 22.49,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -8017,7 +8017,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32533.13952232406524200.357cef58-2385-4151-bb9b-05752b0372ad.d23f27e0-2957-48c0-9503-654330798e73",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -8082,7 +8082,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12802.13948312288430065.40074282-7423-497e-a9ff-cae80edee216.2b5bb4e1-5ef4-42b4-a4f9-e2b1dfbf644b",
     "price": 7.19,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -8118,7 +8118,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58482.13947954448009992.451ba0a2-ea80-4fc2-99a9-0eb603eefb10.4e1b4586-f312-448a-8423-18825e1153fd",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -8151,7 +8151,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43662.13947624431918587.cb790f29-7415-4e67-b195-b0f91d64f5a8.3e989001-24b5-412a-b9dd-10158acd565b",
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -8189,7 +8189,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2781.13947108682341756.7483b191-3d5b-490b-a7c0-76a686e3e192.c9e8ac5c-859c-4bad-a88e-a7070d19ba5d",
     "price": 27.99,
-    "rate": 5.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -8223,7 +8223,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24491.13946323439299506.cfda6885-bf8e-4730-9cc7-272d5c724924.c6b6a2ba-1ac1-4fb8-906b-34d46077a345",
     "price": 10.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -8253,7 +8253,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56356.13809253632566266.a1f3ac36-ddef-4b21-8956-5d5668ac9650.8475240d-f04c-469d-87aa-e13eb3d97da7",
     "price": 39.99,
-    "rate": 4.7,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 129,
     "tags": [],
@@ -8286,7 +8286,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30326.13941478999310354.1ce669dd-cd22-4247-a9b1-14df410e71c8.50f8f479-f574-4d29-8e06-9aac3b2edc9a",
     "price": 94.99,
-    "rate": 3.1,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -8324,7 +8324,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3673.13948820153582427.90f2ba94-88bf-4884-a2af-f09a2c471807.bcd39daf-7570-4df4-8646-fa80fbd513e1",
     "price": 99.99,
-    "rate": 0.0,
+    "rate": 2.1,
     "requiresGame": false,
     "reviews": 94,
     "tags": [
@@ -8356,7 +8356,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31478.13943124368161941.e9957919-fcee-42c4-b720-802dce6902f0.a16d6a37-e751-41ff-9f35-434c50f6d1ec",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -8425,7 +8425,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34695.68182501197884443.ac728a87-7bc1-4a0d-8bc6-0712072da93c.25816f86-f27c-4ade-ae29-222661145f1f",
     "price": 59.99,
-    "rate": 4.8,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 596,
     "tags": [
@@ -8459,7 +8459,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17692.13942808996007086.8ad5d541-cc80-4d9c-9120-0e6bd67dbce0.b4870a72-fffc-47e9-a949-7977363268f2",
     "price": 0.0,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 218,
     "tags": [
@@ -8493,7 +8493,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58310.13942202451253444.02a17631-ca56-49fd-a2fe-bae6a130692e.b7bf7ab8-f9b1-4e92-94a1-f77cc959cb54",
     "price": 14.99,
-    "rate": 2.2,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -8533,7 +8533,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53099.13527342619089752.973e03da-14ad-42d7-8afc-7f0ae0141581.c5f37739-7cfe-48e3-a148-45b1c53754ed",
     "price": 11.99,
-    "rate": 2.6,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -8567,7 +8567,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3980.14397220066329324.04c89901-528d-49c3-9829-a0dbfe8b2d2c.3793b8d8-b45e-4f8f-a8fb-723e56003d1b",
     "price": 109.99,
-    "rate": 2.9,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 567,
     "tags": [
@@ -8635,7 +8635,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38193.13944049589220012.a252dea7-0aa3-459d-a3ce-4b44af21f42c.f23e1905-45ee-476b-ade7-df57ff294ffd",
     "price": 94.99,
-    "rate": 4.0,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -8738,7 +8738,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18185.13940862866334193.4429b5ea-c6b9-4c05-bbab-03125094645d.60521bcc-67b4-455c-9805-989ea973fcb0",
     "price": 4.99,
-    "rate": 3.5,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -8774,7 +8774,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12064.13940291450306824.b8a3160d-1f0e-47b1-a033-3deacec85b8a.eeec71cf-5993-4927-b1ca-ad969512ecc6",
     "price": 24.99,
-    "rate": 3.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -8812,7 +8812,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29318.13934832893839970.6338f28c-a750-48ba-a092-ec796f25d064.adc1badd-8c43-422e-bd71-04b7e676af28",
     "price": 26.99,
-    "rate": 4.3,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -8916,7 +8916,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26865.13937245012239846.29b8e853-77f0-4b0c-9b20-31783d1c417e.f4af0d5f-bd22-46a1-9c65-2c0bd63e0410",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -8989,7 +8989,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63863.13937322381532779.f6401419-5ba5-42c9-b9be-241c461d10d6.b9f17e05-7f1e-4dea-8916-fc7e2bf04d1c",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 2792,
     "tags": [
@@ -9027,7 +9027,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50539.13936736673089359.9effcf59-4173-4f85-9246-4754c907d0dc.ef11b468-a17e-458f-85a5-76ee2aa7a73b",
     "price": 39.99,
-    "rate": 4.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -9133,7 +9133,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5808.13935367872893502.5d9f8f70-a641-4213-bef6-aad3145f201a.047005ea-5eb0-47f9-9856-b3da5652ddc9",
     "price": 0.0,
-    "rate": 3.0,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -9168,7 +9168,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52937.14000656789288172.d4ada0e8-b4f0-4bbe-9de1-dd243275d3a4.0cb5038f-6e6a-458e-962c-38be6a873f9f",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 526,
     "tags": [
@@ -9234,7 +9234,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6645.13999283631194266.92e6bfb9-3fd4-4063-b838-7eb1c8bfaa51.dc34c17a-e4ed-4aa4-90ba-b19b94196b7d",
     "price": 17.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -9298,7 +9298,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42466.13999482651141673.daa06719-8d98-431a-8dbf-560bd1d877b5.84f41d81-ebbd-4ef1-8f5c-c893b0947f19",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -9393,7 +9393,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29937.13996233039055516.822ad6df-7a9e-4dc9-a490-9909272ca030.3c4ad15b-7f1e-4806-854e-1c289f293c76",
     "price": 39.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -9431,7 +9431,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20626.13996121793871277.c1620ad6-5c07-4842-b034-84c7991b0c91.3a4f20b4-8fa5-4265-b4bb-c5ed62e8b308",
     "price": 2.99,
-    "rate": 3.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -9459,7 +9459,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23458.13995091942324536.154fdf2f-f572-4b8e-a8d8-8e3df9c60878.47515f3a-2d7b-43f7-a36d-5916648771fd",
     "price": 0.99,
-    "rate": 2.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -9491,7 +9491,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43556.13998365787119148.40e28375-414a-42db-b568-44f89d1b64dd.f5b3f344-92b8-45f2-99ea-2998f8e86992",
     "price": 19.98,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -9527,7 +9527,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47943.13998428129269906.9f8ae9be-8311-43a9-b7eb-8ceae10a9fee.a2e92f80-d75a-4206-b8bf-cf98b5e374d5",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -9657,7 +9657,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53749.13990287778541823.e97bf142-c41e-4de1-8aa8-43d1efe0b1fa.2cf34b3d-4860-4ef3-9832-0f958f75bc50",
     "price": 59.99,
-    "rate": 0.0,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -9694,7 +9694,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10903.13990191027854846.0c760294-e5d0-447a-84a2-8b9c4c3cfe9b.3da9e2c5-0551-4f12-93b7-dc51d28812ec",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 241,
     "tags": [
@@ -9725,7 +9725,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42522.13530659164059577.3a887fc2-6142-44a9-975e-fb62c5b8fe40.277727ab-8528-427e-a075-193fa7cac878",
     "price": 24.99,
-    "rate": 5.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -9761,7 +9761,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48063.13994037977696381.8cb9a0c2-0781-44fc-b799-7c5ec4255104.3d6f4133-90b5-4adc-a8a9-8b7361ef937d",
     "price": 31.49,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 68,
     "tags": [
@@ -9903,7 +9903,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14121.13986316021730261.2a69ea94-8704-4fd3-951c-3403df80be07.e261d67a-1634-4f7d-9e55-dc8fd5c778fe",
     "price": 59.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -9972,7 +9972,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62905.13989183891177188.ea581ac2-38ee-4191-8ec3-0304c481f602.036cbf8f-b763-4d37-8f03-cbfee0df47cd",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -10001,7 +10001,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26476.13983293144448959.930e0436-5b30-40d0-b840-cb6968e0a5fa.a0b5779b-7baa-45e3-acc9-f2e040c4ade1",
     "price": 94.99,
-    "rate": 3.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -10033,7 +10033,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5253.13982350006124632.1aee4da3-6b45-4f93-9496-dff0004c9d1a.37d4242c-8ffe-4562-9674-37f3f3a3008a",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -10068,7 +10068,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28659.13982458009216012.6d13f795-1191-41a2-b79a-3516a8abfc35.4cba1977-53c7-4d01-9b49-4b644cd80c68",
     "price": 24.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -10100,7 +10100,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2349.13982400556030553.4a6cd6c7-cd24-41f4-8b42-eea7368625a6.baca9a4b-38af-4f84-87d4-10091b93e51b",
     "price": 29.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -10179,7 +10179,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28530.13981706901537608.82cbb8a4-4b3e-4b23-a32a-ab7e825c9944.ddf36d5f-89ba-4ef8-bd11-dfe066fd1b8f",
     "price": 79.99,
-    "rate": 2.0,
+    "rate": 1.9,
     "requiresGame": false,
     "reviews": 172,
     "tags": [
@@ -10214,7 +10214,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11765.13985397472354266.c335aaa1-3b86-4b04-a0ec-fd48040ba6bc.de0178d3-951a-4820-a571-25d17ec95703",
     "price": 19.99,
-    "rate": 3.2,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -10244,7 +10244,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16313.13984377442391662.0dde92a3-f02f-4570-ab45-38fa933795d2.7162dcfe-ca2f-4a08-9afe-cc582994d5bc",
     "price": 49.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -10277,7 +10277,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48705.13984276391844473.bb6724d6-6749-463e-9988-ca39c7e1b288.5199fd86-24f0-43f6-a5e2-c48d4b3134f6",
     "price": 4.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -10312,7 +10312,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42276.14601770572274042.dca2036b-371d-45c9-af8e-1e3349c2abc1.66a2c0b9-4a0a-4ec6-aef3-21cd393a6f64",
     "price": 89.99,
-    "rate": 0.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 396,
     "tags": [
@@ -10344,7 +10344,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23774.13977432290083105.b2a358d8-dcaa-4be4-9526-befad1d8dc2d.ccaf9d64-1988-48b5-8ade-c1768bc58f9e",
     "price": 4.99,
-    "rate": 3.3,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -10378,7 +10378,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37552.13980581771776653.729a5d50-a1bc-4a97-9457-e42f0ff82206.5533395c-7f8e-4e69-b25a-f3e0ed97ce34",
     "price": 13.39,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -10414,7 +10414,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50393.13980427598997360.c45fa89d-03a6-46fc-b690-fe5c135baa88.53e5340f-008f-4d18-b9a3-790ee126d474",
     "price": 9.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -10449,7 +10449,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.372.13980019201559875.aec73d0a-f04a-40ef-9225-cb76c934a463.597c3537-a49f-4298-a254-545a83299eaa",
     "price": 49.99,
-    "rate": 3.3,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 128,
     "tags": [
@@ -10490,7 +10490,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34741.13979868870348147.8ecbeec8-deeb-46af-8803-a1338a261dbd.b5a525dd-d52b-43b9-b741-265955857b61",
     "price": 99.99,
-    "rate": 4.1,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -10592,7 +10592,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24126.13973652642682766.d6bf1132-6418-4785-ac44-4b1532523e39.abbd2e1e-e2a5-4902-be6e-3ff933d55427",
     "price": 6.99,
-    "rate": 3.4,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -10691,7 +10691,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47510.13976322309508957.29cd2ff1-42f4-4629-a97f-e05681fd8c3e.5f40d2d2-ede6-41d6-869b-ff3ebae5be95",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 69,
     "tags": [
@@ -10787,7 +10787,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53665.13975927826968008.7015a53f-69fd-4f35-8d26-f7378442acb5.0b3f613a-eb4e-457b-bcc1-9a20680a0ee5",
     "price": 9.99,
-    "rate": 3.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -10825,7 +10825,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45743.13975871579565746.a0786a51-d796-49a6-800b-f3d02a420c59.80ed6afb-5e15-4eaf-9340-585e6b432988",
     "price": 44.99,
-    "rate": 2.8,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -10858,7 +10858,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63980.13975866783987650.301af951-2a0e-4455-9425-4edb9697ec99.86a9c993-861b-4f7c-a2f4-8432684791b6",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 39,
     "tags": [
@@ -10890,7 +10890,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64394.13975040199706147.0c601c19-b296-417a-8a4e-52c0d5104260.a1a44dc7-2b4a-4137-b3cd-628dc1ce967d",
     "price": 199.99,
-    "rate": 4.3,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 29753,
     "tags": [],
@@ -10947,7 +10947,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45954.13970178094931265.be347c88-d190-41a0-a550-4247fb077bc6.9439e2b5-5322-48c4-a5c4-088d15b6409d",
     "price": 39.99,
-    "rate": 1.0,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -10978,7 +10978,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10036.13972535728607047.0ceeac06-e49d-4987-89e2-653bb726e930.58f43a10-98e5-49d0-998a-f7928bbcb1a8",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -11012,7 +11012,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18409.14220840565943461.66070e1d-a37b-4a3f-9fd0-f7314ce132cf.c41876f1-3c79-467c-ba55-ec3976b6fbee",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -11253,7 +11253,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9225.14035213393991881.a2b362f3-235c-4e38-be38-1de44293203e.8860a822-e1ba-47a8-b139-582e821e5ebb",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -11315,7 +11315,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55810.14034958758918758.b17134c0-1869-4493-b801-16dfcd7996b8.b687b051-9674-43c5-a321-f5f27c8f5b1f",
     "price": 26.99,
-    "rate": 5.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -11343,7 +11343,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59090.14034558416227102.f59c7aa2-3760-4951-823e-ab2c8054e64c.351723eb-7226-45dc-8c32-195721342272",
     "price": 33.49,
-    "rate": 5.0,
+    "rate": 1.6,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -11414,7 +11414,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24268.14038210256617281.718025ad-8038-4f6e-bc37-d05905bf2f47.899b7302-5a35-482c-8972-f1c383897114",
     "price": 74.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -11483,7 +11483,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44649.14037103443242735.28acb894-ca6c-401d-8c23-e1142d495df9.63293202-88d9-457a-bd4a-bbbbf842a4e8",
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -11516,7 +11516,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19524.14031604007499892.9e1c1f11-cb22-482e-acdf-f3cff0a4590c.17e7d4fc-f326-4214-aa09-e5a16b152721",
     "price": 20.99,
-    "rate": 3.7,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -11613,7 +11613,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12570.14030064300577347.b487aab9-37b7-491a-b33e-305d441365ad.a6c32f34-0ba4-4378-922a-b1447c172044",
     "price": 59.99,
-    "rate": 2.5,
+    "rate": 1.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -11646,7 +11646,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54729.14029834522920542.d87b24a5-f848-4df0-85b8-f4f56bd5e712.10e80a12-74b2-4eb4-8665-e7851a8aa738",
     "price": 16.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -11682,7 +11682,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54884.14034091841318125.74d2dc23-398e-4690-adcc-c66e01822290.42b7435f-09e1-4524-8f82-6d843cc3fd16",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -11749,7 +11749,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12786.14033862822154025.0f9a6b05-7b52-4b43-9a23-948a1f48cbf4.bac75871-8840-41cc-a81e-fe4f16404cc6",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -11785,7 +11785,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2060.14032476459089151.293b6ca0-75fa-4642-bc2e-2914035ec7e4.a7165426-2663-4081-a647-f8d4c88f26a4",
     "price": 79.99,
-    "rate": 3.4,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 60,
     "tags": [
@@ -11815,7 +11815,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59581.14279226502160866.7c0ac91c-1810-4408-ba69-5eac07b6e884.e611c36d-012f-4528-aead-cbd4126ca2f6",
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -11919,7 +11919,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54059.14029621639439172.4b0d9be4-f81e-4a40-89c1-1d9ffc806b9c.a35a910e-6901-413f-8648-f75a42edac27",
     "price": 9.89,
-    "rate": 4.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -11951,7 +11951,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9864.14029187016832024.c5745b95-a35b-402c-b4fe-957cd70f533e.74d89c38-c72a-491b-85d9-d49a5c8e3eba",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -12023,7 +12023,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25471.14027903822839307.21695267-6b8f-4dea-9681-1d913d662aac.2ce83b6b-34f6-46a3-b034-3a50be1092b6",
     "price": 79.99,
-    "rate": 3.8,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 142,
     "tags": [
@@ -12054,7 +12054,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61081.14023002684248946.5ecee72d-79fe-41c8-9806-16717a3cc54e.4bfa8be0-72df-4e02-987d-3f5a5c515fe4",
     "price": 29.99,
-    "rate": 2.1,
+    "rate": 1.9,
     "requiresGame": false,
     "reviews": 73,
     "tags": [
@@ -12085,7 +12085,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5231.14022564425870112.d50900c4-a0a8-453a-84d7-131d6f3dc96b.f97822cc-1c95-47e3-bbc7-f57cd8e8b7cb",
     "price": 21.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -12148,7 +12148,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64689.14021372123733525.d47bcee3-b948-4e34-9731-2b382b8464d7.0abdf372-32fc-49b2-8db8-d1a4b52894ef",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -12221,7 +12221,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51423.14023758758404773.fc7d0f55-c7c4-42b5-92ee-945a03f7cc87.47505374-62b0-4bd8-b902-c16749f35cea",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -12257,7 +12257,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22960.14023280891839684.d58b69f8-a36e-4149-a771-567728e98748.a6720af9-f0ab-42ad-a486-eb41f29eeb56",
     "price": 24.99,
-    "rate": 3.6,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -12293,7 +12293,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12458.14018675009161906.3b1340e1-79f1-40f4-b168-da7edc29e41a.f6af694b-9973-4d7a-be3f-939f05eb2557",
     "price": 20.09,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -12327,7 +12327,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30011.14017691440321233.123890d4-3554-4b97-8f1d-a6ddb299b439.4e23993a-afa3-4bd7-a2ee-d1eaee791672",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -12364,7 +12364,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59659.14017405861674106.a2dc56c4-26f6-4053-bb00-29797a2a58a6.0481234d-8afd-4655-8ed2-cee94a9d3fdb",
     "price": 94.99,
-    "rate": 3.1,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -12397,7 +12397,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46837.14016784756610835.ef385530-19dc-4258-a580-04c303cc6b03.ee095130-c7c7-46f7-b5a6-a365528bc9bb",
     "price": 16.99,
-    "rate": 4.9,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -12429,7 +12429,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12650.14020795742057189.6e11ab2b-69ce-4442-a443-20742d5553b6.84d0dafb-717e-4543-871d-ea9fd68d0b2b",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -12529,7 +12529,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35230.14019493132880077.fb8c1f0a-83be-4f1d-a619-2d330c2aed9d.7180c6d5-f148-4939-b5fe-4075246d3229",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -12565,7 +12565,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40996.14013874404154427.01749ccd-5277-41b8-9db6-ca15905ced80.5bcb6487-9d71-4a2b-8871-73713b3237b8",
     "price": 69.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -12603,7 +12603,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44291.14013699722941748.50b1b0a3-5564-4f91-8cb3-d95ec3d96693.d1e85ba4-8693-4a3b-9265-a96e5f619243",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -12669,7 +12669,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44925.14012685905295963.b005b383-b989-4eb7-8599-f194d7c1d9d2.1458f1cf-55cf-4083-9486-42de1fbe0d7f",
     "price": 17.99,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -12701,7 +12701,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51795.14012610854412389.923d00d1-ab4e-41f8-b554-f4079a7632e5.ab6e8f95-cc15-46b5-bd77-ea8e661a776e",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -12742,7 +12742,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31880.14012312710731854.29d5b9df-9679-400b-aa84-7f52642a7a8b.49881d93-b519-4a90-9a85-b2aa9f0fc3d7",
     "price": 69.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -12806,7 +12806,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38711.14009233261709698.3131d3cd-1e38-4097-9eaa-04a1e63ab4af.83ff8f5f-e886-44be-8502-94997fbff11a",
     "price": 89.99,
-    "rate": 3.7,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 64,
     "tags": [],
@@ -12832,7 +12832,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53623.14009218301740735.c9113da3-3db1-462a-ba87-723a347a3670.3839eb97-ded8-48de-891d-b6074bd424a6",
     "price": 9.99,
-    "rate": 3.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 124,
     "tags": [],
@@ -12862,7 +12862,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45532.14007817505538084.2ccc2682-f1f0-4764-8279-3b0db97c6050.bea3f10b-743e-4e39-b227-5bc96df9cbc4",
     "price": 23.99,
-    "rate": 4.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 86,
     "tags": [
@@ -12894,7 +12894,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55218.14011794529895904.6efa22d4-0819-44c6-85d6-f3a5644411f1.e744355b-4289-4218-8d14-7c5d20fe2d35",
     "price": 22.39,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -12926,7 +12926,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25905.14011532625829842.8b68c2ee-279b-4725-9152-fae086765f98.2bb1c47e-1847-4b78-90b4-4df83383a577",
     "price": 7.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -12960,7 +12960,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9487.14011542784181932.80ac6320-df7b-4be6-9355-e9083a5d2063.bb7adc22-496e-4006-a148-669d0ac3898f",
     "price": 3.89,
-    "rate": 4.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 154,
     "tags": [
@@ -13067,7 +13067,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50516.14004136016108226.5e2e20ef-03f4-43c9-aea4-892c5d9cef0c.1d374db8-fc14-47ca-85cc-66027587c1dd",
     "price": 35.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -13101,7 +13101,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36402.14006829741600892.0ff866dd-53ca-4875-b82a-a1e430a3ba20.7b6fc7bd-f32e-4e47-87e6-0fb5bbc49d34",
     "price": 89.99,
-    "rate": 3.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -13262,7 +13262,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53083.63094542581002017.05aec8ca-8592-4ab9-9c75-924720532167.53760004-9670-4a58-8b67-10a48b8b6d80",
     "price": 69.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 1083,
     "tags": [
@@ -13352,7 +13352,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45159.14071745200459129.81e3e86f-3ab4-4027-b9a1-81f595fcb505.773bbe89-e938-4a16-9988-8a2957459e44",
     "price": 39.99,
-    "rate": 3.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 106,
     "tags": [
@@ -13390,7 +13390,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2676.14066955014252408.09f7adde-43e2-4866-a2c5-0080a6f9afdd.97983cfc-1881-45bf-a89d-cc0bbe7de461",
     "price": 4.99,
-    "rate": 3.4,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -13427,7 +13427,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22555.14066063404194781.26435f82-f31f-48ac-b735-2271cf34edac.a539ce88-07fd-48cb-82b8-0ba89c6dfe1d",
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -13457,7 +13457,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1469.14022534234759878.15eb5514-bce3-470d-b39e-a0dc2e14d24a.2d9c82b1-0214-4997-81d0-5d393f0b4f6f",
     "price": 64.99,
-    "rate": 5.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -13488,7 +13488,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19229.14065501992916444.1ee81c87-5363-4a9c-ba97-c4a1586ae333.20d2f686-8756-45da-92c8-baa12d5e80f0",
     "price": 4.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -13526,7 +13526,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6986.14065499269907016.249670e2-cad9-48bb-aa0f-309d712ede80.6ff8c97c-ebd8-451f-99a9-f69c67a9ce09",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 156,
     "tags": [
@@ -13632,7 +13632,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56122.14068371180609121.f8b3fd96-8930-4103-ba10-d21b2ca644d2.39ade624-3013-4dc6-85c5-da51721c582a",
     "price": 29.99,
-    "rate": 2.9,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -13673,7 +13673,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38309.14068302933892670.c7bce98a-fdfb-4c93-9a58-5dcee95ec5d7.3eda0939-0b62-4894-8f90-528d665e3c92",
     "price": 69.99,
-    "rate": 4.8,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 70,
     "tags": [
@@ -13776,7 +13776,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50709.14061638986601751.164ef4f1-c50a-4721-8b51-9035a801aa2f.719414dc-72ca-4a39-b47b-f34bb2d3a0c5",
     "price": 6.24,
-    "rate": 3.8,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -13842,7 +13842,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5364.14060757552755639.827676ba-2a66-4b73-9cbf-c4b37d660591.f1d5ab59-ff00-428f-9b78-97cda2f56eaf",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -13879,7 +13879,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64032.14064688663434162.b25e40b3-70cf-4504-84a7-584196cd5eac.cf9d2287-2f45-497a-a8c4-cc79953bb08f",
     "price": 0.0,
-    "rate": 2.7,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -13951,7 +13951,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35620.14063678855024477.993614a7-f52c-4ce9-a614-0cbe743914e6.3123345f-aea9-4f9a-b259-6bc3d5aa7425",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -13986,7 +13986,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1451.14058243568071882.86040489-2d66-4c05-958f-f9ceb202574b.b279f7e3-ab2c-476d-af29-5638df47b473",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -14018,7 +14018,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52287.14057839366848438.3205b748-306a-493a-94f1-60de9c7722f6.041f7779-e4ce-4d58-b51d-18ba6b5c9071",
     "price": 19.99,
-    "rate": 2.5,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -14050,7 +14050,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6001.14058038182766719.107f0a38-625b-404c-ba19-779b49756b4d.38b7f9fc-3a69-4e45-8b6b-e9bf2df53a59",
     "price": 9.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -14162,7 +14162,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2841.14053398568595271.407ffc50-6e9a-482e-8241-426da744896c.60ce9c0d-507b-4e10-98a1-6bf8e391f868",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -14228,7 +14228,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7045.14052693504006930.c4a61cb5-d92e-4915-926c-4ded9ac152d7.707b94ac-83cc-4510-aad5-9ea6f309e749",
     "price": 34.99,
-    "rate": 0.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -14328,7 +14328,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57776.14145100515177492.f2c4e844-d21b-49b1-9173-f15ba5d3be31.055b1db3-1b36-4e8d-b12e-e8974ce69755",
     "price": 69.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -14360,7 +14360,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27671.14055858578299080.54ee7f9d-4bce-41bd-a47f-fc42d4dd5f5f.6a365b7b-1fe1-40ca-8bb7-20bb930d8471",
     "price": 34.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -14392,7 +14392,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29953.14054958690749653.d884c7d3-8c02-47e5-80d4-ebe9b3ef6f15.2386273b-ab0f-4c9f-a294-21fed4dbae86",
     "price": 0.0,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -14459,7 +14459,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34912.14048349042961902.f7408ecc-4d72-41bf-ab46-ab3362a5c98f.ad3357f0-1aeb-4e18-912b-7d85c0179576",
     "price": 4.99,
-    "rate": 2.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -14493,7 +14493,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12959.14047862984526942.d607584c-0d03-408e-a2fb-4ba0942aa60c.87566509-6dc1-4423-8206-20fb8d78a6f7",
     "price": 4.99,
-    "rate": 2.1,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -14538,7 +14538,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18799.14047496556148589.9fda5cef-7995-4dbb-a626-66d2ab3feb4f.1e167626-8b7d-47b4-9fe5-d06a43ac6677",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 715,
     "tags": [
@@ -14574,7 +14574,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27696.14049986236840496.9bd53928-7326-4e7f-ade4-030578b5b941.d0c12579-2a6c-4e7b-9614-8a70371dfb20",
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -14606,7 +14606,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19056.13817400022230876.ddda4ae3-d1e1-4cd5-b2fb-a308cdf34238.8c0e28ce-b219-4231-bf37-55afcc23e566",
     "price": 84.99,
-    "rate": 4.7,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [],
@@ -14637,7 +14637,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8722.14044436452577957.2e08f63e-a9d7-430b-9d0d-94201521e881.3d129e40-d405-4c3f-a160-205dde611fd0",
     "price": 14.99,
-    "rate": 3.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -14746,7 +14746,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11565.14047265781099659.3b6dc358-ee40-4841-867b-e6eb3b650c83.a89d5899-6f39-4756-a176-f5cf096b6a90",
     "price": 5.99,
-    "rate": 4.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -14818,7 +14818,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52240.14045459207379782.a2d78ba3-2697-4703-8bb6-3e254780458c.d48d6a14-8b34-4c89-ae6b-7c2c1e2290cb",
     "price": 17.49,
-    "rate": 3.5,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -14850,7 +14850,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27158.14040729137831963.64102680-f8d3-4202-a723-4ce0ae0344ad.508123c9-ea44-47b6-b6c2-1e00f41a1651",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -14917,7 +14917,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21823.14041939086623670.87cd5c63-4a13-41ac-9cd8-aec7a1a9df43.ef452af8-98d7-4754-ac04-f26562a90755",
     "price": 29.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -14987,7 +14987,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18298.14041044108785223.82419c4d-359a-436a-b07d-12cf7137d8fc.e5e5d14b-cb4d-4d97-80f0-522af78eb772",
     "price": 12.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -15021,7 +15021,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35684.14041251878158491.127bc862-f33b-42b4-85af-6afef175ac54.3c45c92c-6e0e-4e07-8359-4ea44517be1b",
     "price": 79.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 103,
     "tags": [
@@ -15098,7 +15098,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17964.13541872648069684.bc017d28-8db6-4158-93a7-4c3a1685853c.fb8398a2-21c0-4160-949e-d55a8048ee04",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -15134,7 +15134,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19977.13545235395514258.880c634b-cde6-4c95-892a-89c0e784d11a.4bdacf5f-6e6f-4b97-bdb1-d49bee68fc66",
     "price": 7.19,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -15246,7 +15246,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35609.13539010844025035.cd25451c-c47c-45c8-b378-724488a9e769.f5b7bd24-0155-4432-a51f-ddf22fc1bbd7",
     "price": 59.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 168,
     "tags": [
@@ -15279,7 +15279,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43743.13538643730533052.28638370-579e-40f3-af52-7a9f26631587.67554df9-b3c0-4a7e-b257-c5909ca201be",
     "price": 39.99,
-    "rate": 3.1,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 78,
     "tags": [
@@ -15316,7 +15316,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39925.13540721047044581.e7be320c-a7ad-4ed9-9981-16cb6014498f.29078fee-65ba-4338-ac5a-6fa23e83e842",
     "price": 13.99,
-    "rate": 3.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -15433,7 +15433,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42336.13536948730467095.198f0391-41b8-4dba-a0c9-ddfb988d2c03.c4a3695f-acdf-4c34-8cf4-28c633c86260",
     "price": 69.99,
-    "rate": 3.6,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -15502,7 +15502,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60207.13536847094532539.66adb578-2c80-43d8-a773-7ea52d54b466.339c1ca3-e06e-44f8-b0ce-732f619c708d",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -15540,7 +15540,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.902.13536864187348629.221acc06-9442-48b6-a80d-a9b9fd973231.9324b78a-3ebe-430d-90f4-f83f6f7e6040",
     "price": 7.99,
-    "rate": 3.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -15582,7 +15582,7 @@ var GAME = {
     "notSoldSeparately": true,
     "poster": "http://store-images.s-microsoft.com/image/apps.58702.13536437121175354.18c8cdb9-4b5c-42e4-ae64-1c5d6063fc7e.54c3f469-3e75-4490-9eee-a6e6b8ceb998",
     "price": 0.0,
-    "rate": 2.3,
+    "rate": 1.8,
     "requiresGame": false,
     "reviews": 137,
     "tags": [
@@ -15654,7 +15654,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8462.13535716002755168.c6efec4a-ddba-45a8-8244-741a699afed0.6f003fe7-d005-4025-a1f9-848a23fe97f9",
     "price": 9.99,
-    "rate": 3.2,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -15693,7 +15693,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14812.14287183849730954.47ea2d49-41a9-4a9a-856c-f350e282810a.014e2c94-8fee-42e9-9738-151c20cddfff",
     "price": 59.99,
-    "rate": 3.4,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 83,
     "tags": [
@@ -15793,7 +15793,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51269.13529288553393113.26b3c0af-6ba2-4e9e-a093-6ca65ce73cf1.e68cd52b-884f-4d24-a17e-d733f6ad0b9d",
     "price": 5.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -15862,7 +15862,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2747.13528495703556372.cf92593c-d18d-4cbb-ab43-4cd23a5a9cbb.3e7d5c97-8989-467c-8d0e-52e833430837",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -15892,7 +15892,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3056.13532475455902961.e79d832c-5663-4c6d-9b97-4d9d8e3d9b09.4ea90208-fad6-4ab9-90be-a2769ffeb754",
     "price": 10.49,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -15925,7 +15925,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16997.13531489140319204.2e417a21-11c1-4902-a4f1-8ac2c24c42b2.f43d9f51-caba-451f-984a-ff2feb119945",
     "price": 69.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 108,
     "tags": [
@@ -15960,7 +15960,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53972.13524928534337711.061b795b-d8df-4621-98ec-a96089e571a1.51af2134-99b3-46b4-bdd9-7c7f29c0655e",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 110,
     "tags": [
@@ -16041,7 +16041,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35756.13524128328401524.c8089ad9-5e75-4246-83e8-2dac88f04afd.c15772fe-d979-45ea-8d13-c81c5a30e4fa",
     "price": 69.99,
-    "rate": 2.7,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 387,
     "tags": [
@@ -16078,7 +16078,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36678.13527301958862136.ffa8c20b-226b-443c-8d6c-cce51dca9945.7170663c-a4e2-46db-a81b-aa22c30d6d44",
     "price": 26.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 483,
     "tags": [
@@ -16112,7 +16112,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52071.13527333410620450.97daa3db-a652-42e8-8366-b9369cdda285.b2c900fb-ab85-4ceb-8e48-7139546a1363",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -16149,7 +16149,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52408.13519620360616545.9ae79907-2b24-4c3a-bfdd-b2a4b4eead62.ba8b9804-724d-4408-b47c-0a35686b6e55",
     "price": 79.99,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -16180,7 +16180,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13557.13523638002129104.cc876367-b7e1-4567-bb7d-ed2e240c0376.06accfbe-2a57-4ecc-b2e4-15061b6eb1cf",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 45,
     "tags": [
@@ -16248,7 +16248,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58248.13522425449027354.d30e2029-af7b-42b5-9597-24dab387b2b5.03a8de9c-dea7-4572-a82a-db87a22a4fd9",
     "price": 24.99,
-    "rate": 3.8,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -16282,7 +16282,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7239.13521971334031001.2213fc9f-a770-479d-9961-54297946e21e.e159f644-08eb-45f6-9e42-37e51012836e",
     "price": 24.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -16347,7 +16347,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52563.13516133317152422.dff2f167-c340-4d7c-a7c2-6c06c259e0d9.07ac7e72-1269-43fe-93a7-a3431ac48412",
     "price": 11.99,
-    "rate": 2.6,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -16383,7 +16383,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6150.13515904831205445.8490b1a3-e8e3-4b47-80c7-0e50894cbab5.b953f53e-6db2-446b-98e9-def4ace61e44",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -16421,7 +16421,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7120.13519060000324986.80518aa7-1224-4311-9838-0dc16c8a9927.5aa4f95a-efa2-4c8f-b5c9-5b695b5a4668",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -16491,7 +16491,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37810.13518543789452586.33e180bb-4f0b-4a39-b1c8-cde6206c1eb3.10ce0025-264d-4dfc-bf77-75601b68ec7e",
     "price": 6.44,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -16524,7 +16524,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63328.13518299802182489.415b0b15-4103-48f5-9879-4173d1952a78.8be1c982-a3c4-49e9-ac60-96d77d29ce6e",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -16767,7 +16767,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46999.13511199099758791.098aa6c3-9214-4084-b60f-a9cde9820ccc.a4b5e54f-b8b4-44fb-9984-c4e859ed9814",
     "price": 0.0,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 92,
     "tags": [
@@ -16801,7 +16801,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17524.13511334762102279.20d0136b-3bfe-4ba4-b8a6-c63db0ef5500.2dbe1f5d-f665-4afa-a4a6-493008be372f",
     "price": 24.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 90,
     "tags": [
@@ -16903,7 +16903,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13860.13510798887954623.0be1a79f-d813-4896-a745-7407023ba401.0bf96738-20e3-4ba8-9578-5d80d0f16fd5",
     "price": 9.99,
-    "rate": 3.4,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -16934,7 +16934,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28374.13510798887970570.356d52d2-afd5-404f-9810-d138f625715c.a20c59da-4fde-4e93-9a85-c00d6821f56b",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 62,
     "tags": [
@@ -17041,7 +17041,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23687.13510798887570821.ea845859-503f-450b-b413-22378f9a8c65.ad9c4c58-c89a-4043-8db2-7d0c8b1c95a8",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -17100,7 +17100,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45346.13510798887868631.ce783d58-d3d1-4f34-8234-3b52417c7980.7a0e3f2d-86ad-4167-b203-e2fb102aadab",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -17130,7 +17130,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52430.13510832809115573.ffbd39e2-3957-4f8b-bad9-d2b4b613c5f3.4ecd5dd8-63f6-47dc-ad86-5101f6898d33",
     "price": 17.99,
-    "rate": 4.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 44,
     "tags": [
@@ -17164,7 +17164,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28897.13514204841287077.db5d6c89-d2e2-46d9-92e3-f329d0e1da3c.5ea61cf8-c7ab-42b3-8492-4757168cd21b",
     "price": 23.99,
-    "rate": 2.9,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -17259,7 +17259,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59150.13766749253474142.1210e9db-be6c-4359-a46c-fcffb3cf071c.5dd630b2-f645-4431-a9a0-2d2f1b443c89",
     "price": 59.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 421,
     "tags": [
@@ -17294,7 +17294,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18293.13578174030071833.ced2a7cf-09b3-4d12-8621-229829d1aa41.eb904133-f4a5-44f7-8298-20d85e074878",
     "price": 7.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -17370,7 +17370,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46726.13577166936070801.55e7bcca-cb99-41a1-8f88-a087f258d2e1.c8a62bcd-37ed-4d4d-8b1c-be87e216656a",
     "price": 79.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 430,
     "tags": [
@@ -17508,7 +17508,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37983.13574093128038227.7f017f9d-a7e7-46d3-ac09-ad5cece1a687.d4771ae5-9b57-4a43-8021-142acfe2e595",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -17544,7 +17544,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50584.13575821075818707.ebfbb2f0-0f5a-473e-81aa-45649b7e92fd.b88baacc-4ac7-4f56-b131-18274c6ce968",
     "price": 2.99,
-    "rate": 3.5,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -17613,7 +17613,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63953.13569481823205819.f5ab7c0e-095e-4ce2-94b4-241e81756d08.a5cb4c9b-1c7a-4057-af36-03fcfa28ad9c",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -17680,7 +17680,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19066.13568911399767367.40f48bf2-3e0d-4d5e-82ae-91d8c14bd585.765f2152-e955-4466-9a50-86202059f6cf",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -17795,7 +17795,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58468.13572322600772428.3a2870fc-0b3f-473d-a65b-f847b0bf8195.0c813270-3694-4c8d-82ea-8be1cd08586d",
     "price": 59.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 139,
     "tags": [
@@ -17826,7 +17826,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36104.13571824844032436.55f28249-12f2-40ca-9e31-1f387088272d.2435edd8-f0c2-48cf-8335-1b550c6fdb31",
     "price": 18.99,
-    "rate": 0.0,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -17859,7 +17859,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29325.13571577878997765.bf0e584f-1da0-45dc-9616-f8707de4bf08.245f3d50-2d31-4023-bfb5-c550107e4215",
     "price": 24.99,
-    "rate": 3.8,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -17894,7 +17894,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52967.13571723869427026.b02837dd-759d-44ff-be1e-55bc5426f0e5.2e5c8e99-629e-406a-b3ab-1ef44355ace9",
     "price": 0.0,
-    "rate": 2.5,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -17997,7 +17997,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46094.13565037407534311.2d70b855-0c14-4a55-b5be-f782acdaf07f.53ed98f4-6eb7-4e0d-ab6c-57972d4eb22f",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -18032,7 +18032,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12732.13564737612475991.b8ee2cbb-c69a-47d9-b4ee-7d6c7fb9fb80.87b898a4-e41b-4fa5-b86e-cee214afd60a",
     "price": 14.99,
-    "rate": 2.9,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -18067,7 +18067,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63678.13563675109277952.23565705-427b-413f-b0f6-a84e5e61a065.d54c18db-66d1-4248-bc74-de9766e539f8",
     "price": 59.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -18100,7 +18100,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15691.13567771986991146.739209c2-9c83-4715-baca-8bf45fa5fa4c.80de374a-6124-4904-8739-09a0a9936937",
     "price": 24.99,
-    "rate": 3.5,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -18131,7 +18131,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38066.13567921532650967.14c97daf-2703-4f23-8aeb-3f958553349d.3a451e52-baf2-4467-a97a-437a9ddbf838",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -18164,7 +18164,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49355.13567971666219918.9158ceb8-3eef-44da-b351-4ab18eb2a3aa.e94affdb-d2fb-4efb-a48b-60becd19ae9f",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -18231,7 +18231,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53097.13567314216061025.3a1c77ca-40ca-4e2c-81e6-7ee8c105888f.b71efcb2-4b21-41c7-a7f3-77b666be1fd7",
     "price": 19.99,
-    "rate": 4.8,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -18262,7 +18262,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32804.13566967214863025.b964ff67-2fd8-4c41-b0a1-5daedd16cc6f.3a7ba43e-3455-499c-886b-20c5124c6647",
     "price": 6.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -18296,7 +18296,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61958.13566138101961840.5f6cfe27-c3a8-463e-8281-e1a0e7f80eef.618942f3-5d95-4305-b82f-0172c8000911",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -18364,7 +18364,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59763.13561000893599851.02bf328f-941a-4fc9-88c4-86354bf3b0df.07bdfb25-75f8-4f48-a313-b1b5ed6197d1",
     "price": 11.99,
-    "rate": 3.6,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 78,
     "tags": [
@@ -18397,7 +18397,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12371.13560318840337204.7fb799bf-0c83-4102-a67b-891603f5661f.2f7ad583-ffde-4899-9aca-40397ee33c42",
     "price": 49.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -18435,7 +18435,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33642.13559807211300679.807448b8-520f-461e-b4f9-87b8bd844940.a9f0fa97-8033-4305-ab5d-debab3a6342e",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 114,
     "tags": [
@@ -18467,7 +18467,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29867.14021071039332862.3cd6d773-5d18-4565-a734-4cb06f2f8995.181b21c7-8796-40d0-a0ed-2f8d4cf850c6",
     "price": 49.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -18500,7 +18500,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47098.13562300505725390.648155c2-d72a-43fb-8f37-beaebce9c071.55e48749-25f3-47a1-adab-64a67d730d41",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -18667,7 +18667,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3694.13555635700807510.0ba2c2ee-4503-4bd6-9e66-ac5acaef7e7b.03ae38c3-dc25-4c03-b23c-caf3f81674ea",
     "price": 6.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -18773,7 +18773,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4956.13558336166432541.beb57fbe-cc4b-40c5-ba76-c8112867dea2.43b4dea4-61a1-4ffc-81ab-62cf72323363",
     "price": 59.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 436,
     "tags": [
@@ -18852,7 +18852,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40485.13551668736382575.a89ff9db-2a42-45bb-b442-22f1bfc93d89.af3ea80a-39c1-45df-a05f-5de7af32806b",
     "price": 4.99,
-    "rate": 4.3,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -18919,7 +18919,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40548.14036207780862723.0dd98b8a-7621-4543-996b-a59fe522e769.b1547dff-ffaa-469e-8cf4-b5f27ca2451e",
     "price": 69.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -18952,7 +18952,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47588.13552902647075103.9e24872e-3f43-4078-8279-1ddf37a77ab1.4e3fc858-5129-4c8b-b326-a738178cc237",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -18985,7 +18985,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34968.13640189115666774.cc5c780b-9c15-4eab-9894-0328e0e833b4.8b23f8df-9c06-4791-8d6b-138d06457337",
     "price": 29.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -19018,7 +19018,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63892.13547126321803497.bd08d6cc-e676-4be3-bae6-ec95cb0a2c1a.95e64261-bfc7-4f82-a3cb-4f6328d1a409",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -19054,7 +19054,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37631.13546926301175099.55af85eb-b63f-46c5-b2bf-ea74e3427ee9.a50d0b52-b891-4b2d-88b0-60a2c81d01b0",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -19089,7 +19089,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25913.13546341381523259.8f30b71b-aac8-4816-a999-212ef85f8876.1b6b3f4d-3d78-409e-acc2-57b4950505b7",
     "price": 29.99,
-    "rate": 4.1,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 50,
     "tags": [
@@ -19131,7 +19131,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21020.13550335257385479.4af075db-780e-4e36-9880-9b88a74dc6de.595ea9f5-8f3e-4ad1-b590-3f9e588bf46d",
     "price": 69.99,
-    "rate": 2.4,
+    "rate": 2.1,
     "requiresGame": false,
     "reviews": 104,
     "tags": [
@@ -19169,7 +19169,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11363.13550297183504199.2581041e-5ce9-4fed-97fd-9ea991c2365e.bcbb9776-0248-4229-a89f-af9e6f234d04",
     "price": 24.99,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -19237,7 +19237,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11107.13548731491092101.6235d68d-70f8-4721-b320-8a2dd5ee8939.38728847-ec7c-4629-b401-40bc5ec6a1b8",
     "price": 7.99,
-    "rate": 4.3,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -19275,7 +19275,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3664.13613777741524794.22768bbf-3890-4293-aea2-d5bfa764bee1.233e8354-1e76-44c7-a5e3-a5b719ee55d4",
     "price": 59.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -19306,7 +19306,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49879.13613428661764492.9b75eaa9-0337-4164-ae48-cca05dab4660.caa5b864-78c9-49aa-a368-b82af8547d3f",
     "price": 35.99,
-    "rate": 4.7,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -19340,7 +19340,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39927.13613420443671332.a6ea2e8e-4acd-4934-b589-2d8cfaba7189.b557ae97-c138-4202-8f5d-a1c6ae2579a4",
     "price": 39.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 130,
     "tags": [
@@ -19469,7 +19469,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60919.13615121291551910.24e699e8-5599-41cd-9652-3b7a19a879ea.2f4f3080-2fbb-4d92-851a-d1ec8d2223c8",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -19576,7 +19576,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6639.14331246421621234.e159d3d7-9123-4c22-88c9-a90dd7e522f0.84b2f1fa-cc68-435d-8e93-52c544382489",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -19691,7 +19691,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47652.13605204887272793.456e749a-524b-4372-bb98-1e7f5fac0947.403099f5-0704-42a5-8201-7752f87589e8",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 127,
     "tags": [
@@ -19726,7 +19726,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19112.13605148535266012.93f3e0a3-f335-4f3a-aad1-5442c50a2c1d.b4f7d2a3-a937-4b4b-8be2-5ef24271fc16",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -19760,7 +19760,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3855.13604913734618133.22ec53c6-6c0c-414c-bab0-54c8321b0300.bdf8c2df-e43d-4f20-84fd-0521d88a6180",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -19800,7 +19800,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18880.13541118697769822.dd758405-9f6b-4e8f-91f8-960af468233a.f8d45306-80f3-45f3-a86c-db9df16a6414",
     "price": 39.99,
-    "rate": 3.1,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -19902,7 +19902,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.85.14531096773460200.2ece7216-6731-4db8-b30f-926626097d37.4322e5a3-e713-4fd3-b36b-d772c8133b79",
     "price": 5.99,
-    "rate": 2.5,
+    "rate": 1.9,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -20007,7 +20007,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10273.13600792724488318.1682a7e7-75c7-4eea-9851-ef2c469e166b.6af76b20-40c8-41ba-a3ef-79a538e0a96b",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -20141,7 +20141,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38752.13600122089448117.9a46ed51-18e7-4dee-91b8-800db7b7971a.7db4188d-19a8-4fd6-b589-4b8ac6437b24",
     "price": 17.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -20172,7 +20172,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21560.13599353568798630.567fc0f9-a81e-456c-a9ee-55bb0bb153b5.d9345421-5f4f-4105-9a46-8116ee72535a",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 211,
     "tags": [
@@ -20204,7 +20204,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49353.13602814098138738.0c682bac-455b-4cda-a9ce-fa005222945a.57d77a63-0f16-45ac-8864-3ce9bedddf91",
     "price": 0.0,
-    "rate": 4.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -20305,7 +20305,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7786.13596120115275782.02ddede0-d058-46b0-a5a0-04eb7c566025.4c312a57-3e3e-4162-85c3-395c1fe7eaaa",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -20337,7 +20337,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16756.13598736998150120.478f4f87-0577-4cc9-8037-c9af0baa4d1b.379fb69a-cfb0-4469-b251-df26787fe2f7",
     "price": 6.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -20408,7 +20408,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47671.13596818197886835.587a1f17-af5b-48c5-acec-b287c3694c3b.2b08f767-55b8-44fd-afbc-c5b0cd508492",
     "price": 4.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -20442,7 +20442,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6582.13590562803012445.db728b35-16b0-444f-9f61-1bc97e0aad28.13ed5a46-c1cb-468a-bbf1-4f5c08e060d2",
     "price": 2.99,
-    "rate": 3.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -20477,7 +20477,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16415.13590327881176342.f7f3827f-9d71-4ea2-ae1c-d63433c0713c.7c225004-2416-4d6e-80d9-20ccdee31b66",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -20560,7 +20560,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37517.13616217073784636.1d7c368f-039f-4d78-b0ea-aca6ed645867.1c6f1103-6480-4111-b73e-162156fb56cb",
     "price": 109.99,
-    "rate": 3.1,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 203,
     "tags": [
@@ -20599,7 +20599,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64373.14411145056006361.61ed9f35-3bd8-47e2-ab6a-954337ecb823.aca69269-567c-4456-b55c-a802d969282e",
     "price": 109.99,
-    "rate": 2.8,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 64,
     "tags": [
@@ -20668,7 +20668,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11867.13592471492223202.95ebbbb4-379a-4c7a-98f2-2a87339e8383.099ee194-2748-437c-bf50-727876f4c07b",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -20708,7 +20708,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54250.13592675470908447.79efa8be-9602-4911-867c-3b27d26ad414.5083e064-e3e9-4a23-bb10-684f7be75d15",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 656,
     "tags": [
@@ -20806,7 +20806,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13728.13586724043256738.3809e00e-03ca-4046-bce4-167a34f4611d.bf5f44ae-4971-4cf1-8b8e-878a2249fe40",
     "price": 49.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -20846,7 +20846,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15401.13586428055135571.f12709ac-4fdc-444a-9eb3-a38d712ce6f7.8324cbe9-0821-4e95-a684-bd34a3d87df4",
     "price": 59.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 127,
     "tags": [
@@ -20952,7 +20952,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41368.13589857623076788.ac531203-b4d2-4e52-893c-99127071cbbc.b483f13a-bfff-49cc-a278-f33319f49885",
     "price": 59.99,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -21095,7 +21095,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35416.13581913883159668.1fa13cba-e6de-4692-9331-0457a4f9066f.5fa7704d-4f31-400c-8588-9e6203efb2fb",
     "price": 69.99,
-    "rate": 1.6,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -21130,7 +21130,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64314.13581323322213142.ed2e0b70-79ff-4c63-9f88-05a049d16efe.f6114f36-4017-499b-80b5-e5960ab168a9",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -21165,7 +21165,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10249.13584607337211761.95e02c87-cb7d-4eb0-953f-77c630bed3a7.fa22355a-cd48-4e1c-b89e-36bbe1f73ba3",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 214,
     "tags": [
@@ -21227,7 +21227,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24974.13648416103394124.5ba2c550-a65a-4378-82f7-74c79d6163b5.b42fac47-0176-4898-8342-9b842f2043d9",
     "price": 49.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -21257,7 +21257,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50625.13647923553999171.4095bd7e-05eb-4a86-a07c-4f563560d342.24e90e5f-a44e-4753-8863-83b4c3efc314",
     "price": 36.99,
-    "rate": 0.0,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -21288,7 +21288,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23141.13647573782274497.3905cad4-aaa8-40d4-aa37-4fc037b63ea9.39c0f56c-3605-4a38-83ab-4bf16c34b576",
     "price": 99.99,
-    "rate": 5.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -21322,7 +21322,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39795.13647290065195842.35a6219a-a73d-4c57-a87c-6c885daeb851.e8488a4e-89ad-4d20-a766-b8804042bbe0",
     "price": 59.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 6292,
     "tags": [
@@ -21386,7 +21386,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14251.13649679592059930.47d71178-f514-44c5-af13-1997d0e9c9f7.27028758-a74d-43f2-8d28-f76bb2b30466",
     "price": 32.99,
-    "rate": 4.3,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -21448,7 +21448,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50479.13643756730841473.00301cd4-086a-400f-982e-decb28977abb.d816b0db-234b-490a-acaf-645b88086f35",
     "price": 34.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4381,
     "tags": [
@@ -21574,7 +21574,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63612.13645984936531196.8fd29bb9-0aea-4aa2-8009-76ad92983a03.ccdf0d68-0f4a-46f3-a416-3da088072c49",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -21675,7 +21675,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34868.13639149389754897.8c3fecc2-7ee8-4347-8ac5-c33bf5eddb8d.dc9fd129-6ba0-4955-964f-9a5597206dcc",
     "price": 4.99,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -21705,7 +21705,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44650.13638806403200666.2274b782-7238-41d6-808f-d0108c2c08a3.da9e9721-7f8d-492b-8c2a-d214ff922af7",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -21813,7 +21813,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40822.13642371167087209.6086322d-e3dd-434c-a19e-05de2ab970c6.2b454379-15b6-4906-ba58-7ef4bb1ff12c",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 223,
     "tags": [
@@ -21849,7 +21849,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25594.13635623008017579.c3c49040-6ffd-4834-b97d-bf656fa40ffa.6f72dec3-9baf-446e-ad85-70090db1f8c0",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -21927,7 +21927,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16655.13635856794979045.d4f07b3e-449f-40ad-99ba-e6b66a9a73a3.a5c0adbd-3785-4c5d-a607-b801f2ca539e",
     "price": 99.99,
-    "rate": 3.4,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -21960,7 +21960,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29377.13635530871942579.2d213f2c-9b1f-4682-8591-959d00c7b73c.6f43207b-2e19-4e90-886c-7c978a065ac2",
     "price": 5.24,
-    "rate": 4.1,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -21993,7 +21993,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49478.13634873635019458.383f9d2e-5bc4-4059-9eca-47c537930358.cca4f67d-3428-4ab9-9cd4-708dfe68d05a",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -22032,7 +22032,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52431.14312318575986937.e3e4a835-ae1d-458f-ab0d-9ea7e209c312.91f671b4-0be5-4311-93d7-519dd88c8ca3",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 111,
     "tags": [
@@ -22064,7 +22064,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4767.13634450194289721.5d30d66f-5707-4041-afd1-2120d4d0aa9a.46950186-a6a3-434e-ae31-5db7b8f5a489",
     "price": 14.49,
-    "rate": 2.7,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -22095,7 +22095,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45798.13633948806459455.2cdd8d0f-ca1b-4a6b-a168-730f7b0803f2.35cb56bd-6ccd-4055-9a3d-026f90af4c8c",
     "price": 8.74,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 78,
     "tags": [
@@ -22132,7 +22132,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31891.13638285240278198.9ad5e5fb-c5a0-491f-ae22-c61d84163a4e.11c0c199-ca2b-4b13-91f0-ea83cf24026d",
     "price": 22.49,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -22198,7 +22198,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.205.13637649913006960.b91b00d2-cfc6-4ef1-8128-838cf2c391cd.98115316-ab64-405a-b118-953782b18b5d",
     "price": 35.99,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -22231,7 +22231,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42785.13636460453065260.a236863a-02a2-47fd-bfee-b7b301312a6e.118e78ad-b15d-4d79-9a51-f48036e7f690",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 198,
     "tags": [
@@ -22266,7 +22266,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15370.13631656374215616.2f20ea09-c3bd-49f4-9f53-6c05560c33e9.6d79cdbf-ef13-4162-88e9-86728dbcd7f2",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -22329,7 +22329,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57280.13630560684125266.976bb40c-eec2-4cc9-ae70-59cfcd8d70a6.182d32bf-ebb2-48f2-a4d7-5b52daebfdf0",
     "price": 24.99,
-    "rate": 4.2,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 180,
     "tags": [
@@ -22368,7 +22368,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57274.13630274674230323.ef522ebd-e0ea-449e-b0c8-3271887caa67.2e92ae62-cd3e-458f-a8f8-3927865645e2",
     "price": 89.99,
-    "rate": 3.6,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 1004,
     "tags": [
@@ -22397,7 +22397,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15335.13633534021480905.ee3a5ae5-5ed1-4b1a-bc3e-a93338c9eb0a.63b73663-2bef-44cc-95ea-cd0ddf6a27c2",
     "price": 44.99,
-    "rate": 2.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -22430,7 +22430,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33445.13632199716185998.13299b88-5419-46be-b574-e039f0e17d14.ac9ec290-01b4-4ad1-8615-76dbc4e903c4",
     "price": 49.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -22465,7 +22465,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23082.13632216686838138.75c1faa1-905a-45e9-bf68-ccd9a6fa78e1.190d4457-3254-4c9a-a65c-f80a2f7da934",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 83,
     "tags": [
@@ -22504,7 +22504,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61268.13631853399995812.7c8d5b79-31b8-46af-9143-329dfb697258.e21937ee-bfbb-4fa6-aea9-fc940c02feba",
     "price": 24.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 86,
     "tags": [
@@ -22538,7 +22538,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14145.13627142991396675.8616ae55-a440-471c-8786-62b7be0b6a5e.4b7ad200-1d25-4307-b62e-e3512a4ff00a",
     "price": 38.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -22577,7 +22577,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48193.13626568325427111.5219f295-f38f-4199-b81a-6fe1b4e11f8e.0b47fe08-fbd1-4e25-9e9f-30fedd1dcbce",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 127,
     "tags": [
@@ -22725,7 +22725,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32808.13627783459114113.99530f1d-539c-4b76-b6fc-7972c31992d0.83b5d876-3592-43a9-96e2-200f8760df6e",
     "price": 4.19,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -22758,7 +22758,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21889.13627382287895556.3d5a5ca2-8d54-4a0f-9681-de253ba9977a.238f088f-78d1-4d0c-8cd1-54df7ab730d1",
     "price": 34.99,
-    "rate": 3.3,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -22789,7 +22789,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7319.13622897409006569.d04de9f7-69d6-4d15-8f0c-637063e0cdd3.5e1f26c4-3cfa-473e-a194-6ce3406e334e",
     "price": 0.0,
-    "rate": 3.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -22865,7 +22865,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25966.13622644626827793.ce9937db-fd18-4d77-9c38-f42104e94449.a9bb8d7d-7651-4d6f-b241-64eba344f811",
     "price": 69.99,
-    "rate": 3.7,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -22901,7 +22901,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38181.13622188078005111.a1d788cf-9162-4910-a1aa-24f0406c25ba.ae86e5f6-2d23-4830-8709-1be65b6fed2e",
     "price": 9.99,
-    "rate": 3.0,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -22930,7 +22930,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56804.13621156428972779.8bb81152-fd42-4af1-bd89-aee193522b21.18ab6cf5-df83-455e-b0c3-ec10710d24d2",
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -23020,7 +23020,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2950.13624550650177278.e0ae98a2-0992-4541-b9fc-b2cd18e0c174.cfd45119-fcad-473d-91d1-f1acb6a2347b",
     "price": 0.99,
-    "rate": 2.7,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -23049,7 +23049,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5100.13623165756021861.ba706fda-f619-4463-bd44-fbb737003370.24724a6e-6465-4efa-8a0d-3227073580b0",
     "price": 79.99,
-    "rate": 5.0,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 436,
     "tags": [
@@ -23080,7 +23080,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46862.13623220451020899.358b225d-7e31-4426-8659-5fb3c4d63bd0.cb71a99a-c2c1-42a8-901f-b17fd899f45d",
     "price": 14.99,
-    "rate": 2.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -23178,7 +23178,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34114.13683764566883656.66e5d148-15a3-4558-81f7-8ac5001f44c1.1f4673d1-d6da-4236-8bab-24a61c082e2e",
     "price": 9.99,
-    "rate": 2.3,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -23243,7 +23243,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22267.13683241876375169.169a9874-6974-46dc-8fd3-249a49b3251f.d8d0ca35-043b-47a5-bbba-704df19366fd",
     "price": 39.99,
-    "rate": 3.3,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 94,
     "tags": [
@@ -23320,7 +23320,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64594.13682714888089681.d9ded2cb-1dbd-4a2a-bcc5-dfdd6b968041.9b56a765-7bc4-483a-8d7c-557eeaf586be",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -23422,7 +23422,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42400.13663432666170249.355d2329-678d-40b0-88e3-beea760ce857.723f1555-e868-4bea-8192-ad69e85dfdab",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -23456,7 +23456,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39596.67644652336133489.b3703282-21c5-4da4-9f47-ba53b33b37b5.569189bd-72c6-4e18-bae2-96f3542515b3",
     "price": 47.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 95,
     "tags": [
@@ -23633,7 +23633,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63856.13674140028106375.4d0d7ecc-1cda-4f81-b7bf-ee60e7d948fb.b58d46bd-78c5-4082-a729-a55c94c493f6",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -23736,7 +23736,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37905.13670972585585116.7f29dc82-c969-4e89-aaf9-7c0e3f52d890.2e5a9c92-cf00-4c10-ae28-264c564478c3",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 479,
     "tags": [
@@ -23772,7 +23772,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44084.13669130064012474.561b5a8a-ed25-477c-950a-a52318fede89.2e56aabe-707a-45e4-8951-3feb3c043090",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -23866,7 +23866,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.683.13672727399820228.e1322d27-4961-46da-9c7b-c310d3e28cb1.e9be41b7-c7f3-4c93-b981-113631a8fa2d",
     "price": 29.99,
-    "rate": 2.9,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -23904,7 +23904,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33834.13672969377617960.8b9caabb-4abd-4de7-8a2e-96f8a9f13b21.022ba128-e3f7-4cc1-82ff-bffd12f4bacd",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -24038,7 +24038,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11179.13668282042107954.874f4821-1931-4173-aee3-0eed5c78ce55.5e9896f6-415e-4233-89da-d05cb61e48a6",
     "price": 69.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -24070,7 +24070,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45602.13668181253613299.4da3f1be-f262-4788-8ac6-c758fdb16547.bb78790a-c536-4824-b069-ceac2b14f0d1",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -24102,7 +24102,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31683.13667999812046548.42d15c78-28e8-48a9-832f-baba5a1bcff5.3028b1c4-f8d6-4c46-84b3-63b0a1dc1dcb",
     "price": 0.0,
-    "rate": 4.1,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -24142,7 +24142,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51638.13662065475218063.34063d08-8b45-4ed3-bab5-137253b2b61a.8d2b792d-3cff-442e-a18f-d967325ffb7a",
     "price": 99.99,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 100,
     "tags": [
@@ -24178,7 +24178,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38334.13661753595194559.37056c31-572e-4912-b04b-79963d45181e.7fb58300-b13c-4bdd-8bf7-6861517e274b",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 73,
     "tags": [
@@ -24214,7 +24214,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60313.13664496976908034.5ac85762-1269-4eaf-89c5-a7846817f32b.35e707ac-2e17-438d-859d-929bff7ff711",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -24283,7 +24283,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46963.13663862709983179.9ba0cc43-c7db-4313-a250-0f1ba4d34b86.9861ac4c-d668-4340-bc45-e7c00867e348",
     "price": 4.99,
-    "rate": 3.7,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -24380,7 +24380,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52875.13657825268489620.7364cdf1-3e24-428a-91f2-85b84c3f7a1b.41803d34-7d6f-495d-a872-1cddf71cdcfa",
     "price": 39.99,
-    "rate": 4.5,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 101,
     "tags": [
@@ -24412,7 +24412,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44140.13657758376442469.fbfdcc53-3ba1-4c36-8a67-abddb778c84e.00f47aae-5b86-42fb-b205-1795e1a68573",
     "price": 59.99,
-    "rate": 4.3,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 127,
     "tags": [
@@ -24447,7 +24447,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50897.13656707570024266.6eb12281-8416-458c-8123-d1d704e3a0c1.87a46f2d-1c87-4b5c-a3e4-bc1381d4c581",
     "price": 6.99,
-    "rate": 4.1,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -24482,7 +24482,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55352.13655991714313893.f2823362-6019-45ab-aeb3-3e37ef81c057.6b9dbd4f-c898-4841-a656-41fe016cde05",
     "price": 0.0,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -24582,7 +24582,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45089.13659998887820416.ac97c487-e49c-4236-a48f-681c4095040e.9f593142-562b-48e6-9ab5-20ea48887200",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -24617,7 +24617,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13828.13659086498219526.318e0c2d-0867-4856-810e-707845e5788e.4b948e8e-c05c-4df2-953d-d592413e2980",
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 81,
     "tags": [
@@ -24647,7 +24647,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41450.13658386559994306.91138830-5343-4eb6-87db-2e0638fdb621.be391025-124f-4761-b0d7-0c8f125dc5a0",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -24779,7 +24779,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35092.13654172096294618.40dbe730-e438-4ca0-899b-773675f8b592.24d69669-1bb7-44e1-a4a0-2c5cb2b4d8b7",
     "price": 35.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -24804,7 +24804,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62305.13653752986123637.bf97c232-b042-4af5-ab55-3b6afee903ad.e618f9c1-0ffa-40a3-80a2-ab3d5cd82b54",
     "price": 0.99,
-    "rate": 3.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -24838,7 +24838,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49800.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.9ac09d39-064d-466c-81ca-2f1b6f0b95c5",
     "price": 69.99,
-    "rate": 3.2,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 1729,
     "tags": [
@@ -24965,7 +24965,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33483.13720274187798620.1c31c02d-f503-4e98-86c4-8ee914f6a3d3.476ab162-b57b-4b9d-b8aa-9f4f56dc9c30",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -25029,7 +25029,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24623.13714596773589453.b0e22fc5-f8b4-4b36-b12d-db5d42554c10.6f0900bc-34c9-486d-996b-89c8de1cc280",
     "price": 59.99,
-    "rate": 4.1,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 572,
     "tags": [
@@ -25062,7 +25062,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14314.13714290489749263.fa316741-1615-4cad-942c-7c2fddc7b069.47b92f24-b316-40ed-9ec1-54289f3a1c28",
     "price": 5.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 83,
     "tags": [
@@ -25099,7 +25099,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25575.13710698285394664.b69d40fa-3b9c-47c8-b252-b52cae59523c.f7b6e42a-3b1a-437f-977b-dfa2cf28911e",
     "price": 79.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -25200,7 +25200,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53687.13710227140659402.4bc50c7c-3569-4013-b66a-c3b66506ae45.4bafc812-5264-4699-b245-2c81ce53c0a6",
     "price": 24.99,
-    "rate": 1.6,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -25337,7 +25337,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59551.13713056698807643.7ccaefa2-5a0f-4aee-aac0-80967a8a906b.72ccfb92-8f81-46c0-bf13-33ad630ada86",
     "price": 74.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -25373,7 +25373,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32906.13712624405302534.e55738fd-2c3b-455f-a5a8-9e7ddcadb7c8.6c4f61fb-f3b1-4a31-b247-4a329e382abd",
     "price": 49.99,
-    "rate": 3.0,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -25437,7 +25437,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62882.13711287244755811.601b477c-0175-48da-8585-ae8d926ee15d.50533404-22c8-45c0-bb41-2c94b6a03a53",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -25474,7 +25474,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44076.13711395399861242.8d76aa14-c17b-443d-a1a2-3c890aa7e61d.40ed04e2-1eb7-4903-b2c0-f19026fea370",
     "price": 3.99,
-    "rate": 3.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -25546,7 +25546,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64955.13705627627930692.344ac14b-1e01-47d4-a307-5cd45a9d7e0c.d519a4d6-5210-4002-a766-06a4df64da6b",
     "price": 49.99,
-    "rate": 3.7,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -25578,7 +25578,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16944.13705408154411770.2b22153d-5a9e-4527-9b1e-67532d3e2ef4.60f2e2f5-0ad5-4051-abe2-2f4d6a81eabd",
     "price": 24.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 181,
     "tags": [
@@ -25646,7 +25646,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32600.13707022515476512.2b5e100e-94cd-44c9-9ddc-e4ee78a204d7.55cc6676-d5f6-45d5-91e5-9b26155433b5",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 63,
     "tags": [
@@ -25678,7 +25678,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11639.13701874861404068.47e2073c-0487-4007-8536-e55b8d19e7b9.1a3264d4-a8c3-4c47-aff7-59dd0b4b869e",
     "price": 7.99,
-    "rate": 3.6,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -25712,7 +25712,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11433.13702044937897358.8701ab78-da18-4c36-8c1e-3d4e6dfd60c9.be460380-78ee-493d-999d-f5943ba38e7a",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 308,
     "tags": [
@@ -25740,7 +25740,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61136.13701615373588206.4d5ff159-b776-4b08-9870-b602e32976b8.9cfacc98-8a25-4a5b-b030-8896c79ecc50",
     "price": 13.74,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 67,
     "tags": [],
@@ -25772,7 +25772,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6530.13701832065648652.d8a29ed7-a1e0-4ea2-ac2d-6682a5798ad8.674236e5-ddd0-4ce2-8743-f61913fac3ef",
     "price": 14.99,
-    "rate": 3.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -25876,7 +25876,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60032.13700473296268482.32996048-3b80-4e25-ba39-fe7dbfbf9348.ad04460c-4c24-4613-b509-6e76aa196da8",
     "price": 24.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -25915,7 +25915,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35847.13700710618941185.fc859d4b-12a6-47e1-8c7b-cd88b347bedc.40bb7348-f790-4f93-b75b-bcc2a804329b",
     "price": 99.99,
-    "rate": 3.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -25954,7 +25954,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2125.13700230312728802.7afc83a6-4afb-4b07-84b4-f40e24213a93.e3658258-be2f-4317-81c1-7f3e8dd2eaa6",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -26063,7 +26063,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30901.13703325884761588.f33ea47b-9cce-415c-a23e-066944821a2c.ff2ee777-f60f-4609-ac78-bcb88c6d36fb",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -26209,7 +26209,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22978.13699799412731780.9f7b812e-456c-430e-8cec-380f1ca9e4a2.2f448ff0-73c4-4053-b93d-54c8144069c7",
     "price": 39.99,
-    "rate": 3.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 433,
     "tags": [
@@ -26243,7 +26243,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19816.13698858328670559.a585fabe-de13-4221-916d-f3d1846eab4d.ebf1b05d-3222-4644-babc-742c6493652c",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -26278,7 +26278,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63712.13699070337568110.f83f9fb9-d1c0-4826-92a0-54943043432e.95cce0d7-6756-4f9d-8411-4bcd00fb8dab",
     "price": 59.99,
-    "rate": 3.6,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -26347,7 +26347,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59767.14292384283824656.ca6a1643-b1bc-4054-ac12-faa77321c653.5e742961-aa3f-4ce1-9dcd-6abe2f444da6",
     "price": 69.99,
-    "rate": 3.7,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -26382,7 +26382,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10603.13691687972934327.ab0444af-5ec0-438f-aeea-27145f282702.47b8de8b-2340-4d42-821d-0c907af96d31",
     "price": 39.98,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -26420,7 +26420,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11347.13691300234764634.9fc65d17-050e-4e2d-b6e0-4144b58283db.915e8081-5497-4932-9fc9-4ceb51e6e86e",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -26485,7 +26485,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41107.13694306682751994.8d7eeebc-63ae-4c9b-b398-1a978a669328.9a95f195-9de3-4257-86a0-0cdcba7b44a4",
     "price": 14.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 79,
     "tags": [
@@ -26521,7 +26521,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56210.13688641170609700.5ef6bd6d-857d-4fd8-9861-f301a70caa50.2b92a32c-2916-4b81-a1c3-6ec5500e3818",
     "price": 0.0,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 130,
     "tags": [
@@ -26553,7 +26553,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64207.13687223052894864.813d775c-ae5e-45a6-a2a4-ea604542f657.9c86a6fb-141f-40c8-a077-7b64eb81d7ad",
     "price": 49.99,
-    "rate": 3.6,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 80,
     "tags": [
@@ -26583,7 +26583,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5452.13687172093433679.1b373df3-b857-4403-8ddf-179f88c571ab.87cba886-191b-4660-921f-675b9008e200",
     "price": 4.54,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -26718,7 +26718,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43455.13754353355107546.f95d4bed-6029-48c9-95a2-24f3a636c4e7.c0e64c4e-38ff-4f44-b348-0e51db8f02f7",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -26789,7 +26789,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52539.13754128361868297.68bc6fd5-d386-45be-9412-47122a18a4d3.37c50bd1-d7a2-4246-9aa0-59caf34dc805",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -26822,7 +26822,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1776.13754284543881634.da02b8e6-e846-4b41-8bd0-2c20120fb2b8.7f15e2bc-f355-4035-8ba4-799d3e7bfbe0",
     "price": 34.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 183,
     "tags": [
@@ -26854,7 +26854,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65123.13753733217119410.73ef4c96-306c-40d6-a63f-7c1dcd37389d.e65b68d0-e86b-43dc-8af0-10ffab2ab238",
     "price": 119.99,
-    "rate": 4.5,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 157,
     "tags": [
@@ -26883,7 +26883,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62739.13755710204488964.1fa26a69-e1c5-436e-8139-2967a16f5303.eabef1c0-741b-41b5-b16d-5a8af35a755e",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -26946,7 +26946,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15501.13751980782885936.0298ef58-8f80-43ef-b3da-b6fc17f0588f.013f35a1-3db9-4845-8703-bc4d29125791",
     "price": 7.99,
-    "rate": 2.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -27017,7 +27017,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19640.13751787478651765.747d9b13-75e6-4c34-a196-72624dc19de6.87df02ec-0bd0-4695-8de3-273686a9a6ea",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 118,
     "tags": [
@@ -27088,7 +27088,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42707.13750744755532010.7748d323-597f-440a-94e4-9c030198efa6.6d597598-01ee-40de-b29f-0af453183462",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 2705,
     "tags": [
@@ -27116,7 +27116,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3950.13746026679809493.65dbd3b0-3c0b-4772-911a-106ded0ba210.c3f479ad-16e1-4e41-a23d-4a402fed0e75",
     "price": 14.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -27247,7 +27247,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35455.13744198789091182.d176867c-ff91-4e0a-b1f7-00b2797de9c7.c3cb7a66-7aec-40f8-99e9-3d987a7d48c8",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -27281,7 +27281,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13574.13744375363314980.ec97ace2-7dcd-4757-b47f-3a2e4f9b36aa.43460bb4-2c9c-4713-a5d3-16b5f768584f",
     "price": 0.0,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -27312,7 +27312,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35079.13907364270297288.93ae2091-c674-490e-a0e6-ab8561d65104.1d8ee989-0d96-41ae-8b4a-0b85a362063f",
     "price": 69.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -27377,7 +27377,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46241.13747708785346246.26b7a239-7aa3-4075-aceb-3fe6324cd11b.22bae141-a400-44a8-b4fa-9836c6e260e5",
     "price": 69.99,
-    "rate": 3.9,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -27412,7 +27412,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28743.13747302760481869.7b0417b0-a0b3-4e1d-8c91-599f8b302569.ec896e1d-7562-422d-82d4-b8e303b32cb4",
     "price": 9.99,
-    "rate": 4.1,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -27483,7 +27483,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10655.13747022178020176.f143575a-9975-4e6d-8177-a9a357d21675.48bcaa93-0955-467e-9af5-8d4e28759fd9",
     "price": 49.99,
-    "rate": 4.5,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 175,
     "tags": [
@@ -27514,7 +27514,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44544.13741589124987756.7ce40278-4e54-4838-8822-3f597ec873af.8ac34dec-aeb4-44c3-8289-d69f3f7ab0b2",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -27549,7 +27549,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17385.13743287124469552.6a1f1a5a-0d45-4f09-a4a8-d60555518aae.45f4eaed-e8c6-4db6-a5fc-65a822cecd8c",
     "price": 59.99,
-    "rate": 2.5,
+    "rate": 1.7,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -27620,7 +27620,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29984.13739535057760905.9506aae3-1290-433f-9d84-f3d91000412d.450f203f-99bf-4637-9918-fa5e599caf55",
     "price": 0.0,
-    "rate": 2.8,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 356,
     "tags": [
@@ -27651,7 +27651,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5723.13743502655609949.53ba6d46-89ae-411b-b217-ffa3c0143195.b350094c-a203-4070-ba9f-fc25ae735d8e",
     "price": 44.99,
-    "rate": 1.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -27751,7 +27751,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12887.13736928997837103.b40f0116-877e-4e41-addc-189c22281d5e.5b6d62dd-b8af-4b1c-8011-2cf6c9491d52",
     "price": 54.99,
-    "rate": 3.1,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -27786,7 +27786,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48790.13736942961062714.a53d5d0d-6406-4482-9d48-80ea23e2f99f.001458bd-2463-4e4f-8791-766fbd9a73e2",
     "price": 39.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -27852,7 +27852,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16380.13739256057427897.1f4b17c8-5de0-45d7-b8b6-b28833df7575.84d4e767-a441-4902-a8f1-1266b9d651fb",
     "price": 2.24,
-    "rate": 4.1,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -27886,7 +27886,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45823.13739067125663276.df554181-3233-4d30-ab09-47c7391235da.1e0790e6-c2c8-4712-b9c2-29c33cd1da5c",
     "price": 34.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -27980,7 +27980,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50138.13732189563029799.d408b57c-e679-4f35-af26-7f5849bcfd1f.3299e5b1-fafc-45d9-9dd7-3704239a9151",
     "price": 6.99,
-    "rate": 3.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -28051,7 +28051,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29424.13732308681387652.912ddfff-827b-4ec6-879c-11fe5776733d.6487f903-ca26-4d1f-93c3-014f5d5fde9b",
     "price": 19.49,
-    "rate": 3.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -28082,7 +28082,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26766.13731709347870779.c180b56b-3179-4d7e-83fd-6e902f537105.16755c05-a40c-4e30-b2a9-6637a25a5d42",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 49,
     "tags": [
@@ -28151,7 +28151,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42777.13733457277975017.65e6f99a-2a96-4dd1-abbc-ccbbc0d516a6.36d26b6b-934a-44b9-87fe-0736a9c0dafd",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -28216,7 +28216,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61981.13959819632152004.cdf7fb2d-7428-47e4-82ed-ea0003da5b3a.bf2c464b-9236-4869-8423-14e7a6362433",
     "price": 139.99,
-    "rate": 4.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 167,
     "tags": [],
@@ -28283,7 +28283,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21536.13727851868390641.c9cc5f66-aff8-406c-af6b-440838730be0.68796bde-cbf5-4eaa-a299-011417041da6",
     "price": 69.99,
-    "rate": 3.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 923,
     "tags": [
@@ -28318,7 +28318,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45261.13730699150697338.3cb90045-4143-4e3b-aaa6-a64682065216.c32e91c7-33f1-4be4-83bf-f17e7c3b1c06",
     "price": 0.0,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -28357,7 +28357,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43919.13730273714404372.ea561b73-8f7b-40a2-b473-ec2ebf0c6300.dc3d6ec4-0b1f-4f01-a975-533226a28eba",
     "price": 24.99,
-    "rate": 4.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 52,
     "tags": [
@@ -28398,7 +28398,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28207.13730130018109419.777a033a-d9f4-4848-96bd-7dbf2c0070b3.b64d79a3-7e87-4c84-af74-fe78a5d455b2",
     "price": 49.99,
-    "rate": 2.3,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -28473,7 +28473,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36352.13729536729375190.4d971285-fa70-4636-a77f-530ab02eddfd.93815111-507b-4d48-b22d-f6a2bfce169b",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -28511,7 +28511,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42186.13729589989151677.596f7807-2e42-40d0-b9f0-a3622f1f2b74.b18f3c51-3079-4b8b-a7bd-908646f3eccf",
     "price": 99.99,
-    "rate": 3.0,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 113,
     "tags": [
@@ -28657,7 +28657,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6230.13728510900587088.c32ad4cb-c837-4a7f-ab8d-c3d9ca2cb384.a837a727-84fc-4acc-9b6a-7584c6c7e4bd",
     "price": 39.99,
-    "rate": 3.0,
+    "rate": 1.2,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -28693,7 +28693,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49374.13728706402544394.45084371-810a-4926-a11f-9a1b198523f7.e242c5de-0fcb-422d-aee3-463c2e9f745e",
     "price": 19.24,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -28725,7 +28725,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54424.13723933157550422.dd3f6d8d-3fe0-4721-8bd9-d3c3d678a239.489ad73f-c5c6-454d-b0a5-e67ac40478bc",
     "price": 21.99,
-    "rate": 4.7,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -28761,7 +28761,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43172.13724045472748019.44952ea0-7f03-4447-afe6-32066cf0402c.708f4eb2-3825-4900-981d-c92d7fa0092d",
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -28833,7 +28833,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49445.13722204752732146.49bc688a-ed61-4fa1-968a-5a9f09e3bd1c.7a478038-2d00-40aa-a1e7-3a2dab63a8db",
     "price": 29.99,
-    "rate": 2.1,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -28869,7 +28869,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56144.13721941802778499.79d30033-655c-4ad5-861f-1f38e66fe40a.30ab8c47-603d-4749-82e5-21b53505d096",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -28941,7 +28941,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47467.13725572606452219.a4dffb94-6b02-4273-90f0-6a0ef6f40b4e.c070576f-32df-41a0-99c5-731a42729ffa",
     "price": 89.99,
-    "rate": 3.6,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 123,
     "tags": [
@@ -29042,7 +29042,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58605.13789281956126062.a2d65058-36ad-4d31-a486-006394a2aef9.c16ebf6c-deba-4ad2-9ec9-a00292652363",
     "price": 20.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 136,
     "tags": [
@@ -29073,7 +29073,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62574.13788794647763118.d3471595-970f-49ca-8b9b-204ca65e214e.0485a2bb-404c-4d6a-b8ec-f2acd2c25976",
     "price": 11.99,
-    "rate": 4.3,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -29134,7 +29134,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52408.13788702432515871.a0685db6-248b-4a1e-b626-79a1c9456a4a.09fcb9ea-fe6e-4551-990a-6a45984b92a4",
     "price": 79.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -29164,7 +29164,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35764.13788315131342114.0714d9b3-4163-4027-b199-2821426fb6ef.ee812d96-5fa9-40ce-a897-49e8c8bcc3fc",
     "price": 39.99,
-    "rate": 5.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -29264,7 +29264,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28022.13791366613897789.f757def4-6281-40ad-ad05-bb3d1d3c6dd8.fc2cad2d-9b41-4f79-bf4f-d42adff99760",
     "price": 8.74,
-    "rate": 4.1,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -29324,7 +29324,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7059.13786646280167600.de194cc5-6798-4460-b39d-5ada1d3d4f73.7da6e533-818b-4194-b6f7-741c1ca5af56",
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -29358,7 +29358,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40570.13786342327528720.f33ba805-1c89-4fb2-84d3-90e714da2edb.9e577b45-2d41-451f-a2a7-a83b0b8ba351",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -29396,7 +29396,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52845.13785918013445775.6106040d-efad-4278-8bdb-7f59e1b491ed.4f2c916f-fe3d-49fe-9f66-adfdc79f3bee",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -29525,7 +29525,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12894.13779438744498074.33b0ace1-c487-4c0d-9ec8-cdad9da39bc0.db2c460c-12ba-4223-9f02-dc0181e498a4",
     "price": 31.99,
-    "rate": 2.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -29554,7 +29554,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18336.13854264780659597.3157f110-dc83-4a91-917c-33993dce7e86.f120c21a-ea08-4ade-9bfb-14257da9193e",
     "price": 109.99,
-    "rate": 4.4,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -29636,7 +29636,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16704.13783412820498266.435a1369-1af6-406e-a482-acfdb893eef2.a28e6f14-3ff9-4317-8d09-3456f41813fa",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 102,
     "tags": [
@@ -29707,7 +29707,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40848.13782217298195956.dda62ddd-c2ee-4d95-ad22-1ee6b162e3b3.68e90bae-9abf-45f8-8667-732c0990242d",
     "price": 16.99,
-    "rate": 3.1,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -29741,7 +29741,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1021.13775744751874427.17a2b2a9-90a5-499d-aedc-3f787eef4846.46ca4ac6-e00f-4bfe-8cbd-72a590281485",
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -29778,7 +29778,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44096.13775762894785742.c973a7d1-9575-4261-b04d-716c59c02869.8db1ab63-f876-4a9e-8542-edd88f954a40",
     "price": 29.99,
-    "rate": 2.7,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -29844,7 +29844,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21642.13775330490522860.cf5421ea-0558-458f-9e4d-7245601c3ebc.324de5e7-d4e7-48f2-9a5d-a5501b16321b",
     "price": 9.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -29876,7 +29876,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46542.13774735967551951.4e47740d-df56-4f79-8338-58493ef3afb7.b870b249-5bf3-40e3-86e8-a731ee830abf",
     "price": 24.99,
-    "rate": 3.5,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 76,
     "tags": [
@@ -29910,7 +29910,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20228.13778566162455200.47c478c0-8399-439e-9178-7ea53e8ef814.9c9ecfdb-714c-43c1-a75c-686d3acf748c",
     "price": 14.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -29949,7 +29949,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45942.13778366569172454.0df22c7f-404d-4db5-b80b-c57aa6ba83df.5c74d146-a137-4578-8f39-02d6ebf64414",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -30022,7 +30022,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17395.13777799954390265.85862621-b9d5-498a-b093-985cdbf8cefe.eb756bcc-a4e8-46f4-b6b5-c6ce5671b9de",
     "price": 99.99,
-    "rate": 3.7,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -30088,7 +30088,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17792.13776919492592826.739feb3d-1977-47e1-bd25-85eaf594fe57.f0e36cae-0640-4288-9f4b-772c856c7c14",
     "price": 14.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -30148,7 +30148,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47469.13772450777008951.4df15192-94e3-4161-8b7b-f2aa3a2db023.eb8a8c6d-eab2-46d5-b42c-ba2f59d7f6ad",
     "price": 19.99,
-    "rate": 3.3,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -30179,7 +30179,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7388.13772095137073220.1284e6ce-4cf6-4d11-97ba-535e74450b98.2a216142-30a6-4510-85c4-68cfe6b8aeae",
     "price": 59.99,
-    "rate": 5.0,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -30209,7 +30209,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57555.13771742865156414.b7a7e25f-c007-4aa0-b9a0-db9e3f849624.de6e5169-5fb3-4f0e-8d43-dbebf40ca3af",
     "price": 17.99,
-    "rate": 2.0,
+    "rate": 1.3,
     "requiresGame": false,
     "reviews": 181,
     "tags": [
@@ -30243,7 +30243,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32007.13771311322532391.075b96aa-27e0-4bc9-bb5e-53dd89b649a9.aa753f00-f500-4ed8-adbf-8c6d158d28ce",
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -30280,7 +30280,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22948.13772640455743528.b2b4cf71-dd9d-448b-8515-5e11c8f3269f.a55d778e-a3bf-454c-ac6b-b3588cd36f57",
     "price": 69.99,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -30351,7 +30351,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6802.13769762434061999.c58550c7-692e-4d7b-87f1-4849a9b18e7d.33b2dcad-dccc-4e67-ac6e-15f54d0c5bef",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -30446,7 +30446,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56517.13761533290592568.ecd9114c-4a13-4997-806b-94c8c874c1d5.65bf267c-4292-43ab-87d1-589df2966a2b",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -30481,7 +30481,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53605.13761742376741956.90182462-b2c6-47de-9348-08cd6ba86640.53226733-3e2f-4215-85b5-cb627529a9cc",
     "price": 3.89,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -30516,7 +30516,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48444.13761754407923220.a58731be-5c79-4d42-b3f3-6838b562c128.f2b2fbe3-ac34-4fec-a164-d5376b7240dc",
     "price": 79.99,
-    "rate": 4.9,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 285,
     "tags": [],
@@ -30544,7 +30544,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31389.13765714234783657.c58131d3-74b2-4f98-8140-f4e060bc3459.681eb414-be94-4628-9d5b-500cf5fe5a87",
     "price": 19.99,
-    "rate": 3.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -30580,7 +30580,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42350.14212082665123299.4d7a09ca-a662-4bee-a538-867550359250.afa60f2b-25f0-4376-bf6b-6a7cec97a578",
     "price": 71.99,
-    "rate": 3.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -30617,7 +30617,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24705.13764773769897970.2f249121-9aed-4ba7-8c0b-ef3c02b2ba66.372aa114-6e44-4312-87e3-2f4ac2334c6b",
     "price": 39.99,
-    "rate": 3.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -30654,7 +30654,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30647.13764187451635076.cc944a69-cc21-42a0-9c10-f03898b1064a.76ac659f-fe5b-4fbe-9673-f2389e15df66",
     "price": 59.99,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -30748,7 +30748,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57349.13760397898646209.b9414448-9085-4e4b-9c1f-a8502d51b156.cd2bd8e5-d967-4f53-9ec8-e16b738b7cde",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -30789,7 +30789,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51143.14111282594812728.9c892a71-8398-45ef-9419-8d44ae051980.c2efea46-68ea-4dbf-90a2-fe84da1df933",
     "price": 49.99,
-    "rate": 3.6,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -30823,7 +30823,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17789.14387940932825223.37633fb2-606d-4d0c-a1d2-87cd28b6a2ce.e13b7065-3d9f-4c1c-a6d1-3687cb2bc0bf",
     "price": 24.99,
-    "rate": 3.5,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -30868,7 +30868,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6598.14387733153613072.28665954-14dc-4229-8e3c-0257e25089cb.5a0a250b-db00-44ea-a732-39e21a618691",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 284,
     "tags": [
@@ -30905,7 +30905,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34455.14387331379265173.f6d65c5e-8d35-4d10-a8c4-bbb32d518301.a6c9b7d7-c90f-4b09-a145-8cd1e6c8ca54",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -30938,7 +30938,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13921.14386120322819171.2fc4013e-47df-4a11-be12-356830abf1b1.db9e0ac9-ce15-4614-89f9-eda05fa123be",
     "price": 24.99,
-    "rate": 3.9,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 103,
     "tags": [
@@ -30969,7 +30969,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58068.14389813483965604.66abc848-b7e7-4ff5-ad14-50a630507929.17949e79-f2cc-4585-97d1-bf55dc801e10",
     "price": 26.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -31006,7 +31006,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34867.14389204367011736.3e1e89b1-9b12-46d7-a373-9348f56d1999.06720391-aab2-4321-ae63-110ec9d3fd50",
     "price": 14.99,
-    "rate": 2.3,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -31040,7 +31040,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42872.14388602727014879.41681aef-328e-4bd2-a460-bdd8b1dfb277.1da2a87d-085f-4576-aa5c-95dca548afb1",
     "price": 1.39,
-    "rate": 3.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -31073,7 +31073,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34784.14388292228455151.7f64d07e-dfd0-4230-8c7f-6bcd11b3f58b.8a5c3f03-d7e8-4204-8ed3-463472dee7cf",
     "price": 89.99,
-    "rate": 3.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -31102,7 +31102,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17539.14383252532216947.99f5e638-a181-4caa-89ba-dc12e924bd94.c72489a7-c829-4efe-954f-972161d30eab",
     "price": 14.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -31133,7 +31133,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30507.14382973938659295.dd2bdab0-9849-47ae-88fe-8f97e6990fd5.3d716efa-9154-4e20-8163-99ef6762d715",
     "price": 7.99,
-    "rate": 3.8,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -31232,7 +31232,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54818.14382110684585838.1ce87d04-f578-4f7f-a6f2-dc93a65420e5.df81599f-9524-4bef-bfe7-e7207be5ef09",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -31263,7 +31263,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44227.14385899166622757.3a71007f-444b-4801-9fb1-dbc3fda1c996.90c16965-373e-4b8d-a16f-fc0d0bb97d02",
     "price": 41.99,
-    "rate": 0.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -31328,7 +31328,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3491.14385553960038166.350a0720-fb12-4b36-91bf-cfdf228649cf.894813f1-c354-445f-abce-412193b7611a",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -31440,7 +31440,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25304.14385348692378882.cfa2c3b1-0a65-49bc-bff3-03c9f2ebb9e2.78fd03de-b78a-4c3d-b916-8dbae317b761",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -31504,7 +31504,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28986.14384486375154576.2ff7ccd6-8b47-450d-8119-ac2626d2be3b.2b944781-e4ee-4bfa-8d28-3178fc93e842",
     "price": 49.99,
-    "rate": 4.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 141,
     "tags": [],
@@ -31536,7 +31536,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15161.14384635405690570.582e2fd2-7942-41a5-a945-165cdb6cec63.be683f35-5133-4f6a-9d8a-7fb273988722",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -31573,7 +31573,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41003.14384183334804116.b6b5ac5c-c5ea-4f20-8857-d6e03f24be16.b6c88e04-3522-4a65-898d-5bcbfd0d576f",
     "price": 27.99,
-    "rate": 4.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -31648,7 +31648,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31976.14378987696684850.e29044c9-0ca6-4d86-9f15-8ba7879b5be0.1b0b9fa0-4e0d-440b-aa8a-f274d7d96fb7",
     "price": 14.99,
-    "rate": 3.4,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -31682,7 +31682,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59605.14379036289379602.a7f3a1b9-cc43-4e7e-a8b3-ea4c14fb6c57.0fcc76d6-7a57-4ad1-ad45-ee0bb5cf5df5",
     "price": 0.0,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 87,
     "tags": [
@@ -31726,7 +31726,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40254.14379060370374720.47801139-64e6-4cf6-a197-13396a8111de.a99a7241-966f-4bff-82a5-4fde6c3c869c",
     "price": 74.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 95,
     "tags": [
@@ -31766,7 +31766,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20729.14378604131770680.b6b5a8ca-e766-4938-b45e-8543e36147b7.1beeb9a9-3466-4f87-a534-5ad19e30744e",
     "price": 16.99,
-    "rate": 4.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -31801,7 +31801,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18288.14377577416143285.e1fe8c34-5016-4c08-bbd8-4876ecc6eb23.3220089b-2dbd-4c1e-a9d3-768741b7e772",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -31833,7 +31833,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6564.14381241816386426.2ce8f203-15ce-452e-a45d-aaabb2629d39.53065ac5-3ee1-4828-8e5a-fb4c1f77da05",
     "price": 4.99,
-    "rate": 3.5,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -31866,7 +31866,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8637.14380770061647174.5eacf9c2-aa02-4b97-999c-ac390908a493.13420436-6600-41c6-8e69-d4df37bfd0f9",
     "price": 7.19,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -32007,7 +32007,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35220.14374785986991097.103fd3e4-0d34-4417-8dc7-cf3bbc5b22b3.3d89ebc9-fdeb-4e6a-a8d6-e2ffa3d9a7ff",
     "price": 79.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -32111,7 +32111,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47161.14376093796339441.22dbc350-2ff1-4fb9-bb6a-5462f2d5dc5f.96634eec-88d5-4de7-8827-8ef7e92eaf0d",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -32249,7 +32249,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51205.14370521339830334.8ee89e84-c62d-4872-acda-f03a9ba33299.5e60d7fc-a086-4dc1-829f-b848c9b57457",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -32318,7 +32318,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19070.14369454977035291.312a1827-6832-45f4-885d-562c4148d669.18910bc4-c0ff-4c6f-9a10-09985629a8de",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 50,
     "tags": [
@@ -32425,7 +32425,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4650.14372274785244461.706c2fec-9d0d-41b1-843a-98970af758ca.88651a20-dfdb-4372-bf50-18485feb8c30",
     "price": 16.99,
-    "rate": 4.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -32491,7 +32491,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37020.14370868635281871.3de93be4-00bd-4d99-aa62-1e3a2f4f8bdd.3f46f0b9-146a-4740-8f92-4506cd244462",
     "price": 9.74,
-    "rate": 4.4,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -32522,7 +32522,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53151.14370759136672533.dd01dbaf-ca58-4330-83f4-614a98d999d1.f2412a27-4e30-4700-8372-d4578f8023f1",
     "price": 24.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -32600,7 +32600,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40905.14365296944784963.2a497d60-dea6-4261-ac2c-e43560e1456f.6f5b009b-69da-49f7-8830-b2107137b69c",
     "price": 69.99,
-    "rate": 2.8,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -32641,7 +32641,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49214.14365104417622257.42e17a74-81d1-4e35-8c38-a935ba30ef21.1dbd1112-2f72-47f3-9f32-391095d1cc02",
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 110,
     "tags": [
@@ -32712,7 +32712,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56874.14368216811686542.5aae8c5e-cf15-48af-a64d-4ee03781bce5.e397d8b1-d397-4096-a34d-0d3a36fe9f9a",
     "price": 14.99,
-    "rate": 2.8,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -32745,7 +32745,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55697.14367429406672618.0a6111a8-baa3-42dc-9f4e-b4f985bf2b02.09469da7-05d1-4965-a375-94c5fdae0987",
     "price": 59.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -32813,7 +32813,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12555.14361385044335696.50e1eb97-e01a-40d6-839c-7082e07b25b3.fedd55d0-b7ed-4dac-a44b-d8f8b738fcfa",
     "price": 9.99,
-    "rate": 3.2,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 75,
     "tags": [
@@ -32845,7 +32845,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7115.14360237686778354.9844affd-9356-48b4-834b-83610849cbe6.dc5da5ec-6a62-465f-8ed1-d87348757b43",
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -32876,7 +32876,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.673.14363618405653505.5df575ad-dd98-435a-a8f9-181904c1efc8.e0390de9-b59c-4997-a5da-0f9538d4da89",
     "price": 9.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -32919,7 +32919,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35840.14362989335335688.834ed81e-099a-4afa-a2ca-3b78817e76c2.d46a38d6-5d26-4fbb-a0d5-2cdd629129b8",
     "price": 49.99,
-    "rate": 3.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -32958,7 +32958,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46413.14362913109450270.938a996b-a3f8-4249-acbe-0f953e87bd1a.74c371fe-2aad-4296-a35e-5e9c72425032",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -33062,7 +33062,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16926.14362261023877784.0d0cde88-0ecd-4049-8a31-63c261103e6d.bc47bd18-db98-43bf-9862-b3f6d164d30d",
     "price": 59.99,
-    "rate": 4.4,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 196,
     "tags": [
@@ -33099,7 +33099,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54391.14356834782179617.3b927680-bbfc-4ea7-a6c8-fb3575e04613.f5c71b13-7973-440e-b56b-00de3cc91c0b",
     "price": 99.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -33308,7 +33308,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13904.14425140369408817.14846606-f5bc-4fb1-b355-26ef6a25e847.0e006182-7d29-4776-81c4-0bac08c28f01",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 2481,
     "tags": [
@@ -33341,7 +33341,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42050.14425079223912554.1e6802ed-6d70-49ee-8149-cd5b33eb5ccb.176409cf-ce80-488a-98c5-92ac830c9f06",
     "price": 6.39,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -33370,7 +33370,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49710.14425208195791514.2a631725-20b8-427d-a6d8-99c24544bf9c.88cc992a-fbfb-44ce-bb08-d7999627d0c3",
     "price": 0.0,
-    "rate": 2.9,
+    "rate": 1.8,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -33438,7 +33438,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30285.14417999759485969.508d59a6-a843-42cf-b3ab-442c6443c6dd.f0733ddd-cc5a-4806-b73d-8afd71cd2606",
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 99,
     "tags": [
@@ -33477,7 +33477,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13606.14417846403712143.ab015ccc-5332-40c4-b338-9aa5535347e5.251e8636-cbf8-468c-b7bc-95383b56b14b",
     "price": 9.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -33507,7 +33507,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63979.14419943035483418.c7eba8aa-b148-4df0-9790-69dc9a9e3c2d.b8cd5a4d-bbba-44ed-ad62-8a7ade9a59af",
     "price": 0.99,
-    "rate": 2.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -33614,7 +33614,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15566.14419340246812518.6ed7971c-0390-4d30-8373-3724d60e305e.18f702a4-ab4c-4faf-92ac-b940ef5561e2",
     "price": 79.99,
-    "rate": 3.1,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -33651,7 +33651,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26669.14419202867656330.ff80e9da-c657-4437-8db9-352712157625.200d98fa-a793-4c2d-8489-52379cf31f66",
     "price": 59.99,
-    "rate": 0.0,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -33682,7 +33682,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22800.14419175575848848.8605e2a2-aa82-4ae5-b4de-befa1a3a48e7.424d0cc6-cfd0-4c74-b685-bae369eaa807",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -33747,7 +33747,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28897.14411301479275500.bec609de-fb4f-4f0e-81fb-d8ea5a0c764f.8a085d73-2540-4b03-9c7d-7491b2f2190d",
     "price": 23.99,
-    "rate": 2.7,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -33780,7 +33780,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63785.14405641539368739.40cb973b-02de-48e6-af90-2792c037b42e.91da9a1c-104b-4c69-b9b0-7d79fefb94eb",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 95,
     "tags": [
@@ -33819,7 +33819,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37186.14405794608212280.809f708a-bbad-41e6-9e59-30319a8bf04e.a73c7ad8-d852-4a56-b893-47ae3a683b7b",
     "price": 8.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -33889,7 +33889,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38185.14406672533536448.7afc6f36-1b23-4e1c-9b15-4bf0600c3f12.90a578e5-5155-42e8-abfd-4bdc1782ede6",
     "price": 23.99,
-    "rate": 3.0,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -33956,7 +33956,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12227.14405801872710735.66822d17-0b96-477f-98fb-3b06c07eed43.08739473-e4d0-4f71-b045-934b30ca445a",
     "price": 0.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -33995,7 +33995,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42752.13977447338838135.66b3070f-f8cc-4063-800b-15f778f99930.e3069af3-10e5-4e9d-bef3-708917fea28f",
     "price": 79.99,
-    "rate": 4.8,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 80,
     "tags": [
@@ -34124,7 +34124,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52108.14400479542675284.c9bb4c4b-b573-41bd-8b78-b202a6553d12.31d1c2d6-c4c6-4e11-b851-57b50c2e9f3d",
     "price": 4.99,
-    "rate": 3.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -34219,7 +34219,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57017.14402929312535851.b971d859-0f24-4438-b1ee-8ed05193ec1a.85f844ce-4c29-4031-aade-6731a2d69ebe",
     "price": 11.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -34253,7 +34253,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55892.14402385502991581.ab8d5fa8-1471-45c0-9736-518b85cad896.d230f438-0b31-4a6d-83c4-840c34290da1",
     "price": 16.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -34290,7 +34290,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33921.14401791124788682.a53b3c8e-a868-4dbf-845f-6db87942340c.32c2bc03-fbaf-42e2-8326-1e68d22fa8ea",
     "price": 6.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 136,
     "tags": [
@@ -34420,7 +34420,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7618.14396872445173076.fe063380-71f4-4e5c-8364-1fceec65d95b.7d8bbd76-0f92-4a53-9d06-63c6eb4a894f",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -34587,7 +34587,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39867.14398160617270101.08b246f5-d883-4159-b9f3-7059acd45072.700051c4-3e6f-4716-bdd9-0c2542fd1188",
     "price": 109.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 339,
     "tags": [
@@ -34648,7 +34648,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15554.14397560263374783.c00f6f68-5682-4832-a0ee-513778b728a5.32601761-4e30-4f91-8933-1ee08c453aff",
     "price": 0.0,
-    "rate": 3.9,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -34682,7 +34682,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5283.14397779034221809.944fbd29-b3cc-4468-ac15-d7349271a6fe.028341d3-5b54-41cf-9351-be2e481b171d",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 62,
     "tags": [
@@ -34717,7 +34717,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54218.14397223364089493.b3420476-557d-4e3e-a207-8d351a8f5ef5.d7c944ed-2a15-444e-8c00-543a49f6a3dd",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -34747,7 +34747,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60399.14392176509783084.d9fdbd56-1acb-4eea-93ac-e369a3420704.a49744d6-7720-4d3b-8193-6b6d3645bde6",
     "price": 20.99,
-    "rate": 5.0,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -34778,7 +34778,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36757.14394741296853430.cac19599-aa9f-4a38-8416-95e930b62352.c1cdfa20-0c44-4df3-88ce-42ee0cdf6039",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -34815,7 +34815,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52351.14393871915183932.6e7a9586-bc0c-48b6-9140-8d4a686b37d5.1bfb5289-c110-4e81-a960-1bb8036dafa6",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -34926,7 +34926,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49268.14393276044279732.41dd1f17-b490-46da-821f-ee63792ed90a.c426c7ae-3d44-4c83-9932-6658cee15290",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 70,
     "tags": [
@@ -34958,7 +34958,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36711.14393360616298560.5240f500-0b4e-4e37-8f24-9800aa891bab.2feae3d3-49e1-4f00-aa38-d18b18cbaf4c",
     "price": 11.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -34989,7 +34989,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14221.14457797345305264.23510b4c-9b8b-43cd-a378-0576bf294fae.5682e82f-9a03-4a4e-90bb-1f9f58eb3512",
     "price": 17.99,
-    "rate": 4.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -35020,7 +35020,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22953.14250451843985597.a42fee18-1a4e-42c4-b386-2432c5d7676d.8b8f2b98-63f1-4f01-874d-a57bcbb60fd5",
     "price": 24.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -35053,7 +35053,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52659.14457219920156328.7d3b0a9f-c604-494c-88b1-9e91b9d1014c.4bd45b1d-f40c-4482-bac2-097f99ae1022",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -35089,7 +35089,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14571.14457384607912211.14edb78c-d179-4195-91bb-a89b445c4b7a.20534cc9-a7a0-47f8-947c-4aad58a64cae",
     "price": 24.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 129,
     "tags": [
@@ -35233,7 +35233,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4970.14453287039354162.0e8e83c6-3769-4771-93f6-cee431e621af.f43d5e4e-d2c5-4326-a479-6cbca25d2c2d",
     "price": 9.99,
-    "rate": 3.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -35305,7 +35305,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54055.14456124164135894.478387f1-2b32-4b6c-b0f3-7f7db60ae842.a74868bc-ecb3-4c7f-b1b2-82f5c411efed",
     "price": 11.99,
-    "rate": 3.3,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -35347,7 +35347,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43856.14456268292866343.df06598c-a27a-4c8a-8195-654a96840967.0fae7ccf-dafc-42fc-b919-7910101d8252",
     "price": 9.99,
-    "rate": 2.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -35425,7 +35425,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44302.14455012292951382.a6f7f48d-bf80-4c25-ad2c-ed5398d13884.c3430a8b-2a63-40d9-84f9-1fbe59f23249",
     "price": 49.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -35459,7 +35459,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50567.14454267663388593.fbefbd9e-03a2-4ccf-8957-5506e118cb71.927d6890-c60c-42bf-84b8-7f7ac470f97a",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 129,
     "tags": [
@@ -35520,7 +35520,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37631.14447787942622665.f236e9b1-293f-4ce2-8f61-3a46d97e2240.cfff6332-1f0d-4437-9914-9e1ee5f4e493",
     "price": 5.49,
-    "rate": 4.2,
+    "rate": 1.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -35554,7 +35554,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59962.14451175290151817.50d98c44-60b7-4779-b189-82dd696c68d8.7bf4fc27-acd3-460e-b791-3ff3498eabf8",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -35591,7 +35591,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4354.13693778038105664.6c21053d-003b-4d28-939c-dd28e8d29d47.8810bee3-51d0-4e33-b8cb-fbc60c3e5954",
     "price": 89.99,
-    "rate": 4.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 182,
     "tags": [
@@ -35729,7 +35729,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59038.14445738564377947.babca878-ccaa-48f3-b55f-6477a548f887.0858f75d-a848-4bb1-97d3-96fa57fa3703",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -35767,7 +35767,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20602.14439661099542300.2b2dcd52-268e-4436-b9ea-1aa9a8b41f81.333cff3d-e227-4347-9a97-94254204ec2e",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -35803,7 +35803,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64515.14442122958643400.353dceb7-2c4a-46ce-81f6-07393e1d5ecc.71cfdb50-5784-43ed-937f-09a4b35092ee",
     "price": 4.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -35842,7 +35842,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26915.14441296013123502.a95a0e65-88f8-4443-812a-92ea30ed916f.1027c2e4-5164-4a9f-b1a0-1f23120029c7",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -35879,7 +35879,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.85.14531096773460200.2ece7216-6731-4db8-b30f-926626097d37.4322e5a3-e713-4fd3-b36b-d772c8133b79",
     "price": 5.99,
-    "rate": 2.9,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -35911,7 +35911,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43895.14436242939514404.21043608-4e7b-4020-b132-d8ed1fa8805c.e354406c-0585-48b7-95b1-84ea68e13580",
     "price": 7.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -35943,7 +35943,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60295.14435800346539631.ee545c11-9bbb-42ca-886a-30df9529540e.74209144-4fad-4de2-a4d4-f599d41512f6",
     "price": 2.49,
-    "rate": 3.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -35976,7 +35976,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8799.14435331457359246.cbd1239c-f43d-4e05-9207-824778a82795.b4584251-cb3a-411b-9258-08497f017963",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -36037,7 +36037,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1848.14437459340601773.3d3dec2e-e846-4684-b044-1b3f72b7aa81.d8d4f411-b123-4668-8283-c147a67cdf0e",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -36070,7 +36070,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16574.14437625873556138.1d6e288f-b89e-475a-994c-e74942708ac7.7a7081dd-9631-4f9d-b17e-c806ed20af20",
     "price": 19.99,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -36105,7 +36105,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32118.14431229486160986.b3655366-4704-41dd-bb1b-0ea3f2425df6.808122ac-ca66-4ac7-8efc-134da0e929ca",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 180,
     "tags": [
@@ -36138,7 +36138,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22144.14433391949950769.3918538b-810d-4617-9d18-5201a9fef94d.d8595b64-f971-4007-bfaf-8533a27b029e",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 52,
     "tags": [
@@ -36176,7 +36176,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38127.14427542363794747.182f58ca-3a24-4a65-93bd-cdd320a35776.aa29ae9b-d910-4213-984c-6e3c5dd828f3",
     "price": 59.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 256,
     "tags": [
@@ -36220,7 +36220,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44741.14427742074973082.c9a74ca6-14f6-4777-951c-f258d5aa7d48.053ebfcf-65e6-4a1d-b497-59ce775f4b86",
     "price": 99.99,
-    "rate": 3.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -36285,7 +36285,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5760.14426135079232961.46344d7a-2787-4e6f-972c-00696b1edbba.c51d14d2-07cb-42a8-a3e1-b757c92362d2",
     "price": 14.99,
-    "rate": 2.3,
+    "rate": 1.8,
     "requiresGame": false,
     "reviews": 83,
     "tags": [
@@ -36317,7 +36317,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41872.14425682669572948.8b347c6c-734f-44dd-8380-5058ff3618a3.07ac7e9d-5061-40de-bdd7-a35a5ab7c62a",
     "price": 44.99,
-    "rate": 3.8,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -36386,7 +36386,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25900.14428703857519293.3a774d87-5df7-465f-b10c-4d25ced2f2c5.1255a4b1-4d38-4920-9d76-6c495045bcf6",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -36419,7 +36419,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31238.14493522474643266.61f5547b-c3b9-40fe-9f04-af83e2ffc6b1.dc99fed9-0254-46cf-bfea-05b150d97d71",
     "price": 39.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -36455,7 +36455,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25111.14171925115759792.46ff70c5-7760-41a8-9ced-d2de5ae78f17.a595ad6c-5ee2-4d5f-96ed-96c2c62c46e0",
     "price": 39.99,
-    "rate": 3.2,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 96,
     "tags": [
@@ -36488,7 +36488,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48447.14492986834565605.7e17f319-2ba7-4f0a-b548-e3f4e5a01fff.105e5803-3ecb-428d-9d5f-1d3210a18115",
     "price": 24.99,
-    "rate": 1.3,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -36524,7 +36524,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64066.14492282578644852.2c395a59-5b12-49c0-9847-4edec0f9a60a.cd68939b-5255-4a50-bd93-12b46ea594af",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 44,
     "tags": [
@@ -36558,7 +36558,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53278.14491865226006965.067ae062-d843-41dc-a177-a15f095c56ed.e02928f8-a038-4d5c-8453-e1be018b3a87",
     "price": 14.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -36626,7 +36626,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18329.14495541231925689.87cddd19-b73b-401b-b708-13b9eaef685f.9039ccf3-88be-4d02-9a06-fe316c480408",
     "price": 89.99,
-    "rate": 3.6,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 167,
     "tags": [
@@ -36665,7 +36665,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24344.14494915233617130.8bc2d647-9563-4ed3-9081-f4a771cfa3a6.876524bb-291a-4484-8f20-fcef8017b53c",
     "price": 29.99,
-    "rate": 3.3,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 210,
     "tags": [
@@ -36770,7 +36770,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1758.14488339386131194.84ca8b8a-582e-4d34-904e-8f1e60f71000.21ae50f4-b3e8-491b-b7f9-a78676a40b42",
     "price": 39.99,
-    "rate": 4.9,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 171,
     "tags": [
@@ -36833,7 +36833,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19928.14488215067558870.293de80c-e7bd-4725-aadb-820b3068feee.5228a616-d879-4d55-9456-2fee6b0ef494",
     "price": 25.99,
-    "rate": 4.3,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -36909,7 +36909,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25350.14490389518480171.5b93140b-8522-4ef9-a797-d53ee55c3326.82b008a8-8db7-43ac-845d-61eceb7dd700",
     "price": 59.99,
-    "rate": 4.1,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 77,
     "tags": [
@@ -36941,7 +36941,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39491.13762047163878075.b336934c-8b3b-4812-8ec1-3894c986c517.94557495-12b2-42c8-8eb4-4dee53e3041e",
     "price": 24.99,
-    "rate": 5.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -37000,7 +37000,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53447.14483939430346684.bcd29d9a-00e0-4a73-a252-cc74802b5042.3f768893-236a-48c2-be0f-c27d23ed227c",
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -37082,7 +37082,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13487.14483866794076629.0157e76a-be40-439b-85e9-74a77f5cd3b3.90724abf-1ea9-4e9f-ae41-23a247a8016a",
     "price": 39.99,
-    "rate": 2.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -37117,7 +37117,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29035.14486926172421110.6d15ce30-1f39-4667-b662-51aab53a710b.3884cdfc-b7ad-4861-9730-a0b1b4a5f6ee",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 70,
     "tags": [
@@ -37221,7 +37221,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22534.14479109482538687.fee2b7fd-33b8-463e-b444-b5f0839c1d2b.9e1c69d0-5107-4eda-8b73-1a50f3b88b32",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -37253,7 +37253,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50417.14482439274633098.49370669-3ed1-43f0-8329-43d00fbffe6d.f057575a-07c1-4363-9319-88aa9aa9a3b9",
     "price": 69.99,
-    "rate": 4.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 430,
     "tags": [
@@ -37289,7 +37289,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6937.14482474285447263.b2785fbb-9099-42c3-b705-629a79ac7e4a.1b3fdd25-f787-4146-8551-d00ad4d5be21",
     "price": 59.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 317,
     "tags": [
@@ -37325,7 +37325,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39101.14481801309190847.369545aa-2783-4c05-abc4-b4c1cd599478.3297d959-0493-4606-82fa-9e1e71a62179",
     "price": 7.19,
-    "rate": 3.2,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -37363,7 +37363,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60535.14481859108834453.8758b450-008a-4aea-8ad3-a127c8e354a0.1f85616f-3f44-44b6-be21-05c02ba3275c",
     "price": 39.99,
-    "rate": 2.9,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -37429,7 +37429,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45763.14481237140487412.88b201c5-42cf-43cc-af65-86f48324703c.970ebbe9-e35c-4ac4-bd26-e13846287e54",
     "price": 14.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -37468,7 +37468,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.430.14481391283536320.2e278a9d-b63d-454a-a60e-ac81b25b445c.8b233a61-1f88-4fa2-9b47-4f02bebcd44c",
     "price": 14.99,
-    "rate": 3.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 39,
     "tags": [
@@ -37538,7 +37538,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39832.14474400793028060.3ff83764-dfb3-4a85-9a10-bc82b777b63a.a7ded3b0-bc33-4d6e-b7f8-8868b940f85b",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -37574,7 +37574,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3955.14474015592034459.e2e750cd-a461-4824-ad07-a9b8c0e9bdfb.18a25d5b-5bb8-43bf-95c1-07fdcf03ffc5",
     "price": 24.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 92,
     "tags": [
@@ -37607,7 +37607,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12031.14477569432338199.8ede774e-6af7-4228-8022-bd61ec406f5b.405cdc0d-34ee-4a70-b426-09fa2b2644e2",
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -37647,7 +37647,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51606.14477781495561887.5c22a264-8588-46bb-8a55-4f6dfa9d5847.280d1d19-c767-42b5-9156-cae6d5ca870d",
     "price": 24.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -37683,7 +37683,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52501.14477047788624377.9b153575-973f-45aa-bf33-80824c0a7dab.c4e8a5c6-16be-42e1-8ab4-3dd248750581",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -37720,7 +37720,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56659.14476502912302945.19f029cc-4f37-4187-a64d-c64f182ec0cf.742b3f0b-52e0-49fa-8ab5-b9e9e8ef228f",
     "price": 69.99,
-    "rate": 3.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -37790,7 +37790,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54796.14471562180981849.67fdc077-4789-43e0-bef0-7a03cdaa605c.d8c91a7d-3241-4c1e-b459-3c637648903e",
     "price": 34.99,
-    "rate": 0.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -37889,7 +37889,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14182.14473623118006543.1fa190b2-3c14-4363-a76c-7dd51ec04dae.bbe96d4b-c399-4be4-8031-209d12645b3e",
     "price": 75.0,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -37924,7 +37924,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3204.14473092589327960.0d6ff78c-1a87-45ae-b31f-22158a26a0b6.1704ba03-5150-410c-b72e-d373f3b5f75a",
     "price": 74.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -37987,7 +37987,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56194.14472076620486851.de69fabd-13ef-44c4-93cd-42994bfae375.7d52081c-52a2-47fe-9a87-98d93a376c42",
     "price": 24.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -38057,7 +38057,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24811.14466083566107896.f1b98327-0240-4097-b759-cc5bd89ee66e.7f76a634-3f78-48bd-b338-146a5dc86c44",
     "price": 24.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 304,
     "tags": [
@@ -38094,7 +38094,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13847.14465552248107508.69fcd903-3d60-4151-a371-47e7d5faf39f.2d1ae349-20a7-491a-9c9d-06043736b554",
     "price": 59.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -38206,7 +38206,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41914.14465388396342523.f3be3027-1fd8-4a1e-9cb7-5194d8be4620.9ec9fbba-97d7-4bd4-a418-49cea45378f9",
     "price": 4.37,
-    "rate": 3.2,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -38268,7 +38268,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48288.14467989922179877.4281a03c-f00f-4e46-b74d-f95353494fc6.30cea89c-6409-4ec1-afef-54946eed74c7",
     "price": 6.24,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 135,
     "tags": [
@@ -38420,7 +38420,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21891.14464758557998103.1ce4eace-39b8-4975-887e-60903fd97098.95cd84e6-a14f-440d-941c-3ec26f7599fc",
     "price": 1.39,
-    "rate": 3.7,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -38457,7 +38457,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15432.14464239229931947.2b5dc5a5-a22e-42eb-bb29-edf828f97c8d.278bd040-8a91-4934-ad97-9b27e10792dc",
     "price": 39.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -38495,7 +38495,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40974.14463915150976227.f20d6f26-8e7a-439a-a765-9f5c840e9e1b.fd34788d-8285-44cd-bd75-08ea9696eb6c",
     "price": 19.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -38532,7 +38532,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62863.14266010477230945.316e5486-9ad7-4af7-b82b-97774a6fb5c2.8185e90a-cf3e-4a81-8b40-1fbc0f07772c",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -38564,7 +38564,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9066.14463397054796279.55000548-cbf7-431f-a819-24894611337c.d7433fa4-5ef1-48d2-a189-3bc00dc348f3",
     "price": 12.99,
-    "rate": 4.3,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -38598,7 +38598,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6043.14463113198428854.562cf0b9-efac-407e-9cff-a59ec348c45d.1eda1f55-890c-452d-aa81-e1087b6bf230",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -38664,7 +38664,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49379.14529464952211432.ed013a0e-e9b4-4bf6-8034-1d022d1d99c6.8ad22d93-b596-4185-b0bf-b8df478f1285",
     "price": 7.79,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -38700,7 +38700,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36438.14529359795310039.91e2211c-3a3c-4e48-b750-0112c99dce20.8411cdc0-68f0-4541-bd8a-717c92a0fc22",
     "price": 6.99,
-    "rate": 3.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -38734,7 +38734,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10426.14497696178169148.f0da853a-b2b3-449b-be4f-a9547f28b3d0.05d86938-dfce-4c3b-a296-96a1adb081b5",
     "price": 59.99,
-    "rate": 3.0,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -38831,7 +38831,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14799.14523500754146655.a7d389ce-5ea0-419a-b5c9-ec5e93979092.fc909350-0fe9-4542-abf6-c5928a6793fc",
     "price": 89.99,
-    "rate": 4.9,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 58,
     "tags": [
@@ -38866,7 +38866,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26366.14523320294659833.0e9cb134-00a8-4d23-9793-93834d8d61ef.9b9e6bbe-69b3-4cd9-8509-3de264dfc1a2",
     "price": 39.99,
-    "rate": 3.7,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -38936,7 +38936,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20709.14523056830753135.0f821659-b4b7-49e6-ae3a-dcc2319454d6.43fc4d54-7753-4ef6-adc3-bcc69ada8eff",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -38967,7 +38967,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45890.14522476222798993.39c38880-66a5-431d-a004-1963bd25e491.8afe78ed-dcd4-4f75-bea3-f94ebbfe6643",
     "price": 34.99,
-    "rate": 5.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -38997,7 +38997,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34531.14526620752317573.0bfa0ee6-208f-4859-9192-1fab630661fa.029e1f85-870f-4aaf-a0be-24d8e45bdfbb",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -39028,7 +39028,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47022.14526238763811397.59ded921-f30d-4c20-ab7a-d9f4dc157be0.dc9cc819-16ac-4cd9-b877-870f985fa70d",
     "price": 79.99,
-    "rate": 1.3,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 431,
     "tags": [
@@ -39065,7 +39065,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31465.14091319390403016.45e6e34a-384e-4617-9463-fb50b4f16777.d467b732-c18e-4ee2-8620-fcb91c5fa1f2",
     "price": 59.99,
-    "rate": 4.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -39106,7 +39106,7 @@ var GAME = {
     "notSoldSeparately": true,
     "poster": "http://store-images.s-microsoft.com/image/apps.38194.14524595367279766.cf1e9796-ca30-403f-8373-36da51dafac7.f98212b5-9c47-475e-a5bf-3530608585ca",
     "price": 0.0,
-    "rate": 2.1,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 187,
     "tags": [
@@ -39246,7 +39246,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55538.14521343743342633.62374e07-0479-4704-b28d-d0bf948089cc.52d7e678-d357-497d-97b3-2dd231de92b6",
     "price": 34.99,
-    "rate": 3.4,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -39315,7 +39315,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18599.14515306364142914.3068741d-6bf3-4bfc-bfeb-0e1b4038d3af.d1cb65ab-29b7-4773-a5bb-26898f5bd3f9",
     "price": 29.99,
-    "rate": 2.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -39351,7 +39351,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6683.14514574527724615.1c33429c-f131-476c-8b5f-c34395efdd3d.5164fcc9-5808-4264-be04-027f7012e27d",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -39386,7 +39386,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57090.14514178938500476.6e7a3630-1b98-4126-9807-5c7da48a1994.868b2bee-c762-4fb3-93a5-dcd384626e96",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -39418,7 +39418,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18059.14513628695620080.8ddccfba-1dde-4068-a59d-b1fb699d7f82.2d0b3c16-c218-4e8d-b0b1-9efc0b1fb476",
     "price": 8.49,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -39485,7 +39485,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40255.14517273440942106.95022d0f-01e8-4fa1-a16a-b7fa27a20afd.4a4d52b9-3fdf-42eb-8c6c-1f9d4f837ee8",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 73,
     "tags": [
@@ -39518,7 +39518,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9360.14517020652959597.8e812f66-38ec-47c6-866c-7543f9cdd4cb.ec49896b-aff3-4664-a57c-581ba96ddaa5",
     "price": 25.99,
-    "rate": 0.0,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -39550,7 +39550,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35048.14516667613883151.f21dc291-b488-4c5d-89ea-4f1e733c266d.31a0aa35-c1ec-4355-a2ae-b5e24638630a",
     "price": 5.99,
-    "rate": 4.1,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -39582,7 +39582,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26691.14516385797305495.34b1d078-3ffb-49a5-bd8d-967c97f3be70.68a14ce9-3c4d-4cff-8661-89b3e213f674",
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -39674,7 +39674,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8819.13929383349878771.c97eae7d-03ad-4b3e-8912-14049595d572.99b67f06-8c73-4a57-9194-d2fb35cc4ed5",
     "price": 79.99,
-    "rate": 3.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -39774,7 +39774,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42763.14512361210594127.e5fd0e42-c603-4ae7-82f5-e8cb03308229.8082b65b-e42d-466f-a8d0-133e6106e960",
     "price": 4.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -39810,7 +39810,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7859.14506879174941978.138d3eab-0b06-443b-a252-c99592521394.33a348aa-892d-49b8-9ef2-6ff06c22cf96",
     "price": 89.99,
-    "rate": 3.2,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 1300,
     "tags": [
@@ -39954,7 +39954,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9376.14505438658573989.fc2216ce-21df-4104-afe8-cfa28433808f.f26978ba-906e-450d-b673-444c4ea911a3",
     "price": 9.99,
-    "rate": 2.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -39989,7 +39989,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44819.14505145873826735.a8c328aa-c12a-41ce-afdf-6f0a06b4f7bf.7353ba3d-d479-47e4-b4bc-14e0fef32379",
     "price": 19.99,
-    "rate": 2.8,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -40025,7 +40025,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20097.14508040419548838.00dfc6f9-f400-4fc3-a7f5-4f9b59e43fc2.ba7e6193-3c67-4937-8c6b-05dfd48ee3db",
     "price": 79.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 143,
     "tags": [
@@ -40064,7 +40064,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65212.14187388825692711.ad9b5612-f684-41a7-86b1-6e485a58e79a.0ba5540c-499a-4520-b52f-9a46194a9292",
     "price": 69.99,
-    "rate": 3.4,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -40131,7 +40131,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15374.14504210513468808.b89e63af-d730-4389-a91d-590be7f84d86.4677e724-512b-4a9b-a7aa-55b5107b51d4",
     "price": 14.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -40164,7 +40164,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15310.14503493094901986.089cde29-3c18-4447-a44c-2f05cd9e0820.1e83329c-357f-4c98-b85c-1e9c8256a3e6",
     "price": 79.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -40272,7 +40272,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21484.14497943460299347.3ad06bb4-d442-43a2-99e0-f41399a5b03e.e735bdbc-b062-401b-88e7-653b6859fe81",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 95,
     "tags": [
@@ -40310,7 +40310,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13377.14497549110611323.ae305bfb-e956-4ce3-98a4-2506909b96a8.b5799e09-4ba2-4de4-beb6-1bad58be8c2f",
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -40388,7 +40388,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19201.14563717937717232.7c629823-15cf-4b70-bc5c-b4eaf3457fdc.c11348d4-e1cd-4522-ae31-11ea8caa423c",
     "price": 39.99,
-    "rate": 3.1,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -40422,7 +40422,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43386.14563801340232181.a7b0a42e-5920-4fd2-8084-8262e242d813.4608556a-5402-4fd0-a8de-90391ecee050",
     "price": 24.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -40457,7 +40457,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32655.14229262157797151.c5eb3c8d-c936-423d-90d4-1efcbbbe1319.a1e6f51d-08e7-42af-b170-de7ca4120457",
     "price": 15.99,
-    "rate": 3.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -40489,7 +40489,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46463.14562710987664012.7bc0702e-3748-40e0-8a1a-40b5348aa74d.28279165-f4b6-44e8-9eb7-406129c2db6d",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 100,
     "tags": [
@@ -40558,7 +40558,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28000.14562032533992616.adaa49cb-5938-4113-8fb6-cd4bb54880a9.bcad5000-c59a-4f9b-a8a2-d7058a36712b",
     "price": 4.99,
-    "rate": 3.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -40724,7 +40724,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44615.14561118352506685.ad946419-e14d-46cf-b5e5-813532a5a859.fa1cb3a7-3ac9-4ca2-8084-af07d75fa5d9",
     "price": 79.99,
-    "rate": 2.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -40788,7 +40788,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45990.14559823753008485.d1d8e489-da41-4733-a30a-7a97da99608a.c06c2ad0-bdd1-47a9-ab75-96001f829e33",
     "price": 79.99,
-    "rate": 4.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -40898,7 +40898,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65188.14553231729498821.e9cc3b13-c182-473c-8a24-a1a8ef58f202.82a5b302-014a-4503-a72d-d35ab7ee1f66",
     "price": 16.99,
-    "rate": 3.3,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -40932,7 +40932,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42886.14557321111134631.75471349-f623-4da6-823a-714ed8bc0e02.f6aa4ac9-9c47-4938-a89b-7ce8d351807a",
     "price": 4.99,
-    "rate": 3.2,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -41001,7 +41001,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9867.14550703557560509.cc1688f7-3cda-498e-84b3-6e25229a33e0.64be90bb-79af-4eb8-bc28-7e0cf76683a0",
     "price": 15.74,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 6293,
     "tags": [
@@ -41096,7 +41096,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60457.14550571565871941.cf622fc0-780e-41af-b5db-fb152e7b04ee.fe5b4d9c-104a-49ee-b822-d9bb84bed5cb",
     "price": 31.99,
-    "rate": 0.0,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -41162,7 +41162,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41930.14552952948553688.5197a61d-8d5e-4e0e-b0a7-c46580e50ad7.3eff0a6f-6132-4b97-acd0-c9e21add8d6d",
     "price": 0.0,
-    "rate": 2.9,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -41197,7 +41197,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13983.14552973818515582.5e465a24-1d8b-4951-9db3-fd8afc9ea747.ab689ce1-f01c-4fd3-a989-849ffb6348b5",
     "price": 19.99,
-    "rate": 2.9,
+    "rate": 1.6,
     "requiresGame": false,
     "reviews": 68,
     "tags": [
@@ -41271,7 +41271,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19219.14551478980510727.3f872f24-72f5-4271-8bf0-7ad7e9929ecd.9791a545-0777-4e02-8be4-25361278d0b4",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -41310,7 +41310,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58803.13811176246156808.4ffec24c-6cbb-48f1-a24f-7054713839a9.dba347b0-23d8-4637-84cd-03260cdb949d",
     "price": 59.99,
-    "rate": 3.6,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -41382,7 +41382,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52859.14547192823319835.0b038442-d48a-4cf8-abc8-42fbd620d54a.377a98f6-d448-49e7-841f-7258cc309782",
     "price": 9.99,
-    "rate": 2.2,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -41421,7 +41421,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58646.14547050859470499.cb90de6c-0b90-4efe-8a45-041bf8354467.02e01225-c59f-4b8a-8d8e-ffb29e2519b4",
     "price": 14.99,
-    "rate": 3.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -41480,7 +41480,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37951.14541435370916633.6564f2f7-348e-47ba-a9f0-20d7c46ba84c.756dcb1e-555b-49e1-b339-796b2d090b32",
     "price": 3.49,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -41513,7 +41513,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4939.14541424443512424.a3041039-1df9-4d69-820a-65d99ef4853a.c55da477-c3ba-40b1-ac88-ba94371792f1",
     "price": 4.99,
-    "rate": 4.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -41548,7 +41548,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55739.14540543461489234.7d138939-dc95-4bcc-af26-8058a639957e.86fcd876-d7a2-489c-8266-f780947b6a8d",
     "price": 2.99,
-    "rate": 3.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -41582,7 +41582,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3952.14544312835911128.b8f8fa88-8ed4-43fe-95ea-5cb12975ef3d.71047975-4ac2-4910-a842-e70538498d43",
     "price": 9.99,
-    "rate": 4.1,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -41613,7 +41613,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64400.14543516554861630.392331f8-2a73-43d0-8159-02b69f1cf00e.5d038329-31f2-4b98-8e31-aa5ae4c87a15",
     "price": 8.99,
-    "rate": 3.5,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -41644,7 +41644,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17467.14542938249111941.b456158a-0f75-45e9-a5b5-3f2183332f8e.83bb5f66-75d9-4640-bb27-9fdf737cd0c9",
     "price": 5.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -41712,7 +41712,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25322.14537704372270848.6ecb6038-5426-409a-8660-158d1eb64fb0.d230176a-d7a2-4696-ad23-ff53a6e004df",
     "price": 69.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 385,
     "tags": [
@@ -41748,7 +41748,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59483.14537302117415832.d4ce58d9-9416-4132-b473-f63853635ea7.0cd0a067-0d55-43c0-849c-335939f0372c",
     "price": 10.49,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -41784,7 +41784,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49010.14539916772838877.ac2b2d42-d84b-4c24-8fe1-11b90b3ed1f0.c99f1475-3b1d-46d4-a842-45573a34c350",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 60,
     "tags": [
@@ -41826,7 +41826,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11427.14539026038241714.21a192f1-dd13-4371-b3d3-bd3b46c94f1c.86c7ae43-00af-4070-ae7d-371010bcad7a",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 75,
     "tags": [
@@ -41902,7 +41902,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57888.14538559069860396.c1df57fa-56a6-43cb-88ca-d1a4e32a2f52.b9ddfb4a-9df5-47aa-96f0-6e7a6f1dc28a",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 1364,
     "tags": [
@@ -41937,7 +41937,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5872.14538135553771077.789b666b-c9fc-4e97-b41b-1bad0e0d7d3c.c3c3e28f-d1b6-4075-a407-0e23fe5babc6",
     "price": 29.99,
-    "rate": 3.3,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -41972,7 +41972,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44729.14532922160302694.3e3d212c-92a3-46b5-8967-f84aa5628580.5947899e-08f2-40af-9d49-d48c950af67b",
     "price": 14.49,
-    "rate": 4.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -42006,7 +42006,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23273.14532746586199489.3fb0cbb5-abff-4b90-b70b-5362cc6daa7f.6d7f059a-0f44-4819-b4ac-ae229b26a896",
     "price": 6.99,
-    "rate": 3.3,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -42039,7 +42039,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10901.14532435277674068.edef581c-03ab-48bf-8de3-00e0f5d71f9c.e74b64a6-5883-41d7-bfa9-a3b91a82ab46",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -42077,7 +42077,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24134.14534578155452057.bdca336f-84fe-4e63-90ee-b457f0186833.174a6fef-5038-4166-8fd5-846d38e70f1d",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -42151,7 +42151,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35521.14598884381661533.dd24e9b2-b075-4d00-96da-c10581003d1e.93324510-bdd9-4729-ac7a-7d0ea1a39c0e",
     "price": 59.99,
-    "rate": 3.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -42186,7 +42186,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39265.14598891268352765.09cb1dd7-f055-4038-983d-2721763eedbe.0e1db341-dc19-4da2-8a23-cc7a3476ee6b",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -42379,7 +42379,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21353.14600103712942549.98abcb9e-71f2-4865-8704-bc48189c18a2.c6ff8135-351a-45f0-af0d-4397f6850f88",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -42410,7 +42410,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8453.14600064303806490.4132d124-3a4d-46c6-ab25-d628185013e9.3c228544-7899-446e-8473-e506fb5ebe81",
     "price": 69.99,
-    "rate": 3.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 147,
     "tags": [
@@ -42441,7 +42441,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43126.14599425922253294.95904bbc-623a-4bdd-83de-0dcc69babd49.762e25f8-30de-4e01-bb6e-5cad06fdf50c",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -42477,7 +42477,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33800.14594511939697558.aa8b7f95-b20d-4f72-a3a4-46002231a4cb.97492fa2-b4ef-4f33-90e7-efcbb8eed568",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -42510,7 +42510,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53884.14594151180132385.29afafeb-6057-4116-999d-068d3495102b.824bd572-3ae8-4497-a341-90911aadc69c",
     "price": 14.99,
-    "rate": 4.1,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 79,
     "tags": [
@@ -42548,7 +42548,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58329.14593718710691656.80a2a131-a8cc-43cc-b6da-b0d5958123e1.1ff0b563-a05b-4352-b4ba-db98c7c95cd2",
     "price": 49.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 57,
     "tags": [
@@ -42586,7 +42586,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28730.14593050128276584.f69375fa-a115-4b49-8338-3a6e00f6ca22.93c770a8-b3ed-45e2-90d2-53cb79aa858b",
     "price": 15.99,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -42622,7 +42622,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3830.14595226950892239.a8daf266-2756-4f3f-9606-6b7b7cef7920.4911518a-4a55-43bb-b9ba-972ae1946dd5",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -42657,7 +42657,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6523.14595459995378775.0a68b36a-c7ac-456a-9404-7595d73a6b16.1b01d0d9-8e6a-4b7d-a519-96fad44ce425",
     "price": 0.0,
-    "rate": 3.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 131,
     "tags": [
@@ -42695,7 +42695,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41082.14590029834572208.0448445f-d152-4fae-902d-d75296a277df.3b8827d2-2f58-4bbc-b999-f78fdb752197",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -42730,7 +42730,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57244.14590233302827538.76c8df10-a5c4-4247-823c-21735ffe3473.b4b818d9-5fe2-412d-9b77-3f42a99aa58c",
     "price": 39.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -42799,7 +42799,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7836.14588890262731340.35e5fdc4-90ad-4500-a31d-7ee03eb9d2f1.5d362474-6c06-4278-9c17-ae0cab8ef12c",
     "price": 19.99,
-    "rate": 2.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -42832,7 +42832,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15224.14592482172412221.cce5785f-1a37-41ee-bfde-984f53a17f52.0d425aba-6a04-431b-a29e-7121f347d1d9",
     "price": 18.99,
-    "rate": 0.0,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -42862,7 +42862,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4141.14273981086173772.20390ae2-1675-48ef-b39b-84cae585f5b5.b9e180d1-b241-4184-9107-3c3405642a3f",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 814,
     "tags": [
@@ -42893,7 +42893,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51750.14592145113561362.8ca16c4c-3322-47cf-b361-d418122916f3.e7518ac5-8696-40d3-a68e-191d02aa23dd",
     "price": 16.99,
-    "rate": 0.0,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -42928,7 +42928,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63837.14591636857132348.d071b363-8c91-4d38-872b-80918207711d.a7101cca-d312-4820-80f7-0b0510810509",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -42975,7 +42975,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9700.14591801423393397.e1044226-28d7-42f6-a357-7102f7d1a4b3.b11e46da-8c40-42d7-8a61-f98879101d4a",
     "price": 69.99,
-    "rate": 4.0,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 10855,
     "tags": [
@@ -43016,7 +43016,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1547.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.75930d81-6e85-436d-9b61-1279b8dd9b31",
     "price": 69.99,
-    "rate": 3.5,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 166,
     "tags": [
@@ -43050,7 +43050,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25562.14584218626935250.46a9c0b9-f228-4521-a159-9133d5fe93a6.69ba45ce-08fd-4b4e-8b10-a1bbad105df6",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -43116,7 +43116,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.863.14587337578314212.75946cc7-cca3-42c5-81c5-32a9c3adefda.7ddfbe98-ccb5-4d38-af1f-d71305f9bca0",
     "price": 0.0,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -43191,7 +43191,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13360.14581193029730121.b9b0f5a7-6b55-46d9-9845-5bc7270df734.0dc5fbc5-a1cc-4b10-a986-2c2dd899ee66",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 20838,
     "tags": [
@@ -43224,7 +43224,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4525.14529512240038025.190de1b7-79fd-4210-ae8e-1f15b565ad4e.9b56379f-0e30-4049-8726-cdaeec1461ce",
     "price": 39.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -43293,7 +43293,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7913.14579653183745034.200a051e-3db9-4188-8f66-8bfd13672617.34a5cb28-d63c-4f2a-8579-ea2a6427d8ed",
     "price": 109.99,
-    "rate": 3.6,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 114,
     "tags": [
@@ -43324,7 +43324,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57566.14579546903580559.5bb5a5a9-f9b3-4c37-93db-865027b37aab.15f0a7f0-9b8b-4d67-88ab-43d181590a6d",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 618,
     "tags": [
@@ -43357,7 +43357,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25060.14583758482262013.9d5e81ff-b2f6-4ae5-a6cd-eb6240889bc0.7d10e856-56d1-4579-9f8f-634381ef7477",
     "price": 14.99,
-    "rate": 3.4,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -43430,7 +43430,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29799.14582624973508592.2000000000007863648.c6853463-3ddd-4434-ba48-0661d492be61",
     "price": 99.99,
-    "rate": 3.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 29868,
     "tags": [
@@ -43528,7 +43528,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1371.14576301905573821.bc76c64b-3901-4a77-9bca-c920532ada73.94c1bddb-344e-4265-8344-22bfcd58c7e2",
     "price": 9.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -43564,7 +43564,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24114.14576235444726870.fd610bda-5b8c-4e1a-b3bd-c1ea8b63ceac.acf37411-23b5-442b-838c-a6bff44928d2",
     "price": 49.99,
-    "rate": 3.1,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -43600,7 +43600,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11910.14575158939973468.8de3d6d9-bc4e-4537-a09c-9ddc10c7f50d.8f1980ed-e461-48a8-9225-25a48280f4f3",
     "price": 24.99,
-    "rate": 3.8,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 226,
     "tags": [
@@ -43631,7 +43631,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46248.14578445165737939.26b4c2c0-8930-42af-b444-1e80ce98bbc1.7fd9e59a-4014-4afb-a625-e6e773072fe8",
     "price": 2.59,
-    "rate": 3.8,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -43672,7 +43672,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58459.14572764068008385.8b9fa80b-9349-4fb0-a686-da817b7cf87a.2944b7fb-8f69-47a7-b415-20cbda2679f0",
     "price": 49.99,
-    "rate": 3.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -43713,7 +43713,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57648.14572536018362984.944e7368-3c2f-4b4e-8072-fe5da70a10fa.d746edf2-6869-4be5-8fbe-30005b4db753",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 165,
     "tags": [
@@ -43780,7 +43780,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26095.14571673890106342.ad8b2d78-7c11-4dfd-ae63-fb77d61df4f2.7a7d0629-6575-4209-bdcb-5ef031c66d24",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -43849,7 +43849,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62388.14571747967250444.afc852d2-9a1a-4d6e-9deb-9fbe1b6fca02.74f4ccf3-404f-4951-a22b-f0cd86ee906e",
     "price": 39.99,
-    "rate": 3.2,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -43917,7 +43917,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30570.14574314257293759.ba82edaa-7b9e-466c-8686-4d47b522ff07.3e1208b6-9a78-4c8b-8d97-e40473b5ff73",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -43951,7 +43951,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56035.14574477774478573.0762147b-c3c5-4246-bb78-3103cb658ce8.3764ec9c-0c44-4019-a695-e5564961e476",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -43983,7 +43983,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9977.14567691486531438.db73e138-fc8d-4f8d-a624-607ab66500eb.f621d4b8-eba5-4dac-bc19-5bea7d4e2803",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -44019,7 +44019,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30655.14570557725966128.c0c00705-e389-45e6-9756-b84d4d1858ea.df1dcd87-52b4-4ad0-ae5a-7db610c110ce",
     "price": 18.99,
-    "rate": 4.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -44057,7 +44057,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14063.14570586162990219.0ace84d2-93a2-4578-941a-12afdd785510.59e64acf-c31f-492e-b835-2584e0f04cc8",
     "price": 11.99,
-    "rate": 3.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -44126,7 +44126,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16588.14569410385401135.4de05eee-3e44-4aba-922b-26e29bd33651.bfd4ec3f-410a-48a2-b310-92e1ca0f422b",
     "price": 39.99,
-    "rate": 2.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -44204,7 +44204,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33238.64234556958324114.f920cec9-b4fb-47f4-bbac-667ed8bb82e6.3abee797-aba0-4c66-8be7-3fc9074dd446",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 142,
     "tags": [
@@ -44236,7 +44236,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58585.14633210508332309.4c42ff63-d60f-4aa5-8633-3a7c8703da5a.f1575e3f-1e5a-4883-9211-e8de8eb966ad",
     "price": 5.49,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -44368,7 +44368,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62767.14632569918887755.8619d3d3-8918-4c41-a4c1-a0b51dd0977f.57b4a1c3-7599-46f7-870a-a0995f25ef45",
     "price": 59.99,
-    "rate": 3.6,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 64,
     "tags": [],
@@ -44431,7 +44431,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14530.14635968235902798.6238937f-1d29-4c8d-8a2e-4b1a7b36d949.2d472020-ad70-4c72-a47b-ee5b4d8f3712",
     "price": 28.99,
-    "rate": 1.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -44543,7 +44543,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48244.14634955238674857.649b7ff9-0dfc-4951-9b65-c5d815215da6.e294fb96-a4ec-4326-8521-381109382345",
     "price": 69.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 167,
     "tags": [
@@ -44580,7 +44580,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38757.14630037467072613.37bc2f7c-ae2b-4766-b380-7b8d5c60d779.6792f691-aa86-4cdd-abdc-6378e68b942e",
     "price": 54.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -44730,7 +44730,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25023.14630985186781322.206ff257-18c6-41db-88b6-1770a8e4e411.389db39a-6a74-48e7-b3e4-6ab936d4dc4b",
     "price": 119.99,
-    "rate": 3.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -44800,7 +44800,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30713.14630531276329140.37a14d1d-cde8-4936-81fa-75733a140756.01e1b394-438c-4b83-8085-77a7094e0b2f",
     "price": 39.99,
-    "rate": 3.3,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -44838,7 +44838,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31185.14624995180811495.ed8baa2c-5b60-4b87-b24d-f01c862ad94c.f7523191-7163-419b-b7cd-9f70c3b86c16",
     "price": 21.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 139,
     "tags": [
@@ -44962,7 +44962,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59938.14623515768749293.2d9c99ef-db98-4964-bbbd-4e39da1c00b0.7ba4f82a-2b0c-4b91-9f3e-82a49e771173",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -45033,7 +45033,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12019.14627823801754605.43fd018c-1664-4dad-b9b5-60ee89020b4b.41e96c0c-c3c4-40b0-9f34-1e131f712260",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -45065,7 +45065,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18648.13893101407452655.6e9792e0-9a3d-45e7-9719-3e2b45823a99.f978af37-9b82-4f6e-8436-97fc57a17cab",
     "price": 0.0,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -45098,7 +45098,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2563.14626521929622671.9f376173-7e5b-43e9-bfe9-86a35b4f55d9.3a56259a-b7f5-4b9f-bb42-5166b0e31679",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -45131,7 +45131,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1643.14621030501480835.e94c3461-fbb3-461c-aa8f-85bca6a14be2.0b8e6c23-6b51-43c4-a776-27dedbb4d1ac",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -45167,7 +45167,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26811.14620558670939884.b282563f-ef8a-4a4d-8cd6-6780477a8cf6.458a2928-67d4-4818-84ec-6a54b943852d",
     "price": 14.99,
-    "rate": 3.1,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -45230,7 +45230,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45453.14619282857121307.ee7d226f-76d8-4425-8b93-78d5d957ebfb.dbdf0bbf-e5a8-4a3d-afb1-5fbce839e723",
     "price": 59.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -45264,7 +45264,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3003.14622730277557063.15c9d110-e7a6-40d0-8259-f5847a5f0f08.4bf8eec9-7988-46b2-a058-d2d59549da47",
     "price": 27.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 131,
     "tags": [
@@ -45333,7 +45333,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8358.14616435939953930.4d746a2b-99fd-4ef9-bdb8-36df515d685a.a5ebfa8c-30ab-440d-80f0-7193461cf6fa",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 58,
     "tags": [
@@ -45368,7 +45368,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30715.14616273133312877.7cd986e6-c6d7-4aa4-88eb-b810dee59b7d.2b9a5a42-f6b3-48e8-81b2-1ba75b898294",
     "price": 35.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -45401,7 +45401,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23256.14615720660140943.b99e7e6a-021d-4162-890c-dcaaa1b4eeee.7667019b-cd8e-4983-9826-f4119287884c",
     "price": 29.99,
-    "rate": 3.6,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -45462,7 +45462,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1399.14614728364888398.a3eaef64-8a51-4148-b9b0-d26b59b081d0.5fb3568e-e065-4a8d-b250-4df5f9873df2",
     "price": 39.99,
-    "rate": 3.1,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 87,
     "tags": [
@@ -45502,7 +45502,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27765.14617846210383148.f5d1d30e-892f-4959-a5b8-f2ef506cf0ae.06b579ad-96f8-4022-8597-30495b89c26a",
     "price": 39.99,
-    "rate": 3.4,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -45606,7 +45606,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26546.14612220527269160.ea029917-6726-4b37-a510-8449863efad4.8f702fee-e27b-41f2-b6a4-feb0698d416b",
     "price": 24.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 90,
     "tags": [
@@ -45710,7 +45710,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38852.14612673754148986.c7a4ea71-f76b-4899-b397-5e2f5774986d.2b065b5f-ef49-45da-8cdf-8147d3088278",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -45747,7 +45747,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47017.14612697019000138.539d22c7-f29f-45cb-90a2-8cd62b2154e8.276a878c-e989-44f4-8019-8a04231f0bc0",
     "price": 69.99,
-    "rate": 3.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 339,
     "tags": [
@@ -45849,7 +45849,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48513.14608538862860308.1af901be-fee6-4846-b899-20596488e382.82a7ca6a-ff80-41ad-80e3-bc33b8cd961e",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -45882,7 +45882,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11081.14602562192986807.d04e1628-0cdd-4118-ba07-adb76c51e1ed.772cdf22-2226-4738-a651-1ac5b86da297",
     "price": 22.99,
-    "rate": 0.0,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -45914,7 +45914,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45298.14602279265209648.95b716f9-080f-4be4-939c-122913706e30.6acefe67-4a72-4de3-aad0-90d2a6ed648a",
     "price": 8.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -45948,7 +45948,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6114.14605159321915348.e52dc0c1-b91e-41bd-8af4-919d4c4e4766.99419400-4c3c-4d3f-a4a5-7fc78283b0c3",
     "price": 24.99,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -45983,7 +45983,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27178.14605254180386304.50e8ef06-caf1-4e1a-b7cd-40574b162197.54477337-1b56-45df-a47f-e6446604507b",
     "price": 19.99,
-    "rate": 2.9,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 57,
     "tags": [
@@ -46047,7 +46047,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58715.14603837483907348.c0e819d7-fe86-4150-9bc4-ce420f80ed15.879022a3-8725-46d1-9fd0-5aa99ed96045",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -46080,7 +46080,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27175.14603940236368587.2fb5068c-5d20-44cd-b377-eb4490b8b679.9bcddda5-6961-48c1-af40-fb6ec2910fc3",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -46116,7 +46116,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48407.14106229075600828.0d69ddbe-d9ac-470d-b1e8-11327955312b.5865f385-993f-4524-b97e-3baedcdfdfef",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -46159,7 +46159,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22295.14106128550577109.a9cfdab5-c1a1-4815-9b47-6f3d6627243d.774e6bf1-ae99-4dd3-855d-8db250bec0a5",
     "price": 39.99,
-    "rate": 3.9,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -46196,7 +46196,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39023.14105650575772332.f7c8d0a9-0e5b-4c89-be67-2df3f1482bbb.c153dbca-86e8-48c9-8688-d2722469eda9",
     "price": 4.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -46267,7 +46267,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14154.14084600447051641.7546172a-7f30-4466-92a5-ee6d8800c3a2.7b023c5a-cbb1-46b6-9823-406543c39643",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -46361,7 +46361,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38104.14101815133762283.b20f21bb-619c-4c32-8297-008b44c98cb6.2e2fa615-dd6c-495b-8120-6e3743cf445e",
     "price": 9.99,
-    "rate": 4.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -46397,7 +46397,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14840.14101239125163632.01de9600-be68-4ca2-ad44-3bd38be94a52.fc5d1cb8-3a43-4499-a7e7-024c7e199eb7",
     "price": 49.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 97,
     "tags": [
@@ -46461,7 +46461,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52040.14100842980560384.9377593d-0e65-4c03-a3cc-0acb19ccd969.8c072a03-4cfb-45e6-a720-51c0009ad311",
     "price": 14.79,
-    "rate": 0.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -46489,7 +46489,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38319.14100662442940359.810f12e4-3157-4d32-9f8c-a6fca2042ee2.0a257d58-2e7a-4de4-bf1d-8e1cc33efe72",
     "price": 99.99,
-    "rate": 3.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [],
@@ -46515,7 +46515,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9720.14100564639371724.90b5b207-a151-4f61-a48e-60f663712a29.de1a87cc-75c1-42f9-b5f9-c657aa8a194b",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 124,
     "tags": [],
@@ -46547,7 +46547,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42003.14104371087263890.c7aed5e0-d4c8-4c4b-9613-1d61e2d18f38.91a17648-9843-4203-a118-b8b19bb30033",
     "price": 18.99,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -46655,7 +46655,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59418.14103451862721864.9b09a04e-ef5d-4c9a-a6cb-308fcf441593.3bdb6531-172c-4aa5-828a-e493b8ac5e41",
     "price": 13.49,
-    "rate": 3.8,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -46798,7 +46798,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32114.14096393311858391.88f5065c-d0ff-4e1a-86a7-775c5076f724.89f57e4b-60b0-4fb3-a383-5d580900bbfd",
     "price": 79.99,
-    "rate": 2.8,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -46871,7 +46871,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28542.14096050468653885.afad9856-d1c7-46ba-a949-1aa327ec71c8.289d8fee-3d4b-4013-917e-33f7399042e5",
     "price": 2.79,
-    "rate": 4.4,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -46900,7 +46900,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24833.14100020558138189.92c35dbd-0169-4b94-a977-a1542d2e690c.074f85e7-d46c-4e69-a8f0-28fbb809f7f7",
     "price": 16.99,
-    "rate": 0.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [],
@@ -46962,7 +46962,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36554.14093130471487401.df18e01c-f89f-4906-966f-7d30cb5f9f10.3de553bf-0a51-41eb-be3a-933a0c9817f7",
     "price": 49.99,
-    "rate": 2.5,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 105,
     "tags": [
@@ -46995,7 +46995,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50785.14092656909084429.b4c7b53f-b682-4263-9c57-b2e35e92570e.62dc2ecc-882f-4019-8fc1-433d4a3988f2",
     "price": 24.99,
-    "rate": 3.5,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -47031,7 +47031,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24705.13764773769897970.2f249121-9aed-4ba7-8c0b-ef3c02b2ba66.372aa114-6e44-4312-87e3-2f4ac2334c6b",
     "price": 39.99,
-    "rate": 3.2,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -47072,7 +47072,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49180.14092075966704801.ae60ea27-828a-4343-8582-c585d0976107.4b92ba02-51e0-48d8-942d-c823dedb62dc",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -47297,7 +47297,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50277.14087177463540042.91ee059e-32a1-44e1-9f93-a84110ed392c.6d83eeef-0ec0-49cf-b925-f30124033c0a",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -47336,7 +47336,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60545.14091188428798620.2f105d2c-1b7f-4fd0-b12e-5483087f47d1.0dd8d438-0fc9-4d71-ac1b-21ed62e26ec2",
     "price": 79.99,
-    "rate": 2.1,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 566,
     "tags": [
@@ -47374,7 +47374,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5225.14090792670009426.46accc45-ec91-4f95-9297-da12541be829.c638ff20-9aad-4537-9977-cb23eeedb9fc",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -47470,7 +47470,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62808.14084380653642072.5b7362f4-7943-463e-aa3b-fca7f77fd749.cf0f55f8-a3a6-4744-9ca0-83495e56c0ae",
     "price": 19.99,
-    "rate": 4.8,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -47506,7 +47506,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52563.13516133317152422.dff2f167-c340-4d7c-a7c2-6c06c259e0d9.07ac7e72-1269-43fe-93a7-a3431ac48412",
     "price": 11.99,
-    "rate": 2.6,
+    "rate": 1.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -47593,7 +47593,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14850.14083387727962531.4a5c677f-b465-4c8d-bd0a-9755270f5e2a.f27cb1d3-f5af-473e-adb0-a67ee873fb08",
     "price": 21.99,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -47624,7 +47624,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16159.14082724095826975.1b86489c-9835-4bdb-b91a-86a8f82a6f9c.9cf0c81d-0065-4a77-8b68-7f407c759a6e",
     "price": 19.99,
-    "rate": 1.8,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -47653,7 +47653,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23283.14086826113896348.0ac2ef86-2cca-45c3-9d11-1dc9ac71c024.54c1f17c-a245-453e-aaaf-f7603453b65a",
     "price": 59.99,
-    "rate": 3.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2399,
     "tags": [],
@@ -47686,7 +47686,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56859.14086479508156495.4dcb4067-f1ed-47b0-a03f-e4da8f4b121f.4d289f94-cc78-4a92-ba7e-2d1cb348c47b",
     "price": 12.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -47780,7 +47780,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27309.14078999020725962.f9f4d516-290a-4fec-820e-f71d575013d8.781a4a00-3d6d-477f-987a-a7b734ab1fd1",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 85,
     "tags": [
@@ -47909,7 +47909,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4766.14074576953797925.5ff79f4d-96a6-4146-acc1-fd09ef784ba3.91ba2ea4-c11d-4318-8ad6-23c9f7e4268d",
     "price": 54.99,
-    "rate": 3.4,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -47945,7 +47945,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40174.14074636585830849.1d4173d7-1d62-4a99-9ba6-db6a6ae3a188.bb9918d8-0533-4003-83d5-7c89f202a667",
     "price": 59.99,
-    "rate": 3.3,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -47975,7 +47975,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27029.14074830902287954.c47d4ff8-003a-4b6b-9d93-b3a843a8df86.b3e2bced-4a39-4ce6-a7a1-b7ee4be4e4d4",
     "price": 34.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 52,
     "tags": [
@@ -48004,7 +48004,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12483.14074751371672529.b82cbf74-1744-47f3-abd3-58bb73e2f73e.aba6ff30-436c-4a95-965b-3074f1b43591",
     "price": 21.59,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -48069,7 +48069,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53782.14076139187764028.a692b9d9-e35f-4d26-891c-ce44a0287f21.d24e2f11-7d3c-42f0-9e44-6a94ba0188be",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -48136,7 +48136,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21953.14140572788099956.96c061b6-e1c3-477f-aec2-cd120e7c5fec.13eb0d00-d67c-432f-b2e4-fc5875aec07c",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -48236,7 +48236,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19284.14143676247522325.0675d313-6417-407f-a4c2-70b4e62d9495.cc61cada-2ff4-4fe8-a240-4b4855f25be4",
     "price": 2.99,
-    "rate": 4.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -48300,7 +48300,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25708.14143081164842053.3ed0ca8b-d0ca-48af-9431-74e141bdd9ff.d8e58b88-74ff-42a6-852a-d6f01f1452f8",
     "price": 39.99,
-    "rate": 4.9,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 184,
     "tags": [],
@@ -48371,7 +48371,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37761.14137428476458374.fb2aae73-81bd-436a-9806-81656f4835e8.82978eb6-adf8-457b-9e53-75a0711cc41b",
     "price": 49.99,
-    "rate": 4.9,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -48433,7 +48433,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51094.14136832910872438.8d99763a-c611-433a-989d-9f80b84a2880.c67da8c7-0e90-4596-b677-bc63e03b7a0d",
     "price": 16.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -48466,7 +48466,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14112.14136702204386616.d027852f-be12-488c-bf9e-71b93a9ee147.b87a936b-db17-42eb-87bb-096e24a9ecad",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -48530,7 +48530,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29361.14039569190849434.fb7c515c-e48c-44d0-83b1-0bf89f1b7278.01e075cd-fe00-4bc3-85f2-64287014a79c",
     "price": 99.99,
-    "rate": 3.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 64,
     "tags": [
@@ -48566,7 +48566,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61852.14139422610311684.202ecf40-0050-4223-b6c1-25cefd25e4c8.74581632-e614-4e86-b1cd-9e18ef50e949",
     "price": 7.49,
-    "rate": 2.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -48636,7 +48636,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53290.14138748892529808.f4bf7c32-70ea-4bfd-9d1b-9069ab5501d0.8e5226e8-92d9-4aa3-b250-a1bba2a825d2",
     "price": 84.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 57,
     "tags": [
@@ -48670,7 +48670,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53440.14132119353386166.483dbef3-fc6e-4339-a0e9-3043338b88d3.aa4cd7cb-059b-4a49-8722-d683494a295b",
     "price": 11.99,
-    "rate": 3.5,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -48732,7 +48732,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22872.14131206661581668.20397a22-fdf4-4dc6-b4e6-55f787d4a879.d7c6f3ee-e171-44c1-97a4-0ac8484eb2d8",
     "price": 2.99,
-    "rate": 3.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -48767,7 +48767,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33508.14131226080888824.022eb486-21db-4eed-bb40-6811df081911.8f60d81f-0744-47a4-b0cb-52080c9cd6f0",
     "price": 34.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 80,
     "tags": [
@@ -48841,7 +48841,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33300.14134836099447314.d115c3b9-17a6-445d-ba49-83ed61791bb1.64515305-5293-43e5-ab8b-4c7e372fa9fb",
     "price": 49.99,
-    "rate": 3.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -48915,7 +48915,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27975.13623232029666814.e65f6cb5-e548-4505-bce6-60d744d2f089.8fa0cadd-786b-4ae9-a442-4754963bd746",
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 89,
     "tags": [
@@ -49009,7 +49009,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9082.14127236013342069.4c9af48e-14ef-4174-9908-8d09a4e543ab.144d7ee7-2b60-4812-a668-f3c421dfcb53",
     "price": 110.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [],
@@ -49041,7 +49041,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14809.14126751343892199.75f53a50-f012-4295-9f1b-e84b6fe92ec8.031228bd-66ad-4b64-b450-6371b94357de",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -49082,7 +49082,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42837.14130880933980547.5b5ce0f6-4ec9-46d0-92ca-6c68ffcd41d2.8662b207-a890-42a9-98b2-38966df76eae",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -49111,7 +49111,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42731.14130619231346560.99352f4a-a078-4ab0-b2f2-a3159ba7ae67.5184917a-734d-4804-b19b-b26407958f85",
     "price": 59.99,
-    "rate": 5.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 17,
     "tags": [],
@@ -49168,7 +49168,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65223.14129512342768932.e53b8785-95ba-4e0a-af58-408a781d5cdf.1f8e6dc6-35e8-4fcb-919c-d798cb657eac",
     "price": 34.99,
-    "rate": 4.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -49199,7 +49199,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45141.14129542858015273.7e9713eb-872a-453e-904f-cf900266ed93.85f0e5fa-5a50-48bf-8100-1c419bb8d24c",
     "price": 54.99,
-    "rate": 1.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 468,
     "tags": [
@@ -49227,7 +49227,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18386.14123221025096411.335a483c-9986-4069-a6c0-1ca28ac3039c.216c1de4-62c5-45c7-8eaf-84acfdda8f61",
     "price": 34.99,
-    "rate": 0.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -49294,7 +49294,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46830.14122461684222091.4cf6650c-f0cb-4a5d-9d05-66c6f24cb6c7.8c8e8e15-f4aa-41df-894a-8a14ea65534b",
     "price": 109.99,
-    "rate": 0.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -49327,7 +49327,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16280.14122359007019687.28d06cdc-dc54-4c8f-a92e-6b3778dcbf4f.756024b1-8268-4eb2-80ad-4ce7435ab848",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 7,
     "tags": [],
@@ -49356,7 +49356,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25712.14125819564703927.dd9bbb84-3917-487c-9340-54f8a8ac460d.28ca88ad-10dc-47c9-b1d5-968ccefd433f",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -49388,7 +49388,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51059.14125332336761514.8bb2a8ee-0291-4012-97d8-2e92be70a6ac.4e662e65-077a-44a7-9b48-9e5c7a84ff13",
     "price": 39.98,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 212,
     "tags": [
@@ -49423,7 +49423,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3998.14118342467613503.328c9673-d2e4-481d-871f-02b381f9ae5e.bf9a01d5-ab77-41fe-b9d9-2fa6fd56175f",
     "price": 39.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 143,
     "tags": [
@@ -49460,7 +49460,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59559.14118446321195439.ccff36c1-ec13-486f-bb67-42465b639c39.5eb50985-47dd-43dd-8d9d-ed2f68d2f1e8",
     "price": 41.99,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -49496,7 +49496,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43301.14118183960480256.efa89a2e-bd7c-41e5-a586-ef9e7b71ac0c.ac58291a-05f0-4a21-a8aa-50ceaa420449",
     "price": 65.99,
-    "rate": 3.8,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -49527,7 +49527,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41799.14121404234885131.5f5d27b2-19b8-432d-be89-416e5263f633.97ddcaf7-b8ff-4179-ba92-641b6b3dcc53",
     "price": 54.99,
-    "rate": 2.9,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 221,
     "tags": [
@@ -49556,7 +49556,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23558.14121087601571769.c8027637-bf4b-47a0-b0c0-018392d11776.60331169-2702-4ca4-9405-dc54b5663acc",
     "price": 69.99,
-    "rate": 5.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 105,
     "tags": [
@@ -49755,7 +49755,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4777.14115518813453597.820bca62-ca28-4116-8aae-add5c1c22576.aabe7d4b-cf24-47ee-8630-4bbf42c2f26d",
     "price": 29.99,
-    "rate": 3.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -49791,7 +49791,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61404.14114406327726378.4800b813-35b7-48f0-84c2-678c104553f1.cadf394d-ac1a-43e4-a8c2-54fea2f72ade",
     "price": 23.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -49900,7 +49900,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15808.14117273125380013.6b489e9b-7e25-498d-87a2-f950759dbea6.1faa190f-8979-4074-bcb1-ba82a4340785",
     "price": 59.99,
-    "rate": 3.6,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 49,
     "tags": [
@@ -49935,7 +49935,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58570.14116371917275274.35ba7e4a-35be-4f10-9786-be5d2a0aed75.8c97b800-65b4-4094-a5de-1f15a1e5ae61",
     "price": 1.79,
-    "rate": 2.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -49971,7 +49971,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53845.66884503338856196.48c0632d-46db-4864-890a-b82ca4e65898.027f039b-113a-4124-9b4d-0d4a48033908",
     "price": 119.99,
-    "rate": 3.7,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -50002,7 +50002,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3879.14116263582278216.e52b0976-3105-495a-b947-184ca2e0f1d4.655bbc06-5f00-43d7-9b5f-9a5dcc60e21b",
     "price": 5.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -50064,7 +50064,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65063.14555267338629730.73b78f8c-6dfc-4abe-bc79-f14cfa3eb31f.70264a84-c532-413f-aa4c-c6a8779ad058",
     "price": 38.99,
-    "rate": 5.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 77,
     "tags": [
@@ -50098,7 +50098,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29737.14110492926586905.b843a65c-34d9-4be4-b4ca-6f9fc01c2c10.84ccbb3a-98f5-40ad-a307-1ea8e2090e4a",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -50132,7 +50132,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62599.14109759349947203.5a4ca173-c800-4f34-9c53-05c583a9b9c9.c3836b00-d865-4274-b4a8-9d55d7596b76",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -50201,7 +50201,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54086.14109303679650926.f56b1278-08ef-4c36-9ab1-91978f014364.304453fe-15d4-4831-b802-f830687bebaa",
     "price": 99.99,
-    "rate": 4.0,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 86,
     "tags": [
@@ -50236,7 +50236,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9416.14109342171955492.4dd45555-7951-4a70-9ca8-9d2d70f28462.e8ee639a-3c20-482a-a717-2386595bf2ab",
     "price": 49.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -50303,7 +50303,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11905.14112953128044526.ba95d4f9-17d4-4076-a135-073ccafc4d57.99774603-a61d-41bd-a87d-75435610d053",
     "price": 24.99,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 50,
     "tags": [
@@ -50337,7 +50337,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47536.14112534955605876.394bbb5e-6d2d-4eba-b265-4ef123559dc7.48ff2f6d-c4c2-4a89-96ad-f223c8592708",
     "price": 29.99,
-    "rate": 4.8,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -50403,7 +50403,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34120.14112185653659482.b5e15e3a-13c2-47bd-9e60-7709b165611f.74b49393-67cd-4373-8bce-a1d3ee9e1ba5",
     "price": 29.99,
-    "rate": 3.5,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 136,
     "tags": [
@@ -50467,7 +50467,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32947.14176324986442763.11fa95be-f98f-4be1-a416-9571cd1286df.80a3abd4-c71c-4e0a-88a9-1c8542fbd318",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 102,
     "tags": [
@@ -50507,7 +50507,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44329.14176345306313891.79ca8837-5397-4838-85b6-4a8a9720856c.ee70365f-2fde-4714-a069-8c43500ef3bc",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 171,
     "tags": [
@@ -50549,7 +50549,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50915.14175264600255945.9eccbc9d-05e0-4741-adb8-bcf078ccecd2.75cfbbd6-6817-45ca-bfec-211c12373d28",
     "price": 79.99,
-    "rate": 3.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -50615,7 +50615,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33625.14171525782478559.943effec-bbe6-46ca-8677-d88606394f85.2fe3b920-fa45-4079-8463-40298a1adf25",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -50650,7 +50650,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39717.14171072692602426.093998eb-0f2b-44a4-9df7-58897acc661c.57574c07-a7f5-4fbf-b0ce-4b73f12c9e37",
     "price": 0.0,
-    "rate": 4.1,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 125,
     "tags": [
@@ -50682,7 +50682,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9830.14174370200561448.9ce371f4-2c13-4f4b-9672-49511d6cb138.e02dcc52-5e55-4f25-a308-15b456d1d4c0",
     "price": 24.99,
-    "rate": 0.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -50743,7 +50743,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37165.14592799277590787.d3b50db0-608a-4063-9141-186c48890ce3.f1858ff7-49f4-4b0c-a7b0-efa313fa4515",
     "price": 99.99,
-    "rate": 4.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 168,
     "tags": [],
@@ -50800,7 +50800,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46226.14168067974245510.caf5c867-6dd6-404a-9640-396895c58e42.a760ba42-d59e-4c46-9260-4f946d469dd8",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 63,
     "tags": [
@@ -50831,7 +50831,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64502.14168263942767436.fb786f7b-55bf-4d47-bc00-f81900247e36.72147080-b7ca-4dfe-952c-95dfc5e90ce9",
     "price": 73.99,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 13,
     "tags": [],
@@ -50865,7 +50865,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12891.14167768906547069.534b3b93-cb46-4215-a134-d31975a57f9f.47ad0a27-7cae-4404-9eca-d17c24e1cf50",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -50938,7 +50938,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37995.14169776720632761.055446c3-970e-4828-bd7d-89224603728c.da5c1b8f-b02c-44a3-8807-6aef7bccb00c",
     "price": 2.99,
-    "rate": 2.6,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -50974,7 +50974,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11587.14168682593801885.ccd88126-bf4b-44bb-a5d8-43df963e43b4.34b1a4b7-ac26-4ef9-8da7-764571bba493",
     "price": 44.99,
-    "rate": 4.3,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 113,
     "tags": [
@@ -51005,7 +51005,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46084.14168627550644889.7da5f615-10c2-4cff-b117-36522f2fe82c.05a2ec71-6424-4eca-ae5b-e184ddd99ac9",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -51071,7 +51071,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34699.14162246746914186.857f71e5-6c27-4a28-b3ce-bad6b5122a9b.3287b8eb-9742-46bf-baf2-fbe95b6c7020",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -51141,7 +51141,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6952.14161721025429084.b6be6847-bc03-4b31-b6f2-56633ea1d9b2.6092517e-8453-4baf-a205-aa4156f06b4c",
     "price": 99.99,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -51204,7 +51204,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59677.14165778166551821.6f57066c-58a8-46e5-9fda-917d68f1d1ff.d926d714-1493-4bf9-84eb-db362b04cda9",
     "price": 79.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 18,
     "tags": [],
@@ -51230,7 +51230,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37802.14164554422039406.8cabc281-ec6a-4b08-ad3d-ed618fce7dec.6c1c0d20-71c0-44fb-b8c8-eb04026f2cfe",
     "price": 89.99,
-    "rate": 3.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 521,
     "tags": [],
@@ -51260,7 +51260,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19114.14159368804374471.67e6af63-fc78-4ab4-b5c4-92e10d91ca1f.b54486ab-d539-47f9-9039-b439da1a11e4",
     "price": 31.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -51331,7 +51331,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42915.14157335163417371.65171d64-aae7-42bc-bac6-d98bcbe83d60.b3a2d1a2-5d17-4a0d-8365-5e339c568c2c",
     "price": 29.99,
-    "rate": 3.3,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -51362,7 +51362,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4168.14157546162839143.7b2d149f-272c-4b49-9599-67bafd44c1d3.6c7aa55c-9f32-4834-8f83-458c6b1b9355",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -51395,7 +51395,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34527.14161549773226722.7953f21d-faf6-4385-b4a5-91da2c9648cd.3b7f2370-f47d-40d2-8a9b-a900f3b93bcc",
     "price": 19.99,
-    "rate": 1.9,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -51427,7 +51427,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25789.14161588872366273.b1b2f4f4-d005-4ba9-8844-bad2b43f0e73.b9858b95-8ce1-4f25-b91a-52103094e298",
     "price": 4.99,
-    "rate": 3.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -51461,7 +51461,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1373.14160661575041057.92e444db-ebb1-4665-8e17-3322a7fae71d.4492fd1a-717e-4a94-8ace-7c747845bed6",
     "price": 3.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 331,
     "tags": [
@@ -51502,7 +51502,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17887.14159886263447568.92558ddb-02fb-495d-bd11-ad367dc00b01.b7657c78-ace8-4f8d-9d38-3ff550249491",
     "price": 13.99,
-    "rate": 3.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -51567,7 +51567,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28966.13996231673705875.39fabe48-dfaa-4b89-bd95-ba4e4c0a135a.c3269d71-e784-4d78-ad24-3b2ca6216830",
     "price": 69.99,
-    "rate": 4.3,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 134,
     "tags": [
@@ -51633,7 +51633,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23261.14150478192188888.945cef7d-b3d5-45d0-a765-2b5c7072b450.6862baf4-782c-41c9-aefc-76562d97bb1c",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -51665,7 +51665,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6690.14150012495483667.3dab4f1e-a4bc-43a2-92e3-c7b3b9a91dc2.b0d032b6-40af-4d34-93b5-462d9108f8bc",
     "price": 29.99,
-    "rate": 3.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -51730,7 +51730,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5384.14148852678301183.20d67032-da39-4947-92bd-85cbe1f1e67f.05de68e9-63df-41be-a1de-06f5a35c4816",
     "price": 5.99,
-    "rate": 3.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -51827,7 +51827,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53715.14145773388025097.49075457-0010-4645-b7c3-173920f46971.77292c4c-3725-403f-983a-da3ff52a6643",
     "price": 19.99,
-    "rate": 1.7,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -51861,7 +51861,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25548.14145650081126345.f76c0656-c059-4864-85fa-d79dfd384f53.665a46b4-7678-4cf1-b21e-73bb191e9319",
     "price": 79.99,
-    "rate": 4.3,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 72,
     "tags": [
@@ -51893,7 +51893,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39116.14630941106775142.9b53a7dd-d63c-4fc2-9888-5f5888eae419.78a608f8-7a0d-4030-99ce-6adf731764ec",
     "price": 24.99,
-    "rate": 5.0,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -51926,7 +51926,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62670.14144524841803096.3c463ff4-33d8-4961-b263-1952d99fc4e6.43240b88-41ad-49bd-bdfc-171d94fcbab6",
     "price": 35.99,
-    "rate": 0.0,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -51958,7 +51958,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17286.14146895813128195.1152921504736932716.20a13764-58ac-4f79-88e8-08f56551da66",
     "price": 39.99,
-    "rate": 4.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 203,
     "tags": [
@@ -51993,7 +51993,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44699.13545226972463945.243c2304-9ad6-440a-b0b7-bd7c5607e076.5f927f75-0113-42a2-bd40-e17017f989b9",
     "price": 94.99,
-    "rate": 4.3,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 389,
     "tags": [
@@ -52028,7 +52028,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52817.14211614393053975.a4ffed37-2d8b-4964-b012-03eb22bf47cc.73f7b01a-d730-4271-8afd-2fb9df504dd3",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 109,
     "tags": [
@@ -52100,7 +52100,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55807.14212754739369072.91cef401-71e7-4893-99ce-e7946623acc3.b3778142-0866-432d-83fd-575c1f117f01",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -52174,7 +52174,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44900.14207486661369450.8a1185fd-3cb0-453c-8d2b-07f34695f5cf.d69e4f01-0404-42d3-a147-6ac4dda44bcf",
     "price": 69.99,
-    "rate": 3.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -52206,7 +52206,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1085.14206133284686181.2e3c1108-1e65-40ee-a776-35df7749d20b.d55723e6-9566-4986-89dd-850daffcf97c",
     "price": 7.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -52271,7 +52271,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49143.14209830802786858.d1349a0c-c059-4a48-8b3f-a612593884b8.df428502-d492-41b0-88e5-a1f1579d0588",
     "price": 17.49,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -52306,7 +52306,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61033.14209666566627135.c1e18bea-eada-4ef9-b0ca-d4d516bc6777.d4445b65-a6e6-46bc-bbdd-3a2f0a142415",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -52412,7 +52412,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61017.14207907121573343.177da524-cb39-4c9d-aa16-b014348f35d2.0a3d79ac-763a-4a74-842b-9fb9ead74441",
     "price": 49.99,
-    "rate": 2.3,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -52478,7 +52478,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18432.14205182379637253.d5398c76-12dc-49e2-be7a-9a60e982bb0e.8d832262-c441-4b12-8583-0e3f2719cd7b",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -52515,7 +52515,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40174.14074636585830849.1d4173d7-1d62-4a99-9ba6-db6a6ae3a188.bb9918d8-0533-4003-83d5-7c89f202a667",
     "price": 59.99,
-    "rate": 1.9,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -52547,7 +52547,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65125.14203668761709320.8faa7bfb-00f6-4190-a098-291107292d05.bde86a1a-43f5-4952-8e33-f516cb88deed",
     "price": 39.99,
-    "rate": 3.2,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -52578,7 +52578,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15281.14198898838555112.b3c9aa78-5aa0-4c19-9a90-26b816db0ae7.53d5ae97-4df1-4880-a9ab-3ca551afda2a",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -52611,7 +52611,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10061.14198950016166681.7cf9495f-0767-4a36-ac5d-06e003e9e407.506a2120-edb5-4022-b427-e9e90e1ff59a",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -52711,7 +52711,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42163.14197761684490780.bbfce0f5-c5a2-4253-93b2-f7c546a993b5.af539935-13b9-42ff-a483-eb539860a469",
     "price": 41.99,
-    "rate": 2.4,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -52757,7 +52757,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49990.13566179389346908.77ed19c8-2a9f-4060-a02b-5f9ab93826e2.0970447a-e212-48ee-8271-6d5371ded8f5",
     "price": 79.99,
-    "rate": 2.8,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 225,
     "tags": [
@@ -52825,7 +52825,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12851.14200905021825545.b1e068c4-2f65-4da4-8b3b-cef5522057b3.2d482663-c7df-473e-8e80-910624e426f3",
     "price": 84.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -52859,7 +52859,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29418.14200072405168971.e26a76cf-7617-4335-bc54-dfe6d418e3a2.7ef2bae4-fff7-4822-8b00-c672191a52a9",
     "price": 0.0,
-    "rate": 3.8,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -52899,7 +52899,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58646.14193894718872650.f96d4e6a-fd19-4300-a90b-d41ee7dacb15.1fac8fdb-02f0-4be1-9289-3f7ee7b2cfcb",
     "price": 12.49,
-    "rate": 3.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -52967,7 +52967,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5723.14193513039357857.0aefabb3-285a-451a-a6dd-e4913abd80b1.80f33ef2-d072-43f8-99d7-78e08376bc27",
     "price": 6.99,
-    "rate": 2.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -53064,7 +53064,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15556.14192672241411353.a2ecf069-8a1e-4180-9571-b178eab9929d.044be8b9-4a3b-4789-898e-189922ea5886",
     "price": 14.99,
-    "rate": 3.2,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -53097,7 +53097,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35299.14196060882578625.72e495dd-2eea-4386-9437-55321baed735.3ea182d9-6309-41f2-836f-47179e67189f",
     "price": 2.99,
-    "rate": 3.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -53260,7 +53260,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15714.14188276411685890.bc132192-e3d9-41d9-aad6-a59c5ead7eb5.30a0d9bb-5b73-4fde-b511-b892912c44dd",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -53361,7 +53361,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27848.14190385963787265.c5ee0a51-addf-4877-a866-f1d021b4123a.1f2b42f2-3b17-450e-b8f7-8e89f3ae921a",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 39,
     "tags": [
@@ -53397,7 +53397,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40343.14185716926418376.cff6ec1e-426b-4a67-9866-45d4aa31958e.b2a3d3a4-5758-44f8-8f8d-9daf96da8fa4",
     "price": 49.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 976,
     "tags": [
@@ -53458,7 +53458,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32841.14399867630309921.872aa230-c1df-4a37-bb31-76762554d5cb.44265099-5300-4a91-a324-cbb421d7d137",
     "price": 29.99,
-    "rate": 3.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 524,
     "tags": [
@@ -53524,7 +53524,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32815.14184062386607125.52992f8a-ea4d-4577-9125-98c81f500314.315e0dfa-038d-4de3-b97f-4d193e473141",
     "price": 74.99,
-    "rate": 0.0,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -53557,7 +53557,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34756.14188055478659195.ebf32561-7e17-440b-b681-823bdcc03930.d1b4810b-f762-4c37-94f2-c262d194bc2a",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -53591,7 +53591,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58100.14188092651145353.c3919981-fb28-4755-b504-a3b021220351.2419b143-136d-49b0-bd5f-7fe2a99d679d",
     "price": 79.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -53656,7 +53656,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1875.14187288987857542.ca172ccc-9ec7-47c1-8f89-1e99e7cd2f23.222195bb-8fc1-414a-b5c6-89dfb54e66fb",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -53755,7 +53755,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48539.14180190140266502.cb57a273-01f3-405f-83c8-6f6be9d18fbf.97a0f73a-d2ed-4b69-bcc6-f395318dbe74",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -53891,7 +53891,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65380.14183003051629257.3b865ad2-052d-4fc0-ad6a-2a83af20ce2d.3c9ed066-b31a-42e7-abf2-cd5a3f2c185f",
     "price": 20.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 464,
     "tags": [
@@ -53922,7 +53922,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59258.14182068647205523.050ec8fe-7c1b-4635-9df8-21f171a1341e.862eefd6-8ed4-449f-b75f-e920811d52b4",
     "price": 39.99,
-    "rate": 3.9,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -53955,7 +53955,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39097.14181805320551240.61ca0728-b29e-4b8a-861a-ef4327d6a27e.6d8ada4e-f253-4ef4-9f75-bde4dbefc37d",
     "price": 49.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -54059,7 +54059,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35098.14247185888827684.8a3983ac-97e9-49ba-96fe-a87258b93bf5.a579ee18-6fa2-4316-a69b-5758268c6ce9",
     "price": 0.0,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 1590,
     "tags": [
@@ -54111,7 +54111,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4336.14246692016413811.1ead6576-faed-4596-b2b4-f6b80d854aa0.64f78b40-bd2d-4eea-8f26-a96a9e030676",
     "price": 69.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 6292,
     "tags": [
@@ -54176,7 +54176,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14787.14249015522232022.4c483732-b392-4773-9745-03b4c5a093f1.1dfba3c1-ba19-4aa1-b3f7-8d30465f1c88",
     "price": 59.99,
-    "rate": 4.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 94,
     "tags": [
@@ -54207,7 +54207,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20787.14248737952133795.8b46156a-dd7a-433f-b176-f0373f640175.ecabb957-9ecc-4ea9-a1ae-300f3f5158e5",
     "price": 17.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -54239,7 +54239,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60940.14248255555689811.227102e0-7db1-47db-ab3d-45b5507cf93b.e1fe11ca-943b-4710-85c2-e805093cf92f",
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -54340,7 +54340,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58241.14244019846724659.d0a1cb6a-1e38-44cd-aa67-22afcd9ad6b6.f067edf1-d9aa-42ce-8ce5-b8c720f7f355",
     "price": 17.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -54375,7 +54375,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53664.68337312437833304.5b641957-dc26-40ad-bfd7-ee9a1aed613f.b06287cb-d0d6-4998-b126-590b1032e92d",
     "price": 99.99,
-    "rate": 4.7,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 553,
     "tags": [
@@ -54452,7 +54452,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25712.14238097649526630.51beddf5-f73b-4777-878c-af57dda0a6f8.2127bf89-b522-45a5-9bb2-65daa125a7ee",
     "price": 19.99,
-    "rate": 3.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -54524,7 +54524,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61031.14233576072401299.21f88edf-856f-438a-bcbf-6056daf4b906.8982c30d-7965-4763-8efe-886bd0457bdf",
     "price": 7.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -54563,7 +54563,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16588.14569410385401135.4de05eee-3e44-4aba-922b-26e29bd33651.bfd4ec3f-410a-48a2-b310-92e1ca0f422b",
     "price": 39.99,
-    "rate": 2.3,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -54667,7 +54667,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52896.14232893733292770.c4910fc1-e043-4370-be7c-79114ae9c0cf.985937bf-3384-4e42-935a-8cbe2e57efcc",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 85,
     "tags": [
@@ -54771,7 +54771,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64764.14235999911028045.199a1a89-3de2-4cd2-933a-daee62bee738.96c2efe2-f1af-4f43-ab32-6614371bbd6c",
     "price": 3.49,
-    "rate": 4.3,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -54839,7 +54839,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32634.14235598094782495.2e2e0171-9a4e-41a9-8591-e11775b5e2f1.70d9b16a-e578-4cf7-a727-ccb5250a9590",
     "price": 9.99,
-    "rate": 3.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -54939,7 +54939,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52642.13903974859798407.fe1b6a24-4577-41e3-92da-76a2503642b9.06c98722-1c79-4f04-81fd-3e72cb2ee0ba",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 7,
     "tags": [],
@@ -54969,7 +54969,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9998.14229778272436568.86534928-c585-45a1-9e9c-1016244087c0.adfea6f1-8523-49f6-be6f-858bc6d857b3",
     "price": 2.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -55037,7 +55037,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5747.14228995659094666.f9dbdd46-31e2-41df-8e45-9ff64797f94c.a2a7b451-6a22-4ae2-bd5b-db536dc3203b",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -55069,7 +55069,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45208.14230837415667364.b2ec7b0b-82e7-4218-8e02-c0a4a346204c.c05d0e80-f0f1-4104-904b-85ac4d22f29b",
     "price": 29.99,
-    "rate": 1.6,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -55166,7 +55166,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32486.14224822557457348.50eff449-756b-432e-a616-8bd14135674b.2320789b-d72b-4bef-9377-24bb4153ab6c",
     "price": 17.49,
-    "rate": 3.9,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 80,
     "tags": [
@@ -55197,7 +55197,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15458.14223835771190061.c7e22ca5-0ee1-44eb-8a43-324e877fe672.1dcd95b1-3b43-4124-ab46-9c7a3cc269c1",
     "price": 4.54,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -55229,7 +55229,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25552.14128141726070663.c07b50e0-39b6-4031-a038-bf3e05420358.916fdf5b-d205-43b0-a8c4-8421bd2c52a3",
     "price": 49.99,
-    "rate": 4.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -55264,7 +55264,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36365.14223582053027315.049d5f5a-0c16-42ff-bd51-1517829076f2.1540197d-d50a-4f36-bdea-49d27e18c2e8",
     "price": 39.99,
-    "rate": 3.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -55300,7 +55300,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3885.14226689683096155.5c721baa-913d-4a65-9c71-adf3a4fcb463.cb40994f-1616-458f-90e2-80d8e535c96d",
     "price": 7.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -55368,7 +55368,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51280.14226270511206590.d3f6ff8c-e233-41d7-af44-309db86bfc65.c3b924f9-c159-49f3-958b-4f229bff41d4",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 642,
     "tags": [
@@ -55404,7 +55404,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20797.14226184853087216.0855583e-0785-4c03-a5ba-aa77e36d1d8a.2a6f23cd-a15e-4949-81de-c09ba1897879",
     "price": 0.0,
-    "rate": 3.1,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -55474,7 +55474,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39701.14225521066737419.4d59d91e-770c-4a84-9fda-21fa57c19bbc.84a88906-c3ac-4576-ae14-3e6f56c7efc7",
     "price": 19.99,
-    "rate": 2.3,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -55516,7 +55516,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5176.14225646405929875.ed2b05a2-f9fd-4a33-b808-807366c017bf.ec671c43-7121-4f72-b10a-85e5c4b83540",
     "price": 119.99,
-    "rate": 3.7,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 1018,
     "tags": [
@@ -55543,7 +55543,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.373.14383735838104070.004e44d4-18e5-4976-83d9-b1f9bf8711f3.f84b3220-a325-49ce-a231-b85bcf07f14c",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 356,
     "tags": [
@@ -55572,7 +55572,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31634.14220428816844078.75ad8874-64ac-4c0b-b31f-92eb1bbb86b3.82603e34-f662-4174-836f-971e8b61e450",
     "price": 31.49,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 92,
     "tags": [
@@ -55603,7 +55603,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46121.14220417113702203.f590cea6-e90b-47a0-b64b-b0f78f890cb5.939fc05b-5cdd-4b62-9642-98717a0fd9b4",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 72,
     "tags": [
@@ -55704,7 +55704,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12236.14222206140258182.53546d29-8a48-4481-9cfe-6315287ba7da.3b704269-37bd-4a67-91b3-cf23045e59e7",
     "price": 6.59,
-    "rate": 4.6,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -55830,7 +55830,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61424.14218490899188575.a8c726f9-aa48-4378-bee2-0dffc21a7089.af88412e-ac16-457c-9332-9db6d9b912bf",
     "price": 59.99,
-    "rate": 3.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -55865,7 +55865,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21868.14217927423059510.eac0d219-b30c-4063-879f-17d087c77c3c.465977c0-e64d-48d5-9e35-e8895358e625",
     "price": 14.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -55901,7 +55901,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57920.14217275538514641.ffa266ff-3e99-490b-bd82-c8bcd8a9ff3a.7b28f40b-72a6-465f-a430-420a88d9ad06",
     "price": 41.99,
-    "rate": 1.9,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -55932,7 +55932,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6448.14216942822196343.dfa45b94-960e-4595-b2be-f54c2f268b7a.6ad58563-3523-4690-8e1b-199e66021326",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 87,
     "tags": [
@@ -55966,7 +55966,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48964.14282482603081127.c4d52cdd-54c3-4c5a-a125-98e300817fa7.1f2b59f5-250c-4ac6-8f3f-3278f9453ca4",
     "price": 29.99,
-    "rate": 2.8,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -55998,7 +55998,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4777.14280846819864986.ccd1305f-8688-4d61-9d5f-187ea9e0e9ba.b72b18a6-7ef2-4b7a-b0e0-d68f0cea0ac9",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 124,
     "tags": [],
@@ -56054,7 +56054,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49240.14284651054404971.6f65e8ea-af49-4240-989a-3d64b659e98a.969a4543-2c33-45c9-a510-b6411bc077bc",
     "price": 0.0,
-    "rate": 2.4,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -56085,7 +56085,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27146.14284247504089631.bbcefe1d-0a37-41ce-82d8-ca66cb17d8e7.ae76090d-4359-438b-8042-8c4d96530c9d",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -56152,7 +56152,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22126.14348167937822830.39212c8a-05c8-4f57-93a9-bd46d1d2b713.403c4c54-8cba-4ac0-81da-46b3bdde3234",
     "price": 59.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 156,
     "tags": [
@@ -56295,7 +56295,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57882.14277397714851832.25c438a9-35ff-4fd1-9de6-8f22b12e76e2.4067f62a-7688-4d1a-b4b5-5f9511506c14",
     "price": 6.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -56333,7 +56333,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44507.14276796497039318.d693449b-3af3-430b-9a1d-70b1d96fbcbc.5b1138de-e1d5-4146-99ff-68aead44c7ad",
     "price": 69.99,
-    "rate": 4.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 92,
     "tags": [
@@ -56403,7 +56403,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.741.14276478826146146.b19a0656-1381-433d-b255-47f66f8bcaee.3d6ee9a5-bb7e-4bd1-8dce-9b7ec54b0e9e",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -56547,7 +56547,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47003.14279213429417081.37b86e7e-9b94-45bf-8446-a166879ebde7.4b38c01d-7a10-4404-9fa4-fe4939420bc1",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -56585,7 +56585,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21384.14278916375729442.32a6541c-22d5-4e80-90e9-5fedd76e0cea.37eae1d4-75e4-419b-9073-6a9a233f995b",
     "price": 69.99,
-    "rate": 2.6,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -56619,7 +56619,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59298.14272537692064304.d802301f-5ce2-4f0f-b30b-6b91e5d296ac.4cad4188-3027-4094-9da1-3dfa7009844d",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -56649,7 +56649,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25328.14271855285331588.44535260-ba96-49e2-917e-88ac67ae89a7.e848d446-4c10-4ce2-9b38-bf6963748a9b",
     "price": 89.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -56721,7 +56721,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39006.14274331993185118.d1429e04-9d9f-4a4f-bb4c-5514229e3a28.acebbd5b-e1a7-4097-8a75-9bd2d77ae2dd",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -56751,7 +56751,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25251.14190431568713722.3d33ca18-2cc7-4f0b-a800-9ed8826a5dec.0d181f7e-5ee4-4050-8b7f-33434bfab2b4",
     "price": 24.99,
-    "rate": 3.8,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -56817,7 +56817,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63415.14028123967627898.4000bb64-a1c6-4043-bbd5-729db46c454c.b4279fb3-a15f-4eab-8ba0-ad843c9db1c0",
     "price": 4.99,
-    "rate": 2.9,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -56858,7 +56858,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27197.14271100834107589.de1491a7-0f56-49d7-8db6-87467e38584f.321685e7-f9ee-4cc3-90ae-7d6a94254a76",
     "price": 39.99,
-    "rate": 2.9,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -56925,7 +56925,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34031.14269589884944885.6b4d79b0-99bf-490e-a044-776566daa5cb.f543ab4b-276b-4865-af7b-aac4e591a557",
     "price": 8.99,
-    "rate": 3.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -56985,7 +56985,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53049.14263235176477734.4ab9922a-2a7c-4ed3-b8b6-4eaac8b02b8f.49ecc340-fe3e-412d-9b18-4d5a66198970",
     "price": 59.99,
-    "rate": 4.2,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 78,
     "tags": [
@@ -57051,7 +57051,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52202.14548529810729506.dc1e03da-5160-4989-8916-5c10d4adb14b.c4b441d5-14bb-43c4-b33e-f11adef7f5f4",
     "price": 20.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4381,
     "tags": [],
@@ -57113,7 +57113,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17913.14258759278612159.6cae9f37-9e66-4979-afdb-db16cfb9078e.4ee74d93-f6ff-4d51-8cc9-0bc0283bc573",
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -57154,7 +57154,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27628.14258547668150351.c20c8953-e19e-40f6-8081-ab904c694484.af912fca-0b76-4ec7-98f8-b820a3ff593b",
     "price": 69.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 182,
     "tags": [
@@ -57186,7 +57186,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9056.14258689593229520.d367be9a-a130-47e6-890e-1bf6b18afd71.114a8902-7a87-491b-9213-514c61b1f0e4",
     "price": 8.99,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -57260,7 +57260,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35296.14261664805210726.a2eecc7e-b8dd-49fd-a84e-09df7656480f.e63829b2-481a-4e9d-8661-7071a4456cf4",
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -57391,7 +57391,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14026.14255179196052689.32b1f175-6e03-487b-a95f-18955a95d26f.c84172a8-0185-4489-a3b4-a3b0e5685549",
     "price": 19.99,
-    "rate": 2.3,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -57454,7 +57454,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60878.14254787366331120.316c6825-1fce-4056-a028-d4beeb2ab252.bae1f4c4-2098-4607-860c-add3d98551ce",
     "price": 0.0,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -57493,7 +57493,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4132.14254372351363255.ac3906d1-13b6-4af0-a00a-e10c8a92007b.834fe893-324e-4c41-9740-bafed4026578",
     "price": 69.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 83,
     "tags": [
@@ -57529,7 +57529,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9495.14257380846911975.0e971061-dc9b-4112-af6c-ce26fab30187.ab242de7-70f8-4639-a4be-dc4cbf44cf88",
     "price": 26.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 144,
     "tags": [
@@ -57633,7 +57633,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39242.14250942844501146.5d33dff8-a391-4421-9668-080adbd7a031.d9935dd4-f8b0-4ca4-873b-635178ce926e",
     "price": 9.99,
-    "rate": 3.7,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -57669,7 +57669,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14053.14249783086243314.e1179c11-620f-409d-a1d7-e019d146bf36.9998530f-6ad2-4608-a3fc-c255df751430",
     "price": 5.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -57702,7 +57702,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51608.14253258115155079.8ba385e2-ade1-4ece-aedd-d260e449f588.0db6e87c-fb4c-4708-90c7-e31465ba0dce",
     "price": 19.98,
-    "rate": 3.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -57739,7 +57739,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12351.14252428234163284.15b2ab18-b915-4786-a3f8-e09dcd65158b.5c673eee-c1eb-43bc-b3df-960306f875c2",
     "price": 99.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -57772,7 +57772,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.752.14252468272545069.66e7395a-3d06-4287-83c8-095e22ad0353.5c350ec2-908f-4e7b-94d4-ac46b99fde32",
     "price": 9.99,
-    "rate": 2.2,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -57805,7 +57805,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11345.14252178963426787.afbe6b44-9075-4e4b-bcb4-6947a923e11c.24d4c7e3-3202-4f72-a464-8656b4bf2d19",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -57842,7 +57842,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39462.14252117821932848.dae6499f-6300-48db-916e-50a94ba18e3e.6bc07238-c427-427c-a42c-1b4004d17731",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -57945,7 +57945,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52097.13678259589393793.9b213b20-d233-46aa-90b4-8e2d68b8c589.8dbbf741-3490-4a23-96c5-1bb4e579d57b",
     "price": 39.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 90,
     "tags": [
@@ -58005,7 +58005,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22139.14319652706581609.5c50e23d-6cbf-4931-a1a5-6fde831a0f95.c9b7228a-b295-4086-badc-19c6818da382",
     "price": 41.99,
-    "rate": 4.3,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -58074,7 +58074,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4404.14319062670722696.2eb1c579-1d55-4c08-a585-cef820004a67.d636f219-0efd-4c5b-be0b-09b08d50b28a",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -58108,7 +58108,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18082.14318995650611811.0f3dee8c-81a0-462b-ad92-c6b77b6038ef.b1c28a9f-6b32-4116-8cb0-451f6aa45b62",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 144,
     "tags": [
@@ -58148,7 +58148,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50973.14318581042847280.25399117-8901-4d1a-bdfc-8d22230851fb.be952d5a-e369-4eba-b806-365439e31670",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -58182,7 +58182,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59970.14318053669273982.056812dc-b9a5-4572-8b0d-aa430d71cc3d.ce2ec0d0-c375-4e2a-9bc9-dddea6b9a6cb",
     "price": 24.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -58213,7 +58213,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39677.14312951182533094.093202b0-9a89-40ac-aa5d-27398eb04a7b.e6050955-f954-4a87-9567-4f52ecdaa6dd",
     "price": 5.49,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -58244,7 +58244,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58104.14312128126575920.e88bd2a5-603a-48cb-b107-ec7c3551a454.0c96dcc2-ce6d-4a4c-adb3-4ef84540d75c",
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -58341,7 +58341,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37849.14314040542929907.e2cbcad1-e321-4588-99f5-3cadf054e3d7.cc844c84-394d-4c8c-bbb8-9b5e07996a47",
     "price": 49.99,
-    "rate": 4.1,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -58373,7 +58373,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64511.14313506961969891.b3ef7922-14b6-4070-a99c-2b94fb52843b.d7677965-23ed-44f5-9fa9-6fbdc766e179",
     "price": 69.99,
-    "rate": 1.7,
+    "rate": 1.2,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -58403,7 +58403,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28361.14522625350761556.dd54dba8-4eb6-4c4e-a3b9-be91510b6250.f6634e57-ec49-4e18-bcfa-d569077329df",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -58443,7 +58443,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57045.14307155302772688.6d2bb19d-e8cc-4826-bd21-920020654895.8c854128-fe7f-43cb-aa88-cfc11f91f65d",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 95,
     "tags": [
@@ -58519,7 +58519,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18647.14311014949668376.25a6b443-a817-4a82-b4ec-852ef07ef120.0adc334f-0158-4d30-b1e6-3737f2a95621",
     "price": 4.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -58725,7 +58725,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22940.14303655336501012.2beb08d9-395e-453b-b5e3-0d4ac24d9d15.0a18faa9-5741-4971-99ce-55b5f0925b78",
     "price": 4.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -58759,7 +58759,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9852.14302926931207469.aafd0cfc-a0f8-4195-84ed-10dd3c27bc62.4673c42a-f6ad-403f-b1bb-8d12867dc73e",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -58794,7 +58794,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64187.14043263745538787.1ae47623-9d1c-43ab-ab03-5923ab58fe6b.f0072253-75e7-4061-9a6f-38780b4194a5",
     "price": 69.99,
-    "rate": 0.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 396,
     "tags": [
@@ -58859,7 +58859,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45165.14305622896337443.44d0ab49-5260-4d31-b4c5-38848577daee.60415093-dc7d-4bae-937b-7e7a78ed5aff",
     "price": 14.99,
-    "rate": 3.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -58916,7 +58916,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48741.14299262867071493.6bbd9f3b-8547-4b8d-91f8-69cfa7e6f481.0eba2047-4ce4-406c-ab1c-538c37c59786",
     "price": 0.99,
-    "rate": 2.6,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -58949,7 +58949,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26356.14298915526371712.a60df142-5f5e-4cef-a1f0-2e1cf7b53b12.dea6954b-4597-4800-8c73-68283e0fb902",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -59082,7 +59082,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1627.14300869841873569.f25e5bff-0e99-4134-8a5a-553a561c7e8a.1d2a6528-45d2-4d06-9017-8e16e114b280",
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -59180,7 +59180,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3974.14293982083769384.500a43a7-247c-4028-9cfd-08102e5967a0.a525e267-2d5c-4e77-a791-e239779bcabe",
     "price": 14.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -59253,7 +59253,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11684.14297898811325913.b71659cd-958f-4b0b-a284-2a256e0fd4fb.a4621d4b-51b3-4f72-8241-9ed388d2ea5e",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -59289,7 +59289,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24943.14296813915361973.c11860d2-2aad-47c2-a9f3-67960824c847.2ddafe1e-52d9-48b4-8702-906f514710dd",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -59319,7 +59319,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44371.14295881571957591.2f137eac-8f80-40d3-86ae-725eb9aeebeb.974ab0fc-5f89-49d8-939e-b6f1ee99fe1c",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -59420,7 +59420,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42753.14291150913821725.3d8057b5-357a-4911-a453-96660fa5c913.bf4afb91-e577-4c62-964e-11ffbde8c273",
     "price": 24.99,
-    "rate": 3.9,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -59489,7 +59489,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23665.14290343103192837.d8d6180e-6326-4e81-9a56-efb0f448c61c.8bec910a-4278-4bb5-a7da-126a9431d9c4",
     "price": 24.99,
-    "rate": 2.9,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 99,
     "tags": [
@@ -59526,7 +59526,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12240.14289521502081780.d822ad8e-6783-42ed-a4be-789f170b751b.ec38de3b-5c67-4c06-acb7-ab6274629270",
     "price": 0.0,
-    "rate": 3.7,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4381,
     "tags": [
@@ -59555,7 +59555,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15262.14293193694690940.cb4cf23d-15f6-4387-aecd-752ebae08fae.5ed5ea20-b0bc-4ea7-a069-508465668e8b",
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -59593,7 +59593,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37136.14293123921570736.739af26b-0b56-4d3a-8d57-149d26c2cc05.73830409-618c-48cc-a4fc-4f6fbc18b7f9",
     "price": 69.99,
-    "rate": 3.5,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 1037,
     "tags": [
@@ -59631,7 +59631,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48288.14293282150730785.a3eb927e-6692-438a-92a3-4ac0de1f405e.d6aaa88e-798d-497c-b13f-76a7dcfd370d",
     "price": 13.39,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -59746,7 +59746,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2153.14285324483181019.341ded0c-fb1a-4150-aca3-e692fe6f9620.4a730957-e331-44a5-a666-448fe037a4c7",
     "price": 19.99,
-    "rate": 3.2,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -59780,7 +59780,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27347.14285042010965430.4a227752-0e7d-4e5a-9e3a-50e46b1a1a15.297f74a4-ae71-4f50-a204-5cd7d56f12ba",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 239,
     "tags": [
@@ -59883,7 +59883,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6952.14287968304277401.101b833f-a74b-4da6-b759-49afa4554f3e.93f85047-e582-480b-b291-4eacf02f0930",
     "price": 99.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -59912,7 +59912,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60303.14288060252328089.6b08be31-f8a6-4545-99af-5950ab564001.dbb407a5-c332-4898-ba75-f54c71e02224",
     "price": 31.49,
-    "rate": 5.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 77,
     "tags": [
@@ -59946,7 +59946,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30852.14287660877240739.1b4c121f-51f5-457c-af40-c06f09b296ff.300795c1-d909-41ce-8d6f-099c62f05d0f",
     "price": 14.99,
-    "rate": 4.8,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -60049,7 +60049,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33613.14351919773829236.17768c0e-ff0d-4fe7-86a5-a0cdd0bfe3a6.d43e51e3-6068-48b9-8bd8-0484472c1178",
     "price": 16.99,
-    "rate": 3.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -60087,7 +60087,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27218.14351510987072675.e82786c6-bae8-4351-ab53-795cfa3b25d8.3fa04b82-229e-4798-935b-dc2bdb88351d",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -60218,7 +60218,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21384.14354402914026906.6b35f0d5-bac8-47e8-8868-6b81e29c2174.49b71187-2af6-4f01-a060-48fb99cff104",
     "price": 59.99,
-    "rate": 3.1,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -60252,7 +60252,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22794.14354148193968541.017a6808-d170-40f2-a4c6-5b8716a41d7c.1a5cfbba-4be8-4c36-8d5f-a9251ffce51e",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -60284,7 +60284,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33986.14353718102909470.9cc2f7fc-9593-4ede-8a30-6f9a57a11cc8.804ee3aa-4256-4c79-b9ab-3c03a66c6731",
     "price": 19.99,
-    "rate": 2.8,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -60418,7 +60418,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35362.14347472526117133.27508cf8-9e55-418b-820b-5e317382b5f4.d908f860-0024-4206-8851-d771d202e159",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -60455,7 +60455,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45034.14350803865560104.cd5b70e3-31ce-419a-b0f6-2ea5a4848821.b4808089-1c12-4439-9df2-270c373dbce2",
     "price": 69.99,
-    "rate": 4.2,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -60495,7 +60495,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49445.14349468263747320.c12d0bd8-8464-4336-a980-a014216a707d.7307780b-2bfe-4a23-a939-987e517918e7",
     "price": 39.99,
-    "rate": 2.1,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -60528,7 +60528,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49454.14349234579845847.2e3912cc-be37-4a8c-b54a-5faec4249120.20030648-4319-4ec1-8356-b3799d858bb4",
     "price": 5.99,
-    "rate": 3.7,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -60567,7 +60567,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22948.14348780188839344.02548d98-52ee-4814-9f9f-01dc3d810422.ec381477-8201-45ea-bfa5-fd30f96f199e",
     "price": 59.99,
-    "rate": 3.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -60668,7 +60668,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52829.14343891382902973.f81e0f0d-a6e4-41bf-9925-b4263039c683.21df4d64-027b-4ef8-af07-704c72dcd3b1",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -60708,7 +60708,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36093.14343301090572358.2000000000007864116.1feb0fed-abe9-4849-b638-8d7eca69cff4",
     "price": 64.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 38031,
     "tags": [
@@ -60745,7 +60745,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10809.14342437405551470.fe695950-22ea-44dd-b561-a7850131d6f2.4118ebb6-4f1e-4446-bd8d-c6fb611ab624",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -60782,7 +60782,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47727.14346269945886296.397c884b-33f7-4710-a83a-14af952f8871.be7d850f-21c5-4e1a-8244-9bf117f8ad14",
     "price": 24.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -60840,7 +60840,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43518.14346211770606155.4d34dee5-ab84-4876-83bd-1e181ab60f68.aed7275a-ee75-42b6-b785-0c00fea05e73",
     "price": 12.99,
-    "rate": 4.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -60942,7 +60942,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30485.14339795716426406.9d974dac-c1f9-4154-a543-1c96c66411e9.f00ecfe5-90e2-48f9-a49b-b266c906b651",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -61005,7 +61005,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48342.14337700399791610.2604633e-7a97-46f5-a29f-52dc359adb96.8494225a-c9a1-40f7-abf9-afd044a4bd0e",
     "price": 7.49,
-    "rate": 4.9,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -61041,7 +61041,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29921.14340668473088532.444bae73-8703-45b1-a3c4-d82763d17512.5e2ece3f-bf2e-490f-abd4-0908ffb85a37",
     "price": 39.99,
-    "rate": 3.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -61152,7 +61152,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34836.14333260704106400.8d98e928-67d5-4268-a8f6-37e160deef89.9ddfc21e-ab93-4f4e-b223-b90341d1bc83",
     "price": 5.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -61184,7 +61184,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40931.14333451110228488.76addd6a-5417-4f13-81c6-96376f329794.98eac86d-54e7-4e4a-80bb-1532f1577cb5",
     "price": 69.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -61315,7 +61315,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10267.14337285205427525.b146f72f-ffa8-4316-b5ae-f431d35ec871.34595cc0-9ae9-496b-9361-82089ef5eccb",
     "price": 29.99,
-    "rate": 5.0,
+    "rate": 2.3,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -61383,7 +61383,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17116.14336927242238438.c6b6c684-fac8-4079-872c-aaa5ff0d7b8f.b02466f1-c71b-449e-869e-cb69ea107082",
     "price": 12.99,
-    "rate": 3.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -61426,7 +61426,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54176.14330850369313893.19a11f73-3d1d-449c-841a-8b50f0d42436.69a1bca1-21eb-4f88-807f-0c205e93e6c2",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 652,
     "tags": [
@@ -61461,7 +61461,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21517.14330497789318183.bcbdab1c-34a9-4692-bd03-20c9fb40012b.14b96949-a4be-44f2-9c66-b7e44b066482",
     "price": 35.99,
-    "rate": 1.0,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -61565,7 +61565,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12829.14329949037963316.a8135a3c-31d9-4a17-a223-9d5c2fb44557.b12ef3d0-e915-4599-8f49-349d6d3e1b1d",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -61595,7 +61595,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28288.67082279703731056.09f12c73-5401-4e1c-81e9-3fbc67180690.2ad605c2-2caa-431e-8969-850a9e4683fa",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 356,
     "tags": [
@@ -61634,7 +61634,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31585.14329152328871129.15deab2a-237c-449c-880e-7926330dab80.cbfd82b1-535b-4234-989d-2d04127f0529",
     "price": 79.99,
-    "rate": 2.5,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 89,
     "tags": [
@@ -61676,7 +61676,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27418.13768370188591668.302c14c1-c563-4b96-9413-8dcd386e8806.35943a0f-ac2d-4952-b31a-6c3aad7db3aa",
     "price": 79.99,
-    "rate": 3.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 69,
     "tags": [
@@ -61755,7 +61755,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60188.14331659527374482.41811e97-d335-41b1-beac-d5e74757cfb5.f18ff676-c837-4ff8-9ed6-78ad14d6d683",
     "price": 39.99,
-    "rate": 3.9,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 97,
     "tags": [
@@ -61787,7 +61787,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64157.14331132479221855.642fded7-3434-49b9-8d81-1e086f2d759b.b2b554cb-8ebf-4237-9769-b10880928bbd",
     "price": 44.99,
-    "rate": 5.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 109,
     "tags": [
@@ -61819,7 +61819,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21819.14331081424505745.1e21582d-aabe-46fe-a512-0cde48371f75.713863f3-00f3-4f13-89fb-8c4aa6394294",
     "price": 4.99,
-    "rate": 3.2,
+    "rate": 1.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -61885,7 +61885,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53353.14326503459290938.60658a10-f7e1-4649-ae25-52ff073b5305.decc02fa-67ef-44ef-b151-90b1493c89a3",
     "price": 19.99,
-    "rate": 3.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -61918,7 +61918,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22142.14325927255012461.f0eee2ad-a4ce-4b26-95be-17ec739fface.fc3ad637-1e7a-4890-b0ce-f3eea4a7cb3b",
     "price": 0.99,
-    "rate": 3.3,
+    "rate": 1.5,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -61955,7 +61955,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5965.14326017138836689.b61a4607-27cd-4430-a3e6-e1dbe2580d27.9208dcfe-1787-47f0-ab35-ce75ac1ce0a4",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -62022,7 +62022,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14415.13760232858988218.e7cd9c8f-b045-403f-aeb2-92aaaa22de59.e43e5a0a-1123-4a1e-b002-87aea81ef0ed",
     "price": 99.99,
-    "rate": 0.0,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 89,
     "tags": [
@@ -62053,7 +62053,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57756.14328486526429089.dfd32657-aa9f-4a04-b00f-d44426fd86f4.ce4cf957-4c31-45a5-b320-e12b8d74fd08",
     "price": 2.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -62083,7 +62083,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18537.14327770133285920.58a3faaf-7497-46c4-993e-c1bd4cb9291f.afeeb552-bb9a-4870-815c-55333569de4f",
     "price": 49.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 45,
     "tags": [
@@ -62117,7 +62117,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12647.14321825611904803.635ce24f-3ad4-4ef6-b086-08c9153c677f.92500d4f-472a-42d6-9d91-2ea756fa5906",
     "price": 49.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 71,
     "tags": [
@@ -62156,7 +62156,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18523.14321522258952035.0bdbf2e3-3d9e-4997-92d8-7874c1432866.69d1b8a0-afe6-4f07-abce-a29565980c36",
     "price": 19.99,
-    "rate": 2.5,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -62229,7 +62229,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50915.14175264600255945.9eccbc9d-05e0-4741-adb8-bcf078ccecd2.75cfbbd6-6817-45ca-bfec-211c12373d28",
     "price": 89.99,
-    "rate": 4.2,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 77,
     "tags": [
@@ -62356,7 +62356,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18205.14322920697635082.6a589fd3-b719-485d-8e04-9118080437c0.57eff95b-a301-4dd0-b909-2d192f36af43",
     "price": 49.49,
-    "rate": 0.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -62425,7 +62425,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64870.14417423522698651.80ff77bc-cff1-4871-b8f0-cd764b780253.b5ac4060-b74f-4b75-ba21-510040153a85",
     "price": 14.99,
-    "rate": 3.0,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -62460,7 +62460,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10524.9007199266340975.280c29ba-c11b-496b-9397-355e3d022f38.343ddb22-c88f-4835-a2d1-2cab4bf42c5e",
     "price": 0.0,
-    "rate": 2.6,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -62494,7 +62494,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18341.67858176931430741.d0f7adcd-d484-4483-96f1-f5104282daaa.c6adf3a1-2554-4538-b6e7-9e0694a5fb98",
     "price": 69.98,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 319,
     "tags": [
@@ -62571,7 +62571,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2553.14531461635142175.79361d33-7a18-4554-8a50-66b60d3712e6.80f32c14-423b-4f2c-a417-9c4e03c9c879",
     "price": 29.99,
-    "rate": 3.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 163,
     "tags": [
@@ -62606,7 +62606,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38577.67843716406394594.0a78af59-8cd1-4a9f-a1fe-8a05327d3e7f.35de1847-1c3d-49df-8ac5-49e4c4e68e87",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -62637,7 +62637,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49432.67882228561697527.a1a9cb09-7158-4616-b5ba-3c8de2d16b40.a6552004-a95d-4394-8399-c445d253170f",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -62668,7 +62668,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25725.67877837198810386.c4340dad-7a88-4223-9042-efd926564ff6.4cee48b6-e291-478f-900e-11e06c8aec20",
     "price": 99.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 218,
     "tags": [],
@@ -62700,7 +62700,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43864.67926658307646239.e8130cbd-e4b6-4c78-9fe9-424eb8a64ab1.c676ccbe-b6a8-4a04-b33c-fc4d0941f97c",
     "price": 19.98,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 131,
     "tags": [
@@ -62730,7 +62730,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49742.67911549011456094.d8474473-f221-48ba-9acd-d6da2d065dab.0651af78-dd46-4c21-ae9d-993a8dce6a85",
     "price": 24.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 77,
     "tags": [
@@ -62760,7 +62760,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30276.67964244484410372.5ca97e3b-3425-48f0-a5be-8492b2cc18d4.3d5b107a-dc45-4e7a-b61b-031008bbdc49",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -62788,7 +62788,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2196.67952749767669086.3d85c1d5-a312-4b0c-bc39-78392796d2ab.281cc98b-4aee-4b58-a6bc-13d0a2df2d01",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 52,
     "tags": [
@@ -62820,7 +62820,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11191.68007808768796752.35c32f5c-cb74-480e-8b80-88c753b6351f.2dd7c46e-014a-46e4-b0ee-f73d9e6a7de2",
     "price": 49.99,
-    "rate": 4.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 62,
     "tags": [
@@ -62849,7 +62849,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18720.68005754082254855.39795a60-73cf-4461-87d9-7f112c30c43c.46888afa-996b-4016-b5b4-c2e0b78171e2",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -62878,7 +62878,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7839.68002394896064296.6f4dcac0-75a7-433c-801c-5087b895d814.6bdeee1a-250a-4c56-8cef-809fdd056302",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -62911,7 +62911,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24984.68002430685816450.a40db169-5554-4785-88b8-345c5d78b2cc.df0f1dc5-afc5-40b2-9dda-027c24a9ba29",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -62943,7 +62943,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26046.67990502280903314.b4999edb-5d46-4857-8978-e5d87884c301.39841231-92e4-4ced-9ab9-6175b98a01f6",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 185,
     "tags": [
@@ -62972,7 +62972,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58599.68042312462811843.eeaff5d5-6291-4b38-8f29-07ee4ce48711.3acd4f75-bbea-4434-a33e-e59394fa4f92",
     "price": 0.0,
-    "rate": 2.6,
+    "rate": 2.2,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -63007,7 +63007,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63653.68025335868860524.8a7fbb39-874f-4057-b61f-010b2f6ba2ce.f569b862-7e53-43d5-870f-7e3a36d917f6",
     "price": 34.98,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 49,
     "tags": [
@@ -63034,7 +63034,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19066.68016281092455761.8c631f2d-2803-4c39-b29c-715c90617345.e7a300d0-d00f-43ea-a73d-a493cca4ff24",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -63070,7 +63070,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58204.68078631346001331.49a472fe-4e1f-4aab-8e4f-732405dfb269.ce6698ca-5c6b-4afd-b288-03689fd03f7d",
     "price": 14.98,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -63101,7 +63101,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33619.68059441301464624.02a77441-b24f-4661-bb89-282ab12e7dee.defb0bab-5390-4f7b-8a97-e9a99e07a5ec",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -63129,7 +63129,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3185.68050231517153600.6b419490-a91a-48ed-ab50-96a0edc461c9.37c8a2ab-f554-48dd-90f4-8dd9f7444cdd",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 124,
     "tags": [
@@ -63159,7 +63159,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17924.68049004244760827.dc4b62ea-0fa1-4fd4-95b5-a1a5e35a5735.d452a96f-cbbf-4d2d-8398-980007c55052",
     "price": 19.98,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 262,
     "tags": [
@@ -63188,7 +63188,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11916.68114426079950046.5627e398-8347-4a3b-964b-3259c8da68ea.74116150-3a0d-4a26-ba7c-f0b0280ae1a7",
     "price": 39.99,
-    "rate": 3.4,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -63220,7 +63220,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23964.68112460555114547.f599eff6-c432-4510-af15-bfe339796812.955330ba-ec69-4007-a274-96058599d8f5",
     "price": 39.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 143,
     "tags": [
@@ -63250,7 +63250,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1442.68110492958721383.14682bce-2fe5-4251-af68-6e9bb106c54a.cbe914c4-c465-4bf2-b018-93398ca36a48",
     "price": 49.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 300,
     "tags": [],
@@ -63281,7 +63281,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7672.68092588132505117.32378282-ea7e-40c4-a3a2-81703aa936d7.ee0c2315-50e1-4175-a1ee-f59e0fc7b52e",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 322,
     "tags": [
@@ -63317,7 +63317,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46836.68094058060238288.17bb0f46-a21c-450f-bb05-cd83973f8732.9ba102e2-232f-4182-9233-a89fc56bea74",
     "price": 6.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -63353,7 +63353,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56141.68084441609715883.f0f3ab0b-eff1-40ec-a4cf-91fc7bb37026.4b9929d0-e7e4-403a-909a-908ea78cef63",
     "price": 39.98,
-    "rate": 4.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 136,
     "tags": [
@@ -63381,7 +63381,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28176.67579100631661198.5d117e31-5de1-4cf5-9ffd-3e36e092bdac.57e15e00-428f-4305-ae73-b37fd1c8b95b",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -63409,7 +63409,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62471.67568884242687319.e2b47772-e8cd-4a59-a59f-0451436418fb.e735f0fc-8615-4907-8288-899bd4e535d0",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 59,
     "tags": [
@@ -63435,7 +63435,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17655.67608528792882784.56fd0e59-8e5c-4c63-9eca-864b4e57fa73.963fcb24-edf7-463a-9ec7-2e888ac1446c",
     "price": 9.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 66,
     "tags": [
@@ -63496,7 +63496,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31274.67606311641180987.1de1d128-474a-49a2-8284-671c07f23b81.b6a0405e-edc0-4d85-a7f3-4cb206686986",
     "price": 9.99,
-    "rate": 3.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -63527,7 +63527,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33960.67595127866590165.3fba0594-e741-4ccf-b622-62dd78c90b41.2756faa3-368c-4db0-b95b-a1f7323f51fe",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -63561,7 +63561,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55594.67593906906001159.cfc7eacd-47bb-4f4b-8791-b5e3c708dbec.dc3021c9-5aaa-4892-ae77-ceb2f92e09db",
     "price": 69.99,
-    "rate": 3.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -63631,7 +63631,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39596.67644652336133489.b3703282-21c5-4da4-9f47-ba53b33b37b5.569189bd-72c6-4e18-bae2-96f3542515b3",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 92,
     "tags": [
@@ -63664,7 +63664,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38721.67630815381189211.103c51c2-8353-4ae6-9d72-de4887fd21fe.1b481f2a-83d2-4016-afa8-5a4eb8ba3a37",
     "price": 0.0,
-    "rate": 2.9,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -63694,7 +63694,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58938.67624490702225367.4d5b43a5-e150-4a3c-bbb6-bae6ccc8a7b4.d2dc3fce-a184-4aa2-b1fe-2cd87348df59",
     "price": 7.98,
-    "rate": 3.7,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -63722,7 +63722,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39684.67692664087020494.db738e63-b6d5-4872-854d-74452f0cf9a7.e104a3ce-8f38-409a-a2b9-c9d1dc5b39e2",
     "price": 19.98,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 299,
     "tags": [
@@ -63752,7 +63752,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33039.67682265779210603.0470a561-27c9-4930-859d-adb5463d7f76.116cc436-dbd3-4c4e-bd28-befb16003c5b",
     "price": 0.0,
-    "rate": 2.4,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -63785,7 +63785,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20507.67677092792711601.0f716a85-8735-4fed-9686-40383c04d316.fe612529-bc54-4581-af08-6467ed43cdf1",
     "price": 64.99,
-    "rate": 4.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 67,
     "tags": [
@@ -63815,7 +63815,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1392.67660042887481018.7de2bfcd-48ef-4a6c-bba4-e65d208d67ec.d712d519-5ad0-4aac-9271-ad4424fd3702",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 916,
     "tags": [
@@ -63844,7 +63844,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29829.67728582155584145.81ad35b8-868d-4b93-b1bd-85f5b20dd410.d2758c8d-3974-4057-b7a6-83e6720339c7",
     "price": 35.98,
-    "rate": 4.5,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 86,
     "tags": [],
@@ -63904,7 +63904,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16651.67711513064732812.145475d0-7ca9-46cd-80c8-14a5857a18e2.cd24e81c-f3aa-449d-a3ab-7127f9227ba3",
     "price": 24.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -63936,7 +63936,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52001.67759939744253232.91d27dff-a27e-44ea-9d15-3d3fc6acfd00.841c08cf-c100-4be3-abee-b444a2304b90",
     "price": 19.98,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 380,
     "tags": [
@@ -63968,7 +63968,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4543.67752691449637301.8896552f-af66-43a5-a442-29464c244d3d.8419edec-c936-4da6-a4c2-ee17bdf52ee4",
     "price": 14.99,
-    "rate": 3.5,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 66,
     "tags": [
@@ -64065,7 +64065,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11700.67732770333599620.d5320f04-72d6-4b5d-abfa-ec46d2dfa584.d8d13851-afe5-49f2-8c99-710d04ae4726",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -64095,7 +64095,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18765.67794844835870567.919005da-2940-4841-bed1-58b9a802c146.fc6b0f69-2fb0-4a05-be6a-d57d0fe73e6a",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 45,
     "tags": [
@@ -64152,7 +64152,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60868.67790235293416531.974b34f0-9ec7-4cfd-80b0-034f12437df7.dc96ffb8-21cc-4f58-a7f7-495789914624",
     "price": 0.0,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 230,
     "tags": [
@@ -64214,7 +64214,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61335.13800256783264610.79361d33-7a18-4554-8a50-66b60d3712e6.9ef1c3fb-e149-49b9-871a-1db74017c94f",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 59,
     "tags": [
@@ -64269,7 +64269,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62221.67769121459690163.13e368ba-c557-45c5-b380-0c420e0388f2.bf841261-2fbb-400c-85f1-dcf13a1efe6d",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 67,
     "tags": [
@@ -64310,7 +64310,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56015.67833834336852725.359ee4d2-f566-4a2e-91d9-45cec572c8fd.888ab66d-7be9-4003-ab0e-c5abc7742041",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -64340,7 +64340,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15519.67829326247190973.f408c3de-64e7-4778-a833-d62cbf7f0fd1.273d77f4-1c69-4de2-9fec-43915602817e",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 62,
     "tags": [
@@ -64407,7 +64407,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17632.68428394162202703.a373fb20-43f8-4ced-94bf-35a965fd7e51.c95380c4-13cf-4be9-aa7c-ecd04f529cda",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -64437,7 +64437,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56414.68427031618086772.359da8eb-a100-4c64-a66d-c7051a3b1e98.20609b90-9600-4c04-8cec-c8de3a917b4a",
     "price": 15.99,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -64470,7 +64470,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6428.68417643288595839.fb540a6c-b47d-41aa-b827-6c0a02fb35c6.00916908-eef8-421a-9188-5dca1c26792e",
     "price": 69.98,
-    "rate": 3.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -64497,7 +64497,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59519.68416368999479584.89b36c57-6423-4e10-945f-b73fe790db76.0cd3d272-7242-474c-9211-4ba305ccc052",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 44,
     "tags": [
@@ -64529,7 +64529,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4201.68465588515535826.80ec7175-a645-471d-821a-6f02bbcd373b.6e0fd5ce-ba76-4ac7-aff8-720929658049",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -64562,7 +64562,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28829.68464617774327175.f73f31ac-3430-429f-b927-10afcb193b05.560d8f71-7294-4c8f-92fa-43cecd49306f",
     "price": 5.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -64591,7 +64591,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41986.68460258964057960.66d06666-90f8-48e6-8808-a3f7dbd1fa23.1f3111c0-b810-4307-8c93-f5a009d6b9d7",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 139,
     "tags": [
@@ -64618,7 +64618,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4890.68457563540891771.312beba3-d5c5-42ae-ab4d-c7c3e9f25923.518f43ee-ba68-4eba-8ab3-5f8914f11a4d",
     "price": 4.79,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -64656,7 +64656,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2938.68458959458300043.df539657-64e3-4d17-a12b-abfee3e8f434.fb827e4b-7f6b-4728-a50e-0d77c4d3dc44",
     "price": 69.99,
-    "rate": 2.1,
+    "rate": 2.5,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -64698,7 +64698,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51124.68444863531073822.9d29c0ed-35c9-4a8a-abb5-966ada3e1828.f97bcd76-554a-439a-ace2-a7798111b709",
     "price": 69.99,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 113,
     "tags": [
@@ -64730,7 +64730,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1260.68496097246270070.59a6ceff-67da-4724-a694-fadfb83ee736.09fb5220-9398-482b-be46-5dca52d43e9f",
     "price": 9.99,
-    "rate": 3.0,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -64757,7 +64757,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17602.68498900770156313.92e56773-a548-4837-beb1-dcdb80ecefdb.062c1d7b-f7da-4aa3-a4ea-5914dc41e3d2",
     "price": 9.49,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -64788,7 +64788,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20033.68536032459719067.3df712ee-33cf-4177-a844-79e355c78092.d7613bdb-da59-4e8b-89ed-7dd6d4f6ebfe",
     "price": 39.98,
-    "rate": 4.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -64819,7 +64819,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59924.68538882867103691.f45e8689-fb5c-40bc-8394-6212a3287da5.49b3477f-3d53-4c70-b562-b105e0bad0af",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -64852,7 +64852,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8986.68530581772287913.7cc7514d-46f2-4843-931d-c332d746ffad.f019fa69-0614-40da-a2e6-1034e7f35fc9",
     "price": 79.99,
-    "rate": 4.6,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -64932,7 +64932,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34090.68508711116515509.d0234ee9-3377-41d7-bd26-03006d0b473b.6b2a2adb-6ed4-44fb-822d-538455e8212f",
     "price": 0.0,
-    "rate": 2.9,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -65041,7 +65041,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43687.68604690007879420.0cec7f2c-014c-4b2f-85f6-13c5f20220cb.74ca6086-b67f-4955-a5e9-0a8978f1350a",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -65074,7 +65074,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51626.68598211680266771.73ef9826-822a-4a0b-ab4a-4fe8fd87fc3b.714f1b5c-6793-443d-a291-74b81479dc92",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 88,
     "tags": [
@@ -65108,7 +65108,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14378.68596255437297164.99e6fb73-cd5e-440f-90c2-d8d2eb40a69d.b1ea28bc-8321-45e0-8905-d6e796dcba74",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 449,
     "tags": [
@@ -65140,7 +65140,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7019.68640107179785665.3ff3e830-efb8-42c5-aa55-9b33b3a8192c.32387d3f-8044-4884-94ec-88928270ddee",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -65175,7 +65175,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39791.68631123789499032.6299bbb9-6778-40d5-965f-080b552baa15.c327f5b7-91e3-410e-82c2-fa853abddf3a",
     "price": 11.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 121,
     "tags": [
@@ -65234,7 +65234,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58202.68618454610217617.0bf16429-e940-40f4-b483-920166ef2ce1.4eff9aca-cf9d-4807-9477-1dec43be2726",
     "price": 39.98,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 1216,
     "tags": [
@@ -65266,7 +65266,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17038.68610772254580296.42fa1e69-fb0c-4f8f-bb38-1fab940b98ac.134b7587-239b-410d-9cf9-de8f16776db5",
     "price": 39.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 102,
     "tags": [
@@ -65294,7 +65294,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30548.68671427459953460.50ecc269-72b4-40d7-82f8-e85185fe0691.17e12bf8-7a1a-4807-bdce-2de5b90dfb81",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -65351,7 +65351,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60273.68664808838028850.61879de5-57f5-44ac-8a94-ce9bb4234646.90723e3b-6017-4606-827c-c2e2ed705780",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 196,
     "tags": [
@@ -65380,7 +65380,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48528.68662117307814849.d86c4ebf-4ee7-4307-bce4-30e6169169a8.f7c430e0-ce78-47f1-bfe4-3ddf380912ef",
     "price": 39.98,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 238,
     "tags": [
@@ -65418,7 +65418,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30303.68655995542193491.618ba70a-85c2-47a4-944e-7a9b39528ca8.c3eb629f-7dac-460f-adc2-ba0f395b6c66",
     "price": 0.0,
-    "rate": 3.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 309,
     "tags": [
@@ -65451,7 +65451,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50877.68148656526191184.87914f6a-0d39-4179-8dbb-ac204d1f93c3.05c5f860-18cc-4c7e-bd1a-d93e9d5c0a1e",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 172,
     "tags": [
@@ -65485,7 +65485,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35593.68150164172276526.ddc374d7-ef5e-43b9-940a-bbc04440bb33.e0c05607-881c-449f-826b-fec43403598c",
     "price": 6.99,
-    "rate": 3.7,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 190,
     "tags": [
@@ -65519,7 +65519,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45930.68143759676978415.617fe4d2-4978-4b4d-9e04-cba4cf86d432.53d53de7-c096-4ac7-9439-aaf384d8417f",
     "price": 69.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 139,
     "tags": [
@@ -65549,7 +65549,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10900.68141022963856152.49105c5d-4fe0-4f89-9f88-f108752176bf.81dd262a-6ee9-4cc0-9719-2f61782ba5b1",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -65583,7 +65583,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54072.68131417927341023.6f4f8f73-402d-42d7-8fff-a37b68438b32.3177700b-acd5-42f3-b2bc-9bd10bfbf465",
     "price": 19.98,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -65623,7 +65623,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56055.68123456111492710.c8d7ffd5-060a-49b0-ba01-61ddf2652c5e.bfffd58b-1dc6-46cd-a982-a2bedd4ab5f8",
     "price": 0.0,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 454,
     "tags": [
@@ -65660,7 +65660,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24872.68177773848792882.5f704d0c-d3e1-43e7-8f8e-7dd9160fb445.bdff1504-9f54-4d90-9ccf-cc2d7d0eef33",
     "price": 0.0,
-    "rate": 3.0,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 50,
     "tags": [
@@ -65692,7 +65692,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52089.68158406662702906.9c84b6a8-f1ed-4ffd-af04-0f6efe4c4473.5645ea6b-a4d9-4914-be1e-652b9d950fd7",
     "price": 49.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 74,
     "tags": [
@@ -65725,7 +65725,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64069.68153994599451024.9f03bc8c-e4ac-4d66-9e8a-c64ec1810cc0.3e090fdb-9dfd-4b5c-805f-d1d0b0a62c55",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 101,
     "tags": [
@@ -65755,7 +65755,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19079.68153237703585361.0e9ed8c6-014c-46b9-a70c-d7521de52007.50b5f190-1ed0-4588-97cf-db32328c64c9",
     "price": 9.99,
-    "rate": 4.8,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -65785,7 +65785,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33287.68207916242894170.41329016-866b-4c48-bf69-7bde9c9f3415.97178ac5-3572-434a-b7d4-db7371f1710b",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -65812,7 +65812,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15473.68254869221317023.c7c76149-5b5d-424f-b097-068ea000918b.9a22da88-8a95-48f4-9464-05f88a36f112",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -65874,7 +65874,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50219.68226555978124855.9d442661-7c1c-4f7e-a97c-37369d862987.5bf9e6d3-a18b-4271-b92b-d01851f7d46b",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 66,
     "tags": [
@@ -65905,7 +65905,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37967.68292053622539968.8ab068ca-8912-4f3d-98de-e2a724080d13.df562106-3fb3-48c8-9b76-3377b30bbb13",
     "price": 49.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 243,
     "tags": [
@@ -65968,7 +65968,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21249.68271289229908876.86c16179-51c8-476e-9084-e64d39164bbf.dcd8039d-8c17-4122-8690-372e93093eab",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -66000,7 +66000,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38743.68325495372032434.c1382da6-bfb6-48cd-aadf-1a7f3692a781.5fe7488b-a224-4cb3-b013-8d8ac30a77ae",
     "price": 39.99,
-    "rate": 2.6,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 154,
     "tags": [
@@ -66033,7 +66033,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33296.68327322396008232.bebf9df1-1c64-4f6c-b0af-31eb22f07ff3.1545c2b7-9b3b-4cdd-a649-14c6d3821ad6",
     "price": 0.0,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 441,
     "tags": [
@@ -66103,7 +66103,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10774.68319276471343677.c4253da0-c423-4862-9901-fd9884b93bb7.ef10be58-e45c-4fb8-b40c-64ec3da9bb16",
     "price": 0.0,
-    "rate": 3.8,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -66133,7 +66133,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56922.68322781636760871.425ecab7-eee7-4a99-b2e8-1a4916207866.495999fa-3798-4a60-b7c7-b0f6ea5066d4",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 70,
     "tags": [
@@ -66160,7 +66160,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23413.68311792912961316.3b0709ee-2e0c-48af-868c-64e971d60a1c.edd28d66-1b9b-4a85-922d-6b102a7887a8",
     "price": 69.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 255,
     "tags": [
@@ -66189,7 +66189,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32973.68307864442603829.676cbe70-1643-4bcc-a72b-f8ed4e2d4cc2.5e336f58-3ca7-4c6a-82b5-6d8fba10598d",
     "price": 19.98,
-    "rate": 3.6,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -66253,7 +66253,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59506.68305158041316318.0f0a9a69-7791-4529-bb3d-119342be58d6.5aa0b0b4-f5f1-4217-a684-d936aea8692e",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 61,
     "tags": [],
@@ -66277,7 +66277,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28274.68304445126679873.a2216d0f-4e39-4406-9c31-916e1bc4ec91.426788a2-dab9-4368-a610-68c8653ca278",
     "price": 5.03,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -66311,7 +66311,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38704.68348971945011245.e5f07612-7963-483a-92fc-000ae7301b58.02884fd6-b515-4253-8606-38cd4ee2a91f",
     "price": 0.0,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 944,
     "tags": [
@@ -66340,7 +66340,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59516.68341599772624695.fc4342a0-dc73-400b-9952-2acf50a6956f.9c2190bc-7c13-4567-bcbd-1498e3b12acc",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -66370,7 +66370,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48953.68390719155753798.8bea6df9-2078-4a9d-8707-e3f4d17d5824.6e87ae9d-78bb-4db1-b53d-78e0617132b9",
     "price": 89.99,
-    "rate": 3.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2354,
     "tags": [
@@ -66399,7 +66399,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42801.68996136858978713.baeb69b9-e270-43f8-a9a8-5c7e40ed5d41.bf7bd5cf-8b69-494c-a064-102eaf99b0b8",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -66429,7 +66429,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18889.69016865837780293.9b6820fe-f7d4-4de3-9591-ae50b5b3401a.4d4a9107-6b96-429b-8a2b-03771d2eca9c",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 179,
     "tags": [
@@ -66497,7 +66497,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54134.69010346493633739.074410cb-38ab-4f48-b6fe-0ffa69c89fa9.5e0b834f-57d5-42d6-9b07-c8d7bf92038a",
     "price": 39.99,
-    "rate": 3.8,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 72,
     "tags": [
@@ -66526,7 +66526,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59238.69063014176227369.8fd06825-d870-4439-9ce6-5a2e69b71888.4adcc896-19a1-4d3f-aef6-890d4fc0a51a",
     "price": 14.39,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -66553,7 +66553,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63337.69065092223175795.fdcc1404-e33b-4bfd-8db8-c2f81c469354.afb801b5-a960-42c2-8ca2-001f0e9a8d95",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -66580,7 +66580,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10173.69055455676545154.bb0c2527-3a89-4cd5-817e-fcda3c97dad7.7dc71ea4-e644-4dc2-ae81-34e2feac2e9f",
     "price": 14.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -66609,7 +66609,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50301.69045707961702063.931cfc14-e0b5-4333-afe4-798d499ddb4d.a02a15d0-9f29-4cbb-aada-80c5c914dfe7",
     "price": 0.0,
-    "rate": 2.8,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 52,
     "tags": [
@@ -66671,7 +66671,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62583.69038865179152125.ddcc0d78-9e3a-4110-94b3-6df63908553a.a11fb042-6f04-475e-83c0-01bfb83117d4",
     "price": 69.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -66701,7 +66701,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13980.69095560519858550.5d2b20be-2871-44c4-93ce-87fe09dc751d.284a700f-2df8-49e9-a5e3-9a42bae48002",
     "price": 39.99,
-    "rate": 4.7,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -66737,7 +66737,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21364.69086306530350925.53c27592-592d-4fd5-a6aa-d66792dbd9c4.17ed8b86-9d9e-48d3-8822-b7b87bbd80d3",
     "price": 0.0,
-    "rate": 2.9,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -66769,7 +66769,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36495.69068534869269909.2e5bd713-07e4-4ab3-ab98-5c3b344e3c50.7fc40118-7e50-42c3-babd-cbb2ec401a15",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -66800,7 +66800,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13728.69133294282347535.dd5229a1-d5bc-433d-ad6f-0d6bea162983.6ad2ba17-3a24-4308-8ad8-9800e6e02754",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 234,
     "tags": [
@@ -66827,7 +66827,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32192.69123253299542418.026a4d66-930c-45bf-ab1e-dce58dd5e2fb.a1830ed5-b9dd-416c-ad7c-5f42d1817eae",
     "price": 4.99,
-    "rate": 3.1,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -66855,7 +66855,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2204.69139473148334582.b7290ab6-508c-479e-8827-a21822bbed42.5f6b5cc8-3234-4d2a-b3b1-2c3926697754",
     "price": 59.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -66915,7 +66915,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43340.69203566426758146.b8c52075-b92d-43ff-a8ab-26beec4ef9f4.d5017a5d-53e6-47bd-b524-199ae938da3c",
     "price": 29.99,
-    "rate": 2.7,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -66986,7 +66986,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64815.69193298161071220.7c147b76-ab45-48fc-95ce-70c11df6b921.ba77bc1a-caca-4216-bca2-00eef00deef1",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 184,
     "tags": [
@@ -67016,7 +67016,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38248.69192400665741237.354290ac-4f83-40c6-a004-d56deb07b53c.e5d85ff1-911e-4f9d-9c81-755100a47e8a",
     "price": 6.98,
-    "rate": 4.3,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -67047,7 +67047,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39285.69242235395687976.60c3c0b9-9cce-4803-b1e8-f6861422bd64.509863ff-baac-4dbc-96bf-4688cfde5d1c",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -67083,7 +67083,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27543.69234794984509140.ef3477c5-d6c7-4bd4-b5c7-7664d0e9e1be.77ffed61-812f-4b16-8942-868b796f45d4",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 147,
     "tags": [
@@ -67112,7 +67112,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59955.69225759696749990.43593478-fa87-40a1-9fd2-d7bd78b57253.20a8d230-3a18-4c41-b8f3-1cd1cd576de2",
     "price": 22.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 216,
     "tags": [],
@@ -67142,7 +67142,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20841.69227550733118044.46b03bab-5c28-4e41-9f12-a602eb5cc9ba.fb5c891c-ae25-4bbf-b388-bc097198a0df",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -67175,7 +67175,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36594.68705183924321609.fa49331a-2294-45bc-900c-45876e4cd287.3a6220c8-90c9-4890-9d5f-babb1cd960f2",
     "price": 3.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -67204,7 +67204,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47223.68696967995274095.2ec90168-5c17-4a4b-b0a2-8711a5cf12bc.ca5d3d67-10b6-4b4f-93e0-b48154c9dbeb",
     "price": 14.99,
-    "rate": 3.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -67264,7 +67264,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40605.68746382496567220.612ba4aa-3f7b-4b25-b141-a20112197dde.3d11307b-5ce6-4b3f-9ed4-efaa6b746736",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 63,
     "tags": [
@@ -67299,7 +67299,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25964.68749109251632061.7415fd07-15d9-4d61-941f-64c80c5c0bd5.8fab658f-e3b7-452c-afeb-ad36df7bd4b3",
     "price": 39.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -67329,7 +67329,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11672.68745786104887416.a28a8ed1-2935-4d21-af84-93980c5764b9.e646c6db-8308-4d77-a25a-0e89ebec179a",
     "price": 11.99,
-    "rate": 3.8,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -67366,7 +67366,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27564.68731267783698910.7abb7ec4-7767-4f8b-a50a-144710079d79.b40184c9-f9a6-487f-9c0d-18f79450ddb0",
     "price": 19.99,
-    "rate": 2.8,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -67432,7 +67432,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33704.13719691835186674.79361d33-7a18-4554-8a50-66b60d3712e6.e6765def-b8a7-4b2a-a4b4-6acef925768a",
     "price": 24.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 77,
     "tags": [
@@ -67462,7 +67462,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24634.68785089821128498.e521e45a-1c95-474c-9b11-40e2f6df4a4e.a1429a8c-bab7-4534-b31b-0e6fcc5190a7",
     "price": 0.0,
-    "rate": 4.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -67492,7 +67492,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10880.68780256054797438.f70c1892-a8d8-48d5-aa1c-8ac74c43986e.1805282f-fb8d-4778-9cb0-3e354bdf5b0f",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 151,
     "tags": [
@@ -67531,7 +67531,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23712.68818099466568894.5fae376b-4fd4-4e61-a81c-a5575757b3b1.66a28ad7-7756-4f00-9b06-21603375f0a4",
     "price": 49.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 547,
     "tags": [
@@ -67563,7 +67563,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51379.68807907361639140.62f39784-d7f4-4d51-a6a9-eedeca31b04c.6f220d6c-4430-4f8a-8189-2a98571f1cf8",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 58,
     "tags": [
@@ -67591,7 +67591,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39611.68804123079310757.2546ff8f-e434-4b6c-b126-8f9a892d1416.0bd8e7ed-3f0c-4e95-88b6-8878282cba53",
     "price": 17.99,
-    "rate": 4.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 116,
     "tags": [
@@ -67620,7 +67620,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33853.68804025711158669.69d2cef9-3b88-4b35-bc4e-00aa24ff62ab.ebee30c0-417a-46e1-b269-dba0ff6e1a61",
     "price": 49.99,
-    "rate": 3.7,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 61,
     "tags": [
@@ -67650,7 +67650,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54547.68855092471074906.68113374-545a-4a8c-a8a1-b1b61935df72.2f749e5c-ad72-4c5a-9008-aa886f475830",
     "price": 19.98,
-    "rate": 4.3,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 79,
     "tags": [
@@ -67682,7 +67682,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35283.68847167288522183.9fdea778-258f-40d6-9f9e-fab92915bc6d.98c2dd25-9180-49e5-bdd3-6bdb1d857889",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 964,
     "tags": [
@@ -67739,7 +67739,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28597.68843572048501388.669471cb-d7a3-4829-8dd3-971e31f52503.a726cd37-4249-45da-857b-1b3faaa3e1f3",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 60,
     "tags": [
@@ -67768,7 +67768,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46965.68837181350156116.d8a5b413-7630-4b56-a4d7-70f01f4eb29f.c0f3830a-edd2-43d0-afc3-8fc98005e1e9",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 101,
     "tags": [
@@ -67796,7 +67796,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13348.68826627283221018.483f8d21-1347-41fd-982b-6dbba0d99e2d.c436cee9-8f24-4714-9823-e9356c492f52",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -67823,7 +67823,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7703.68871528329885281.e03a829d-faa0-4a31-a5d8-785bb8b52288.748acac8-0b82-4e85-a963-0f0736c33cc4",
     "price": 14.49,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -67854,7 +67854,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26803.68868842547471888.6ee6846b-d298-48d6-be07-9c4c8a14c2cb.326361f9-bc5e-47e0-b74c-5f3324be58b1",
     "price": 13.98,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -67881,7 +67881,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43491.68855953372556744.26488b1a-bd9a-4d75-82c4-e136e6329125.5d49e366-2bcf-4883-ac0f-f4e34bece6a4",
     "price": 0.0,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -67909,7 +67909,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59167.68925464159691452.a2903bed-8f56-422f-b4a8-81cca9a4bf93.41e0b30e-b190-4242-ad63-738acbd3641a",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -67939,7 +67939,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64629.68918560549958258.a7600fa7-889f-4175-b54f-080555dc7953.43222782-a026-4cf6-a036-8485e2890c59",
     "price": 6.99,
-    "rate": 3.9,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -67969,7 +67969,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24108.68917577847472449.bea656e7-1e8a-4997-841e-26108842f858.1d3c1f66-7592-4d34-8bf5-b1aea63d7671",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 305,
     "tags": [
@@ -68024,7 +68024,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40124.68905376569244905.ccfc527c-beb4-4e32-be6c-a04cc78b9ecc.0d48591a-aa6d-481f-8518-99b9aee3a1ba",
     "price": 14.99,
-    "rate": 3.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -68051,7 +68051,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49258.68893806363683384.55eaca3a-8306-4de9-86b3-fbdbb6e226cd.696eaab6-7916-43c5-89ef-dcdd618981da",
     "price": 49.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 436,
     "tags": [],
@@ -68080,7 +68080,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53940.68952782261614407.207517f2-cff8-4d40-84e1-b44139d6e70b.daab750c-4d12-472d-8b34-49dea1349935",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 64,
     "tags": [
@@ -68118,7 +68118,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37408.68956196378661705.79361d33-7a18-4554-8a50-66b60d3712e6.b5772f48-aeeb-472a-82dd-a6532c6438a4",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -68149,7 +68149,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13683.68934950184453040.9cc8e990-71a2-49b5-9681-0a91f8e9a1a3.d145c461-a3a0-4092-b1c8-b780cab313a3",
     "price": 19.98,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 69,
     "tags": [
@@ -68180,7 +68180,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46187.69542572365804279.60762a20-9067-46a8-876d-809efea475a5.e099e073-dcb6-4296-bf7c-202a5b868056",
     "price": 39.98,
-    "rate": 2.8,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -68207,7 +68207,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1157.69545190943188987.bad7c420-51af-4579-8383-72696799c908.f7d143e7-ca98-4638-91ee-640c7f1af1e3",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -68268,7 +68268,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13986.69531514236615003.534d4f71-03cb-4592-929a-b00a7de28b58.c4152bcf-9088-4e35-98b5-9a2e44b927c5",
     "price": 29.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 1505,
     "tags": [
@@ -68300,7 +68300,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39337.69591921070543757.eefd9a37-7f0c-4427-b9d6-267045d7fddd.f00f1325-0e71-4879-9cf0-7264f24b0f04",
     "price": 14.99,
-    "rate": 3.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -68369,7 +68369,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10214.69582146850150745.8c02406c-2a31-4f8e-b04b-4bdde146d212.0a8d95d7-6d26-4968-94ab-b8b29a645818",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -68402,7 +68402,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38248.69575354529436354.5a374316-94fc-4137-afa6-49f2add4800e.0ec254a3-28ee-4886-b30d-d497a571bee9",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -68436,7 +68436,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60867.69615795815402602.6c4db579-d968-49e1-ac7b-420350ae31cb.74ce62be-7097-401d-9448-6e3671a50a84",
     "price": 16.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -68464,7 +68464,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35180.69615521487165114.7bf1350e-c0fc-4043-a12e-6c2d6a22ff5e.5e6a8712-6067-4052-8383-a796938ac1d5",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -68491,7 +68491,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46411.69595393583696114.bac2a293-cbd7-47cf-969a-c4a279bcebda.127e2bf0-cf34-4c5e-993d-219c5418aaa3",
     "price": 4.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -68518,7 +68518,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21582.69661693038755748.20d2d8fc-4614-415f-8f25-8fed634ea6ce.79b43a2d-5e3f-4c85-9518-b0ac27011d25",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -68545,7 +68545,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37035.69652565473777777.1aca6364-62c1-446b-8dc2-fd94321759ba.c74ef945-3f75-4793-9a1b-ff3eb0105f61",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -68573,7 +68573,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11241.69697156950852023.2c48cb45-2db0-4908-97fd-4af1716e5f91.bee410ea-6a9f-409a-bbb4-01025ee670ab",
     "price": 24.99,
-    "rate": 3.1,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 83,
     "tags": [
@@ -68603,7 +68603,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29603.69684358618272438.c108d56d-38d3-400f-9d65-37b50d94d8c7.2c30d9df-46c8-4aed-9cf4-23de779ca633",
     "price": 0.0,
-    "rate": 3.0,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 61,
     "tags": [
@@ -68631,7 +68631,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18799.69683146824483694.3fc9f01b-fad3-4134-b68d-33fbed8defa1.a464b5e6-324c-4d55-a7c2-ce0d7bccbd8b",
     "price": 0.0,
-    "rate": 4.4,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 3,
     "tags": [
@@ -68664,7 +68664,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54587.69731494251073459.b4784411-abd2-44d3-85f2-ee9462429806.a6c5b771-10e0-4c87-ac93-d2a6a85a467c",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 1048,
     "tags": [
@@ -68692,7 +68692,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5197.69729874954331604.69aac101-6e1d-450a-8644-e00b37d72343.c82c4f00-377d-40a7-8848-bb20c76147fc",
     "price": 9.99,
-    "rate": 3.6,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -68719,7 +68719,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24213.69724824139206851.97dc9b98-4bb3-45a2-be74-ba556e9767d0.0edffb10-7c9e-4e15-a702-e482e29f5bd6",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -68782,7 +68782,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22003.69703614894648147.e4ef3337-2c9e-4cf6-9f42-d591c8ecfc5a.54f10ab0-f2c5-42a7-aa01-2ffdbfd98104",
     "price": 9.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -68810,7 +68810,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26854.69769694403651187.89347957-99be-4230-98f2-5c882fe49058.5a85c232-da85-4418-90ec-a7edd99cfb8c",
     "price": 14.99,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -68838,7 +68838,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47254.69768431406041041.e1386476-b377-413b-9457-1f5559dbb168.1729d161-6022-4368-b67d-128946d0ca78",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 417,
     "tags": [
@@ -68870,7 +68870,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62864.69762792333465121.4086c71f-fab9-4c14-b959-3e77164a74cf.20973bfd-77f7-41d0-8e0a-7cb51d9f8add",
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 74,
     "tags": [
@@ -68904,7 +68904,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52808.69748098540497451.a03a4b64-603b-49b8-8644-4924ac7f3076.9ce9e6d0-f086-4b7e-a6fc-a75551e5d0d5",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 672,
     "tags": [
@@ -68935,7 +68935,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34912.69743617276441402.980dcf66-983c-4752-8f6d-edd83ec77870.a28e8104-af51-42f2-9f71-ae70acd4bae5",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 58,
     "tags": [
@@ -68968,7 +68968,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39432.69742768075920623.e6c8e1ee-e782-4002-bca6-916e5cd2f37c.a4150190-c96d-421a-9fad-c4bbdcda6f45",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 534,
     "tags": [
@@ -68995,7 +68995,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8234.69738349246540545.84c87f40-ec43-4692-9c22-1dd971c341d7.289aa42c-4f13-4cb0-a08b-4dd7da4b66d8",
     "price": 9.49,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -69023,7 +69023,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19118.69805756480944486.42cd5cd6-88ae-4921-873c-0cad365d18d4.31b81a31-28e0-41d1-9a8f-9ac049ec9575",
     "price": 6.59,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -69050,7 +69050,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32072.69783044208405594.c0d6ec4e-4329-4612-9ab1-ae690e394670.6aa7d030-9446-4158-9d4e-998d7a3e67c3",
     "price": 0.0,
-    "rate": 4.1,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 44,
     "tags": [
@@ -69078,7 +69078,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64861.69271430660548627.c90235de-725c-43d6-b777-19f7f75295cc.d39dba01-0270-4979-9e55-0b094c6c17b5",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -69108,7 +69108,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42539.69249691676935193.ced7b7b3-54af-4612-8084-7ed4b032358a.d63ddc95-b8ba-4525-b05c-90474981c973",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 183,
     "tags": [
@@ -69141,7 +69141,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36981.69312789698701726.d27b8773-a696-422a-8e4e-47d9f8fde34f.c3287c35-a0e9-411d-ba6a-459b891e4106",
     "price": 49.99,
-    "rate": 2.5,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -69170,7 +69170,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55182.69304479265522151.5b8601c1-35b0-4bad-bcff-f51fb0ce43d8.7a35a95c-0e5c-4f03-bf7a-b7c87eaf069b",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -69201,7 +69201,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34934.69296710537599543.b080e82c-7ce3-438f-bda5-69355770686c.5402fdde-f39e-4268-9928-0f65618506fb",
     "price": 29.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 706,
     "tags": [
@@ -69234,7 +69234,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10920.69279545232152045.f1a4a87c-fcc9-4b7c-a620-f6c56eb2d5ad.537d404f-d551-430c-8000-9a4c657bf354",
     "price": 19.98,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 976,
     "tags": [
@@ -69266,7 +69266,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47872.69279568107563806.60ac94f6-7a41-4b96-9b72-299546460040.79de8dde-fad4-40dd-9895-12d93d6f4757",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -69295,7 +69295,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32806.69348165562119927.08cc694a-5f8d-47e5-b7fb-204c8faff4af.40e77514-9ef8-40fc-9298-ff5a13833a4b",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -69321,7 +69321,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59735.69317625881218501.f5ef7efb-e80d-48e3-86ae-964377c2a501.0e352406-c9b7-4b9a-b7a4-edf39cf0bbad",
     "price": 9.99,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -69349,7 +69349,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12656.69320940561073110.189571f5-bf61-4250-851f-3d627dfcdc29.695e62b5-19f8-4531-892c-a34153291adf",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -69379,7 +69379,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62514.69360070460791796.00b4fdde-d0ea-4cfb-b713-ddd08d3ba34f.989d3dfd-5905-4c61-abf8-c986a31b94c1",
     "price": 69.98,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -69406,7 +69406,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4236.69416119090354959.ca15c348-6558-4128-b5ac-5395efde71c8.45bf3c53-26df-4846-8401-c09b6070aa44",
     "price": 49.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 150,
     "tags": [],
@@ -69434,7 +69434,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53351.69418729968339172.e0511a41-4d32-4c9b-b786-629dba4b131f.b93252f6-c40e-489f-91bd-89f392ba663a",
     "price": 49.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 75,
     "tags": [
@@ -69464,7 +69464,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19994.69412627236658734.9bed1508-916b-4abb-aaf2-33150817421a.a293a72e-d166-49d1-9c4b-6e60a5c79de9",
     "price": 59.98,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 177,
     "tags": [
@@ -69559,7 +69559,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27939.69435343314503572.4e403c3c-ba71-4c3e-a54b-a6819ca0e6bb.c3564934-dde2-4096-a6cb-d17ffc195a83",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 441,
     "tags": [
@@ -69628,7 +69628,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31652.69486807692484611.68b10d87-21c4-47c7-bb8f-5b15e7593da3.e71a7ae4-e2fd-4c59-841d-68022083cadc",
     "price": 29.99,
-    "rate": 3.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -69662,7 +69662,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9585.69479559702140610.dad571dd-6b2c-42a6-be9e-fd11d891d66c.b640dda6-99fd-45d1-b7f1-a54f914615d6",
     "price": 39.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 75,
     "tags": [
@@ -69692,7 +69692,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13926.69467662407886849.eb318d40-1e77-4848-b633-b9ee445d2f63.c32b9b59-01cd-43fd-b374-d60e0217acb2",
     "price": 14.99,
-    "rate": 4.1,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -69722,7 +69722,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3618.69464026963810457.891f8455-fe82-4850-a2f6-d7e2781d6752.3bb37a83-91db-4d4f-b122-dd14f6f80844",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -69752,7 +69752,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27657.69516029925336975.e3cb0155-71cd-4799-bed4-63da86cce109.61267421-c294-418d-98ad-81f696989b4f",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 267,
     "tags": [
@@ -69782,7 +69782,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49753.69518833263780339.f616a3f3-9652-4c6e-ad9c-cd342a7007bb.106a6dec-ca4b-4c2a-b993-2b498815e76d",
     "price": 9.99,
-    "rate": 4.1,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -69816,7 +69816,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55121.69508748727770428.7ce00ad4-485c-4664-819a-1d17af316267.d92d72fb-1a52-492f-96ea-2229c4c4eb9b",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -69850,7 +69850,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31851.69507468822824892.54dd11bb-faa5-42ff-992a-8250e24186af.847d15a7-a189-467a-b1d4-6058db0adac7",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 237,
     "tags": [
@@ -69876,7 +69876,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58598.69510736669141279.17ec6947-47dd-459b-8e33-929d23def6e2.79265f28-58bf-4d85-8382-f6dcde2e600c",
     "price": 9.49,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -69909,7 +69909,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28370.70110603074447323.b7a3e776-5182-4a29-a868-28a6e739f019.362a95da-6bdc-49d2-bdcf-80df4ac36523",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -69938,7 +69938,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17379.70092601809158301.fcc6071e-dcbc-4f03-954e-82905a1dadfa.2ad92fe5-973e-4eec-b38f-21a50029ed89",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 11,
     "tags": [
@@ -69964,7 +69964,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63588.70150884927435795.96c7e3bf-e29a-464f-b969-faf5cc06de1f.424a8909-da31-4a8d-92a9-c4d529091609",
     "price": 14.99,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -69992,7 +69992,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11519.70136303061298273.5761592b-ab42-42b9-98a9-dbc1dfda4b36.367699ae-f6d6-4aeb-abd4-1206f524fd3c",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 113,
     "tags": [
@@ -70024,7 +70024,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48332.70128237179769548.ade50b5f-526d-44e1-af2b-6e356a6e2c86.5573a85c-f292-4af6-adad-14d238d0400f",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 64,
     "tags": [
@@ -70054,7 +70054,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39481.70129275796308330.66e80141-0b47-406d-b981-95639c358e57.1abe890c-4177-4c54-af57-9aa87a6221d6",
     "price": 14.98,
-    "rate": 3.7,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 242,
     "tags": [
@@ -70081,7 +70081,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21438.70175563886973287.cdcc9630-9116-4c57-94d8-f8a844937ece.850746dd-b512-4976-a3f4-addbe4d9a557",
     "price": 9.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -70108,7 +70108,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56784.70226594498231256.17116041-5bab-4f35-9bd5-63b5de669a3f.6c91eae6-ea29-44be-89e4-df2dac63a6b5",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 62,
     "tags": [
@@ -70176,7 +70176,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59321.70202142571263644.2e59604b-1e22-411a-8677-5ebccd498683.43aa455e-e6e3-404e-92e4-06db1c081f2b",
     "price": 14.98,
-    "rate": 3.6,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -70205,7 +70205,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25221.70199464026887454.3ef0dba5-748a-4175-9e48-632bf7ecad5e.43b06f42-b551-444f-981b-6e36edee9df5",
     "price": 9.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -70342,7 +70342,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1577.70278218077541314.94f10780-6761-4928-9d56-5a9f79d2cc27.e9d4a80f-0393-4568-95b1-7276b9b4ccdc",
     "price": 15.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -70372,7 +70372,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33862.70272510110769888.b5938d97-b90e-4a3b-a338-1e2ca7788983.8db8474c-ed8a-459f-91e8-3093f856067a",
     "price": 49.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 403,
     "tags": [
@@ -70401,7 +70401,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18390.70332451977048199.b90bed65-0318-4c64-98e4-74f9e753c332.0a8b8289-c57c-45fe-a050-e133189547d6",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 58,
     "tags": [
@@ -70430,7 +70430,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50354.70327447906495863.01854fcd-ca4a-4642-a295-27b12b048aaf.e21d7387-da13-45ac-b3e7-bb02c2173ac9",
     "price": 29.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 266,
     "tags": [],
@@ -70463,7 +70463,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38790.70323071690757883.aa344172-c923-4b38-a055-9ce9a093bc86.fa2e3328-f1d7-4b43-b5e3-cfd7c69ee9d2",
     "price": 11.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -70495,7 +70495,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60030.70316322521686137.9b30dbfc-c7ab-4980-8dbe-b30e4e29fe15.762de587-7e0b-4e6f-bf23-bfd3651c9a99",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -70524,7 +70524,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31383.70311916332380430.984c5134-5b46-45c7-a5f9-c14ef79d4308.3ce0a4d9-44fc-4af6-b19c-5cd7c2cc4710",
     "price": 49.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 81,
     "tags": [
@@ -70553,7 +70553,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33130.70306648669442933.0ad02883-9547-43ed-a595-2a807684ce15.661619f7-c356-407c-87b7-276750817874",
     "price": 14.39,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -70583,7 +70583,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64451.70305154325491122.5c0868c3-d651-40c5-969d-01c185b5df12.fc73b900-cb4b-49b5-bc56-1ee1ae4dac13",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -70612,7 +70612,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64458.70337453596158090.1f04e04c-499f-4af1-a19c-88065bd90479.430927fb-62e4-4fa7-9491-902fc16e6ed5",
     "price": 19.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 305,
     "tags": [
@@ -70642,7 +70642,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27638.69836087516172366.d802940c-fd8a-4174-8a68-e41a2475e1a1.f1f791fa-f0bf-4e6a-8e7d-98f86a97b5a1",
     "price": 34.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 357,
     "tags": [
@@ -70673,7 +70673,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23907.69830399701674707.c86a6dec-43ff-4406-bab0-892029bba67b.61c1795d-6b19-4279-bbc6-6b556114644d",
     "price": 49.99,
-    "rate": 3.2,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -70735,7 +70735,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15630.69811958519777089.b8f2ff38-2005-4421-b891-4136b969acff.3e41c24f-396e-4c14-a0d7-fa0ee6663eaa",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 94,
     "tags": [
@@ -70777,7 +70777,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11308.69811231537758929.0161eb80-7b39-4a43-8e34-0f6d18b774b4.9ab571cb-dfbd-42f3-ae6f-8e6ba91ce190",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -70874,7 +70874,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45984.69874736107736400.7872e4d5-26d2-4c85-a11f-439cf513058c.320f1170-a2b5-44c1-a4f4-51f4e446e581",
     "price": 12.49,
-    "rate": 3.3,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -70907,7 +70907,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8749.69866126975118433.0c8a5df6-972a-47b6-b4f0-58fcd7df8087.dfdac4ef-2796-4aa5-b35a-68cd8165bea5",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 101,
     "tags": [
@@ -70940,7 +70940,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26755.69900013978706037.b3c65e53-5c69-46f0-b861-768aadc8f73a.538685c4-db9a-448d-8fc2-ba811f118d4f",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -70974,7 +70974,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24793.69897438766761437.79976aa1-405e-426e-ba65-066522206a5b.c4e144a9-b1a4-4047-8096-9a43e905e662",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 155,
     "tags": [
@@ -71005,7 +71005,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10261.69893236204139217.c5ea69cb-885e-45eb-ac81-87ddd0f973aa.d85da14e-55c8-4cfd-86cf-4c2247da00d9",
     "price": 99.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 830,
     "tags": [],
@@ -71035,7 +71035,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23097.69886306496288395.9ec42146-6037-4440-b5c7-3a44e5213cc3.0e09163e-a6c4-40f6-9fe1-24a6b4685c64",
     "price": 49.99,
-    "rate": 2.5,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 208,
     "tags": [
@@ -71069,7 +71069,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19903.69880601359820976.7b44d21c-2ba6-438e-b8cd-daee45bfa946.91ea74a2-86a9-4b6f-b915-335536f313a4",
     "price": 9.99,
-    "rate": 3.2,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -71101,7 +71101,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9903.14019452374744221.e291bdc9-0475-4a54-9135-802eff4c2e07.8c2e8c66-c961-4eba-afca-c6816b549f4c",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -71160,7 +71160,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28728.69945075044825416.99d4e5d8-fac1-421b-8986-d0fed49db992.61e009b6-5efb-456c-8f70-98bd73e50a3d",
     "price": 14.98,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -71216,7 +71216,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52020.69974940921143361.fc89e2c1-3565-4ad9-9994-3532d16de7f4.f0fc6f6b-ea84-4e2b-817f-e3fa4714f032",
     "price": 11.99,
-    "rate": 4.0,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 127,
     "tags": [
@@ -71252,7 +71252,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9138.69959397327195397.eb5a523d-641e-454a-99bf-fe995269ffd5.64e9a387-0e1a-489b-9a8a-5be981fb2c99",
     "price": 39.99,
-    "rate": 3.2,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -71281,7 +71281,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12723.70013197666730598.7bf6b51f-f7e2-4ed2-b766-32f390e32ac1.7eb8b24c-b19b-4f1b-a14d-4b1288766158",
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -71315,7 +71315,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44057.70012318168468878.5eebf938-97f1-4542-82e0-499e9e44e737.cb78a565-8129-4ad1-bb1e-0e9d2210570f",
     "price": 29.99,
-    "rate": 3.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -71348,7 +71348,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26142.69997608528322872.06dc9610-5c4e-484e-b028-58ad215e637a.b216af15-301f-4f23-83a3-69a59a87985b",
     "price": 69.99,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 136,
     "tags": [
@@ -71379,7 +71379,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8443.69993262899909428.0190d6b7-60eb-4d3f-bd16-b44c0e303861.3eca2151-5677-41df-99c6-6ef3e951a5a9",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -71407,7 +71407,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1291.69982232139578187.8434c7c8-a7be-445f-84d6-e65198d1af39.430a4f5a-9059-41f3-af79-1dee07e3d1dd",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 71,
     "tags": [
@@ -71437,7 +71437,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8674.70051076490382134.51e35474-fc7c-4a15-a3ed-0ec39e5c10f4.ee231b22-2d93-4742-8a5d-0a239ebebff8",
     "price": 12.49,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 45,
     "tags": [
@@ -71470,7 +71470,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24615.70043444627144466.07c9aa2e-cabd-4198-941b-534a009f5e9b.82f0bbc8-0892-41c5-9af8-1cfec85abca1",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 113,
     "tags": [
@@ -71525,7 +71525,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21563.70023333692849652.c376eb14-0375-471c-8aad-934fbddf38a8.bbd696ce-4427-4ba1-abf8-f415d9ec7dd2",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -71554,7 +71554,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17944.70066375305131012.7e5d8c08-6bdc-42fc-8afd-c1e176cb829d.62db6477-65e8-46a2-9e0d-5f3258bd2318",
     "price": 29.99,
-    "rate": 4.8,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -71612,7 +71612,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41066.70058674528093347.b16306a4-62ff-4b4e-a5de-67c162129f65.ca2a89e4-a1ef-46b5-8e08-00a71e04fb6b",
     "price": 12.99,
-    "rate": 4.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -71654,7 +71654,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27843.70676690581893559.a37ccc27-65ef-4e47-856a-9fcdd0c1017f.3166464c-271b-42c6-b052-0f1aa9432426",
     "price": 74.99,
-    "rate": 3.9,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -71686,7 +71686,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35940.70665335367412279.4973c7f1-f592-4ae5-aee3-d8119cb0b1d0.22f8621f-2846-4a17-88fd-47f0c2a62e83",
     "price": 69.98,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -71719,7 +71719,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12645.70715356435952169.d07ecf3e-7a12-4c6f-95e7-688a54e7e769.35735f71-a947-4b91-8b3d-d2fa68e9cea3",
     "price": 99.99,
-    "rate": 4.4,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -71749,7 +71749,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30966.70714258191819698.d43a6d51-770d-4e30-8758-0dece5aa6c86.35b55519-9418-49d9-818b-8fc111d0bbe0",
     "price": 94.99,
-    "rate": 4.5,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 140,
     "tags": [],
@@ -71777,7 +71777,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23288.70702278257994163.3d53b09f-6089-475c-ac1f-443a287576e5.52db1592-4a73-4d72-a798-0e4097018581",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 3353,
     "tags": [
@@ -71815,7 +71815,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16517.70698037221387097.3b2c0f5d-eb4e-4cd8-8075-77e281650e1e.894282d4-db9a-4cb5-9849-a1acbd2f6364",
     "price": 69.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 157,
     "tags": [
@@ -71844,7 +71844,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29037.70730244948540944.8535fe2a-a198-4b3e-894b-eaed24d76415.7940b534-6f09-41b4-9962-4fbfaa0691b4",
     "price": 2.87,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -71874,7 +71874,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15901.70790294810042638.6ff150b8-2993-4551-9437-98e94b8cf044.a221f5d6-8632-4b7f-9db4-5a14df2a2cbf",
     "price": 9.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -71905,7 +71905,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8709.70772410779944150.006889a6-95e1-4043-b4dc-ff56d08d95d0.ec7bd681-9bfa-4118-b05d-ece23b7b8885",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -71970,7 +71970,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11994.70823821492362242.30ba2ff6-2509-48dc-ae02-478bdf06e6b4.17e53517-c98d-4cb1-aaf6-034b53bd2a75",
     "price": 9.49,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -72007,7 +72007,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30218.70824088070466441.96475a50-5795-407e-933f-a039c63a4b56.e570851d-756f-47ad-a3d6-85599a764605",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -72050,7 +72050,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9688.70804610839547354.8da93c46-fd13-4b16-8ebe-e8e02c53d93e.09c2e91e-28bd-4f6f-bfd6-79d6b241667a",
     "price": 49.99,
-    "rate": 3.6,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 137,
     "tags": [
@@ -72090,7 +72090,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.997.70803643320167611.6d02d576-6cc3-42f8-8d47-36718b0154f8.dce9b715-083d-4dbf-b104-53a68a4fbe8a",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -72119,7 +72119,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5928.70793574977529715.aaba2fdf-8d2c-448d-839d-dc168291069b.5321b735-09e8-4fe2-ac05-f881d9159951",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -72149,7 +72149,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60245.70845836418201978.880fea77-3891-4db7-a69c-ded1d48c0178.cda837fe-ca1b-4831-8833-37ebacd5588c",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -72180,7 +72180,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26076.70893698145596502.e6730d59-d897-4b7b-9ba0-0182f3b9884a.f8f00a27-142c-4a4e-9a34-680058c778f5",
     "price": 49.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 1081,
     "tags": [
@@ -72207,7 +72207,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8669.70880402812557947.85a5d269-9531-460b-8284-98dc33e02d82.0bcfc32a-bcc8-4b1f-a30c-41fd8e865ea6",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -72233,7 +72233,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41206.70867093870260904.399850fc-4cdc-400b-826e-2d7f8c3faceb.d50351ed-7c45-4d0b-93fa-cd58f33faf2b",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 122,
     "tags": [
@@ -72266,7 +72266,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21805.70921300667420253.8c8a7ac7-d0bd-46fb-a144-4c5ea316247c.d018de86-d9df-40b3-8309-55253342e39a",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 416,
     "tags": [
@@ -72297,7 +72297,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48409.70396321205213476.f4e80b9d-bf1e-4a38-9aaf-2083e43f634f.c4e10243-6362-4d5b-b8ad-f934eb53aa55",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -72337,7 +72337,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31019.70406876433810089.4beffaca-3fee-4154-a21f-ecd9b3bedbb3.cc90d42b-0620-473e-a51e-52f0e5ff8454",
     "price": 18.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 118,
     "tags": [
@@ -72409,7 +72409,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4497.70456116266013598.a11ecb6e-9a5c-41d2-a5b9-bba664a958a7.2703f05f-e604-45cb-a214-7a9c282d38c6",
     "price": 24.99,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -72441,7 +72441,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2136.70505351891869244.31919849-717c-43fc-978a-de5dbc419999.b6931d7c-7172-411c-92bc-afed5e624463",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 178,
     "tags": [
@@ -72471,7 +72471,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55204.70508585950767585.c06e59bb-7d80-4022-a1ab-3b4e6b94f58d.17b6005c-7e80-4df1-83d9-8b16f2d63a51",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 49,
     "tags": [
@@ -72504,7 +72504,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21160.70543695624933493.70986566-95c3-497c-a0bd-afbe7e9cd047.5caab79c-324c-4200-95dd-cee76831beb1",
     "price": 84.99,
-    "rate": 3.8,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -72542,7 +72542,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58768.70536545072394246.bf27f6f3-1061-4fe4-be96-24e103b257f4.75c37ddb-9a5e-4c99-97e1-dc70606f4df4",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -72575,7 +72575,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50941.70538801997001679.e74a272b-aa3a-47f9-990e-ebe0ff233364.0e143036-237d-4f6a-939a-73823c60e6c3",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -72633,7 +72633,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62011.70530757819318746.1ff02618-18e4-475c-8642-006289d1b8a0.f458c340-0285-4fad-b464-7d4961ab0eca",
     "price": 39.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -72661,7 +72661,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30407.70569257215933759.aaaf90f5-247f-450b-8f3f-47d9795d78ab.f0c8f6fa-ec26-48bf-ae52-33ff315e8e71",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -72690,7 +72690,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5475.70611804061388891.c488c60b-bdd3-491b-9c3d-8357d25b5c5d.e46c5ee6-a783-4806-b86a-ebe6fe5aebf1",
     "price": 6.98,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -72720,7 +72720,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2066.70614617482392087.1331b0ab-59f9-438a-8801-8d64124093d2.a36d50d4-118a-40f6-9a03-f416161b1f81",
     "price": 13.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 225,
     "tags": [
@@ -72777,7 +72777,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9710.70637495857810801.fd5b143a-7beb-4ac7-a3b8-cf3f052e0961.57cdf4dd-4865-45d0-87d4-f027374e0bc7",
     "price": 59.99,
-    "rate": 3.5,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2350,
     "tags": [
@@ -72806,7 +72806,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25755.70629721364006074.1786a51b-2dcb-4276-b71d-b33298602eb1.3f41b3eb-1239-4481-89fd-399258c384af",
     "price": 19.98,
-    "rate": 3.7,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -72871,7 +72871,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33719.71220804959101191.bad88979-60b4-40b4-af6d-182d4534c987.ecf3220f-0497-4cf1-9cee-d46d9d86ecc3",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 63,
     "tags": [
@@ -72905,7 +72905,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43781.71281717463535284.105dadce-4d07-43b2-90ba-e768c2ae4072.62cbba75-ed22-4121-b0e7-06f943329ccb",
     "price": 19.98,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -72965,7 +72965,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29172.71318717668613786.29dc848f-b9cd-4370-a72e-21e2bb03b7ae.9479bb66-ff30-4d72-835b-07f7d47177a1",
     "price": 19.99,
-    "rate": 3.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -72999,7 +72999,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28548.71317950765633641.59f538ab-ddf9-4a2f-a6da-350db3fa582a.c24ba799-854a-4fb3-bce7-5a343f3003b5",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 113,
     "tags": [
@@ -73031,7 +73031,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8487.71312585381962016.9129575a-06f2-4198-bcb2-bffc2ece69e7.fe4c56e6-5636-40d9-b019-04d346b48674",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -73061,7 +73061,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26210.71308613299400080.f0c5363b-eaa8-4bbf-8ad7-8edb4ca2c029.f4e9535a-9bfd-4225-941e-ab6a8685194a",
     "price": 19.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -73091,7 +73091,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64306.71295133238032534.1de820af-1d18-49b2-9916-0df00df0df84.32f1093c-5db6-401c-b9ac-d0ff6434abb2",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 162,
     "tags": [
@@ -73119,7 +73119,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56980.71284913231831834.e5082776-e343-4a65-be15-61de38a07b59.269c5b8f-5ee4-480c-a07a-99d23d898b6f",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 539,
     "tags": [],
@@ -73143,7 +73143,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22832.71350298517625882.d6b6dacc-0dd6-4551-a6d3-56e32bc8d96f.6a15fb8c-6942-4490-9fad-3badb460cc97",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -73205,7 +73205,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3796.71343510227343465.377174a9-abc8-4da3-aaa6-8874fdb9e2f5.66a6149d-3c81-4fc9-8228-d7138701be91",
     "price": 69.98,
-    "rate": 4.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -73234,7 +73234,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12105.71337676682568588.3512babd-9ea5-41ab-9a10-947cfcb1053d.177ae67c-bb93-443f-88ff-e9e32afe59fa",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -73263,7 +73263,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11275.71331020072920166.7e86d9ef-4edb-4eef-a0c8-86f5c9475e2f.a4a76907-9245-448d-b8e8-620ce514f100",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -73319,7 +73319,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65532.71380028214263844.7b7ec011-0cd1-458e-be7b-4430ed62edd1.5569f024-b56e-4fae-aff0-7c35a6406158",
     "price": 0.0,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 141,
     "tags": [
@@ -73355,7 +73355,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16921.71371076658790719.6a93deb8-819c-40f1-be9e-cdac4005dea0.a308240b-e150-4c87-8c82-bac248260485",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 411,
     "tags": [
@@ -73387,7 +73387,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2435.71415569152440938.6739ca29-cd37-4678-ab4c-9de7eea4d902.ebef4dc5-7000-4381-aeb3-ec706fb63c03",
     "price": 39.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 224,
     "tags": [
@@ -73414,7 +73414,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7750.71407992032086985.ef1e3801-b72d-4324-8994-62b8bf6f7e16.8d3a2b4e-a262-4ce5-8e9a-3bc8e3ccdd48",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -73444,7 +73444,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21630.71397563746288321.7325ed2d-9c08-4db9-a38b-c7a2831b5c17.081af3b8-e610-4ca1-a3db-7967bf284929",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 74,
     "tags": [
@@ -73473,7 +73473,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26719.71434766889258227.1aee1ea7-c878-4f73-8cb5-6c5dc48abfc3.7469b2a8-4303-416a-b3f5-2a9175f02eb6",
     "price": 9.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -73511,7 +73511,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38644.71433286839923669.1250138a-286b-4b3f-8367-3d201ae45ae9.a08b2cbe-68eb-4c9e-a196-78097193172f",
     "price": 19.98,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 278,
     "tags": [
@@ -73538,7 +73538,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40677.71487820511756036.178161c0-a4db-4468-a5ab-af718a1373e8.7267772d-9c3e-4c37-a943-3f34aaf393a6",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -73565,7 +73565,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24608.71477539881738115.51f2255e-48e1-487f-a0de-56e956775dfa.3970cab6-edd9-4153-96b5-c23ff6c519f0",
     "price": 14.98,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 167,
     "tags": [
@@ -73592,7 +73592,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23482.71477577090891834.1a764ce8-f6cd-4aff-9af2-c52a3991eeff.b5e7aca9-cef6-4162-b4c9-ddb30fd72188",
     "price": 49.99,
-    "rate": 4.6,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 12,
     "tags": [],
@@ -73617,7 +73617,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42781.70960521668536987.25c7407d-0da6-4ec8-a798-f194d3d72157.5bf909e1-8208-491e-8fe6-dca093ea7d5a",
     "price": 59.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 133,
     "tags": [],
@@ -73652,7 +73652,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12517.70952388438497888.9a8a7127-1933-427d-b864-f4857d4c02fd.9d22a7c8-4ffb-4fd0-bf14-26df979de579",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -73684,7 +73684,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48561.70945032027557537.c7bca66e-475b-41de-bda2-2a136ca3b203.26b189ed-fcf8-4337-ad70-f5e16fe99d5e",
     "price": 9.99,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -73718,7 +73718,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18294.70971773779833883.790a47e2-a336-48eb-8a51-a8d9d3295519.5910a7c1-03c7-4b80-b6ac-0a867c43bbbe",
     "price": 0.0,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -73749,7 +73749,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57641.71033148530857238.4596a0a8-00fe-4f5d-9a67-11b37c7d6940.8222a948-8d25-4779-b6c3-423829a81d5b",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -73775,7 +73775,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17316.71037132718083264.9e558f9c-31e4-4757-b43c-05a53e0c4977.c28dc618-a99a-44d7-b6da-46f9050bea0d",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 157,
     "tags": [
@@ -73860,7 +73860,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43735.71006837568284782.322eff2d-b866-430f-9265-0de549978450.4d6e0ac2-cb68-44df-ba2b-443fdc72f628",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -73886,7 +73886,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26840.71067540525781792.47233f69-8e67-4ebb-94d4-d330f461a245.fec3a5ea-6ba8-460c-8bad-da217ff77d6f",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -73916,7 +73916,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43911.71058723343952395.ee07bd4e-dfb6-4630-b2e5-68eb652eec83.eea7cbe2-53a7-43b9-a113-2565d297973e",
     "price": 14.98,
-    "rate": 3.9,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 85,
     "tags": [
@@ -73950,7 +73950,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65336.71051199341094309.0502e995-3a0c-460f-bf9e-3401bb747a61.d9b90e47-65b1-4c4a-8b64-5d5f8384f30b",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 703,
     "tags": [
@@ -73990,7 +73990,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40002.71050925055292780.84669981-d249-4abc-83d1-890677ca1659.3bb7551a-dc57-4f03-81df-18e57f456dc5",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 138,
     "tags": [
@@ -74019,7 +74019,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65096.71100151761088573.88824642-fc7e-4e99-9b5b-32e26f7c27b9.4b7be015-afcd-42ca-9db2-364cd29734df",
     "price": 14.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -74050,7 +74050,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3594.71073486459839649.9ad953ef-7af5-46b7-89ea-e05d67b47a83.066f4271-a249-4eac-8c6f-85eb0a5305ba",
     "price": 9.99,
-    "rate": 3.6,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -74078,7 +74078,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52287.71134789017010780.4d1b5472-6211-4b65-b85b-949cf0be80c4.90b68c54-c40f-4b6b-b018-85c28f4a3ef8",
     "price": 19.98,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -74111,7 +74111,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19260.71127714305215144.dfbe21c8-4e10-4861-b737-47393066d41d.e4e4e15c-dc47-4608-80a4-564c7284796a",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 236,
     "tags": [
@@ -74141,7 +74141,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61717.71176172778637198.cf76cd3b-06f4-42a2-a2d7-31b01c880f69.0f059b11-92db-4737-b83a-ec44f7e92d64",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -74168,7 +74168,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45200.71162245280609796.2e57ace7-7138-4d14-9f26-1d3bf49a6957.ad7ab147-0329-4e66-aec5-c8e76ff4ea07",
     "price": 14.99,
-    "rate": 3.6,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -74196,7 +74196,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51771.71152136435073502.46846aac-fea9-4990-bc2a-0a0372e740e0.f6f2f37d-e9e7-4133-9504-3af0f7b0b148",
     "price": 14.98,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -74224,7 +74224,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43346.71147866799276202.0986b8d6-7c38-44db-a780-e7d0b5d3d3d8.f8a2f71c-1b12-464c-a8dc-365d4ee15886",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 224,
     "tags": [
@@ -74257,7 +74257,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32453.71143245537553871.23126cde-33bb-48f3-bee9-3b0e427e88ff.e972b75a-d379-4297-9830-3164cb6ba863",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -74318,7 +74318,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42921.71211964562853694.90c7e56d-3849-4b93-b983-faa56c446d67.46f20db9-71b5-41e0-a4a8-65e61374dcdc",
     "price": 4.79,
-    "rate": 4.1,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -74346,7 +74346,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40843.71196895604852083.e51bccc6-2f87-4730-9ad8-4987cbc866ca.f8b89398-40b6-46e0-b306-4cc526abd046",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 140,
     "tags": [
@@ -74382,7 +74382,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19050.71189044859921004.2f5f4865-c27c-4313-976b-c3322734813b.84db885c-96d6-45a8-9de0-32ac9824a54d",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 129,
     "tags": [
@@ -74411,7 +74411,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45222.71807300494969932.69855f10-40a0-471f-b309-fcb6e79bc469.ead442c4-9a36-4dd9-b73e-cd6af285ec7a",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -74437,7 +74437,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1865.71809554577530464.cb2c0ad9-fe6e-458d-8dc5-24fd7199c312.662daaf1-db78-407c-8782-2a270069ba78",
     "price": 9.49,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 42,
     "tags": [
@@ -74464,7 +74464,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44984.71802745615344223.9e9b7dac-0ab4-41cb-b2a8-7adcd6bd29a1.a8bdec51-5857-4553-b251-ee685e210ade",
     "price": 0.0,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -74495,7 +74495,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24212.71827372323164480.6e97c7d2-899a-404f-8660-d622a7fc9162.daea9ed5-4921-45a6-a188-637bfab7176c",
     "price": 69.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 399,
     "tags": [
@@ -74523,7 +74523,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36984.71865891542387630.ecd73f0e-54a6-417f-bb9c-ca50960771f2.1854f0b2-3696-4ae6-aaba-ad69bcc19a2b",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -74550,7 +74550,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22864.71856537465557806.5a4c3a35-811c-4c59-a5f4-01b630b6a392.9cb9f80d-8548-486e-91f2-5a9d489dc9d9",
     "price": 9.99,
-    "rate": 3.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -74579,7 +74579,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17295.71901737879009236.c4798d79-4139-4e57-bb07-d252b6ca567c.7d6ae67a-2619-4b8c-9551-00443618ed66",
     "price": 14.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 246,
     "tags": [
@@ -74609,7 +74609,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4128.71930896676716842.b6740fa4-0359-4ca8-9e17-5d4e45c2d497.ffa292b1-579d-4a08-99ef-308ab7791f79",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 367,
     "tags": [
@@ -74643,7 +74643,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46355.71927935782774833.0945dba7-2fba-4771-adc8-163b7401ad03.995e0934-b9d8-4581-85e9-5739fb42ec96",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -74678,7 +74678,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21876.71927944201985689.22e478c7-d0e8-4f63-8146-ecb0c3b5ef7d.32839c7d-68e5-43b1-a090-dbc7f353e36d",
     "price": 24.99,
-    "rate": 3.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -74717,7 +74717,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56808.71924568972017845.42633a93-50e6-4a40-96fe-90eaee8b73d3.26fff5a2-d0c5-4ee9-ae6d-0b0e0fa7bd6e",
     "price": 49.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -74782,7 +74782,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5",
     "price": 69.99,
-    "rate": 4.1,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 207,
     "tags": [
@@ -74810,7 +74810,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38847.71964511811794790.4a2c26af-50da-496f-9c98-7b913014bdd5.97dfdce4-313c-40b1-ba44-1e2ef6647506",
     "price": 4.49,
-    "rate": 3.8,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -74877,7 +74877,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31282.71997818166568368.20f2a55b-c262-40be-82ab-ed4bddf6e7e1.0dda82b5-0fb3-416b-9708-d228f54ca64d",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -74943,7 +74943,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53771.71995601368241962.063be1f5-e727-44b9-9243-8f287ee0ae94.704f16ca-988d-4f3f-a8d2-17df8306a647",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -74974,7 +74974,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55120.72023301858160066.d0348975-f33f-4df0-af7d-2b1622aa4119.dbae3182-711e-4a33-b15d-cc4372279bf6",
     "price": 9.99,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -75006,7 +75006,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.445.71517079117297789.5c6b52fe-3754-4bbd-94a8-5095d83e7174.767546f4-1cf0-4f82-bb26-95d93d6bab59",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -75033,7 +75033,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57017.71513750127249834.ba5ffba3-8477-4f6f-81c5-7a6c02a9f4c9.d4b533a0-8186-4e62-80e7-a72426bbcdbf",
     "price": 9.99,
-    "rate": 4.1,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 96,
     "tags": [
@@ -75066,7 +75066,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10194.71516628958304292.2179949b-2549-45b7-a1a3-eceb54fad2b4.db4e6361-c6a3-4d89-9fa2-6eb529a4241f",
     "price": 39.98,
-    "rate": 3.9,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -75096,7 +75096,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7878.71510837884329922.e091ebfc-ee9a-468a-b6e5-327d0f0d0974.ad149242-54a5-4f51-ab66-14ecde79d7d8",
     "price": 39.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -75122,7 +75122,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42256.71534445913389778.3217f3df-0d90-489b-8f2f-90d018aded6a.93f85cbb-507f-45b4-8073-bc9c7f9514e4",
     "price": 29.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 224,
     "tags": [
@@ -75186,7 +75186,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54009.71592693192229022.95f29c62-8ab9-4865-a362-219a5bf8c0d3.b7ea4d54-6fdd-42f7-9c46-57cd14808dd8",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -75225,7 +75225,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4031.71572041439194678.5d05371d-9189-4603-8b72-d531bae40af1.381ad754-ba88-44f8-ad34-6d05ada7e873",
     "price": 34.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 92,
     "tags": [
@@ -75295,7 +75295,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21257.71633162879241707.7cf18b3b-9fa5-486f-9a68-067f06d50bf1.8f7909cf-d9a5-44aa-9901-2635255ab2ee",
     "price": 19.98,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 100,
     "tags": [
@@ -75322,7 +75322,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22874.71628692841202321.956e15ef-22e7-4df5-a694-dbec083098fd.6cadfc26-c90d-4c21-9937-9d67dfef7179",
     "price": 0.0,
-    "rate": 4.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -75383,7 +75383,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17020.71613496457932142.8bbcc9d4-4729-4e09-bbc4-32c30a80c8ab.94cb172c-c79b-4d9c-b6eb-5167ed6f6c4e",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -75441,7 +75441,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59656.71610323640880415.6b24ddc9-c98e-440a-8276-7b6d614ae08b.76cc557f-41f8-4d86-b255-52cb3fcebe64",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -75475,7 +75475,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34544.71665921497358788.31625f81-7c6e-4ade-8445-349ffb069580.2e64d542-ede3-431d-b8e7-af1707c7e3a0",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -75508,7 +75508,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.561.71660068896059156.9cb28823-8ec6-4f90-b096-99f568b1099b.14cd7954-a2b3-4cb3-9464-a3dc971ae09b",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 89,
     "tags": [
@@ -75576,7 +75576,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53182.71673052342730938.98931765-0c8f-4ebf-9cdc-ab98ca67a242.29a78036-e073-4af8-bc1e-e77d396a994b",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -75612,7 +75612,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7609.71737991133072308.69d43b36-15a7-439e-a9c7-a5c25f6a0a95.616f9a00-7320-42e5-82ea-c702561a14c3",
     "price": 10.99,
-    "rate": 4.3,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -75641,7 +75641,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64519.71737353171179027.83997f85-ff8e-44cd-826c-44098b6be332.4f637036-6dd9-4d33-ba10-125a12b13499",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -75667,7 +75667,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62145.71725309066492610.4166ad7f-bf33-41ee-9868-6009a80bac53.9fe129c3-9d22-4ddf-8ac1-eb96b3e8d661",
     "price": 14.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -75736,7 +75736,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57565.71718434425658872.697ca9fd-3b48-4708-b6bf-b97acc67c244.88890908-dcdf-4b03-8e73-4a10af21f949",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 206,
     "tags": [
@@ -75769,7 +75769,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10821.71775074200248831.2796c3f8-c399-4de5-a2ca-c51fc1f331be.aebef518-96c9-4dfc-b847-582b10c83683",
     "price": 29.99,
-    "rate": 2.8,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -75803,7 +75803,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20005.71747127874122661.776eb7cb-d979-40e3-8674-14d684aabb3d.58de670e-fbb7-4559-85e2-b96dcb42acf5",
     "price": 3.99,
-    "rate": 3.3,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -75832,7 +75832,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5263.63341161591386020.ab855374-79b8-4c47-8836-ebf7c1b6657f.bf3f06d8-d7dc-4c87-ab16-873b475a2337",
     "price": 14.39,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -75866,7 +75866,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38100.63336639312113079.0c249a50-01ac-4e3b-8879-6daad580dc60.aca672f8-30d8-4c04-b932-41d455d2386c",
     "price": 69.98,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 138,
     "tags": [
@@ -75899,7 +75899,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9585.63396549578270258.1a674480-8a06-407c-ad05-3fa4635b2fb6.e89f376c-6943-441b-ac62-aaaf2fb7a612",
     "price": 49.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -75933,7 +75933,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18933.63396036358019988.76da8f17-90e4-413f-9f0d-97e5896eb9c3.b8e13a5d-2796-4051-a3b1-edbba5efa595",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -75972,7 +75972,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54858.63381296256995371.338a759b-c781-436f-b8c1-96c454e8f5a5.3fd2ecbb-f20a-40c9-99f1-ff388c643517",
     "price": 0.0,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 6292,
     "tags": [
@@ -76011,7 +76011,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48888.63380265586365831.1555bbb7-7743-4e40-af30-9522b68b2b3c.db5596a2-c912-46a5-ac57-72579e2f6b37",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -76041,7 +76041,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23971.63383066376280961.7151ea38-5ae8-4b57-a508-98f8c71c7b13.86953df6-fe90-442c-9110-4df6a7d2e798",
     "price": 0.0,
-    "rate": 3.3,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 45,
     "tags": [
@@ -76076,7 +76076,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18633.63374382493974717.a842e1ef-edff-441f-a6b9-5ff96ec57465.f9d7a836-8c27-4682-99ae-22509c6482c9",
     "price": 19.98,
-    "rate": 3.9,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -76107,7 +76107,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51096.63435052096425467.cd1eef72-5707-4f2b-807d-ab3c5baf858c.feb06dbe-5615-42c2-8e26-fa15d1745896",
     "price": 14.39,
-    "rate": 4.3,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -76162,7 +76162,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1348.63413868670389858.a909f79f-bf9a-495a-9565-6895806c3525.4fb9db2d-c395-4076-9a58-6521ec1898e9",
     "price": 9.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 108,
     "tags": [
@@ -76200,7 +76200,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47379.63407868131364914.bcaa868c-407e-42c2-baeb-48a3c9f29b54.89bb995b-b066-4a53-9fe4-0260ce07e894",
     "price": 69.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 430,
     "tags": [
@@ -76232,7 +76232,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24838.63409341877910445.4fd452e1-c3ee-4448-a0f8-ac6eb6bdaabf.d531d87c-d1b7-497f-b802-baabfb728090",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 285,
     "tags": [
@@ -76264,7 +76264,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8813.63460736466173537.43accb13-0658-4cb9-a3a9-2dd4b18ae15e.31bec0ff-ab11-4731-bd2b-8bb28fab7c53",
     "price": 14.99,
-    "rate": 2.8,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 44,
     "tags": [
@@ -76294,7 +76294,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55959.63460683299249965.ecfe14f9-0c4f-45db-b560-6dd8aa48c5b7.48589b51-6136-414c-94ea-7f2b430f7368",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 175,
     "tags": [
@@ -76351,7 +76351,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2495.63480054013357415.47f24cd4-46f5-4d81-95e9-3dda29c53f94.cda65a1a-e81a-4529-94e1-efc65289aba9",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -76409,7 +76409,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14957.63527307381190078.506efdd9-d8bc-423d-babf-8939193f1e53.3b655c01-bbb8-491c-81c5-e5f079dc937c",
     "price": 12.99,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 38,
     "tags": [
@@ -76437,7 +76437,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2219.63522733557919310.523a96ed-048d-443c-b401-929321768dde.1567a359-a25b-4434-9b5b-e0c13e62d258",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -76469,7 +76469,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52235.63522818950068614.67559cb0-9f5b-4bc6-89e8-95e130121990.6f1381e2-b338-4a3d-ab8f-cc69b0663041",
     "price": 99.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 38,
     "tags": [],
@@ -76498,7 +76498,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31673.63553167684393025.1b31f51e-c4c6-49b1-bf61-a2e65ea14c73.150d2a5d-49a6-4724-8e53-cb908f866746",
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 94,
     "tags": [
@@ -76566,7 +76566,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52908.63543675138530776.2e94a007-4830-4df3-b096-12b4a8305b54.ce1beedb-8e39-4388-bef5-c41400e5067d",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -76595,7 +76595,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29809.13897576008709751.2a03398b-a338-415b-b860-375a94472e34.70982d73-0f9f-4ad8-a928-23f7491dc7f6",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 402,
     "tags": [
@@ -76657,7 +76657,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33967.63589542170965098.6248147e-94c2-40ff-98ff-79e6ea0e27db.48212c8d-d25b-4988-98b1-a8af31a3df1d",
     "price": 49.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -76686,7 +76686,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13956.63579060588016569.6eb380da-b190-4777-b70f-99fd2b3b8470.629467d4-063b-4588-9f07-addaf6317ae4",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -76714,7 +76714,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51712.63578515352530781.654b6a6c-876d-4298-8a2b-48ebeb623343.6814ef65-f812-4558-9ca3-3475260dc3d4",
     "price": 14.98,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 61,
     "tags": [
@@ -76740,7 +76740,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34516.63074075270529131.75ac7603-5cc7-40f3-bc21-81426ac087e4.727f83e8-a574-4f37-b8c6-fd634a793d94",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -76772,7 +76772,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25048.63117477798842663.9d75c437-1857-4273-859c-e36a5c74b7f0.b0e6168d-4141-4fe4-98c7-ceae0816176c",
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -76832,7 +76832,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57918.63104648801353472.1f16b78b-617c-4a28-a573-670db7c75a11.f68ce882-469d-41ba-8cff-19454152e8ba",
     "price": 19.98,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 147,
     "tags": [
@@ -76858,7 +76858,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47930.63106309821199100.9620a5eb-7967-4a1f-afe8-9a7568a40f30.18c1d789-dd27-4607-bef7-c17d9fa47506",
     "price": 9.49,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -76884,7 +76884,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5204.63106305798833094.06dc747a-ef1a-435b-821f-99e91fcd63ab.87aa5118-fb60-4498-a8a8-d4df1506897d",
     "price": 0.0,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -76912,7 +76912,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9809.63146343056227159.13d6b857-c7cc-49c3-9773-65a03d114ac0.33a1c14e-d6dd-4567-8e7a-2c146baceabd",
     "price": 19.98,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 68,
     "tags": [
@@ -76939,7 +76939,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65239.63137510087334682.8f8bcc80-302f-4fb5-b47f-069311f96e0e.a519ba3f-070a-49c8-ad83-1d41ade3a04a",
     "price": 19.98,
-    "rate": 4.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -76968,7 +76968,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33180.63131787694667297.e786edde-5064-499d-9660-f3d7c293ceaa.57b4555b-2b38-4ba8-a158-87aa941960f4",
     "price": 24.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -76999,7 +76999,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62452.63190170638872947.b9c3fd7a-5a21-467c-a173-4c77e999b932.1654a0a8-9bfb-4d0e-8866-d299b1db8df0",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -77030,7 +77030,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51925.63259922983379508.4cee811d-e0a4-4110-abcd-7c902fa725cd.ade370cc-f66e-4c95-83da-bf3ecbc69e2f",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -77074,7 +77074,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7039.63231504676176196.fce3b959-5f54-4aad-a199-00e19cf052ba.0b7d81c1-9a6a-491f-af83-7123aaa1e5bd",
     "price": 49.99,
-    "rate": 2.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 83,
     "tags": [
@@ -77106,7 +77106,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34255.63278591508693516.0bea0e54-44bc-4e14-9b73-6f659222eddd.0bedc64e-e7af-4883-8e0f-53255346b92e",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 32,
     "tags": [
@@ -77138,7 +77138,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64817.63269083363854969.ce8aaedf-930e-4c3c-9d01-a32ed1d8ae18.32b20b45-a2fe-410a-9d3d-5eacd4d79a79",
     "price": 0.0,
-    "rate": 3.2,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -77201,7 +77201,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9961.63309362003335928.4079e21b-b00f-4446-a680-6bf9c0eb0158.f69e9d47-aef9-4aba-9297-915f02c744e9",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 237,
     "tags": [
@@ -77227,7 +77227,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63265.63304587485156736.a554dc6f-d005-4660-b44e-fca06231a19c.6a04ebe5-7e9a-46cb-81e5-975b81452a67",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -77291,7 +77291,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45547.63913435932326454.e2b842ea-6d9b-4f6a-8954-699c7d61d0bc.a46fe964-9eec-48e8-b6b7-e4fdc642b862",
     "price": 1.99,
-    "rate": 4.4,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 79,
     "tags": [
@@ -77321,7 +77321,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58247.63898271062114554.1608e264-a500-416f-b390-5dac1c1b8a0b.f2a6558b-dc5e-4734-abee-a3e10e91edf5",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 72,
     "tags": [
@@ -77352,7 +77352,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31079.63897965662954936.b31dc3ff-ad07-4e00-ab2b-7ee72e0a5c99.da4ceb13-4949-401e-809a-f719e3d2d839",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -77379,7 +77379,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55416.63952439433679058.d41126ca-a436-4a0b-965e-7d3efa7bbdbe.0230f4e6-ecf0-4e48-881a-b29b8cbf1f10",
     "price": 29.99,
-    "rate": 4.1,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -77407,7 +77407,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16789.63947939566921580.c52847d5-b55a-4651-a1d1-b4e760c9c5e7.ec3b3f30-1876-42e0-ad3d-410a997ab09b",
     "price": 9.99,
-    "rate": 3.7,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -77436,7 +77436,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65316.63947935064990729.c2e56e2b-56a7-40a7-b697-2b3dc1838d17.c9d74019-af41-4fa2-8c33-3eb8ebd5cf32",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -77463,7 +77463,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35063.63931221767911181.04748305-9257-48d7-ad4d-5d17021da534.48137a89-06a0-4903-b9ca-05b2e9d75123",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -77498,7 +77498,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63599.63971194712892648.2292346f-d9ca-4a4a-b979-4d2ce30b77e4.c9f4b7be-f7bf-4fe8-9b6b-0b64966ff2d7",
     "price": 49.99,
-    "rate": 4.9,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 263,
     "tags": [],
@@ -77558,7 +77558,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42981.64058972034305073.b87da33f-b9c2-4c9d-b9fa-46986dbd7e0b.40f58cd1-d126-4194-b732-c48649121908",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -77656,7 +77656,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21349.64043286656884915.a163fa2a-1720-4665-9cb7-4ce9c5ffe4bf.bd6c7acf-9ca6-4fc2-8fc8-2ba71c6c29c3",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -77691,7 +77691,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48174.64090029807136264.88ddb0db-cfad-423c-bb52-c5b649930fb1.18259e82-3a13-4440-ae66-031e2e818198",
     "price": 29.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 110,
     "tags": [
@@ -77719,7 +77719,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30994.64089017197710810.41be4569-c1ec-4aff-8658-ec58f7466792.17c92be8-83dd-4704-8f28-07da2e6c3d6c",
     "price": 9.99,
-    "rate": 4.7,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -77750,7 +77750,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3588.64086861975291109.30ca5fca-c212-40da-9a62-e80b8bd7b477.e85b40df-78d8-496c-918f-abc96b924013",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 442,
     "tags": [
@@ -77777,7 +77777,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51173.64137251553025305.69d52b00-9b8c-49ef-89fd-8deb9b3703e4.a8e481c8-3a26-46d4-bce0-fbbba179feb3",
     "price": 39.98,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 166,
     "tags": [],
@@ -77831,7 +77831,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34393.64122308222742873.15d36f5b-53d3-4a06-b907-d3b4e9ffe2cc.9eca8d01-8921-4325-aec6-f5f5fc27f5b2",
     "price": 14.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 91,
     "tags": [
@@ -77858,7 +77858,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41267.64171167600854339.769a7d46-88f2-46ee-befd-5bcc8d35dbb4.b08d4981-cd45-491d-a8a1-e65ca4975545",
     "price": 24.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 147,
     "tags": [
@@ -77887,7 +77887,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49296.64151368418487554.bec1f6f4-6267-4546-8f68-c5819381fc3f.44c4117c-1764-4288-acea-ff97b30d61b3",
     "price": 39.98,
-    "rate": 4.3,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -77914,7 +77914,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34536.64148876922571625.4747b43e-3d86-49fc-aa97-ee00c70af4e5.bcd88ea2-2525-4c6e-9405-76aa8b3719e5",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 73,
     "tags": [
@@ -77943,7 +77943,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16693.63620992461246090.a9ad9137-07ac-4b55-a547-6bd3bca518e9.08b9e295-e768-468e-9005-b593f4cfe475",
     "price": 19.98,
-    "rate": 4.3,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -77973,7 +77973,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5272.63613604984995316.d403620a-54b7-4a68-9850-e3bfda4c2552.e2570646-3c83-4402-ad04-459f40232ca5",
     "price": 14.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -78006,7 +78006,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.3354.63616920973247054.04fe22ae-6b85-448e-884c-341fb7dd8893.6e78fd36-1a8c-4263-866c-1f39f19bd7f2",
     "price": 16.99,
-    "rate": 3.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -78044,7 +78044,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14258.63616134786168875.d6ddc368-0ae6-4df3-bd3d-e74705ddad76.b1081907-edb5-4173-b243-625112b59034",
     "price": 0.0,
-    "rate": 3.1,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -78078,7 +78078,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33136.63662448200369091.e9ea660c-2244-4172-9839-23ffa30d29e7.f3296206-b851-44ae-bf1a-c0246cc26faf",
     "price": 34.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 221,
     "tags": [],
@@ -78112,7 +78112,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29520.63657969076271726.154f5a09-55ab-4b31-bc57-4e0335fab06a.98159a5f-99d5-4db9-89bc-4ae02f971596",
     "price": 69.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 319,
     "tags": [
@@ -78140,7 +78140,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11883.63654932181578003.5ca34652-fee1-4066-b03f-b5d2c02c32bd.6ecec8cc-e7a8-4bad-8fea-339d8a0b01f3",
     "price": 9.49,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -78203,7 +78203,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64495.63711882770259105.200b5eaa-7f0e-4227-8be9-89c5f33f5f83.5305318d-9cd9-40e7-865b-75a4ea2018af",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -78233,7 +78233,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56591.63708288899166610.635a867b-70ae-45bf-9884-ee041d617140.3cee7c73-3ad1-4ddf-b537-0241ba6bd603",
     "price": 9.49,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -78261,7 +78261,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12162.63703186252600476.d4efcf87-07ac-4ef2-a6b6-f8582eb9f4db.3cf04b88-1065-47a2-a9bb-df43a6fdfc56",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 50,
     "tags": [],
@@ -78285,7 +78285,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5718.63703957641232998.177fdfdc-28b2-4e28-b9e3-f1f92be54d20.02b2fbf0-b0df-40b5-8cd7-46824b242a7a",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -78314,7 +78314,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52810.63697282657039132.38483398-bdb5-44f9-b410-ac1eb8e8a201.aa59d0bc-13dc-494b-b270-d44f40dc6ac8",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 353,
     "tags": [],
@@ -78340,7 +78340,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64004.63694564727593943.ecaaa39b-5f39-4c25-8212-5ff068509767.18545c27-a5e7-4d56-a0a4-de5f152ec374",
     "price": 39.99,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 39,
     "tags": [
@@ -78368,7 +78368,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21931.63690153748880726.e9068239-4195-4d3f-90f8-2f2ebb66094d.f21f579e-bd59-446d-84ed-efe701a057b5",
     "price": 19.98,
-    "rate": 3.3,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -78428,7 +78428,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38397.63746241995916608.ef8c3344-9e5c-4485-bfdd-1b0b89424c00.58cf85ca-6c88-4e53-9649-3a78716df855",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -78463,7 +78463,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27289.63776395779475805.bb16bc3d-5c8b-47ba-ab2c-357a4bef7261.eff68bd4-b338-4561-8378-57ebdc72d2b6",
     "price": 19.98,
-    "rate": 4.2,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -78497,7 +78497,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41032.63808395800309979.917fe7ab-2958-42d5-93f3-8367f3619c00.b06bfcdb-10fe-45c4-ac9e-f5c2223ba185",
     "price": 19.98,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -78528,7 +78528,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9822.63836873768130262.f1f140d8-4fff-49c3-b318-36fca1cd7343.b9ce2807-8ca4-4d58-bea0-f5826e99e3c1",
     "price": 69.98,
-    "rate": 3.7,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 90,
     "tags": [
@@ -78587,7 +78587,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41231.63872620703332057.dc58dbbe-2e95-496e-8e8a-75f4cbe8fb27.158fce1c-2142-4b01-8267-798334273012",
     "price": 39.99,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -78615,7 +78615,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54265.63871735021400137.c26f6699-e357-4cd5-b50b-728d3df1e31a.0fed6ac5-b07e-449e-8050-1f33811705ab",
     "price": 6.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -78644,7 +78644,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8242.64488747008423447.ae07c274-81e3-447d-a26e-6bb613ad8105.77d813e1-ba1b-4f8a-9b95-b9f02599191b",
     "price": 17.99,
-    "rate": 4.1,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -78673,7 +78673,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38525.64487593573487091.8d424a50-57aa-46bb-8a57-cab2f29ba5dc.8f464e9d-c1f5-4edd-8a7b-194e0579c6ce",
     "price": 19.98,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -78701,7 +78701,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53880.64478484299016632.acc161ee-ac6b-492b-bd5e-6aca1d3ce791.1ffcf012-8978-4b7b-b54f-81bcbfd1e130",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 62,
     "tags": [
@@ -78770,7 +78770,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43675.64499457304317555.08810181-58f1-41db-bb16-7a232d5444bc.7ab8ab7b-d91a-48da-8904-a242a18ee704",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 104,
     "tags": [
@@ -78800,7 +78800,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33965.64551636260013700.1f1c7f34-b3c0-4bd6-9f25-d2eaf60e807c.e0bd4b4e-27fc-4ea5-a37c-b36fcf909f44",
     "price": 9.49,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -78832,7 +78832,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1806.64546203790173669.472f31fd-36c6-42f1-ba03-de18cffe66fb.9c8f9b22-c1a0-4fe4-8866-40f43bd426f1",
     "price": 49.99,
-    "rate": 4.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -78859,7 +78859,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16943.64529835475243960.ae1e6a9e-239b-4698-84a2-9dd3ee45b9ee.9836083f-b35e-4343-8ec8-d1b901798735",
     "price": 19.98,
-    "rate": 3.7,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -78887,7 +78887,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36591.64531043079077982.73d41c72-0bae-40c4-aea7-f1ad767d4a27.ff9ed76d-d1a4-448a-a96e-8ec8154f389f",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -78913,7 +78913,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35342.64592712150036487.eaac9a33-d899-4e07-993d-4aebc456b04e.37bee079-c261-4bbd-abf9-d5d0f1400e9c",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -78943,7 +78943,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65310.64581772364132402.c5492a1b-bf30-4211-98df-0349f52d8245.00d5acdf-ad3d-4674-a511-3a9264ef7677",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 523,
     "tags": [
@@ -78972,7 +78972,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5089.64565521137234771.d4fa27af-3a00-44af-9927-ce57a7066702.c87b015a-61cf-46d6-a77a-0b8d09279d37",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 209,
     "tags": [
@@ -78998,7 +78998,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59422.64633042395266327.fe3e8dcd-b3e6-4d8d-9f78-12af478ef113.85b34adc-c0fc-44ce-a2c7-f7be22e2881e",
     "price": 3.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -79027,7 +79027,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45103.64621327310262034.ea083227-cf2a-46f4-bcdc-676d4d5d1aab.3888ed24-bc79-4ba9-9cbe-aedff5ee32cf",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 166,
     "tags": [
@@ -79082,7 +79082,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54868.64605579267603330.41951795-0436-48f1-a7f2-dc8c078c91ae.871d000c-a974-4264-975d-aa65fe003531",
     "price": 9.99,
-    "rate": 3.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -79111,7 +79111,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38305.64692616828374411.8ff99461-d60e-42ac-afc0-ad89eb164264.b8096143-ec0a-49f6-b632-628caf2a55cf",
     "price": 4.99,
-    "rate": 3.8,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 153,
     "tags": [
@@ -79138,7 +79138,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2171.64683500179851142.712a13cb-1b36-47d9-add7-9f8e7b369eb5.65597055-26c5-4f4c-8a26-1df27df6ff48",
     "price": 14.39,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 10,
     "tags": [
@@ -79175,7 +79175,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24779.64682799204913125.f407971c-f15c-4acc-99e1-682aec54019d.985e964e-48ec-4ebe-959d-58fdbe158f01",
     "price": 69.99,
-    "rate": 3.9,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 102,
     "tags": [
@@ -79205,7 +79205,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54956.64685437728184486.c9d12960-acf8-4c00-8c8e-550e985442da.71a6a2d9-fec0-40f2-96dd-582f03bba56d",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -79234,7 +79234,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40324.64684943350717490.a719d015-e9d5-42ea-8dfe-4b4f31566278.60e79d84-0b59-4a4c-a46d-9251f5f4e0b6",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -79271,7 +79271,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31989.64676761359365869.4c4dfa98-d983-48f6-8be8-947cb40983a7.6a1da413-6bd0-4711-adc5-3ec94ddb6823",
     "price": 49.99,
-    "rate": 2.8,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 367,
     "tags": [
@@ -79339,7 +79339,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53697.64737940845214615.82a9a5cd-32c5-4fb1-a951-2a7b976ad460.f0e0779f-450f-421f-b0c6-7b04bf25fa60",
     "price": 0.0,
-    "rate": 2.9,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -79369,7 +79369,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44193.64731639180234187.ef9f08c7-a053-4657-a057-02cbb6029516.9b0cdc89-43cd-4a11-92ab-6e8afa676012",
     "price": 69.98,
-    "rate": 3.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 63,
     "tags": [
@@ -79395,7 +79395,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23601.64723872221358754.1c058246-6227-4765-b766-794a3eaf2479.57b232f7-c32c-439e-9399-dead8ec9610f",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -79483,7 +79483,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24554.64186527073186856.0d708dad-fc01-4144-a489-41f294bb9b46.89ad5065-2cbc-456e-9fda-f53c733b474a",
     "price": 14.99,
-    "rate": 2.8,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 74,
     "tags": [
@@ -79580,7 +79580,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22498.64275037031620855.07e1d5e7-6491-4a41-9467-13c6171de454.2d6f359d-5fb5-4df3-9e44-7e33e1a9f2f7",
     "price": 0.0,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 4381,
     "tags": [
@@ -79617,7 +79617,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56078.64273675158289496.8166c900-b6f7-4a0d-9d1d-f96dc540827c.ffbf4a9e-b48a-443e-ae53-9092c4f04787",
     "price": 29.99,
-    "rate": 3.3,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 47,
     "tags": [
@@ -79643,7 +79643,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34775.64265361305508273.98e0a12c-63db-4e48-94c8-7a1cfe9cf737.1af3759d-74d2-4096-824e-6767ab1d713f",
     "price": 2.99,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -79675,7 +79675,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8802.64264900557532049.ad2fbff6-ad0b-4613-887e-db1db6d72a56.02d08036-4ff0-41ee-bb95-6231d6d765cc",
     "price": 79.99,
-    "rate": 3.8,
+    "rate": 3.0,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -79709,7 +79709,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7537.64266607737147175.246f2ec4-a726-426c-be79-0d8b0aae412c.be0fe6eb-2a79-491f-b55d-69d3ded16e07",
     "price": 19.99,
-    "rate": 3.1,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -79741,7 +79741,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12385.64262041090618072.97940a7d-67f7-47fc-b298-066b1e05a4b8.7a3d61b2-9763-4ac0-9aaf-4ba8312241ed",
     "price": 49.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -79770,7 +79770,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.9333.64259898141661418.88a268df-cea8-4976-8ca4-fd34e3ec45ff.0d1cf636-747c-4fca-b9c1-65289cc61689",
     "price": 0.0,
-    "rate": 4.0,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 318,
     "tags": [
@@ -79805,7 +79805,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31281.64256825846959382.44b5bc43-437a-4414-83ca-b41ba9e7764a.86abb8aa-f419-4a90-b6aa-cf79b4228f06",
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 213,
     "tags": [
@@ -79836,7 +79836,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25648.64286168779643232.e59d8100-f61d-440d-9a3e-015e1f141559.e1c7d9f4-f567-479b-a5f4-6793cc07a8ef",
     "price": 18.99,
-    "rate": 3.7,
+    "rate": 3.1,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -79867,7 +79867,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64303.64349971641539857.18ce194a-3280-4ba2-96c0-e81ca96f894d.d4cf0271-f873-47cb-ad6b-a63e9931db52",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -79963,7 +79963,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40270.64334061285074095.e5a154ae-597d-4c9d-a62e-5e255d3eae65.db2ee415-a3a6-4ea4-904e-257ea227812b",
     "price": 39.99,
-    "rate": 3.4,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -79993,7 +79993,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45526.64375930417563211.9380ebd5-b334-4a01-9c31-e3f6b3426f0f.82d3447a-3b13-460e-9df7-a2ba0b2828e6",
     "price": 0.0,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -80023,7 +80023,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60024.64374245401097180.9920fa51-ef19-48c0-bb96-867f887cec66.427b5281-47cb-42fb-915f-94f26dc56f9e",
     "price": 0.0,
-    "rate": 3.0,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 701,
     "tags": [
@@ -80093,7 +80093,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24983.64364220857593310.cf9aaeef-441f-4b6c-b1eb-ea5391dcf297.e33974bb-8788-4111-af4a-9d7fc115de47",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 96,
     "tags": [
@@ -80122,7 +80122,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34768.64394882138437593.772185c5-50e8-4003-ad76-1f056f2fe454.bf25143c-c2f0-4a1c-84f6-cc4256d384d2",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -80178,7 +80178,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36988.65051712567756527.a1658474-c896-4e2c-a1e6-332fb9b009cb.89690b18-fa68-46f0-b137-b5f91336e655",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -80208,7 +80208,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35376.65054500213687431.8cba6eb1-54f1-4a49-a2d3-af344dc56f9d.c5785856-cfab-4487-8962-c0128f5289d2",
     "price": 39.98,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 91,
     "tags": [
@@ -80238,7 +80238,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24811.65049759038650156.9c9f4a81-e21a-4dcb-b819-b75ab00b696e.7461a932-7d28-4f09-b6c8-695ccfc367bb",
     "price": 9.49,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -80299,7 +80299,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1194.65030662266398711.9c91f6a2-6dfd-4393-8806-98bc77ae92e4.edc864bf-784f-44e9-bec2-5ec472ac0fa4",
     "price": 49.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 98,
     "tags": [
@@ -80327,7 +80327,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60060.65085476200656299.23ed482b-54cf-4d9a-b325-0dc2a6c443d3.3004943f-d382-4f2f-b696-0c30ec0a6edf",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -80383,7 +80383,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41135.65073350744326613.2438d22a-cff2-4322-9aee-cf908b18399e.5b53a790-a792-416f-bdff-eac7ad7fe85c",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -80415,7 +80415,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53755.65065811820236534.1dd1b7c9-53f7-4722-b031-98512ec46196.6d05d6c0-e3a6-4b39-a76f-b58179059394",
     "price": 4.99,
-    "rate": 2.9,
+    "rate": 2.6,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -80506,7 +80506,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.2805.65125427675965946.9a11f22d-d015-4e5d-8fe2-d22c387be19c.55436672-743e-4c6f-b104-ddca23969d53",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 80,
     "tags": [
@@ -80535,7 +80535,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5670.65118147888064862.34ac2629-c86a-44fa-b037-3dc09857899b.c3c2677c-5210-4956-98ae-32099f2443df",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 50,
     "tags": [
@@ -80625,7 +80625,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40015.65147151963367196.799b4fe9-6fca-43c7-9f3a-5621f22f3e71.f4849b12-1a0b-44aa-a4ab-25616cb99ed8",
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -80658,7 +80658,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33822.65142295737158223.d62a04c6-0e29-40c4-b8cd-3dfb8e251d58.89855f40-ea7d-4065-b43e-54f4f89afa90",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -80692,7 +80692,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61486.65126552246474151.78efb818-bd86-4785-b927-41e9f3ac2e1d.8aee50c3-a52d-4edd-8584-adffa1e4d082",
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 45,
     "tags": [
@@ -80733,7 +80733,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30236.65126288183385274.a0ea0aae-2c63-45b1-a42b-689a8a50abfe.6c5e0936-e0f9-4b3c-b334-40ed8cc06d1e",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 49,
     "tags": [
@@ -80766,7 +80766,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52880.65129518710082559.30d43137-919f-4215-820e-038b409fb968.9b56f6c5-bfd1-4b02-beaf-666f707aa0da",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 272,
     "tags": [
@@ -80875,7 +80875,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26109.65168763453942994.59189b32-08e8-4571-bf29-57c880d52d11.b2ab7d45-dc97-4459-97d8-74e150cf1d3b",
     "price": 7.49,
-    "rate": 3.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -80907,7 +80907,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26951.65163600688313318.94eeb422-53b2-4dd8-b287-02e121ee128f.46a183d7-67df-4aa1-b391-752d83c13cce",
     "price": 14.39,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -80934,7 +80934,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65157.65253472131842354.9dc3590a-e7f4-4303-acec-c2a305706b98.d3974fbc-7912-4518-be35-6b5da103fe7a",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -80962,7 +80962,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17064.65295984727875951.7489a6d7-c660-45f8-a94b-d564deca7952.98187c36-5a49-4d1b-adb6-260395c1a5bc",
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -81025,7 +81025,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27750.65292684070648119.ad98b5eb-291c-4d54-bdba-448d32cc1331.7373dca1-ba6a-416d-9cd5-71bef46765e0",
     "price": 9.99,
-    "rate": 4.8,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 56,
     "tags": [
@@ -81052,7 +81052,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39404.64749641572752805.175ce062-5a0f-4685-ab33-3ff880fc371e.ced90479-cad5-468f-8006-8aa3e7623fcf",
     "price": 11.99,
-    "rate": 3.7,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -81084,7 +81084,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45672.64747773650783417.d358d35a-b35c-419e-8db4-e2cdd857d54c.4217e873-1cd9-4826-8578-f7a94253d4f3",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -81152,7 +81152,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16545.64778072665897661.5dd96cdc-1f47-42a7-bb63-f2ed9da8c6c8.e74fe3ec-777c-4e3c-bfce-145ea7851d86",
     "price": 9.49,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -81184,7 +81184,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64306.64841033704503268.bc0de57e-6dcd-40b5-b35e-f9f46b4ec1ae.f10b3597-c0ec-428e-9266-d457abfd1d56",
     "price": 44.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -81211,7 +81211,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55124.64836246235984560.bec2cadd-35ed-40bd-a918-fd0c0a3c2b92.4da1c511-ce18-4434-a117-50f01f4f9794",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 54,
     "tags": [
@@ -81238,7 +81238,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7237.64864752449895779.8a86defe-f10b-413d-833c-96a963b88942.86c1a0ef-abc7-4ea3-a9a0-b23d77e118bb",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -81272,7 +81272,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1273.64860558234786024.c6d17f3a-2d73-46e6-8a1e-c828e528d51f.c0546c16-c1b2-4f91-921f-762c88c3ab54",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -81302,7 +81302,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61074.64854652411309764.b4096ab7-d7c5-44f0-a216-0ae26d8620af.2ef4ccf2-ebad-49a1-bd38-18834c758df2",
     "price": 39.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 363,
     "tags": [
@@ -81329,7 +81329,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.48091.64846750187506935.dc526a03-bbf0-4a14-9a4f-4cd3fce3f793.94a56e30-21cd-48ef-897f-2a1f9f10f296",
     "price": 2.49,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -81358,7 +81358,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19262.64911624705357684.143dda37-a168-4070-8c18-17da62560244.3b951e5a-8172-4430-b89a-22d3c3889e2b",
     "price": 0.0,
-    "rate": 2.5,
+    "rate": 2.4,
     "requiresGame": false,
     "reviews": 117,
     "tags": [
@@ -81388,7 +81388,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15286.64897275529504530.274a6d93-2caf-472a-852f-2f603baea2bc.9731664a-091a-4cb4-8cea-6b8b6a72303d",
     "price": 0.0,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 96,
     "tags": [
@@ -81418,7 +81418,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26887.64883801209281026.6d74c440-74a1-45da-9871-769334a6a782.526c1249-5809-4a7e-85b2-f45604e6140c",
     "price": 12.98,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -81448,7 +81448,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57010.64883538053964940.aecaeb30-2341-4e76-97a4-2e45da152eec.88c2db1b-3a90-42e5-bbb4-f879e02ecba6",
     "price": 15.99,
-    "rate": 3.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -81480,7 +81480,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11281.64948385422045442.fc5518ac-d506-4b26-8e08-6bb267328027.96f86827-5005-4c15-900e-9de4386feed6",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 233,
     "tags": [
@@ -81546,7 +81546,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37098.64929956291619853.fa69305c-13b5-4899-942e-e38de3a44885.fd44c45d-c509-4099-836d-f8dddafca5d2",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -81600,7 +81600,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38026.64976218733825344.25c6a4c3-10fa-4983-82da-c677f28d9e56.2198a046-0f9a-452f-92d3-e9ca12aff631",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -81631,7 +81631,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10418.64968088825281909.9b277039-cc24-430b-af88-84cb681a7dd1.c5342e3e-88cc-4823-8c94-7b90241c9eb5",
     "price": 9.99,
-    "rate": 3.5,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -81698,7 +81698,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32732.64967151257760797.b440e798-649e-4b83-b511-7890d42d9480.1290072c-1f8c-4584-a87a-268c60847f4e",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 51,
     "tags": [
@@ -81726,7 +81726,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25024.64966040986796622.073d7a93-f5d5-4d9f-a957-c08989da9134.28f6548e-29b6-4eb2-9a0b-e31479b09a6b",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 48,
     "tags": [
@@ -81756,7 +81756,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40838.65013422782242887.abd597a8-b2b4-413a-a74b-3ea53e0b17ea.3f2bf8a0-7012-4896-a2dc-92e9e6f68096",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -81840,7 +81840,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.6920.64998372950229933.77155980-5b6a-4296-88e2-959fda591dee.9f5a56f8-8520-4a1e-aa4e-ab5b607e5fb1",
     "price": 49.99,
-    "rate": 4.3,
+    "rate": 3.7,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -81873,7 +81873,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7416.65615205021247223.482c3e2b-5d36-4622-b0cb-dbee9871e71a.6dc9901a-2117-4fdf-8072-9c92179e9bf1",
     "price": 18.99,
-    "rate": 3.8,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -81905,7 +81905,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58358.65600164923549701.b5f5465c-6898-47e3-b77c-aece3de79b8e.e6f8f8b0-dac6-43d0-a5f6-6eff4a8f0e2e",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 550,
     "tags": [
@@ -81931,7 +81931,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51753.65599229205085232.6f62c203-a516-423e-8c47-a0c3acd54766.4691a3b5-b853-4d9b-9880-f395798d561d",
     "price": 9.49,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -81995,7 +81995,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45516.65595136073047161.857e51a5-2b52-4c0e-8ac2-92b6b4609fc2.d6aede50-9d8f-4813-9417-fab3a1d88e74",
     "price": 11.99,
-    "rate": 4.4,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 256,
     "tags": [
@@ -82035,7 +82035,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17469.65642028844779555.c518e652-fc85-4d6e-99a2-3e9ae1656a91.6cace333-df13-4178-a46d-5938de4654a2",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 181,
     "tags": [
@@ -82063,7 +82063,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.59115.65634957263642837.8d2a1241-870a-423c-9874-022d32d5b65a.7661ee05-6fe5-4051-94d1-adc7bc642a69",
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -82089,7 +82089,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19524.65628589247650354.15798d03-b124-4f83-b650-43d2d8161381.d5c823c3-4f1e-43c1-a9bf-33dc3c44a1ed",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -82117,7 +82117,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55508.65671037133885924.c5909ce6-7943-4360-a5e9-f4793e20fe4f.e4147f37-9d7a-426a-8d30-7b6ccb9624dc",
     "price": 26.99,
-    "rate": 4.9,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 496,
     "tags": [],
@@ -82141,7 +82141,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28349.65662382309071117.9608164f-1a28-41e4-ab18-e80182fc1e96.17a7f296-fb63-4591-acd3-e6010b48ad61",
     "price": 14.99,
-    "rate": 4.1,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -82169,7 +82169,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35225.65720361252122895.6705784f-9e29-4778-8df4-707828cc2c63.4663d4ff-97a1-4835-9c9b-ce7c63ca7d85",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 114,
     "tags": [
@@ -82199,7 +82199,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7419.65713969332819836.f799ede1-a823-4a97-9813-92f7177dafc1.256443ce-8ee5-460b-8f02-88cb0d3b16bc",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -82233,7 +82233,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38596.65705053504536370.9de7bd8c-6ed8-4e64-9f80-9ae6af2af3de.9b01898c-2bc9-446e-9086-82000cc54cad",
     "price": 4.99,
-    "rate": 3.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 2,
     "tags": [
@@ -82265,7 +82265,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.32831.65694799004979235.42406ab3-4e87-4679-a905-16b9e2570703.d75364e8-c031-44f6-b1c4-1ea11fd90cb5",
     "price": 14.98,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -82305,7 +82305,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5856.65694988112101034.c15514e8-7968-4bf7-b987-2351359caa9f.6d814bf3-40fe-453d-abcd-a530ab2c1525",
     "price": 0.0,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 148,
     "tags": [
@@ -82338,7 +82338,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46148.65697580773346286.de1a7dea-d35c-459d-a15c-a737811ee00f.81763cd8-510b-439f-8393-ef687850226c",
     "price": 9.49,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 20,
     "tags": [
@@ -82370,7 +82370,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43582.65690499810545026.aa1d3860-b757-4828-bb9e-87e0858403fe.6662f982-8e5b-4f1d-b400-61208379de70",
     "price": 49.99,
-    "rate": 4.6,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 597,
     "tags": [
@@ -82400,7 +82400,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.60868.65692336169092801.e1d2c200-31f8-4985-8431-f22545ec1d3f.0485a6f4-8c3a-40e5-b215-4e848705e3f1",
     "price": 19.98,
-    "rate": 4.8,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 371,
     "tags": [
@@ -82426,7 +82426,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40918.65749786814923168.a6bc7691-4449-44ac-a7cd-18b5195a3439.111191ba-4299-4362-9be8-9ab21d3b615b",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -82454,7 +82454,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4942.65748918852770661.e7973522-f7b1-4195-98ea-63e9f619be82.ad007c22-b36d-4337-be46-a61389b68c3a",
     "price": 19.98,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -82480,7 +82480,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65440.65744006262128424.fd395d60-3bcd-4ef8-ae0d-a70ac7d65371.debea79a-7299-406a-9d95-263678da9580",
     "price": 3.99,
-    "rate": 3.7,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -82513,7 +82513,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25529.65743914527603622.b98c7b82-aeb0-44e7-8071-19a17867fd8c.10fd03c8-edbd-4389-964b-9b0a287945cc",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 105,
     "tags": [
@@ -82545,7 +82545,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.5745.65731567105824046.05fc7def-933e-40fc-85ef-1bd8fcb6a8c9.076a04eb-47f2-4980-82b3-6319da3f34d9",
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -82580,7 +82580,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14606.65780799141015212.07b74564-f8a6-4ab1-b868-91169ad4faff.9416d5a7-9aa0-47ab-b85e-5f4ff6f6fa9d",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 300,
     "tags": [
@@ -82611,7 +82611,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7293.65776340494285965.d56e0e82-14f9-4c5e-91e4-bf4ebebd86e7.6cfe3a9f-96d5-4b90-9069-fd449a087c02",
     "price": 24.99,
-    "rate": 4.4,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -82673,7 +82673,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55268.65760911830429861.7b27281f-47aa-4d50-936b-ec0d2edf2e0a.9703c69a-c126-4f9e-b1f3-a6d129904732",
     "price": 4.49,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 92,
     "tags": [
@@ -82707,7 +82707,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40792.65822291322698290.de4d0045-b651-486b-923e-0150f5d7e43c.35c75b67-64d9-4c00-bcaa-1a6a4e268a62",
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -82735,7 +82735,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63796.65820328204201259.8de11bd5-2be8-4e78-b7bb-8b8a722d7143.8e5e3d07-6979-4c8d-8bfa-b7621d722492",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 30,
     "tags": [
@@ -82762,7 +82762,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43525.65812291288120258.78db0a4c-6279-4de9-b89c-0e62cd3d55c7.8c1aabc2-4501-44a1-a9db-5f0de4dcad0a",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 1370,
     "tags": [],
@@ -82790,7 +82790,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47760.65811856773478282.3e90209f-2418-4c1a-8d07-b5e7909d8037.eb0c2f40-2a25-43e4-a3cc-97277c8a0452",
     "price": 29.99,
-    "rate": 3.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -82854,7 +82854,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24111.65806558541457305.a0ff0982-eced-4bfd-bb78-5ba7a73376c4.8173048f-456f-4928-bfcc-268f5002a41c",
     "price": 54.98,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 296,
     "tags": [
@@ -82883,7 +82883,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64933.65797690556719461.d7adc74a-94bb-4275-a019-c776d63c7c38.a772e5fe-0024-46eb-8d22-15ed864efbe5",
     "price": 9.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -82913,7 +82913,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53717.65858607118306853.39ed2a08-df0d-4ae1-aee0-c66ffb783a34.80ba72da-abfb-4af6-81f2-a443d12fb870",
     "price": 49.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 265,
     "tags": [
@@ -82942,7 +82942,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25053.65843946604617087.4d3f1eaa-9f9b-4884-8da5-69d3fa77479f.c8e55bec-d1f6-4fe4-b3fa-13ac1e79814f",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 282,
     "tags": [
@@ -82975,7 +82975,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34162.65846051804097394.567e1817-979a-49f7-9d78-19fe5209d8f2.fa6c1765-06c9-4b98-af2d-8243c761ea2c",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -83006,7 +83006,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13233.65337361678217538.076929f7-568f-40f8-a97b-49afea238f3d.b3820120-6e79-4cc9-b47d-2fca283cee4e",
     "price": 29.99,
-    "rate": 2.9,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 80,
     "tags": [
@@ -83033,7 +83033,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1980.65336223521854929.1beffc00-2dec-412c-8387-fcc1cd1a5709.8b0eb197-7e59-4d9a-b53b-2701c2268fd6",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -83061,7 +83061,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26819.65330717998707644.9adca242-7123-41b7-ba35-74ec15a93554.67711ea1-bb2e-4034-bee6-54b3302fa155",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 108,
     "tags": [
@@ -83091,7 +83091,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34545.65328483881162508.89a95049-a2dc-4b27-8f56-0a4f5a72a393.e2e2902b-cce7-4ca0-9aba-5f8615c5d9ca",
     "price": 39.99,
-    "rate": 4.1,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 58,
     "tags": [
@@ -83118,7 +83118,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52353.65316930463474702.8bd81916-34f9-4e21-9716-b1f55adb797a.85394748-695a-4460-85d6-046309b7449d",
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -83172,7 +83172,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28901.65368678236892280.41fb9163-3193-43e5-a02c-6d9bbcdca64d.1dd8f00e-179a-4fab-ac7e-3efa29450038",
     "price": 19.98,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -83235,7 +83235,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45707.65368156188850899.8562f1be-ab7d-4bf5-b57d-841551091be7.c3fced1f-c1d1-4348-beb4-546dc0e33683",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 310,
     "tags": [],
@@ -83260,7 +83260,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.40993.65367730044127425.992bf426-3c9a-450f-a792-7946f7138dee.bc090b3e-e51c-49eb-861b-e6093fde7cdd",
     "price": 9.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 203,
     "tags": [
@@ -83294,7 +83294,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61655.65351109767529701.defb4d0d-acab-4fd9-8208-7283068f991e.4a134adf-f963-4c72-9344-1294d7888c08",
     "price": 39.99,
-    "rate": 3.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -83323,7 +83323,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21372.65350722092865199.201e9ea0-6a9f-43f5-989c-2a4a57fe0801.f9558466-dc41-4973-98be-5fefb68a0461",
     "price": 9.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 46,
     "tags": [
@@ -83417,7 +83417,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19587.65392999590663672.028b6875-f925-4d40-b3a1-e44db3b4fa32.13ac70be-1487-492d-934e-c1c514e85f52",
     "price": 49.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 289,
     "tags": [
@@ -83453,7 +83453,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35410.65377716030309997.4ce8fd57-e617-46e7-9d4f-e8b49f4d07ef.df98cfd9-7020-4aca-8705-7addaccf3c2c",
     "price": 39.99,
-    "rate": 2.9,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 124,
     "tags": [
@@ -83485,7 +83485,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15190.65440672462593252.c45d461e-fd6e-44bf-9661-0e330af1de74.d4e6528f-a4b9-4ed4-97e7-a41eb9b6bd7d",
     "price": 14.98,
-    "rate": 3.8,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 24,
     "tags": [
@@ -83548,7 +83548,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18798.65438047844408580.4d8e2dc8-5a49-4729-93fc-7949edbb301d.fb1f771b-4697-4b76-8e7f-1dd70aa20198",
     "price": 54.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -83575,7 +83575,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.18466.65473984734964019.1cb25db6-a5e7-4639-95d9-118812ca7b23.41108fd9-5e32-448c-9b4f-def548d68cb7",
     "price": 9.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -83634,7 +83634,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58231.65463610408817762.16ac64e5-a1b8-49fa-87ad-cbc5902fcb27.b9524e52-fe80-4e00-9b0a-66275fe9ed5a",
     "price": 49.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 113,
     "tags": [],
@@ -83658,7 +83658,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22570.65457035095819016.56f55216-1bb9-40aa-8796-068cf3075fc1.bf29284d-808a-4e4a-beaa-6621c9898d0e",
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 53,
     "tags": [
@@ -83689,7 +83689,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64378.65451885530746575.8a5aee7c-560a-4bf0-bf8a-e1434a45f12e.c5680502-5073-4a46-84e5-ec55c0922293",
     "price": 39.99,
-    "rate": 4.4,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 781,
     "tags": [
@@ -83722,7 +83722,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1353.65509226370944490.f82aa561-02d9-4c13-a034-158ddc68a226.3dfc22db-4e51-40b3-ae8a-da40a05baf01",
     "price": 39.98,
-    "rate": 4.1,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 103,
     "tags": [
@@ -83751,7 +83751,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11066.65505148941307156.aaa1f682-5121-49b0-a22b-71488be992cd.219f8eb4-ba2a-47ea-8f9c-7334ccea7dab",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 43,
     "tags": [
@@ -83798,7 +83798,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10933.65494054591008504.4eae27ba-1cfe-4af2-950a-4af81f8cd22a.b5b2909d-8884-48d0-b25a-68d6518c9b73",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 10778,
     "tags": [
@@ -83836,7 +83836,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41543.65523398993639028.2c280ccc-7f03-4d25-8060-07f62a42af2f.6d66b18d-3dde-4ccf-8703-824fc30c3a23",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 238,
     "tags": [
@@ -83865,7 +83865,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43607.65519478801132845.cd2b438d-79fd-45c0-b934-f0a29e4c7781.d013de79-aed7-47c0-8e0f-663ce84e7a33",
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 8,
     "tags": [
@@ -83900,7 +83900,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42385.65518272230759039.5e3ca4e0-b715-4325-9e92-17a1f7f77c01.976d8e81-e5e7-4b1a-8606-1b2a946c2d35",
     "price": 0.0,
-    "rate": 3.9,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 313,
     "tags": [
@@ -83958,7 +83958,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61612.65516361464340384.2b1af344-4937-4a1f-af6f-8e009cbf5afa.38b449f3-b1b4-46bc-abd0-d8727a273fff",
     "price": 29.99,
-    "rate": 4.6,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 115,
     "tags": [],
@@ -83983,7 +83983,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.564.65580861313771066.1d93e191-b426-4488-b999-9c0a984f1361.b2e1631d-81d4-40f4-a626-f13b57f0ed1b",
     "price": 14.99,
-    "rate": 4.5,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 9,
     "tags": [
@@ -84023,7 +84023,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43306.65577870102127192.24a0a154-ded1-4a40-a91f-102019aaee70.3d6649c7-7ee3-4a8d-80f6-3eeb41e5484d",
     "price": 49.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 211,
     "tags": [
@@ -84059,7 +84059,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.43883.65571960709588388.6e3322f5-d49a-48f6-ac1e-c5450bd5b3e2.81633a6f-d4ac-4e01-9f1b-ed97cfab5d07",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 195,
     "tags": [
@@ -84097,7 +84097,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26222.65574829312963982.92685f81-8340-4653-9b69-d1597de23984.a6914ad1-43bd-42fb-b154-50249e93f7ae",
     "price": 29.99,
-    "rate": 3.5,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -84128,7 +84128,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45433.65558769981368986.7034720e-a177-465b-b622-787d317b2e37.895cea56-f640-4bdd-b256-2713e2936b4a",
     "price": 9.99,
-    "rate": 3.7,
+    "rate": 3.4,
     "requiresGame": false,
     "reviews": 14,
     "tags": [
@@ -84157,7 +84157,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36133.65552910726292335.3086e865-b330-4e23-8a9d-f940d5cff913.36f7d5c4-1a20-4382-a3ee-2ad302bd7db5",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 81,
     "tags": [
@@ -84186,7 +84186,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.1230.66175927222580475.7f09fde8-a46b-4c45-8584-a5e3090f8190.710043e4-29a9-4a9e-b032-03c4d8b85b47",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 52,
     "tags": [
@@ -84213,7 +84213,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35221.66165516745978903.83aa3163-5b62-45e6-b4b3-9b19a582239a.c3893ab1-9eff-4e93-9712-906e3c836892",
     "price": 49.99,
-    "rate": 4.1,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 26,
     "tags": [
@@ -84242,7 +84242,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61791.66204197587713833.6acce86f-4c60-4f18-a892-7304cc9e3c0a.72c383a6-6770-4c2e-a8f1-7f7307ea4690",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 57,
     "tags": [
@@ -84268,7 +84268,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62584.66202864014410549.0d66fdb7-d0f7-4865-aacb-6679e729897b.dc825132-96ce-4c16-9196-68dab6276d6a",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -84294,7 +84294,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38081.66195747619049805.173ede73-bee5-4c9b-822e-bdd649229e4d.964455ed-f0f7-468a-a15a-09373eec4e28",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -84324,7 +84324,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39121.66242155198368015.76ebc2f1-b382-4820-b401-1be1abfa6813.9d6eda3d-42ea-4f97-8fc3-a5cbd4d56afe",
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -84384,7 +84384,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4730.66274487452813675.86971dec-0f03-42bb-b657-322859f064f4.130a3c09-259d-4961-8a49-70176caf3c2b",
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -84414,7 +84414,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25048.66252839971129113.8f5f5ae5-f77d-4f3c-8388-3b220332b617.940c4634-b0ce-49bc-b3fc-72f324326421",
     "price": 12.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 62,
     "tags": [
@@ -84440,7 +84440,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22761.66320051603326854.b464c65b-2268-4c53-a93d-a31b1c2a5855.d2198516-84f3-46cf-98e4-eba4ed322592",
     "price": 29.99,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -84471,7 +84471,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13829.66310835470031971.3454ddad-536a-4cf4-9c3b-605a7f9977ca.86dfc9a9-38c3-437b-af37-b18fd13b88d3",
     "price": 19.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 135,
     "tags": [
@@ -84499,7 +84499,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36219.66306165076301615.31f64b0c-dad0-424c-90e8-4fd26b84ac3f.24207c82-af8c-4d28-9913-14b0f83173aa",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -84528,7 +84528,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64393.66295912699963136.14a9bdc6-8d0f-438f-bd1f-694932dd29f2.48e9d49a-2436-4f9e-b97c-c36e6a55fdd8",
     "price": 24.99,
-    "rate": 4.2,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 5,
     "tags": [
@@ -84589,7 +84589,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41908.66376178575409495.28021d24-909c-42a5-a778-184b2951c31c.2dc93c4d-1f0c-4f03-a54b-77fe566cca09",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -84620,7 +84620,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13296.66425179718417247.57b86ed0-6058-4db4-8b1b-de99b4e8e818.59259047-4081-45b8-8de3-5740afab68e2",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -84650,7 +84650,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.61268.14306507722043572.12b439a1-9081-4be4-99ba-49ca7c2f4145.ec5f63e2-ef1f-4380-97fb-bd809c8bf48f",
     "price": 19.99,
-    "rate": 4.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -84690,7 +84690,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29198.66416288418246547.8db04ed4-6710-424c-b2c7-fc1b8f89e9a2.125b501a-844a-4ec6-86ef-3c46ebf4c698",
     "price": 69.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 93,
     "tags": [
@@ -84725,7 +84725,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12167.66413836855496638.93b02bdd-ae92-406f-bbed-442e800bb4ce.4d51f3f9-8ed3-464d-93b6-9f447ca86201",
     "price": 19.99,
-    "rate": 3.3,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 35,
     "tags": [
@@ -84758,7 +84758,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16416.66406861093311956.a8c8f515-daa8-479b-af0e-06d27ad9565d.0a9216e5-e802-4928-afdb-9ac03237966b",
     "price": 19.98,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 86,
     "tags": [
@@ -84788,7 +84788,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56499.66404640910927425.ba4e0662-aef4-4067-ae87-b6ef134fde08.a8f4d2a9-82c8-4a47-bc26-fe1a7de3eaa2",
     "price": 6.98,
-    "rate": 3.8,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -84851,7 +84851,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.30493.65899934191524753.dec1aacf-d964-486c-83d6-4e3a1b4c3be4.d57614b9-f9dc-46e7-9b97-997e23e33bef",
     "price": 9.99,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -84909,7 +84909,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51808.65879595913192778.89cddac7-b910-4341-ad09-dcb0f30b0daa.3a7ea7f4-bda6-48e8-8522-940af674b747",
     "price": 0.0,
-    "rate": 2.5,
+    "rate": 2.9,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -84943,7 +84943,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.42856.65875159957610601.885db2e1-fa65-4753-8519-7bfd2e253213.4263db67-11ce-492c-92f1-ae6b5ede17a8",
     "price": 24.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 58,
     "tags": [
@@ -84976,7 +84976,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39063.65958767407690020.e90015e9-cba0-4cd5-b32d-c62a10271205.bf25fbb2-3337-4916-8445-274708dfe642",
     "price": 0.0,
-    "rate": 3.1,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 70,
     "tags": [
@@ -85012,7 +85012,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57257.65950198718570153.e6cbdcb6-240f-44a7-ad03-8b09a93497eb.c5fc8b68-249c-4411-9bb2-7f70176ff16d",
     "price": 14.99,
-    "rate": 4.4,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -85044,7 +85044,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45518.65947022139350472.152efdf1-19be-49a8-a386-bbb716d9a6df.02b0ab5f-f09f-462b-af33-e2625b8d7fb8",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 222,
     "tags": [
@@ -85074,7 +85074,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53899.65994536935844326.63967ac6-d81b-4b49-84e3-6d79e5596d90.930675b5-732e-43b7-af8c-1e079ccf8885",
     "price": 19.98,
-    "rate": 4.2,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -85109,7 +85109,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44413.65985311967005000.4f51b5e9-febf-4990-8951-33ba59b634c9.924253ef-36b2-4cc0-8bb1-9a97c88d4828",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 88,
     "tags": [
@@ -85142,7 +85142,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.46188.65975599250604930.d5a546c1-b6d7-4e4e-a800-0d9731605f57.737d80ac-414d-4e62-9d9c-8ac0f89b889d",
     "price": 49.99,
-    "rate": 4.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 429,
     "tags": [],
@@ -85171,7 +85171,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23587.66026872382583995.4c335f78-9221-4442-8620-f6ef132f3040.fe41e371-1d46-4891-b273-ab0495c60987",
     "price": 24.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 40,
     "tags": [
@@ -85229,7 +85229,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58903.66059165415666278.ae2e3863-216f-4e43-abb5-5040b0d870d3.740b34c1-13a6-40a0-aba5-eaaf16587c25",
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 15,
     "tags": [
@@ -85265,7 +85265,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.17913.66061984908082265.00884c53-4850-4a2a-8e92-43e3b03bb0dc.834b0cfc-cc7a-44ab-a5ef-2fdfe42bbcaa",
     "price": 29.99,
-    "rate": 2.6,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 244,
     "tags": [
@@ -85294,7 +85294,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56581.66109053219718297.55ffe300-0d5b-4e9b-9463-3e4ad119e1c6.d8dcceed-e650-40b6-9eae-bc0e32506bd0",
     "price": 39.99,
-    "rate": 3.8,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 88,
     "tags": [
@@ -85321,7 +85321,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12975.66102710986666865.f3f95329-edb8-4378-a10c-f93b88b105d1.10ef1888-343c-4f20-941e-cc639be33ecd",
     "price": 14.98,
-    "rate": 4.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 27,
     "tags": [
@@ -85382,7 +85382,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.24827.66090267447566515.61271af5-be33-40a5-a102-433643651bb0.b6f878a8-d089-4183-b727-525438cd62ce",
     "price": 14.99,
-    "rate": 3.4,
+    "rate": 3.3,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -85412,7 +85412,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44718.66093009016690714.a0bbc592-ab77-42de-a527-6fdb1366b262.0bdf7af8-489e-4e10-830b-41c2f6af1170",
     "price": 59.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 114,
     "tags": [
@@ -85482,7 +85482,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7992.66084178781808662.5cbdeec6-594f-44e2-ab1a-acbdbbe8e331.4b46fba6-08dd-4c43-88b4-d5a76ec0e723",
     "price": 14.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -85514,7 +85514,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36391.66079354874449012.f05d0e40-0a97-4704-b658-a9a671affc1f.df0e4568-cc9c-4147-a149-f00cec5d4304",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -85546,7 +85546,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50361.66140674465174653.87b233ab-7e5c-417b-9d55-ad08143ae685.603f7c63-bb75-441a-a2f8-1c17d6744a02",
     "price": 24.99,
-    "rate": 3.8,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 262,
     "tags": [
@@ -85572,7 +85572,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.4510.66137279607498582.e351e425-8d5b-4d5c-8f56-aa8a9a62aa26.ab6f0ae6-d32f-4543-90c2-7d120e5728f6",
     "price": 2.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 4,
     "tags": [
@@ -85601,7 +85601,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51335.66124464761594972.7ab61a54-d40e-4db1-9831-c3d088c44d30.fefccf42-568a-4cd5-bae2-6a899206b476",
     "price": 49.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 761,
     "tags": [
@@ -85635,7 +85635,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8836.66739226444175410.cad7ed59-85e3-4868-88b1-09e8bfab98d6.f3e914bf-9a17-4b5c-b718-09dd4b4b9511",
     "price": 0.0,
-    "rate": 4.1,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 2127,
     "tags": [
@@ -85671,7 +85671,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50634.66726508910677917.a577adb2-6c73-4149-92ac-c3807d2d15cd.e78c4c54-33e7-47b8-bcc8-fa77e3055f41",
     "price": 9.99,
-    "rate": 3.8,
+    "rate": 3.2,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -85701,7 +85701,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11906.66775322055201236.034a7290-e0db-4018-91b7-9858128132e6.1cf8076c-76f7-4db9-be5f-9cd531e1f08f",
     "price": 14.39,
-    "rate": 4.4,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 21,
     "tags": [
@@ -85764,7 +85764,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.47857.66762846522151419.8f6a0f49-4bfa-4aaf-a66a-6a13c8b0191d.d49480b6-060f-4c2e-a44d-32c461cf1836",
     "price": 24.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -85798,7 +85798,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7354.66795167581690331.6243694a-51d8-4e47-a669-9f75a7a2ae49.4fd04854-e88f-4256-b613-fbd81f85670a",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 78,
     "tags": [
@@ -85828,7 +85828,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26511.66842413687067999.642b7cf0-66d2-4c06-8a06-cd6faa36cc00.5b192ada-158c-4941-b641-498eaa6f4eca",
     "price": 24.99,
-    "rate": 3.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 39,
     "tags": [
@@ -85859,7 +85859,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.64256.66844059373005859.084edff3-e994-44d9-8b5e-a9ead1faff94.e8441619-aa72-45d1-ae8c-c98af2c88016",
     "price": 69.98,
-    "rate": 3.1,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -85887,7 +85887,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29431.66831976381179541.2c21c831-d350-4ce2-84f7-5eca93660c20.41aef851-52ae-49e8-aa79-d711ec0bcaa4",
     "price": 0.0,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 36,
     "tags": [
@@ -85928,7 +85928,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.56444.66828190550422385.fbaf89cf-b3e0-4543-aeba-5f00ca851393.df40c5a2-41e9-472d-90ee-ba9fd7488662",
     "price": 69.99,
-    "rate": 3.0,
+    "rate": 2.8,
     "requiresGame": false,
     "reviews": 141,
     "tags": [
@@ -85956,7 +85956,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62150.66873235889732843.685adf61-8959-427d-8c3e-e4a5ef4bf7f5.7aa63942-7eaf-4854-a210-ac1d2f951847",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 55,
     "tags": [
@@ -85984,7 +85984,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65012.66899389918915343.3cdfd82d-2868-4f03-99bf-197a61c1cda4.994de704-9d81-418b-8e1e-f002b9f03853",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 57,
     "tags": [
@@ -86020,7 +86020,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.39348.66902085872217864.df676289-5ef8-4c7c-8533-965928392024.f6416b31-6307-4580-b835-d86d695f532d",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 156,
     "tags": [
@@ -86052,7 +86052,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27248.66945940929342019.3c8e01a6-6e60-4733-ada9-8cdf420e19fd.6ee58089-8fa0-47f2-a329-887e3a0a217e",
     "price": 14.99,
-    "rate": 4.2,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 103,
     "tags": [
@@ -86080,7 +86080,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58870.66939704732857862.bc0ad359-452c-446e-8027-d65c6b21a9e1.89370cca-3f0f-4b71-a5e9-3e5764352603",
     "price": 9.99,
-    "rate": 4.5,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -86112,7 +86112,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29824.66934420265726607.e7f79b00-768c-452b-bd03-0eb82296f498.bede3049-1930-4d42-81a5-6f2149437fa0",
     "price": 29.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 208,
     "tags": [
@@ -86175,7 +86175,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12657.66977881282882149.29e00ee4-f5aa-4b10-8b20-d48f548a10d0.bc4f4ccb-cf75-4357-a51a-59cace998918",
     "price": 24.99,
-    "rate": 4.3,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 312,
     "tags": [
@@ -86203,7 +86203,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.54745.66974914511950569.ff702c97-4a02-4354-b453-9db00dc580cb.75e1e6ec-5699-49a1-b466-bb4d41f03fc9",
     "price": 19.99,
-    "rate": 3.7,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 28,
     "tags": [
@@ -86236,7 +86236,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.26618.66445546520609419.4a3b03bf-e99b-4622-bb87-89586f01c3b4.ea5c2607-7fb4-4309-93d5-e2d1b676626c",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 23,
     "tags": [
@@ -86307,7 +86307,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57079.66479098504680257.54442f09-e711-48dd-b432-f073a0b69927.5e0cdef8-722c-43c6-b0ae-7debfb7025d0",
     "price": 14.99,
-    "rate": 3.9,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -86366,7 +86366,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.37890.66470813064463631.52642a7a-2f34-495d-892f-0fdd1586e61f.664e551d-afc8-452c-8fc5-7cac00c99358",
     "price": 2.99,
-    "rate": 3.7,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 16,
     "tags": [
@@ -86401,7 +86401,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.31301.66533638995239367.cdde66c9-3717-4bce-8a61-40d0b92415a1.8f62c14b-3402-494f-ac76-9cd77d51ec6a",
     "price": 29.99,
-    "rate": 3.8,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -86430,7 +86430,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.55613.66522486697599341.54595999-7800-48a6-8255-bf581c71e0dd.076c4cea-fe6d-488e-94a2-3b33fa4f2eb3",
     "price": 19.99,
-    "rate": 4.4,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 168,
     "tags": [
@@ -86462,7 +86462,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.396.66522631002266290.f8bc1b44-1e63-48fc-90e2-aa1c4ba467f8.231adc2d-977b-417f-b237-0730f6dd1948",
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -86491,7 +86491,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.21475.66524690704936854.cf84f8d9-62da-45bb-8ba4-c2428e0cfd2d.ef2c194e-5183-4e97-85b6-6557e17badb6",
     "price": 39.99,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -86520,7 +86520,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13082.66519875456319724.78540564-d877-4577-8492-f4f165c15547.64fdf724-dcb2-432b-8e4c-3d58234bef3b",
     "price": 79.99,
-    "rate": 3.8,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 925,
     "tags": [],
@@ -86544,7 +86544,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19692.66512344563571887.0decc815-c0f2-495d-a5df-387a6f4e8032.537f51ee-b117-48ce-b590-5c4e8efe363c",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 141,
     "tags": [
@@ -86574,7 +86574,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.8135.66515090704019777.7fa547c1-c211-4229-a4d3-3ceef762e0a4.0bb0ac0a-9d63-4d91-8e53-f2e39a040bcd",
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2387,
     "tags": [
@@ -86602,7 +86602,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34363.66567800523012730.0a6a7403-6777-4e25-829f-1fafe2731cf1.bed8b781-3ddd-4940-b7c0-8dd17466c97c",
     "price": 9.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 74,
     "tags": [
@@ -86665,7 +86665,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.15556.66548112218331062.593653a5-162f-40fa-b3e0-be9c86f54db8.3a076445-5cd2-40cb-8b96-0096fd80766a",
     "price": 11.99,
-    "rate": 4.6,
+    "rate": 5.0,
     "requiresGame": false,
     "reviews": 7,
     "tags": [
@@ -86700,7 +86700,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.33201.66550732470485128.fb64d8d0-8d1a-4592-beb7-c3634d551b35.b940c57e-6430-4c1b-b8e3-80213f8aae42",
     "price": 29.99,
-    "rate": 3.4,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -86731,7 +86731,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.65303.66599942843298616.610c37a7-f076-42cc-baab-c1ad3f4d152a.ac5f3cdf-9dae-406f-a06b-2693c69a249a",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 70,
     "tags": [
@@ -86763,7 +86763,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51441.66583679601418453.329e8674-c508-4106-8a82-e4ebbbda5bd7.d28372d0-95e3-4c53-aa88-43909b44308f",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 428,
     "tags": [
@@ -86796,7 +86796,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36940.66586362511313326.4acbf6b7-f897-45e3-9c00-5595750a3367.67c3a5c7-0faa-46ef-b14d-e20b165487ba",
     "price": 39.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 279,
     "tags": [
@@ -86856,7 +86856,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.62774.66572983732486890.3c751323-644a-4a23-bb53-3f048abadfe7.63c35e1d-4d0c-4bbb-9af5-d630fcd971d4",
     "price": 14.99,
-    "rate": 4.0,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 31,
     "tags": [
@@ -86921,7 +86921,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.53141.66636143762130935.297ab99c-85a5-461f-85ed-491f20eee36c.98321f7b-2345-4bdd-983f-bd96917c70ff",
     "price": 49.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 1143,
     "tags": [
@@ -86951,7 +86951,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27000.66635400375133017.044f5e90-c778-442e-8556-7b297101249d.9a1eb045-669d-4c5e-a275-429a3823b7ec",
     "price": 14.98,
-    "rate": 3.9,
+    "rate": 2.0,
     "requiresGame": false,
     "reviews": 1,
     "tags": [
@@ -86981,7 +86981,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.29295.66622812769222919.f72813e2-a2c0-4178-94a9-276818a15412.ae0771d4-33c9-49df-9337-d368270e584c",
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 34,
     "tags": [
@@ -87015,7 +87015,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7220.66617542682682743.811213f2-2c45-4145-973d-fe3e3774b196.96b48a30-7ed1-4bc9-8f8b-b114375b2e1c",
     "price": 39.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 1082,
     "tags": [
@@ -87045,7 +87045,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.13992.66605680773719506.5b3e4fed-0747-483d-b407-2d6f4da8c3ba.571bc84d-2c3b-44ed-8f55-16e1c5d017f9",
     "price": 59.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 370,
     "tags": [],
@@ -87071,7 +87071,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12198.66674020645468990.f95428c8-6ece-49a8-a15a-dfdaa13f9e66.a5a1dbf8-8c66-437e-8495-d454b9e6ffbd",
     "price": 64.99,
-    "rate": 4.3,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 75,
     "tags": [
@@ -87103,7 +87103,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38575.66664165510820758.8e0182c9-1aab-403f-afc0-47a59b57c8c6.2718156b-8d38-4601-805f-9d22b630d9b9",
     "price": 19.98,
-    "rate": 4.5,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 172,
     "tags": [
@@ -87142,7 +87142,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16423.66702598861173481.ab28a26d-e732-407f-b1fc-11b3cc0e41c0.5eb427ba-fd1f-4361-9031-ed17f155f42e",
     "price": 39.99,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 96,
     "tags": [
@@ -87171,7 +87171,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.19848.66701618727071420.c553500f-1a8e-491b-ad43-f74f1107ee8b.2e75996e-e4c3-47b3-bca8-e98c0bd25213",
     "price": 19.99,
-    "rate": 4.7,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -87206,7 +87206,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12034.66695338188695742.20a9e46e-3aa9-49f7-86af-7d838ea4cfc4.4f15e199-7424-4216-9396-4779e4fae006",
     "price": 19.98,
-    "rate": 4.2,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 6,
     "tags": [
@@ -87237,7 +87237,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.16870.66681981221768345.76a0e962-989c-428d-a0d4-5b11187fa034.dc854494-6300-43e4-962b-2acb344965f8",
     "price": 39.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 117,
     "tags": [
@@ -87266,7 +87266,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.23003.67299876212227835.f927e669-1764-4077-965e-b48009a054e7.30711cab-5788-4174-b6fc-e90d9c3e0b29",
     "price": 0.0,
-    "rate": 3.8,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 65,
     "tags": [
@@ -87299,7 +87299,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.63087.67294715291372870.06ea3a79-5029-4a6d-bd00-651f35ff6bd9.af91ca13-b985-464b-a3b8-fe15ef09ae9e",
     "price": 24.99,
-    "rate": 4.7,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 442,
     "tags": [],
@@ -87354,7 +87354,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.52495.67332382153712963.53003e61-aa3c-4577-a8cc-9eb50bd4a6e1.3d679030-d21f-4d11-90b9-7bb3f6f8cffc",
     "price": 29.99,
-    "rate": 4.4,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 12,
     "tags": [
@@ -87389,7 +87389,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.51821.67326493555486662.823c598c-a310-468c-8034-65536c57c8c3.b445f32d-1719-4784-bc1f-b7349cda14c5",
     "price": 39.98,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -87426,7 +87426,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41617.67319741566234733.47d01431-e2f3-4a85-9115-5f3a27d167b7.ff9f14db-322f-44ca-8d3b-8dfc25569e95",
     "price": 0.0,
-    "rate": 3.6,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 193,
     "tags": [
@@ -87489,7 +87489,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.57479.67309809726168278.238b1eb9-bece-4b2e-b1e8-19ca99512d56.7399948a-f615-497e-8e65-18acd0adf133",
     "price": 69.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 45,
     "tags": [
@@ -87520,7 +87520,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36179.67354945449788252.6e59b941-6ac2-4964-9d73-520c999719ae.581cbb5e-3c79-47c7-af7b-57884a76ddbb",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -87551,7 +87551,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.20532.67345955710459827.6770a7a0-cc7f-4a09-ae17-dc0da389809a.f565a0bf-8bf9-4648-a658-b93b7a09fa69",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "requiresGame": false,
     "reviews": 937,
     "tags": [
@@ -87578,7 +87578,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49456.67411114035750393.2854ca19-b4a9-4344-8f1d-e8b2bc93c210.889aae66-838d-424c-83da-82b32f3518a2",
     "price": 4.79,
-    "rate": 3.9,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 17,
     "tags": [
@@ -87612,7 +87612,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.44406.67435278791875206.d60b3a6b-61b2-4afb-9c4c-453efe4ef48e.a3832988-4a37-4d71-b4b9-c2a61dbba80b",
     "price": 19.99,
-    "rate": 4.3,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 29,
     "tags": [
@@ -87644,7 +87644,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.36209.67439233347281353.312c5ca8-59b5-4ba8-88de-4df24412a885.0fa53054-edfe-4220-b64a-274afb4fd958",
     "price": 59.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -87704,7 +87704,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.28362.67453348098260763.a9f96429-c651-425e-97d2-e8861561f15f.f7b26f7f-73d8-4f53-9f3b-4d9e4e4d23f0",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "requiresGame": false,
     "reviews": 456,
     "tags": [
@@ -87736,7 +87736,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22163.67451774254048402.32a3f2d2-7745-4d6f-97a7-9f895ae546a2.5619e8f7-c0fb-4622-8b77-3b6cd7f75570",
     "price": 49.99,
-    "rate": 3.0,
+    "rate": 2.7,
     "requiresGame": false,
     "reviews": 13,
     "tags": [
@@ -87764,7 +87764,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58841.13602252643452986.79361d33-7a18-4554-8a50-66b60d3712e6.2745dce2-d622-44df-bc05-428d5be5c102",
     "price": 24.99,
-    "rate": 3.9,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 70,
     "tags": [
@@ -87798,7 +87798,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.10877.67534465433967706.545818f8-c908-4f9a-b53d-a5b0fb041f7d.a4e8fe00-455f-4ac4-b791-8a16eea036fc",
     "price": 14.39,
-    "rate": 4.6,
+    "rate": 4.9,
     "requiresGame": false,
     "reviews": 22,
     "tags": [
@@ -87830,7 +87830,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.14994.67002547918942251.a07b8704-ba60-45a4-a51a-06c979a5426e.3a248e28-facb-4073-8b6d-749f912fa299",
     "price": 44.99,
-    "rate": 3.6,
+    "rate": 4.5,
     "requiresGame": false,
     "reviews": 2357,
     "tags": [
@@ -87866,7 +87866,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7999.66996871674833063.daaba571-3335-4b1d-9f17-569a15e4b51b.db9a018f-f711-46f4-8e0e-90eba6a723e9",
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 39,
     "tags": [
@@ -87895,7 +87895,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.58347.67042979280693273.43c77eda-5631-4533-8def-815848101ca4.d4f453d5-180e-43c9-a69f-60ccd4f1e24b",
     "price": 39.99,
-    "rate": 4.5,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 1052,
     "tags": [
@@ -87924,7 +87924,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.25081.67037743662801634.411e756a-4009-411f-8db9-7a601525172d.666e20c0-16f8-41c7-b272-2db1587db751",
     "price": 79.99,
-    "rate": 4.6,
+    "rate": 4.1,
     "requiresGame": false,
     "reviews": 59,
     "tags": [],
@@ -87990,7 +87990,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.27253.67073149647456953.a76348fa-961c-45e7-b37b-19a0044d1494.91e7d2a0-ec0b-4891-95ac-fb2d6b11cfd3",
     "price": 18.49,
-    "rate": 4.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 37,
     "tags": [
@@ -88021,7 +88021,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.45705.67120209546340360.5a9a4f27-0f35-4daa-a87d-0a31d9b2872a.90e6e4c1-148c-4f5e-8910-c40ed4702bff",
     "price": 29.99,
-    "rate": 4.5,
+    "rate": 4.3,
     "requiresGame": false,
     "reviews": 126,
     "tags": [
@@ -88055,7 +88055,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.7475.67120997535715720.38c3e502-0019-4560-826e-634bbaf5cb4b.49bae061-49f7-4594-b2e4-17e7e25756ab",
     "price": 24.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 182,
     "tags": [
@@ -88126,7 +88126,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.34594.67106165561056339.ae8d9492-d46e-4019-a32c-b039830269ca.b9469f4e-07a2-45d1-bd19-20caa5a0e5cd",
     "price": 0.0,
-    "rate": 3.4,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 117,
     "tags": [
@@ -88156,7 +88156,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.41792.67132789939295072.7603d520-6d97-4c23-b7b9-a9e5e3643ff0.81c01ab1-a039-4969-88e5-ae0940b5bb8c",
     "price": 0.0,
-    "rate": 3.5,
+    "rate": 4.0,
     "requiresGame": false,
     "reviews": 18,
     "tags": [
@@ -88186,7 +88186,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.38734.67187313298816901.62c70448-0dd4-4a12-b42b-cdc666dbd510.b26ebd86-1363-4037-a471-e7f2a972d353",
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "requiresGame": false,
     "reviews": 33,
     "tags": [
@@ -88220,7 +88220,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.12198.67180938922431908.a2c2d9ea-42a1-4ddc-bf74-8b91562769cf.07f431dc-7818-4dbf-b1e8-1d555b1de881",
     "price": 29.99,
-    "rate": 4.0,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 19,
     "tags": [
@@ -88253,7 +88253,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.11139.67173769921730989.51fbdc4d-f9b4-4633-894c-9c0e779b2a14.1b083eb9-d258-45ca-bdf3-5bfb95db8cfa",
     "price": 29.99,
-    "rate": 3.9,
+    "rate": 3.6,
     "requiresGame": false,
     "reviews": 25,
     "tags": [
@@ -88283,7 +88283,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.49393.67168636686595732.83c1af09-ac80-427d-b72a-5cb2994ac69d.37aaa086-2064-479f-9d54-e7cbb7e70df0",
     "price": 19.99,
-    "rate": 3.4,
+    "rate": 3.9,
     "requiresGame": false,
     "reviews": 231,
     "tags": [
@@ -88319,7 +88319,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.35376.67225413397444601.e18c2fdc-7bad-461a-8d73-7040132dacda.371b4a4b-f713-466d-8689-67f3dba25598",
     "price": 0.0,
-    "rate": 4.0,
+    "rate": 3.8,
     "requiresGame": false,
     "reviews": 66,
     "tags": [
@@ -88351,7 +88351,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.22363.67203256484290113.fa47f972-08bc-4a6e-a86b-1114b30416e6.b6815ddd-c498-4b85-bd1d-0b315250bf00",
     "price": 9.99,
-    "rate": 4.5,
+    "rate": 3.5,
     "requiresGame": false,
     "reviews": 41,
     "tags": [
@@ -88381,7 +88381,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.315.67239414110062952.96aaa173-4598-4591-add8-4e72f4c963c7.9b47d169-12bd-4000-a162-66c0ad7099a0",
     "price": 14.99,
-    "rate": 4.6,
+    "rate": 4.7,
     "requiresGame": false,
     "reviews": 67,
     "tags": [
@@ -88408,7 +88408,7 @@ var GAME = {
     "notSoldSeparately": false,
     "poster": "http://store-images.s-microsoft.com/image/apps.50234.67240812470044264.09c15e8c-821c-4178-a3dd-4bd09f415942.d3604a76-d5d8-4a93-8138-123f1aeb7f75",
     "price": 14.39,
-    "rate": 4.3,
+    "rate": 4.2,
     "requiresGame": false,
     "reviews": 23,
     "tags": [

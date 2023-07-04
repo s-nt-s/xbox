@@ -19,34 +19,30 @@
 			</select>
 		</p>
 		</fieldset>
-		<fieldset>
-			<legend>Precio</legend>
+		<fieldset class="rangos">
+			<legend>Rangos</legend>
 			<p>
-			<label for="price_min">Desde
-				<input type="number" step="1"  style="width: 5em;" required id="price_min" value="0">
+			<label for="price_min"><span>Precio:</span>
+				<input type="number" step="1" required id="price_min" min="0" max="{{mx.precio}}" value="0">
 			</label>
-			<label for="price_max">hasta
-				<input type="number" step="1"  style="width: 5em;" required id="price_max" value="{{mx.precio}}"> €
+			<label for="price_max"> - 
+				<input type="number" step="1" required id="price_max" min="0" max="{{mx.precio}}" value="{{mx.precio}}"> €
 			</label>
 			</p>
-		</fieldset>
-		<fieldset>
-			<legend>Reviews</legend>
 			<p>
-			<label for="reviews_min">Desde
-				<input type="number" step="1"  style="width: 5em;" required id="reviews_min" value="0">
+			<label for="reviews_min"><span>Reviews:</span>
+				<input type="number" step="1" required id="reviews_min" min="0" max="{{mx.reviews}}" value="0">
 			</label>
-			<label for="reviews_max">hasta
-				<input type="number" step="1"  style="width: 5em;" required id="reviews_max" value="{{mx.reviews}}">
+			<label for="reviews_max"> - 
+				<input type="number" step="1" required id="reviews_max" min="0" max="{{mx.reviews}}" value="{{mx.reviews}}">
 			</label>
-		</fieldset>
-		<fieldset>
-			<legend>Estrellas</legend>
-			<label for="rate_min">Desde
-				<input type="number" step="1"  style="width: 5em;" required id="rate_min" value="0">
+			</p>
+			<p>
+			<label for="rate_min"><span>Estrellas:</span>
+				<input type="number" step="1" required id="rate_min" min="0" max="{{mx.rate}}" value="0">
 			</label>
-			<label for="rate_max">hasta
-				<input type="number" step="1"  style="width: 5em;" required id="rate_max" value="{{mx.rate}}">
+			<label for="rate_max"> - 
+				<input type="number" step="1" required id="rate_max" min="0" max="{{mx.rate}}" value="{{mx.rate}}">
 			</label>
 			</p>
 		</fieldset>
