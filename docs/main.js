@@ -92,6 +92,7 @@ function filtrar() {
   } else {
     document.title = `${ok.length}/${ok.length+ko.length} juegos`;
   }
+  document.getElementById("games").classList.remove("hideIfJS")
 }
 document.addEventListener('DOMContentLoaded', () => {
   fe("input, select", (i) => {

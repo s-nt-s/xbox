@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+		<script>
+			document.write("<style> .hideIfJS { display:none; } </style>");
+		</script>
 		<base target="_blank" />
     <meta charset="UTF-8">
     <title>{{juegos | length | millar}} juegos</title>
@@ -23,15 +26,15 @@
 			<legend>Rangos</legend>
 			<p>
 			<label for="price_min"><span>Precio:</span>
-				<input type="number" step="1" required id="price_min" min="0" max="{{mx.precio}}" value="0">
+				<input type="number" step="1" required id="price_min" min="0" max="{{mx.precio}}" value="{{[1, mx.precio] | min}}">
 			</label>
 			<label for="price_max"> - 
-				<input type="number" step="1" required id="price_max" min="0" max="{{mx.precio}}" value="{{mx.precio}}"> €
+				<input type="number" step="1" required id="price_max" min="0" max="{{mx.precio}}" value="{{[20, mx.precio] | min}}"> €
 			</label>
 			</p>
 			<p>
 			<label for="reviews_min"><span>Reviews:</span>
-				<input type="number" step="1" required id="reviews_min" min="0" max="{{mx.reviews}}" value="0">
+				<input type="number" step="1" required id="reviews_min" min="0" max="{{mx.reviews}}" value="{{[7, mx.reviews] | min}}">
 			</label>
 			<label for="reviews_max"> - 
 				<input type="number" step="1" required id="reviews_max" min="0" max="{{mx.reviews}}" value="{{mx.reviews}}">
@@ -39,7 +42,7 @@
 			</p>
 			<p>
 			<label for="rate_min"><span>Estrellas:</span>
-				<input type="number" step="1" required id="rate_min" min="0" max="{{mx.rate}}" value="0">
+				<input type="number" step="1" required id="rate_min" min="0" max="{{mx.rate}}" value="{{[4, mx.rate] | min}}">
 			</label>
 			<label for="rate_max"> - 
 				<input type="number" step="1" required id="rate_max" min="0" max="{{mx.rate}}" value="{{mx.rate}}">
@@ -57,6 +60,7 @@
 			<span><input type="checkbox" id="{{t}}"/> <label for="{{t}}">#{{t}}</label></span>
 			{% endfor %}
 		</fieldset>
+		<div id="games" class="hideIfJS">
 {% for j in juegos %}
 <div class="game" id="{{j.id}}">
 <img src="{{j.poster}}"/>
@@ -77,5 +81,6 @@
 </p>
 </div>
 {% endfor %}
-  </body>
+</div>
+</body>
 </html>
