@@ -63,7 +63,7 @@
 <p>
 	<b><a href="{{j.url}}" class="title">{{j.title}}</a> <sup>[<a href="{{j.js}}">js</a>]</sup></b>
 	<br/>
-	<code>{{j.rate | decimal}}</code> estrellas || {{j.reviews | millar}} reviews || <code style=" white-space: nowrap;">{{j.price | round | int}} €</code><br/>
+	<code>{{j.rate | decimal}}</code> <span title="estrellas">★</span> || {{j.reviews | millar}} reviews || <code style=" white-space: nowrap;">{{j.price | round | int}} €</code><br/>
 	<!--
 	{% if j.langs %}
 		[ {{" / ".join(j.langs) }} ]</br>
