@@ -79,11 +79,17 @@ print("Generando web")
 items = sorted(items, key=lambda x: x.releaseDate, reverse=True)#(-x.reviews, -x.rate, x.title))
 
 glist = GameList(items)
+now = datetime.now()
 
 j = Jnj2("template/", "docs/")
-j.create_script("info.js", GAME=glist.info, replace=True)
+j.create_script(
+    "info.js",
+    ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
+    GAME=glist.info,
+    replace=True
+)
 j.save("index.html",
        gl=glist,
-       now=datetime.now()
+       now=now
 )
 print("Fin")

@@ -99,10 +99,12 @@ class Jnj2():
         with open(destino, "w") as f:
             for i, (k, v) in enumerate(kargv.items()):
                 if i > 0:
-                    f.write(";\n")
+                    f.write("\n")
                 f.write("const "+k+" = ")
-                json.dump(v, f, indent=indent,
-                          separators=separators, default=myconverter)
+                if not isinstance(v, str):
+                    json.dump(v, f, indent=indent, separators=separators, default=myconverter)
+                else:
+                    f.write(v)
                 f.write(";")
 
     def exists(self, destino):

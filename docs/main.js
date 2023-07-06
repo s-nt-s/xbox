@@ -6,20 +6,6 @@ function get_words(s) {
 function mkTag(s) {
   const div = document.createElement("div");
   div.innerHTML = s;
-  div.querySelectorAll("*[id]").forEach(d=>{
-    const bak = document.getElementById("bak_"+d.id);
-    if (bak == null) return;
-    if (bak.value.length) {
-      if (d.hasAttribute("value") != null) d.setAttribute("value", bak.value);
-      if (d.tagName == "SELECT") Array.from(d.options).forEach(o=> {
-        if (o.getAttribute("value") == bak.value) o.setAttribute("selected", "selected");
-        else o.removeAttribute("selected");
-      });
-    }
-    d.addEventListener('change', (ev) => {
-      bak.value = ev.target.value;
-    })
-  })
   return div.children[0];
 }
 
@@ -97,7 +83,7 @@ function filtrar() {
     if (show=="G" && !j.gamepass) return false;
     if (show=="F" && !j.tags.includes("Free")) return false;
     if (show=="T" && !j.trial) return false;
-    if (antiguedad!=null && j.antiguedad!=null && j.antiguedad>antiguedad) return false;
+    if (antiguedad!=null && j.antiquity!=null && j.antiquity>antiguedad) return false;
     
     const fl = (() => {
       if (chhs.length == 0) {
@@ -136,42 +122,31 @@ function filtrar() {
   document.getElementById("games").classList.remove("hideIfJS")
 }
 document.addEventListener('DOMContentLoaded', () => {
-  const ants = []
-  const hoy = new Date().getTime();
-  Object.values(GAME).forEach(g => {
-    if (g.releaseDate==null) return;
-    const r = g.releaseDate.split("-").map(x=>Number(x))
-    const d = new Date(r[0], r[1]-1, r[2]).getTime();
-    g.antiguedad = (hoy-d) / (1000 * 3600 * 24);
-    const ant = Math.ceil(g.antiguedad);
-    if (!ants.includes(ant)) ants.push(ant);
-  });
-  const opts = [];
-  ants.sort((a, b)=>a-b).forEach((d, i)=>{
-    let opt=null;
-    if (i<4) {
-      opt = `<option value="${d}">${d} día${d==1?"":"s"}</option>`;
-    } else if (d<365) {
-      const ms = Math.ceil(d/30);
-      opt = `<option value="${ms*30}">${ms} mes${ms==1?"":"es"}</option>`;
-    } else {
-      const ys = Math.ceil(d/365);
-      opt = `<option value="${ys*365}">${ys} año${ys==1?"":"s"}</option>`;
-    }
-    if (opt!=null && !opts.includes(opt)) opts.push(opt);
-  })
-  if (opts.length) {
-    opts[opts.length-1] = opts[opts.length-1].replace("<option ", "<option selected ");
-    document.getElementById("rangos").appendChild(mkTag(`
-      <p>
-        <label for="antiguedad">Antiguedad:
-        <select id="antiguedad" data-type="number">
-          ${opts.join("\n")}
-        </select> o menos
-        </label>
-      </p>
-    `));
+  const opts = document.getElementById("antiguedad").options;
+  //const opts = document.createElement("select").options
+  const head = opts.length - 1;
+  const done = [];
+  const days_to_lab = (ant) => {
+    if (ant<30) return {'txt': 'día', num: ant};
+    if (ant<365) return {'txt': 'mes', num: Math.ceil(ant/30), 's': 'es'};
+    return {'txt': 'año', num: Math.ceil(ant/365)};
   }
+  Array.from(opts).reverse().forEach((o, i)=>{
+    const ant = Number(o.value)+ANTIQUITY;
+    const lab = days_to_lab(ant)
+    if (done.includes(lab.txt+lab.num)) {
+      o.remove();
+      return;
+    }
+    if (i>0 && i<head && (lab.num%2)==1) {
+      o.remove();
+      return;
+    }
+    done.push(lab.txt+lab.num);
+    if (lab.txt!='día' || ANTIQUITY>0) {
+      o.textContent = lab.num + " " + lab.txt +(lab.num!=1?(lab.s??'s'):"");
+    }
+  })
   fe("input, select", (i) => {
     i.addEventListener('change', filtrar);
   })

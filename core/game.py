@@ -279,10 +279,11 @@ class GameList:
 
     @cached_property
     def info(self):
+        today = date.today()
         info = {}
         for i in sorted(self.items, key=lambda x: x.id):
             info[i.id] = dict(
-                releaseDate=i.releaseDate.strftime("%Y-%m-%d"),
+                antiquity=(today - i.releaseDate).days,
                 gamepass=i.gamepass,
                 price=i.price,
                 rate=i.rate,
@@ -291,6 +292,11 @@ class GameList:
                 tags=i.tags
             )
         return info
+
+    @cached_property
+    def antiques(self):
+        ants = set(x['antiquity'] for x in self.info.values())
+        return tuple(sorted(ants))
 
     @cached_property
     def tags(self):
