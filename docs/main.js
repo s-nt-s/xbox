@@ -138,10 +138,12 @@ document.addEventListener('DOMContentLoaded', () => {
       o.remove();
       return;
     }
+    /*
     if (i>0 && i<head && (lab.num%2)==1) {
       o.remove();
       return;
     }
+    */
     done.push(lab.txt+lab.num);
     if (lab.txt!='día' || ANTIQUITY>0) {
       o.textContent = lab.num + " " + lab.txt +(lab.num!=1?(lab.s??'s'):"");

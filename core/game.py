@@ -296,7 +296,20 @@ class GameList:
     @cached_property
     def antiques(self):
         ants = set(x['antiquity'] for x in self.info.values())
-        return tuple(sorted(ants))
+        mn = min(ants)
+        mx = max(ants)
+        arr = []
+        if mn < 2:
+            arr.append(1)
+        elif mn % 2 == 0:
+            arr.append(mn)
+        else:
+            arr.append(mn-1)
+        while arr[-1] < mx:
+            arr.append(arr[-1]*2)
+        arr[0] = mn
+        arr[-1] = mx
+        return tuple(arr)
 
     @cached_property
     def tags(self):
