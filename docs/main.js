@@ -12,9 +12,14 @@ function getVal(id) {
   }
   const val = elm.value;
   if (val == null || val.length==0) return null;
-  const num = parseInt(val);
-  if (!isNaN(num)) return num;
   return val;
+}
+function getNum(id) {
+  const val = getVal(id);
+  if (val == null || val.length==0) return null;
+  const num = parseInt(val);
+  if (isNaN(num)) return null;
+  return num;
 }
 
 function isCross(arr1, arr2){
@@ -43,11 +48,30 @@ function filter(slc, fnc) {
 function fe(slc, fnc) {
 	document.querySelectorAll(slc).forEach(fnc);
 }
+function get_ranges() {
+    const rgs = {};
+    Array.from(arguments).forEach(k => {
+      let mn = getNum(k+"_min");
+      let mx = getNum(k+"_max");
+      if (mn == null || mx == null) return;
+      rgs[k]={"min":mn, "max":mx};
+    })
+    return rgs;
+}
+
+
 function filtrar() {
-  const show = document.querySelector("#list").value;
-  const nShow = Number(show);
-  const hdsh = document.querySelector("#chkhideshow").value;
+  const show = getVal("list");
+  const hdsh = getVal("chkhideshow");
   const chhs = qs(".chkhideshow input", (i) => i.checked?i.id:null);
+  const rgs = get_ranges("price", "rate", "reviews");
+  /*
+  const antiguedad = (()=>{
+    let aux = getNum("antiguedad");
+    if (aux!=null && aux>=0) return aux;
+    return null;
+  })();
+  */
   const { ok, ko } = filter("div.game", (i) => {
     const j = GAME[i.id];
     if (j==null) {
@@ -57,7 +81,7 @@ function filtrar() {
     if (show=="G" && !j.gamepass) return false;
     if (show=="F" && !j.tags.includes("Free")) return false;
     if (show=="T" && !j.trial) return false;
-    if (!isNaN(nShow) && (j.price == 0 || j.price > nShow)) return false;
+    //if (antiguedad!=null && j.antiguedad!=null && j.antiguedad>antiguedad) return false;
     const fl = (() => {
       if (chhs.length == 0) {
         if (hdsh[0]=='S') return false;
@@ -71,18 +95,17 @@ function filtrar() {
       console.log(hdsh, chhs, j.tags, hs);
     })();
     if (!fl) return false;
-    const rgs = ["price", "rate", "reviews"].map(k =>{
-      let vl = j[k];
+    const ok_rgs = Object.entries(rgs).map(kv => {
+      const [k, value] = kv;
+      const vl = j[k];
       if (vl==null) {
         console.log(i.id, "no tine", k);
         return true;
       }
-      let mn = getVal(k+"_min");
-      let mx = getVal(k+"_max");
-      if (mn == null || mx == null) return true;
-      return (vl >= mn) && (vl <= mx);
-    })
-    if (rgs.includes(false)) return false;
+      return (vl >= value['min']) && (vl <= value['max']);
+    });
+
+    if (ok_rgs.includes(false)) return false;
     return true;
   });
   ok.forEach((i) => i.style.display = "");
@@ -95,6 +118,15 @@ function filtrar() {
   document.getElementById("games").classList.remove("hideIfJS")
 }
 document.addEventListener('DOMContentLoaded', () => {
+  /*
+  const hoy = new Date().getTime();
+  Object.values(GAME).forEach(g => {
+    if (g.releaseDate==null) return;
+    const r = g.releaseDate.split("-")
+    const d = new Date(r[0], r[1], r[2]).getTime();
+    g.antiguedad = (hoy-d) / (1000 * 3600 * 24)
+  });
+  */
   fe("input, select", (i) => {
     i.addEventListener('change', filtrar);
   })

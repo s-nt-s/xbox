@@ -47,7 +47,12 @@
 			<label for="rate_max"> - 
 				<input type="number" step="1" required id="rate_max" min="0" max="{{gl.mx.rate}}" value="{{gl.mx.rate}}" title="max: {{gl.mx.rate}}"> ★
 			</label>
-			</p>
+			</p>{#
+            <p>
+            <label for="antiguedad"><span>Publicado:</span>
+				<input type="number" step="1" required id="antiguedad" min="-1" value="-1" title="-1 para ignorar condición"> días o menos
+			</label>
+            </p>#}
 		</fieldset>
 		<fieldset class="chkhideshow">
 			<legend><select id="chkhideshow">
@@ -71,7 +76,7 @@
 <p>
 	<b><a href="{{j.url}}" class="title">{{j.title}}</a>{# <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b>
 	<br/>
-	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code>{{j.price | round | int}} €</code><br/>
+	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code>{{j.price | round | int}} €</code>{# || {{j.releaseDate}}#}<br/>
 	{#
 	{% if j.langs %}
 		[ {{" / ".join(j.langs) }} ]</br>

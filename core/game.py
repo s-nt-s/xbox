@@ -4,6 +4,7 @@ from os.path import isfile
 from functools import cached_property
 from math import ceil
 from dataclasses import dataclass
+from datetime import date
 from .thumbnail import mk_thumbnail
 
 MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
@@ -166,6 +167,15 @@ class Game:
         return 'Trial' in self.actions
     
     @property
+    def releaseDate(self):
+        dts = set()
+        for x in self.i["MarketProperties"]:
+            dts.add(tuple(map(int, x['OriginalReleaseDate'][:10].split("-"))))
+        if len(dts) == 0:
+            return None
+        return date(*(sorted(dts)[0]))
+
+    @property
     def tags(self):
         tags = []
         if self.onlyGamepass:
@@ -243,6 +253,7 @@ class GameList:
         info = {}
         for i in sorted(self.items, key=lambda x: x.id):
             info[i.id] = dict(
+                releaseDate=i.releaseDate.strftime("%Y-%m-%d"),
                 gamepass=i.gamepass,
                 price=i.price,
                 rate=i.rate,
