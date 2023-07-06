@@ -31,14 +31,13 @@ function getVal(id) {
   }
   const val = elm.value;
   if (val == null || val.length==0) return null;
+  const tp = elm.getAttribute("data-type") || elm.getAttribute("type");
+  if (tp == "number") {
+    const num = Number(val);
+    if (isNaN(num)) return null;
+    return num;
+  }
   return val;
-}
-function getNum(id) {
-  const val = getVal(id);
-  if (val == null || val.length==0) return null;
-  const num = parseInt(val);
-  if (isNaN(num)) return null;
-  return num;
 }
 
 function isCross(arr1, arr2){
@@ -70,8 +69,8 @@ function fe(slc, fnc) {
 function get_ranges() {
     const rgs = {};
     Array.from(arguments).forEach(k => {
-      let mn = getNum(k+"_min");
-      let mx = getNum(k+"_max");
+      let mn = getVal(k+"_min");
+      let mx = getVal(k+"_max");
       if (mn == null || mx == null) return;
       rgs[k]={"min":mn, "max":mx};
     })
@@ -85,7 +84,7 @@ function filtrar() {
   const chhs = qs(".chkhideshow input", (i) => i.checked?i.id:null);
   const rgs = get_ranges("price", "rate", "reviews");
   const antiguedad = (()=>{
-    let aux = getNum("antiguedad");
+    let aux = getVal("antiguedad");
     if (aux!=null && aux>=0) return aux;
     return null;
   })();
@@ -98,10 +97,7 @@ function filtrar() {
     if (show=="G" && !j.gamepass) return false;
     if (show=="F" && !j.tags.includes("Free")) return false;
     if (show=="T" && !j.trial) return false;
-    if (antiguedad!=null && j.antiguedad!=null && j.antiguedad>antiguedad) {
-      console.log(j);
-      return false;
-    }
+    if (antiguedad!=null && j.antiguedad!=null && j.antiguedad>antiguedad) return false;
     const fl = (() => {
       if (chhs.length == 0) {
         if (hdsh[0]=='S') return false;
@@ -167,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("rangos").appendChild(mkTag(`
       <p>
         <label for="antiguedad">Antiguedad:
-        <select id="antiguedad">
+        <select id="antiguedad" data-type="number">
           ${opts.join("\n")}
         </select> o menos
         </label>
