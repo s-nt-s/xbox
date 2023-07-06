@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+		<style id="removeIfJS">
+			.displayIfJS { display:none; }
+		</style>
 		<script>
-			document.write("<style> .hideIfJS { display:none; } </style>");
+			document.getElementById("removeIfJS").remove();
+			document.write(`<style>
+				.hideIfJS { display:none; }
+			</style>`);
 		</script>
 		<base target="_blank" />
         <meta charset="UTF-8">
         <title>2.682 juegos</title>
-		<meta http-equiv="Last-Modified" content="2023-07-06 21:12:48">
+		<meta http-equiv="Last-Modified" content="2023-07-06 22:21:28">
         <link rel="stylesheet" href="main.css" />
 		<script src="info.js"></script>
 		<script src="main.js"></script>
 	    </head>
 	<body>
+	<div class="displayIfJS">
 		<p>
 			<label for="list">Listar</label> <select id="list">
 				<option value="A" selected>Todo</option>
@@ -100,7 +107,8 @@
             			            			<span><input type="checkbox" id="Strategy"/> <label for="Strategy">#Strategy</label></span>
             			            			<span title="#Free + #Compras"><input type="checkbox" id="Tragaperras" checked/> <label for="Tragaperras">#Tragaperras</label></span>
             					</fieldset>
-		<div id="games" class="hideIfJS">
+	</div>
+	<div id="games" class="hideIfJS">
 <div class="game" id="9NPGPDCXWJQ7">
 <img src="img/9NPGPDCXWJQ7.jpg"/>
 <p>
@@ -40397,6 +40405,6 @@
 	<a href="https://www.google.es/search?tbm=isch&q=xbox Red Faction II">imagenes</a>
 </p>
 </div>
-</div>
+	</div>
 </body>
 </html>

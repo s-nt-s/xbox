@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+		<style id="removeIfJS">
+			.displayIfJS { display:none; }
+		</style>
 		<script>
-			document.write("<style> .hideIfJS { display:none; } </style>");
+			document.getElementById("removeIfJS").remove();
+			document.write(`<style>
+				.hideIfJS { display:none; }
+			</style>`);
 		</script>
 		<base target="_blank" />
         <meta charset="UTF-8">
@@ -13,6 +19,7 @@
 		<script src="main.js"></script>
 	    </head>
 	<body>
+	<div class="displayIfJS">
 		<p>
 			<label for="list">Listar</label> <select id="list">
 				<option value="A" selected>Todo</option>
@@ -75,7 +82,8 @@
             {% endif %}
 			{% endfor %}
 		</fieldset>
-		<div id="games" class="hideIfJS">
+	</div>
+	<div id="games" class="hideIfJS">
 {% for j in gl.items %}
 <div class="game" id="{{j.id}}">
 <img src="{{j.thumbnail}}"/>
@@ -103,6 +111,6 @@
 </p>
 </div>
 {% endfor %}
-</div>
+	</div>
 </body>
 </html>
