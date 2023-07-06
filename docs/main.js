@@ -98,6 +98,7 @@ function filtrar() {
     if (show=="F" && !j.tags.includes("Free")) return false;
     if (show=="T" && !j.trial) return false;
     if (antiguedad!=null && j.antiguedad!=null && j.antiguedad>antiguedad) return false;
+    
     const fl = (() => {
       if (chhs.length == 0) {
         if (hdsh[0]=='S') return false;
@@ -111,6 +112,7 @@ function filtrar() {
       console.log(hdsh, chhs, j.tags, hs);
     })();
     if (!fl) return false;
+
     const ok_rgs = Object.entries(rgs).map(kv => {
       const [k, value] = kv;
       const vl = j[k];
@@ -120,8 +122,8 @@ function filtrar() {
       }
       return (vl >= value['min']) && (vl <= value['max']);
     });
-
     if (ok_rgs.includes(false)) return false;
+
     return true;
   });
   ok.forEach((i) => i.style.display = "");
