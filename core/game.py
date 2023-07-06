@@ -1,6 +1,9 @@
 import inspect
 import re
 from os.path import isfile
+from functools import cached_property
+from math import ceil
+from dataclasses import dataclass
 from .thumbnail import mk_thumbnail
 
 MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
@@ -218,3 +221,49 @@ class Game:
             if k[0]!='_' and isinstance(v, (str, int, float, tuple)):
                 dt[k]=v
         return dt
+
+    def to_js(self):
+        ks = ('gamepass', 'id', 'price', 'rate', 'reviews', 'tags', 'trial')
+        dt = {}
+        for k, v in inspect.getmembers(self):
+            if k in ks and isinstance(v, (str, int, float, tuple)):
+                dt[k]=v
+        return dt
+
+@dataclass(frozen=True)
+class GameList:
+    items: tuple[Game]
+
+    def __post_init__(self):
+        if not isinstance(self.items, tuple):
+            object.__setattr__(self, 'items', tuple(self.items))
+
+    @cached_property
+    def info(self):
+        info = {}
+        for i in sorted(self.items, key=lambda x: x.id):
+            info[i.id] = dict(
+                gamepass=i.gamepass,
+                price=i.price,
+                rate=i.rate,
+                reviews=i.reviews,
+                trial=i.trial,
+                tags=i.tags
+            )
+        return info
+
+    @cached_property
+    def tags(self):
+        tags = set()
+        for i in self.items:
+            tags = tags.union(i.tags)
+        tags = sorted(tags - set({'GamePass', 'Free'}))
+        return tuple(tags)
+
+    @cached_property
+    def mx(self):
+        return dict(
+            precio=ceil(max([i.price for i in self.items])),
+            reviews=ceil(max([i.reviews for i in self.items])),
+            rate=ceil(max([i.rate for i in self.items]))
+        )

@@ -5,8 +5,7 @@ from munch import Munch
 from core.api import Api, ApiDriver
 from core.j2 import Jnj2
 from datetime import datetime
-from math import ceil
-from core.game import Game
+from core.game import Game, GameList
 import sys
 
 import argparse
@@ -79,27 +78,12 @@ for i in iter_progress(items):
 print("Generando web")
 items = sorted(items, key=lambda x: (-x.reviews, -x.rate, x.title))
 
-info = map(lambda x:x.to_dict(), items)
-info = sorted(info, key=lambda x:x["id"])
-info = {
-    i["id"]: i for i in info
-}
-
-tags = set()
-for i in items:
-    tags = tags.union(i.tags)
-tags = sorted(tags - set({'GamePass', 'Free'}))
+glist = GameList(items)
 
 j = Jnj2("template/", "docs/")
-j.create_script("info.js", GAME=info, replace=True)
+j.create_script("info.js", GAME=glist.info, replace=True)
 j.save("index.html",
-       juegos=items,
-       tags=tags,
-       mx=dict(
-           precio=ceil(max([i.price for i in items])),
-           reviews=ceil(max([i.reviews for i in items])),
-           rate=ceil(max([i.rate for i in items]))
-       ),
+       gl=glist,
        now=datetime.now()
 )
 print("Fin")

@@ -100,7 +100,7 @@ class Jnj2():
             for i, (k, v) in enumerate(kargv.items()):
                 if i > 0:
                     f.write(";\n")
-                f.write("var "+k+" = ")
+                f.write("const "+k+" = ")
                 json.dump(v, f, indent=indent,
                           separators=separators, default=myconverter)
                 f.write(";")
