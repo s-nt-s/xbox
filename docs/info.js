@@ -13,7 +13,7 @@ const GAME = {
     ]
   },
   "9MSPCTN183CS": {
-    "releaseDate": "2023-07-01",
+    "releaseDate": "2023-06-01",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -27,7 +27,7 @@ const GAME = {
     ]
   },
   "9MSQ62J678QF": {
-    "releaseDate": "2022-10-04",
+    "releaseDate": "2022-10-03",
     "gamepass": false,
     "price": 39.99,
     "rate": 3.1,
@@ -155,7 +155,7 @@ const GAME = {
     ]
   },
   "9MT3JXWFFM7K": {
-    "releaseDate": "2021-06-18",
+    "releaseDate": "2021-06-04",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -180,7 +180,7 @@ const GAME = {
     ]
   },
   "9MT5NJ5W7B8Z": {
-    "releaseDate": "2023-02-09",
+    "releaseDate": "2022-08-25",
     "gamepass": false,
     "price": 74.99,
     "rate": 4.6,
@@ -194,7 +194,7 @@ const GAME = {
     ]
   },
   "9MT6TG9CXR2H": {
-    "releaseDate": "2022-05-10",
+    "releaseDate": "2022-04-26",
     "gamepass": true,
     "price": 19.99,
     "rate": 3.3,
@@ -236,7 +236,7 @@ const GAME = {
     ]
   },
   "9MT9DNRW5FKR": {
-    "releaseDate": "2023-04-07",
+    "releaseDate": "2023-03-24",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.3,
@@ -275,7 +275,7 @@ const GAME = {
     ]
   },
   "9MTCRVZQN3GV": {
-    "releaseDate": "2022-05-05",
+    "releaseDate": "2022-04-05",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.1,
@@ -325,7 +325,7 @@ const GAME = {
     ]
   },
   "9MTK0S8CQ0QV": {
-    "releaseDate": "2023-06-15",
+    "releaseDate": "2023-05-03",
     "gamepass": false,
     "price": 79.99,
     "rate": 2.7,
@@ -343,7 +343,7 @@ const GAME = {
     ]
   },
   "9MTLKM2DJMZ2": {
-    "releaseDate": "2021-11-04",
+    "releaseDate": "2021-06-13",
     "gamepass": false,
     "price": 99.99,
     "rate": 3.4,
@@ -355,7 +355,7 @@ const GAME = {
     ]
   },
   "9MTMSS84NW5R": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.8,
@@ -407,7 +407,7 @@ const GAME = {
     ]
   },
   "9MTP8ZKK293G": {
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2023-06-22",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
@@ -437,7 +437,7 @@ const GAME = {
     ]
   },
   "9MTQG8PS5VD7": {
-    "releaseDate": "2022-12-13",
+    "releaseDate": "2022-12-11",
     "gamepass": false,
     "price": 99.99,
     "rate": 2.4,
@@ -505,7 +505,7 @@ const GAME = {
     ]
   },
   "9MTTM8TTQ7RN": {
-    "releaseDate": "2023-06-22",
+    "releaseDate": "2023-03-16",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -540,7 +540,7 @@ const GAME = {
     ]
   },
   "9MTZ4L5PFJF2": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-16",
     "gamepass": false,
     "price": 3.99,
     "rate": 3.4,
@@ -612,7 +612,7 @@ const GAME = {
     ]
   },
   "9MV624MGS985": {
-    "releaseDate": "2023-02-23",
+    "releaseDate": "2023-02-13",
     "gamepass": false,
     "price": 3.99,
     "rate": 2.5,
@@ -707,7 +707,7 @@ const GAME = {
     ]
   },
   "9MVFPQKMRMX5": {
-    "releaseDate": "2023-05-05",
+    "releaseDate": "2023-04-21",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
@@ -733,7 +733,7 @@ const GAME = {
     ]
   },
   "9MVJLNTHKTHF": {
-    "releaseDate": "2022-11-24",
+    "releaseDate": "2022-11-17",
     "gamepass": false,
     "price": 4.99,
     "rate": 2.8,
@@ -745,7 +745,7 @@ const GAME = {
     ]
   },
   "9MVJVKCMDZBK": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-05-09",
     "gamepass": false,
     "price": 17.99,
     "rate": 4.8,
@@ -780,7 +780,7 @@ const GAME = {
     "tags": []
   },
   "9MVMDRRRFP30": {
-    "releaseDate": "2023-03-09",
+    "releaseDate": "2023-03-03",
     "gamepass": false,
     "price": 7.99,
     "rate": 3.3,
@@ -844,7 +844,7 @@ const GAME = {
     ]
   },
   "9MVRVJVF97JD": {
-    "releaseDate": "2023-07-05",
+    "releaseDate": "2023-06-26",
     "gamepass": false,
     "price": 7.99,
     "rate": 0.0,
@@ -871,7 +871,7 @@ const GAME = {
     ]
   },
   "9MVTKWTFXSRS": {
-    "releaseDate": "2023-09-11",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 99.99,
     "rate": 0.0,
@@ -918,7 +918,7 @@ const GAME = {
     ]
   },
   "9MVV3PV3KQH5": {
-    "releaseDate": "2023-06-28",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 13.49,
     "rate": 5.0,
@@ -945,7 +945,7 @@ const GAME = {
     ]
   },
   "9MVVN5H57P39": {
-    "releaseDate": "2023-05-23",
+    "releaseDate": "2023-05-09",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -1071,7 +1071,7 @@ const GAME = {
     ]
   },
   "9MW3FNSGB045": {
-    "releaseDate": "2023-06-15",
+    "releaseDate": "2023-06-04",
     "gamepass": false,
     "price": 13.99,
     "rate": 4.2,
@@ -1084,7 +1084,7 @@ const GAME = {
     ]
   },
   "9MW581HCJPM6": {
-    "releaseDate": "2022-11-21",
+    "releaseDate": "2022-09-08",
     "gamepass": false,
     "price": 59.99,
     "rate": 4.4,
@@ -1098,7 +1098,7 @@ const GAME = {
     ]
   },
   "9MW6WMSGZDM6": {
-    "releaseDate": "2023-05-11",
+    "releaseDate": "2023-04-25",
     "gamepass": false,
     "price": 5.99,
     "rate": 4.8,
@@ -1171,7 +1171,7 @@ const GAME = {
     ]
   },
   "9MWF2JX37423": {
-    "releaseDate": "2023-06-07",
+    "releaseDate": "2023-05-30",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -1183,7 +1183,7 @@ const GAME = {
     ]
   },
   "9MWG1NJ92Q94": {
-    "releaseDate": "2023-07-27",
+    "releaseDate": "2023-05-31",
     "gamepass": false,
     "price": 44.99,
     "rate": 0.0,
@@ -1207,7 +1207,7 @@ const GAME = {
     ]
   },
   "9MWGJQC7WLDM": {
-    "releaseDate": "2023-06-28",
+    "releaseDate": "2023-06-23",
     "gamepass": false,
     "price": 6.99,
     "rate": 4.0,
@@ -1219,7 +1219,7 @@ const GAME = {
     ]
   },
   "9MWHMJ0SRBXV": {
-    "releaseDate": "2021-11-09",
+    "releaseDate": "2021-08-25",
     "gamepass": true,
     "price": 59.99,
     "rate": 3.3,
@@ -1257,7 +1257,7 @@ const GAME = {
     ]
   },
   "9MWQ4NQ5WX37": {
-    "releaseDate": "2021-06-30",
+    "releaseDate": "2021-06-11",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -1268,7 +1268,7 @@ const GAME = {
     ]
   },
   "9MWTZFGTLRHZ": {
-    "releaseDate": "2022-03-10",
+    "releaseDate": "2022-01-20",
     "gamepass": false,
     "price": 74.99,
     "rate": 4.1,
@@ -1324,7 +1324,7 @@ const GAME = {
     ]
   },
   "9MWZ27L26QQS": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-06-01",
     "gamepass": false,
     "price": 114.99,
     "rate": 4.8,
@@ -1401,7 +1401,7 @@ const GAME = {
     ]
   },
   "9MX4L4JJ0ZXZ": {
-    "releaseDate": "2023-07-25",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -1427,7 +1427,7 @@ const GAME = {
     ]
   },
   "9MX5C9QM9F4B": {
-    "releaseDate": "2023-06-22",
+    "releaseDate": "2023-06-06",
     "gamepass": false,
     "price": 5.99,
     "rate": 2.2,
@@ -1442,7 +1442,7 @@ const GAME = {
     ]
   },
   "9MX7DMHK13SC": {
-    "releaseDate": "2023-06-20",
+    "releaseDate": "2023-03-22",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.8,
@@ -1532,7 +1532,7 @@ const GAME = {
     ]
   },
   "9MXLF0MCCKZD": {
-    "releaseDate": "2023-04-26",
+    "releaseDate": "2023-03-30",
     "gamepass": false,
     "price": 49.99,
     "rate": 3.5,
@@ -1545,7 +1545,7 @@ const GAME = {
     ]
   },
   "9MXMJFNZMVWD": {
-    "releaseDate": "2021-11-11",
+    "releaseDate": "2021-10-22",
     "gamepass": false,
     "price": 59.99,
     "rate": 2.9,
@@ -1582,7 +1582,7 @@ const GAME = {
     ]
   },
   "9MXPMLDS1RV2": {
-    "releaseDate": "2023-07-13",
+    "releaseDate": "2023-03-09",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -1661,7 +1661,7 @@ const GAME = {
     ]
   },
   "9MXXZ8LZVP4V": {
-    "releaseDate": "2023-09-27",
+    "releaseDate": "2023-05-27",
     "gamepass": false,
     "price": 64.99,
     "rate": 0.0,
@@ -1700,7 +1700,7 @@ const GAME = {
     ]
   },
   "9MZ0SR207MG8": {
-    "releaseDate": "2021-11-04",
+    "releaseDate": "2021-06-13",
     "gamepass": false,
     "price": 49.99,
     "rate": 4.0,
@@ -1711,7 +1711,7 @@ const GAME = {
     ]
   },
   "9MZ11KT5KLP6": {
-    "releaseDate": "2020-11-18",
+    "releaseDate": "2020-11-09",
     "gamepass": false,
     "price": 39.98,
     "rate": 4.8,
@@ -1765,7 +1765,7 @@ const GAME = {
     ]
   },
   "9MZ44QV9XM2J": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-05-10",
     "gamepass": false,
     "price": 16.99,
     "rate": 5.0,
@@ -1778,7 +1778,7 @@ const GAME = {
     ]
   },
   "9MZ4GBWX9GND": {
-    "releaseDate": "2023-02-15",
+    "releaseDate": "2023-02-08",
     "gamepass": true,
     "price": 39.99,
     "rate": 3.2,
@@ -1814,7 +1814,7 @@ const GAME = {
     ]
   },
   "9MZ68NKXF91D": {
-    "releaseDate": "2023-02-03",
+    "releaseDate": "2023-02-02",
     "gamepass": false,
     "price": 2.99,
     "rate": 3.3,
@@ -1852,7 +1852,7 @@ const GAME = {
     ]
   },
   "9MZ8RZSD0NFQ": {
-    "releaseDate": "2022-03-29",
+    "releaseDate": "2022-01-26",
     "gamepass": true,
     "price": 49.99,
     "rate": 3.7,
@@ -1868,7 +1868,7 @@ const GAME = {
     ]
   },
   "9MZ92XTL10C1": {
-    "releaseDate": "2023-03-09",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
@@ -1965,7 +1965,7 @@ const GAME = {
     ]
   },
   "9MZDL6L34KF2": {
-    "releaseDate": "2023-03-07",
+    "releaseDate": "2023-03-03",
     "gamepass": true,
     "price": 39.99,
     "rate": 3.8,
@@ -1992,7 +1992,7 @@ const GAME = {
     ]
   },
   "9MZFT7ZBGCVQ": {
-    "releaseDate": "2023-03-02",
+    "releaseDate": "2023-02-07",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -2125,7 +2125,7 @@ const GAME = {
     ]
   },
   "9MZP91N9BNQQ": {
-    "releaseDate": "2023-04-18",
+    "releaseDate": "2023-04-17",
     "gamepass": false,
     "price": 52.49,
     "rate": 4.4,
@@ -2295,7 +2295,7 @@ const GAME = {
     ]
   },
   "9N01FNJF31CD": {
-    "releaseDate": "2023-07-18",
+    "releaseDate": "2023-06-06",
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -2308,7 +2308,7 @@ const GAME = {
     ]
   },
   "9N01MR5LF53S": {
-    "releaseDate": "2023-05-15",
+    "releaseDate": "2023-04-16",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -2368,7 +2368,7 @@ const GAME = {
     ]
   },
   "9N04K2WJ5XK2": {
-    "releaseDate": "2023-03-17",
+    "releaseDate": "2023-03-14",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.0,
@@ -2381,7 +2381,7 @@ const GAME = {
     ]
   },
   "9N06F74TXVBH": {
-    "releaseDate": "2023-09-13",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -2417,7 +2417,7 @@ const GAME = {
     ]
   },
   "9N0BT2QC646K": {
-    "releaseDate": "2023-02-23",
+    "releaseDate": "2022-12-07",
     "gamepass": false,
     "price": 39.99,
     "rate": 2.8,
@@ -2527,7 +2527,7 @@ const GAME = {
     ]
   },
   "9N0LBD52QHKF": {
-    "releaseDate": "2023-01-12",
+    "releaseDate": "2023-01-06",
     "gamepass": false,
     "price": 16.99,
     "rate": 3.0,
@@ -2540,7 +2540,7 @@ const GAME = {
     ]
   },
   "9N0PXW8HH8RG": {
-    "releaseDate": "2023-07-12",
+    "releaseDate": "2023-06-28",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -2756,7 +2756,7 @@ const GAME = {
     ]
   },
   "9N1C74G2JXHM": {
-    "releaseDate": "2022-04-15",
+    "releaseDate": "2022-04-14",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -2769,7 +2769,7 @@ const GAME = {
     ]
   },
   "9N1CD2RR7DC2": {
-    "releaseDate": "2023-12-06",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 109.99,
     "rate": 0.0,
@@ -2783,7 +2783,7 @@ const GAME = {
     ]
   },
   "9N1CS194W1Q6": {
-    "releaseDate": "2021-09-30",
+    "releaseDate": "2021-07-11",
     "gamepass": true,
     "price": 0.0,
     "rate": 2.1,
@@ -2800,7 +2800,7 @@ const GAME = {
     ]
   },
   "9N1G9R2XH4MD": {
-    "releaseDate": "2022-11-10",
+    "releaseDate": "2022-10-31",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -2846,7 +2846,7 @@ const GAME = {
     ]
   },
   "9N1LZVJX6Q3M": {
-    "releaseDate": "2023-06-07",
+    "releaseDate": "2023-05-25",
     "gamepass": false,
     "price": 19.99,
     "rate": 0.0,
@@ -2888,7 +2888,7 @@ const GAME = {
     ]
   },
   "9N1R83CKGZJP": {
-    "releaseDate": "2021-04-23",
+    "releaseDate": "2021-04-12",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
@@ -2901,7 +2901,7 @@ const GAME = {
     ]
   },
   "9N1TJXX28CXK": {
-    "releaseDate": "2023-09-27",
+    "releaseDate": "2023-05-27",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -2912,7 +2912,7 @@ const GAME = {
     ]
   },
   "9N1VP8WDQK4D": {
-    "releaseDate": "2023-01-19",
+    "releaseDate": "2022-12-01",
     "gamepass": true,
     "price": 39.99,
     "rate": 3.7,
@@ -2967,7 +2967,7 @@ const GAME = {
     ]
   },
   "9N22DQW2BCML": {
-    "releaseDate": "2023-04-06",
+    "releaseDate": "2023-04-03",
     "gamepass": false,
     "price": 3.99,
     "rate": 1.0,
@@ -2980,7 +2980,7 @@ const GAME = {
     ]
   },
   "9N232RBCFR2G": {
-    "releaseDate": "2022-01-20",
+    "releaseDate": "2022-01-10",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -3009,7 +3009,7 @@ const GAME = {
     ]
   },
   "9N243DQC4CGK": {
-    "releaseDate": "2023-06-21",
+    "releaseDate": "2023-06-07",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -3047,7 +3047,7 @@ const GAME = {
     ]
   },
   "9N274JBXLD8T": {
-    "releaseDate": "2023-10-17",
+    "releaseDate": "2023-05-24",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -3072,7 +3072,7 @@ const GAME = {
     ]
   },
   "9N29VZ9LRNNQ": {
-    "releaseDate": "2022-03-01",
+    "releaseDate": "2022-01-11",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -3095,7 +3095,7 @@ const GAME = {
     ]
   },
   "9N2BZ3GVZ2XL": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2023-05-16",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -3197,7 +3197,7 @@ const GAME = {
     ]
   },
   "9N2P7MN9JD3P": {
-    "releaseDate": "2021-03-16",
+    "releaseDate": "2021-02-17",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -3262,7 +3262,7 @@ const GAME = {
     ]
   },
   "9N2TTV4T0D0D": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-06-01",
     "gamepass": false,
     "price": 94.99,
     "rate": 4.8,
@@ -3302,7 +3302,7 @@ const GAME = {
     ]
   },
   "9N2Z748SPMTM": {
-    "releaseDate": "2023-01-31",
+    "releaseDate": "2023-01-17",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -3327,7 +3327,7 @@ const GAME = {
     ]
   },
   "9N2ZK1Z9FD6Z": {
-    "releaseDate": "2021-12-16",
+    "releaseDate": "2021-12-08",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
@@ -3410,7 +3410,7 @@ const GAME = {
     ]
   },
   "9N355W8C68TG": {
-    "releaseDate": "2021-11-02",
+    "releaseDate": "2021-10-19",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -3454,7 +3454,7 @@ const GAME = {
     ]
   },
   "9N39Q75R7G35": {
-    "releaseDate": "2021-06-09",
+    "releaseDate": "2021-05-27",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
@@ -3537,7 +3537,7 @@ const GAME = {
     ]
   },
   "9N3GM1CBZV8X": {
-    "releaseDate": "2023-01-31",
+    "releaseDate": "2023-01-17",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
@@ -3644,7 +3644,7 @@ const GAME = {
     ]
   },
   "9N3NBRGQWP1S": {
-    "releaseDate": "2023-07-06",
+    "releaseDate": "2023-06-06",
     "gamepass": false,
     "price": 19.99,
     "rate": 0.0,
@@ -3826,7 +3826,7 @@ const GAME = {
     ]
   },
   "9N44WK3WV2HJ": {
-    "releaseDate": "2021-10-05",
+    "releaseDate": "2021-09-07",
     "gamepass": false,
     "price": 31.49,
     "rate": 3.8,
@@ -3853,7 +3853,7 @@ const GAME = {
     ]
   },
   "9N47KNN660VR": {
-    "releaseDate": "2023-09-13",
+    "releaseDate": "2023-04-10",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -3892,7 +3892,7 @@ const GAME = {
     ]
   },
   "9N4BH9FLLMWD": {
-    "releaseDate": "2023-02-21",
+    "releaseDate": "2022-09-14",
     "gamepass": false,
     "price": 59.99,
     "rate": 4.8,
@@ -3906,7 +3906,7 @@ const GAME = {
     ]
   },
   "9N4CPQ4R2180": {
-    "releaseDate": "2023-10-03",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -3920,7 +3920,7 @@ const GAME = {
     ]
   },
   "9N4DC4325HLM": {
-    "releaseDate": "2023-04-19",
+    "releaseDate": "2023-03-16",
     "gamepass": true,
     "price": 14.99,
     "rate": 4.7,
@@ -3994,7 +3994,7 @@ const GAME = {
     ]
   },
   "9N4K3F9558RP": {
-    "releaseDate": "2022-09-29",
+    "releaseDate": "2022-07-20",
     "gamepass": true,
     "price": 79.99,
     "rate": 1.9,
@@ -4047,7 +4047,7 @@ const GAME = {
     ]
   },
   "9N4PQN0ZH3LF": {
-    "releaseDate": "2023-06-20",
+    "releaseDate": "2023-06-19",
     "gamepass": false,
     "price": 89.99,
     "rate": 2.7,
@@ -4222,7 +4222,7 @@ const GAME = {
     ]
   },
   "9N52LMB298BX": {
-    "releaseDate": "2023-10-05",
+    "releaseDate": "2023-06-28",
     "gamepass": false,
     "price": 84.99,
     "rate": 0.0,
@@ -4287,7 +4287,7 @@ const GAME = {
     ]
   },
   "9N54K31CFGC1": {
-    "releaseDate": "2023-10-25",
+    "releaseDate": "2023-05-26",
     "gamepass": false,
     "price": 53.99,
     "rate": 0.0,
@@ -4337,7 +4337,7 @@ const GAME = {
     ]
   },
   "9N58VRFT3GFW": {
-    "releaseDate": "2023-01-25",
+    "releaseDate": "2023-01-12",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -4352,7 +4352,7 @@ const GAME = {
     ]
   },
   "9N5CCV7L8G6G": {
-    "releaseDate": "2023-10-17",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -4376,7 +4376,7 @@ const GAME = {
     ]
   },
   "9N5D4NT9DJCQ": {
-    "releaseDate": "2023-10-15",
+    "releaseDate": "2023-05-31",
     "gamepass": false,
     "price": 89.99,
     "rate": 0.0,
@@ -4438,7 +4438,7 @@ const GAME = {
     ]
   },
   "9N5FLPS0PK17": {
-    "releaseDate": "2022-05-10",
+    "releaseDate": "2022-04-26",
     "gamepass": false,
     "price": 26.99,
     "rate": 3.3,
@@ -4546,7 +4546,7 @@ const GAME = {
     ]
   },
   "9N5MZM3J3LCQ": {
-    "releaseDate": "2023-10-04",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -4662,7 +4662,7 @@ const GAME = {
     ]
   },
   "9N5V7P4N4DM2": {
-    "releaseDate": "2023-02-16",
+    "releaseDate": "2023-01-20",
     "gamepass": false,
     "price": 7.99,
     "rate": 2.9,
@@ -4772,7 +4772,7 @@ const GAME = {
     ]
   },
   "9N65R2J99915": {
-    "releaseDate": "2023-07-13",
+    "releaseDate": "2023-03-09",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -4875,7 +4875,7 @@ const GAME = {
     ]
   },
   "9N6D5ZWTBLHH": {
-    "releaseDate": "2023-06-27",
+    "releaseDate": "2023-06-19",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.7,
@@ -4903,7 +4903,7 @@ const GAME = {
     ]
   },
   "9N6HB778ZWP2": {
-    "releaseDate": "2020-04-27",
+    "releaseDate": "2020-03-26",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.3,
@@ -4958,7 +4958,7 @@ const GAME = {
     ]
   },
   "9N6KM0C14TV2": {
-    "releaseDate": "2022-12-15",
+    "releaseDate": "2022-11-28",
     "gamepass": false,
     "price": 24.99,
     "rate": 3.3,
@@ -4972,7 +4972,7 @@ const GAME = {
     ]
   },
   "9N6KR4XFQ4TC": {
-    "releaseDate": "2023-10-12",
+    "releaseDate": "2023-05-18",
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
@@ -5007,7 +5007,7 @@ const GAME = {
     "tags": []
   },
   "9N6QGMLTG2B4": {
-    "releaseDate": "2023-06-07",
+    "releaseDate": "2023-05-26",
     "gamepass": false,
     "price": 9.99,
     "rate": 2.7,
@@ -5042,7 +5042,7 @@ const GAME = {
     ]
   },
   "9N6V0ZCG8XH3": {
-    "releaseDate": "2020-11-10",
+    "releaseDate": "2020-11-09",
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
@@ -5084,7 +5084,7 @@ const GAME = {
     ]
   },
   "9N6Z8DQXSQWH": {
-    "releaseDate": "2017-10-31",
+    "releaseDate": "2017-10-30",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -5173,7 +5173,7 @@ const GAME = {
     ]
   },
   "9N79LGZV5GHB": {
-    "releaseDate": "2022-07-01",
+    "releaseDate": "2022-04-21",
     "gamepass": true,
     "price": 79.99,
     "rate": 2.9,
@@ -5192,7 +5192,7 @@ const GAME = {
     ]
   },
   "9N7CJX93ZGWN": {
-    "releaseDate": "2021-06-08",
+    "releaseDate": "2021-03-30",
     "gamepass": true,
     "price": 39.99,
     "rate": 3.8,
@@ -5247,7 +5247,7 @@ const GAME = {
     ]
   },
   "9N7GC98Q67LM": {
-    "releaseDate": "2023-04-28",
+    "releaseDate": "2023-04-11",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -5262,7 +5262,7 @@ const GAME = {
     ]
   },
   "9N7GCF5SGCXC": {
-    "releaseDate": "2020-08-20",
+    "releaseDate": "2020-07-31",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
@@ -5277,7 +5277,7 @@ const GAME = {
     ]
   },
   "9N7GT8D6XWZ7": {
-    "releaseDate": "2023-08-09",
+    "releaseDate": "2023-03-01",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -5318,7 +5318,7 @@ const GAME = {
     ]
   },
   "9N7JCPPCPN37": {
-    "releaseDate": "2023-03-23",
+    "releaseDate": "2022-10-20",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.6,
@@ -5493,7 +5493,7 @@ const GAME = {
     ]
   },
   "9N7ZXNPX2Q1J": {
-    "releaseDate": "2023-02-03",
+    "releaseDate": "2023-01-23",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.8,
@@ -5508,7 +5508,7 @@ const GAME = {
     ]
   },
   "9N806MSMQHDM": {
-    "releaseDate": "2022-11-30",
+    "releaseDate": "2022-11-16",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.0,
@@ -5577,7 +5577,7 @@ const GAME = {
     ]
   },
   "9N841ZC3QJ16": {
-    "releaseDate": "2023-02-02",
+    "releaseDate": "2023-02-01",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -5642,7 +5642,7 @@ const GAME = {
     ]
   },
   "9N8C4P4P3JDT": {
-    "releaseDate": "2023-04-26",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 4.99,
     "rate": 1.0,
@@ -5657,7 +5657,7 @@ const GAME = {
     ]
   },
   "9N8CD0XZKLP4": {
-    "releaseDate": "2020-03-10",
+    "releaseDate": "2019-12-13",
     "gamepass": true,
     "price": 29.99,
     "rate": 4.7,
@@ -5671,7 +5671,7 @@ const GAME = {
     ]
   },
   "9N8GK34GSDWZ": {
-    "releaseDate": "2023-04-17",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -5707,7 +5707,7 @@ const GAME = {
     ]
   },
   "9N8KMNGD9DZC": {
-    "releaseDate": "2023-02-08",
+    "releaseDate": "2023-01-30",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.0,
@@ -5740,7 +5740,7 @@ const GAME = {
     ]
   },
   "9N8LSNMV8HB4": {
-    "releaseDate": "2018-11-20",
+    "releaseDate": "2018-11-17",
     "gamepass": false,
     "price": 5.99,
     "rate": 3.7,
@@ -5752,7 +5752,7 @@ const GAME = {
     ]
   },
   "9N8NJ74FZTG9": {
-    "releaseDate": "2020-05-26",
+    "releaseDate": "2020-03-31",
     "gamepass": true,
     "price": 19.99,
     "rate": 3.9,
@@ -5768,7 +5768,7 @@ const GAME = {
     ]
   },
   "9N8P3348GS81": {
-    "releaseDate": "2023-03-15",
+    "releaseDate": "2023-03-06",
     "gamepass": false,
     "price": 17.49,
     "rate": 3.3,
@@ -5807,7 +5807,7 @@ const GAME = {
     ]
   },
   "9N8VDJ5XX7JP": {
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2023-06-15",
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -5873,7 +5873,7 @@ const GAME = {
     ]
   },
   "9N913NZZ64H1": {
-    "releaseDate": "2022-11-03",
+    "releaseDate": "2022-09-30",
     "gamepass": false,
     "price": 19.99,
     "rate": 3.1,
@@ -5902,7 +5902,7 @@ const GAME = {
     ]
   },
   "9N92Z4FCHLQX": {
-    "releaseDate": "2023-05-25",
+    "releaseDate": "2023-04-06",
     "gamepass": false,
     "price": 17.49,
     "rate": 4.9,
@@ -5914,7 +5914,7 @@ const GAME = {
     ]
   },
   "9N93V5M3TG4N": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-05-02",
     "gamepass": false,
     "price": 41.99,
     "rate": 3.5,
@@ -5943,7 +5943,7 @@ const GAME = {
     ]
   },
   "9N961B11FJ4W": {
-    "releaseDate": "2022-12-05",
+    "releaseDate": "2022-04-07",
     "gamepass": true,
     "price": 39.99,
     "rate": 3.3,
@@ -5972,7 +5972,7 @@ const GAME = {
     ]
   },
   "9N9BX2X4D2PV": {
-    "releaseDate": "2023-06-01",
+    "releaseDate": "2023-05-21",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -6003,7 +6003,7 @@ const GAME = {
     ]
   },
   "9N9HF2KBSV2D": {
-    "releaseDate": "2023-06-07",
+    "releaseDate": "2023-05-03",
     "gamepass": false,
     "price": 69.99,
     "rate": 1.0,
@@ -6021,7 +6021,7 @@ const GAME = {
     ]
   },
   "9N9HT7X40B6M": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-20",
     "gamepass": false,
     "price": 33.99,
     "rate": 4.4,
@@ -6063,7 +6063,7 @@ const GAME = {
     ]
   },
   "9N9J38LPVSM3": {
-    "releaseDate": "2021-09-30",
+    "releaseDate": "2021-07-11",
     "gamepass": true,
     "price": 0.0,
     "rate": 1.8,
@@ -6120,7 +6120,7 @@ const GAME = {
     ]
   },
   "9N9M6V87H1Z8": {
-    "releaseDate": "2023-07-24",
+    "releaseDate": "2023-06-06",
     "gamepass": false,
     "price": 22.49,
     "rate": 0.0,
@@ -6133,7 +6133,7 @@ const GAME = {
     ]
   },
   "9N9N9337Z5M8": {
-    "releaseDate": "2022-12-21",
+    "releaseDate": "2022-12-13",
     "gamepass": false,
     "price": 5.99,
     "rate": 5.0,
@@ -6183,7 +6183,7 @@ const GAME = {
     ]
   },
   "9N9RMHTJX41P": {
-    "releaseDate": "2021-06-25",
+    "releaseDate": "2021-03-18",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.4,
@@ -6224,7 +6224,7 @@ const GAME = {
     ]
   },
   "9N9X9PC8V9CP": {
-    "releaseDate": "2023-03-03",
+    "releaseDate": "2023-03-02",
     "gamepass": true,
     "price": 69.99,
     "rate": 2.8,
@@ -6267,7 +6267,7 @@ const GAME = {
     ]
   },
   "9NB52QBS4ZDB": {
-    "releaseDate": "2022-12-01",
+    "releaseDate": "2022-11-28",
     "gamepass": false,
     "price": 79.99,
     "rate": 3.8,
@@ -6330,7 +6330,7 @@ const GAME = {
     ]
   },
   "9NBB6LPC7L0V": {
-    "releaseDate": "2023-05-23",
+    "releaseDate": "2023-05-18",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -6439,7 +6439,7 @@ const GAME = {
     ]
   },
   "9NBGF14KQ3F3": {
-    "releaseDate": "2023-04-04",
+    "releaseDate": "2023-03-29",
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -6491,7 +6491,7 @@ const GAME = {
     ]
   },
   "9NBJG075JFJ5": {
-    "releaseDate": "2021-09-23",
+    "releaseDate": "2021-09-16",
     "gamepass": false,
     "price": 39.99,
     "rate": 2.9,
@@ -6504,7 +6504,7 @@ const GAME = {
     ]
   },
   "9NBL0XKVCN5L": {
-    "releaseDate": "2020-08-27",
+    "releaseDate": "2020-06-25",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -6592,7 +6592,7 @@ const GAME = {
     ]
   },
   "9NBLGGH4PBBM": {
-    "releaseDate": "2016-10-10",
+    "releaseDate": "2016-10-06",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -6685,7 +6685,7 @@ const GAME = {
     ]
   },
   "9NBNW67J2DZS": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2023-05-12",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.6,
@@ -6741,7 +6741,7 @@ const GAME = {
     ]
   },
   "9NBSQ40B01HJ": {
-    "releaseDate": "2023-09-25",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 79.99,
     "rate": 4.1,
@@ -6794,7 +6794,7 @@ const GAME = {
     ]
   },
   "9NBZ7Z3JRXQ8": {
-    "releaseDate": "2022-12-06",
+    "releaseDate": "2022-11-08",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.5,
@@ -6847,7 +6847,7 @@ const GAME = {
     ]
   },
   "9NC77CPRZPTP": {
-    "releaseDate": "2023-01-11",
+    "releaseDate": "2023-01-05",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -6964,7 +6964,7 @@ const GAME = {
     ]
   },
   "9NCF3MRQ8480": {
-    "releaseDate": "2022-09-14",
+    "releaseDate": "2022-08-31",
     "gamepass": true,
     "price": 19.99,
     "rate": 3.8,
@@ -7018,7 +7018,7 @@ const GAME = {
     ]
   },
   "9NCHRVGLRW56": {
-    "releaseDate": "2023-01-25",
+    "releaseDate": "2023-01-11",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -7055,7 +7055,7 @@ const GAME = {
     ]
   },
   "9NCJVHMFKVMD": {
-    "releaseDate": "2023-04-21",
+    "releaseDate": "2023-04-07",
     "gamepass": false,
     "price": 6.99,
     "rate": 4.2,
@@ -7148,7 +7148,7 @@ const GAME = {
     ]
   },
   "9NCSF6148KC1": {
-    "releaseDate": "2023-06-28",
+    "releaseDate": "2023-06-16",
     "gamepass": false,
     "price": 10.39,
     "rate": 5.0,
@@ -7173,7 +7173,7 @@ const GAME = {
     ]
   },
   "9NCT5Z3D8RRW": {
-    "releaseDate": "2023-06-22",
+    "releaseDate": "2023-06-19",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
@@ -7186,7 +7186,7 @@ const GAME = {
     ]
   },
   "9NCV1W68JTMJ": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-05-08",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.4,
@@ -7224,7 +7224,7 @@ const GAME = {
     ]
   },
   "9NCZK59MPF6H": {
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2023-06-20",
     "gamepass": false,
     "price": 4.99,
     "rate": 0.0,
@@ -7282,7 +7282,7 @@ const GAME = {
     ]
   },
   "9ND5G9VCFXP8": {
-    "releaseDate": "2023-04-12",
+    "releaseDate": "2023-04-03",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.3,
@@ -7296,7 +7296,7 @@ const GAME = {
     ]
   },
   "9ND82BSMPZQM": {
-    "releaseDate": "2022-11-08",
+    "releaseDate": "2022-11-06",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.7,
@@ -7360,7 +7360,7 @@ const GAME = {
     ]
   },
   "9NDDMHZRZ0R6": {
-    "releaseDate": "2022-09-29",
+    "releaseDate": "2022-07-20",
     "gamepass": true,
     "price": 69.99,
     "rate": 2.1,
@@ -7417,7 +7417,7 @@ const GAME = {
     ]
   },
   "9NDJJQDF411C": {
-    "releaseDate": "2021-09-23",
+    "releaseDate": "2021-07-08",
     "gamepass": false,
     "price": 59.99,
     "rate": 4.7,
@@ -7455,7 +7455,7 @@ const GAME = {
     ]
   },
   "9NDKCLM81W3P": {
-    "releaseDate": "2023-06-22",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
@@ -7494,7 +7494,7 @@ const GAME = {
     ]
   },
   "9NDNTV0L9N87": {
-    "releaseDate": "2023-10-24",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -7519,7 +7519,7 @@ const GAME = {
     ]
   },
   "9NDR19CDD21L": {
-    "releaseDate": "2023-05-19",
+    "releaseDate": "2023-05-03",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.5,
@@ -7546,7 +7546,7 @@ const GAME = {
     ]
   },
   "9NDVBN7QKLPC": {
-    "releaseDate": "2023-01-31",
+    "releaseDate": "2021-09-17",
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -7590,7 +7590,7 @@ const GAME = {
     ]
   },
   "9NDZ7NXFF622": {
-    "releaseDate": "2021-07-20",
+    "releaseDate": "2021-06-12",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
@@ -7656,7 +7656,7 @@ const GAME = {
     ]
   },
   "9NF41TV42S5T": {
-    "releaseDate": "2023-11-17",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -7736,7 +7736,7 @@ const GAME = {
     ]
   },
   "9NF6VQ5Q4QXR": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-05-21",
     "gamepass": false,
     "price": 2.99,
     "rate": 4.8,
@@ -7774,7 +7774,7 @@ const GAME = {
     ]
   },
   "9NF7DPQK6PQB": {
-    "releaseDate": "2023-01-10",
+    "releaseDate": "2022-11-22",
     "gamepass": false,
     "price": 17.99,
     "rate": 5.0,
@@ -7826,7 +7826,7 @@ const GAME = {
     ]
   },
   "9NFDLZ047GTL": {
-    "releaseDate": "2023-03-08",
+    "releaseDate": "2023-02-24",
     "gamepass": false,
     "price": 6.99,
     "rate": 3.3,
@@ -7851,7 +7851,7 @@ const GAME = {
     ]
   },
   "9NFKXRNWLMX3": {
-    "releaseDate": "2023-04-27",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -7987,7 +7987,7 @@ const GAME = {
     ]
   },
   "9NFTGWMKRW75": {
-    "releaseDate": "2023-07-20",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 19.99,
     "rate": 0.0,
@@ -8040,7 +8040,7 @@ const GAME = {
     ]
   },
   "9NFXWR3NBQ9S": {
-    "releaseDate": "2023-07-27",
+    "releaseDate": "2023-05-31",
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -8081,7 +8081,7 @@ const GAME = {
     ]
   },
   "9NG07QJNK38J": {
-    "releaseDate": "2021-12-14",
+    "releaseDate": "2020-12-16",
     "gamepass": true,
     "price": 4.99,
     "rate": 3.7,
@@ -8123,7 +8123,7 @@ const GAME = {
     ]
   },
   "9NG3XG7MSGMS": {
-    "releaseDate": "2023-05-17",
+    "releaseDate": "2023-04-26",
     "gamepass": false,
     "price": 4.99,
     "rate": 1.0,
@@ -8170,7 +8170,7 @@ const GAME = {
     ]
   },
   "9NGC0FV2R2M1": {
-    "releaseDate": "2023-03-09",
+    "releaseDate": "2023-02-09",
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -8242,7 +8242,7 @@ const GAME = {
     ]
   },
   "9NGJHLDVFQZS": {
-    "releaseDate": "2023-03-17",
+    "releaseDate": "2023-03-14",
     "gamepass": false,
     "price": 54.99,
     "rate": 5.0,
@@ -8264,7 +8264,7 @@ const GAME = {
     ]
   },
   "9NGLLVRP0M7P": {
-    "releaseDate": "2023-10-17",
+    "releaseDate": "2023-05-24",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -8275,7 +8275,7 @@ const GAME = {
     ]
   },
   "9NGM563V3MTN": {
-    "releaseDate": "2023-05-24",
+    "releaseDate": "2023-05-10",
     "gamepass": false,
     "price": 5.24,
     "rate": 4.9,
@@ -8315,7 +8315,7 @@ const GAME = {
     ]
   },
   "9NGRX7L5NB6M": {
-    "releaseDate": "2020-11-24",
+    "releaseDate": "2020-11-10",
     "gamepass": false,
     "price": 44.99,
     "rate": 3.3,
@@ -8341,7 +8341,7 @@ const GAME = {
     ]
   },
   "9NGT470FW8L2": {
-    "releaseDate": "2023-04-25",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -8353,7 +8353,7 @@ const GAME = {
     ]
   },
   "9NGTPDZWT3VZ": {
-    "releaseDate": "2022-11-28",
+    "releaseDate": "2022-09-20",
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
@@ -8511,7 +8511,7 @@ const GAME = {
     ]
   },
   "9NH31NZ46729": {
-    "releaseDate": "2023-04-04",
+    "releaseDate": "2023-03-14",
     "gamepass": false,
     "price": 22.49,
     "rate": 4.7,
@@ -8525,7 +8525,7 @@ const GAME = {
     ]
   },
   "9NH3JQ8CMQSK": {
-    "releaseDate": "2023-08-22",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 89.99,
     "rate": 0.0,
@@ -8536,7 +8536,7 @@ const GAME = {
     ]
   },
   "9NH3QTH5N007": {
-    "releaseDate": "2022-07-08",
+    "releaseDate": "2022-07-07",
     "gamepass": false,
     "price": 35.99,
     "rate": 3.8,
@@ -8588,7 +8588,7 @@ const GAME = {
     ]
   },
   "9NH7DCSM00R2": {
-    "releaseDate": "2023-10-24",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -8613,7 +8613,7 @@ const GAME = {
     ]
   },
   "9NH8N0M7CWLN": {
-    "releaseDate": "2022-11-11",
+    "releaseDate": "2022-11-01",
     "gamepass": false,
     "price": 89.99,
     "rate": 3.1,
@@ -8649,7 +8649,7 @@ const GAME = {
     ]
   },
   "9NHDFTCL691C": {
-    "releaseDate": "2023-06-27",
+    "releaseDate": "2023-02-10",
     "gamepass": true,
     "price": 29.99,
     "rate": 4.8,
@@ -8775,7 +8775,7 @@ const GAME = {
     ]
   },
   "9NHMS63FGKC0": {
-    "releaseDate": "2022-05-25",
+    "releaseDate": "2022-05-24",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -8808,7 +8808,7 @@ const GAME = {
     ]
   },
   "9NHN8TVNZ58V": {
-    "releaseDate": "2023-03-16",
+    "releaseDate": "2023-01-23",
     "gamepass": false,
     "price": 69.99,
     "rate": 3.3,
@@ -8860,7 +8860,7 @@ const GAME = {
     ]
   },
   "9NHR2Z6GD4G9": {
-    "releaseDate": "2023-05-18",
+    "releaseDate": "2023-05-13",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.9,
@@ -8920,7 +8920,7 @@ const GAME = {
     ]
   },
   "9NJ2J77GP3CD": {
-    "releaseDate": "2023-06-09",
+    "releaseDate": "2023-05-30",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -8983,7 +8983,7 @@ const GAME = {
     ]
   },
   "9NJ5K5F4TLS6": {
-    "releaseDate": "2020-10-30",
+    "releaseDate": "2020-08-25",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -9011,7 +9011,7 @@ const GAME = {
     ]
   },
   "9NJ87V9TWKGL": {
-    "releaseDate": "2023-06-07",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -9036,7 +9036,7 @@ const GAME = {
     ]
   },
   "9NJBQ9JFM5NS": {
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2023-06-23",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -9132,7 +9132,7 @@ const GAME = {
     ]
   },
   "9NJLNT2P8J4S": {
-    "releaseDate": "2023-06-23",
+    "releaseDate": "2023-06-22",
     "gamepass": false,
     "price": 39.99,
     "rate": 2.0,
@@ -9186,7 +9186,7 @@ const GAME = {
     ]
   },
   "9NJV563B1NS5": {
-    "releaseDate": "2022-07-27",
+    "releaseDate": "2022-07-22",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -9200,7 +9200,7 @@ const GAME = {
     ]
   },
   "9NJV7WCG734C": {
-    "releaseDate": "2023-06-15",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -9221,7 +9221,7 @@ const GAME = {
     "tags": []
   },
   "9NJWFF2KHL6H": {
-    "releaseDate": "2020-10-09",
+    "releaseDate": "2020-09-09",
     "gamepass": true,
     "price": 29.99,
     "rate": 3.4,
@@ -9236,7 +9236,7 @@ const GAME = {
     ]
   },
   "9NJWL0XVLP7T": {
-    "releaseDate": "2023-01-19",
+    "releaseDate": "2022-12-15",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -9261,7 +9261,7 @@ const GAME = {
     ]
   },
   "9NJZ0M2BL937": {
-    "releaseDate": "2023-03-31",
+    "releaseDate": "2023-03-19",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
@@ -9275,7 +9275,7 @@ const GAME = {
     ]
   },
   "9NK1V931W0MP": {
-    "releaseDate": "2023-01-26",
+    "releaseDate": "2023-01-18",
     "gamepass": false,
     "price": 3.99,
     "rate": 3.7,
@@ -9344,7 +9344,7 @@ const GAME = {
     ]
   },
   "9NKB1B50PZLZ": {
-    "releaseDate": "2021-10-04",
+    "releaseDate": "2021-09-09",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
@@ -9371,7 +9371,7 @@ const GAME = {
     ]
   },
   "9NKC1Z4Z92VN": {
-    "releaseDate": "2022-03-14",
+    "releaseDate": "2022-03-07",
     "gamepass": false,
     "price": 19.99,
     "rate": 2.8,
@@ -9383,7 +9383,7 @@ const GAME = {
     ]
   },
   "9NKCCB5FBL4D": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-05-21",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.0,
@@ -9395,7 +9395,7 @@ const GAME = {
     ]
   },
   "9NKDGLVBLS1J": {
-    "releaseDate": "2023-03-22",
+    "releaseDate": "2023-03-08",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -9493,7 +9493,7 @@ const GAME = {
     ]
   },
   "9NKK55QGMN9D": {
-    "releaseDate": "2023-03-14",
+    "releaseDate": "2023-02-28",
     "gamepass": false,
     "price": 21.99,
     "rate": 4.4,
@@ -9519,7 +9519,7 @@ const GAME = {
     ]
   },
   "9NKLB98GPC69": {
-    "releaseDate": "2023-02-28",
+    "releaseDate": "2023-02-23",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.5,
@@ -9566,7 +9566,7 @@ const GAME = {
     ]
   },
   "9NKTJLP2HKWK": {
-    "releaseDate": "2022-11-08",
+    "releaseDate": "2022-09-08",
     "gamepass": true,
     "price": 24.99,
     "rate": 2.9,
@@ -9606,7 +9606,7 @@ const GAME = {
     ]
   },
   "9NKX70BBCDRN": {
-    "releaseDate": "2021-11-08",
+    "releaseDate": "2021-06-13",
     "gamepass": true,
     "price": 69.99,
     "rate": 3.4,
@@ -9672,7 +9672,7 @@ const GAME = {
     ]
   },
   "9NL27HL40LNL": {
-    "releaseDate": "2023-07-31",
+    "releaseDate": "2023-06-07",
     "gamepass": false,
     "price": 54.99,
     "rate": 0.0,
@@ -9684,7 +9684,7 @@ const GAME = {
     ]
   },
   "9NL4714VTLRS": {
-    "releaseDate": "2022-12-13",
+    "releaseDate": "2022-08-22",
     "gamepass": true,
     "price": 59.99,
     "rate": 3.7,
@@ -9710,7 +9710,7 @@ const GAME = {
     ]
   },
   "9NLB6V0GNC9P": {
-    "releaseDate": "2023-01-27",
+    "releaseDate": "2022-09-20",
     "gamepass": false,
     "price": 79.99,
     "rate": 4.7,
@@ -9735,7 +9735,7 @@ const GAME = {
     ]
   },
   "9NLC5X1GJX9K": {
-    "releaseDate": "2023-08-23",
+    "releaseDate": "2023-05-12",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -9762,7 +9762,7 @@ const GAME = {
     ]
   },
   "9NLCH0S95PP1": {
-    "releaseDate": "2023-03-29",
+    "releaseDate": "2023-03-24",
     "gamepass": false,
     "price": 29.99,
     "rate": 2.4,
@@ -9776,7 +9776,7 @@ const GAME = {
     ]
   },
   "9NLDK92W2H6M": {
-    "releaseDate": "2023-05-25",
+    "releaseDate": "2023-05-24",
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -9827,7 +9827,7 @@ const GAME = {
     ]
   },
   "9NLGBHLSWXM8": {
-    "releaseDate": "2023-09-01",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 109.99,
     "rate": 0.0,
@@ -10045,7 +10045,7 @@ const GAME = {
     ]
   },
   "9NLTSH03F6BV": {
-    "releaseDate": "2023-05-15",
+    "releaseDate": "2023-03-23",
     "gamepass": false,
     "price": 99.99,
     "rate": 5.0,
@@ -10060,7 +10060,7 @@ const GAME = {
     ]
   },
   "9NLV3X229LG1": {
-    "releaseDate": "2020-04-15",
+    "releaseDate": "2020-04-11",
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
@@ -10157,7 +10157,7 @@ const GAME = {
     ]
   },
   "9NM3TNRPQXLR": {
-    "releaseDate": "2022-10-14",
+    "releaseDate": "2022-06-12",
     "gamepass": true,
     "price": 39.99,
     "rate": 4.1,
@@ -10170,7 +10170,7 @@ const GAME = {
     ]
   },
   "9NM4WPJTLWF6": {
-    "releaseDate": "2022-12-01",
+    "releaseDate": "2022-06-12",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -10212,7 +10212,7 @@ const GAME = {
     ]
   },
   "9NM79B7N9JM6": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-06-01",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.7,
@@ -10226,7 +10226,7 @@ const GAME = {
     ]
   },
   "9NM92WGGVMT6": {
-    "releaseDate": "2022-04-07",
+    "releaseDate": "2022-04-06",
     "gamepass": false,
     "price": 39.98,
     "rate": 4.5,
@@ -10238,7 +10238,7 @@ const GAME = {
     ]
   },
   "9NMB4T25W817": {
-    "releaseDate": "2022-11-17",
+    "releaseDate": "2022-06-09",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.4,
@@ -10252,7 +10252,7 @@ const GAME = {
     ]
   },
   "9NMBK4V30XJR": {
-    "releaseDate": "2021-04-23",
+    "releaseDate": "2020-09-24",
     "gamepass": false,
     "price": 59.98,
     "rate": 4.8,
@@ -10414,7 +10414,7 @@ const GAME = {
     ]
   },
   "9NMTZWKL8CGM": {
-    "releaseDate": "2020-08-28",
+    "releaseDate": "2020-08-27",
     "gamepass": false,
     "price": 19.99,
     "rate": 3.3,
@@ -10455,7 +10455,7 @@ const GAME = {
     ]
   },
   "9NN16ML9S93V": {
-    "releaseDate": "2021-04-05",
+    "releaseDate": "2021-03-09",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -10467,7 +10467,7 @@ const GAME = {
     ]
   },
   "9NN1Z8LHMFBV": {
-    "releaseDate": "2021-12-02",
+    "releaseDate": "2021-09-23",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
@@ -10481,7 +10481,7 @@ const GAME = {
     ]
   },
   "9NN20P7BXRG4": {
-    "releaseDate": "2023-02-17",
+    "releaseDate": "2023-02-15",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -10544,7 +10544,7 @@ const GAME = {
     ]
   },
   "9NN5MDBNSRCJ": {
-    "releaseDate": "2023-03-31",
+    "releaseDate": "2023-03-06",
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
@@ -10570,7 +10570,7 @@ const GAME = {
     ]
   },
   "9NN6K2X1XQWK": {
-    "releaseDate": "2023-06-08",
+    "releaseDate": "2023-06-02",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -10584,7 +10584,7 @@ const GAME = {
     ]
   },
   "9NN77KBJ3N24": {
-    "releaseDate": "2023-02-21",
+    "releaseDate": "2023-02-19",
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
@@ -10596,7 +10596,7 @@ const GAME = {
     ]
   },
   "9NN7K9NT7FV7": {
-    "releaseDate": "2023-05-11",
+    "releaseDate": "2023-04-28",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
@@ -10621,7 +10621,7 @@ const GAME = {
     ]
   },
   "9NN8B63G7M98": {
-    "releaseDate": "2023-03-08",
+    "releaseDate": "2023-02-16",
     "gamepass": false,
     "price": 9.99,
     "rate": 1.0,
@@ -10636,7 +10636,7 @@ const GAME = {
     ]
   },
   "9NN8CF8GVDKD": {
-    "releaseDate": "2023-10-18",
+    "releaseDate": "2023-05-31",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -10661,7 +10661,7 @@ const GAME = {
     ]
   },
   "9NNBPBM2F60W": {
-    "releaseDate": "2021-11-23",
+    "releaseDate": "2021-11-10",
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -10727,7 +10727,7 @@ const GAME = {
     ]
   },
   "9NNJL6J2X0K8": {
-    "releaseDate": "2023-07-25",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -10739,7 +10739,7 @@ const GAME = {
     ]
   },
   "9NNK39VMBMWT": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-03-10",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -10782,7 +10782,7 @@ const GAME = {
     ]
   },
   "9NNL47F7BFWX": {
-    "releaseDate": "2023-06-21",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -10808,7 +10808,7 @@ const GAME = {
     ]
   },
   "9NNNVRFTDFBW": {
-    "releaseDate": "2023-05-09",
+    "releaseDate": "2023-03-23",
     "gamepass": false,
     "price": 34.99,
     "rate": 4.2,
@@ -10821,7 +10821,7 @@ const GAME = {
     ]
   },
   "9NNQV5ZZVJP2": {
-    "releaseDate": "2023-10-19",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 29.99,
     "rate": 0.0,
@@ -10833,7 +10833,7 @@ const GAME = {
     ]
   },
   "9NNRPFC2ZQ2Q": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-05-03",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -10858,7 +10858,7 @@ const GAME = {
     ]
   },
   "9NNSPFTD96ZQ": {
-    "releaseDate": "2023-08-17",
+    "releaseDate": "2023-06-07",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -10886,7 +10886,7 @@ const GAME = {
     ]
   },
   "9NNTSPSC35ZB": {
-    "releaseDate": "2019-09-03",
+    "releaseDate": "2019-09-02",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -10941,7 +10941,7 @@ const GAME = {
     ]
   },
   "9NP0H6TNBSQL": {
-    "releaseDate": "2023-05-12",
+    "releaseDate": "2023-04-27",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.4,
@@ -11196,7 +11196,7 @@ const GAME = {
     ]
   },
   "9NP9T3ZWZT6P": {
-    "releaseDate": "2022-09-08",
+    "releaseDate": "2022-07-07",
     "gamepass": false,
     "price": 29.99,
     "rate": 2.8,
@@ -11289,7 +11289,7 @@ const GAME = {
     ]
   },
   "9NPHM4P59QF8": {
-    "releaseDate": "2023-06-28",
+    "releaseDate": "2023-06-19",
     "gamepass": false,
     "price": 7.99,
     "rate": 5.0,
@@ -11363,7 +11363,7 @@ const GAME = {
     ]
   },
   "9NPPG2TLC5FG": {
-    "releaseDate": "2023-08-08",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 34.99,
     "rate": 0.0,
@@ -11403,7 +11403,7 @@ const GAME = {
     ]
   },
   "9NPW4Q58WBR6": {
-    "releaseDate": "2023-01-20",
+    "releaseDate": "2023-01-13",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -11431,7 +11431,7 @@ const GAME = {
     ]
   },
   "9NPZ8JQ5RLPZ": {
-    "releaseDate": "2022-12-07",
+    "releaseDate": "2022-12-03",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -11456,7 +11456,7 @@ const GAME = {
     ]
   },
   "9NPZS4HWD4DP": {
-    "releaseDate": "2022-11-09",
+    "releaseDate": "2022-11-07",
     "gamepass": false,
     "price": 31.99,
     "rate": 2.7,
@@ -11574,7 +11574,7 @@ const GAME = {
     ]
   },
   "9NQ5X9KN3VZ3": {
-    "releaseDate": "2023-04-21",
+    "releaseDate": "2023-04-07",
     "gamepass": false,
     "price": 4.99,
     "rate": 2.9,
@@ -11629,7 +11629,7 @@ const GAME = {
     ]
   },
   "9NQ87FZ67JZM": {
-    "releaseDate": "2021-12-24",
+    "releaseDate": "2021-12-23",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -11644,7 +11644,7 @@ const GAME = {
     ]
   },
   "9NQ8Q7H7S40B": {
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2023-03-09",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -11671,7 +11671,7 @@ const GAME = {
     ]
   },
   "9NQ9K86NLZB7": {
-    "releaseDate": "2023-04-21",
+    "releaseDate": "2023-04-07",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -11697,7 +11697,7 @@ const GAME = {
     ]
   },
   "9NQBX2L5LL8L": {
-    "releaseDate": "2023-10-24",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 89.99,
     "rate": 0.0,
@@ -11735,7 +11735,7 @@ const GAME = {
     ]
   },
   "9NQDR1PB57PQ": {
-    "releaseDate": "2023-05-25",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 14.99,
     "rate": 1.0,
@@ -11773,7 +11773,7 @@ const GAME = {
     ]
   },
   "9NQP99GC4QSJ": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -11787,7 +11787,7 @@ const GAME = {
     ]
   },
   "9NQRQJND8DMX": {
-    "releaseDate": "2023-09-13",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -11848,7 +11848,7 @@ const GAME = {
     ]
   },
   "9NQWHX1V7KRJ": {
-    "releaseDate": "2023-06-01",
+    "releaseDate": "2023-05-12",
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -11908,7 +11908,7 @@ const GAME = {
     ]
   },
   "9NR0BF9693HC": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-06-04",
     "gamepass": false,
     "price": 21.99,
     "rate": 4.8,
@@ -11931,7 +11931,7 @@ const GAME = {
     ]
   },
   "9NR5HVL66F8L": {
-    "releaseDate": "2023-01-24",
+    "releaseDate": "2022-12-02",
     "gamepass": false,
     "price": 29.99,
     "rate": 2.6,
@@ -11971,7 +11971,7 @@ const GAME = {
     ]
   },
   "9NR7XDNVP5SW": {
-    "releaseDate": "2022-07-19",
+    "releaseDate": "2022-06-12",
     "gamepass": true,
     "price": 29.99,
     "rate": 4.5,
@@ -11987,7 +11987,7 @@ const GAME = {
     ]
   },
   "9NR8ZBSJQ4FD": {
-    "releaseDate": "2021-05-20",
+    "releaseDate": "2021-03-26",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -12001,7 +12001,7 @@ const GAME = {
     ]
   },
   "9NRBH9HS807L": {
-    "releaseDate": "2021-12-15",
+    "releaseDate": "2021-12-09",
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
@@ -12104,7 +12104,7 @@ const GAME = {
     ]
   },
   "9NRJV9RPS97D": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-06-01",
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -12128,7 +12128,7 @@ const GAME = {
     ]
   },
   "9NRKWHLS085D": {
-    "releaseDate": "2022-11-15",
+    "releaseDate": "2022-11-10",
     "gamepass": false,
     "price": 41.99,
     "rate": 2.7,
@@ -12151,7 +12151,7 @@ const GAME = {
     ]
   },
   "9NRL0NM003WW": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-05-22",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -12168,7 +12168,7 @@ const GAME = {
     ]
   },
   "9NRLFGXZNFK4": {
-    "releaseDate": "2023-08-20",
+    "releaseDate": "2023-05-12",
     "gamepass": false,
     "price": 109.99,
     "rate": 0.0,
@@ -12197,7 +12197,7 @@ const GAME = {
     ]
   },
   "9NRMDP5Q5H0H": {
-    "releaseDate": "2023-04-14",
+    "releaseDate": "2023-04-03",
     "gamepass": false,
     "price": 6.99,
     "rate": 4.0,
@@ -12365,7 +12365,7 @@ const GAME = {
     ]
   },
   "9NRV98XK83CT": {
-    "releaseDate": "2021-09-14",
+    "releaseDate": "2021-08-18",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
@@ -12379,7 +12379,7 @@ const GAME = {
     ]
   },
   "9NRVV3NG9TT4": {
-    "releaseDate": "2023-07-07",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -12405,7 +12405,7 @@ const GAME = {
     ]
   },
   "9NRWRK7T2GK8": {
-    "releaseDate": "2023-10-13",
+    "releaseDate": "2023-05-18",
     "gamepass": false,
     "price": 79.99,
     "rate": 5.0,
@@ -12433,7 +12433,7 @@ const GAME = {
     ]
   },
   "9NS2JVJPFGTQ": {
-    "releaseDate": "2021-11-19",
+    "releaseDate": "2021-11-18",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -12448,7 +12448,7 @@ const GAME = {
     ]
   },
   "9NS2WF6GVWQ6": {
-    "releaseDate": "2022-10-27",
+    "releaseDate": "2022-10-25",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
@@ -12460,7 +12460,7 @@ const GAME = {
     ]
   },
   "9NS3673HVH41": {
-    "releaseDate": "2022-06-16",
+    "releaseDate": "2022-06-09",
     "gamepass": true,
     "price": 24.99,
     "rate": 4.6,
@@ -12476,7 +12476,7 @@ const GAME = {
     ]
   },
   "9NS3T0BF0HC8": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-16",
     "gamepass": false,
     "price": 8.79,
     "rate": 4.3,
@@ -12571,7 +12571,7 @@ const GAME = {
     ]
   },
   "9NS7TZ24RQGR": {
-    "releaseDate": "2023-07-12",
+    "releaseDate": "2023-05-18",
     "gamepass": false,
     "price": 28.99,
     "rate": 0.0,
@@ -12599,7 +12599,7 @@ const GAME = {
     ]
   },
   "9NSBR0CM6M1K": {
-    "releaseDate": "2022-12-21",
+    "releaseDate": "2022-12-19",
     "gamepass": false,
     "price": 14.99,
     "rate": 1.8,
@@ -12636,7 +12636,7 @@ const GAME = {
     ]
   },
   "9NSCXXHVCZK1": {
-    "releaseDate": "2023-11-17",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -12647,7 +12647,7 @@ const GAME = {
     ]
   },
   "9NSDMZDFNLD4": {
-    "releaseDate": "2022-07-01",
+    "releaseDate": "2022-04-21",
     "gamepass": true,
     "price": 69.99,
     "rate": 3.2,
@@ -12666,7 +12666,7 @@ const GAME = {
     ]
   },
   "9NSF0BGH8D86": {
-    "releaseDate": "2022-09-06",
+    "releaseDate": "2022-08-23",
     "gamepass": true,
     "price": 29.99,
     "rate": 3.4,
@@ -12710,7 +12710,7 @@ const GAME = {
     ]
   },
   "9NSHP02MNJ45": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-26",
     "gamepass": false,
     "price": 59.99,
     "rate": 3.4,
@@ -12771,7 +12771,7 @@ const GAME = {
     ]
   },
   "9NSPSNLV2XQL": {
-    "releaseDate": "2023-03-29",
+    "releaseDate": "2023-03-01",
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -12784,7 +12784,7 @@ const GAME = {
     ]
   },
   "9NSQBVH6ZC9Z": {
-    "releaseDate": "2021-09-29",
+    "releaseDate": "2021-02-25",
     "gamepass": false,
     "price": 49.99,
     "rate": 4.2,
@@ -12844,7 +12844,7 @@ const GAME = {
     ]
   },
   "9NSRXC0BMSXH": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2022-10-03",
     "gamepass": false,
     "price": 59.99,
     "rate": 2.3,
@@ -12858,7 +12858,7 @@ const GAME = {
     ]
   },
   "9NSTHB5F1702": {
-    "releaseDate": "2023-03-13",
+    "releaseDate": "2023-01-23",
     "gamepass": false,
     "price": 99.99,
     "rate": 4.0,
@@ -12908,7 +12908,7 @@ const GAME = {
     ]
   },
   "9NT1ZBBV6WH6": {
-    "releaseDate": "2021-09-30",
+    "releaseDate": "2021-09-16",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.6,
@@ -12938,7 +12938,7 @@ const GAME = {
     ]
   },
   "9NT4X7P8B9NB": {
-    "releaseDate": "2018-05-21",
+    "releaseDate": "2018-05-17",
     "gamepass": true,
     "price": 29.99,
     "rate": 3.6,
@@ -12980,7 +12980,7 @@ const GAME = {
     ]
   },
   "9NT8FVH2JK0P": {
-    "releaseDate": "2023-02-09",
+    "releaseDate": "2023-01-23",
     "gamepass": false,
     "price": 4.99,
     "rate": 2.9,
@@ -13047,7 +13047,7 @@ const GAME = {
     ]
   },
   "9NTFM8RXLJF9": {
-    "releaseDate": "2023-09-06",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -13058,7 +13058,7 @@ const GAME = {
     ]
   },
   "9NTFPTBXDDT3": {
-    "releaseDate": "2023-02-17",
+    "releaseDate": "2022-10-05",
     "gamepass": false,
     "price": 79.99,
     "rate": 2.8,
@@ -13167,7 +13167,7 @@ const GAME = {
     ]
   },
   "9NTZV27BDFCP": {
-    "releaseDate": "2022-10-20",
+    "releaseDate": "2022-08-22",
     "gamepass": false,
     "price": 39.99,
     "rate": 3.4,
@@ -13192,7 +13192,7 @@ const GAME = {
     ]
   },
   "9NV346F7S887": {
-    "releaseDate": "2023-04-18",
+    "releaseDate": "2023-04-17",
     "gamepass": false,
     "price": 23.99,
     "rate": 3.4,
@@ -13235,7 +13235,7 @@ const GAME = {
     ]
   },
   "9NV4S56JBDLX": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-03-23",
     "gamepass": false,
     "price": 79.99,
     "rate": 4.6,
@@ -13258,7 +13258,7 @@ const GAME = {
     ]
   },
   "9NV5PDZ2SDBL": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-03-10",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -13271,7 +13271,7 @@ const GAME = {
     ]
   },
   "9NV5VZ21HDT3": {
-    "releaseDate": "2023-03-31",
+    "releaseDate": "2023-03-13",
     "gamepass": false,
     "price": 4.99,
     "rate": 1.6,
@@ -13297,7 +13297,7 @@ const GAME = {
     ]
   },
   "9NV7R0PMFXNR": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-03-10",
     "gamepass": false,
     "price": 11.99,
     "rate": 5.0,
@@ -13308,7 +13308,7 @@ const GAME = {
     ]
   },
   "9NV8BHF1N9F4": {
-    "releaseDate": "2022-10-13",
+    "releaseDate": "2022-08-25",
     "gamepass": true,
     "price": 79.99,
     "rate": 2.5,
@@ -13377,7 +13377,7 @@ const GAME = {
     ]
   },
   "9NVBKJDSJLC3": {
-    "releaseDate": "2023-03-16",
+    "releaseDate": "2023-03-13",
     "gamepass": false,
     "price": 3.99,
     "rate": 3.6,
@@ -13389,7 +13389,7 @@ const GAME = {
     ]
   },
   "9NVC4T5CP6KP": {
-    "releaseDate": "2023-09-18",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -13415,7 +13415,7 @@ const GAME = {
     ]
   },
   "9NVCNM9DQ839": {
-    "releaseDate": "2020-09-08",
+    "releaseDate": "2020-07-07",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -13453,7 +13453,7 @@ const GAME = {
     ]
   },
   "9NVFL2JTB2H6": {
-    "releaseDate": "2023-06-26",
+    "releaseDate": "2023-06-23",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -13491,7 +13491,7 @@ const GAME = {
     ]
   },
   "9NVJGRV0X1ZD": {
-    "releaseDate": "2023-07-07",
+    "releaseDate": "2023-06-23",
     "gamepass": false,
     "price": 2.99,
     "rate": 0.0,
@@ -13569,7 +13569,7 @@ const GAME = {
     ]
   },
   "9NVR0JZ6P8FZ": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 19.99,
     "rate": 2.0,
@@ -13630,7 +13630,7 @@ const GAME = {
     ]
   },
   "9NVRW2F33BTT": {
-    "releaseDate": "2023-03-17",
+    "releaseDate": "2023-03-01",
     "gamepass": false,
     "price": 11.99,
     "rate": 5.0,
@@ -13705,7 +13705,7 @@ const GAME = {
     ]
   },
   "9NVWWB48KP01": {
-    "releaseDate": "2022-11-30",
+    "releaseDate": "2022-11-16",
     "gamepass": false,
     "price": 9.99,
     "rate": 1.9,
@@ -13776,7 +13776,7 @@ const GAME = {
     ]
   },
   "9NW551B8NVZL": {
-    "releaseDate": "2022-03-16",
+    "releaseDate": "2022-01-09",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -13809,7 +13809,7 @@ const GAME = {
     ]
   },
   "9NW6LB2HXH17": {
-    "releaseDate": "2023-05-02",
+    "releaseDate": "2023-03-01",
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -13833,7 +13833,7 @@ const GAME = {
     ]
   },
   "9NW8LZCVJMQF": {
-    "releaseDate": "2023-04-27",
+    "releaseDate": "2023-04-26",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
@@ -13983,7 +13983,7 @@ const GAME = {
     ]
   },
   "9NWWQQL5SQ5N": {
-    "releaseDate": "2023-07-05",
+    "releaseDate": "2023-07-02",
     "gamepass": false,
     "price": 4.99,
     "rate": 0.0,
@@ -14033,7 +14033,7 @@ const GAME = {
     ]
   },
   "9NX26S5DL87H": {
-    "releaseDate": "2023-08-24",
+    "releaseDate": "2023-04-27",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -14056,7 +14056,7 @@ const GAME = {
     ]
   },
   "9NX6K9HN4F4K": {
-    "releaseDate": "2022-11-15",
+    "releaseDate": "2022-06-12",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
@@ -14082,7 +14082,7 @@ const GAME = {
     ]
   },
   "9NXCSWCQTNFG": {
-    "releaseDate": "2020-11-10",
+    "releaseDate": "2020-07-22",
     "gamepass": true,
     "price": 59.99,
     "rate": 4.4,
@@ -14146,7 +14146,7 @@ const GAME = {
     ]
   },
   "9NXHW06GR1ZH": {
-    "releaseDate": "2023-05-24",
+    "releaseDate": "2023-05-12",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.8,
@@ -14185,7 +14185,7 @@ const GAME = {
     ]
   },
   "9NXMBTB02ZSF": {
-    "releaseDate": "2022-03-14",
+    "releaseDate": "2022-03-07",
     "gamepass": true,
     "price": 39.99,
     "rate": 2.8,
@@ -14329,7 +14329,7 @@ const GAME = {
     ]
   },
   "9NXVC0482QS5": {
-    "releaseDate": "2021-03-25",
+    "releaseDate": "2020-12-11",
     "gamepass": true,
     "price": 39.99,
     "rate": 4.7,
@@ -14429,7 +14429,7 @@ const GAME = {
     ]
   },
   "9NZ34J10B02X": {
-    "releaseDate": "2023-03-08",
+    "releaseDate": "2022-12-13",
     "gamepass": false,
     "price": 69.99,
     "rate": 3.0,
@@ -14447,7 +14447,7 @@ const GAME = {
     ]
   },
   "9NZ35G3WCZBV": {
-    "releaseDate": "2022-05-20",
+    "releaseDate": "2021-08-25",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -14505,7 +14505,7 @@ const GAME = {
     ]
   },
   "9NZC09NNR93L": {
-    "releaseDate": "2020-09-24",
+    "releaseDate": "2020-05-19",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -14531,7 +14531,7 @@ const GAME = {
     ]
   },
   "9NZDHXL9SJJ8": {
-    "releaseDate": "2022-10-20",
+    "releaseDate": "2022-09-14",
     "gamepass": true,
     "price": 59.99,
     "rate": 4.7,
@@ -14573,7 +14573,7 @@ const GAME = {
     ]
   },
   "9NZFJMNF0077": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-06-15",
     "gamepass": false,
     "price": 7.99,
     "rate": 2.2,
@@ -14628,7 +14628,7 @@ const GAME = {
     ]
   },
   "9NZL2F7LMB9Z": {
-    "releaseDate": "2023-02-23",
+    "releaseDate": "2023-02-21",
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -14655,7 +14655,7 @@ const GAME = {
     ]
   },
   "9NZMJ2L3ZCGS": {
-    "releaseDate": "2023-11-13",
+    "releaseDate": "2023-06-27",
     "gamepass": false,
     "price": 49.99,
     "rate": 3.9,
@@ -14697,7 +14697,7 @@ const GAME = {
     ]
   },
   "9NZP81BP50XQ": {
-    "releaseDate": "2020-10-07",
+    "releaseDate": "2020-10-04",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.2,
@@ -14713,7 +14713,7 @@ const GAME = {
     ]
   },
   "9NZPXFZ7BZT7": {
-    "releaseDate": "2023-06-23",
+    "releaseDate": "2023-05-25",
     "gamepass": false,
     "price": 4.99,
     "rate": 2.7,
@@ -14759,7 +14759,7 @@ const GAME = {
     ]
   },
   "9NZSHP237NTD": {
-    "releaseDate": "2023-09-11",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 119.99,
     "rate": 0.0,
@@ -14770,7 +14770,7 @@ const GAME = {
     ]
   },
   "9NZV28P1ZMQ0": {
-    "releaseDate": "2022-12-01",
+    "releaseDate": "2022-11-28",
     "gamepass": false,
     "price": 75.0,
     "rate": 3.9,
@@ -14782,7 +14782,7 @@ const GAME = {
     ]
   },
   "9NZVPT1K9X7P": {
-    "releaseDate": "2023-03-16",
+    "releaseDate": "2023-03-14",
     "gamepass": false,
     "price": 74.99,
     "rate": 4.3,
@@ -14796,7 +14796,7 @@ const GAME = {
     ]
   },
   "9NZW4NVPLPDL": {
-    "releaseDate": "2023-07-21",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -14850,7 +14850,7 @@ const GAME = {
     ]
   },
   "9P014G2W3L83": {
-    "releaseDate": "2023-06-06",
+    "releaseDate": "2022-12-09",
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -14905,7 +14905,7 @@ const GAME = {
     ]
   },
   "9P027FJVDB9Z": {
-    "releaseDate": "2024-01-17",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -14955,7 +14955,7 @@ const GAME = {
     ]
   },
   "9P073X4JNBW2": {
-    "releaseDate": "2023-02-17",
+    "releaseDate": "2023-02-01",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
@@ -15010,7 +15010,7 @@ const GAME = {
     ]
   },
   "9P0B86JN5X28": {
-    "releaseDate": "2022-03-31",
+    "releaseDate": "2021-12-10",
     "gamepass": true,
     "price": 39.99,
     "rate": 3.9,
@@ -15073,7 +15073,7 @@ const GAME = {
     ]
   },
   "9P0KRKDR11W3": {
-    "releaseDate": "2023-05-30",
+    "releaseDate": "2023-05-19",
     "gamepass": false,
     "price": 12.99,
     "rate": 4.8,
@@ -15138,7 +15138,7 @@ const GAME = {
     ]
   },
   "9P0MVFV3VQ9Q": {
-    "releaseDate": "2023-05-03",
+    "releaseDate": "2023-03-13",
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -15151,7 +15151,7 @@ const GAME = {
     ]
   },
   "9P0N5HPX5KRB": {
-    "releaseDate": "2023-01-27",
+    "releaseDate": "2022-10-04",
     "gamepass": false,
     "price": 89.99,
     "rate": 4.7,
@@ -15191,7 +15191,7 @@ const GAME = {
     ]
   },
   "9P0P58R3NQDS": {
-    "releaseDate": "2023-03-16",
+    "releaseDate": "2023-02-06",
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -15214,7 +15214,7 @@ const GAME = {
     ]
   },
   "9P0QCV147X0B": {
-    "releaseDate": "2023-04-04",
+    "releaseDate": "2023-03-14",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
@@ -15239,7 +15239,7 @@ const GAME = {
     ]
   },
   "9P0R69JP728B": {
-    "releaseDate": "2022-12-31",
+    "releaseDate": "2022-09-19",
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -15327,7 +15327,7 @@ const GAME = {
     ]
   },
   "9P10H7L6QCCJ": {
-    "releaseDate": "2023-02-10",
+    "releaseDate": "2023-01-30",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
@@ -15380,7 +15380,7 @@ const GAME = {
     ]
   },
   "9P15261BR4RF": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-03-17",
     "gamepass": false,
     "price": 8.49,
     "rate": 5.0,
@@ -15394,7 +15394,7 @@ const GAME = {
     ]
   },
   "9P16BDBCRHZ2": {
-    "releaseDate": "2023-07-12",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 29.99,
     "rate": 0.0,
@@ -15433,7 +15433,7 @@ const GAME = {
     ]
   },
   "9P175WJ0DCSD": {
-    "releaseDate": "2022-11-29",
+    "releaseDate": "2022-11-15",
     "gamepass": false,
     "price": 5.99,
     "rate": 3.6,
@@ -15494,7 +15494,7 @@ const GAME = {
     ]
   },
   "9P1F5X4T2XZ4": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-16",
     "gamepass": false,
     "price": 7.99,
     "rate": 5.0,
@@ -15535,7 +15535,7 @@ const GAME = {
     ]
   },
   "9P1HX37NMJLT": {
-    "releaseDate": "2021-11-08",
+    "releaseDate": "2021-06-13",
     "gamepass": false,
     "price": 89.99,
     "rate": 3.4,
@@ -15682,7 +15682,7 @@ const GAME = {
     ]
   },
   "9P1XD5TH0QW1": {
-    "releaseDate": "2023-03-30",
+    "releaseDate": "2023-03-29",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
@@ -15794,7 +15794,7 @@ const GAME = {
     ]
   },
   "9P28374JCMP6": {
-    "releaseDate": "2023-05-16",
+    "releaseDate": "2023-05-04",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -15807,7 +15807,7 @@ const GAME = {
     ]
   },
   "9P28L4SKTGHF": {
-    "releaseDate": "2023-05-10",
+    "releaseDate": "2023-04-05",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -15824,7 +15824,7 @@ const GAME = {
     ]
   },
   "9P29P8J1PMZP": {
-    "releaseDate": "2023-08-22",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -15835,7 +15835,7 @@ const GAME = {
     ]
   },
   "9P29ZKGSGX8F": {
-    "releaseDate": "2023-06-15",
+    "releaseDate": "2023-06-05",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -15847,7 +15847,7 @@ const GAME = {
     ]
   },
   "9P2B6W8C9CN3": {
-    "releaseDate": "2022-09-23",
+    "releaseDate": "2022-09-09",
     "gamepass": false,
     "price": 9.99,
     "rate": 3.9,
@@ -15862,7 +15862,7 @@ const GAME = {
     ]
   },
   "9P2B832NPW5R": {
-    "releaseDate": "2023-08-24",
+    "releaseDate": "2023-04-27",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -15898,7 +15898,7 @@ const GAME = {
     ]
   },
   "9P2LHWSMQ9HT": {
-    "releaseDate": "2023-03-31",
+    "releaseDate": "2023-03-17",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -15951,7 +15951,7 @@ const GAME = {
     ]
   },
   "9P2Q0J0GW1FJ": {
-    "releaseDate": "2023-06-01",
+    "releaseDate": "2023-05-18",
     "gamepass": true,
     "price": 16.99,
     "rate": 2.7,
@@ -16017,7 +16017,7 @@ const GAME = {
     ]
   },
   "9P2VGM9FXNFX": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-06-04",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -16029,7 +16029,7 @@ const GAME = {
     ]
   },
   "9P2VJBJKSTZ8": {
-    "releaseDate": "2022-11-09",
+    "releaseDate": "2022-11-07",
     "gamepass": false,
     "price": 31.99,
     "rate": 2.6,
@@ -16040,7 +16040,7 @@ const GAME = {
     ]
   },
   "9P2XZHB9LSM5": {
-    "releaseDate": "2023-12-06",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 129.99,
     "rate": 0.0,
@@ -16054,7 +16054,7 @@ const GAME = {
     ]
   },
   "9P2Z4DTVCB7Z": {
-    "releaseDate": "2021-06-08",
+    "releaseDate": "2021-06-03",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
@@ -16083,7 +16083,7 @@ const GAME = {
     ]
   },
   "9P2Z7XVXJX90": {
-    "releaseDate": "2023-08-15",
+    "releaseDate": "2023-06-07",
     "gamepass": false,
     "price": 109.99,
     "rate": 0.0,
@@ -16135,7 +16135,7 @@ const GAME = {
     ]
   },
   "9P3488V8GCW7": {
-    "releaseDate": "2023-07-18",
+    "releaseDate": "2023-06-06",
     "gamepass": false,
     "price": 19.99,
     "rate": 0.0,
@@ -16212,7 +16212,7 @@ const GAME = {
     ]
   },
   "9P3CFT9QZNX5": {
-    "releaseDate": "2023-05-05",
+    "releaseDate": "2023-04-21",
     "gamepass": false,
     "price": 2.99,
     "rate": 5.0,
@@ -16250,7 +16250,7 @@ const GAME = {
     ]
   },
   "9P3GVGLCG230": {
-    "releaseDate": "2023-05-19",
+    "releaseDate": "2023-04-25",
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -16262,7 +16262,7 @@ const GAME = {
     ]
   },
   "9P3HXD6MDXVG": {
-    "releaseDate": "2023-04-14",
+    "releaseDate": "2023-04-03",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.6,
@@ -16275,7 +16275,7 @@ const GAME = {
     ]
   },
   "9P3J32CTXLRZ": {
-    "releaseDate": "2022-02-25",
+    "releaseDate": "2022-02-24",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.7,
@@ -16363,7 +16363,7 @@ const GAME = {
     ]
   },
   "9P3PRHMTG0L6": {
-    "releaseDate": "2020-10-12",
+    "releaseDate": "2020-10-02",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.5,
@@ -16457,7 +16457,7 @@ const GAME = {
     ]
   },
   "9P3ZQ8PZNNCJ": {
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2022-08-03",
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -16512,7 +16512,7 @@ const GAME = {
     ]
   },
   "9P41BMR3J98P": {
-    "releaseDate": "2023-04-06",
+    "releaseDate": "2023-03-30",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -16523,7 +16523,7 @@ const GAME = {
     ]
   },
   "9P41TRQ6B538": {
-    "releaseDate": "2023-04-20",
+    "releaseDate": "2023-04-19",
     "gamepass": false,
     "price": 16.99,
     "rate": 4.7,
@@ -16613,7 +16613,7 @@ const GAME = {
     ]
   },
   "9P4811KBD5R9": {
-    "releaseDate": "2022-09-02",
+    "releaseDate": "2022-05-26",
     "gamepass": true,
     "price": 49.99,
     "rate": 4.3,
@@ -16655,7 +16655,7 @@ const GAME = {
     ]
   },
   "9P4D41K02WB8": {
-    "releaseDate": "2017-09-22",
+    "releaseDate": "2017-09-21",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -16751,7 +16751,7 @@ const GAME = {
     ]
   },
   "9P4K41KJKZD1": {
-    "releaseDate": "2023-01-26",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 16.99,
     "rate": 2.8,
@@ -16793,7 +16793,7 @@ const GAME = {
     ]
   },
   "9P4NJFH17MRT": {
-    "releaseDate": "2020-11-10",
+    "releaseDate": "2020-11-09",
     "gamepass": false,
     "price": 69.99,
     "rate": 3.8,
@@ -16860,7 +16860,7 @@ const GAME = {
     ]
   },
   "9P4TLV0D1QWH": {
-    "releaseDate": "2023-04-28",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
@@ -16990,7 +16990,7 @@ const GAME = {
     ]
   },
   "9P52T8790H7K": {
-    "releaseDate": "2023-12-06",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -17004,7 +17004,7 @@ const GAME = {
     ]
   },
   "9P541N3KWMWD": {
-    "releaseDate": "2023-01-25",
+    "releaseDate": "2023-01-11",
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -17071,7 +17071,7 @@ const GAME = {
     ]
   },
   "9P5B81KVDGP1": {
-    "releaseDate": "2020-05-22",
+    "releaseDate": "2020-05-21",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -17125,7 +17125,7 @@ const GAME = {
     ]
   },
   "9P5CK72457WF": {
-    "releaseDate": "2023-05-11",
+    "releaseDate": "2023-04-20",
     "gamepass": true,
     "price": 39.99,
     "rate": 3.6,
@@ -17137,7 +17137,7 @@ const GAME = {
     ]
   },
   "9P5DB49C03W6": {
-    "releaseDate": "2799-12-31",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 29.99,
     "rate": 2.5,
@@ -17164,7 +17164,7 @@ const GAME = {
     ]
   },
   "9P5G1VM74BNV": {
-    "releaseDate": "2023-03-15",
+    "releaseDate": "2023-03-09",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
@@ -17232,7 +17232,7 @@ const GAME = {
     ]
   },
   "9P5PDMB2XQB4": {
-    "releaseDate": "2021-03-10",
+    "releaseDate": "2021-03-07",
     "gamepass": false,
     "price": 39.99,
     "rate": 3.0,
@@ -17275,7 +17275,7 @@ const GAME = {
     ]
   },
   "9P5SK3WNWTRN": {
-    "releaseDate": "2023-06-09",
+    "releaseDate": "2023-05-18",
     "gamepass": false,
     "price": 5.49,
     "rate": 4.2,
@@ -17287,7 +17287,7 @@ const GAME = {
     ]
   },
   "9P5TCL6DG993": {
-    "releaseDate": "2023-06-23",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 3.99,
     "rate": 4.7,
@@ -17301,7 +17301,7 @@ const GAME = {
     ]
   },
   "9P5TZQMM2P9D": {
-    "releaseDate": "2023-03-17",
+    "releaseDate": "2023-03-01",
     "gamepass": false,
     "price": 5.99,
     "rate": 3.6,
@@ -17402,7 +17402,7 @@ const GAME = {
     ]
   },
   "9P5Z4530318L": {
-    "releaseDate": "2022-09-20",
+    "releaseDate": "2022-09-15",
     "gamepass": true,
     "price": 69.99,
     "rate": 4.0,
@@ -17418,7 +17418,7 @@ const GAME = {
     ]
   },
   "9P5ZSRKCJ6VG": {
-    "releaseDate": "2022-08-30",
+    "releaseDate": "2022-06-07",
     "gamepass": false,
     "price": 54.99,
     "rate": 4.2,
@@ -17432,7 +17432,7 @@ const GAME = {
     ]
   },
   "9P648H4R49GB": {
-    "releaseDate": "2023-06-01",
+    "releaseDate": "2023-03-01",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
@@ -17473,7 +17473,7 @@ const GAME = {
     ]
   },
   "9P64SQC33RN1": {
-    "releaseDate": "2023-05-15",
+    "releaseDate": "2023-03-23",
     "gamepass": false,
     "price": 119.99,
     "rate": 5.0,
@@ -17552,7 +17552,7 @@ const GAME = {
     "tags": []
   },
   "9P6855MCZV9P": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-19",
     "gamepass": false,
     "price": 4.99,
     "rate": 2.0,
@@ -17607,7 +17607,7 @@ const GAME = {
     ]
   },
   "9P6CPB2M27WX": {
-    "releaseDate": "2021-08-17",
+    "releaseDate": "2021-08-16",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.8,
@@ -17621,7 +17621,7 @@ const GAME = {
     ]
   },
   "9P6D1BFF58WQ": {
-    "releaseDate": "2022-11-04",
+    "releaseDate": "2022-10-25",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -17660,7 +17660,7 @@ const GAME = {
     ]
   },
   "9P6FXKNWBVXF": {
-    "releaseDate": "2023-05-18",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
@@ -17673,7 +17673,7 @@ const GAME = {
     ]
   },
   "9P6J9NFKGJ68": {
-    "releaseDate": "2022-12-12",
+    "releaseDate": "2022-09-14",
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
@@ -17685,7 +17685,7 @@ const GAME = {
     ]
   },
   "9P6KBLVP8V3G": {
-    "releaseDate": "2022-09-13",
+    "releaseDate": "2022-08-29",
     "gamepass": false,
     "price": 27.99,
     "rate": 4.6,
@@ -17713,7 +17713,7 @@ const GAME = {
     ]
   },
   "9P6MM45H27P7": {
-    "releaseDate": "2023-06-09",
+    "releaseDate": "2023-05-31",
     "gamepass": false,
     "price": 19.99,
     "rate": 1.6,
@@ -17740,7 +17740,7 @@ const GAME = {
     ]
   },
   "9P6N45QZR81R": {
-    "releaseDate": "2022-03-01",
+    "releaseDate": "2022-01-17",
     "gamepass": true,
     "price": 39.99,
     "rate": 4.4,
@@ -17754,7 +17754,7 @@ const GAME = {
     ]
   },
   "9P6NXV2FPCZJ": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 35.99,
     "rate": 4.3,
@@ -17765,7 +17765,7 @@ const GAME = {
     ]
   },
   "9P6PQLFP9BN0": {
-    "releaseDate": "2021-08-26",
+    "releaseDate": "2021-08-17",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
@@ -17779,7 +17779,7 @@ const GAME = {
     ]
   },
   "9P6QRN476FT0": {
-    "releaseDate": "2023-09-14",
+    "releaseDate": "2023-05-19",
     "gamepass": false,
     "price": 99.99,
     "rate": 0.0,
@@ -17887,7 +17887,7 @@ const GAME = {
     ]
   },
   "9P731Z4BBCT3": {
-    "releaseDate": "2023-02-20",
+    "releaseDate": "2022-11-02",
     "gamepass": true,
     "price": 69.99,
     "rate": 4.2,
@@ -17901,7 +17901,7 @@ const GAME = {
     ]
   },
   "9P74PTLHF88F": {
-    "releaseDate": "2023-06-28",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 39.99,
     "rate": 3.1,
@@ -17942,7 +17942,7 @@ const GAME = {
     ]
   },
   "9P7CP46RP2GX": {
-    "releaseDate": "2023-01-26",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 22.99,
     "rate": 1.5,
@@ -17994,7 +17994,7 @@ const GAME = {
     ]
   },
   "9P7H099LDDHG": {
-    "releaseDate": "2023-07-06",
+    "releaseDate": "2023-06-20",
     "gamepass": false,
     "price": 4.49,
     "rate": 0.0,
@@ -18106,7 +18106,7 @@ const GAME = {
     ]
   },
   "9P7PSNQHZTD7": {
-    "releaseDate": "2023-10-25",
+    "releaseDate": "2023-05-26",
     "gamepass": false,
     "price": 62.99,
     "rate": 0.0,
@@ -18129,7 +18129,7 @@ const GAME = {
     ]
   },
   "9P7RRHLHGKX0": {
-    "releaseDate": "2023-03-02",
+    "releaseDate": "2023-02-23",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -18155,7 +18155,7 @@ const GAME = {
     ]
   },
   "9P7TK3GJVH57": {
-    "releaseDate": "2021-03-26",
+    "releaseDate": "2021-02-26",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
@@ -18189,7 +18189,7 @@ const GAME = {
     ]
   },
   "9P7V1MC4MC87": {
-    "releaseDate": "2022-12-06",
+    "releaseDate": "2022-11-29",
     "gamepass": false,
     "price": 19.99,
     "rate": 2.7,
@@ -18215,7 +18215,7 @@ const GAME = {
     ]
   },
   "9P7VZGKBWBT7": {
-    "releaseDate": "2022-12-07",
+    "releaseDate": "2022-12-02",
     "gamepass": false,
     "price": 5.99,
     "rate": 4.8,
@@ -18295,7 +18295,7 @@ const GAME = {
     ]
   },
   "9P80SLMHNJF0": {
-    "releaseDate": "2023-04-28",
+    "releaseDate": "2023-04-09",
     "gamepass": false,
     "price": 3.99,
     "rate": 4.8,
@@ -18308,7 +18308,7 @@ const GAME = {
     ]
   },
   "9P822XLW9PB8": {
-    "releaseDate": "2023-04-06",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 79.99,
     "rate": 3.7,
@@ -18352,7 +18352,7 @@ const GAME = {
     ]
   },
   "9P83M60PGKF0": {
-    "releaseDate": "2023-01-26",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 16.99,
     "rate": 3.0,
@@ -18363,7 +18363,7 @@ const GAME = {
     ]
   },
   "9P84TP6N4D48": {
-    "releaseDate": "2023-05-05",
+    "releaseDate": "2023-04-21",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.3,
@@ -18392,7 +18392,7 @@ const GAME = {
     ]
   },
   "9P8838757RCD": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2023-05-12",
     "gamepass": false,
     "price": 24.99,
     "rate": 3.9,
@@ -18419,7 +18419,7 @@ const GAME = {
     ]
   },
   "9P892X2CCQ74": {
-    "releaseDate": "2022-09-13",
+    "releaseDate": "2022-07-20",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -18473,7 +18473,7 @@ const GAME = {
     ]
   },
   "9P8DL6W0JBB8": {
-    "releaseDate": "2021-08-12",
+    "releaseDate": "2021-06-13",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
@@ -18486,7 +18486,7 @@ const GAME = {
     ]
   },
   "9P8F2L3XKMHB": {
-    "releaseDate": "2024-01-14",
+    "releaseDate": "2023-06-12",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -18510,7 +18510,7 @@ const GAME = {
     ]
   },
   "9P8JRMWRQP4H": {
-    "releaseDate": "2023-05-02",
+    "releaseDate": "2023-01-25",
     "gamepass": true,
     "price": 79.99,
     "rate": 2.6,
@@ -18526,7 +18526,7 @@ const GAME = {
     ]
   },
   "9P8K6ZZ71SX5": {
-    "releaseDate": "2021-06-22",
+    "releaseDate": "2021-05-30",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -18539,7 +18539,7 @@ const GAME = {
     ]
   },
   "9P8MS0ZFBTFJ": {
-    "releaseDate": "2023-06-23",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 14.99,
     "rate": 2.7,
@@ -18553,7 +18553,7 @@ const GAME = {
     ]
   },
   "9P8NKDVBC3XB": {
-    "releaseDate": "2023-10-11",
+    "releaseDate": "2023-05-25",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -18592,7 +18592,7 @@ const GAME = {
     ]
   },
   "9P8PGC771MLP": {
-    "releaseDate": "2023-10-04",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 99.99,
     "rate": 0.0,
@@ -18601,7 +18601,7 @@ const GAME = {
     "tags": []
   },
   "9P8PQTRQM6Q5": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2023-04-27",
     "gamepass": false,
     "price": 6.99,
     "rate": 1.3,
@@ -18661,7 +18661,7 @@ const GAME = {
     ]
   },
   "9P8X0W1XHLKL": {
-    "releaseDate": "2023-09-18",
+    "releaseDate": "2023-05-19",
     "gamepass": false,
     "price": 74.99,
     "rate": 0.0,
@@ -18708,7 +18708,7 @@ const GAME = {
     ]
   },
   "9P94S5BKWZNK": {
-    "releaseDate": "2023-04-14",
+    "releaseDate": "2023-03-28",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.9,
@@ -18816,7 +18816,7 @@ const GAME = {
     ]
   },
   "9P9F54WDBGH6": {
-    "releaseDate": "2023-08-18",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -18879,7 +18879,7 @@ const GAME = {
     ]
   },
   "9P9JZ8K1TNBM": {
-    "releaseDate": "2022-10-20",
+    "releaseDate": "2022-10-19",
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
@@ -18913,7 +18913,7 @@ const GAME = {
     ]
   },
   "9P9KR2GN0BZ3": {
-    "releaseDate": "2021-09-28",
+    "releaseDate": "2021-09-13",
     "gamepass": false,
     "price": 16.99,
     "rate": 4.9,
@@ -18926,7 +18926,7 @@ const GAME = {
     ]
   },
   "9P9MQJSL5K6D": {
-    "releaseDate": "2023-10-11",
+    "releaseDate": "2023-05-25",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -18968,7 +18968,7 @@ const GAME = {
     ]
   },
   "9P9NZPCCMBV5": {
-    "releaseDate": "2023-09-18",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 44.99,
     "rate": 0.0,
@@ -18982,7 +18982,7 @@ const GAME = {
     ]
   },
   "9P9PJHJND42C": {
-    "releaseDate": "2023-06-14",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 84.99,
     "rate": 4.3,
@@ -18996,7 +18996,7 @@ const GAME = {
     ]
   },
   "9P9STFSPH997": {
-    "releaseDate": "2022-05-12",
+    "releaseDate": "2022-04-28",
     "gamepass": false,
     "price": 11.99,
     "rate": 3.0,
@@ -19063,7 +19063,7 @@ const GAME = {
     ]
   },
   "9P9WHGHRTWBP": {
-    "releaseDate": "2023-04-18",
+    "releaseDate": "2023-04-17",
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
@@ -19166,7 +19166,7 @@ const GAME = {
     ]
   },
   "9PB498R5X9B7": {
-    "releaseDate": "2023-05-11",
+    "releaseDate": "2023-04-20",
     "gamepass": false,
     "price": 59.99,
     "rate": 3.6,
@@ -19175,7 +19175,7 @@ const GAME = {
     "tags": []
   },
   "9PB4ZWV7S2MG": {
-    "releaseDate": "2023-09-01",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 34.99,
     "rate": 0.0,
@@ -19186,7 +19186,7 @@ const GAME = {
     ]
   },
   "9PB8X1G48SSD": {
-    "releaseDate": "2023-05-08",
+    "releaseDate": "2023-04-20",
     "gamepass": false,
     "price": 34.99,
     "rate": 3.6,
@@ -19210,7 +19210,7 @@ const GAME = {
     ]
   },
   "9PB9N4BTH6P6": {
-    "releaseDate": "2023-06-22",
+    "releaseDate": "2023-06-14",
     "gamepass": false,
     "price": 109.99,
     "rate": 3.3,
@@ -19244,7 +19244,7 @@ const GAME = {
     ]
   },
   "9PBDC0XZ8TXK": {
-    "releaseDate": "2020-12-04",
+    "releaseDate": "2020-07-23",
     "gamepass": false,
     "price": 39.98,
     "rate": 4.6,
@@ -19269,7 +19269,7 @@ const GAME = {
     ]
   },
   "9PBHXGWZTS2N": {
-    "releaseDate": "2019-08-20",
+    "releaseDate": "2019-08-16",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -19284,7 +19284,7 @@ const GAME = {
     ]
   },
   "9PBJ36QL2N9V": {
-    "releaseDate": "2023-05-11",
+    "releaseDate": "2023-04-04",
     "gamepass": false,
     "price": 41.99,
     "rate": 4.0,
@@ -19346,7 +19346,7 @@ const GAME = {
     ]
   },
   "9PBLLX1V5JBX": {
-    "releaseDate": "2023-05-10",
+    "releaseDate": "2023-05-05",
     "gamepass": false,
     "price": 26.99,
     "rate": 4.4,
@@ -19373,7 +19373,7 @@ const GAME = {
     ]
   },
   "9PBN7F8M4NS5": {
-    "releaseDate": "2023-11-08",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -19385,7 +19385,7 @@ const GAME = {
     ]
   },
   "9PBNGCVBGML0": {
-    "releaseDate": "2021-10-07",
+    "releaseDate": "2021-05-28",
     "gamepass": false,
     "price": 69.99,
     "rate": 3.5,
@@ -19400,7 +19400,7 @@ const GAME = {
     ]
   },
   "9PBNN5FWSXDL": {
-    "releaseDate": "2022-12-07",
+    "releaseDate": "2022-11-10",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -19414,7 +19414,7 @@ const GAME = {
     ]
   },
   "9PBQ9GD899ZC": {
-    "releaseDate": "2023-02-22",
+    "releaseDate": "2023-02-07",
     "gamepass": false,
     "price": 23.99,
     "rate": 4.8,
@@ -19456,7 +19456,7 @@ const GAME = {
     ]
   },
   "9PBS5BHSPHFJ": {
-    "releaseDate": "2022-08-26",
+    "releaseDate": "2022-06-09",
     "gamepass": true,
     "price": 59.99,
     "rate": 3.9,
@@ -19509,7 +19509,7 @@ const GAME = {
     ]
   },
   "9PBV5P4DR4MZ": {
-    "releaseDate": "2023-03-31",
+    "releaseDate": "2023-03-19",
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -19522,7 +19522,7 @@ const GAME = {
     ]
   },
   "9PBVXQ4GSHJV": {
-    "releaseDate": "2023-06-27",
+    "releaseDate": "2023-04-11",
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -19535,7 +19535,7 @@ const GAME = {
     ]
   },
   "9PBWJ3X780RX": {
-    "releaseDate": "2023-01-19",
+    "releaseDate": "2022-12-15",
     "gamepass": false,
     "price": 38.99,
     "rate": 4.5,
@@ -19573,7 +19573,7 @@ const GAME = {
     ]
   },
   "9PBZ6RSFR471": {
-    "releaseDate": "2022-11-01",
+    "releaseDate": "2022-09-27",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -19599,7 +19599,7 @@ const GAME = {
     ]
   },
   "9PBZN2DT8T91": {
-    "releaseDate": "2023-03-09",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -19661,7 +19661,7 @@ const GAME = {
     ]
   },
   "9PC2BJDXR2LK": {
-    "releaseDate": "2020-08-18",
+    "releaseDate": "2020-08-05",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -19686,7 +19686,7 @@ const GAME = {
     ]
   },
   "9PC4R8N1N2T6": {
-    "releaseDate": "2022-11-08",
+    "releaseDate": "2022-11-01",
     "gamepass": true,
     "price": 24.99,
     "rate": 4.4,
@@ -19729,7 +19729,7 @@ const GAME = {
     ]
   },
   "9PC6RVVBBQNM": {
-    "releaseDate": "2023-10-18",
+    "releaseDate": "2023-05-31",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -19773,7 +19773,7 @@ const GAME = {
     ]
   },
   "9PCGG15VSS07": {
-    "releaseDate": "2023-09-06",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 19.99,
     "rate": 0.0,
@@ -19797,7 +19797,7 @@ const GAME = {
     ]
   },
   "9PCK3VJWZCXQ": {
-    "releaseDate": "2023-06-21",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.0,
@@ -19825,7 +19825,7 @@ const GAME = {
     ]
   },
   "9PCKDV33X11T": {
-    "releaseDate": "2023-04-25",
+    "releaseDate": "2023-04-20",
     "gamepass": false,
     "price": 73.99,
     "rate": 4.9,
@@ -19941,7 +19941,7 @@ const GAME = {
     ]
   },
   "9PCVWW89JKVW": {
-    "releaseDate": "2022-12-01",
+    "releaseDate": "2022-11-28",
     "gamepass": false,
     "price": 99.99,
     "rate": 3.9,
@@ -19953,7 +19953,7 @@ const GAME = {
     ]
   },
   "9PCW1SMN9RGG": {
-    "releaseDate": "2022-08-09",
+    "releaseDate": "2021-06-10",
     "gamepass": true,
     "price": 29.99,
     "rate": 3.5,
@@ -20001,7 +20001,7 @@ const GAME = {
     ]
   },
   "9PD2BTTC84MQ": {
-    "releaseDate": "2023-02-22",
+    "releaseDate": "2023-02-09",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.7,
@@ -20065,7 +20065,7 @@ const GAME = {
     ]
   },
   "9PD5BM2Z8C4L": {
-    "releaseDate": "2022-10-20",
+    "releaseDate": "2022-05-19",
     "gamepass": true,
     "price": 3.99,
     "rate": 4.8,
@@ -20105,7 +20105,7 @@ const GAME = {
     ]
   },
   "9PDDP6ML6XHF": {
-    "releaseDate": "2022-10-06",
+    "releaseDate": "2021-06-17",
     "gamepass": true,
     "price": 34.99,
     "rate": 3.7,
@@ -20144,7 +20144,7 @@ const GAME = {
     ]
   },
   "9PDHWZ7X3P03": {
-    "releaseDate": "2022-10-25",
+    "releaseDate": "2022-08-23",
     "gamepass": true,
     "price": 49.99,
     "rate": 3.3,
@@ -20174,7 +20174,7 @@ const GAME = {
     ]
   },
   "9PDKCJQ4MQXZ": {
-    "releaseDate": "2023-04-13",
+    "releaseDate": "2023-04-05",
     "gamepass": false,
     "price": 4.99,
     "rate": 2.0,
@@ -20237,7 +20237,7 @@ const GAME = {
     ]
   },
   "9PDR8W5XLS4R": {
-    "releaseDate": "2023-01-20",
+    "releaseDate": "2023-01-17",
     "gamepass": false,
     "price": 35.99,
     "rate": 4.7,
@@ -20272,7 +20272,7 @@ const GAME = {
     ]
   },
   "9PDXJP3805DN": {
-    "releaseDate": "2022-09-15",
+    "releaseDate": "2022-09-13",
     "gamepass": true,
     "price": 39.99,
     "rate": 4.6,
@@ -20288,7 +20288,7 @@ const GAME = {
     ]
   },
   "9PF3B188B28R": {
-    "releaseDate": "2023-03-09",
+    "releaseDate": "2023-02-24",
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -20397,7 +20397,7 @@ const GAME = {
     ]
   },
   "9PF9XNS5KZ2S": {
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -20424,7 +20424,7 @@ const GAME = {
     ]
   },
   "9PFBJC0VVTMB": {
-    "releaseDate": "2023-05-16",
+    "releaseDate": "2023-05-15",
     "gamepass": false,
     "price": 49.99,
     "rate": 3.0,
@@ -20478,7 +20478,7 @@ const GAME = {
     ]
   },
   "9PFHTLVSZ22B": {
-    "releaseDate": "2022-10-27",
+    "releaseDate": "2022-10-26",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -20527,7 +20527,7 @@ const GAME = {
     ]
   },
   "9PFL29KF44DK": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-16",
     "gamepass": false,
     "price": 7.99,
     "rate": 5.0,
@@ -20666,7 +20666,7 @@ const GAME = {
     ]
   },
   "9PFVSBZNGV5X": {
-    "releaseDate": "2023-03-08",
+    "releaseDate": "2023-03-03",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -20678,7 +20678,7 @@ const GAME = {
     ]
   },
   "9PFVWXH73F97": {
-    "releaseDate": "2022-12-15",
+    "releaseDate": "2022-11-30",
     "gamepass": false,
     "price": 1.99,
     "rate": 4.0,
@@ -20702,7 +20702,7 @@ const GAME = {
     ]
   },
   "9PFZ3QGKCKZ4": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-06-04",
     "gamepass": false,
     "price": 2.99,
     "rate": 5.0,
@@ -20716,7 +20716,7 @@ const GAME = {
     ]
   },
   "9PG0HF0DC6KG": {
-    "releaseDate": "2023-05-17",
+    "releaseDate": "2023-05-04",
     "gamepass": false,
     "price": 4.99,
     "rate": 1.9,
@@ -20809,7 +20809,7 @@ const GAME = {
     ]
   },
   "9PG4HDL6J7SG": {
-    "releaseDate": "2023-09-19",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -20846,7 +20846,7 @@ const GAME = {
     ]
   },
   "9PG8R6F49KQ2": {
-    "releaseDate": "2023-05-18",
+    "releaseDate": "2023-05-05",
     "gamepass": false,
     "price": 11.99,
     "rate": 4.1,
@@ -20870,7 +20870,7 @@ const GAME = {
     ]
   },
   "9PG9WWJSJ38H": {
-    "releaseDate": "2022-11-10",
+    "releaseDate": "2022-11-02",
     "gamepass": false,
     "price": 4.99,
     "rate": 1.0,
@@ -20896,7 +20896,7 @@ const GAME = {
     ]
   },
   "9PGC82V0DXFS": {
-    "releaseDate": "2023-04-28",
+    "releaseDate": "2022-12-09",
     "gamepass": false,
     "price": 79.99,
     "rate": 4.2,
@@ -20908,7 +20908,7 @@ const GAME = {
     ]
   },
   "9PGCBP8K46G1": {
-    "releaseDate": "2023-01-12",
+    "releaseDate": "2023-01-06",
     "gamepass": false,
     "price": 19.99,
     "rate": 0.0,
@@ -20932,7 +20932,7 @@ const GAME = {
     ]
   },
   "9PGF2DMBV3MD": {
-    "releaseDate": "2023-06-01",
+    "releaseDate": "2023-05-18",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -20944,7 +20944,7 @@ const GAME = {
     ]
   },
   "9PGGZPGS6KX5": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-02-27",
     "gamepass": false,
     "price": 3.99,
     "rate": 4.3,
@@ -20956,7 +20956,7 @@ const GAME = {
     ]
   },
   "9PGJ5PJ2S4W7": {
-    "releaseDate": "2023-04-26",
+    "releaseDate": "2023-04-19",
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -21008,7 +21008,7 @@ const GAME = {
     ]
   },
   "9PGMWSRZNVRB": {
-    "releaseDate": "2023-02-23",
+    "releaseDate": "2023-01-12",
     "gamepass": false,
     "price": 39.99,
     "rate": 3.5,
@@ -21104,7 +21104,7 @@ const GAME = {
     ]
   },
   "9PGRLPCDJ45C": {
-    "releaseDate": "2023-09-18",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 89.99,
     "rate": 0.0,
@@ -21153,7 +21153,7 @@ const GAME = {
     ]
   },
   "9PGVVK65VW3H": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-19",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
@@ -21202,7 +21202,7 @@ const GAME = {
     ]
   },
   "9PH2TSF7M48X": {
-    "releaseDate": "2023-01-31",
+    "releaseDate": "2022-11-10",
     "gamepass": false,
     "price": 17.99,
     "rate": 5.0,
@@ -21228,7 +21228,7 @@ const GAME = {
     ]
   },
   "9PH57MV3K2G4": {
-    "releaseDate": "2023-09-21",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -21286,7 +21286,7 @@ const GAME = {
     ]
   },
   "9PHDWQ1SJ8HV": {
-    "releaseDate": "2021-03-10",
+    "releaseDate": "2021-03-07",
     "gamepass": false,
     "price": 39.99,
     "rate": 1.0,
@@ -21302,7 +21302,7 @@ const GAME = {
     ]
   },
   "9PHFDJ1RV965": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-20",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -21342,7 +21342,7 @@ const GAME = {
     ]
   },
   "9PHGTP8PR6ZP": {
-    "releaseDate": "2023-06-02",
+    "releaseDate": "2023-05-30",
     "gamepass": false,
     "price": 14.99,
     "rate": 3.0,
@@ -21356,7 +21356,7 @@ const GAME = {
     ]
   },
   "9PHGVPSJQ9DJ": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-03-10",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -21383,7 +21383,7 @@ const GAME = {
     ]
   },
   "9PHHP2VZLFMJ": {
-    "releaseDate": "2023-01-30",
+    "releaseDate": "2023-01-10",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
@@ -21475,7 +21475,7 @@ const GAME = {
     ]
   },
   "9PHL6XLQC875": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2023-05-12",
     "gamepass": false,
     "price": 2.99,
     "rate": 5.0,
@@ -21489,7 +21489,7 @@ const GAME = {
     ]
   },
   "9PHM71SHLCVC": {
-    "releaseDate": "2023-06-14",
+    "releaseDate": "2023-06-04",
     "gamepass": false,
     "price": 4.99,
     "rate": 3.8,
@@ -21539,7 +21539,7 @@ const GAME = {
     ]
   },
   "9PHT99P0SM47": {
-    "releaseDate": "2023-03-03",
+    "releaseDate": "2022-11-09",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -21566,7 +21566,7 @@ const GAME = {
     ]
   },
   "9PHVQWC39PQV": {
-    "releaseDate": "2022-06-13",
+    "releaseDate": "2022-06-11",
     "gamepass": false,
     "price": 4.54,
     "rate": 5.0,
@@ -21618,7 +21618,7 @@ const GAME = {
     ]
   },
   "9PJ04CLFVDBX": {
-    "releaseDate": "2023-06-12",
+    "releaseDate": "2023-05-30",
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -21644,7 +21644,7 @@ const GAME = {
     ]
   },
   "9PJ0952T3011": {
-    "releaseDate": "2023-04-13",
+    "releaseDate": "2023-04-05",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -21670,7 +21670,7 @@ const GAME = {
     ]
   },
   "9PJ1045MHZJ0": {
-    "releaseDate": "2022-11-29",
+    "releaseDate": "2022-11-15",
     "gamepass": true,
     "price": 19.99,
     "rate": 2.0,
@@ -21687,7 +21687,7 @@ const GAME = {
     ]
   },
   "9PJ15D3RDXMV": {
-    "releaseDate": "2022-11-11",
+    "releaseDate": "2022-11-01",
     "gamepass": false,
     "price": 119.99,
     "rate": 3.1,
@@ -21775,7 +21775,7 @@ const GAME = {
     ]
   },
   "9PJ6C03ZLLQV": {
-    "releaseDate": "2021-07-29",
+    "releaseDate": "2021-07-15",
     "gamepass": false,
     "price": 17.99,
     "rate": 4.4,
@@ -21787,7 +21787,7 @@ const GAME = {
     ]
   },
   "9PJ91WJ7DK85": {
-    "releaseDate": "2023-05-31",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -21826,7 +21826,7 @@ const GAME = {
     ]
   },
   "9PJFK4TCJD86": {
-    "releaseDate": "2023-05-25",
+    "releaseDate": "2023-04-13",
     "gamepass": false,
     "price": 41.99,
     "rate": 2.5,
@@ -21879,7 +21879,7 @@ const GAME = {
     ]
   },
   "9PJK6SST6G3C": {
-    "releaseDate": "2022-12-06",
+    "releaseDate": "2022-11-29",
     "gamepass": false,
     "price": 19.99,
     "rate": 2.7,
@@ -21927,7 +21927,7 @@ const GAME = {
     ]
   },
   "9PJM4N3NWZ4B": {
-    "releaseDate": "2023-10-03",
+    "releaseDate": "2023-06-13",
     "gamepass": false,
     "price": 54.99,
     "rate": 0.0,
@@ -21938,7 +21938,7 @@ const GAME = {
     ]
   },
   "9PJN16LJZ41M": {
-    "releaseDate": "2023-07-01",
+    "releaseDate": "2023-06-01",
     "gamepass": false,
     "price": 59.99,
     "rate": 3.7,
@@ -22026,7 +22026,7 @@ const GAME = {
     ]
   },
   "9PJS4RFWL6L2": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-05-21",
     "gamepass": false,
     "price": 9.99,
     "rate": 2.5,
@@ -22040,7 +22040,7 @@ const GAME = {
     ]
   },
   "9PJS5ZBHL9DT": {
-    "releaseDate": "2022-12-15",
+    "releaseDate": "2022-08-23",
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -22092,7 +22092,7 @@ const GAME = {
     ]
   },
   "9PJVG73JW2V2": {
-    "releaseDate": "2021-10-22",
+    "releaseDate": "2021-10-13",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -22161,7 +22161,7 @@ const GAME = {
     ]
   },
   "9PK4B09SMN5C": {
-    "releaseDate": "2023-01-19",
+    "releaseDate": "2022-12-15",
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -22243,7 +22243,7 @@ const GAME = {
     ]
   },
   "9PKCKMMC8M9S": {
-    "releaseDate": "2023-07-18",
+    "releaseDate": "2023-06-06",
     "gamepass": false,
     "price": 24.99,
     "rate": 0.0,
@@ -22254,7 +22254,7 @@ const GAME = {
     ]
   },
   "9PKG0KPLKRQT": {
-    "releaseDate": "2022-11-30",
+    "releaseDate": "2022-04-07",
     "gamepass": false,
     "price": 59.99,
     "rate": 3.3,
@@ -22265,7 +22265,7 @@ const GAME = {
     ]
   },
   "9PKKLGN8H1HB": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-06-14",
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
@@ -22288,7 +22288,7 @@ const GAME = {
     "tags": []
   },
   "9PKNNX1M77SZ": {
-    "releaseDate": "2023-10-05",
+    "releaseDate": "2023-06-27",
     "gamepass": false,
     "price": 59.99,
     "rate": 0.0,
@@ -22313,7 +22313,7 @@ const GAME = {
     ]
   },
   "9PKP39CL0C8D": {
-    "releaseDate": "2023-04-12",
+    "releaseDate": "2023-03-15",
     "gamepass": true,
     "price": 69.99,
     "rate": 4.0,
@@ -22380,7 +22380,7 @@ const GAME = {
     ]
   },
   "9PKTNJD05FVQ": {
-    "releaseDate": "2023-03-24",
+    "releaseDate": "2023-03-22",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -22447,7 +22447,7 @@ const GAME = {
     ]
   },
   "9PKWHT7G60WQ": {
-    "releaseDate": "2021-05-13",
+    "releaseDate": "2021-02-02",
     "gamepass": true,
     "price": 69.99,
     "rate": 4.7,
@@ -22519,7 +22519,7 @@ const GAME = {
     ]
   },
   "9PL4K7NR0NKR": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2023-05-02",
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -22602,7 +22602,7 @@ const GAME = {
     ]
   },
   "9PLBRNW62S2B": {
-    "releaseDate": "2023-05-26",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 14.99,
     "rate": 2.2,
@@ -22639,7 +22639,7 @@ const GAME = {
     ]
   },
   "9PLDD5FRSZRS": {
-    "releaseDate": "2023-03-09",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 41.99,
     "rate": 4.9,
@@ -22690,7 +22690,7 @@ const GAME = {
     ]
   },
   "9PLG49K93DKK": {
-    "releaseDate": "2021-06-22",
+    "releaseDate": "2021-05-20",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -22717,7 +22717,7 @@ const GAME = {
     ]
   },
   "9PLHL27PH1K7": {
-    "releaseDate": "2023-06-30",
+    "releaseDate": "2023-05-29",
     "gamepass": false,
     "price": 5.49,
     "rate": 4.0,
@@ -22742,7 +22742,7 @@ const GAME = {
     ]
   },
   "9PLKBK6M7CTK": {
-    "releaseDate": "2023-05-10",
+    "releaseDate": "2023-04-27",
     "gamepass": false,
     "price": 2.99,
     "rate": 4.6,
@@ -22756,7 +22756,7 @@ const GAME = {
     ]
   },
   "9PLKVSWR299F": {
-    "releaseDate": "2023-10-09",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -22845,7 +22845,7 @@ const GAME = {
     ]
   },
   "9PLTH68WQXJM": {
-    "releaseDate": "2023-02-24",
+    "releaseDate": "2023-02-23",
     "gamepass": false,
     "price": 9.99,
     "rate": 2.5,
@@ -22937,7 +22937,7 @@ const GAME = {
     ]
   },
   "9PM1D9HZLDHX": {
-    "releaseDate": "2023-06-20",
+    "releaseDate": "2023-06-19",
     "gamepass": false,
     "price": 69.99,
     "rate": 2.7,
@@ -22949,7 +22949,7 @@ const GAME = {
     ]
   },
   "9PM1LNB8ZRQ1": {
-    "releaseDate": "2023-06-23",
+    "releaseDate": "2023-05-25",
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -23001,7 +23001,7 @@ const GAME = {
     ]
   },
   "9PM6X8KR5955": {
-    "releaseDate": "2023-03-09",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -23040,7 +23040,7 @@ const GAME = {
     ]
   },
   "9PM9PV1PBQRQ": {
-    "releaseDate": "2023-03-10",
+    "releaseDate": "2023-02-24",
     "gamepass": false,
     "price": 5.99,
     "rate": 3.2,
@@ -23091,7 +23091,7 @@ const GAME = {
     ]
   },
   "9PMGHCMVV6F1": {
-    "releaseDate": "2022-12-21",
+    "releaseDate": "2022-11-23",
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -23106,7 +23106,7 @@ const GAME = {
     ]
   },
   "9PMGVP7B0RZF": {
-    "releaseDate": "2023-03-15",
+    "releaseDate": "2023-03-06",
     "gamepass": false,
     "price": 39.99,
     "rate": 3.4,
@@ -23147,7 +23147,7 @@ const GAME = {
     ]
   },
   "9PMM1HL2KQW6": {
-    "releaseDate": "2023-09-18",
+    "releaseDate": "2023-06-21",
     "gamepass": false,
     "price": 35.99,
     "rate": 0.0,
@@ -23228,7 +23228,7 @@ const GAME = {
     ]
   },
   "9PMQ9FB53XNW": {
-    "releaseDate": "2023-06-16",
+    "releaseDate": "2023-05-25",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -23239,7 +23239,7 @@ const GAME = {
     ]
   },
   "9PMQDM08SNK9": {
-    "releaseDate": "2022-11-11",
+    "releaseDate": "2022-11-01",
     "gamepass": true,
     "price": 69.99,
     "rate": 3.1,
@@ -23459,7 +23459,7 @@ const GAME = {
     ]
   },
   "9PN4DRJDLZT7": {
-    "releaseDate": "2023-10-09",
+    "releaseDate": "2023-06-11",
     "gamepass": false,
     "price": 89.99,
     "rate": 0.0,
@@ -23561,7 +23561,7 @@ const GAME = {
     ]
   },
   "9PNBCCNNKBQV": {
-    "releaseDate": "2023-02-02",
+    "releaseDate": "2023-01-19",
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -23588,7 +23588,7 @@ const GAME = {
     ]
   },
   "9PND6XZTCZWT": {
-    "releaseDate": "2023-01-12",
+    "releaseDate": "2022-09-15",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.8,
@@ -23600,7 +23600,7 @@ const GAME = {
     ]
   },
   "9PNFGB4TRV8C": {
-    "releaseDate": "2021-05-28",
+    "releaseDate": "2021-04-01",
     "gamepass": false,
     "price": 24.99,
     "rate": 2.0,
@@ -23613,7 +23613,7 @@ const GAME = {
     ]
   },
   "9PNFQ9QVN34W": {
-    "releaseDate": "2022-09-08",
+    "releaseDate": "2022-07-07",
     "gamepass": false,
     "price": 39.99,
     "rate": 2.2,
@@ -23640,7 +23640,7 @@ const GAME = {
     ]
   },
   "9PNH6BGC71FP": {
-    "releaseDate": "2023-05-18",
+    "releaseDate": "2023-03-23",
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -23720,7 +23720,7 @@ const GAME = {
     ]
   },
   "9PNLPMP1GGH5": {
-    "releaseDate": "2022-08-11",
+    "releaseDate": "2022-07-19",
     "gamepass": false,
     "price": 24.99,
     "rate": 3.9,
@@ -23772,7 +23772,7 @@ const GAME = {
     ]
   },
   "9PNPFBPLGCMW": {
-    "releaseDate": "2023-07-11",
+    "releaseDate": "2023-06-27",
     "gamepass": false,
     "price": 24.99,
     "rate": 0.0,
@@ -23879,7 +23879,7 @@ const GAME = {
     ]
   },
   "9PP1RSTJ51PP": {
-    "releaseDate": "2023-06-09",
+    "releaseDate": "2023-05-11",
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -23892,7 +23892,7 @@ const GAME = {
     ]
   },
   "9PP1V590RH6R": {
-    "releaseDate": "2023-06-22",
+    "releaseDate": "2023-06-14",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.0,
@@ -23916,7 +23916,7 @@ const GAME = {
     ]
   },
   "9PP2FF9ZGDTK": {
-    "releaseDate": "2023-05-25",
+    "releaseDate": "2023-05-17",
     "gamepass": false,
     "price": 21.99,
     "rate": 0.0,
@@ -24009,7 +24009,7 @@ const GAME = {
     ]
   },
   "9PP6C21NFP4Z": {
-    "releaseDate": "2023-07-12",
+    "releaseDate": "2023-06-28",
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -24023,7 +24023,7 @@ const GAME = {
     ]
   },
   "9PP6P2VD3QF2": {
-    "releaseDate": "2023-05-11",
+    "releaseDate": "2023-04-27",
     "gamepass": false,
     "price": 4.99,
     "rate": 2.1,
@@ -24065,7 +24065,7 @@ const GAME = {
     ]
   },
   "9PP837L3Q75D": {
-    "releaseDate": "2022-12-02",
+    "releaseDate": "2022-10-06",
     "gamepass": true,
     "price": 79.99,
     "rate": 2.9,
@@ -24098,7 +24098,7 @@ const GAME = {
     ]
   },
   "9PP9CGD2HXJ9": {
-    "releaseDate": "2023-05-19",
+    "releaseDate": "2023-05-04",
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -24112,7 +24112,7 @@ const GAME = {
     ]
   },
   "9PPBVK3TK83M": {
-    "releaseDate": "2020-11-10",
+    "releaseDate": "2020-11-09",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -24209,7 +24209,7 @@ const GAME = {
     ]
   },
   "9PPFBQG81Q5J": {
-    "releaseDate": "2023-05-01",
+    "releaseDate": "2022-01-24",
     "gamepass": true,
     "price": 19.99,
     "rate": 3.0,
@@ -24222,7 +24222,7 @@ const GAME = {
     ]
   },
   "9PPG6KN2J32S": {
-    "releaseDate": "2023-07-27",
+    "releaseDate": "2023-06-07",
     "gamepass": false,
     "price": 64.99,
     "rate": 0.0,
@@ -24304,7 +24304,7 @@ const GAME = {
     ]
   },
   "9PPN99NS6PSL": {
-    "releaseDate": "2023-09-19",
+    "releaseDate": "2023-06-08",
     "gamepass": false,
     "price": 69.99,
     "rate": 0.0,
@@ -24351,7 +24351,7 @@ const GAME = {
     ]
   },
   "9PPRZRCCLJL6": {
-    "releaseDate": "2023-02-16",
+    "releaseDate": "2022-11-09",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
@@ -24594,7 +24594,7 @@ const GAME = {
     ]
   },
   "BNKKL4N4VFWR": {
-    "releaseDate": "2020-11-30",
+    "releaseDate": "2020-11-03",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -24618,7 +24618,7 @@ const GAME = {
     ]
   },
   "BNLWDLTJ5D68": {
-    "releaseDate": "2018-08-02",
+    "releaseDate": "2018-08-01",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.2,
@@ -24752,7 +24752,7 @@ const GAME = {
     ]
   },
   "BNRN5CLM2ZQH": {
-    "releaseDate": "2018-03-02",
+    "releaseDate": "2017-01-13",
     "gamepass": false,
     "price": 6.99,
     "rate": 5.0,
@@ -25272,7 +25272,7 @@ const GAME = {
     ]
   },
   "BPCL0TXCGJ1W": {
-    "releaseDate": "2022-02-04",
+    "releaseDate": "2021-05-27",
     "gamepass": false,
     "price": 69.99,
     "rate": 3.8,
@@ -25372,7 +25372,7 @@ const GAME = {
     ]
   },
   "BPH82WMZ6W7N": {
-    "releaseDate": "2017-02-14",
+    "releaseDate": "2017-02-13",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -25581,7 +25581,7 @@ const GAME = {
     ]
   },
   "BPQ955FQFPH6": {
-    "releaseDate": "2019-10-01",
+    "releaseDate": "2019-05-24",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -25756,7 +25756,7 @@ const GAME = {
     ]
   },
   "BPZ6Z3VDCVXC": {
-    "releaseDate": "2019-06-27",
+    "releaseDate": "2019-06-24",
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
@@ -25795,7 +25795,7 @@ const GAME = {
     ]
   },
   "BQ0T326DSPLQ": {
-    "releaseDate": "2015-10-09",
+    "releaseDate": "2015-10-04",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -25946,7 +25946,7 @@ const GAME = {
     ]
   },
   "BQ49WQ00XTWX": {
-    "releaseDate": "2018-10-09",
+    "releaseDate": "2018-10-08",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -26071,7 +26071,7 @@ const GAME = {
     ]
   },
   "BQCLQ73MFGJ8": {
-    "releaseDate": "2016-04-20",
+    "releaseDate": "2016-04-19",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
@@ -26232,7 +26232,7 @@ const GAME = {
     ]
   },
   "BQLNJS14G8K4": {
-    "releaseDate": "2017-11-09",
+    "releaseDate": "2017-11-08",
     "gamepass": false,
     "price": 6.98,
     "rate": 5.0,
@@ -26324,7 +26324,7 @@ const GAME = {
     ]
   },
   "BQRB60PW2SDL": {
-    "releaseDate": "2019-06-21",
+    "releaseDate": "2019-06-20",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -26516,7 +26516,7 @@ const GAME = {
     ]
   },
   "BQZKFWSZX483": {
-    "releaseDate": "2015-11-11",
+    "releaseDate": "2015-11-10",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -26974,7 +26974,7 @@ const GAME = {
     ]
   },
   "BRJNRZ9N734V": {
-    "releaseDate": "2019-08-26",
+    "releaseDate": "2019-08-25",
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
@@ -27083,7 +27083,7 @@ const GAME = {
     ]
   },
   "BRPVTJKWHBR7": {
-    "releaseDate": "2021-05-21",
+    "releaseDate": "2021-03-26",
     "gamepass": false,
     "price": 49.99,
     "rate": 2.0,
@@ -27277,7 +27277,7 @@ const GAME = {
     ]
   },
   "BRZZLBF5T245": {
-    "releaseDate": "2019-11-07",
+    "releaseDate": "2019-08-14",
     "gamepass": true,
     "price": 69.99,
     "rate": 2.9,
@@ -27305,7 +27305,7 @@ const GAME = {
     ]
   },
   "BS0PFBB91B3V": {
-    "releaseDate": "2019-10-11",
+    "releaseDate": "2019-10-07",
     "gamepass": true,
     "price": 29.99,
     "rate": 3.8,
@@ -27346,7 +27346,7 @@ const GAME = {
     ]
   },
   "BS1V82FLTGKJ": {
-    "releaseDate": "2017-03-31",
+    "releaseDate": "2017-03-30",
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
@@ -27550,7 +27550,7 @@ const GAME = {
     ]
   },
   "BSBTJM430VVR": {
-    "releaseDate": "2017-11-07",
+    "releaseDate": "2017-11-06",
     "gamepass": false,
     "price": 14.98,
     "rate": 3.7,
@@ -28015,7 +28015,7 @@ const GAME = {
     ]
   },
   "BSWTLFKMV96K": {
-    "releaseDate": "2019-09-24",
+    "releaseDate": "2019-09-23",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -28147,7 +28147,7 @@ const GAME = {
     ]
   },
   "BT3611GR00CQ": {
-    "releaseDate": "2022-10-21",
+    "releaseDate": "2022-10-20",
     "gamepass": false,
     "price": 74.99,
     "rate": 4.2,
@@ -28588,7 +28588,7 @@ const GAME = {
     ]
   },
   "BTZLK948HPSX": {
-    "releaseDate": "2018-11-01",
+    "releaseDate": "2018-10-31",
     "gamepass": false,
     "price": 6.99,
     "rate": 4.0,
@@ -29124,7 +29124,7 @@ const GAME = {
     ]
   },
   "BVTKN6CQ8W5F": {
-    "releaseDate": "2019-10-25",
+    "releaseDate": "2019-10-24",
     "gamepass": true,
     "price": 29.99,
     "rate": 4.1,
@@ -29776,7 +29776,7 @@ const GAME = {
     ]
   },
   "BWVBNCMF22ZK": {
-    "releaseDate": "2018-03-23",
+    "releaseDate": "2018-03-22",
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
@@ -29899,7 +29899,7 @@ const GAME = {
     ]
   },
   "BX2045HX10WS": {
-    "releaseDate": "2017-05-30",
+    "releaseDate": "2017-05-29",
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
@@ -29951,7 +29951,7 @@ const GAME = {
     ]
   },
   "BX3M8L83BBRW": {
-    "releaseDate": "2020-12-10",
+    "releaseDate": "2020-12-09",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.1,
@@ -30023,7 +30023,7 @@ const GAME = {
     ]
   },
   "BX7CVHSZMFRH": {
-    "releaseDate": "2015-09-23",
+    "releaseDate": "2015-09-22",
     "gamepass": false,
     "price": 8.99,
     "rate": 2.9,
@@ -30315,7 +30315,7 @@ const GAME = {
     ]
   },
   "BXRB4ZH2GJHK": {
-    "releaseDate": "2022-01-20",
+    "releaseDate": "2022-01-19",
     "gamepass": false,
     "price": 49.99,
     "rate": 3.8,
@@ -30344,7 +30344,7 @@ const GAME = {
     ]
   },
   "BXT6TD05Q930": {
-    "releaseDate": "2016-08-16",
+    "releaseDate": "2016-08-15",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -30434,7 +30434,7 @@ const GAME = {
     ]
   },
   "BXZ0JDCPRV6C": {
-    "releaseDate": "2014-11-20",
+    "releaseDate": "2014-11-19",
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -30573,7 +30573,7 @@ const GAME = {
     ]
   },
   "BZ6W9LRPC26W": {
-    "releaseDate": "2019-08-27",
+    "releaseDate": "2019-08-26",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -30701,7 +30701,7 @@ const GAME = {
     ]
   },
   "BZF8QCRM89GK": {
-    "releaseDate": "2017-06-14",
+    "releaseDate": "2017-06-13",
     "gamepass": false,
     "price": 16.99,
     "rate": 4.1,
@@ -30887,7 +30887,7 @@ const GAME = {
     ]
   },
   "BZM82SL2TP6V": {
-    "releaseDate": "2018-03-07",
+    "releaseDate": "2018-03-06",
     "gamepass": false,
     "price": 19.98,
     "rate": 4.9,
@@ -31168,7 +31168,7 @@ const GAME = {
     ]
   },
   "C07KJZRH0L7S": {
-    "releaseDate": "2020-12-03",
+    "releaseDate": "2020-12-02",
     "gamepass": true,
     "price": 69.99,
     "rate": 4.3,
@@ -31205,7 +31205,7 @@ const GAME = {
     ]
   },
   "C083G6BGJ334": {
-    "releaseDate": "2021-04-01",
+    "releaseDate": "2021-03-31",
     "gamepass": true,
     "price": 49.99,
     "rate": 3.1,
@@ -31336,7 +31336,7 @@ const GAME = {
     ]
   },
   "C0FZNGPNQQRQ": {
-    "releaseDate": "2017-05-30",
+    "releaseDate": "2017-05-29",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -31362,7 +31362,7 @@ const GAME = {
     ]
   },
   "C0GG86060VF8": {
-    "releaseDate": "2010-04-08",
+    "releaseDate": "2009-08-11",
     "gamepass": false,
     "price": 2.99,
     "rate": 4.9,
@@ -32026,7 +32026,7 @@ const GAME = {
     ]
   },
   "C1H74N0TR8KT": {
-    "releaseDate": "2021-02-10",
+    "releaseDate": "2020-12-10",
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -32062,7 +32062,7 @@ const GAME = {
     ]
   },
   "C1HZV4PRZ39K": {
-    "releaseDate": "2016-06-03",
+    "releaseDate": "2016-06-02",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.4,
@@ -32076,7 +32076,7 @@ const GAME = {
     ]
   },
   "C1JXWJR46913": {
-    "releaseDate": "2016-07-01",
+    "releaseDate": "2016-06-30",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
@@ -32454,7 +32454,7 @@ const GAME = {
     ]
   },
   "C1ZT6N30L1WH": {
-    "releaseDate": "2019-08-12",
+    "releaseDate": "2019-04-15",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -32583,7 +32583,7 @@ const GAME = {
     ]
   },
   "C232CL8LQQ9N": {
-    "releaseDate": "2019-03-12",
+    "releaseDate": "2017-06-29",
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -32692,7 +32692,7 @@ const GAME = {
     ]
   },
   "C256X5ZJ375P": {
-    "releaseDate": "2019-05-28",
+    "releaseDate": "2016-07-12",
     "gamepass": false,
     "price": 2.99,
     "rate": 3.5,
@@ -32924,7 +32924,7 @@ const GAME = {
     ]
   },
   "C2CSDTSCBZ0C": {
-    "releaseDate": "2019-11-15",
+    "releaseDate": "2019-11-14",
     "gamepass": true,
     "price": 49.99,
     "rate": 4.2,
@@ -32987,7 +32987,7 @@ const GAME = {
     ]
   },
   "C2GMBPMTHDDK": {
-    "releaseDate": "2020-07-28",
+    "releaseDate": "2020-07-26",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -33019,7 +33019,7 @@ const GAME = {
     ]
   },
   "C2HQVXVVLMKG": {
-    "releaseDate": "2019-09-19",
+    "releaseDate": "2019-09-18",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -33057,7 +33057,7 @@ const GAME = {
     ]
   },
   "C2KDNLT2H7DM": {
-    "releaseDate": "2019-09-09",
+    "releaseDate": "2019-09-05",
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
@@ -33398,7 +33398,7 @@ const GAME = {
     ]
   },
   "C34NB0F1B5WQ": {
-    "releaseDate": "2019-09-13",
+    "releaseDate": "2019-09-12",
     "gamepass": false,
     "price": 69.99,
     "rate": 3.8,
@@ -33501,7 +33501,7 @@ const GAME = {
     ]
   },
   "C36X13QTJ3V5": {
-    "releaseDate": "2017-03-23",
+    "releaseDate": "2017-03-22",
     "gamepass": false,
     "price": 0.0,
     "rate": 2.9,
@@ -33528,7 +33528,7 @@ const GAME = {
     ]
   },
   "C3B1V55CDL0C": {
-    "releaseDate": "2018-11-06",
+    "releaseDate": "2018-11-05",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -33713,7 +33713,7 @@ const GAME = {
     ]
   },
   "C3L4J3H7H12R": {
-    "releaseDate": "2023-04-20",
+    "releaseDate": "2022-08-23",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.2,
@@ -33788,7 +33788,7 @@ const GAME = {
     ]
   },
   "C3NNLTHW9T9W": {
-    "releaseDate": "2019-12-18",
+    "releaseDate": "2019-05-28",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -33870,7 +33870,7 @@ const GAME = {
     ]
   },
   "C3SQQG5Q6Z64": {
-    "releaseDate": "2016-03-24",
+    "releaseDate": "2016-03-23",
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -33924,7 +33924,7 @@ const GAME = {
     ]
   },
   "C3VVNLQQ54F8": {
-    "releaseDate": "2019-10-04",
+    "releaseDate": "2019-09-30",
     "gamepass": false,
     "price": 69.99,
     "rate": 2.8,
@@ -34457,7 +34457,7 @@ const GAME = {
     ]
   },
   "C4M5BK5HMGJD": {
-    "releaseDate": "2017-03-14",
+    "releaseDate": "2017-01-24",
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
@@ -34537,7 +34537,7 @@ const GAME = {
     ]
   },
   "C4Q7K19Q0VBZ": {
-    "releaseDate": "2019-09-27",
+    "releaseDate": "2019-06-14",
     "gamepass": false,
     "price": 69.99,
     "rate": 4.2,
@@ -34814,7 +34814,7 @@ const GAME = {
     ]
   },
   "C5CZ41LM1DLM": {
-    "releaseDate": "2017-03-10",
+    "releaseDate": "2017-03-09",
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,

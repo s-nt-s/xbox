@@ -2,28 +2,55 @@ import inspect
 import re
 from os.path import isfile
 from functools import cached_property
+from typing import Union
 from math import ceil
 from dataclasses import dataclass
 from datetime import date
+import json
 from .thumbnail import mk_thumbnail
 
 MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
+YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
+re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
+
+
+def read_json(file):
+    if isfile(file):
+        with open(file, "r") as f:
+            return json.load(f)
+
+
+def iter_kv(obj, *breadcrumbs):
+    if obj is None:
+        yield "/".join(breadcrumbs), None
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if isinstance(v, (dict, list)):
+                yield from iter_kv(v, *breadcrumbs, k)
+            else:
+                yield "/".join(breadcrumbs+(k,)), v
+    if isinstance(obj, list):
+        for k, v in enumerate(obj):
+            yield from iter_kv(v, *breadcrumbs, "["+str(k)+"]")
 
 
 class Game:
-    def __init__(self, i):
+    def __init__(self, i: Union[dict, str], collections: tuple[str]):
+        if isinstance(i, str):
+            i = read_json("rec/gm/"+i+".json")
         self.i = i
-        self.collections = set()
-        self.productActions = {"productActions":[]}
-        self.preload_state = None
-        self.reviewsInfo = {}
+        self.collections = collections
+        jfile = self.i['ProductId']+".json"
+        self.productActions = read_json("rec/ac/"+jfile) or {"productActions": []}
+        self.preload_state = read_json("rec/ps/"+jfile)
+        self.reviewsInfo = read_json("rec/rw/"+jfile) or {}
 
-    @property
+    @cached_property
     def id(self):
         return self.i['ProductId']
 
-    @property
+    @cached_property
     def price(self):
         return self.i["DisplaySkuAvailabilities"][0]["Availabilities"][0]["OrderManagementData"]["Price"]["ListPrice"]
 
@@ -39,37 +66,37 @@ class Game:
     def reviews(self):
         return self.reviewsInfo.get('totalRatingsCount')
 
-    @property
+    @cached_property
     def title(self):
         return self.i["LocalizedProperties"][0]["ProductTitle"]
 
-    @property
+    @cached_property
     def url(self):
         return "https://www.xbox.com/es-es/games/store/a/"+self.i['ProductId']
 
-    @property
+    @cached_property
     def js(self):
         return "https://displaycatalog.mp.microsoft.com/v7.0/products?"+MSCV+"&market=ES&languages=es-es&bigIds="+self.i['ProductId']
 
-    @property
+    @cached_property
     def imgs(self):
         return ["http:"+x["Uri"] for x in self.i["LocalizedProperties"][0]["Images"]]
 
-    @property
+    @cached_property
     def poster(self):
         for i in self.i["LocalizedProperties"][0]["Images"]:
             if i['ImagePurpose'] == 'Poster':
                 return "http:"+i["Uri"]
         return self.imgs[0]
 
-    @property
+    @cached_property
     def thumbnail(self):
         out = "docs/img/"+self.id+".jpg"
         if not isfile(out):
             mk_thumbnail(self.poster, out)
         return out.split("/", 1)[-1]
 
-    @property
+    @cached_property
     def attributes(self):
         att = set()
         for a in (self.i['Properties']['Attributes'] or []):
@@ -117,7 +144,7 @@ class Game:
         cmp = set()
         for x in self.interactiveDescriptions:
             if re_compras.search(x):
-               cmp.add(x)
+                cmp.add(x)
         return tuple(sorted(cmp))
 
     @property
@@ -136,7 +163,7 @@ class Game:
     def onlyGamepass(self):
         return self.gamepass and self.notSoldSeparately
 
-    @property
+    @cached_property
     def langs(self):
         def find_lang(lng, arr):
             for l in arr:
@@ -154,7 +181,7 @@ class Game:
         langs = sorted(langs)
         return tuple(langs)
 
-    @property
+    @cached_property
     def categories(self):
         return (self.i['Properties']['Categories'] or [])
 
@@ -166,14 +193,16 @@ class Game:
     def trial(self):
         return 'Trial' in self.actions
     
-    @property
+    @cached_property
     def releaseDate(self):
         dts = set()
-        for x in self.i["MarketProperties"]:
-            dts.add(tuple(map(int, x['OriginalReleaseDate'][:10].split("-"))))
-        if len(dts) == 0:
-            return None
-        return date(*(sorted(dts)[0]))
+        for k, v in iter_kv(self.i):
+            if "Date" in k and isinstance(v, str) and re_date.match(v):
+                dts.add(tuple(map(int, v[:10].split("-"))))
+        for dt in sorted(dts):
+            dt = date(*dt)
+            if dt.year > 1951 and dt.year < YEAR:
+                return dt
 
     @property
     def tags(self):

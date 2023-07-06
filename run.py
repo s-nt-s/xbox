@@ -76,7 +76,7 @@ for i in iter_progress(items):
     _ = str(i.thumbnail)
 
 print("Generando web")
-items = sorted(items, key=lambda x: (-x.reviews, -x.rate, x.title))
+items = sorted(items, key=lambda x: x.releaseDate, reverse=True)#(-x.reviews, -x.rate, x.title))
 
 glist = GameList(items)
 

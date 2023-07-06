@@ -234,9 +234,11 @@ class Api:
         rt = sorted(rt, key=lambda x:x['ProductId'])
         gm = []
         for i in rt:
-            i = Game(i)
+            id = i['ProductId']
+            collections = set()
             for k, v in self.get_catalog().items():
-                if i.id in v:
-                    i.collections.add(k)
+                if id in v:
+                    collections.add(k)
+            i = Game(i, tuple(sorted(collections)))
             gm.append(i)
         return gm
