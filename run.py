@@ -7,6 +7,7 @@ from core.j2 import Jnj2
 from datetime import datetime
 from math import ceil
 from core.game import Game
+import sys
 
 import argparse
 
@@ -67,10 +68,13 @@ with ApiDriver(browser="wirefirefox") as f:
         i.productActions = api.get_actions(f, i.id)
         i.reviewsInfo = (api.get_reviews(f, i.id) or {})
 
-
 print("Aplicando 2º filtro", end="\r")
 items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
+
+print("Generando thumbnail")
+for i in iter_progress(items):
+    _ = str(i.thumbnail)
 
 print("Generando web")
 items = sorted(items, key=lambda x: (-x.reviews, -x.rate, x.title))

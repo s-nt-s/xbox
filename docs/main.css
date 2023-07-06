@@ -2,12 +2,12 @@ div.game {
   margin-bottom: 6px;
   vertical-align: top;
   display: inline-grid;
-  width: 500px;
-  grid-template-columns: 0.75fr 1fr;
+  width: 400px;
+  grid-template-columns: 0.65fr 1fr;
 }
 div.game > img {
   grid-column: 1;
-  width: 200px;
+  width: 150px;
 }
 div.game > p {
   grid-column: 2;
@@ -21,6 +21,7 @@ sup a {
 }
 span.tag {
   white-space: nowrap;
+  font-size: 0.70em;
 }
 .chkhideshow > span {
   min-width: 12em;
@@ -40,3 +41,8 @@ fieldset.rangos label span {
   display: inline-block;
   min-width: 5em;
 }
+
+code {
+  white-space: nowrap;
+}
+

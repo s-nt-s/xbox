@@ -5,20 +5,20 @@
 			document.write("<style> .hideIfJS { display:none; } </style>");
 		</script>
 		<base target="_blank" />
-    <meta charset="UTF-8">
-    <title>{{juegos | length | millar}} juegos</title>
+        <meta charset="UTF-8">
+        <title>{{juegos | length | millar}} juegos</title>
 		<meta http-equiv="Last-Modified" content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}">
-    <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="main.css" />
 		<script src="info.js"></script>
 		<script src="main.js"></script>
-	</head>
+	    </head>
 	<body>
 		<p>
 			<label for="list">Listar</label> <select id="list">
-					<option value="A" selected>Todo</option>
-					<option value="G">GamePass</option>
-					<option value="F">Gratis</option>
-					<option value="T">Prueba gratuita</option>
+				<option value="A" selected>Todo</option>
+				<option value="G">GamePass</option>
+				<option value="F">Gratis</option>
+				<option value="T">Prueba gratuita</option>
 			</select>
 		</p>
 		</fieldset>
@@ -29,7 +29,7 @@
 				<input type="number" step="1" required id="price_min" min="0" max="{{mx.precio}}" value="{{[1, mx.precio] | min}}">
 			</label>
 			<label for="price_max"> - 
-				<input type="number" step="1" required id="price_max" min="0" max="{{mx.precio}}" value="{{[20, mx.precio] | min}}"> €
+				<input type="number" step="1" required id="price_max" min="0" max="{{mx.precio}}" value="{{[20, mx.precio] | min}}" title="max: {{mx.precio}}"> €
 			</label>
 			</p>
 			<p>
@@ -37,7 +37,7 @@
 				<input type="number" step="1" required id="reviews_min" min="0" max="{{mx.reviews}}" value="{{[7, mx.reviews] | min}}">
 			</label>
 			<label for="reviews_max"> - 
-				<input type="number" step="1" required id="reviews_max" min="0" max="{{mx.reviews}}" value="{{mx.reviews}}">
+				<input type="number" step="1" required id="reviews_max" min="0" max="{{mx.reviews}}" value="{{mx.reviews}}" title="max: {{mx.reviews}}"> 🗳
 			</label>
 			</p>
 			<p>
@@ -45,39 +45,49 @@
 				<input type="number" step="1" required id="rate_min" min="0" max="{{mx.rate}}" value="{{[4, mx.rate] | min}}">
 			</label>
 			<label for="rate_max"> - 
-				<input type="number" step="1" required id="rate_max" min="0" max="{{mx.rate}}" value="{{mx.rate}}">
+				<input type="number" step="1" required id="rate_max" min="0" max="{{mx.rate}}" value="{{mx.rate}}" title="max: {{mx.rate}}"> ★
 			</label>
 			</p>
 		</fieldset>
 		<fieldset class="chkhideshow">
 			<legend><select id="chkhideshow">
-					<option value="HO" selected>Ocultar (OR)</option>
-					<option value="SO">Mostrar (OR)</option>
-					<option value="HA">Ocultar (AND)</option>
-					<option value="SA">Mostrar (AND)</option>
+				<option value="HO" selected>Ocultar (OR)</option>
+				<option value="SO">Mostrar (OR)</option>
+				<option value="HA">Ocultar (AND)</option>
+				<option value="SA">Mostrar (AND)</option>
 			</select></legend>
 			{% for t in tags %}
+            {% if t == "Tragaperras" %}
+			<span title="#Free + #Compras"><input type="checkbox" id="{{t}}" checked/> <label for="{{t}}">#{{t}}</label></span>
+            {% else %}
 			<span><input type="checkbox" id="{{t}}"/> <label for="{{t}}">#{{t}}</label></span>
+            {% endif %}
 			{% endfor %}
 		</fieldset>
 		<div id="games" class="hideIfJS">
 {% for j in juegos %}
 <div class="game" id="{{j.id}}">
-<img src="{{j.poster}}"/>
+<img src="{{j.thumbnail}}"/>
 <p>
-	<b><a href="{{j.url}}" class="title">{{j.title}}</a> <sup>[<a href="{{j.js}}">js</a>]</sup></b>
+	<b><a href="{{j.url}}" class="title">{{j.title}}</a>{# <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b>
 	<br/>
-	<code>{{j.rate | decimal}}</code> <span title="estrellas">★</span> || {{j.reviews | millar}} reviews || <code style=" white-space: nowrap;">{{j.price | round | int}} €</code><br/>
-	<!--
+	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code>{{j.price | round | int}} €</code><br/>
+	{#
 	{% if j.langs %}
 		[ {{" / ".join(j.langs) }} ]</br>
 	{% endif %}
-	-->
+	#}
 	{% if j.tags %}
-	{% for t in j.tags %}<span class="tag">#{{t}}</span> {% endfor %}<br/>
+	{% for t in j.tags %}
+        {% if t == "Compras" %}
+        <span class="tag" title="{{j.compras|join(' - ')}}">#{{t}}</span> 
+        {% else %}
+        <span class="tag">#{{t}}</span> 
+        {% endif %}
+    {% endfor %}<br/>
 	{% endif %}
-	<a href="https://www.youtube.com/results?search_query={{j.title}}">videos</a> -
-	<a href="https://www.google.es/search?tbm=isch&q={{j.title}}">imagenes</a>
+	<a href="https://www.youtube.com/results?search_query=xbox {{j.title}}">videos</a> -
+	<a href="https://www.google.es/search?tbm=isch&q=xbox {{j.title}}">imagenes</a>
 </p>
 </div>
 {% endfor %}

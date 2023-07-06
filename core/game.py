@@ -1,6 +1,10 @@
 import inspect
+import re
+from os.path import isfile
+from .thumbnail import mk_thumbnail
 
 MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
+re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
 
 
 class Game:
@@ -55,6 +59,13 @@ class Game:
         return self.imgs[0]
 
     @property
+    def thumbnail(self):
+        out = "docs/img/"+self.id+".jpg"
+        if not isfile(out):
+            mk_thumbnail(self.poster, out)
+        return out.split("/", 1)[-1]
+
+    @property
     def attributes(self):
         att = set()
         for a in (self.i['Properties']['Attributes'] or []):
@@ -85,6 +96,31 @@ class Game:
         return obj
 
     @property
+    def interactiveDescriptions(self):
+        if self.preload_state is None:
+            return []
+        obj = dict(self.preload_state)
+        for k in ('core2', 'products', 'productSummaries' , self.id, 'contentRating', 'interactiveDescriptions'):
+            obj = obj.get(k)
+            if obj is None:
+                return []
+        if obj is None:
+            return []
+        return obj
+
+    @property
+    def compras(self):
+        cmp = set()
+        for x in self.interactiveDescriptions:
+            if re_compras.search(x):
+               cmp.add(x)
+        return tuple(sorted(cmp))
+
+    @property
+    def tragaperras(self):
+        return len(self.compras)>0 and 'TopFree' in self.collections
+
+    @property
     def requiresGame(self):
         return 'DlcRequiresGame' in self.legalNotices
 
@@ -92,6 +128,10 @@ class Game:
     def notSoldSeparately(self):
         return 'NotSoldSeparately' in self.actions
     
+    @property
+    def onlyGamepass(self):
+        return self.gamepass and self.notSoldSeparately
+
     @property
     def langs(self):
         def find_lang(lng, arr):
@@ -125,6 +165,12 @@ class Game:
     @property
     def tags(self):
         tags = []
+        if self.onlyGamepass:
+            tags.append("SoloGamePass")
+        if self.tragaperras:
+            tags.append("Tragaperras")
+        if self.compras:
+            tags.append("Compras")
         for x in self.categories:
             if x in ('Other', ):
                 continue
