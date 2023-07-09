@@ -32,7 +32,7 @@ fieldset {
   margin-bottom: 16px;
 }
 
-input[type=number] {
+input[type=number], select[data-type=number] option {
   width: 5em;
   text-align: right;
 }

@@ -123,7 +123,6 @@ function filtrar() {
 }
 document.addEventListener('DOMContentLoaded', () => {
   const opts = document.getElementById("antiguedad").options;
-  //const opts = document.createElement("select").options
   const head = opts.length - 1;
   const done = [];
   const days_to_lab = (ant) => {
@@ -137,13 +136,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (done.includes(lab.txt+lab.num)) {
       o.remove();
       return;
-    }
-    /*
-    if (i>0 && i<head && (lab.num%2)==1) {
+    }/*
+    if (i>0 && i<head && (lab.num>1 && (lab.num%2)==1)) {
       o.remove();
       return;
-    }
-    */
+    }*/
     done.push(lab.txt+lab.num);
     if (lab.txt!='día' || ANTIQUITY>0) {
       o.textContent = lab.num + " " + lab.txt +(lab.num!=1?(lab.s??'s'):"");
