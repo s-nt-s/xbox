@@ -47,15 +47,15 @@ class Game:
         self.reviewsInfo = read_json("rec/rw/"+jfile) or {}
 
     @cached_property
-    def id(self):
+    def id(self) -> str:
         return self.i['ProductId']
 
     @cached_property
-    def price(self):
+    def price(self) -> float:
         return self.i["DisplaySkuAvailabilities"][0]["Availabilities"][0]["OrderManagementData"]["Price"]["ListPrice"]
 
     @property
-    def rate(self):
+    def rate(self) -> float:
         averageRating = self.reviewsInfo.get('averageRating')
         if averageRating is not None:
             return averageRating
@@ -63,41 +63,41 @@ class Game:
         return AverageRating
 
     @property
-    def reviews(self):
+    def reviews(self) -> int:
         return self.reviewsInfo.get('totalRatingsCount')
 
     @cached_property
-    def title(self):
+    def title(self) -> str:
         return self.i["LocalizedProperties"][0]["ProductTitle"]
 
     @cached_property
-    def url(self):
+    def url(self) -> str:
         return "https://www.xbox.com/es-es/games/store/a/"+self.i['ProductId']
 
     @cached_property
-    def js(self):
+    def js(self) -> str:
         return "https://displaycatalog.mp.microsoft.com/v7.0/products?"+MSCV+"&market=ES&languages=es-es&bigIds="+self.i['ProductId']
 
     @cached_property
-    def imgs(self):
-        return ["http:"+x["Uri"] for x in self.i["LocalizedProperties"][0]["Images"]]
+    def imgs(self) -> tuple[str]:
+        return tuple(["http:"+x["Uri"] for x in self.i["LocalizedProperties"][0]["Images"]])
 
     @cached_property
-    def poster(self):
+    def poster(self) -> str:
         for i in self.i["LocalizedProperties"][0]["Images"]:
             if i['ImagePurpose'] == 'Poster':
                 return "http:"+i["Uri"]
         return self.imgs[0]
 
     @cached_property
-    def thumbnail(self):
+    def thumbnail(self) -> str:
         out = "docs/img/"+self.id+".jpg"
         if not isfile(out):
             mk_thumbnail(self.poster, out)
         return out.split("/", 1)[-1]
 
     @cached_property
-    def attributes(self):
+    def attributes(self) -> tuple[str]:
         att = set()
         for a in (self.i['Properties']['Attributes'] or []):
             if 'Xbox' in (a['ApplicablePlatforms'] or []) or a['Name'].startswith("Xb"):
@@ -105,7 +105,7 @@ class Game:
         return tuple(sorted(att))
 
     @property
-    def actions(self):
+    def actions(self) -> tuple[str]:
         act = set()
         for x in self.productActions["productActions"]:
             for a in x['productActions']:
@@ -114,33 +114,33 @@ class Game:
         return act
 
     @property
-    def legalNotices(self):
+    def legalNotices(self) -> tuple[str]:
         if self.preload_state is None:
             return []
         obj = dict(self.preload_state)
         for k in ('core2', 'products', 'productSummaries' , self.id, 'legalNotices'):
             obj = obj.get(k)
             if obj is None:
-                return []
+                return tuple()
         if obj is None:
-            return []
-        return obj
+            return tuple()
+        return tuple(obj)
 
     @property
-    def interactiveDescriptions(self):
+    def interactiveDescriptions(self) -> tuple[str]:
         if self.preload_state is None:
             return []
         obj = dict(self.preload_state)
-        for k in ('core2', 'products', 'productSummaries' , self.id, 'contentRating', 'interactiveDescriptions'):
+        for k in ('core2', 'products', 'productSummaries', self.id, 'contentRating', 'interactiveDescriptions'):
             obj = obj.get(k)
             if obj is None:
-                return []
+                return tuple()
         if obj is None:
-            return []
-        return obj
+            return tuple()
+        return tuple(obj)
 
     @property
-    def compras(self):
+    def compras(self) -> tuple[str]:
         cmp = set()
         for x in self.interactiveDescriptions:
             if re_compras.search(x):
@@ -148,24 +148,24 @@ class Game:
         return tuple(sorted(cmp))
 
     @property
-    def tragaperras(self):
+    def tragaperras(self) -> bool:
         return len(self.compras)>0 and 'TopFree' in self.collections
 
     @property
-    def requiresGame(self):
+    def requiresGame(self) -> bool:
         return 'DlcRequiresGame' in self.legalNotices
 
     @property
-    def notSoldSeparately(self):
+    def notSoldSeparately(self) -> bool:
         return 'NotSoldSeparately' in self.actions
     
     @property
-    def onlyGamepass(self):
+    def onlyGamepass(self) -> bool:
         return self.gamepass and self.notSoldSeparately
 
     @cached_property
-    def langs(self):
-        def find_lang(lng, arr):
+    def langs(self) -> tuple[str]:
+        def find_lang(lng: str, arr: list[str]):
             for l in arr:
                 l = l.lower()
                 if l == lng or l.startswith(lng+'-'):
@@ -182,19 +182,29 @@ class Game:
         return tuple(langs)
 
     @cached_property
-    def categories(self):
-        return (self.i['Properties']['Categories'] or [])
+    def categories(self) -> tuple[str]:
+        return tuple(self.i['Properties']['Categories'] or [])
 
     @property
-    def gamepass(self):
+    def gamepass(self) -> bool:
         return 'GamePass' in self.collections or 'EAPlay' in self.collections
 
     @property
-    def trial(self):
+    def bundle(self) -> bool:
+        return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsBundle']
+    
+    @property
+    def preorder(self) -> bool:
+        if self.onlyGamepass:
+            return False
+        return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsPreOrder']
+    
+    @property
+    def trial(self) -> bool:
         return 'Trial' in self.actions
     
     @cached_property
-    def releaseDate(self):
+    def releaseDate(self) -> Union[date, None]:
         dts = set()
         for k, v in iter_kv(self.i):
             if "Date" in k and isinstance(v, str) and re_date.match(v):
@@ -205,7 +215,7 @@ class Game:
                 return dt
 
     @property
-    def tags(self):
+    def tags(self) -> tuple[str]:
         tags = []
         if self.onlyGamepass:
             tags.append("SoloGamePass")
@@ -213,8 +223,12 @@ class Game:
             tags.append("Tragaperras")
         if self.compras:
             tags.append("Compras")
+        if self.bundle:
+            tags.append("Bundle")
+        if self.preorder:
+            tags.append("PreOrder")
         for x in self.categories:
-            if x in ('Other', ):
+            if x in ('Other', 'Word', 'Tools'):
                 continue
             if x == 'Multi-player Online Battle Arena':
                 x = 'MOBA'
@@ -226,8 +240,6 @@ class Game:
                 x = 'Family'
             if x == 'Puzzle & trivia':
                 x = 'Puzzle'
-            if x in ('Word', 'Tools'):
-                continue
             tags.append(x)
         for x in self.attributes:
             if x.endswith("fps"):
@@ -254,20 +266,21 @@ class Game:
         tags = sorted(set(tags), key=lambda x:tags.index(x))
         return tuple(tags)
 
-    def to_dict(self):
+    def to_dict(self) -> dict:
         dt = {}
         for k, v in inspect.getmembers(self):
-            if k[0]!='_' and isinstance(v, (str, int, float, tuple)):
-                dt[k]=v
+            if k[0] != '_' and isinstance(v, (str, int, float, tuple)):
+                dt[k] = v
         return dt
 
-    def to_js(self):
+    def to_js(self) -> dict:
         ks = ('gamepass', 'id', 'price', 'rate', 'reviews', 'tags', 'trial')
         dt = {}
         for k, v in inspect.getmembers(self):
             if k in ks and isinstance(v, (str, int, float, tuple)):
-                dt[k]=v
+                dt[k] = v
         return dt
+
 
 @dataclass(frozen=True)
 class GameList:

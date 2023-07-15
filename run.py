@@ -33,6 +33,8 @@ def do_filter2(i: Game):
         return False
     if i.notSoldSeparately:
         return False
+    if i.preorder:
+        return False
     #if 'Trial' in i.actions:
     #    return False
     return True
