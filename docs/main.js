@@ -123,16 +123,15 @@ function filtrar() {
   }
   document.getElementById("games").classList.remove("hideIfJS")
 }
+
 document.addEventListener('DOMContentLoaded', () => {
   if (isLocal) {
-    document.querySelectorAll("div.game[id]").forEach(d=>{
-      if (d.id == null || d.id.length == 0) return;
-      const p = d.querySelector("p");
+    document.querySelectorAll("div.game[id]:not([id='']) > p").forEach(p=>{
       p.appendChild(document.createElement("br"));
       ["ac", "gm", "ps", "rw"].forEach((path, i) => {
         if (i>0) p.appendChild(document.createTextNode(" - "));
         p.appendChild(mkTag(`
-          <a href="../rec/${path}/${d.id}.json">${path}</a>
+          <a href="../rec/${path}/${p.parentNode.id}.json">${path}</a>
         `))
       })
     })
