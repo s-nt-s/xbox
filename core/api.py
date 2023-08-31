@@ -5,7 +5,6 @@ from munch import Munch
 from simplejson.errors import JSONDecodeError
 
 from .decorators import Cache
-from .filemanager import FM
 from .web import get_session, Driver
 import json
 from seleniumwire.webdriver.request import Request as WireRequest
@@ -189,7 +188,7 @@ class Api:
         if len(rt) == 1:
             return rt[0]
         return None
-    
+
     @Cache("rec/ps/{0}.json", maxOld=10)
     def get_preload_state(self, id, **kvargs):
         url = "https://www.xbox.com/es-es/games/store/a/"+id
@@ -214,7 +213,7 @@ class Api:
                 "totalRatingsCount": 0
             }
         return js['ratingsSummary']
-    
+
     def get_items(self, *ids) -> list[Game]:
         if len(ids)==0:
             ids = [i['Id'] for i in self.get_all()]
