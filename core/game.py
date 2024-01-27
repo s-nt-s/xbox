@@ -7,6 +7,7 @@ from math import ceil
 from dataclasses import dataclass
 from datetime import date
 import json
+from math import floor
 from .thumbnail import mk_thumbnail
 
 MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
@@ -53,6 +54,20 @@ class Game:
     @cached_property
     def price(self) -> float:
         return self.i["DisplaySkuAvailabilities"][0]["Availabilities"][0]["OrderManagementData"]["Price"]["ListPrice"]
+
+    @cached_property
+    def discount(self) -> float:
+        if self.preload_state is None:
+            return 0
+        obj = dict(self.preload_state)
+        for k in ('core2', 'products', 'productSummaries' , self.id, 'specificPrices', 'purchaseable'):
+            obj = obj.get(k)
+            if obj is None:
+                return 0
+        if not isinstance(obj, list) or len(obj) == 0 or not isinstance(obj[0], dict):
+            return 0
+        d = obj[0].get('discountPercentage') or 0
+        return d
 
     @property
     def rate(self) -> float:
@@ -158,7 +173,7 @@ class Game:
     @property
     def notSoldSeparately(self) -> bool:
         return 'NotSoldSeparately' in self.actions
-    
+
     @property
     def onlyGamepass(self) -> bool:
         return self.gamepass and self.notSoldSeparately
@@ -192,17 +207,17 @@ class Game:
     @property
     def bundle(self) -> bool:
         return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsBundle']
-    
+
     @property
     def preorder(self) -> bool:
         if self.onlyGamepass:
             return False
         return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsPreOrder']
-    
+
     @property
     def trial(self) -> bool:
         return 'Trial' in self.actions
-    
+
     @cached_property
     def releaseDate(self) -> Union[date, None]:
         dts = set()
@@ -263,6 +278,8 @@ class Game:
             tags.append("EAPlay")
         # if self.gamepass:
         #    tags.append("GamePass")
+        if self.discount > 0:
+            tags.append("Oferta")
         tags = sorted(set(tags), key=lambda x:tags.index(x))
         return tuple(tags)
 
@@ -274,7 +291,7 @@ class Game:
         return dt
 
     def to_js(self) -> dict:
-        ks = ('gamepass', 'id', 'price', 'rate', 'reviews', 'tags', 'trial')
+        ks = ('gamepass', 'id', 'price', 'rate', 'reviews', 'tags', 'trial', 'discount')
         dt = {}
         for k, v in inspect.getmembers(self):
             if k in ks and isinstance(v, (str, int, float, tuple)):
@@ -302,6 +319,7 @@ class GameList:
                 rate=i.rate,
                 reviews=i.reviews,
                 trial=i.trial,
+                discount=i.discount,
                 tags=i.tags
             )
         return info
@@ -325,6 +343,12 @@ class GameList:
         return tuple(arr)
 
     @cached_property
+    def discounts(self):
+        arr = set(floor(x['discount']) for x in self.info.values())
+        arr = tuple(sorted(arr))
+        return tuple(arr)
+
+    @cached_property
     def tags(self):
         tags = set()
         for i in self.items:
@@ -337,5 +361,6 @@ class GameList:
         return dict(
             precio=ceil(max([i.price for i in self.items])),
             reviews=ceil(max([i.reviews for i in self.items])),
-            rate=ceil(max([i.rate for i in self.items]))
+            rate=ceil(max([i.rate for i in self.items])),
+            discount=ceil(max([i.discount for i in self.items]))
         )

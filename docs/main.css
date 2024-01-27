@@ -46,3 +46,6 @@ code {
   white-space: nowrap;
 }
 
+code.ofertaTrue {
+  color: green;
+}

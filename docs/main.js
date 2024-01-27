@@ -76,6 +76,11 @@ function filtrar() {
     if (aux!=null && aux>=0) return aux;
     return null;
   })();
+  const discount = (()=>{
+    let aux = getVal("discount");
+    if (aux!=null && aux>=0) return aux;
+    return null;
+  })();
   const { ok, ko } = filter("div.game", (i) => {
     const j = GAME[i.id];
     if (j==null) {
@@ -86,6 +91,7 @@ function filtrar() {
     if (show=="F" && !j.tags.includes("Free")) return false;
     if (show=="T" && !j.trial) return false;
     if (antiguedad!=null && j.antiquity!=null && j.antiquity>antiguedad) return false;
+    if (discount!=null && j.discount!=null && j.discount<discount) return false;
     
     const fl = (() => {
       if (chhs.length == 0) {

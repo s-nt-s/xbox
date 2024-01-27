@@ -1,26 +1,13 @@
-const ANTIQUITY = ((new Date().setHours(0, 0, 0, 0))-(new Date(2023, 9, 8))) / (1000 * 60 * 60 * 24);
+const ANTIQUITY = ((new Date().setHours(0, 0, 0, 0))-(new Date(2024, 0, 28))) / (1000 * 60 * 60 * 24);
 const GAME = {
-  "9MSMGTKDM41V": {
-    "antiquity": 368,
-    "gamepass": false,
-    "price": 119.99,
-    "rate": 3.4,
-    "reviews": 128,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9MSN6MXZSVJW": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -29,41 +16,30 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MSPCTN183CS": {
-    "antiquity": 99,
+  "9MSQ62J678QF": {
+    "antiquity": 482,
     "gamepass": false,
-    "price": 69.99,
-    "rate": 5.0,
-    "reviews": 0,
+    "price": 23.99,
+    "rate": 3.3,
+    "reviews": 18,
     "trial": false,
+    "discount": 40.010006,
     "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9MSR01H6L8T3": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 76.49,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
+      "Racing & flying",
+      "Simulation",
+      "Sports",
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9MSR27KF1Q22": {
-    "antiquity": 1244,
+    "antiquity": 1356,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
-    "reviews": 21,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -73,12 +49,13 @@ const GAME = {
     ]
   },
   "9MSRMB4L8LRJ": {
-    "antiquity": 1248,
+    "antiquity": 1360,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.5,
-    "reviews": 11,
+    "rate": 4.3,
+    "reviews": 13,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -87,50 +64,56 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MSVVM5NS9L6": {
-    "antiquity": 193,
+  "9MST82CGSV90": {
+    "antiquity": 914,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 5.0,
-    "reviews": 7,
-    "trial": true,
+    "price": 14.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9MSVCH5RJLCS": {
+    "antiquity": 118,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9MSWJM4MXVDK": {
-    "antiquity": 76,
+    "antiquity": 184,
     "gamepass": false,
     "price": 10.99,
-    "rate": 4.9,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9MSWJMB0L8B9": {
-    "antiquity": 941,
-    "gamepass": false,
-    "price": 13.99,
-    "rate": 1.8,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9MSX6WD4WSZ0": {
-    "antiquity": 38,
+    "antiquity": 150,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -138,62 +121,103 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MSXZQ76C90G": {
-    "antiquity": 961,
+  "9MSZQDN56D3G": {
+    "antiquity": 473,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 2.0,
+    "price": 29.99,
+    "rate": 4.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9MT0MPP8NFCQ": {
+    "antiquity": 31,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9MT0400XGKS5": {
-    "antiquity": 256,
+  "9MT1XFQC1NNW": {
+    "antiquity": 534,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.8,
-    "reviews": 696,
+    "price": 19.99,
+    "rate": 3.4,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9MT2GM0C5TB5": {
-    "antiquity": 122,
+  "9MT2BNVP1BDW": {
+    "antiquity": 67,
     "gamepass": false,
-    "price": 6.99,
-    "rate": 4.0,
+    "price": 12.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Shooter",
+      "Racing & flying",
+      "SinglePlayer"
+    ]
+  },
+  "9MT2KF9FKZM5": {
+    "antiquity": 954,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.8,
+    "reviews": 4,
+    "trial": false,
+    "discount": 50.02501,
+    "tags": [
+      "Cards",
+      "Strategy",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9MT4G07V989L": {
+    "antiquity": 44,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 2.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "Puzzle",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9MT2J5Z2PHSQ": {
-    "antiquity": 230,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.7,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9MT4T5ZL8PVB": {
-    "antiquity": 395,
+    "antiquity": 507,
     "gamepass": false,
     "price": 59.99,
-    "rate": 4.4,
-    "reviews": 21,
+    "rate": 4.3,
+    "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -201,24 +225,26 @@ const GAME = {
     ]
   },
   "9MT5B3J6N9QW": {
-    "antiquity": 18,
+    "antiquity": 130,
     "gamepass": false,
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
   "9MT5NJ5W7B8Z": {
-    "antiquity": 409,
+    "antiquity": 521,
     "gamepass": false,
     "price": 74.99,
     "rate": 4.6,
-    "reviews": 114,
+    "reviews": 130,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -226,13 +252,30 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9MT5XTXZ5LW0": {
+    "antiquity": 58,
+    "gamepass": false,
+    "price": 10.49,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Puzzle",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9MT6TG9CXR2H": {
-    "antiquity": 530,
+    "antiquity": 642,
     "gamepass": true,
     "price": 19.99,
-    "rate": 3.3,
-    "reviews": 31,
+    "rate": 3.4,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -241,12 +284,13 @@ const GAME = {
     ]
   },
   "9MT8HTJC4GSB": {
-    "antiquity": 836,
+    "antiquity": 948,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
     "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Strategy",
@@ -254,12 +298,13 @@ const GAME = {
     ]
   },
   "9MT8PTGVHX2P": {
-    "antiquity": 1424,
+    "antiquity": 1536,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.4,
-    "reviews": 624,
+    "reviews": 632,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -269,53 +314,43 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9MT9DNRW5FKR": {
-    "antiquity": 198,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9MTBBGB6WG1B": {
-    "antiquity": 311,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 4.7,
-    "reviews": 39,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9MTCRVZQN3GV": {
-    "antiquity": 551,
-    "gamepass": true,
+    "antiquity": 663,
+    "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
-    "reviews": 144,
+    "reviews": 148,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
-      "SinglePlayer",
-      "GamePass"
+      "SinglePlayer"
+    ]
+  },
+  "9MTFBZ0RB6FW": {
+    "antiquity": 37,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 2.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
     ]
   },
   "9MTGKNLQ7XDD": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.6,
-    "reviews": 57,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -323,13 +358,40 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MTK0S8CQ0QV": {
-    "antiquity": 158,
+  "9MTHXM7W960D": {
+    "antiquity": 1026,
     "gamepass": false,
+    "price": 9.99,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9MTJC6FZ0047": {
+    "antiquity": 836,
+    "gamepass": false,
+    "price": 12.49,
+    "rate": 3.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.020008,
+    "tags": [
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9MTK0S8CQ0QV": {
+    "antiquity": 270,
+    "gamepass": true,
     "price": 79.99,
-    "rate": 3.1,
-    "reviews": 23,
-    "trial": true,
+    "rate": 3.3,
+    "reviews": 31,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Family",
@@ -338,16 +400,18 @@ const GAME = {
       "LocalMultiPlayer",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "GamePass"
     ]
   },
   "9MTLHGS39M13": {
-    "antiquity": 73,
+    "antiquity": 165,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -355,37 +419,42 @@ const GAME = {
     ]
   },
   "9MTLKM2DJMZ2": {
-    "antiquity": 847,
+    "antiquity": 959,
     "gamepass": false,
     "price": 99.99,
     "rate": 3.5,
-    "reviews": 1621,
+    "reviews": 1775,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "9MTMSS84NW5R": {
-    "antiquity": 178,
+  "9MTLZ7HMNLJB": {
+    "antiquity": 65,
     "gamepass": false,
-    "price": 24.99,
+    "price": 4.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Family",
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9MTMT4DTW7TF": {
-    "antiquity": 44,
+    "antiquity": 151,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -393,39 +462,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MTNGFDHM6DF": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.1,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9MTNH4X359D7": {
-    "antiquity": 191,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9MTP8ZKK293G": {
-    "antiquity": 101,
+    "antiquity": 213,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.5,
-    "reviews": 11,
+    "rate": 4.2,
+    "reviews": 13,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -437,103 +481,145 @@ const GAME = {
     ]
   },
   "9MTPNLC84N6N": {
-    "antiquity": 312,
+    "antiquity": 424,
     "gamepass": false,
     "price": 14.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "rate": 4.3,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9MTS16VGTT7J": {
-    "antiquity": 115,
+  "9MTQ4L3SLHTK": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 2.2,
-    "reviews": 4,
-    "trial": true,
-    "tags": [
-      "Compras",
-      "Simulation",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9MTT4HQQVRZR": {
-    "antiquity": 535,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 3.2,
-    "reviews": 373,
+    "price": 39.99,
+    "rate": 4.0,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
       "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
-  "9MTTM8TTQ7RN": {
-    "antiquity": 206,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9MTXPTRRNLN8": {
-    "antiquity": 230,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 4.2,
-    "reviews": 356,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9MTZ4L5PFJF2": {
-    "antiquity": 100,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action"
-    ]
-  },
-  "9MV0DLBNGBTL": {
-    "antiquity": 465,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.3,
-    "reviews": 6452,
-    "trial": false,
-    "tags": [
-      "Bundle",
+      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
+  "9MTRHBX16QGD": {
+    "antiquity": 18,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9MTRTFXMNB7K": {
+    "antiquity": 62,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 2.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9MTTMQ6WSDP8": {
+    "antiquity": 822,
+    "gamepass": false,
+    "price": 8.74,
+    "rate": 4.6,
+    "reviews": 12,
+    "trial": false,
+    "discount": 75.02143,
+    "tags": [
+      "Compras",
+      "Simulation",
+      "Sports",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform",
+      "Oferta"
+    ]
+  },
+  "9MV0ZC8R18C4": {
+    "antiquity": 60,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
+  "9MV1792N0QTN": {
+    "antiquity": 72,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 3.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9MV1S60RTR0R": {
+    "antiquity": 962,
+    "gamepass": false,
+    "price": 10.04,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 33.022015,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9MV27QPRQRRF": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
   "9MV2S7Q5PHSW": {
-    "antiquity": 1179,
+    "antiquity": 1291,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 43,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -543,12 +629,13 @@ const GAME = {
     ]
   },
   "9MV2TRX701DG": {
-    "antiquity": 30,
+    "antiquity": 135,
     "gamepass": false,
     "price": 2.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Family",
@@ -556,129 +643,154 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9MV78R2M2FG7": {
-    "antiquity": 171,
+  "9MV2X560K5DH": {
+    "antiquity": 68,
     "gamepass": false,
-    "price": 12.49,
-    "rate": 4.3,
-    "reviews": 0,
+    "price": 24.99,
+    "rate": 3.6,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "9MV537XVLVXR": {
+    "antiquity": 1445,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.8,
+    "reviews": 42,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Platformer",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9MV7K6JQQWT9": {
+    "antiquity": 1340,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9MV8ZPXM6B84": {
-    "antiquity": 172,
+  "9MVBGNCVD7QZ": {
+    "antiquity": 61,
     "gamepass": false,
-    "price": 19.49,
-    "rate": 4.0,
-    "reviews": 2,
+    "price": 19.99,
+    "rate": 3.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "SinglePlayer"
+      "Compras",
+      "Bundle"
     ]
   },
   "9MVD487XSVGX": {
-    "antiquity": 118,
+    "antiquity": 230,
     "gamepass": false,
     "price": 0.99,
-    "rate": 2.2,
-    "reviews": 4,
+    "rate": 2.0,
+    "reviews": 5,
     "trial": false,
+    "discount": 75.18797,
     "tags": [
-      "Fighting"
-    ]
-  },
-  "9MVFL3FNZVDT": {
-    "antiquity": 18,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9MVFPQKMRMX5": {
-    "antiquity": 170,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9MVJ3SNR3T19": {
-    "antiquity": 989,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.0,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Action",
       "Fighting",
-      "Racing & flying",
-      "Shooter",
-      "SinglePlayer"
+      "Oferta"
     ]
   },
-  "9MVJVKCMDZBK": {
-    "antiquity": 130,
+  "9MVDKVMBVZ7D": {
+    "antiquity": 101,
     "gamepass": false,
-    "price": 17.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 24.99,
+    "rate": 4.2,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9MVK022J13BX": {
-    "antiquity": 191,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.3,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
+      "Family",
       "Action",
       "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9MVL16RJDNFB": {
-    "antiquity": 922,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.8,
-    "reviews": 116,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
+      "SinglePlayer",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9MVLDWXSD4GW": {
-    "antiquity": 60,
+  "9MVDW9JCKL8Z": {
+    "antiquity": 122,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 4.3,
+    "price": 24.89,
+    "rate": 5.0,
+    "reviews": 6,
+    "trial": false,
+    "discount": 17.00567,
+    "tags": [
+      "Action",
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9MVFDJV717DK": {
+    "antiquity": 117,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9MVFL3FNZVDT": {
+    "antiquity": 122,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9MVL42NJFVZ2": {
+    "antiquity": 943,
+    "gamepass": true,
+    "price": 24.99,
+    "rate": 3.6,
+    "reviews": 27,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "GamePass"
+    ]
+  },
+  "9MVLDWXSD4GW": {
+    "antiquity": 172,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "Role playing",
@@ -687,24 +799,39 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9MVMKRVTX1G5": {
+    "antiquity": 921,
+    "gamepass": false,
+    "price": 44.99,
+    "rate": 4.4,
+    "reviews": 32,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9MVMQ2BRHBF7": {
-    "antiquity": 59,
+    "antiquity": 171,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
-    "reviews": 836,
+    "reviews": 853,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "9MVN4ND41DD3": {
-    "antiquity": 1517,
+    "antiquity": 1629,
     "gamepass": true,
     "price": 12.49,
     "rate": 4.3,
-    "reviews": 33,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Role playing",
@@ -713,38 +840,44 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9MVNJ6HXNN5B": {
-    "antiquity": 207,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.5,
-    "reviews": 0,
+  "9MVRDC1BW8TQ": {
+    "antiquity": 58,
+    "gamepass": true,
+    "price": 29.99,
+    "rate": 4.0,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "LocalMultiPlayer",
-      "SinglePlayer"
+      "Simulation",
+      "Strategy",
+      "SinglePlayer",
+      "GamePass"
     ]
   },
-  "9MVRVJVF97JD": {
-    "antiquity": 104,
+  "9MVRWJ731537": {
+    "antiquity": 58,
     "gamepass": false,
     "price": 9.99,
-    "rate": 3.9,
+    "rate": 1.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Family",
       "Action",
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9MVTCTDTHH23": {
-    "antiquity": 1392,
+    "antiquity": 1504,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
     "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -753,73 +886,97 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9MVTGWDJD7TP": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.6,
+    "reviews": 62,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
+  "9MVTM9V0GWVP": {
+    "antiquity": 716,
+    "gamepass": false,
+    "price": 21.99,
+    "rate": 4.2,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9MVTXDXRMHFC": {
+    "antiquity": 879,
+    "gamepass": false,
+    "price": 18.99,
+    "rate": 4.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
   "9MVTZLG0GSTX": {
-    "antiquity": 38,
+    "antiquity": 150,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9MVV3PV3KQH5": {
-    "antiquity": 109,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9MVVN5H57P39": {
-    "antiquity": 152,
+    "antiquity": 264,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
     "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9MVWKRPBJJSX": {
-    "antiquity": 317,
+    "antiquity": 429,
     "gamepass": false,
     "price": 59.99,
-    "rate": 4.4,
-    "reviews": 43,
+    "rate": 4.3,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9MVWW4NJ8TLS": {
-    "antiquity": 472,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.4,
-    "reviews": 12,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9MVXMVT8ZKWC": {
-    "antiquity": 2209,
+    "antiquity": 2321,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 20882,
+    "reviews": 20910,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -831,115 +988,96 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9MVXZMRQXHSF": {
-    "antiquity": 397,
+  "9MVZLQNXJQFR": {
+    "antiquity": 45,
     "gamepass": false,
-    "price": 44.99,
-    "rate": 2.8,
-    "reviews": 19,
+    "price": 66.99,
+    "rate": 4.4,
+    "reviews": 45,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9MW0HRJNHLVM": {
-    "antiquity": 122,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.2,
-    "reviews": 4380,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
+      "Bundle"
     ]
   },
   "9MW10GX140N1": {
-    "antiquity": 243,
+    "antiquity": 355,
     "gamepass": false,
     "price": 84.99,
-    "rate": 4.6,
-    "reviews": 115,
+    "rate": 4.7,
+    "reviews": 135,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9MW2MR3GV8DD": {
-    "antiquity": 177,
-    "gamepass": false,
-    "price": 18.99,
-    "rate": 4.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Strategy",
       "SinglePlayer"
     ]
   },
   "9MW2RGQ5G5QW": {
-    "antiquity": 1286,
+    "antiquity": 1398,
     "gamepass": false,
     "price": 12.99,
-    "rate": 4.0,
-    "reviews": 5,
+    "rate": 4.2,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9MW38PVMBDC3": {
-    "antiquity": 86,
+  "9MW329TMP60T": {
+    "antiquity": 52,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.8,
+    "price": 24.99,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9MW38PVMBDC3": {
+    "antiquity": 198,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9MW3FNSGB045": {
-    "antiquity": 115,
+  "9MW410G8BJ1N": {
+    "antiquity": 103,
     "gamepass": false,
-    "price": 13.99,
-    "rate": 4.0,
-    "reviews": 0,
+    "price": 29.99,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9MW4187STRDR": {
-    "antiquity": 81,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
       "Strategy",
-      "SinglePlayer"
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9MW581HCJPM6": {
-    "antiquity": 395,
+    "antiquity": 507,
     "gamepass": false,
     "price": 59.99,
-    "rate": 4.4,
-    "reviews": 17,
+    "rate": 4.0,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -947,28 +1085,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MW6WMSGZDM6": {
+  "9MW7D0DJ065Z": {
     "antiquity": 166,
     "gamepass": false,
-    "price": 5.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Educational",
-      "Family",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9MW7D0DJ065Z": {
-    "antiquity": 58,
-    "gamepass": false,
     "price": 49.99,
-    "rate": 5.0,
+    "rate": 4.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -977,26 +1101,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MW7FV1V3RP7": {
-    "antiquity": 556,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 5.0,
-    "reviews": 6,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9MW8PSHZ7LJ0": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 19.99,
     "rate": 1.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -1005,12 +1117,13 @@ const GAME = {
     ]
   },
   "9MW9469V91LM": {
-    "antiquity": 1839,
+    "antiquity": 1951,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.7,
-    "reviews": 325,
+    "reviews": 365,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -1018,102 +1131,104 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9MW9K0XCVL3B": {
-    "antiquity": 158,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Family",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9MW9WP7G8CJN": {
-    "antiquity": 25,
+    "antiquity": 137,
     "gamepass": false,
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 3.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9MWB7877RD9G": {
-    "antiquity": 192,
+  "9MWDJ429R5V0": {
+    "antiquity": 779,
     "gamepass": false,
-    "price": 15.99,
-    "rate": 3.3,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
-  "9MWF2JX37423": {
-    "antiquity": 131,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.1,
+    "price": 6.19,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 60.038734,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Role playing",
+      "Simulation",
+      "Strategy",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9MWDKL3SD6D9": {
+    "antiquity": 242,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Racing & flying",
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform"
+    ]
+  },
+  "9MWG18BH5ML7": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9MWG1NJ92Q94": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
-    "price": 44.99,
-    "rate": 4.3,
-    "reviews": 13,
+    "price": 29.99,
+    "rate": 3.9,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9MWGHSQZ6HL6": {
-    "antiquity": 1108,
+  "9MWGGZ3HLZJH": {
+    "antiquity": 67,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.1,
-    "reviews": 8,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9MWGJQC7WLDM": {
-    "antiquity": 102,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 4.1,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Shooter",
+      "Puzzle",
+      "Family",
       "SinglePlayer"
     ]
   },
   "9MWHMJ0SRBXV": {
-    "antiquity": 774,
+    "antiquity": 886,
     "gamepass": true,
     "price": 59.99,
-    "rate": 3.4,
-    "reviews": 80,
+    "rate": 3.5,
+    "reviews": 94,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -1122,37 +1237,114 @@ const GAME = {
     ]
   },
   "9MWJP514RHC1": {
-    "antiquity": 80,
+    "antiquity": 179,
     "gamepass": false,
     "price": 4.99,
-    "rate": 3.2,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9MWN6NJKLFB7": {
-    "antiquity": 120,
+  "9MWL1MMCK8X9": {
+    "antiquity": 86,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.7,
+    "price": 9.99,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Strategy",
+      "Classics",
+      "Puzzle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9MWN6NJKLFB7": {
+    "antiquity": 232,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9MWNC2J8LHZH": {
+    "antiquity": 1039,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Action",
+      "Family",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9MWP4LX4KBW7": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.1,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "SinglePlayer"
+    ]
+  },
+  "9MWPNHKKPPRF": {
+    "antiquity": 877,
+    "gamepass": false,
+    "price": 1.49,
+    "rate": 2.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 70.14028,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9MWPSHZ51RMT": {
+    "antiquity": 118,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.4,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9MWPVN4JKZ1T": {
-    "antiquity": 864,
+    "antiquity": 976,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.3,
-    "reviews": 18,
+    "rate": 4.4,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -1160,105 +1352,112 @@ const GAME = {
     ]
   },
   "9MWQ4NQ5WX37": {
-    "antiquity": 849,
+    "antiquity": 961,
     "gamepass": false,
     "price": 14.99,
-    "rate": 5.0,
-    "reviews": 19,
+    "rate": 4.8,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "SinglePlayer"
+    ]
+  },
+  "9MWQKQRD2H1V": {
+    "antiquity": 37,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
   "9MWST5SWRMJP": {
-    "antiquity": 34,
+    "antiquity": 135,
     "gamepass": false,
     "price": 7.99,
-    "rate": 0.0,
+    "rate": 2.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9MWTZFGTLRHZ": {
-    "antiquity": 626,
+  "9MWWZ61HJXGW": {
+    "antiquity": 422,
     "gamepass": false,
-    "price": 74.99,
-    "rate": 4.1,
-    "reviews": 15,
+    "price": 7.79,
+    "rate": 4.3,
+    "reviews": 3,
     "trial": false,
+    "discount": 40.03079,
     "tags": [
-      "Compras",
-      "Fighting",
       "Simulation",
       "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9MWWQZQLX2S5": {
-    "antiquity": 184,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "Simulation",
-      "SinglePlayer"
+      "Oferta"
     ]
   },
   "9MWZ27L26QQS": {
-    "antiquity": 129,
+    "antiquity": 240,
     "gamepass": false,
-    "price": 114.99,
-    "rate": 4.6,
-    "reviews": 17,
+    "price": 86.24,
+    "rate": 4.2,
+    "reviews": 20,
     "trial": false,
+    "discount": 25.002176,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "CrossPlatform",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
-  "9MWZ8JV5TSQG": {
-    "antiquity": 761,
+  "9MWZ4ZT8WGZB": {
+    "antiquity": 801,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.3,
-    "reviews": 47,
+    "rate": 3.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Action",
+      "Platformer",
+      "Shooter",
       "SinglePlayer"
     ]
   },
-  "9MX0MPD1204H": {
-    "antiquity": 1059,
+  "9MWZ8JV5TSQG": {
+    "antiquity": 873,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.1,
-    "reviews": 0,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Role playing",
       "SinglePlayer"
     ]
   },
   "9MX1B2L6ZM36": {
-    "antiquity": 65,
+    "antiquity": 177,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -1266,37 +1465,59 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9MX2XQNTJNRW": {
-    "antiquity": 268,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 4.0,
-    "reviews": 316,
+  "9MX2LLS736B3": {
+    "antiquity": 80,
+    "gamepass": true,
+    "price": 49.99,
+    "rate": 4.6,
+    "reviews": 108,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "Simulation",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9MX2VPPZ9TQ8": {
+    "antiquity": 53,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 4.3,
+    "reviews": 19,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
   "9MX369HPGVGH": {
-    "antiquity": 60,
+    "antiquity": 172,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.6,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
   "9MX3ZLK7N799": {
-    "antiquity": 1291,
+    "antiquity": 1403,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
     "reviews": 13,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -1307,101 +1528,194 @@ const GAME = {
     ]
   },
   "9MX4DXKMSCZW": {
-    "antiquity": 1566,
+    "antiquity": 1678,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9MX5C9QM9F4B": {
-    "antiquity": 108,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 2.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Puzzle",
-      "Family",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
   "9MX7DMHK13SC": {
-    "antiquity": 200,
+    "antiquity": 312,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.7,
-    "reviews": 22,
+    "rate": 4.6,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
+  "9MX86NWK00G0": {
+    "antiquity": 774,
+    "gamepass": false,
+    "price": 22.99,
+    "rate": 4.2,
+    "reviews": 52,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9MX8GK8BH76W": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 2.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Family",
+      "Puzzle",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
   "9MX9K92M5CSN": {
-    "antiquity": 957,
+    "antiquity": 1069,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
     "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9MXC338HGXFH": {
-    "antiquity": 1117,
+    "antiquity": 1229,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9MXFM3J19R5H": {
+  "9MXDG1M57MTM": {
+    "antiquity": 51,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9MXF0F1L4P8H": {
     "antiquity": 52,
     "gamepass": false,
+    "price": 49.99,
+    "rate": 4.5,
+    "reviews": 120,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9MXFM3J19R5H": {
+    "antiquity": 164,
+    "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "CrossPlatform"
     ]
   },
   "9MXGJ8JZL0LK": {
-    "antiquity": 752,
+    "antiquity": 864,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.8,
-    "reviews": 59,
+    "reviews": 60,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9MXH08PCQ656": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Fighting",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9MXH3WWBCW2D": {
+    "antiquity": 81,
+    "gamepass": false,
+    "price": 6.49,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Classics",
+      "Fighting",
+      "SinglePlayer"
+    ]
+  },
+  "9MXJSVP2NW44": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9MXK2RSQJQND": {
-    "antiquity": 138,
+    "antiquity": 250,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 264,
+    "reviews": 290,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -1410,62 +1724,59 @@ const GAME = {
     ]
   },
   "9MXLF0MCCKZD": {
-    "antiquity": 192,
+    "antiquity": 304,
     "gamepass": false,
-    "price": 24.99,
+    "price": 19.99,
     "rate": 3.5,
-    "reviews": 31,
+    "reviews": 32,
     "trial": false,
+    "discount": 60.01201,
     "tags": [
       "Compras",
       "Bundle",
       "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9MXMJFNZMVWD": {
-    "antiquity": 716,
+    "antiquity": 828,
     "gamepass": false,
     "price": 59.99,
     "rate": 2.9,
-    "reviews": 198,
+    "reviews": 200,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9MXN312HMKK5": {
-    "antiquity": 640,
+  "9MXMXF6XTR4R": {
+    "antiquity": 710,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 5.0,
-    "reviews": 3,
+    "price": 11.24,
+    "rate": 4.6,
+    "reviews": 12,
     "trial": false,
+    "discount": 75.01667,
     "tags": [
+      "Compras",
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9MXN7QK64DQV": {
-    "antiquity": 383,
-    "gamepass": false,
-    "price": 2.09,
-    "rate": 5.0,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform",
+      "Oferta"
     ]
   },
   "9MXND4PQLK3W": {
-    "antiquity": 1298,
+    "antiquity": 1410,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.5,
-    "reviews": 26,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -1473,131 +1784,139 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9MXNGTGKPP1W": {
-    "antiquity": 915,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.0,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Strategy",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9MXPZ33Z9PWH": {
-    "antiquity": 815,
+    "antiquity": 927,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
     "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9MXQJP2QC55J": {
+    "antiquity": 19,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
       "SinglePlayer"
     ]
   },
   "9MXQL59MZF5W": {
-    "antiquity": 73,
+    "antiquity": 170,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.5,
+    "price": 3.99,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 60.06006,
     "tags": [
       "Simulation",
       "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9MXRRMJHNK7L": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 64.99,
+    "rate": 3.0,
+    "reviews": 154,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9MXRVLHV79N5": {
+    "antiquity": 1182,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 75.01876,
+    "tags": [
+      "Simulation",
+      "Sports",
+      "Strategy",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9MXTLP1FP13B": {
+    "antiquity": 37,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 4.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9MXTX27L72HJ": {
-    "antiquity": 82,
+  "9MXV2S9XV8ZC": {
+    "antiquity": 1328,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 4,
+    "price": 9.99,
+    "rate": 4.2,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9MXW6JMGNCXW": {
-    "antiquity": 744,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.5,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Classics",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
   "9MXW6WSDSSCV": {
-    "antiquity": 5119,
+    "antiquity": 5231,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
     "reviews": 3,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
       "Action",
-      "Role playing"
+      "Role playing",
+      "Oferta"
     ]
   },
-  "9MXWQWGKM2LM": {
-    "antiquity": 131,
-    "gamepass": true,
-    "price": 14.99,
-    "rate": 2.2,
-    "reviews": 36,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9MXXZ8LZVP4V": {
-    "antiquity": 134,
+  "9MXZPC0NL8DX": {
+    "antiquity": 39,
     "gamepass": false,
-    "price": 64.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 49.99,
+    "rate": 4.0,
+    "reviews": 318,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9MXZ797GPJW7": {
-    "antiquity": 338,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "SinglePlayer"
+      "Bundle"
     ]
   },
   "9MZ01WJM4MK1": {
-    "antiquity": 480,
+    "antiquity": 592,
     "gamepass": true,
     "price": 49.99,
-    "rate": 3.6,
-    "reviews": 5,
+    "rate": 3.2,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -1607,12 +1926,13 @@ const GAME = {
     ]
   },
   "9MZ08RDQ4DM1": {
-    "antiquity": 46,
+    "antiquity": 158,
     "gamepass": true,
     "price": 17.99,
-    "rate": 3.2,
-    "reviews": 50,
+    "rate": 3.3,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -1625,24 +1945,40 @@ const GAME = {
     ]
   },
   "9MZ0SR207MG8": {
-    "antiquity": 847,
+    "antiquity": 959,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.9,
-    "reviews": 104,
+    "reviews": 106,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
+  "9MZ0T8P6MD22": {
+    "antiquity": 60,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "9MZ11KT5KLP6": {
-    "antiquity": 1063,
+    "antiquity": 1175,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.8,
-    "reviews": 14,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -1650,53 +1986,57 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9MZ28GZVFMRC": {
-    "antiquity": 830,
+  "9MZ4V4RG0W81": {
+    "antiquity": 857,
     "gamepass": false,
-    "price": 2.44,
-    "rate": 3.3,
-    "reviews": 3,
+    "price": 24.99,
+    "rate": 2.9,
+    "reviews": 112,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Strategy",
+      "Music",
       "SinglePlayer"
     ]
   },
-  "9MZ313B6R2C0": {
-    "antiquity": 726,
+  "9MZ5MBNTCB1D": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 3.1,
-    "reviews": 394,
+    "price": 4.99,
+    "rate": 4.4,
+    "reviews": 550,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
       "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9MZ44QV9XM2J": {
-    "antiquity": 130,
+  "9MZ5SXHQFM0K": {
+    "antiquity": 46,
     "gamepass": false,
-    "price": 16.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 73.99,
+    "rate": 3.1,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer"
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9MZ607S3NJRB": {
-    "antiquity": 416,
+    "antiquity": 528,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 28,
+    "reviews": 45,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -1706,92 +2046,87 @@ const GAME = {
       "Free"
     ]
   },
-  "9MZ68NKXF91D": {
-    "antiquity": 247,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 3.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9MZ8RZSD0NFQ": {
-    "antiquity": 620,
-    "gamepass": true,
-    "price": 49.99,
-    "rate": 3.6,
-    "reviews": 44,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Simulation",
-      "Strategy",
-      "SinglePlayer",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9MZ92XTL10C1": {
-    "antiquity": 262,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9MZBJ2SPW12X": {
-    "antiquity": 144,
+  "9MZ69CFLLFVH": {
+    "antiquity": 48,
     "gamepass": false,
     "price": 14.99,
-    "rate": 3.4,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
+      "Compras",
+      "Role playing",
       "SinglePlayer"
     ]
   },
-  "9MZBRTN95Z7M": {
-    "antiquity": 172,
+  "9MZ80QP44V5Z": {
+    "antiquity": 111,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.0,
-    "reviews": 2,
+    "price": 44.99,
+    "rate": 3.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9MZCCHNRK9R1": {
-    "antiquity": 724,
+  "9MZ8PMP89HGX": {
+    "antiquity": 38,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.1,
-    "reviews": 25,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Cards",
+      "Action",
+      "Family",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9MZ90CPQKFTK": {
+    "antiquity": 891,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.2,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
       "Role playing",
       "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9MZBBKTW4KSB": {
+    "antiquity": 10,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Action",
+      "Strategy",
+      "Role playing",
       "SinglePlayer"
     ]
   },
   "9MZCG78Z2DJZ": {
-    "antiquity": 51,
+    "antiquity": 163,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 2.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Family",
@@ -1801,12 +2136,13 @@ const GAME = {
     ]
   },
   "9MZCQQK860T1": {
-    "antiquity": 495,
+    "antiquity": 607,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.4,
     "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -1817,12 +2153,13 @@ const GAME = {
     ]
   },
   "9MZDL6L34KF2": {
-    "antiquity": 219,
+    "antiquity": 331,
     "gamepass": true,
     "price": 39.99,
-    "rate": 3.8,
-    "reviews": 54,
+    "rate": 3.7,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -1832,25 +2169,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9MZF4HF3BN10": {
-    "antiquity": 145,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 4.2,
-    "reviews": 134,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9MZFF9K46X48": {
-    "antiquity": 31,
+    "antiquity": 143,
     "gamepass": false,
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -1860,51 +2186,86 @@ const GAME = {
     ]
   },
   "9MZGGWHPKQ4C": {
-    "antiquity": 745,
+    "antiquity": 857,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.9,
-    "reviews": 68,
+    "rate": 4.0,
+    "reviews": 69,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Cards",
       "Role playing"
     ]
   },
   "9MZKB471R6CZ": {
-    "antiquity": 17,
+    "antiquity": 123,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9MZLQ7G93FZV": {
-    "antiquity": 156,
+  "9MZKGMN35RM0": {
+    "antiquity": 40,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.0,
-    "reviews": 0,
+    "price": 12.49,
+    "rate": 1.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Puzzle",
-      "Classics",
+      "Simulation",
+      "Sports",
       "SinglePlayer"
+    ]
+  },
+  "9MZKQP6VJ6BC": {
+    "antiquity": 59,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 5.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Simulation",
+      "SinglePlayer",
+      "Free"
+    ]
+  },
+  "9MZL842T57QN": {
+    "antiquity": 50,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.7,
+    "reviews": 3597,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Bundle",
+      "MultiPlayer",
+      "Free"
     ]
   },
   "9MZN3SMXN824": {
-    "antiquity": 1143,
+    "antiquity": 1255,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.3,
-    "reviews": 89,
+    "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -1913,37 +2274,27 @@ const GAME = {
     ]
   },
   "9MZNFF29W9ZX": {
-    "antiquity": 753,
+    "antiquity": 865,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
     "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9MZNRD4ZRBB7": {
-    "antiquity": 359,
-    "gamepass": false,
-    "price": 7.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9MZNS9NZ97PF": {
-    "antiquity": 1035,
+    "antiquity": 1147,
     "gamepass": true,
-    "price": 4.99,
-    "rate": 4.8,
-    "reviews": 23,
+    "price": 19.99,
+    "rate": 4.7,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Strategy",
@@ -1952,26 +2303,45 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9MZQB8RHGG1S": {
-    "antiquity": 178,
+  "9MZNSBX2J595": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 17.99,
+    "price": 24.99,
     "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
+      "Family",
       "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9MZQ41B0XJ6S": {
+    "antiquity": 58,
+    "gamepass": false,
+    "price": 8.74,
+    "rate": 1.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 75.02143,
+    "tags": [
+      "Bundle",
       "SinglePlayer",
-      "LocalMultiPlayer"
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9MZRSLLWKWDV": {
-    "antiquity": 836,
+    "antiquity": 948,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
-    "reviews": 112,
+    "reviews": 113,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -1979,51 +2349,41 @@ const GAME = {
     ]
   },
   "9MZS106FV79K": {
-    "antiquity": 173,
+    "antiquity": 285,
     "gamepass": false,
-    "price": 29.99,
+    "price": 7.49,
     "rate": 3.2,
     "reviews": 20,
     "trial": false,
+    "discount": 75.02501,
     "tags": [
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
-  "9MZSWZD5TDZP": {
-    "antiquity": 145,
+  "9MZSL4193V8R": {
+    "antiquity": 361,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.7,
+    "price": 9.99,
+    "rate": 2.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "Family",
       "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9MZTGW073JXT": {
-    "antiquity": 1243,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 4.0,
-    "reviews": 31,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "MultiPlayer"
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9MZTR4N1K8C1": {
-    "antiquity": 30,
+    "antiquity": 142,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -2035,12 +2395,13 @@ const GAME = {
     ]
   },
   "9MZTX19ZWKWQ": {
-    "antiquity": 4,
+    "antiquity": 116,
     "gamepass": false,
     "price": 34.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Puzzle",
@@ -2049,54 +2410,43 @@ const GAME = {
     ]
   },
   "9MZVSHQZ666K": {
-    "antiquity": 948,
-    "gamepass": true,
+    "antiquity": 1060,
+    "gamepass": false,
     "price": 14.99,
-    "rate": 3.5,
-    "reviews": 29,
+    "rate": 3.6,
+    "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "Simulation",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
-  "9MZX405S4PXV": {
-    "antiquity": 443,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.5,
-    "reviews": 19,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9MZXGTFBDKBJ": {
-    "antiquity": 157,
-    "gamepass": false,
-    "price": 12.99,
-    "rate": 2.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
       "SinglePlayer"
     ]
   },
+  "9MZVTHHJKD3G": {
+    "antiquity": 1661,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.9,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "9N000033SQDR": {
-    "antiquity": 1237,
+    "antiquity": 1349,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.6,
-    "reviews": 38,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -2104,38 +2454,27 @@ const GAME = {
     ]
   },
   "9N0102B834ZM": {
-    "antiquity": 650,
+    "antiquity": 762,
     "gamepass": false,
     "price": 0.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "Racing & flying"
     ]
   },
-  "9N01FNJF31CD": {
-    "antiquity": 124,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9N01MR5LF53S": {
-    "antiquity": 175,
+    "antiquity": 287,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
-    "reviews": 15,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -2148,13 +2487,30 @@ const GAME = {
       "Free"
     ]
   },
+  "9N0232QL7WNF": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 2.7,
+    "reviews": 153,
+    "trial": false,
+    "discount": 50.00714,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9N02PBHR35KM": {
-    "antiquity": 299,
+    "antiquity": 411,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
-    "reviews": 172,
+    "reviews": 189,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -2165,12 +2521,13 @@ const GAME = {
     ]
   },
   "9N03Q5P2PPNJ": {
-    "antiquity": 34,
+    "antiquity": 146,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -2180,147 +2537,68 @@ const GAME = {
     ]
   },
   "9N0423W2ZVNQ": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 18.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N04BXG3N9GD": {
-    "antiquity": 144,
+  "9N060Z8B3BNF": {
+    "antiquity": 80,
     "gamepass": false,
-    "price": 49.99,
-    "rate": 3.2,
-    "reviews": 88,
+    "price": 14.99,
+    "rate": 4.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9N04K2WJ5XK2": {
-    "antiquity": 208,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9N04QS268GFH": {
-    "antiquity": 1927,
-    "gamepass": false,
-    "price": 3.49,
-    "rate": 2.7,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
-  "9N04RQQ64524": {
-    "antiquity": 1186,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 2.9,
-    "reviews": 37,
-    "trial": false,
-    "tags": [
-      "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
   "9N06V8XJ5G7L": {
-    "antiquity": 864,
+    "antiquity": 976,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
-    "reviews": 338,
+    "reviews": 343,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9N07T7TGP6JG": {
-    "antiquity": 628,
+  "9N09JVVPP3HH": {
+    "antiquity": 45,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 3.4,
-    "reviews": 42,
-    "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
-  "9N0935HNZWGL": {
-    "antiquity": 1052,
-    "gamepass": false,
-    "price": 32.49,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N0B5GPFS5R0": {
-    "antiquity": 1140,
-    "gamepass": false,
-    "price": 8.74,
-    "rate": 4.1,
+    "price": 49.99,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Music",
-      "Role playing",
-      "LocalMultiPlayer",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N0BT2QC646K": {
-    "antiquity": 305,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 2.9,
-    "reviews": 9,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Strategy",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
   "9N0BXMRL9X66": {
-    "antiquity": 79,
+    "antiquity": 191,
     "gamepass": false,
     "price": 29.99,
-    "rate": 3.9,
-    "reviews": 17,
+    "rate": 3.7,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -2337,24 +2615,70 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9N0J1QQZQV83": {
-    "antiquity": 1188,
+  "9N0CJJVN8K7G": {
+    "antiquity": 9,
     "gamepass": false,
-    "price": 54.99,
-    "rate": 4.3,
-    "reviews": 26,
+    "price": 4.99,
+    "rate": 3.8,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle"
+      "Puzzle",
+      "Platformer",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
+  "9N0F44GGDFV5": {
+    "antiquity": 516,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 2.9,
+    "reviews": 137,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9N0J1QQZQV83": {
+    "antiquity": 1300,
+    "gamepass": false,
+    "price": 21.99,
+    "rate": 4.3,
+    "reviews": 27,
+    "trial": false,
+    "discount": 60.01091,
+    "tags": [
+      "Bundle",
+      "Oferta"
+    ]
+  },
+  "9N0J5XX8LP8G": {
+    "antiquity": 51,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.4,
+    "reviews": 550,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "MultiPlayer"
     ]
   },
   "9N0K0Q39X4NT": {
-    "antiquity": 215,
+    "antiquity": 327,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
-    "reviews": 57,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -2364,94 +2688,44 @@ const GAME = {
       "Free"
     ]
   },
-  "9N0KRV3ZL4GQ": {
-    "antiquity": 171,
+  "9N0K7DD17CGB": {
+    "antiquity": 473,
     "gamepass": false,
-    "price": 89.99,
-    "rate": 4.2,
-    "reviews": 46,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
-  "9N0M3TGPWT1K": {
-    "antiquity": 1089,
-    "gamepass": false,
-    "price": 15.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Simulation",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N0PXW8HH8RG": {
-    "antiquity": 88,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N0PXZWXRL56": {
-    "antiquity": 1199,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 4.3,
-    "reviews": 42,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
-  "9N0RPHXHHM4T": {
-    "antiquity": 7474,
-    "gamepass": false,
-    "price": 9.99,
+    "price": 19.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Classics",
-      "Racing & flying"
-    ]
-  },
-  "9N0S485GFDDT": {
-    "antiquity": 311,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Strategy",
       "Action",
+      "Puzzle",
+      "Family",
+      "Classics",
       "SinglePlayer"
     ]
   },
-  "9N0T8V0R7MBC": {
-    "antiquity": 537,
-    "gamepass": true,
-    "price": 14.99,
-    "rate": 4.4,
-    "reviews": 60,
+  "9N0L2L5PHDH0": {
+    "antiquity": 100,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
+  "9N0M3GVB0KNN": {
+    "antiquity": 94,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 36,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -2459,126 +2733,296 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N0WBT0D3C1G": {
-    "antiquity": 403,
+  "9N0QL7B5RB9J": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 4.79,
-    "rate": 4.8,
-    "reviews": 4,
+    "price": 29.99,
+    "rate": 4.6,
+    "reviews": 0,
     "trial": false,
-    "tags": [
-      "Classics",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9N0WTXHCGDJW": {
-    "antiquity": 186,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 1.5,
-    "reviews": 4,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9N0S54SZJTFJ": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer",
-      "LocalMultiPlayer"
+      "MultiPlayer"
     ]
   },
-  "9N0ZL12829P4": {
-    "antiquity": 793,
+  "9N0VL3VWBQ82": {
+    "antiquity": 67,
     "gamepass": false,
-    "price": 1.99,
-    "rate": 3.7,
+    "price": 15.99,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N103L6KVX63": {
-    "antiquity": 758,
+  "9N0VPSQMG5QC": {
+    "antiquity": 73,
     "gamepass": false,
-    "price": 4.54,
-    "rate": 2.6,
-    "reviews": 0,
+    "price": 94.99,
+    "rate": 3.3,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N0WCTGGMXX2": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 4.0,
+    "reviews": 318,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "9N118HSQ143D": {
+    "antiquity": 334,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.0,
+    "reviews": 6,
+    "trial": false,
+    "discount": 50.02501,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9N12TXJH4FQR": {
-    "antiquity": 131,
+    "antiquity": 243,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 5.0,
+    "price": 14.99,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N137SMF48BQ": {
-    "antiquity": 207,
+  "9N13412FBDKB": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 49.99,
-    "rate": 3.7,
-    "reviews": 2774,
+    "price": 9.99,
+    "rate": 3.5,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Shooter",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9N14221KDDV1": {
+    "antiquity": 59,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.9,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Family",
+      "SinglePlayer",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
+  "9N143C6TQNKQ": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 4.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "9N14J9JZ8ZXR": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N15NJCNG3BB": {
-    "antiquity": 201,
+  "9N15HT5KGG74": {
+    "antiquity": 1067,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.9,
-    "reviews": 0,
+    "price": 5.49,
+    "rate": 3.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 45.045048,
     "tags": [
+      "Action",
+      "Classics",
+      "Family",
+      "Racing & flying",
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N15RZTXDNPG": {
+    "antiquity": 87,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.5,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Role playing",
       "SinglePlayer"
     ]
   },
-  "9N18HN73SK6W": {
-    "antiquity": 102,
+  "9N16L6MD35Q5": {
+    "antiquity": 1440,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 4.1,
+    "price": 9.99,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 75.01876,
+    "tags": [
+      "Racing & flying",
+      "Sports",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9N16VC4RS1H5": {
+    "antiquity": 44,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9N16X47Z5PH5": {
+    "antiquity": 96,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 4.0,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9N17LX250Z01": {
+    "antiquity": 1543,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9N19RM08QL3K": {
+    "antiquity": 83,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Puzzle",
       "SinglePlayer"
+    ]
+  },
+  "9N1C1W3913LG": {
+    "antiquity": 76,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Fighting",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9N1C74G2JXHM": {
-    "antiquity": 542,
+    "antiquity": 654,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -2586,12 +3030,13 @@ const GAME = {
     ]
   },
   "9N1F1R2D9C8P": {
-    "antiquity": 621,
+    "antiquity": 733,
     "gamepass": false,
     "price": 12.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -2601,25 +3046,59 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9N1FT895CW76": {
-    "antiquity": 1139,
+  "9N1JSM763WZG": {
+    "antiquity": 591,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.3,
-    "reviews": 117,
+    "price": 14.99,
+    "rate": 4.5,
+    "reviews": 13,
     "trial": false,
+    "discount": 50.01667,
+    "tags": [
+      "Action",
+      "Racing & flying",
+      "Sports",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform",
+      "Oferta"
+    ]
+  },
+  "9N1JV9WB01VV": {
+    "antiquity": 1161,
+    "gamepass": false,
+    "price": 32.99,
+    "rate": 4.8,
+    "reviews": 16,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "MultiPlayer"
+      "SinglePlayer"
+    ]
+  },
+  "9N1KBNN8X215": {
+    "antiquity": 467,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.5,
+    "reviews": 30,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9N1L3W88X7W4": {
-    "antiquity": 45,
+    "antiquity": 157,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -2628,81 +3107,70 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9N1LZVJX6Q3M": {
-    "antiquity": 123,
+  "9N1M7XPZBQ26": {
+    "antiquity": 451,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 3.0,
+    "price": 16.49,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
-      "Puzzle",
-      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
   "9N1NSTSFN5NM": {
-    "antiquity": 138,
+    "antiquity": 250,
     "gamepass": false,
     "price": 49.99,
-    "rate": 4.5,
-    "reviews": 14,
+    "rate": 4.6,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9N1PZW6NS1B4": {
-    "antiquity": 842,
-    "gamepass": false,
-    "price": 2.44,
-    "rate": 4.1,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Classics",
-      "Shooter",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9N1R83CKGZJP": {
-    "antiquity": 909,
+    "antiquity": 1021,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
-    "reviews": 59,
+    "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "LocalMultiPlayer"
     ]
   },
-  "9N1TJXX28CXK": {
-    "antiquity": 134,
+  "9N1T1ZVNJHTR": {
+    "antiquity": 4,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 3.7,
-    "reviews": 3,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Action",
+      "Role playing",
+      "Classics",
       "SinglePlayer"
     ]
   },
   "9N1VP8WDQK4D": {
-    "antiquity": 311,
+    "antiquity": 423,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.8,
-    "reviews": 159,
+    "reviews": 172,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -2713,39 +3181,87 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N216CWL1C7R": {
-    "antiquity": 206,
+  "9N1VXP11C7ND": {
+    "antiquity": 76,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.0,
+    "price": 89.99,
+    "rate": 3.7,
+    "reviews": 32,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
+  "9N1Z8WNDX5RH": {
+    "antiquity": 58,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Shooter",
+      "Action",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9N20H470B709": {
+    "antiquity": 58,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 1.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "Sports",
+      "Simulation",
+      "Classics",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9N22DQW2BCML": {
-    "antiquity": 188,
+  "9N20H5HM8VMN": {
+    "antiquity": 415,
     "gamepass": false,
-    "price": 3.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 17.99,
+    "rate": 3.5,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
+      "Bundle",
       "SinglePlayer"
     ]
   },
+  "9N230HDB6JDB": {
+    "antiquity": 730,
+    "gamepass": false,
+    "price": 20.39,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 40.011776,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9N232RBCFR2G": {
-    "antiquity": 636,
+    "antiquity": 748,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
     "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "SinglePlayer",
@@ -2755,12 +3271,13 @@ const GAME = {
     ]
   },
   "9N234330NRND": {
-    "antiquity": 95,
+    "antiquity": 207,
     "gamepass": true,
     "price": 24.99,
     "rate": 1.4,
-    "reviews": 72,
+    "reviews": 80,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -2769,40 +3286,72 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N243DQC4CGK": {
-    "antiquity": 123,
+  "9N2400CVNHVM": {
+    "antiquity": 82,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.5,
-    "reviews": 0,
+    "price": 44.99,
+    "rate": 4.4,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Simulation",
-      "Strategy",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9N24ST9292XS": {
-    "antiquity": 60,
+    "antiquity": 172,
     "gamepass": false,
     "price": 11.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9N25STHZNZK8": {
-    "antiquity": 47,
+  "9N25GV4TVG0C": {
+    "antiquity": 37,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 0.0,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Action",
+      "Classics",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9N25PP7JM560": {
+    "antiquity": 16,
+    "gamepass": false,
+    "price": 3.99,
+    "rate": 2.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "Family",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9N25STHZNZK8": {
+    "antiquity": 159,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Simulation",
@@ -2810,48 +3359,40 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9N26VC8F7MZT": {
-    "antiquity": 167,
+  "9N269JC3M46X": {
+    "antiquity": 361,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 5.0,
-    "reviews": 3,
+    "price": 4.99,
+    "rate": 4.5,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9N27NM3BT3ML": {
-    "antiquity": 516,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.1,
-    "reviews": 37,
-    "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
   "9N28HRLH972X": {
-    "antiquity": 40,
+    "antiquity": 152,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9N29K0BW4KM0": {
-    "antiquity": 209,
+    "antiquity": 321,
     "gamepass": false,
     "price": 119.99,
-    "rate": 3.3,
-    "reviews": 3,
+    "rate": 3.9,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -2861,12 +3402,13 @@ const GAME = {
     ]
   },
   "9N29VKRLRGS5": {
-    "antiquity": 1236,
+    "antiquity": 1348,
     "gamepass": false,
     "price": 13.99,
-    "rate": 3.5,
-    "reviews": 6,
+    "rate": 3.6,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -2875,142 +3417,106 @@ const GAME = {
     ]
   },
   "9N29VZ9LRNNQ": {
-    "antiquity": 635,
+    "antiquity": 747,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
-    "reviews": 71,
+    "reviews": 72,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9N2BZ3GVZ2XL": {
-    "antiquity": 145,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Strategy",
       "Action",
       "SinglePlayer"
     ]
   },
   "9N2CTV36Z5S6": {
-    "antiquity": 1256,
+    "antiquity": 1368,
     "gamepass": false,
     "price": 24.99,
-    "rate": 4.1,
-    "reviews": 22,
+    "rate": 4.0,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N2DMQBN9RC4": {
-    "antiquity": 1026,
+  "9N2DCQKDLSB3": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 69.99,
-    "rate": 2.1,
-    "reviews": 132,
+    "price": 6.99,
+    "rate": 4.7,
+    "reviews": 3,
     "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9N2DXGTLG8FN": {
-    "antiquity": 82,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9N2GD16BWQS1": {
-    "antiquity": 164,
-    "gamepass": false,
-    "price": 22.49,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9N2H63Z2GLBC": {
-    "antiquity": 1605,
+    "antiquity": 1717,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.6,
-    "reviews": 22,
+    "rate": 4.7,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N2MF1FZCTQQ": {
-    "antiquity": 1264,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 3.8,
-    "reviews": 0,
+  "9N2HB4MWG7HM": {
+    "antiquity": 61,
+    "gamepass": true,
+    "price": 34.99,
+    "rate": 3.9,
+    "reviews": 694,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Bundle",
+      "GamePass"
+    ]
+  },
+  "9N2J0FGV30DX": {
+    "antiquity": 73,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 3.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
       "Action",
-      "Fighting",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9N2MSV2QJ1TC": {
-    "antiquity": 170,
+  "9N2J34SBH4WW": {
+    "antiquity": 37,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.1,
-    "reviews": 0,
+    "price": 59.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9N2PFZ9H2LS8": {
-    "antiquity": 1031,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 3.6,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9N2PS831S84N": {
-    "antiquity": 171,
+    "antiquity": 283,
     "gamepass": true,
     "price": 29.99,
-    "rate": 3.7,
-    "reviews": 11,
+    "rate": 4.0,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -3019,43 +3525,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N2QGP2GMZCP": {
-    "antiquity": 143,
-    "gamepass": false,
-    "price": 27.99,
-    "rate": 3.3,
-    "reviews": 52,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
-  "9N2QM0D8H7ZX": {
-    "antiquity": 360,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 1.8,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9N2QS4Z635WT": {
-    "antiquity": 58,
+    "antiquity": 170,
     "gamepass": false,
     "price": 49.99,
-    "rate": 0.0,
+    "rate": 2.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -3066,24 +3543,39 @@ const GAME = {
     ]
   },
   "9N2S04LGXXH4": {
-    "antiquity": 884,
+    "antiquity": 996,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
-    "reviews": 144,
+    "reviews": 151,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
-  "9N2TDJMPK2N5": {
-    "antiquity": 41,
+  "9N2S4G07469M": {
+    "antiquity": 94,
     "gamepass": false,
-    "price": 14.99,
+    "price": 18.49,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9N2TDJMPK2N5": {
+    "antiquity": 153,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -3092,12 +3584,13 @@ const GAME = {
     ]
   },
   "9N2TS3W9KLTZ": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 79.99,
-    "rate": 3.4,
-    "reviews": 14,
+    "rate": 3.5,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -3106,27 +3599,30 @@ const GAME = {
     ]
   },
   "9N2TTV4T0D0D": {
-    "antiquity": 129,
+    "antiquity": 240,
     "gamepass": false,
-    "price": 94.99,
-    "rate": 4.6,
-    "reviews": 17,
+    "price": 63.64,
+    "rate": 4.1,
+    "reviews": 21,
     "trial": false,
+    "discount": 33.00347,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "CrossPlatform",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9N2VDS259QP1": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Family",
@@ -3136,39 +3632,29 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9N2W03KZ5776": {
-    "antiquity": 135,
+  "9N2XC0ML2K47": {
+    "antiquity": 44,
     "gamepass": false,
-    "price": 99.99,
-    "rate": 2.2,
-    "reviews": 94,
+    "price": 12.49,
+    "rate": 3.8,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9N2XHRDKCJPG": {
-    "antiquity": 677,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 4.1,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
+      "Shooter",
       "Action",
-      "Platformer"
+      "Family",
+      "SinglePlayer"
     ]
   },
   "9N2Z748SPMTM": {
-    "antiquity": 264,
+    "antiquity": 376,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 2845,
+    "reviews": 2874,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -3177,12 +3663,13 @@ const GAME = {
     ]
   },
   "9N2ZDN7NWQKV": {
-    "antiquity": 1808,
+    "antiquity": 1920,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.4,
-    "reviews": 624,
+    "reviews": 671,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -3190,12 +3677,13 @@ const GAME = {
     ]
   },
   "9N2ZK1Z9FD6Z": {
-    "antiquity": 669,
+    "antiquity": 781,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 232,
+    "reviews": 256,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -3206,162 +3694,209 @@ const GAME = {
       "Free"
     ]
   },
-  "9N318CTH77J9": {
-    "antiquity": 159,
+  "9N31C351767Q": {
+    "antiquity": 45,
     "gamepass": false,
-    "price": 109.99,
-    "rate": 2.6,
-    "reviews": 603,
+    "price": 69.99,
+    "rate": 4.3,
+    "reviews": 6840,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9N345MHDC8K6": {
+    "antiquity": 67,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Cards",
+      "Strategy",
+      "Family",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N34KBQN60ZW": {
+    "antiquity": 149,
+    "gamepass": false,
+    "price": 44.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9N34TQ2ZWKSQ": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Action",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9N390R15QCG4": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 2.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Cards",
+      "Family",
+      "Puzzle",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9N39Q75R7G35": {
+    "antiquity": 976,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 29,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Simulation",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N3CC8KRQP6Z": {
+    "antiquity": 544,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Platformer",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9N3CJZ3HFHTF": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 3.1,
+    "reviews": 75,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "Action",
       "SinglePlayer",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9N34KBQN60ZW": {
-    "antiquity": 37,
-    "gamepass": false,
-    "price": 44.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9N35THVS231C": {
-    "antiquity": 745,
-    "gamepass": false,
-    "price": 5.49,
-    "rate": 3.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9N36FD821RJ5": {
-    "antiquity": 4737,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.7,
-    "reviews": 13,
-    "trial": false,
-    "tags": [
-      "Shooter"
-    ]
-  },
-  "9N39Q75R7G35": {
-    "antiquity": 864,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.7,
-    "reviews": 25,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Simulation",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N3CV19D0WBZ": {
-    "antiquity": 768,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 2.8,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "Simulation",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9N3FPS4LDHCR": {
-    "antiquity": 9,
+    "antiquity": 121,
     "gamepass": true,
     "price": 24.99,
-    "rate": 4.5,
-    "reviews": 78,
+    "rate": 4.7,
+    "reviews": 273,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Puzzle",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9N3GB1D1R2B2": {
-    "antiquity": 150,
+  "9N3GJKS8KC6F": {
+    "antiquity": 13,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.0,
+    "price": 14.99,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9N3HKGTB67ZG": {
+    "antiquity": 1262,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Fighting",
+      "Platformer",
       "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
+      "LocalMultiPlayer"
     ]
   },
-  "9N3GM1CBZV8X": {
-    "antiquity": 264,
+  "9N3JQ2FJ35QD": {
+    "antiquity": 116,
     "gamepass": false,
-    "price": 39.99,
+    "price": 9.99,
     "rate": 4.4,
-    "reviews": 2820,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N3HTDT5NBTD": {
-    "antiquity": 184,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Puzzle",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N3JSZJK02G2": {
-    "antiquity": 968,
+  "9N3JWSKW431S": {
+    "antiquity": 80,
     "gamepass": false,
-    "price": 4.79,
-    "rate": 3.7,
-    "reviews": 0,
+    "price": 49.99,
+    "rate": 4.5,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Classics",
-      "Shooter",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9N3KJT4MHM4Z": {
-    "antiquity": 444,
+    "antiquity": 556,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.6,
-    "reviews": 14,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -3373,38 +3908,26 @@ const GAME = {
     ]
   },
   "9N3L5FF8M6SW": {
-    "antiquity": 1041,
+    "antiquity": 1153,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 543,
+    "reviews": 567,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "9N3LM1RCCFSQ": {
-    "antiquity": 109,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Role playing",
-      "Music",
-      "SinglePlayer"
-    ]
-  },
   "9N3NBRGQWP1S": {
-    "antiquity": 94,
+    "antiquity": 206,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.7,
-    "reviews": 11,
+    "rate": 4.8,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -3412,12 +3935,13 @@ const GAME = {
     ]
   },
   "9N3NCMM6NK7S": {
-    "antiquity": 163,
+    "antiquity": 275,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -3425,91 +3949,168 @@ const GAME = {
     ]
   },
   "9N3RXBXCJ6M4": {
-    "antiquity": 4036,
+    "antiquity": 4148,
     "gamepass": false,
     "price": 4.99,
-    "rate": 4.7,
-    "reviews": 3,
+    "rate": 4.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
-  "9N3TFDSQ531T": {
-    "antiquity": 332,
+  "9N3X075GN7V3": {
+    "antiquity": 97,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 59.99,
+    "rate": 1.6,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Classics",
-      "Platformer",
-      "Shooter",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9N3W2DF5N5GR": {
-    "antiquity": 296,
-    "gamepass": false,
-    "price": 0.99,
-    "rate": 4.0,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Strategy"
+      "Compras",
+      "Bundle"
     ]
   },
   "9N3XD3SC1RBT": {
-    "antiquity": 17,
+    "antiquity": 129,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9N41XJKKQT3S": {
-    "antiquity": 65,
+  "9N3ZBMK6BMQL": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 0.0,
+    "price": 89.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N409FSKB2LP": {
+    "antiquity": 956,
+    "gamepass": false,
+    "price": 0.99,
+    "rate": 2.7,
     "reviews": 0,
     "trial": false,
+    "discount": 80.16032,
+    "tags": [
+      "Fighting",
+      "Simulation",
+      "Strategy",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N41KXQK8BM7": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 25.99,
+    "rate": 3.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9N41XJKKQT3S": {
+    "antiquity": 164,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9N44WK3WV2HJ": {
-    "antiquity": 761,
+  "9N423C013B1F": {
+    "antiquity": 73,
     "gamepass": false,
-    "price": 44.99,
-    "rate": 3.8,
-    "reviews": 71,
+    "price": 199.99,
+    "rate": 4.2,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "CrossPlatform",
-      "MultiPlayer"
+      "Compras",
+      "Bundle"
+    ]
+  },
+  "9N43J5FB0QJM": {
+    "antiquity": 898,
+    "gamepass": false,
+    "price": 1.99,
+    "rate": 3.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 80.08008,
+    "tags": [
+      "Role playing",
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N43WGRSM8NX": {
+    "antiquity": 367,
+    "gamepass": false,
+    "price": 12.99,
+    "rate": 2.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9N46FXWKHZ24": {
+    "antiquity": 89,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 2.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Family",
+      "SinglePlayer"
     ]
   },
   "9N47KNN660VR": {
-    "antiquity": 181,
+    "antiquity": 293,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -3518,50 +4119,43 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9N48QJXF6BTT": {
-    "antiquity": 744,
-    "gamepass": false,
-    "price": 3.99,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9N4B8BM1J3DT": {
-    "antiquity": 346,
-    "gamepass": false,
-    "price": 17.99,
-    "rate": 4.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation"
-    ]
-  },
   "9N4BH9FLLMWD": {
-    "antiquity": 389,
-    "gamepass": false,
+    "antiquity": 501,
+    "gamepass": true,
     "price": 59.99,
-    "rate": 4.8,
-    "reviews": 15,
+    "rate": 4.1,
+    "reviews": 78,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
       "Role playing",
+      "SinglePlayer",
+      "GamePass"
+    ]
+  },
+  "9N4CF9J71CKH": {
+    "antiquity": 107,
+    "gamepass": false,
+    "price": 64.99,
+    "rate": 2.7,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9N4CPQ4R2180": {
-    "antiquity": 117,
+    "antiquity": 229,
     "gamepass": true,
     "price": 49.99,
-    "rate": 3.6,
-    "reviews": 14,
+    "rate": 2.5,
+    "reviews": 55,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -3571,75 +4165,125 @@ const GAME = {
     ]
   },
   "9N4DC4325HLM": {
-    "antiquity": 206,
+    "antiquity": 318,
     "gamepass": true,
     "price": 14.99,
-    "rate": 4.5,
-    "reviews": 26,
+    "rate": 4.6,
+    "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SinglePlayer",
       "GamePass"
     ]
   },
+  "9N4DL8WL5DV2": {
+    "antiquity": 117,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 2.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9N4FHWK9HWDK": {
+    "antiquity": 110,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
+  "9N4FW3XF7TL6": {
+    "antiquity": 481,
+    "gamepass": false,
+    "price": 12.99,
+    "rate": 4.1,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Role playing",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
   "9N4GJRBVHGLP": {
-    "antiquity": 80,
+    "antiquity": 192,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
   "9N4HFNM59ZZ6": {
-    "antiquity": 34,
+    "antiquity": 136,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.0,
-    "reviews": 2,
+    "price": 34.99,
+    "rate": 3.7,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9N4HXL0QZ5TZ": {
-    "antiquity": 1403,
+  "9N4HP33LJS14": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.7,
-    "reviews": 217,
+    "price": 9.99,
+    "rate": 4.9,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "MultiPlayer"
+      "Shooter",
+      "Action",
+      "Classics",
+      "SinglePlayer"
     ]
   },
   "9N4J5LFGPD87": {
-    "antiquity": 115,
+    "antiquity": 227,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 8,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9N4JG8S6N9HS": {
-    "antiquity": 150,
+    "antiquity": 262,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.5,
-    "reviews": 2,
+    "rate": 4.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "SinglePlayer",
@@ -3647,13 +4291,26 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9N4JKCZFXHV1": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 37.49,
+    "rate": 4.7,
+    "reviews": 286,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
   "9N4K3F9558RP": {
-    "antiquity": 445,
+    "antiquity": 557,
     "gamepass": true,
     "price": 0.0,
     "rate": 1.8,
-    "reviews": 194,
+    "reviews": 201,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SoloGamePass",
       "Compras",
@@ -3666,104 +4323,112 @@ const GAME = {
     ]
   },
   "9N4KR2J8BKPZ": {
-    "antiquity": 81,
+    "antiquity": 193,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.7,
-    "reviews": 3,
+    "rate": 3.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9N4LJRN6ZLWM": {
-    "antiquity": 325,
+  "9N4N3DXNHG4K": {
+    "antiquity": 278,
     "gamepass": false,
     "price": 19.99,
-    "rate": 2.6,
-    "reviews": 5,
+    "rate": 4.3,
+    "reviews": 3,
     "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9N4M3MSSZ465": {
-    "antiquity": 5,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 2.8,
-    "reviews": 205,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9N4N2LXTC18P": {
-    "antiquity": 873,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.6,
-    "reviews": 57,
-    "trial": false,
+    "discount": 60.01201,
     "tags": [
       "Bundle",
       "SinglePlayer",
-      "MultiPlayer"
+      "Oferta"
     ]
   },
-  "9N4N3DXNHG4K": {
-    "antiquity": 166,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9N4PQN0ZH3LF": {
+  "9N4PDF6566KB": {
     "antiquity": 110,
     "gamepass": false,
-    "price": 44.99,
-    "rate": 2.7,
-    "reviews": 397,
+    "price": 10.99,
+    "rate": 0.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N4RSG99KV1X": {
+    "antiquity": 1529,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 2.9,
+    "reviews": 61,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Strategy",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N4RV24CVXVV": {
+    "antiquity": 60,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Puzzle"
+    ]
+  },
+  "9N4TDTC6K4QG": {
+    "antiquity": 422,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.1,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9N4TJ7WZV63P": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 3.2,
+    "reviews": 153,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
-    ]
-  },
-  "9N4RM0TSQQBM": {
-    "antiquity": 471,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Music",
-      "Educational",
-      "SinglePlayer",
-      "LocalMultiPlayer"
     ]
   },
   "9N4V8K7Z5RRG": {
-    "antiquity": 619,
+    "antiquity": 731,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
     "reviews": 130,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Music",
@@ -3773,40 +4438,42 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9N4WNGSGQKLK": {
-    "antiquity": 185,
+  "9N4WFSL71XXZ": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.9,
-    "reviews": 0,
+    "price": 79.99,
+    "rate": 4.2,
+    "reviews": 142,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Role playing",
-      "Simulation",
-      "Classics",
-      "SinglePlayer"
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9N4ZQPM20W8F": {
-    "antiquity": 1327,
+    "antiquity": 1439,
     "gamepass": false,
     "price": 19.99,
-    "rate": 2.7,
-    "reviews": 7,
+    "rate": 2.5,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
     ]
   },
   "9N51PFBPZKKS": {
-    "antiquity": 45,
+    "antiquity": 157,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Action",
@@ -3814,12 +4481,13 @@ const GAME = {
     ]
   },
   "9N5253J559LR": {
-    "antiquity": 1409,
+    "antiquity": 1521,
     "gamepass": false,
     "price": 7.99,
-    "rate": 4.4,
-    "reviews": 43,
+    "rate": 4.5,
+    "reviews": 50,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -3827,91 +4495,85 @@ const GAME = {
     ]
   },
   "9N52CQMFH3BB": {
-    "antiquity": 1158,
+    "antiquity": 1270,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
     "reviews": 69,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9N52H7CN3FR1": {
-    "antiquity": 264,
-    "gamepass": false,
-    "price": 12.99,
-    "rate": 4.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9N52P2VKKXCD": {
-    "antiquity": 17,
+    "antiquity": 123,
     "gamepass": false,
-    "price": 16.99,
+    "price": 25.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N533ZJNFJP7": {
-    "antiquity": 395,
-    "gamepass": false,
-    "price": 44.99,
-    "rate": 2.1,
-    "reviews": 19,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N54Q54MXRBG": {
-    "antiquity": 150,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 3.2,
-    "reviews": 45,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N583C661MTG": {
-    "antiquity": 192,
+  "9N5344N0TFR7": {
+    "antiquity": 1514,
     "gamepass": false,
     "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 3.8,
+    "reviews": 40,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
+      "Action",
+      "Role playing",
+      "Shooter",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9N5521ZQMQMJ": {
+    "antiquity": 782,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 3.3,
+    "reviews": 33,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N56NGKLG0NW": {
+    "antiquity": 46,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
       "Action",
       "SinglePlayer"
     ]
   },
   "9N584LPFG1GM": {
-    "antiquity": 1593,
+    "antiquity": 1705,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
     "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Strategy",
@@ -3919,86 +4581,53 @@ const GAME = {
     ]
   },
   "9N5BFFN3V0K9": {
-    "antiquity": 11,
+    "antiquity": 123,
     "gamepass": false,
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Educational",
       "SinglePlayer"
     ]
   },
-  "9N5CZWX2BMM7": {
-    "antiquity": 19,
+  "9N5DK1RBPFX3": {
+    "antiquity": 160,
     "gamepass": false,
-    "price": 99.99,
-    "rate": 4.7,
-    "reviews": 34,
+    "price": 31.49,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 30.006672,
     "tags": [
       "Compras",
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9N5F3VWPQKG6": {
-    "antiquity": 180,
-    "gamepass": false,
-    "price": 23.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
+      "Oferta"
     ]
   },
   "9N5FBD97PC72": {
-    "antiquity": 1256,
+    "antiquity": 1368,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.8,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "SinglePlayer"
-    ]
-  },
-  "9N5FLPS0PK17": {
-    "antiquity": 530,
-    "gamepass": false,
-    "price": 26.99,
-    "rate": 3.3,
-    "reviews": 31,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9N5FSDL041CC": {
-    "antiquity": 129,
-    "gamepass": false,
-    "price": 33.49,
-    "rate": 1.6,
-    "reviews": 30,
-    "trial": false,
-    "tags": [
-      "Bundle",
       "SinglePlayer"
     ]
   },
   "9N5GLFTT40SN": {
-    "antiquity": 767,
+    "antiquity": 879,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -4007,12 +4636,13 @@ const GAME = {
     ]
   },
   "9N5GXV5MCNH4": {
-    "antiquity": 858,
+    "antiquity": 970,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -4020,13 +4650,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9N5HBQZFJ2ZC": {
+    "antiquity": 46,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
   "9N5HDNDWVV34": {
-    "antiquity": 486,
+    "antiquity": 598,
     "gamepass": false,
     "price": 74.99,
-    "rate": 4.0,
-    "reviews": 26,
+    "rate": 4.1,
+    "reviews": 29,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -4036,12 +4680,13 @@ const GAME = {
     ]
   },
   "9N5HQ9D2KFWN": {
-    "antiquity": 212,
+    "antiquity": 324,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.6,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Action",
@@ -4050,13 +4695,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9N5JPWPRVCHT": {
+    "antiquity": 107,
+    "gamepass": false,
+    "price": 16.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9N5JR3Q164J3": {
-    "antiquity": 1244,
+    "antiquity": 1356,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.5,
-    "reviews": 32,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -4064,29 +4723,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9N5JRWWGMS1R": {
-    "antiquity": 864,
-    "gamepass": true,
-    "price": 34.99,
-    "rate": 4.3,
-    "reviews": 1269,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
   "9N5LWDSJ4NC8": {
-    "antiquity": 1116,
+    "antiquity": 1228,
     "gamepass": false,
     "price": 14.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -4098,40 +4742,45 @@ const GAME = {
     ]
   },
   "9N5MDKX1H5ST": {
-    "antiquity": 51,
+    "antiquity": 163,
     "gamepass": false,
-    "price": 55.0,
-    "rate": 0.0,
+    "price": 32.99,
+    "rate": 2.8,
     "reviews": 0,
     "trial": false,
+    "discount": 70.006355,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9N5MZM3J3LCQ": {
-    "antiquity": 119,
+    "antiquity": 231,
     "gamepass": false,
     "price": 39.99,
-    "rate": 5.0,
-    "reviews": 7,
+    "rate": 4.7,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
+      "SinglePlayer",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
   "9N5N6DGKCQXK": {
-    "antiquity": 45,
+    "antiquity": 157,
     "gamepass": false,
     "price": 20.49,
-    "rate": 0.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -4140,12 +4789,13 @@ const GAME = {
     ]
   },
   "9N5P2152RBPM": {
-    "antiquity": 1550,
+    "antiquity": 1662,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.3,
     "reviews": 46,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -4153,39 +4803,43 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9N5PP12NBDSV": {
+    "antiquity": 1444,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.2,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9N5PWNBHR1Q4": {
-    "antiquity": 39,
+    "antiquity": 151,
     "gamepass": false,
     "price": 34.99,
-    "rate": 3.3,
+    "rate": 3.0,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9N5RFGRVKQLF": {
-    "antiquity": 1082,
-    "gamepass": false,
-    "price": 16.99,
-    "rate": 4.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9N5RTZMQGW37": {
-    "antiquity": 768,
+    "antiquity": 880,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.0,
-    "reviews": 16,
+    "rate": 3.9,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -4194,38 +4848,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9N5S1PD9ZNSJ": {
-    "antiquity": 794,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 3.1,
-    "reviews": 63,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
-  "9N5SSB4MBHHZ": {
-    "antiquity": 321,
-    "gamepass": false,
-    "price": 6.69,
-    "rate": 4.7,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "9N5TQ3ML9LJJ": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 9.99,
-    "rate": 5.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -4233,63 +4863,70 @@ const GAME = {
     ]
   },
   "9N5V0PMFRP14": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 104.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 41.99,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 60.005714,
     "tags": [
       "Compras",
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9N5V65564VWJ": {
-    "antiquity": 1074,
+    "antiquity": 1186,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 3.1,
-    "reviews": 62,
+    "price": 99.99,
+    "rate": 3.2,
+    "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "9N5WP58FGTPK": {
-    "antiquity": 4,
+  "9N5V8S7NF4MS": {
+    "antiquity": 44,
     "gamepass": false,
-    "price": 8.99,
-    "rate": 0.0,
+    "price": 9.99,
+    "rate": 2.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Platformer",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N5XDKRMV7XB": {
-    "antiquity": 1094,
+  "9N5WP58FGTPK": {
+    "antiquity": 116,
     "gamepass": false,
-    "price": 4.99,
+    "price": 3.59,
     "rate": 2.0,
-    "reviews": 5,
+    "reviews": 2,
     "trial": false,
+    "discount": 60.066742,
     "tags": [
-      "Cards",
-      "Puzzle",
-      "SinglePlayer"
+      "Action",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9N5XWXRJRLCN": {
-    "antiquity": 54,
+    "antiquity": 166,
     "gamepass": false,
     "price": 44.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 3.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -4298,77 +4935,100 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9N606M1RNXM3": {
-    "antiquity": 165,
+  "9N5ZZBDKSC3V": {
+    "antiquity": 93,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.7,
+    "price": 24.99,
+    "rate": 4.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
-      "Puzzle",
+      "Shooter",
       "SinglePlayer"
     ]
   },
-  "9N60PDBXC0MB": {
-    "antiquity": 740,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 2.8,
-    "reviews": 148,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9N61DTKQXBX5": {
-    "antiquity": 969,
+    "antiquity": 1081,
     "gamepass": false,
     "price": 29.99,
     "rate": 1.9,
-    "reviews": 73,
+    "reviews": 74,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying"
+      "Simulation",
+      "Racing & flying",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
+  "9N61FL5WCCF6": {
+    "antiquity": 676,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 4.2,
+    "reviews": 16,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9N632462XWS0": {
+    "antiquity": 101,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer"
     ]
   },
   "9N64MTWKLCJ9": {
-    "antiquity": 53,
+    "antiquity": 165,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N66Z9X8SCVB": {
-    "antiquity": 354,
+  "9N6594W8F09L": {
+    "antiquity": 82,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.0,
-    "reviews": 1,
+    "price": 54.99,
+    "rate": 0.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "SinglePlayer"
+      "Compras",
+      "Bundle"
     ]
   },
   "9N67P5D62MWZ": {
-    "antiquity": 1208,
+    "antiquity": 1320,
     "gamepass": false,
     "price": 49.99,
-    "rate": 4.0,
-    "reviews": 24,
+    "rate": 4.1,
+    "reviews": 27,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Sports",
@@ -4376,52 +5036,40 @@ const GAME = {
     ]
   },
   "9N68F8TM7TKW": {
-    "antiquity": 417,
+    "antiquity": 529,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.0,
-    "reviews": 25,
+    "rate": 3.8,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9N69G2L33Z7S": {
-    "antiquity": 1279,
+    "antiquity": 1391,
     "gamepass": false,
-    "price": 24.99,
+    "price": 19.99,
     "rate": 4.5,
     "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9N69TLHB90L9": {
-    "antiquity": 185,
-    "gamepass": false,
-    "price": 47.49,
-    "rate": 3.7,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9N6C6J7C3GTQ": {
-    "antiquity": 299,
+    "antiquity": 411,
     "gamepass": true,
     "price": 16.99,
     "rate": 4.3,
-    "reviews": 40,
+    "reviews": 59,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -4429,38 +5077,29 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N6CF8S0GV0B": {
-    "antiquity": 780,
+  "9N6CHH3KGN3R": {
+    "antiquity": 858,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9N6CQK7Z2CM1": {
-    "antiquity": 192,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.5,
+    "price": 4.19,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 70.05003,
     "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
+      "Educational",
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9N6D5ZWTBLHH": {
-    "antiquity": 79,
+    "antiquity": 191,
     "gamepass": false,
     "price": 4.99,
-    "rate": 4.4,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -4468,36 +5107,39 @@ const GAME = {
     ]
   },
   "9N6DTV59HR10": {
-    "antiquity": 30,
+    "antiquity": 142,
     "gamepass": false,
     "price": 34.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9N6FNFH45ZP6": {
-    "antiquity": 30,
+    "antiquity": 142,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9N6FTC4QJMWN": {
-    "antiquity": 1124,
+    "antiquity": 1236,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
-    "reviews": 20,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -4507,12 +5149,13 @@ const GAME = {
     ]
   },
   "9N6GBTLDV742": {
-    "antiquity": 58,
+    "antiquity": 170,
     "gamepass": false,
     "price": 4.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Cards",
@@ -4521,12 +5164,13 @@ const GAME = {
     ]
   },
   "9N6HB778ZWP2": {
-    "antiquity": 1291,
+    "antiquity": 1403,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -4534,65 +5178,86 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9N6HKCR65QDQ": {
-    "antiquity": 1089,
+  "9N6HWMGBW7T1": {
+    "antiquity": 381,
     "gamepass": false,
-    "price": 14.39,
-    "rate": 4.0,
-    "reviews": 0,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9N6JTCTF43L4": {
-    "antiquity": 170,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "SinglePlayer"
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9N6KHKGDRWH6": {
-    "antiquity": 114,
+    "antiquity": 226,
     "gamepass": false,
     "price": 17.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9N6P8N15HJJ4": {
-    "antiquity": 88,
+  "9N6KKTHZD14B": {
+    "antiquity": 23,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.2,
+    "price": 4.99,
+    "rate": 3.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Strategy",
+      "Action",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9N6KM0C14TV2": {
+    "antiquity": 426,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 3.5,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9N6MVSDBHPGN": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 22.49,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
   "9N6P9N9WDG4P": {
-    "antiquity": 16,
+    "antiquity": 128,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -4600,49 +5265,54 @@ const GAME = {
     ]
   },
   "9N6PB00DXQ7H": {
-    "antiquity": 983,
+    "antiquity": 1095,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
     "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9N6QGMLTG2B4": {
-    "antiquity": 135,
+  "9N6PXV525F05": {
+    "antiquity": 65,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 2.6,
-    "reviews": 125,
+    "price": 4.99,
+    "rate": 3.5,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle"
+      "Action",
+      "Platformer",
+      "SinglePlayer"
     ]
   },
   "9N6R3S39KRDR": {
-    "antiquity": 69,
+    "antiquity": 181,
     "gamepass": false,
     "price": 49.99,
-    "rate": 3.4,
-    "reviews": 5,
+    "rate": 3.1,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9N6RH19H10J5": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
-    "reviews": 3,
+    "reviews": 4,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Racing & flying",
@@ -4650,24 +5320,54 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9N6T6G5C1CBX": {
-    "antiquity": 44,
+  "9N6S2LR57X9S": {
+    "antiquity": 3,
     "gamepass": false,
-    "price": 12.99,
-    "rate": 0.0,
+    "price": 13.49,
+    "rate": 1.5,
     "reviews": 0,
     "trial": false,
+    "discount": 10.006672,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N6SF7N3J54B": {
+    "antiquity": 1262,
+    "gamepass": false,
+    "price": 5.09,
+    "rate": 4.5,
+    "reviews": 4,
+    "trial": false,
+    "discount": 70.04121,
+    "tags": [
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N6T6G5C1CBX": {
+    "antiquity": 156,
+    "gamepass": false,
+    "price": 12.99,
+    "rate": 2.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "SinglePlayer"
     ]
   },
   "9N6V0ZCG8XH3": {
-    "antiquity": 1063,
+    "antiquity": 1175,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
     "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -4675,12 +5375,13 @@ const GAME = {
     ]
   },
   "9N6V2181GHLM": {
-    "antiquity": 1755,
+    "antiquity": 1867,
     "gamepass": false,
     "price": 12.99,
     "rate": 3.9,
     "reviews": 155,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -4689,12 +5390,13 @@ const GAME = {
     ]
   },
   "9N6VSR9XVP7R": {
-    "antiquity": 47,
+    "antiquity": 145,
     "gamepass": false,
     "price": 11.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -4702,27 +5404,26 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9N6VTXJTSMXP": {
-    "antiquity": 667,
+  "9N6WFVFV6PZR": {
+    "antiquity": 68,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 2.6,
-    "reviews": 0,
+    "price": 27.49,
+    "rate": 4.6,
+    "reviews": 302,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Racing & flying",
-      "LocalMultiPlayer",
-      "SinglePlayer"
+      "Bundle"
     ]
   },
   "9N6Z8DQXSQWH": {
-    "antiquity": 2169,
+    "antiquity": 2281,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.6,
-    "reviews": 808,
+    "rate": 4.7,
+    "reviews": 810,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "LocalMultiPlayer",
@@ -4731,25 +5432,41 @@ const GAME = {
     ]
   },
   "9N71MVPH8C67": {
-    "antiquity": 3,
+    "antiquity": 114,
     "gamepass": false,
     "price": 14.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Family",
       "SinglePlayer"
     ]
   },
+  "9N71QFT8L26X": {
+    "antiquity": 466,
+    "gamepass": false,
+    "price": 17.49,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9N7271QN4SGB": {
-    "antiquity": 142,
+    "antiquity": 254,
     "gamepass": false,
     "price": 74.99,
-    "rate": 4.6,
-    "reviews": 11,
+    "rate": 4.4,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Fighting",
@@ -4760,114 +5477,113 @@ const GAME = {
     ]
   },
   "9N732VFPMWKT": {
-    "antiquity": 201,
+    "antiquity": 313,
     "gamepass": true,
     "price": 89.99,
     "rate": 4.5,
-    "reviews": 53,
+    "reviews": 59,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9N74J5BM1X54": {
-    "antiquity": 1343,
+  "9N74G6B9G7Q2": {
+    "antiquity": 87,
     "gamepass": false,
-    "price": 49.99,
+    "price": 19.99,
     "rate": 4.0,
-    "reviews": 4,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9N74TZD8HQ9H": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
       "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
   "9N77DC5QKC8X": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 69.99,
-    "rate": 4.0,
-    "reviews": 313,
+    "rate": 4.2,
+    "reviews": 577,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N79LGZV5GHB": {
-    "antiquity": 535,
-    "gamepass": true,
-    "price": 79.99,
-    "rate": 3.0,
-    "reviews": 35,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform",
-      "GamePass"
-    ]
-  },
-  "9N79MG04BVQ1": {
-    "antiquity": 1711,
+  "9N77RQGB8ZHP": {
+    "antiquity": 11,
     "gamepass": false,
-    "price": 2.59,
-    "rate": 3.8,
-    "reviews": 0,
+    "price": 59.99,
+    "rate": 4.4,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Family",
-      "LocalMultiPlayer",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9N7BN9970PPS": {
-    "antiquity": 46,
+    "antiquity": 158,
     "gamepass": false,
     "price": 12.49,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Classics",
       "SinglePlayer"
     ]
   },
-  "9N7CJX93ZGWN": {
-    "antiquity": 922,
-    "gamepass": true,
-    "price": 39.99,
-    "rate": 3.8,
-    "reviews": 114,
+  "9N7D1V7GLSR7": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 35.99,
+    "rate": 4.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
-      "Action",
-      "Fighting",
-      "MOBA",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer",
-      "GamePass"
+      "MultiPlayer"
     ]
   },
   "9N7FRRZ31LTS": {
-    "antiquity": 39,
+    "antiquity": 128,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -4878,28 +5594,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9N7GC98Q67LM": {
-    "antiquity": 180,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "Simulation",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9N7GCF5SGCXC": {
-    "antiquity": 1164,
+    "antiquity": 1276,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 160,
+    "reviews": 162,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -4908,13 +5610,64 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9N7GJJ2WTPBZ": {
+    "antiquity": 138,
+    "gamepass": true,
+    "price": 59.99,
+    "rate": 3.9,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Simulation",
+      "Sports",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9N7GSZS8X03N": {
+    "antiquity": 6530,
+    "gamepass": false,
+    "price": 3.74,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 75.05003,
+    "tags": [
+      "Action",
+      "Shooter",
+      "Simulation",
+      "Strategy",
+      "Oferta"
+    ]
+  },
+  "9N7H1V8CT8T2": {
+    "antiquity": 75,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Family",
+      "LocalMultiPlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9N7H54KNCB9N": {
-    "antiquity": 1256,
+    "antiquity": 1368,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
-    "reviews": 414,
+    "reviews": 420,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -4925,113 +5678,166 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9N7HR4WV9FLQ": {
-    "antiquity": 724,
-    "gamepass": false,
-    "price": 7.49,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9N7HT6KWHDXZ": {
-    "antiquity": 31,
+    "antiquity": 143,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "9N7J727BVHXL": {
-    "antiquity": 515,
+    "antiquity": 627,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.8,
-    "reviews": 23,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
     ]
   },
   "9N7JCPPCPN37": {
-    "antiquity": 353,
+    "antiquity": 465,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.6,
-    "reviews": 81,
+    "reviews": 110,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N7L7TVWK1HH": {
-    "antiquity": 180,
+  "9N7JQH5D1T37": {
+    "antiquity": 37,
     "gamepass": false,
-    "price": 13.99,
-    "rate": 2.0,
-    "reviews": 0,
+    "price": 49.99,
+    "rate": 4.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Role playing",
+      "Bundle",
       "SinglePlayer"
     ]
   },
+  "9N7L24VLLKQN": {
+    "antiquity": 1445,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 3.1,
+    "reviews": 61,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "9N7M1VP61XDK": {
-    "antiquity": 718,
+    "antiquity": 830,
     "gamepass": false,
     "price": 9.99,
-    "rate": 3.5,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9N7M2HMSMB2Q": {
-    "antiquity": 376,
+  "9N7MPSGBHKZ8": {
+    "antiquity": 87,
     "gamepass": false,
-    "price": 11.24,
-    "rate": 3.0,
+    "price": 39.99,
+    "rate": 3.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Action",
+      "Platformer",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9N7N2QZ5RZ1H": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9N7N7XG4ZJFL": {
+    "antiquity": 1207,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.0,
     "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Strategy",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9N7P8GVMF6SS": {
+    "antiquity": 115,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 5.0,
+    "reviews": 5,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N7NH6DCL5LZ": {
-    "antiquity": 1027,
+  "9N7PF25QB1VC": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 5.99,
-    "rate": 2.8,
-    "reviews": 30,
+    "price": 31.49,
+    "rate": 4.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Family",
-      "Role playing",
-      "Simulation"
+      "Bundle",
+      "SinglePlayer"
     ]
   },
   "9N7PL7D5CDJ8": {
-    "antiquity": 1782,
+    "antiquity": 1894,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -5044,12 +5850,13 @@ const GAME = {
     ]
   },
   "9N7PQ80B145R": {
-    "antiquity": 866,
+    "antiquity": 978,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.4,
-    "reviews": 25,
+    "rate": 2.6,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -5061,12 +5868,13 @@ const GAME = {
     ]
   },
   "9N7Q274FM3DT": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 2.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Role playing",
@@ -5074,24 +5882,26 @@ const GAME = {
     ]
   },
   "9N7QQZF1MFHW": {
-    "antiquity": 5,
+    "antiquity": 117,
     "gamepass": false,
     "price": 39.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9N7RB1X6FKM4": {
-    "antiquity": 1396,
+    "antiquity": 1508,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
     "reviews": 38,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -5100,97 +5910,107 @@ const GAME = {
     ]
   },
   "9N7S0GG6H8T2": {
-    "antiquity": 54,
+    "antiquity": 166,
     "gamepass": false,
     "price": 13.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9N7T25ZJJQ9T": {
-    "antiquity": 346,
+    "antiquity": 458,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.7,
-    "reviews": 80,
+    "reviews": 89,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
-  "9N7TB1SB2M0K": {
-    "antiquity": 1080,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 4.0,
-    "reviews": 8,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9N7TG8VG6137": {
-    "antiquity": 12,
+    "antiquity": 124,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.0,
     "reviews": 1,
-    "trial": false,
+    "trial": true,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9N7THWLZZBWR": {
-    "antiquity": 170,
-    "gamepass": true,
+  "9N7TVGWPQ91H": {
+    "antiquity": 103,
+    "gamepass": false,
     "price": 19.99,
-    "rate": 3.2,
-    "reviews": 21,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "GamePass"
+      "SinglePlayer"
     ]
   },
   "9N7TZ2PQ60WB": {
-    "antiquity": 80,
+    "antiquity": 192,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
     ]
   },
   "9N7WG2G8PJT3": {
-    "antiquity": 65,
+    "antiquity": 177,
     "gamepass": false,
     "price": 8.99,
-    "rate": 4.0,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
+  "9N7WKBBVZ7QX": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Puzzle",
+      "Action",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
   "9N7ZCLLR01B3": {
-    "antiquity": 82,
+    "antiquity": 194,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 31,
+    "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -5199,12 +6019,13 @@ const GAME = {
     ]
   },
   "9N8028F76J12": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 99.99,
-    "rate": 3.9,
-    "reviews": 18,
+    "rate": 4.0,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -5213,13 +6034,27 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9N80SXPS2HHC": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
   "9N82SNQTZVMQ": {
-    "antiquity": 165,
+    "antiquity": 277,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.5,
-    "reviews": 56,
+    "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Role playing",
@@ -5228,64 +6063,28 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N83DT4N7QS5": {
-    "antiquity": 179,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 3.2,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9N857BZCZPMM": {
-    "antiquity": 725,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 4.0,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9N85B4HLTVL1": {
-    "antiquity": 33,
+    "antiquity": 145,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9N85PPWZ77Q7": {
-    "antiquity": 131,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9N863WLSHZGV": {
-    "antiquity": 1026,
+    "antiquity": 1138,
     "gamepass": false,
     "price": 74.99,
     "rate": 2.2,
-    "reviews": 136,
+    "reviews": 139,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -5296,12 +6095,13 @@ const GAME = {
     ]
   },
   "9N866Z901GB5": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 2.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -5311,12 +6111,13 @@ const GAME = {
     ]
   },
   "9N872VFSPPQL": {
-    "antiquity": 773,
+    "antiquity": 885,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
-    "reviews": 16,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -5326,28 +6127,27 @@ const GAME = {
       "Free"
     ]
   },
-  "9N8C4P4P3JDT": {
-    "antiquity": 178,
+  "9N879W8FXQ6C": {
+    "antiquity": 79,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 1.0,
-    "reviews": 2,
+    "price": 7.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Family",
-      "Action",
-      "Puzzle",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9N8CD0XZKLP4": {
-    "antiquity": 1395,
+    "antiquity": 1507,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.7,
-    "reviews": 728,
+    "reviews": 748,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -5355,38 +6155,54 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N8GK34GSDWZ": {
-    "antiquity": 178,
+  "9N8DG3H137J5": {
+    "antiquity": 538,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.2,
-    "reviews": 172,
+    "price": 34.76,
+    "rate": 4.0,
+    "reviews": 5,
     "trial": false,
+    "discount": 35.0159,
     "tags": [
-      "Compras",
       "Bundle",
-      "MultiPlayer"
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N8GN31TF2L3": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 94.99,
+    "rate": 4.3,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
     ]
   },
   "9N8JZH91GBFC": {
-    "antiquity": 69,
+    "antiquity": 164,
     "gamepass": false,
     "price": 25.99,
     "rate": 4.3,
     "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9N8KTVPKX66N": {
-    "antiquity": 1082,
+    "antiquity": 1194,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
     "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -5401,27 +6217,41 @@ const GAME = {
       "Free"
     ]
   },
-  "9N8M9XP8XLDP": {
-    "antiquity": 1068,
+  "9N8MMMC0C8MZ": {
+    "antiquity": 47,
     "gamepass": false,
-    "price": 3.99,
-    "rate": 4.2,
+    "price": 33.99,
+    "rate": 1.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9N8NDGT7W3M5": {
+    "antiquity": 124,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 2.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Family",
       "Platformer",
       "SinglePlayer"
     ]
   },
   "9N8NJ74FZTG9": {
-    "antiquity": 1286,
+    "antiquity": 1398,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.9,
-    "reviews": 100,
+    "reviews": 101,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -5432,63 +6262,55 @@ const GAME = {
     ]
   },
   "9N8NP368D2RT": {
-    "antiquity": 348,
+    "antiquity": 460,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.1,
     "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "9N8NZMCCC1KG": {
-    "antiquity": 747,
+    "antiquity": 859,
     "gamepass": false,
-    "price": 49.99,
+    "price": 39.99,
     "rate": 4.0,
-    "reviews": 91,
+    "reviews": 97,
     "trial": false,
+    "discount": 20.003998,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9N8P2DHF2B0D": {
-    "antiquity": 18,
+    "antiquity": 130,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9N8P3348GS81": {
-    "antiquity": 216,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.3,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9N8Q2DKWVLNX": {
-    "antiquity": 1363,
+    "antiquity": 1475,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
     "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -5498,52 +6320,58 @@ const GAME = {
       "Free"
     ]
   },
-  "9N8V7M317PZH": {
-    "antiquity": 163,
+  "9N8RQZZ6GRCQ": {
+    "antiquity": 1061,
     "gamepass": false,
-    "price": 99.99,
-    "rate": 4.1,
-    "reviews": 47,
+    "price": 10.79,
+    "rate": 2.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 40.022236,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N8V0PC1L660": {
+    "antiquity": 10,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N8VDJ5XX7JP": {
-    "antiquity": 115,
+  "9N8VG0B7TDZ0": {
+    "antiquity": 72,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "price": 19.99,
+    "rate": 4.1,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
+      "Racing & flying",
+      "LocalMultiPlayer",
       "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9N8WQ8SQ3QD3": {
-    "antiquity": 103,
-    "gamepass": false,
-    "price": 8.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Family",
-      "Music",
-      "SinglePlayer"
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9N8WRDC25K6J": {
-    "antiquity": 1305,
+    "antiquity": 1417,
     "gamepass": true,
     "price": 12.99,
     "rate": 4.3,
-    "reviews": 33,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "SinglePlayer",
@@ -5551,160 +6379,98 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N8WVHVXSQ9Q": {
-    "antiquity": 194,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.0,
-    "reviews": 103,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N8XNH96K8HP": {
-    "antiquity": 144,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 3.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9N8Z8WQ39KTW": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 33.99,
     "rate": 4.0,
     "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N8ZGB1375XS": {
-    "antiquity": 718,
+  "9N90TMJFH89S": {
+    "antiquity": 19,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.3,
+    "price": 17.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 10.005003,
     "tags": [
-      "Shooter",
-      "Strategy",
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N93NV8BVC71": {
+    "antiquity": 772,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 40.04004,
+    "tags": [
+      "Classics",
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9N951JR9T3FX": {
+    "antiquity": 1340,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.5,
+    "reviews": 104,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9N913NZZ64H1": {
-    "antiquity": 373,
+  "9N954129P3L6": {
+    "antiquity": 24,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.2,
-    "reviews": 29,
-    "trial": false,
-    "tags": [
-      "Sports",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
-  "9N91QKS2P0NB": {
-    "antiquity": 451,
-    "gamepass": false,
-    "price": 2.62,
-    "rate": 5.0,
+    "price": 4.99,
+    "rate": 3.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9N92Z4FCHLQX": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 17.49,
-    "rate": 4.9,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "SinglePlayer"
-    ]
-  },
-  "9N93V5M3TG4N": {
-    "antiquity": 159,
-    "gamepass": false,
-    "price": 35.99,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": true,
-    "tags": [
-      "Sports",
+      "Puzzle",
       "Family",
-      "Simulation",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N948PVZ60BD": {
-    "antiquity": 1179,
-    "gamepass": false,
-    "price": 2.79,
-    "rate": 2.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation",
       "SinglePlayer"
     ]
   },
   "9N9606CC950J": {
-    "antiquity": 927,
+    "antiquity": 1039,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
-    "reviews": 168,
+    "reviews": 170,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9N961B11FJ4W": {
-    "antiquity": 549,
-    "gamepass": true,
-    "price": 39.99,
-    "rate": 3.2,
-    "reviews": 86,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
   "9N96LXZ5SW7C": {
-    "antiquity": 10,
+    "antiquity": 114,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Action",
@@ -5713,79 +6479,97 @@ const GAME = {
     ]
   },
   "9N974ZHVT0LP": {
-    "antiquity": 17,
-    "gamepass": false,
-    "price": 7.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9N9796RNVLMB": {
-    "antiquity": 81,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 1.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Fighting",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9N9B1JC4DD2Q": {
-    "antiquity": 871,
-    "gamepass": false,
-    "price": 4.61,
-    "rate": 4.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9N9BX2X4D2PV": {
     "antiquity": 129,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 2.0,
+    "price": 9.99,
+    "rate": 2.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
+  "9N97G03VLS4C": {
+    "antiquity": 25,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
-      "Action",
+      "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer"
+    ]
+  },
+  "9N97G0QPHSNW": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Fighting",
+      "SinglePlayer"
+    ]
+  },
+  "9N9C9KTPXL3X": {
+    "antiquity": 3,
+    "gamepass": true,
+    "price": 17.99,
+    "rate": 4.4,
+    "reviews": 7,
+    "trial": false,
+    "discount": 10.005003,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer",
+      "GamePass",
+      "Oferta"
     ]
   },
   "9N9DN90BLVRQ": {
-    "antiquity": 69,
+    "antiquity": 181,
     "gamepass": false,
     "price": 5.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "9N9FNJFRL3S3": {
+    "antiquity": 79,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
   "9N9GL8NX4WW8": {
-    "antiquity": 627,
+    "antiquity": 739,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
-    "reviews": 20,
+    "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -5797,13 +6581,28 @@ const GAME = {
       "Free"
     ]
   },
+  "9N9H3XR6630F": {
+    "antiquity": 88,
+    "gamepass": false,
+    "price": 129.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
   "9N9HF2KBSV2D": {
-    "antiquity": 158,
+    "antiquity": 270,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -5815,27 +6614,14 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9N9HT7X40B6M": {
-    "antiquity": 100,
-    "gamepass": false,
-    "price": 33.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9N9HW342BZ2X": {
-    "antiquity": 815,
+    "antiquity": 927,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
-    "reviews": 28,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -5846,12 +6632,13 @@ const GAME = {
     ]
   },
   "9N9J38LPVSM3": {
-    "antiquity": 819,
+    "antiquity": 931,
     "gamepass": true,
     "price": 0.0,
     "rate": 1.8,
-    "reviews": 137,
+    "reviews": 138,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SoloGamePass",
       "Compras",
@@ -5862,28 +6649,94 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9N9LNT7TSF5L": {
-    "antiquity": 787,
+  "9N9KKJTQWCSR": {
+    "antiquity": 93,
     "gamepass": false,
-    "price": 4.28,
-    "rate": 4.1,
+    "price": 4.99,
+    "rate": 3.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Platformer",
       "Action",
       "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "9N9KQ0DPJW6R": {
+    "antiquity": 690,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 1.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9N9KRZCKF024": {
+    "antiquity": 1017,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
       "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9N9L211HC9LQ": {
+    "antiquity": 5,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 2.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Family",
+      "MOBA",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
+  "9N9M35P20HT0": {
+    "antiquity": 100,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
       "Simulation",
+      "Action",
+      "Puzzle",
+      "Strategy",
       "SinglePlayer"
     ]
   },
   "9N9M6QGRQCDG": {
-    "antiquity": 65,
+    "antiquity": 163,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -5892,67 +6745,130 @@ const GAME = {
     ]
   },
   "9N9M6V87H1Z8": {
-    "antiquity": 79,
+    "antiquity": 188,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9N9PBVQBJXVV": {
-    "antiquity": 123,
+  "9N9N7F2C687P": {
+    "antiquity": 48,
     "gamepass": false,
-    "price": 4.89,
-    "rate": 4.7,
-    "reviews": 0,
+    "price": 35.99,
+    "rate": 5.0,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Strategy",
-      "Simulation",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9N9R8TX1V7RL": {
-    "antiquity": 725,
+  "9N9PCRT8S7MR": {
+    "antiquity": 68,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 23.99,
+    "rate": 2.9,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9N9PDJ7Z8S2R": {
+    "antiquity": 145,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 3.0,
+    "reviews": 37,
+    "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
       "Simulation",
       "Sports",
+      "Family",
       "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
+  "9N9PLFH8SW3F": {
+    "antiquity": 496,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.2,
+    "reviews": 16,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
   "9N9RMHTJX41P": {
-    "antiquity": 934,
+    "antiquity": 1046,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.4,
-    "reviews": 109,
+    "reviews": 110,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9N9RV75RKSL5": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 99.99,
+    "rate": 4.8,
+    "reviews": 24,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
+  "9N9SFN0LWXFK": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 9.89,
+    "rate": 4.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Educational",
+      "Role playing",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9N9SHZJQ8Z36": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.0,
-    "reviews": 3,
+    "rate": 3.3,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -5964,24 +6880,27 @@ const GAME = {
     ]
   },
   "9N9TBTW00DKB": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 35.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 17.99,
+    "rate": 3.3,
+    "reviews": 3,
     "trial": false,
+    "discount": 50.0139,
     "tags": [
       "Compras",
-      "Bundle"
+      "Bundle",
+      "Oferta"
     ]
   },
   "9N9W1JK1X5QJ": {
-    "antiquity": 1165,
+    "antiquity": 1277,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
     "reviews": 110,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -5989,61 +6908,53 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9N9X4N60NXKM": {
-    "antiquity": 913,
+  "9N9X0MZVPZQZ": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 2.5,
-    "reviews": 0,
+    "price": 33.99,
+    "rate": 2.0,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9N9X9KRKP6JX": {
-    "antiquity": 711,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9N9XZZVZG1VZ": {
-    "antiquity": 5,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.7,
-    "reviews": 600,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Bundle"
     ]
   },
   "9N9Z4S1RD397": {
-    "antiquity": 1028,
+    "antiquity": 1140,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.4,
-    "reviews": 204,
+    "reviews": 213,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
+  "9N9ZJHL09VH3": {
+    "antiquity": 481,
+    "gamepass": false,
+    "price": 23.99,
+    "rate": 3.2,
+    "reviews": 20,
+    "trial": false,
+    "discount": 60.010002,
+    "tags": [
+      "Bundle",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9NB0115C9WNM": {
-    "antiquity": 465,
+    "antiquity": 577,
     "gamepass": false,
     "price": 26.99,
     "rate": 4.6,
-    "reviews": 496,
+    "reviews": 510,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -6051,12 +6962,13 @@ const GAME = {
     ]
   },
   "9NB02Q9V6Q0Z": {
-    "antiquity": 1024,
+    "antiquity": 1136,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.6,
     "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -6066,124 +6978,152 @@ const GAME = {
     ]
   },
   "9NB2B9FFRPG8": {
-    "antiquity": 514,
+    "antiquity": 626,
     "gamepass": false,
-    "price": 15.99,
-    "rate": 3.5,
-    "reviews": 8,
+    "price": 79.99,
+    "rate": 3.8,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NB52QBS4ZDB": {
-    "antiquity": 314,
+  "9NB418HSGQNJ": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NB4J4C23GQH": {
+    "antiquity": 823,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NB4KT6SS2L4": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.8,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NB54XTF084M": {
+    "antiquity": 79,
     "gamepass": false,
     "price": 79.99,
-    "rate": 3.9,
-    "reviews": 28,
+    "rate": 2.2,
+    "reviews": 347,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
-      "SinglePlayer"
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9NB65S6LFZRT": {
-    "antiquity": 2378,
+    "antiquity": 2490,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.3,
-    "reviews": 46,
+    "rate": 4.4,
+    "reviews": 50,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer"
     ]
   },
-  "9NB6HC8S6BR6": {
-    "antiquity": 12,
+  "9NB68B7X3342": {
+    "antiquity": 108,
     "gamepass": false,
-    "price": 10.99,
-    "rate": 0.0,
+    "price": 39.99,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NB6HC8S6BR6": {
+    "antiquity": 122,
+    "gamepass": false,
+    "price": 10.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NB7KPR9T6JH": {
-    "antiquity": 128,
+  "9NB6W4GRNHWD": {
+    "antiquity": 1340,
     "gamepass": false,
-    "price": 7.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "price": 14.99,
+    "rate": 3.3,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
+      "Action",
+      "Shooter",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9NB8KBQWCQ8Q": {
-    "antiquity": 19,
+    "antiquity": 131,
     "gamepass": false,
-    "price": 7.99,
+    "price": 2.39,
     "rate": 4.2,
     "reviews": 8,
     "trial": false,
+    "discount": 70.08761,
     "tags": [
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NB8NF2QMMSV": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 5.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Classics",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NBB6LPC7L0V": {
-    "antiquity": 143,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "SinglePlayer"
-    ]
-  },
-  "9NBBFPHSV5FR": {
-    "antiquity": 1200,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 1.5,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Simulation",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NBC54MT6KHX": {
-    "antiquity": 1719,
+    "antiquity": 1831,
     "gamepass": false,
-    "price": 19.99,
+    "price": 5.99,
     "rate": 4.5,
     "reviews": 28,
     "trial": false,
+    "discount": 70.03502,
     "tags": [
       "Action",
       "Fighting",
@@ -6191,58 +7131,45 @@ const GAME = {
       "Platformer",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9NBCZCXN2NFQ": {
-    "antiquity": 459,
+    "antiquity": 571,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
     "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9NBDKVVG6909": {
-    "antiquity": 173,
+  "9NBD3K7W357Q": {
+    "antiquity": 95,
     "gamepass": false,
-    "price": 49.99,
-    "rate": 4.0,
-    "reviews": 41,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NBF0R1617X8": {
-    "antiquity": 137,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 2.5,
+    "price": 19.99,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "Action",
-      "LocalMultiPlayer",
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9NBFGKQLMV33": {
-    "antiquity": 1320,
+    "antiquity": 1432,
     "gamepass": true,
     "price": 21.49,
-    "rate": 4.4,
-    "reviews": 43,
+    "rate": 4.3,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -6250,12 +7177,13 @@ const GAME = {
     ]
   },
   "9NBFLGG4B86X": {
-    "antiquity": 72,
+    "antiquity": 184,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -6264,12 +7192,13 @@ const GAME = {
     ]
   },
   "9NBFQMP69N1S": {
-    "antiquity": 1462,
+    "antiquity": 1574,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
     "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -6277,52 +7206,42 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NBGF14KQ3F3": {
-    "antiquity": 187,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9NBGG5BNZT0K": {
-    "antiquity": 16,
+    "antiquity": 114,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9NBGP5D72MNS": {
-    "antiquity": 166,
+  "9NBGKZ46Z2SC": {
+    "antiquity": 1577,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 0,
+    "price": 11.99,
+    "rate": 3.1,
+    "reviews": 19,
     "trial": false,
+    "discount": 60.020004,
     "tags": [
       "Action",
-      "Puzzle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NBHQSQ3621M": {
-    "antiquity": 794,
+    "antiquity": 906,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
     "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -6332,12 +7251,13 @@ const GAME = {
     ]
   },
   "9NBL0XKVCN5L": {
-    "antiquity": 1200,
+    "antiquity": 1312,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 97,
+    "reviews": 99,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -6345,50 +7265,68 @@ const GAME = {
     ]
   },
   "9NBL782WBHK6": {
-    "antiquity": 922,
+    "antiquity": 1034,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
     "reviews": 91,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9NBL9STSMGDS": {
-    "antiquity": 158,
+  "9NBL7BQFRH2D": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 14.99,
+    "price": 39.99,
     "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
+  "9NBLD556HWX3": {
+    "antiquity": 970,
+    "gamepass": false,
+    "price": 3.19,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 80.050026,
+    "tags": [
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NBLGGH1Z6FQ": {
-    "antiquity": 2579,
+    "antiquity": 2691,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 553,
+    "reviews": 557,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "9NBLGGH3ZWDX": {
-    "antiquity": 1341,
+    "antiquity": 1453,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.2,
     "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Sports",
@@ -6398,34 +7336,37 @@ const GAME = {
     ]
   },
   "9NBLGGH40DCM": {
-    "antiquity": 2383,
+    "antiquity": 2495,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
     "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "9NBLGGH42XC3": {
-    "antiquity": 2365,
+    "antiquity": 2477,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
-    "reviews": 30,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer"
     ]
   },
   "9NBLGGH4PBBM": {
-    "antiquity": 2558,
+    "antiquity": 2670,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 4362,
+    "reviews": 4395,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -6435,13 +7376,30 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9NBLGGH4SF90": {
+    "antiquity": 2438,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.2,
+    "reviews": 55,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Racing & flying",
+      "Shooter",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9NBLGGH556N4": {
-    "antiquity": 2434,
+    "antiquity": 2546,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.6,
-    "reviews": 603,
+    "rate": 3.7,
+    "reviews": 622,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -6451,60 +7409,51 @@ const GAME = {
     ]
   },
   "9NBLGGH557RV": {
-    "antiquity": 2494,
+    "antiquity": 2606,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
     "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "9NBLGJQQBHH4": {
-    "antiquity": 1130,
+  "9NBLNCN542JZ": {
+    "antiquity": 111,
     "gamepass": false,
-    "price": 17.99,
-    "rate": 4.0,
-    "reviews": 44,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9NBNL7WNTMPF": {
-    "antiquity": 259,
-    "gamepass": false,
-    "price": 0.99,
-    "rate": 4.5,
+    "price": 39.99,
+    "rate": 2.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter"
+      "Bundle"
     ]
   },
-  "9NBNW67J2DZS": {
-    "antiquity": 149,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.3,
-    "reviews": 0,
+  "9NBPNW2JQNCD": {
+    "antiquity": 283,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 3.2,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "Action",
-      "SinglePlayer"
+      "Role playing",
+      "SinglePlayer",
+      "GamePass"
     ]
   },
   "9NBQJ6N2T9V1": {
-    "antiquity": 9,
+    "antiquity": 116,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 0.0,
+    "price": 24.99,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -6515,12 +7464,13 @@ const GAME = {
     ]
   },
   "9NBR2VXT87SJ": {
-    "antiquity": 774,
+    "antiquity": 886,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.7,
-    "reviews": 432,
+    "reviews": 441,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -6529,55 +7479,27 @@ const GAME = {
     ]
   },
   "9NBR2ZSD99FX": {
-    "antiquity": 1409,
+    "antiquity": 1521,
     "gamepass": false,
     "price": 7.99,
-    "rate": 4.4,
-    "reviews": 34,
+    "rate": 4.5,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9NBR9S4BLR0T": {
-    "antiquity": 747,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Educational",
-      "Family",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9NBRHXKBGBWB": {
-    "antiquity": 108,
-    "gamepass": false,
-    "price": 12.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Role playing",
-      "Simulation",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NBW00JS60X8": {
-    "antiquity": 803,
+  "9NBS08LKGD95": {
+    "antiquity": 68,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.0,
-    "reviews": 59,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -6585,56 +7507,130 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NBXTX65SJXS": {
-    "antiquity": 171,
+  "9NBT5DR3T460": {
+    "antiquity": 5702,
     "gamepass": false,
-    "price": 7.99,
-    "rate": 3.8,
+    "price": 2.37,
+    "rate": 3.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 75.026344,
+    "tags": [
+      "Action",
+      "Oferta"
+    ]
+  },
+  "9NBTM8W775W4": {
+    "antiquity": 67,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NBZ7Z3JRXQ8": {
-    "antiquity": 334,
+  "9NBV4J87RLSG": {
+    "antiquity": 1202,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 2.7,
-    "reviews": 3,
+    "price": 11.99,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Simulation",
-      "Strategy",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
+      "Puzzle",
+      "Role playing",
+      "SinglePlayer"
     ]
   },
-  "9NBZFHP3GJD6": {
-    "antiquity": 5,
+  "9NBVZXRQJ8X1": {
+    "antiquity": 1529,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 2.8,
-    "reviews": 205,
+    "price": 4.99,
+    "rate": 4.2,
+    "reviews": 5,
     "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Action",
+      "Family",
+      "Fighting",
+      "Platformer",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9NBWC6XHQHTP": {
+    "antiquity": 89,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.4,
+    "reviews": 23,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9NBXZLFKG682": {
+    "antiquity": 48,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Action",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
+  "9NBZJ4TCWTM9": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
+  "9NC0CH9K1KW0": {
+    "antiquity": 51,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.4,
+    "reviews": 550,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
-      "CrossPlatform",
       "MultiPlayer"
     ]
   },
   "9NC4RBGN9XZL": {
-    "antiquity": 16,
+    "antiquity": 128,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.0,
-    "reviews": 1,
+    "rate": 4.7,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -6644,23 +7640,25 @@ const GAME = {
     ]
   },
   "9NC6BX5R7JKC": {
-    "antiquity": 808,
+    "antiquity": 920,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
     "reviews": 89,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SinglePlayer"
     ]
   },
   "9NC781DK18GN": {
-    "antiquity": 1181,
+    "antiquity": 1293,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 43,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Shooter",
@@ -6668,54 +7666,41 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NC929HWTX26": {
-    "antiquity": 709,
+  "9NC7R2S22LJL": {
+    "antiquity": 95,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 19.99,
+    "rate": 4.1,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Puzzle",
       "Action",
-      "Classics",
-      "Role playing",
-      "Simulation",
-      "Strategy",
       "SinglePlayer"
     ]
   },
-  "9NC944T50735": {
-    "antiquity": 1284,
-    "gamepass": false,
-    "price": 17.99,
-    "rate": 4.0,
-    "reviews": 142,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "9NC9TNXS9C8G": {
-    "antiquity": 852,
+    "antiquity": 964,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
     "reviews": 93,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NCB34V82CHR": {
-    "antiquity": 724,
+    "antiquity": 836,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
     "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -6725,28 +7710,72 @@ const GAME = {
       "Free"
     ]
   },
-  "9NCBTKXHFF8K": {
-    "antiquity": 341,
+  "9NCBTFHWJQNX": {
+    "antiquity": 465,
     "gamepass": true,
-    "price": 19.99,
-    "rate": 2.9,
-    "reviews": 75,
+    "price": 18.74,
+    "rate": 3.6,
+    "reviews": 11,
     "trial": false,
+    "discount": 25.010002,
+    "tags": [
+      "Action",
+      "GamePass",
+      "Oferta"
+    ]
+  },
+  "9NCBTKXHFF8K": {
+    "antiquity": 453,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.0,
+    "reviews": 82,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "Fighting",
+      "SinglePlayer"
+    ]
+  },
+  "9NCCV8WV36TL": {
+    "antiquity": 858,
+    "gamepass": false,
+    "price": 3.19,
+    "rate": 3.8,
+    "reviews": 4,
+    "trial": false,
+    "discount": 60.075092,
+    "tags": [
+      "Classics",
+      "Shooter",
       "SinglePlayer",
-      "GamePass"
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9NCD4FGMK8B6": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
     ]
   },
   "9NCDMPCPDTQF": {
-    "antiquity": 7,
+    "antiquity": 119,
     "gamepass": false,
     "price": 29.99,
-    "rate": 5.0,
-    "reviews": 3,
+    "rate": 4.3,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -6754,117 +7783,103 @@ const GAME = {
     ]
   },
   "9NCFNFTSBM96": {
-    "antiquity": 719,
+    "antiquity": 831,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
     "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9NCH5XJ8768R": {
-    "antiquity": 136,
+  "9NCH4DDSVVPV": {
+    "antiquity": 81,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 4.4,
-    "reviews": 22,
+    "price": 9.99,
+    "rate": 3.5,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Action",
+      "Shooter",
+      "Classics",
       "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
+      "LocalMultiPlayer"
     ]
   },
-  "9NCHL337WP8K": {
-    "antiquity": 250,
+  "9NCJPCC7JN2M": {
+    "antiquity": 1382,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 2.9,
-    "reviews": 10,
+    "price": 19.99,
+    "rate": 4.7,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NCHRVGLRW56": {
-    "antiquity": 270,
-    "gamepass": false,
-    "price": 7.49,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Platformer",
+      "Action",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
   "9NCJSXWZTP88": {
-    "antiquity": 119,
+    "antiquity": 231,
     "gamepass": true,
     "price": 79.99,
     "rate": 3.9,
-    "reviews": 1242,
+    "reviews": 1514,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9NCJVHMFKVMD": {
-    "antiquity": 184,
+  "9NCKCM45D6V9": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 6.99,
-    "rate": 3.6,
-    "reviews": 5,
+    "price": 5.99,
+    "rate": 1.7,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
+      "Sports",
+      "Family",
+      "Simulation",
+      "Classics",
       "SinglePlayer",
       "LocalMultiPlayer"
     ]
   },
-  "9NCL4DQDB5HK": {
-    "antiquity": 177,
+  "9NCLS1NXTKKG": {
+    "antiquity": 1576,
     "gamepass": false,
     "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": true,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NCLJ1VQXQDD": {
-    "antiquity": 208,
-    "gamepass": false,
-    "price": 9.74,
-    "rate": 3.2,
-    "reviews": 0,
+    "rate": 2.6,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Educational",
       "Platformer",
+      "Role playing",
       "SinglePlayer"
     ]
   },
   "9NCP1745JF7B": {
-    "antiquity": 1433,
+    "antiquity": 1545,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
     "reviews": 114,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Cards",
@@ -6874,63 +7889,69 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9NCP9XXD8V69": {
+    "antiquity": 4,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9NCRBWW1TDX0": {
+    "antiquity": 823,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "9NCRZW5L1N9M": {
-    "antiquity": 528,
+    "antiquity": 640,
     "gamepass": false,
     "price": 24.99,
-    "rate": 4.2,
-    "reviews": 14,
+    "rate": 4.0,
+    "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9NCSF6148KC1": {
-    "antiquity": 114,
-    "gamepass": false,
-    "price": 12.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NCT5Z3D8RRW": {
-    "antiquity": 108,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9NCT8VHJW6MM": {
-    "antiquity": 18,
+    "antiquity": 116,
     "gamepass": false,
     "price": 109.99,
-    "rate": 3.9,
-    "reviews": 9,
+    "rate": 3.7,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "9NCTF8CRB9XV": {
-    "antiquity": 80,
+    "antiquity": 192,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Simulation",
@@ -6938,53 +7959,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NCV1W68JTMJ": {
-    "antiquity": 128,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "Simulation",
-      "SinglePlayer"
-    ]
-  },
-  "9NCVXFKZNKN6": {
-    "antiquity": 1258,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.5,
-    "reviews": 15,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NCZK59MPF6H": {
-    "antiquity": 101,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 2.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9ND0JVB184XL": {
-    "antiquity": 356,
+    "antiquity": 468,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.7,
-    "reviews": 460,
+    "reviews": 497,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -6992,43 +7974,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9ND1D1F0L8LM": {
-    "antiquity": 1024,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "Puzzle",
-      "Role playing",
-      "Simulation",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9ND3MZJJSZMK": {
-    "antiquity": 625,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Classics",
-      "Platformer",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9ND3Z0QH0NKB": {
-    "antiquity": 1402,
+    "antiquity": 1514,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.3,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Music",
       "Platformer",
@@ -7036,12 +7989,13 @@ const GAME = {
     ]
   },
   "9ND4K25TLQCK": {
-    "antiquity": 17,
+    "antiquity": 121,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Family",
@@ -7049,38 +8003,43 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9ND5G9VCFXP8": {
-    "antiquity": 179,
+  "9ND58LQTG09T": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.3,
-    "reviews": 0,
+    "price": 69.99,
+    "rate": 4.1,
+    "reviews": 133,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
+      "Role playing",
+      "Strategy",
       "Action",
-      "Racing & flying",
-      "SinglePlayer"
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9ND80SNMBMH8": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SinglePlayer"
     ]
   },
   "9ND8C4314ZZG": {
-    "antiquity": 383,
+    "antiquity": 495,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.1,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -7090,51 +8049,39 @@ const GAME = {
     ]
   },
   "9ND8GSQQWJB2": {
-    "antiquity": 69,
+    "antiquity": 172,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9ND9WR1J2W6X": {
-    "antiquity": 201,
+  "9ND9RBGJ8VX2": {
+    "antiquity": 52,
     "gamepass": false,
-    "price": 22.49,
+    "price": 19.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NDBG69LCSPJ": {
-    "antiquity": 1390,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.4,
-    "reviews": 9,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Strategy",
+      "Action",
       "SinglePlayer"
     ]
   },
   "9NDBR93LNRQD": {
-    "antiquity": 1076,
+    "antiquity": 1188,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
     "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -7142,12 +8089,13 @@ const GAME = {
     ]
   },
   "9NDC5LJS839S": {
-    "antiquity": 39,
+    "antiquity": 151,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.0,
-    "reviews": 23,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -7159,24 +8107,26 @@ const GAME = {
     ]
   },
   "9NDCJXL11096": {
-    "antiquity": 878,
+    "antiquity": 990,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.5,
-    "reviews": 53,
+    "rate": 4.6,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NDCP5TKCWWP": {
-    "antiquity": 1088,
+    "antiquity": 1200,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -7187,12 +8137,13 @@ const GAME = {
     ]
   },
   "9NDDMHZRZ0R6": {
-    "antiquity": 445,
+    "antiquity": 557,
     "gamepass": true,
     "price": 0.0,
-    "rate": 2.0,
-    "reviews": 127,
+    "rate": 2.1,
+    "reviews": 135,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SoloGamePass",
       "Compras",
@@ -7205,12 +8156,13 @@ const GAME = {
     ]
   },
   "9NDH0XPWZH24": {
-    "antiquity": 59,
+    "antiquity": 171,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -7219,12 +8171,13 @@ const GAME = {
     ]
   },
   "9NDH606JXLWJ": {
-    "antiquity": 1185,
+    "antiquity": 1297,
     "gamepass": false,
     "price": 7.99,
-    "rate": 4.7,
-    "reviews": 9,
+    "rate": 4.3,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -7232,12 +8185,13 @@ const GAME = {
     ]
   },
   "9NDJJQDF411C": {
-    "antiquity": 822,
+    "antiquity": 934,
     "gamepass": false,
     "price": 59.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -7245,12 +8199,13 @@ const GAME = {
     ]
   },
   "9NDJLXD2X2DM": {
-    "antiquity": 717,
+    "antiquity": 829,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 140,
+    "reviews": 144,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "SinglePlayer",
@@ -7258,37 +8213,26 @@ const GAME = {
     ]
   },
   "9NDKCLM81W3P": {
-    "antiquity": 122,
+    "antiquity": 234,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NDMNG46G7MH": {
-    "antiquity": 206,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9NDP3897C8QP": {
-    "antiquity": 1249,
+    "antiquity": 1361,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
     "reviews": 20,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -7296,26 +8240,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NDPG3DNQH5J": {
-    "antiquity": 969,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 1.9,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
   "9NDPK8LS983G": {
-    "antiquity": 32,
+    "antiquity": 144,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.7,
-    "reviews": 717,
+    "reviews": 780,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -7324,27 +8256,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NDR19CDD21L": {
-    "antiquity": 158,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
   "9NDSL2SN8S7Q": {
-    "antiquity": 39,
+    "antiquity": 151,
     "gamepass": false,
     "price": 99.99,
     "rate": 2.1,
-    "reviews": 7,
+    "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -7354,13 +8273,29 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9NDT1MS39FXZ": {
+    "antiquity": 10,
+    "gamepass": true,
+    "price": 11.99,
+    "rate": 4.4,
+    "reviews": 11,
+    "trial": false,
+    "discount": 20.013344,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "GamePass",
+      "Oferta"
+    ]
+  },
   "9NDV7GQBB9D1": {
-    "antiquity": 752,
+    "antiquity": 864,
     "gamepass": false,
     "price": 24.99,
-    "rate": 4.6,
-    "reviews": 34,
+    "rate": 4.7,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -7368,37 +8303,59 @@ const GAME = {
     ]
   },
   "9NDVBN7QKLPC": {
-    "antiquity": 751,
+    "antiquity": 863,
     "gamepass": false,
-    "price": 39.99,
+    "price": 27.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 30.007505,
     "tags": [
       "Family",
       "Platformer",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NDW1D9GHDBR": {
-    "antiquity": 79,
+    "antiquity": 191,
     "gamepass": false,
     "price": 7.99,
-    "rate": 4.3,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
     ]
   },
+  "9NDW8VF5GRFT": {
+    "antiquity": 627,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Music",
+      "Shooter",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "CrossPlatform"
+    ]
+  },
   "9NDWGLD531FN": {
-    "antiquity": 571,
+    "antiquity": 683,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.2,
     "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Puzzle",
@@ -7408,76 +8365,41 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9NDXJG3LSP32": {
-    "antiquity": 193,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 2.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Family",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9NDZ7NXFF622": {
-    "antiquity": 848,
+    "antiquity": 960,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 133,
+    "reviews": 140,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
-  "9NDZB9R5Z37P": {
-    "antiquity": 164,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9NDZMF0B1WGB": {
-    "antiquity": 313,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.6,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9NF037SDSGGM": {
-    "antiquity": 32,
+    "antiquity": 144,
     "gamepass": false,
-    "price": 7.59,
-    "rate": 0.0,
+    "price": 4.55,
+    "rate": 1.8,
     "reviews": 0,
     "trial": false,
+    "discount": 40.0527,
     "tags": [
       "Simulation",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NF0D13RPX5L": {
-    "antiquity": 173,
+    "antiquity": 285,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.0,
-    "reviews": 41,
+    "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -7488,78 +8410,85 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NF4DN44Q30V": {
-    "antiquity": 887,
+  "9NF19WZZFVQZ": {
+    "antiquity": 45,
     "gamepass": false,
-    "price": 5.99,
-    "rate": 2.4,
-    "reviews": 11,
+    "price": 29.99,
+    "rate": 5.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NF535CF04NX": {
-    "antiquity": 128,
+  "9NF3L0DWTH2R": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 2.0,
+    "price": 4.99,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
-      "Family",
-      "Simulation",
       "Classics",
-      "SinglePlayer"
-    ]
-  },
-  "9NF5PTKQ2TSD": {
-    "antiquity": 186,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 3.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NF6VQ5Q4QXR": {
-    "antiquity": 130,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Puzzle",
+      "Sports",
       "Family",
+      "Fighting",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9NF4DN44Q30V": {
+    "antiquity": 999,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 2.6,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NF5WV07QK4Z": {
+    "antiquity": 898,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.3,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "Strategy",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
   "9NF7SRV1W1WF": {
-    "antiquity": 25,
+    "antiquity": 137,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
   "9NF83PRZK6K3": {
-    "antiquity": 1137,
+    "antiquity": 1249,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 217,
+    "reviews": 225,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -7567,12 +8496,13 @@ const GAME = {
     ]
   },
   "9NFB0Q076ZN9": {
-    "antiquity": 170,
+    "antiquity": 282,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
-    "reviews": 59,
+    "reviews": 64,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -7582,40 +8512,43 @@ const GAME = {
       "Free"
     ]
   },
-  "9NFDLZ047GTL": {
-    "antiquity": 214,
+  "9NFGRPR749WJ": {
+    "antiquity": 45,
     "gamepass": false,
-    "price": 6.99,
-    "rate": 3.3,
-    "reviews": 0,
+    "price": 19.99,
+    "rate": 3.0,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Simulation",
+      "Platformer",
       "SinglePlayer"
     ]
   },
   "9NFHFNNJQQL3": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 3.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": true,
+    "rate": 3.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
-      "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "CrossPlatform"
     ]
   },
-  "9NFK6MH3H1XX": {
-    "antiquity": 38,
+  "9NFK22F8VWPN": {
+    "antiquity": 75,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "price": 79.99,
+    "rate": 4.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -7624,53 +8557,75 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NFKXRNWLMX3": {
-    "antiquity": 164,
+  "9NFM39PSFXJD": {
+    "antiquity": 789,
     "gamepass": false,
     "price": 4.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9NFM39PSFXJD": {
-    "antiquity": 677,
-    "gamepass": true,
-    "price": 4.99,
     "rate": 4.4,
-    "reviews": 44,
+    "reviews": 47,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Simulation",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
-  "9NFPHNF5SQ3S": {
-    "antiquity": 235,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
       "SinglePlayer"
     ]
   },
+  "9NFM4GFBFH8L": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 54.99,
+    "rate": 3.0,
+    "reviews": 154,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9NFP2NRQW050": {
+    "antiquity": 246,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 3.0,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9NFRN3NDXR2D": {
+    "antiquity": 871,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 4.0,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Action",
+      "Role playing",
+      "Shooter",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9NFSPW7BLH9R": {
-    "antiquity": 125,
+    "antiquity": 237,
     "gamepass": false,
     "price": 109.99,
-    "rate": 4.0,
-    "reviews": 87,
+    "rate": 3.9,
+    "reviews": 107,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -7681,78 +8636,107 @@ const GAME = {
     ]
   },
   "9NFSR96G6K4N": {
-    "antiquity": 983,
+    "antiquity": 1095,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
-    "reviews": 6020,
+    "reviews": 6023,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NFTC552K3GJ": {
-    "antiquity": 256,
+    "antiquity": 368,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.8,
-    "reviews": 693,
+    "reviews": 749,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9NFWDRBZXDL9": {
-    "antiquity": 164,
-    "gamepass": true,
-    "price": 49.99,
-    "rate": 3.8,
-    "reviews": 17,
+  "9NFVLKDBS9XZ": {
+    "antiquity": 1402,
+    "gamepass": false,
+    "price": 32.49,
+    "rate": 4.3,
+    "reviews": 52,
     "trial": false,
+    "discount": 35.007,
     "tags": [
-      "Fighting",
+      "Bundle",
       "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer",
-      "GamePass"
+      "Oferta"
+    ]
+  },
+  "9NFVV7396MSB": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 26.99,
+    "rate": 3.6,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
     ]
   },
   "9NFWSNN4JWKB": {
-    "antiquity": 759,
+    "antiquity": 871,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.3,
-    "reviews": 128,
+    "reviews": 129,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NFXWR3NBQ9S": {
-    "antiquity": 74,
+  "9NFX4ZQK3DW3": {
+    "antiquity": 94,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.4,
-    "reviews": 8,
+    "price": 7.49,
+    "rate": 0.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9NFXWR3NBQ9S": {
+    "antiquity": 186,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 3.8,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9NFZ65KKJ10X": {
-    "antiquity": 628,
+    "antiquity": 740,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
     "reviews": 131,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -7763,12 +8747,13 @@ const GAME = {
     ]
   },
   "9NG07QJNK38J": {
-    "antiquity": 1026,
+    "antiquity": 1138,
     "gamepass": true,
     "price": 4.99,
     "rate": 3.8,
-    "reviews": 260,
+    "reviews": 292,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -7778,12 +8763,13 @@ const GAME = {
     ]
   },
   "9NG1LCL6T30F": {
-    "antiquity": 68,
+    "antiquity": 180,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -7791,12 +8777,13 @@ const GAME = {
     ]
   },
   "9NG3C8RL2SLN": {
-    "antiquity": 641,
+    "antiquity": 753,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.4,
-    "reviews": 30,
+    "rate": 4.3,
+    "reviews": 31,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -7805,53 +8792,60 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NG3KDN390BB": {
-    "antiquity": 51,
+  "9NG3JPFB906B": {
+    "antiquity": 4651,
     "gamepass": false,
-    "price": 40.0,
-    "rate": 3.8,
-    "reviews": 4,
+    "price": 14.99,
+    "rate": 1.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing"
+    ]
+  },
+  "9NG3KDN390BB": {
+    "antiquity": 163,
+    "gamepass": false,
+    "price": 23.99,
+    "rate": 4.2,
+    "reviews": 6,
+    "trial": false,
+    "discount": 70.00876,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
-  "9NG3MM2HKDSM": {
-    "antiquity": 1209,
+  "9NG3LJ2268TX": {
+    "antiquity": 47,
     "gamepass": false,
-    "price": 49.99,
-    "rate": 3.3,
-    "reviews": 202,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NG3XG7MSGMS": {
-    "antiquity": 165,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 1.0,
+    "price": 9.99,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "SinglePlayer"
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9NG48BF56803": {
-    "antiquity": 83,
+    "antiquity": 186,
     "gamepass": false,
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -7859,12 +8853,13 @@ const GAME = {
     ]
   },
   "9NG500N8Q3QX": {
-    "antiquity": 33,
+    "antiquity": 145,
     "gamepass": false,
     "price": 11.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -7873,89 +8868,96 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NG557284KT1": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 2.5,
-    "reviews": 4,
+  "9NG5L58FD3X5": {
+    "antiquity": 1258,
+    "gamepass": true,
+    "price": 24.99,
+    "rate": 3.6,
+    "reviews": 175,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Simulation",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9NG6FCN9J92H": {
+    "antiquity": 110,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NG5DMKGT4HM": {
-    "antiquity": 13,
+  "9NG7HXF3819V": {
+    "antiquity": 69,
     "gamepass": false,
-    "price": 0.0,
-    "rate": 3.7,
-    "reviews": 359,
+    "price": 59.99,
+    "rate": 4.4,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Tragaperras",
-      "Compras",
       "Bundle",
-      "Free"
+      "SinglePlayer"
     ]
   },
   "9NG8449LQTMD": {
-    "antiquity": 146,
+    "antiquity": 258,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.2,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NGC028C2WMG": {
-    "antiquity": 82,
+  "9NG96ZKK3C56": {
+    "antiquity": 109,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.5,
-    "reviews": 82,
+    "price": 21.49,
+    "rate": 4.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
+      "SinglePlayer"
     ]
   },
   "9NGC9GQZ8R7W": {
-    "antiquity": 16,
+    "antiquity": 128,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NGCPDC7XD28": {
-    "antiquity": 157,
-    "gamepass": false,
-    "price": 36.99,
-    "rate": 4.8,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9NGCTMVTSQ1M": {
-    "antiquity": 31,
+    "antiquity": 143,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Action",
@@ -7965,26 +8967,45 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NGDLSC2W857": {
-    "antiquity": 116,
+  "9NGD7FMC4SMX": {
+    "antiquity": 416,
     "gamepass": false,
-    "price": 64.99,
-    "rate": 4.3,
-    "reviews": 6453,
+    "price": 99.99,
+    "rate": 3.4,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
+      "SinglePlayer",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
+  "9NGDWTP8Q14T": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 2.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Family",
+      "Action",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "9NGDZ4X41WFX": {
-    "antiquity": 30,
+    "antiquity": 136,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.3,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -7993,12 +9014,13 @@ const GAME = {
     ]
   },
   "9NGH2MTP0T44": {
-    "antiquity": 759,
+    "antiquity": 871,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
     "reviews": 131,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Music",
@@ -8006,110 +9028,172 @@ const GAME = {
     ]
   },
   "9NGHHPT7NJHX": {
-    "antiquity": 27,
+    "antiquity": 131,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.3,
-    "reviews": 6453,
+    "reviews": 6840,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "9NGJHLDVFQZS": {
-    "antiquity": 208,
+  "9NGKMPB3S10P": {
+    "antiquity": 73,
     "gamepass": false,
-    "price": 54.99,
-    "rate": 4.8,
-    "reviews": 6,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NGL53WM78NQ": {
-    "antiquity": 122,
-    "gamepass": false,
-    "price": 34.99,
+    "price": 89.99,
     "rate": 4.2,
-    "reviews": 4380,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
       "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
+    ]
+  },
+  "9NGL5DS0BBJ6": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 3.5,
+    "reviews": 19,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
     ]
   },
   "9NGLLJ4NMN2P": {
-    "antiquity": 94,
+    "antiquity": 206,
     "gamepass": false,
-    "price": 9.99,
+    "price": 7.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 20.02002,
     "tags": [
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NGLZWQ19SNF": {
-    "antiquity": 41,
+    "antiquity": 145,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9NGM563V3MTN": {
-    "antiquity": 151,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "Classics",
-      "SinglePlayer"
-    ]
-  },
   "9NGP9M4BPZZ9": {
-    "antiquity": 117,
+    "antiquity": 229,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.7,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NGT470FW8L2": {
-    "antiquity": 178,
+  "9NGQ346TZC71": {
+    "antiquity": 17,
     "gamepass": false,
-    "price": 4.99,
+    "price": 9.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NGQF80BG3QG": {
+    "antiquity": 454,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 4.6,
+    "reviews": 12,
+    "trial": false,
+    "discount": 75.02501,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9NGRB0D582P5": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Action",
+      "Racing & flying",
+      "Shooter",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9NGRWJ03GR1N": {
+    "antiquity": 89,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 3.4,
+    "reviews": 23,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Music",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9NGVWNMLBWJC": {
+    "antiquity": 1215,
+    "gamepass": false,
+    "price": 9.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "SinglePlayer"
+      "Simulation",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9NGVWZ3MGT0B": {
-    "antiquity": 1230,
+    "antiquity": 1342,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 223,
+    "reviews": 224,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -8118,24 +9202,43 @@ const GAME = {
     ]
   },
   "9NGW0T6L3BC5": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.6,
-    "reviews": 31,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
+  "9NGXF3387KZK": {
+    "antiquity": 107,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Family",
+      "Puzzle",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
   "9NGXH4HXK5RR": {
-    "antiquity": 25,
+    "antiquity": 137,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
-    "reviews": 172,
+    "reviews": 189,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -8143,12 +9246,13 @@ const GAME = {
     ]
   },
   "9NH019ZFFHTV": {
-    "antiquity": 129,
+    "antiquity": 241,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.6,
-    "reviews": 31,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -8157,12 +9261,13 @@ const GAME = {
     ]
   },
   "9NH18TKPS522": {
-    "antiquity": 1284,
+    "antiquity": 1396,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
-    "reviews": 119,
+    "reviews": 127,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -8171,51 +9276,69 @@ const GAME = {
     ]
   },
   "9NH27G9G07TN": {
-    "antiquity": 313,
+    "antiquity": 425,
     "gamepass": false,
-    "price": 14.49,
+    "price": 5.79,
     "rate": 2.0,
     "reviews": 3,
     "trial": false,
+    "discount": 60.041405,
     "tags": [
       "Simulation",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NH2J7X3MPB0": {
-    "antiquity": 1088,
+    "antiquity": 1200,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
     "reviews": 79,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9NH31NZ46729": {
-    "antiquity": 208,
+  "9NH33864JGPN": {
+    "antiquity": 115,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.7,
-    "reviews": 3,
+    "price": 59.99,
+    "rate": 3.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
+      "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
+      "MultiPlayer"
+    ]
+  },
+  "9NH4H99W7D6R": {
+    "antiquity": 1369,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "SinglePlayer"
     ]
   },
   "9NH5HN11FG4M": {
-    "antiquity": 705,
+    "antiquity": 817,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 206,
+    "reviews": 225,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Puzzle",
@@ -8224,38 +9347,40 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NH60CP43T2Z": {
-    "antiquity": 711,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 2.8,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
   "9NH6JRWC8MTZ": {
-    "antiquity": 354,
+    "antiquity": 466,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.2,
-    "reviews": 6,
+    "rate": 3.3,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
     ]
   },
+  "9NH7669041ZK": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 1.7,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
   "9NH88HNTGNDZ": {
-    "antiquity": 157,
+    "antiquity": 269,
     "gamepass": true,
     "price": 24.99,
-    "rate": 3.8,
-    "reviews": 201,
+    "rate": 3.9,
+    "reviews": 212,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -8263,13 +9388,32 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9NH8K4B707H0": {
+    "antiquity": 143,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 2.5,
+    "reviews": 34,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Sports",
+      "Fighting",
+      "Simulation",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9NH8N0M7CWLN": {
-    "antiquity": 341,
+    "antiquity": 453,
     "gamepass": false,
     "price": 89.99,
     "rate": 3.1,
-    "reviews": 1036,
+    "reviews": 1069,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -8278,12 +9422,13 @@ const GAME = {
     ]
   },
   "9NH9QDVG63P1": {
-    "antiquity": 47,
+    "antiquity": 145,
     "gamepass": false,
     "price": 11.99,
-    "rate": 0.0,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -8291,25 +9436,44 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9NHD9TBK2M03": {
+    "antiquity": 1817,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Platformer",
+      "Puzzle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
   "9NHDF1Q6HGMH": {
-    "antiquity": 1329,
+    "antiquity": 1441,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.7,
     "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
   "9NHDFTCL691C": {
-    "antiquity": 240,
+    "antiquity": 352,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.7,
-    "reviews": 227,
+    "reviews": 275,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -8317,12 +9481,13 @@ const GAME = {
     ]
   },
   "9NHDJC0NW20M": {
-    "antiquity": 451,
+    "antiquity": 563,
     "gamepass": true,
     "price": 24.99,
-    "rate": 3.8,
-    "reviews": 99,
+    "rate": 3.9,
+    "reviews": 109,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -8332,12 +9497,13 @@ const GAME = {
     ]
   },
   "9NHFVWX1V7QJ": {
-    "antiquity": 1243,
+    "antiquity": 1355,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.3,
-    "reviews": 134,
+    "reviews": 140,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -8346,26 +9512,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NHKJH1VM10P": {
-    "antiquity": 1088,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9NHKL695M9F2": {
-    "antiquity": 913,
+    "antiquity": 1025,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.4,
-    "reviews": 523,
+    "reviews": 550,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -8378,50 +9532,39 @@ const GAME = {
     ]
   },
   "9NHKNM0ZVG66": {
-    "antiquity": 47,
+    "antiquity": 159,
     "gamepass": false,
     "price": 89.99,
-    "rate": 3.9,
-    "reviews": 7,
+    "rate": 3.7,
+    "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9NHL5VC7KXD2": {
-    "antiquity": 23,
+    "antiquity": 135,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.5,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NHLJF3LJNQB": {
-    "antiquity": 137,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "Role playing",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9NHLWP53FD2S": {
-    "antiquity": 70,
+    "antiquity": 182,
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -8429,24 +9572,26 @@ const GAME = {
     ]
   },
   "9NHMBS5JC4RT": {
-    "antiquity": 1258,
+    "antiquity": 1370,
     "gamepass": false,
     "price": 34.99,
-    "rate": 4.3,
-    "reviews": 32,
+    "rate": 4.2,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NHMS63FGKC0": {
-    "antiquity": 502,
+    "antiquity": 614,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
     "reviews": 46,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Sports",
@@ -8457,12 +9602,13 @@ const GAME = {
     ]
   },
   "9NHN30D462N2": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -8473,28 +9619,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NHN7RDW1Z0V": {
-    "antiquity": 149,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Classics",
-      "Platformer",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
   "9NHN8TVNZ58V": {
-    "antiquity": 258,
+    "antiquity": 370,
     "gamepass": false,
     "price": 69.99,
-    "rate": 3.3,
-    "reviews": 3,
+    "rate": 3.9,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Fighting",
@@ -8505,178 +9637,209 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NHQ5W9FRB5Q": {
-    "antiquity": 171,
+  "9NHQJD5B40P0": {
+    "antiquity": 1594,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.3,
-    "reviews": 22,
+    "price": 2.49,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 75.07508,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Strategy",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
-  "9NHR2Z6GD4G9": {
-    "antiquity": 143,
+  "9NHQKJM60FQ4": {
+    "antiquity": 796,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.8,
-    "reviews": 0,
+    "price": 34.99,
+    "rate": 3.4,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9NHRV2HKM5HM": {
-    "antiquity": 39,
+    "antiquity": 151,
     "gamepass": false,
     "price": 5.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NHS18LXM05W": {
-    "antiquity": 356,
+  "9NHS6134H27Z": {
+    "antiquity": 66,
     "gamepass": false,
-    "price": 0.99,
-    "rate": 3.0,
-    "reviews": 2,
+    "price": 24.99,
+    "rate": 4.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Platformer"
+      "Simulation",
+      "Strategy",
+      "SinglePlayer"
     ]
   },
-  "9NHT47XNSJ87": {
-    "antiquity": 1718,
+  "9NHSQLC84G6B": {
+    "antiquity": 89,
     "gamepass": false,
-    "price": 1.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 19.99,
+    "rate": 4.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
       "SinglePlayer"
     ]
   },
   "9NHV57KM7RFB": {
-    "antiquity": 130,
+    "antiquity": 242,
     "gamepass": false,
-    "price": 14.99,
+    "price": 5.99,
     "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 60.040028,
     "tags": [
       "Simulation",
       "Educational",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9NHVND554JQ5": {
+    "antiquity": 24,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 3.2,
+    "reviews": 0,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Family",
+      "Classics",
       "SinglePlayer"
     ]
   },
   "9NHW0HWH8621": {
-    "antiquity": 30,
+    "antiquity": 142,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NHX3PV88M4R": {
-    "antiquity": 387,
+  "9NHXCDC1RD7P": {
+    "antiquity": 101,
     "gamepass": false,
-    "price": 5.24,
-    "rate": 5.0,
+    "price": 39.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
+      "Family",
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9NJ18Z7SZ0ZX": {
-    "antiquity": 26,
+    "antiquity": 122,
     "gamepass": false,
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9NJ2HWS137K5": {
-    "antiquity": 276,
+  "9NJ4FHM5P3TP": {
+    "antiquity": 37,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 4.0,
+    "price": 3.89,
+    "rate": 4.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
-      "SinglePlayer"
-    ]
-  },
-  "9NJ2J77GP3CD": {
-    "antiquity": 131,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
       "Action",
+      "Platformer",
+      "Family",
       "SinglePlayer"
     ]
   },
-  "9NJ4HGH5CPG0": {
-    "antiquity": 200,
+  "9NJ4PHFRD21J": {
+    "antiquity": 403,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 4.2,
-    "reviews": 0,
+    "price": 39.99,
+    "rate": 3.7,
+    "reviews": 99,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Cards",
-      "Family",
-      "Puzzle",
-      "SinglePlayer"
+      "Bundle",
+      "LocalMultiPlayer"
     ]
   },
   "9NJ4R763M7TH": {
-    "antiquity": 802,
+    "antiquity": 914,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
     "reviews": 163,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9NJ5JHW7S49J": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 4.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9NJ5K5F4TLS6": {
-    "antiquity": 1139,
+    "antiquity": 1251,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 21,
+    "reviews": 23,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -8685,103 +9848,71 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9NJ5VQGQH7K1": {
-    "antiquity": 1072,
+  "9NJ6LB1R5N0Q": {
+    "antiquity": 95,
     "gamepass": false,
-    "price": 7.99,
-    "rate": 4.2,
-    "reviews": 6,
+    "price": 29.99,
+    "rate": 3.6,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
-      "Strategy",
       "SinglePlayer"
     ]
   },
-  "9NJ62F9H0R6X": {
-    "antiquity": 669,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 2.6,
-    "reviews": 74,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9NJ78F33G4PW": {
-    "antiquity": 17,
+    "antiquity": 129,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
-    "reviews": 2131,
+    "reviews": 2140,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "9NJ78SP941JW": {
-    "antiquity": 290,
+  "9NJC6TLGK86N": {
+    "antiquity": 110,
     "gamepass": false,
-    "price": 2.49,
-    "rate": 2.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9NJ87V9TWKGL": {
-    "antiquity": 144,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NJB6DDF1V9F": {
-    "antiquity": 1047,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NJBR829KQP2": {
-    "antiquity": 89,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
+    "price": 34.99,
+    "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 50.00714,
     "tags": [
-      "Action",
-      "Platformer",
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9NJD9S9VJ2H5": {
+    "antiquity": 44,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 2.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9NJG36MFVR1L": {
-    "antiquity": 689,
+    "antiquity": 801,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.2,
     "reviews": 98,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -8790,41 +9921,43 @@ const GAME = {
     ]
   },
   "9NJGM9HCCLPH": {
-    "antiquity": 404,
+    "antiquity": 516,
     "gamepass": false,
-    "price": 23.99,
+    "price": 21.99,
     "rate": 2.2,
     "reviews": 4,
     "trial": false,
+    "discount": 45.011257,
     "tags": [
       "Action",
       "Shooter",
       "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9NJJ8K0FX9G9": {
+    "antiquity": 81,
+    "gamepass": false,
+    "price": 6.49,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Fighting",
       "SinglePlayer"
     ]
   },
-  "9NJGPQ9WC96T": {
-    "antiquity": 212,
-    "gamepass": false,
-    "price": 3.89,
-    "rate": 4.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Sports",
-      "Classics",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
   "9NJJB86PHHS6": {
-    "antiquity": 58,
+    "antiquity": 170,
     "gamepass": false,
     "price": 9.99,
-    "rate": 3.8,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -8832,91 +9965,55 @@ const GAME = {
     ]
   },
   "9NJJFW6T33WQ": {
-    "antiquity": 12,
+    "antiquity": 124,
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NJK8DHQ907H": {
-    "antiquity": 94,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Classics",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NJLNT2P8J4S": {
-    "antiquity": 107,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 2.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
-  "9NJLQW4XL3MW": {
-    "antiquity": 381,
+  "9NJL0P4CT2NZ": {
+    "antiquity": 1046,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.2,
-    "reviews": 4,
+    "rate": 4.6,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9NJMPFPFXDCT": {
-    "antiquity": 130,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 2.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "SinglePlayer"
-    ]
-  },
-  "9NJN1MC1X5FK": {
-    "antiquity": 552,
-    "gamepass": false,
-    "price": 19.79,
-    "rate": 3.8,
-    "reviews": 91,
-    "trial": false,
-    "tags": [
-      "Compras",
       "Bundle",
       "SinglePlayer",
-      "LocalMultiPlayer"
+      "MultiPlayer"
+    ]
+  },
+  "9NJMJT63FF1Z": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 32.99,
+    "rate": 3.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
     ]
   },
   "9NJNFNFX96DD": {
-    "antiquity": 17,
+    "antiquity": 129,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 2.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -8924,12 +10021,13 @@ const GAME = {
     ]
   },
   "9NJRX71M5X9P": {
-    "antiquity": 2200,
+    "antiquity": 2312,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 492,
+    "reviews": 504,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "SinglePlayer",
@@ -8937,12 +10035,13 @@ const GAME = {
     ]
   },
   "9NJV563B1NS5": {
-    "antiquity": 443,
+    "antiquity": 555,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
     "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -8951,64 +10050,27 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NJV7WCG734C": {
-    "antiquity": 115,
+  "9NJWL0XVLP7T": {
+    "antiquity": 409,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.3,
-    "reviews": 0,
+    "price": 19.99,
+    "rate": 4.4,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
+      "Role playing",
       "SinglePlayer"
     ]
   },
-  "9NJVF9WBJCCC": {
-    "antiquity": 128,
-    "gamepass": false,
-    "price": 41.99,
-    "rate": 4.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle"
-    ]
-  },
-  "9NJWFF2KHL6H": {
-    "antiquity": 1124,
-    "gamepass": true,
-    "price": 29.99,
-    "rate": 3.5,
-    "reviews": 30,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
-  "9NJWL0XVLP7T": {
-    "antiquity": 297,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 4.4,
-    "reviews": 37,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
   "9NJX14L8SJ28": {
-    "antiquity": 45,
+    "antiquity": 157,
     "gamepass": false,
     "price": 34.99,
-    "rate": 3.0,
-    "reviews": 1,
+    "rate": 3.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Role playing",
@@ -9016,52 +10078,84 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NJX4G2NXTTB": {
-    "antiquity": 145,
+  "9NJZ1MGSGB3S": {
+    "antiquity": 19,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.1,
+    "price": 12.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Role playing",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9NJZ0M2BL937": {
-    "antiquity": 203,
+  "9NK06FG20984": {
+    "antiquity": 43,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9NK108XJMVDL": {
+    "antiquity": 18,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NK1SG99QWXX": {
+    "antiquity": 516,
+    "gamepass": false,
+    "price": 27.49,
+    "rate": 2.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 50.009094,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9NK3LLQCN3WQ": {
+    "antiquity": 52,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
-      "Classics",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NK3ZFC5R579": {
-    "antiquity": 941,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 2.7,
-    "reviews": 85,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
   "9NK4NTBFWW81": {
-    "antiquity": 157,
+    "antiquity": 269,
     "gamepass": false,
     "price": 69.99,
-    "rate": 3.8,
-    "reviews": 5,
+    "rate": 3.6,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -9069,25 +10163,29 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NK4Q92JKXLJ": {
-    "antiquity": 934,
+  "9NK4Z12SNM72": {
+    "antiquity": 1299,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "price": 1.74,
+    "rate": 3.2,
+    "reviews": 0,
     "trial": false,
+    "discount": 75.10729,
     "tags": [
       "Action",
-      "SinglePlayer"
+      "Platformer",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NK53Q901G9P": {
-    "antiquity": 137,
+    "antiquity": 249,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
-    "reviews": 58,
+    "reviews": 64,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -9097,28 +10195,53 @@ const GAME = {
       "Free"
     ]
   },
-  "9NK6X8JHTQSS": {
-    "antiquity": 1063,
+  "9NK57DCZ78SD": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 99.99,
-    "rate": 3.9,
-    "reviews": 104,
+    "price": 289.99,
+    "rate": 3.0,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
+      "Bundle"
+    ]
+  },
+  "9NK5L90K6G8S": {
+    "antiquity": 111,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9NK73970HRLM": {
+    "antiquity": 115,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 3.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
   "9NK78DF207SD": {
-    "antiquity": 693,
+    "antiquity": 805,
     "gamepass": true,
     "price": 7.99,
-    "rate": 4.0,
-    "reviews": 51,
+    "rate": 4.3,
+    "reviews": 72,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -9128,12 +10251,13 @@ const GAME = {
     ]
   },
   "9NK7HNCG0R8D": {
-    "antiquity": 601,
+    "antiquity": 713,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
     "reviews": 73,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -9141,13 +10265,27 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9NK7X1R6D13G": {
+    "antiquity": 564,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "9NKB1B50PZLZ": {
-    "antiquity": 759,
+    "antiquity": 871,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
-    "reviews": 29,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -9155,37 +10293,27 @@ const GAME = {
     ]
   },
   "9NKC1Z4Z92VN": {
-    "antiquity": 580,
+    "antiquity": 692,
     "gamepass": false,
     "price": 19.99,
-    "rate": 2.9,
-    "reviews": 82,
+    "rate": 2.8,
+    "reviews": 97,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "9NKCCB5FBL4D": {
-    "antiquity": 140,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9NKCGC1XV8VL": {
-    "antiquity": 1110,
+    "antiquity": 1222,
     "gamepass": false,
     "price": 9.99,
-    "rate": 3.2,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -9194,40 +10322,74 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NKDGLVBLS1J": {
-    "antiquity": 214,
+  "9NKFJTR38N6Z": {
+    "antiquity": 5207,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.3,
-    "reviews": 0,
+    "price": 4.99,
+    "rate": 2.4,
+    "reviews": 33,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
-      "Platformer",
       "Action",
       "Family",
-      "SinglePlayer"
+      "Platformer",
+      "Oferta"
     ]
   },
   "9NKG0X1MGQTX": {
-    "antiquity": 1109,
+    "antiquity": 1221,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.6,
-    "reviews": 129,
+    "reviews": 133,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer"
     ]
   },
+  "9NKGXBS0B0N3": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 4.29,
+    "rate": 2.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NKHKBQJSSC3": {
+    "antiquity": 915,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 3.6,
+    "reviews": 16,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
   "9NKJBN2RMQXB": {
-    "antiquity": 1244,
+    "antiquity": 1356,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
-    "reviews": 42,
+    "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -9239,52 +10401,56 @@ const GAME = {
       "Free"
     ]
   },
-  "9NKK0DSG15BK": {
-    "antiquity": 150,
+  "9NKJMMBGM4S7": {
+    "antiquity": 104,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.1,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9NKK55QGMN9D": {
-    "antiquity": 222,
-    "gamepass": false,
-    "price": 21.99,
+    "price": 39.99,
     "rate": 4.3,
-    "reviews": 0,
+    "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Platformer",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9NKK6CX54183": {
-    "antiquity": 1074,
+    "antiquity": 1186,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
-    "reviews": 48,
+    "reviews": 53,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
+  "9NKL4C3V1C88": {
+    "antiquity": 88,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9NKLB98GPC69": {
-    "antiquity": 222,
+    "antiquity": 334,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.5,
-    "reviews": 82,
+    "reviews": 83,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -9292,50 +10458,52 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NKMR9BW2G2K": {
-    "antiquity": 6731,
+  "9NKLS9ZCPMTZ": {
+    "antiquity": 81,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.2,
-    "reviews": 5,
+    "price": 24.99,
+    "rate": 3.8,
+    "reviews": 66,
     "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
-  "9NKMWHRK0RXS": {
-    "antiquity": 138,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NKPWB4J476X": {
-    "antiquity": 715,
+  "9NKMJQ14QC7K": {
+    "antiquity": 37,
     "gamepass": false,
-    "price": 179.99,
-    "rate": 4.3,
-    "reviews": 409,
+    "price": 35.99,
+    "rate": 4.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
+      "SinglePlayer"
+    ]
+  },
+  "9NKMXVK50Q3S": {
+    "antiquity": 730,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.7,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "SinglePlayer"
     ]
   },
   "9NKRDHM6XCLF": {
-    "antiquity": 81,
+    "antiquity": 193,
     "gamepass": false,
     "price": 14.99,
     "rate": 1.0,
     "reviews": 1,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -9344,26 +10512,28 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NKTS0VK6HJW": {
-    "antiquity": 19,
+  "9NKRFZ5VKV1H": {
+    "antiquity": 40,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 4.7,
-    "reviews": 34,
+    "price": 34.99,
+    "rate": 5.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
+      "Family",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9NKX70BBCDRN": {
-    "antiquity": 847,
+    "antiquity": 959,
     "gamepass": true,
     "price": 69.99,
-    "rate": 3.4,
-    "reviews": 1922,
+    "rate": 3.5,
+    "reviews": 2104,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -9371,102 +10541,106 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NKZJ5LCXSSZ": {
-    "antiquity": 192,
+  "9NL1F7VNZ2ZV": {
+    "antiquity": 423,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NL0LV032XNL": {
-    "antiquity": 192,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.0,
+    "price": 29.99,
+    "rate": 3.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Platformer"
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
-  "9NL26WL65LR9": {
-    "antiquity": 151,
+  "9NL1XSMV9B6Q": {
+    "antiquity": 41,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 0.0,
+    "rate": 4.2,
+    "reviews": 189,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Bundle",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
+  "9NL35J0X5Z61": {
+    "antiquity": 478,
+    "gamepass": false,
+    "price": 6.69,
+    "rate": 2.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 33.03303,
     "tags": [
       "Action",
+      "Classics",
+      "Racing & flying",
       "Simulation",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NL3RMXG4PKV": {
-    "antiquity": 633,
+    "antiquity": 745,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
-    "reviews": 11,
+    "reviews": 13,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9NL4714VTLRS": {
-    "antiquity": 299,
-    "gamepass": true,
-    "price": 39.99,
-    "rate": 3.7,
-    "reviews": 600,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
   "9NL4KTK0N4CG": {
-    "antiquity": 563,
+    "antiquity": 675,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
     "reviews": 83,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NL681TLL46G": {
-    "antiquity": 620,
+  "9NL56ZNV72WT": {
+    "antiquity": 17,
     "gamepass": false,
-    "price": 34.99,
-    "rate": 3.8,
-    "reviews": 194,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 3,
     "trial": false,
+    "discount": 20.010006,
     "tags": [
-      "Bundle",
-      "MultiPlayer"
+      "Simulation",
+      "Family",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NL7RHXWWDPV": {
-    "antiquity": 10,
+    "antiquity": 114,
     "gamepass": false,
     "price": 5.99,
-    "rate": 0.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
@@ -9475,13 +10649,29 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NL8W7NXWHBB": {
-    "antiquity": 45,
+  "9NL85B07P6J9": {
+    "antiquity": 78,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 0.0,
+    "price": 7.99,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9NL8W7NXWHBB": {
+    "antiquity": 157,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -9492,128 +10682,104 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NLB6V0GNC9P": {
-    "antiquity": 383,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.7,
-    "reviews": 54,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9NLC668SS82K": {
-    "antiquity": 228,
+  "9NL908L2L3D0": {
+    "antiquity": 1635,
     "gamepass": false,
     "price": 14.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9NLCH0S95PP1": {
-    "antiquity": 198,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 2.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Sports",
-      "Simulation",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NLD93THPPZ1": {
-    "antiquity": 3,
-    "gamepass": false,
-    "price": 38.99,
-    "rate": 4.0,
+    "rate": 3.0,
     "reviews": 2,
     "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NLDK92W2H6M": {
-    "antiquity": 137,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NLDQSDFLGRN": {
-    "antiquity": 474,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Platformer",
       "SinglePlayer"
     ]
   },
-  "9NLDR4C086ZM": {
-    "antiquity": 103,
+  "9NL91C1DJ2S6": {
+    "antiquity": 75,
     "gamepass": false,
-    "price": 16.99,
-    "rate": 4.8,
+    "price": 11.99,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Role playing",
+      "Simulation",
+      "Classics",
+      "Strategy",
       "SinglePlayer"
     ]
   },
-  "9NLFKWVNWFFV": {
-    "antiquity": 171,
+  "9NL9H587WGMJ": {
+    "antiquity": 159,
     "gamepass": false,
-    "price": 74.99,
-    "rate": 4.2,
-    "reviews": 44,
+    "price": 59.99,
+    "rate": 4.5,
+    "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Compras",
+      "Action",
+      "Family",
+      "Platformer",
+      "LocalMultiPlayer",
       "SinglePlayer",
       "MultiPlayer",
       "CrossPlatform"
     ]
   },
+  "9NLB6V0GNC9P": {
+    "antiquity": 495,
+    "gamepass": true,
+    "price": 79.99,
+    "rate": 4.8,
+    "reviews": 154,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "Shooter",
+      "SinglePlayer",
+      "GamePass"
+    ]
+  },
+  "9NLD93THPPZ1": {
+    "antiquity": 115,
+    "gamepass": false,
+    "price": 38.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9NLFTZD95Q95": {
-    "antiquity": 51,
+    "antiquity": 163,
     "gamepass": false,
     "price": 44.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9NLFZVMSQ7CC": {
-    "antiquity": 383,
+    "antiquity": 495,
     "gamepass": false,
-    "price": 49.99,
+    "price": 39.99,
     "rate": 3.0,
     "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -9623,12 +10789,13 @@ const GAME = {
     ]
   },
   "9NLGR76G498K": {
-    "antiquity": 467,
+    "antiquity": 579,
     "gamepass": false,
     "price": 39.99,
     "rate": 1.7,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -9640,12 +10807,13 @@ const GAME = {
     ]
   },
   "9NLHNRBRRNWD": {
-    "antiquity": 46,
+    "antiquity": 158,
     "gamepass": false,
     "price": 109.99,
-    "rate": 4.3,
-    "reviews": 7,
+    "rate": 4.1,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -9654,89 +10822,167 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NLHWTCWLKGX": {
-    "antiquity": 1258,
+  "9NLHRCNVCP14": {
+    "antiquity": 798,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 3.1,
-    "reviews": 46,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NLL6HLNR64C": {
-    "antiquity": 328,
-    "gamepass": false,
-    "price": 49.99,
+    "price": 44.99,
     "rate": 3.9,
-    "reviews": 35,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
+  "9NLHWTCWLKGX": {
+    "antiquity": 1370,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.1,
+    "reviews": 46,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NLL6HLNR64C": {
+    "antiquity": 440,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.0,
+    "reviews": 37,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9NLLFP0PLRT4": {
+    "antiquity": 802,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Classics",
+      "Music",
+      "SinglePlayer"
+    ]
+  },
   "9NLLP82XVSKH": {
-    "antiquity": 404,
+    "antiquity": 516,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.9,
     "reviews": 214,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "9NLLTTJZH40L": {
-    "antiquity": 40,
+    "antiquity": 152,
     "gamepass": true,
     "price": 34.99,
     "rate": 4.7,
-    "reviews": 173,
+    "reviews": 280,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9NLN48LD5DBQ": {
-    "antiquity": 151,
+  "9NLN2W8K8KW4": {
+    "antiquity": 41,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.7,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 550,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9NLPPL2VPQPJ": {
+    "antiquity": 1248,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
       "Action",
-      "Fighting",
+      "Racing & flying",
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9NLQTDKD0PMT": {
-    "antiquity": 2203,
+    "antiquity": 2315,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
     "reviews": 64,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
+  "9NLQZLBDKT3Q": {
+    "antiquity": 87,
+    "gamepass": false,
+    "price": 21.99,
+    "rate": 4.7,
+    "reviews": 25,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9NLR862CDFR4": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "9NLRLNWD9X67": {
-    "antiquity": 377,
+    "antiquity": 489,
     "gamepass": false,
     "price": 19.99,
-    "rate": 2.2,
-    "reviews": 5,
+    "rate": 2.0,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Simulation",
@@ -9744,242 +10990,231 @@ const GAME = {
     ]
   },
   "9NLRT31Z4RWM": {
-    "antiquity": 571,
+    "antiquity": 683,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.6,
-    "reviews": 325,
+    "reviews": 335,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
-  "9NLS4T1ZKV9F": {
-    "antiquity": 130,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Action",
-      "Classics",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NLSQ26HM4X5": {
-    "antiquity": 342,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 3.8,
-    "reviews": 92,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
   "9NLT3ZHBLXWS": {
-    "antiquity": 247,
+    "antiquity": 359,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9NLTSH03F6BV": {
-    "antiquity": 199,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 3.4,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9NLV3X229LG1": {
-    "antiquity": 1275,
+    "antiquity": 1387,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.1,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NLX3GWW0HF1": {
-    "antiquity": 801,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 4.4,
-    "reviews": 45,
-    "trial": false,
-    "tags": [
-      "Role playing"
-    ]
-  },
-  "9NLXB5P8GDZB": {
-    "antiquity": 200,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "LocalMultiPlayer",
       "SinglePlayer",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9NLZN34WNPBT": {
-    "antiquity": 24,
+  "9NLVFTKQV50J": {
+    "antiquity": 108,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Classics",
+      "Action",
+      "Family",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9NLVXZ5KMWX0": {
+    "antiquity": 331,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 3.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9NLX3GWW0HF1": {
+    "antiquity": 913,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.4,
+    "reviews": 45,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing"
+    ]
+  },
+  "9NLZB1V33006": {
+    "antiquity": 458,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NLZN34WNPBT": {
+    "antiquity": 136,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "Sports",
       "SinglePlayer"
     ]
   },
-  "9NM1CJPXHC8K": {
-    "antiquity": 213,
+  "9NLZSTQXM211": {
+    "antiquity": 108,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.0,
+    "price": 29.99,
+    "rate": 2.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Family",
-      "Action",
-      "LocalMultiPlayer",
+      "Simulation",
       "SinglePlayer"
     ]
   },
-  "9NM1H95GRGK7": {
-    "antiquity": 837,
+  "9NM07FMGZ9G9": {
+    "antiquity": 60,
     "gamepass": false,
-    "price": 27.99,
-    "rate": 5.0,
-    "reviews": 3,
+    "price": 3.99,
+    "rate": 3.2,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Action",
+      "Family",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9NM2SHWRH50L": {
+    "antiquity": 62,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 1.0,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Classics",
-      "Platformer",
+      "Role playing",
       "LocalMultiPlayer",
-      "SinglePlayer"
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9NM3TNRPQXLR": {
-    "antiquity": 483,
+    "antiquity": 595,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.1,
-    "reviews": 445,
+    "reviews": 451,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9NM44R4JHVX2": {
-    "antiquity": 396,
+  "9NM4S7P1MPKP": {
+    "antiquity": 1188,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NM4WPJTLWF6": {
-    "antiquity": 483,
-    "gamepass": false,
-    "price": 0.0,
-    "rate": 3.1,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Tragaperras",
-      "Compras",
-      "Shooter",
-      "MultiPlayer",
-      "CrossPlatform",
-      "Free"
-    ]
-  },
-  "9NM50L0DXX1W": {
-    "antiquity": 215,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.7,
+    "price": 4.99,
+    "rate": 4.7,
     "reviews": 3,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer"
+      "Shooter",
+      "Strategy",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NM5MC4XFBBB": {
-    "antiquity": 67,
+    "antiquity": 179,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NM6L416XWMB": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 99.99,
-    "rate": 3.0,
-    "reviews": 1,
+    "rate": 3.3,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "9NM6PSHHNBHH": {
-    "antiquity": 327,
+    "antiquity": 439,
     "gamepass": false,
-    "price": 20.99,
-    "rate": 4.4,
+    "price": 29.99,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -9987,54 +11222,62 @@ const GAME = {
     ]
   },
   "9NM79B7N9JM6": {
-    "antiquity": 129,
+    "antiquity": 240,
     "gamepass": false,
-    "price": 69.99,
-    "rate": 4.5,
-    "reviews": 23,
+    "price": 41.99,
+    "rate": 4.1,
+    "reviews": 27,
     "trial": false,
+    "discount": 40.005714,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "CrossPlatform",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9NM8JC2ZNKMT": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.6,
-    "reviews": 7,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9NM8WP0PL2QQ": {
-    "antiquity": 970,
+  "9NM8JFMGVCVB": {
+    "antiquity": 325,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.2,
-    "reviews": 0,
+    "price": 59.99,
+    "rate": 3.3,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
       "Action",
-      "Platformer",
-      "Puzzle",
-      "SinglePlayer"
+      "Fighting",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "CrossPlatform"
     ]
   },
   "9NM92WGGVMT6": {
-    "antiquity": 550,
+    "antiquity": 662,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.5,
-    "reviews": 30,
+    "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -10042,24 +11285,26 @@ const GAME = {
     ]
   },
   "9NM9BNSR1K92": {
-    "antiquity": 27,
+    "antiquity": 138,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NMB4CBB6NHC": {
-    "antiquity": 58,
+    "antiquity": 170,
     "gamepass": false,
     "price": 4.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -10067,29 +11312,33 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NMBJQ0265ZK": {
-    "antiquity": 1098,
+  "9NMB4T25W817": {
+    "antiquity": 598,
     "gamepass": true,
-    "price": 39.99,
-    "rate": 3.3,
-    "reviews": 39,
+    "price": 29.99,
+    "rate": 4.2,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Simulation",
       "Action",
-      "Racing & flying",
+      "Family",
+      "LocalMultiPlayer",
       "SinglePlayer",
-      "CrossPlatform",
       "MultiPlayer",
+      "CrossPlatform",
       "GamePass"
     ]
   },
   "9NMBK4V30XJR": {
-    "antiquity": 1109,
+    "antiquity": 1221,
     "gamepass": false,
     "price": 59.98,
     "rate": 4.8,
-    "reviews": 28,
+    "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -10097,40 +11346,44 @@ const GAME = {
     ]
   },
   "9NMD6VV08WGF": {
-    "antiquity": 516,
+    "antiquity": 628,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 81,
+    "reviews": 92,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "9NMFRHJX5JCZ": {
-    "antiquity": 213,
+    "antiquity": 325,
     "gamepass": true,
-    "price": 59.99,
+    "price": 29.99,
     "rate": 2.7,
-    "reviews": 141,
+    "reviews": 152,
     "trial": false,
+    "discount": 50.00833,
     "tags": [
       "Compras",
       "Action",
       "Shooter",
       "CrossPlatform",
       "MultiPlayer",
-      "GamePass"
+      "GamePass",
+      "Oferta"
     ]
   },
   "9NMG7ZJ9XK0H": {
-    "antiquity": 927,
+    "antiquity": 1039,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
-    "reviews": 140,
+    "reviews": 151,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -10138,62 +11391,57 @@ const GAME = {
       "Free"
     ]
   },
+  "9NMKBMTK5L8M": {
+    "antiquity": 2174,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Fighting",
+      "Shooter",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
   "9NMLZ4W589L1": {
-    "antiquity": 216,
+    "antiquity": 328,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 79,
+    "reviews": 80,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NMNRLQCBBT7": {
-    "antiquity": 893,
-    "gamepass": false,
-    "price": 7.49,
-    "rate": 3.4,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NMNRV9GWFWP": {
-    "antiquity": 304,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.1,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9NMP8KFRTNCD": {
-    "antiquity": 320,
+    "antiquity": 432,
     "gamepass": false,
     "price": 39.99,
-    "rate": 3.5,
-    "reviews": 24,
+    "rate": 3.7,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NMP9B9KMKLF": {
-    "antiquity": 1769,
+    "antiquity": 1881,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.2,
     "reviews": 183,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -10201,64 +11449,52 @@ const GAME = {
     ]
   },
   "9NMPDQ2NRX34": {
-    "antiquity": 59,
+    "antiquity": 171,
     "gamepass": false,
     "price": 29.99,
-    "rate": 5.0,
-    "reviews": 34,
+    "rate": 4.9,
+    "reviews": 47,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NMQCL102XZ2": {
-    "antiquity": 523,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 3.7,
-    "reviews": 36,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9NMQZ1DCKCRP": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 34.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 3.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9NMRPV2R70WT": {
-    "antiquity": 354,
+  "9NMZQ3V1MNSW": {
+    "antiquity": 32,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.5,
+    "price": 17.99,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Family",
-      "Platformer",
-      "Puzzle",
+      "Action",
       "SinglePlayer"
     ]
   },
   "9NN066DTTWWS": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
@@ -10269,24 +11505,26 @@ const GAME = {
     ]
   },
   "9NN16ML9S93V": {
-    "antiquity": 943,
+    "antiquity": 1055,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
     "reviews": 52,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
     ]
   },
   "9NN1Z8LHMFBV": {
-    "antiquity": 745,
+    "antiquity": 857,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
-    "reviews": 118,
+    "reviews": 120,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -10295,12 +11533,13 @@ const GAME = {
     ]
   },
   "9NN2CZ47HB73": {
-    "antiquity": 46,
+    "antiquity": 158,
     "gamepass": false,
     "price": 26.99,
-    "rate": 3.2,
-    "reviews": 50,
+    "rate": 3.3,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -10309,13 +11548,43 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9NN38XKP4M2J": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.1,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Strategy",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
+  "9NN3H5NHBC7K": {
+    "antiquity": 60,
+    "gamepass": false,
+    "price": 18.99,
+    "rate": 2.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9NN3HCKW5TPC": {
-    "antiquity": 1063,
+    "antiquity": 1175,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.7,
-    "reviews": 2721,
+    "reviews": 2752,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -10323,51 +11592,25 @@ const GAME = {
     ]
   },
   "9NN3VX0L45VL": {
-    "antiquity": 7110,
+    "antiquity": 7222,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.7,
-    "reviews": 15,
+    "rate": 4.9,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "9NN40SN27MSK": {
-    "antiquity": 156,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 2.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "Classics",
-      "SinglePlayer"
-    ]
-  },
-  "9NN5MDBNSRCJ": {
-    "antiquity": 216,
-    "gamepass": false,
-    "price": 7.99,
-    "rate": 4.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9NN69HFJ8SX1": {
-    "antiquity": 1494,
+    "antiquity": 1606,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
     "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -10375,25 +11618,28 @@ const GAME = {
     ]
   },
   "9NN6BM65S46B": {
-    "antiquity": 584,
+    "antiquity": 696,
     "gamepass": false,
-    "price": 15.49,
+    "price": 9.29,
     "rate": 3.5,
     "reviews": 4,
     "trial": false,
+    "discount": 40.025826,
     "tags": [
       "Simulation",
       "Strategy",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NN6QW1NPCKN": {
-    "antiquity": 95,
+    "antiquity": 207,
     "gamepass": false,
     "price": 0.0,
-    "rate": 1.9,
-    "reviews": 49,
+    "rate": 1.8,
+    "reviews": 134,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -10404,89 +11650,94 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NN7K9NT7FV7": {
-    "antiquity": 163,
+  "9NN78ZQCHN67": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.2,
-    "reviews": 0,
+    "price": 29.99,
+    "rate": 4.1,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "Action",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9NN82NH949D5": {
-    "antiquity": 626,
+    "antiquity": 738,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.8,
-    "reviews": 44,
+    "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "GamePass"
     ]
   },
-  "9NN8R15LFDGC": {
-    "antiquity": 768,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 4.2,
-    "reviews": 176,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9NN8Z7XBF15L": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
     "price": 35.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "9NNBPBM2F60W": {
-    "antiquity": 697,
+    "antiquity": 809,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NNF9ZP3V36Z": {
-    "antiquity": 394,
+  "9NNDJKHZD46P": {
+    "antiquity": 52,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 4.5,
-    "reviews": 8,
+    "price": 59.99,
+    "rate": 4.2,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Classics",
-      "Platformer",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NNDL9TPLQ0P": {
+    "antiquity": 6,
+    "gamepass": false,
+    "price": 12.49,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Family",
       "SinglePlayer"
     ]
   },
   "9NNFG8BQRCXL": {
-    "antiquity": 328,
+    "antiquity": 440,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.4,
-    "reviews": 433,
+    "rate": 2.3,
+    "reviews": 585,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -10496,154 +11747,94 @@ const GAME = {
       "Free"
     ]
   },
-  "9NNJP3BZRQT3": {
-    "antiquity": 97,
+  "9NNHKK6BZNL9": {
+    "antiquity": 94,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.4,
+    "price": 49.99,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NNK39VMBMWT": {
-    "antiquity": 212,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": true,
-    "tags": [
-      "Platformer",
-      "Family",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9NNKV0GD0DVD": {
-    "antiquity": 383,
-    "gamepass": false,
-    "price": 54.99,
-    "rate": 3.0,
-    "reviews": 12,
-    "trial": false,
-    "tags": [
-      "Compras",
       "Bundle",
       "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
+      "LocalMultiPlayer"
     ]
   },
-  "9NNL47F7BFWX": {
-    "antiquity": 109,
+  "9NNKFF62LDND": {
+    "antiquity": 4,
     "gamepass": false,
-    "price": 1.99,
-    "rate": 5.0,
+    "price": 15.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Family",
-      "Strategy",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9NNLRFGN3JCD": {
-    "antiquity": 51,
+    "antiquity": 163,
     "gamepass": false,
-    "price": 28.49,
-    "rate": 5.0,
+    "price": 19.94,
+    "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 30.010527,
     "tags": [
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NNNGB12MS08": {
-    "antiquity": 18,
+    "antiquity": 130,
     "gamepass": false,
-    "price": 3.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "price": 4.99,
+    "rate": 4.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NNNVRFTDFBW": {
-    "antiquity": 199,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 4.5,
-    "reviews": 8,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9NNRPFC2ZQ2Q": {
-    "antiquity": 158,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
       "SinglePlayer"
     ]
   },
   "9NNS41P5J1C7": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 69.99,
-    "rate": 3.0,
-    "reviews": 1,
+    "rate": 4.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "9NNS5CDB6CVM": {
-    "antiquity": 37,
+    "antiquity": 149,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.6,
-    "reviews": 19,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NNSN4H57D2X": {
-    "antiquity": 150,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9NNSTP6KJTZ9": {
-    "antiquity": 1025,
+    "antiquity": 1137,
     "gamepass": false,
     "price": 19.49,
     "rate": 3.9,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Cards",
@@ -10651,49 +11842,39 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NNT5RXMQZ3G": {
-    "antiquity": 102,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 5.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9NNT8NT91457": {
-    "antiquity": 80,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9NNTSPSC35ZB": {
-    "antiquity": 1497,
+    "antiquity": 1609,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
-    "reviews": 50,
+    "reviews": 53,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9NNV1XN25XQ3": {
+    "antiquity": 16,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 3.5,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
   "9NNW297ZM810": {
-    "antiquity": 495,
+    "antiquity": 607,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -10705,12 +11886,13 @@ const GAME = {
     ]
   },
   "9NNWBBQPCT7F": {
-    "antiquity": 18,
+    "antiquity": 130,
     "gamepass": false,
     "price": 14.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 3.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -10718,66 +11900,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NNXTBJWK1NZ": {
-    "antiquity": 121,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.9,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Family",
-      "Racing & flying",
-      "SinglePlayer"
-    ]
-  },
-  "9NNZPZZTPG6G": {
-    "antiquity": 765,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Puzzle",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9NNZXSRRZWBC": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NP0H6TNBSQL": {
-    "antiquity": 164,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
       "Action",
       "SinglePlayer"
     ]
   },
   "9NP1P1WFS0LB": {
-    "antiquity": 669,
+    "antiquity": 781,
     "gamepass": true,
     "price": 69.99,
-    "rate": 3.9,
-    "reviews": 972,
+    "rate": 4.0,
+    "reviews": 1024,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -10787,13 +11930,40 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9NP2VX69B309": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NP42RG7LBGL": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 4.3,
+    "reviews": 128,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9NP43JBLQ8C3": {
-    "antiquity": 158,
+    "antiquity": 270,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
     "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -10805,13 +11975,30 @@ const GAME = {
       "Free"
     ]
   },
+  "9NP4BGBLLLXM": {
+    "antiquity": 1137,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 3.6,
+    "reviews": 54,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Cards",
+      "Strategy",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9NP539LHJD8S": {
-    "antiquity": 1458,
+    "antiquity": 1570,
     "gamepass": true,
     "price": 29.99,
-    "rate": 4.3,
-    "reviews": 29,
+    "rate": 4.4,
+    "reviews": 31,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -10820,12 +12007,13 @@ const GAME = {
     ]
   },
   "9NP5PZH96PFR": {
-    "antiquity": 696,
+    "antiquity": 808,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.4,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -10836,12 +12024,13 @@ const GAME = {
     ]
   },
   "9NP6V9LFVJ87": {
-    "antiquity": 1243,
+    "antiquity": 1355,
     "gamepass": true,
     "price": 39.99,
     "rate": 1.2,
     "reviews": 15,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -10855,48 +12044,68 @@ const GAME = {
     ]
   },
   "9NP77PLZ7B3R": {
-    "antiquity": 138,
+    "antiquity": 250,
     "gamepass": false,
     "price": 21.99,
     "rate": 4.9,
-    "reviews": 12,
+    "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9NP7Q2SSS81W": {
-    "antiquity": 7097,
+  "9NP83DTS8T4W": {
+    "antiquity": 66,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 8,
+    "price": 54.99,
+    "rate": 2.7,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9NP9338NS1HB": {
+    "antiquity": 88,
+    "gamepass": false,
+    "price": 10.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Shooter"
+      "Puzzle",
+      "SinglePlayer"
     ]
   },
   "9NP9CZ94P96Z": {
-    "antiquity": 30,
+    "antiquity": 142,
     "gamepass": false,
     "price": 7.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9NP9T3ZWZT6P": {
-    "antiquity": 458,
+    "antiquity": 570,
     "gamepass": false,
-    "price": 29.99,
+    "price": 69.99,
     "rate": 2.7,
     "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -10905,25 +12114,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NPB8PRH81MQ": {
-    "antiquity": 173,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9NPCB12WDKDP": {
-    "antiquity": 90,
+    "antiquity": 184,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.1,
+    "price": 4.99,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Cards",
       "Strategy",
@@ -10931,200 +12129,96 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NPCD8S1ZRVD": {
-    "antiquity": 634,
+  "9NPG3XDRX67N": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 22.49,
-    "rate": 3.4,
-    "reviews": 127,
+    "price": 2.99,
+    "rate": 4.8,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NPDKHQX3QPH": {
-    "antiquity": 744,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Fighting",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NPFX39PFZW7": {
-    "antiquity": 138,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
+      "Puzzle",
+      "Family",
       "SinglePlayer"
     ]
   },
-  "9NPGPDCXWJQ7": {
-    "antiquity": 97,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 1.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9NPGTNQFC8B5": {
-    "antiquity": 1698,
+    "antiquity": 1810,
     "gamepass": false,
     "price": 20.99,
     "rate": 4.0,
-    "reviews": 138,
+    "reviews": 141,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9NPHM4P59QF8": {
-    "antiquity": 102,
-    "gamepass": false,
-    "price": 7.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "SinglePlayer"
-    ]
-  },
-  "9NPHNLJTCZC2": {
-    "antiquity": 150,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NPJ8SSHHFBZ": {
-    "antiquity": 354,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 2.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NPJQDDMNJ85": {
-    "antiquity": 173,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9NPKKNBJ258V": {
-    "antiquity": 1172,
+    "antiquity": 1284,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
     "reviews": 99,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9NPL00W915TC": {
-    "antiquity": 123,
+  "9NPL1WSCLWQ5": {
+    "antiquity": 109,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 4.6,
+    "price": 19.99,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
       "Action",
-      "Simulation",
       "SinglePlayer"
     ]
   },
   "9NPNCD6B83WP": {
-    "antiquity": 24,
+    "antiquity": 122,
     "gamepass": false,
     "price": 12.99,
-    "rate": 4.0,
+    "rate": 3.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NPPNNXC8ZC1": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NPPK20VCTGM": {
-    "antiquity": 766,
-    "gamepass": false,
-    "price": 15.99,
-    "rate": 3.1,
-    "reviews": 98,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "Simulation",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
-  "9NPTX8WP6JHP": {
-    "antiquity": 919,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.0,
-    "reviews": 6,
-    "trial": false,
-    "tags": [
       "Shooter",
-      "SinglePlayer"
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9NPV2R926P0M": {
-    "antiquity": 146,
+    "antiquity": 258,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
-    "reviews": 24,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -11135,13 +12229,28 @@ const GAME = {
       "Free"
     ]
   },
+  "9NPX8QQQL9K4": {
+    "antiquity": 74,
+    "gamepass": false,
+    "price": 33.99,
+    "rate": 5.0,
+    "reviews": 6,
+    "trial": false,
+    "discount": 15.003753,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NPZVDCH73SX": {
-    "antiquity": 119,
+    "antiquity": 231,
     "gamepass": true,
     "price": 39.99,
-    "rate": 1.7,
-    "reviews": 228,
+    "rate": 1.9,
+    "reviews": 266,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -11149,37 +12258,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NQ0RTGTTBWL": {
-    "antiquity": 179,
-    "gamepass": false,
-    "price": 7.99,
-    "rate": 3.9,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Action",
-      "Fighting",
-      "Sports",
-      "Classics",
-      "Shooter",
-      "Racing & flying",
-      "Platformer",
-      "Music",
-      "Family",
-      "Puzzle",
-      "Simulation",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
   "9NQ0V4DWRK49": {
-    "antiquity": 1601,
+    "antiquity": 1713,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.5,
-    "reviews": 103,
+    "rate": 3.4,
+    "reviews": 105,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -11190,13 +12276,27 @@ const GAME = {
       "Free"
     ]
   },
+  "9NQ0ZTK2M328": {
+    "antiquity": 604,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.1,
+    "reviews": 17,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer"
+    ]
+  },
   "9NQ1N709V0TV": {
-    "antiquity": 66,
+    "antiquity": 178,
     "gamepass": false,
     "price": 24.49,
     "rate": 5.0,
-    "reviews": 2,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -11209,13 +12309,27 @@ const GAME = {
       "CrossPlatform"
     ]
   },
+  "9NQ1NPNF0CPB": {
+    "antiquity": 104,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 4.3,
+    "reviews": 50,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9NQ2BK4WH04X": {
-    "antiquity": 11,
+    "antiquity": 123,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -11224,12 +12338,13 @@ const GAME = {
     ]
   },
   "9NQ2CB7Z7J0W": {
-    "antiquity": 1395,
+    "antiquity": 1507,
     "gamepass": false,
     "price": 16.99,
-    "rate": 2.3,
-    "reviews": 15,
+    "rate": 2.2,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -11238,66 +12353,39 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9NQ33RF63019": {
-    "antiquity": 831,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.8,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NQ45D373W6S": {
-    "antiquity": 1437,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 2.5,
-    "reviews": 8,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Racing & flying",
-      "Simulation",
-      "SinglePlayer"
-    ]
-  },
   "9NQ4FHL918BT": {
-    "antiquity": 53,
+    "antiquity": 165,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NQ5X9KN3VZ3": {
-    "antiquity": 184,
+  "9NQ4G8C6W0H4": {
+    "antiquity": 109,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 2.9,
-    "reviews": 0,
+    "price": 25.99,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
+      "Bundle"
     ]
   },
   "9NQ5Z2WH4XDB": {
-    "antiquity": 13,
+    "antiquity": 125,
     "gamepass": false,
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Simulation",
@@ -11306,36 +12394,101 @@ const GAME = {
     ]
   },
   "9NQ6CHXKNJ3K": {
-    "antiquity": 42,
+    "antiquity": 154,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.6,
-    "reviews": 8,
+    "rate": 4.5,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
+  "9NQ6MM2WDZ9Z": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 2.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Simulation",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9NQ70KKSXSX9": {
+    "antiquity": 1374,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Fighting",
+      "Platformer",
+      "Role playing",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
   "9NQ73XB1Q5ZG": {
-    "antiquity": 801,
+    "antiquity": 913,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.9,
-    "reviews": 76,
+    "reviews": 77,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying"
     ]
   },
+  "9NQ7B5TW16R6": {
+    "antiquity": 221,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NQ7XB6HSMKF": {
+    "antiquity": 1558,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Classics",
+      "Platformer",
+      "Shooter",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9NQ87FZ67JZM": {
-    "antiquity": 654,
+    "antiquity": 766,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
     "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -11345,124 +12498,102 @@ const GAME = {
       "Free"
     ]
   },
-  "9NQ8Q7H7S40B": {
-    "antiquity": 213,
+  "9NQBFK993V7C": {
+    "antiquity": 1207,
+    "gamepass": false,
+    "price": 4.49,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 70.0467,
+    "tags": [
+      "Puzzle",
+      "Strategy",
+      "Oferta"
+    ]
+  },
+  "9NQCQSB1WRC3": {
+    "antiquity": 94,
     "gamepass": false,
     "price": 29.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NQ8WPLVZW7L": {
-    "antiquity": 346,
-    "gamepass": false,
-    "price": 7.99,
-    "rate": 2.8,
-    "reviews": 6,
-    "trial": false,
-    "tags": [
-      "Classics",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NQ91QCRL7PD": {
-    "antiquity": 194,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 1.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NQ9K86NLZB7": {
-    "antiquity": 184,
+  "9NQCRBPFDR8S": {
+    "antiquity": 110,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 50.012505,
+    "tags": [
+      "Compras",
+      "Sports",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9NQD8GFG92MS": {
+    "antiquity": 72,
+    "gamepass": false,
+    "price": 16.99,
+    "rate": 3.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
+      "Simulation",
       "Family",
       "SinglePlayer"
     ]
   },
-  "9NQCHLCXDWDG": {
-    "antiquity": 619,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NQCJ132C6KW": {
-    "antiquity": 143,
-    "gamepass": true,
-    "price": 17.99,
-    "rate": 1.3,
-    "reviews": 188,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Role playing",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
-  "9NQDR1PB57PQ": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 11.24,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "9NQHGV8VLD9B": {
-    "antiquity": 17,
+    "antiquity": 114,
     "gamepass": false,
-    "price": 3.99,
-    "rate": 0.0,
+    "price": 4.99,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Classics",
       "SinglePlayer"
     ]
   },
+  "9NQK8X1PD6QQ": {
+    "antiquity": 32,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 20.02002,
+    "tags": [
+      "Role playing",
+      "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NQKB8NZTGKK": {
-    "antiquity": 143,
+    "antiquity": 255,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.4,
     "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -11472,50 +12603,58 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NQNT54RXT6H": {
-    "antiquity": 562,
+  "9NQKBZSC6718": {
+    "antiquity": 87,
     "gamepass": false,
-    "price": 0.99,
+    "price": 10.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
-    "tags": [
-      "Cards",
-      "Puzzle"
-    ]
-  },
-  "9NQP99GC4QSJ": {
-    "antiquity": 117,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 3,
-    "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
-      "Family",
+      "Platformer",
       "SinglePlayer"
     ]
   },
-  "9NQPG7P44F8S": {
-    "antiquity": 656,
+  "9NQN84J9S50M": {
+    "antiquity": 42,
     "gamepass": false,
-    "price": 17.99,
-    "rate": 4.0,
-    "reviews": 316,
+    "price": 7.99,
+    "rate": 3.6,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle"
+      "Fighting",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9NQS7F51ZLP3": {
+    "antiquity": 4645,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 3.5,
+    "reviews": 12,
+    "trial": false,
+    "discount": 75.02501,
+    "tags": [
+      "Racing & flying",
+      "Sports",
+      "Oferta"
     ]
   },
   "9NQSVT8LH9PC": {
-    "antiquity": 122,
+    "antiquity": 234,
     "gamepass": false,
     "price": 49.99,
-    "rate": 3.7,
+    "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "Racing & flying",
@@ -11524,67 +12663,41 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NQTJK43NCQJ": {
-    "antiquity": 857,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 3.1,
-    "reviews": 14,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "Role playing",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NQTQVZ56DQP": {
-    "antiquity": 1472,
-    "gamepass": false,
-    "price": 1.49,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": true,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9NQVVHC8CQMK": {
-    "antiquity": 402,
-    "gamepass": false,
-    "price": 9.74,
-    "rate": 4.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9NQW61WN3NF1": {
-    "antiquity": 4219,
+    "antiquity": 4331,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
+  "9NQWC50SXW0C": {
+    "antiquity": 95,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "9NQWHX1V7KRJ": {
-    "antiquity": 149,
+    "antiquity": 261,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.5,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Educational",
@@ -11595,74 +12708,138 @@ const GAME = {
     ]
   },
   "9NQZ4RF4XWXQ": {
-    "antiquity": 3,
+    "antiquity": 115,
     "gamepass": false,
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9NR06QJPMBK5": {
-    "antiquity": 586,
+  "9NQZMG1G7CBN": {
+    "antiquity": 100,
     "gamepass": false,
-    "price": 26.99,
-    "rate": 4.5,
-    "reviews": 14,
+    "price": 19.99,
+    "rate": 3.1,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Family",
       "Action",
-      "Role playing",
+      "Classics",
       "SinglePlayer"
     ]
   },
+  "9NR06QJPMBK5": {
+    "antiquity": 698,
+    "gamepass": false,
+    "price": 23.99,
+    "rate": 4.5,
+    "reviews": 14,
+    "trial": false,
+    "discount": 60.010002,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NR0BF9693HC": {
-    "antiquity": 126,
+    "antiquity": 226,
     "gamepass": false,
     "price": 21.99,
     "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NR2JPJLPR8H": {
+    "antiquity": 10,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9NR2S404JX3X": {
+    "antiquity": 103,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 4.6,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
+  "9NR4B9RG8SW6": {
+    "antiquity": 81,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 4.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NR56Z50P67B": {
+    "antiquity": 110,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Action",
       "SinglePlayer"
     ]
   },
   "9NR5H934436J": {
-    "antiquity": 36,
+    "antiquity": 137,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NR5HVL66F8L": {
-    "antiquity": 310,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 2.6,
-    "reviews": 8,
-    "trial": false,
-    "tags": [
-      "Role playing",
       "SinglePlayer"
     ]
   },
   "9NR6DRNCZS5Z": {
-    "antiquity": 627,
+    "antiquity": 739,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.8,
-    "reviews": 16,
+    "rate": 4.9,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -11670,28 +12847,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NR7CHJK9TMC": {
-    "antiquity": 339,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.2,
-    "reviews": 29,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
   "9NR7LV9PB9SD": {
-    "antiquity": 915,
+    "antiquity": 1027,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
     "reviews": 30,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -11700,12 +12863,13 @@ const GAME = {
     ]
   },
   "9NR7XDNVP5SW": {
-    "antiquity": 483,
+    "antiquity": 595,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 301,
+    "reviews": 316,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -11715,25 +12879,41 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9NR832T55HJ6": {
+    "antiquity": 100,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
   "9NR8V6M3QH57": {
-    "antiquity": 33,
+    "antiquity": 145,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
     ]
   },
   "9NR8ZBSJQ4FD": {
-    "antiquity": 926,
+    "antiquity": 1038,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
     "reviews": 55,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -11742,12 +12922,13 @@ const GAME = {
     ]
   },
   "9NRBH9HS807L": {
-    "antiquity": 668,
+    "antiquity": 780,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
     "reviews": 103,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -11755,25 +12936,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NRCXGNW2LHT": {
-    "antiquity": 145,
-    "gamepass": false,
-    "price": 26.99,
-    "rate": 4.5,
-    "reviews": 31,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9NRDG9Q1V2XM": {
-    "antiquity": 149,
+    "antiquity": 261,
     "gamepass": false,
     "price": 79.99,
-    "rate": 4.3,
-    "reviews": 7,
+    "rate": 4.4,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -11785,100 +12955,67 @@ const GAME = {
     ]
   },
   "9NRDNGQJLD96": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9NRFRWFVM8WQ": {
-    "antiquity": 115,
+  "9NRHBKDPTWCQ": {
+    "antiquity": 4352,
     "gamepass": false,
-    "price": 89.99,
-    "rate": 2.2,
+    "price": 14.99,
+    "rate": 4.9,
+    "reviews": 20,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter"
+    ]
+  },
+  "9NRJZL3LPBBZ": {
+    "antiquity": 1936,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.8,
     "reviews": 4,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
+  "9NRKMH6W45Q4": {
+    "antiquity": 73,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 3.6,
+    "reviews": 59,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NRFS8111GN3": {
-    "antiquity": 662,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 5.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Sports"
-    ]
-  },
-  "9NRH78B682L8": {
-    "antiquity": 1179,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.6,
-    "reviews": 37,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9NRHBKDPTWCQ": {
-    "antiquity": 4240,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.9,
-    "reviews": 18,
-    "trial": false,
-    "tags": [
-      "Shooter"
-    ]
-  },
-  "9NRJV9RPS97D": {
-    "antiquity": 128,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 5.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NRKZQQS258Q": {
-    "antiquity": 213,
-    "gamepass": false,
-    "price": 16.99,
-    "rate": 3.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9NRL0NM003WW": {
-    "antiquity": 139,
+    "antiquity": 251,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.6,
-    "reviews": 8,
+    "rate": 3.2,
+    "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -11889,27 +13026,14 @@ const GAME = {
       "Free"
     ]
   },
-  "9NRMDP5Q5H0H": {
-    "antiquity": 188,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 4.0,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
   "9NRMXFFD3K13": {
-    "antiquity": 577,
+    "antiquity": 689,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
-    "reviews": 57,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -11922,12 +13046,13 @@ const GAME = {
     ]
   },
   "9NRN0G8KJPSL": {
-    "antiquity": 1710,
+    "antiquity": 1822,
     "gamepass": false,
     "price": 0.99,
     "rate": 3.1,
     "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -11937,13 +13062,60 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9NRN3D584LD3": {
+    "antiquity": 745,
+    "gamepass": false,
+    "price": 27.99,
+    "rate": 3.2,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Action",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9NRNSQ3QNBZ8": {
+    "antiquity": 884,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9NRPGJZQRP2M": {
+    "antiquity": 4,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Educational",
+      "Puzzle",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
   "9NRPPQHL2MZM": {
-    "antiquity": 1598,
+    "antiquity": 1710,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 90,
+    "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -11956,28 +13128,14 @@ const GAME = {
       "Free"
     ]
   },
-  "9NRPQ7Z4Q2D7": {
-    "antiquity": 1063,
-    "gamepass": false,
-    "price": 74.99,
-    "rate": 3.8,
-    "reviews": 99,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9NRPTTJ94PCK": {
-    "antiquity": 1710,
+    "antiquity": 1822,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.6,
-    "reviews": 30,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "LocalMultiPlayer",
@@ -11986,26 +13144,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NRPWX7GB616": {
-    "antiquity": 416,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Sports",
-      "SinglePlayer"
-    ]
-  },
   "9NRQDPTQGDFB": {
-    "antiquity": 33,
+    "antiquity": 135,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Platformer",
@@ -12013,12 +13159,13 @@ const GAME = {
     ]
   },
   "9NRRS7MNZM4B": {
-    "antiquity": 5,
+    "antiquity": 115,
     "gamepass": false,
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Action",
@@ -12027,75 +13174,41 @@ const GAME = {
     ]
   },
   "9NRS410K8WMJ": {
-    "antiquity": 1209,
+    "antiquity": 1321,
     "gamepass": false,
-    "price": 49.99,
+    "price": 14.99,
     "rate": 3.9,
     "reviews": 27,
     "trial": false,
+    "discount": 70.014,
     "tags": [
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NRSCXJVLKHH": {
-    "antiquity": 1250,
-    "gamepass": false,
-    "price": 3.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NRVQSNK91GK": {
-    "antiquity": 75,
+    "antiquity": 187,
     "gamepass": false,
-    "price": 47.99,
-    "rate": 4.0,
-    "reviews": 48,
+    "price": 59.99,
+    "rate": 3.8,
+    "reviews": 150,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9NRVV3NG9TT4": {
-    "antiquity": 93,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Classics",
-      "SinglePlayer"
-    ]
-  },
-  "9NRWFMZK3N9J": {
-    "antiquity": 213,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9NRWLT874D38": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 24.99,
-    "rate": 0.0,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -12104,38 +13217,55 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NS056CFGRS1": {
-    "antiquity": 83,
+  "9NRX55Z58QNV": {
+    "antiquity": 97,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.2,
-    "reviews": 172,
+    "price": 14.99,
+    "rate": 4.7,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9NS027TDJMXP": {
+    "antiquity": 81,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 4.8,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
+    "tags": [
       "Bundle",
+      "SinglePlayer",
       "MultiPlayer"
     ]
   },
   "9NS096G1K57J": {
-    "antiquity": 1504,
+    "antiquity": 1616,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.6,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "9NS2JVJPFGTQ": {
-    "antiquity": 689,
+    "antiquity": 801,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
     "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -12145,25 +13275,40 @@ const GAME = {
       "Free"
     ]
   },
+  "9NS2RVCMXH60": {
+    "antiquity": 104,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
   "9NS2WF6GVWQ6": {
-    "antiquity": 348,
+    "antiquity": 460,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SinglePlayer",
       "Free"
     ]
   },
   "9NS3673HVH41": {
-    "antiquity": 486,
+    "antiquity": 598,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.6,
-    "reviews": 173,
+    "reviews": 183,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -12174,27 +13319,29 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NS3T0BF0HC8": {
-    "antiquity": 100,
+  "9NS5GVWS8QPD": {
+    "antiquity": 803,
     "gamepass": false,
-    "price": 10.99,
-    "rate": 3.9,
-    "reviews": 0,
+    "price": 24.99,
+    "rate": 3.7,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Family",
-      "Simulation",
-      "Puzzle",
-      "SinglePlayer"
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9NS66QNVR00N": {
-    "antiquity": 906,
+    "antiquity": 1018,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
-    "reviews": 50,
+    "reviews": 51,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -12204,12 +13351,13 @@ const GAME = {
     ]
   },
   "9NS671JN9FBH": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 79.99,
-    "rate": 3.9,
-    "reviews": 18,
+    "rate": 4.0,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -12219,28 +13367,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NS6HRJ20RPC": {
-    "antiquity": 128,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9NS86BQ33SPX": {
-    "antiquity": 814,
+    "antiquity": 926,
     "gamepass": false,
-    "price": 16.99,
-    "rate": 4.6,
-    "reviews": 5,
+    "price": 17.99,
+    "rate": 4.2,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -12251,52 +13385,114 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NS8F5C12X0N": {
-    "antiquity": 1257,
+  "9NS8FFT26NJF": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 2.49,
-    "rate": 2.9,
+    "price": 4.99,
+    "rate": 2.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Shooter",
       "Action",
-      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
+  "9NS9BRXC545T": {
+    "antiquity": 16,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.1,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Family",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9NSBBXF5S8PZ": {
+    "antiquity": 74,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.1,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Cards",
+      "Classics",
+      "Strategy",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "9NSBR0CM6M1K": {
+    "antiquity": 403,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 50.033356,
+    "tags": [
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NSBX56ZNP7X": {
-    "antiquity": 311,
-    "gamepass": true,
+    "antiquity": 423,
+    "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
-    "reviews": 80,
+    "reviews": 94,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
-      "SinglePlayer",
-      "GamePass"
+      "SinglePlayer"
+    ]
+  },
+  "9NSBZNCJ4BB6": {
+    "antiquity": 87,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 4.8,
+    "reviews": 31,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
     ]
   },
   "9NSCJVM7D76S": {
-    "antiquity": 4,
+    "antiquity": 116,
     "gamepass": false,
     "price": 59.99,
-    "rate": 4.1,
-    "reviews": 11,
+    "rate": 3.9,
+    "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "9NSCS1KS9Z0W": {
-    "antiquity": 1024,
+    "antiquity": 1136,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.0,
     "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -12306,25 +13502,42 @@ const GAME = {
     ]
   },
   "9NSD4HTWM8HT": {
-    "antiquity": 178,
+    "antiquity": 290,
     "gamepass": false,
     "price": 79.99,
-    "rate": 3.9,
-    "reviews": 7,
-    "trial": false,
+    "rate": 3.6,
+    "reviews": 33,
+    "trial": true,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NSH67S5R3V4": {
-    "antiquity": 33,
+  "9NSFR6DXPF77": {
+    "antiquity": 374,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 0.0,
+    "price": 29.99,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "Simulation",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9NSH67S5R3V4": {
+    "antiquity": 145,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -12332,64 +13545,57 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NSHP02MNJ45": {
-    "antiquity": 100,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 3.4,
-    "reviews": 29,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "9NSL68D814GC": {
-    "antiquity": 1535,
+    "antiquity": 1647,
     "gamepass": true,
     "price": 9.99,
     "rate": 3.5,
-    "reviews": 77,
+    "reviews": 78,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9NSN0BPFCJDP": {
-    "antiquity": 171,
+  "9NSLQMF111VP": {
+    "antiquity": 66,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.3,
-    "reviews": 9,
+    "price": 26.99,
+    "rate": 0.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
+      "SinglePlayer",
       "LocalMultiPlayer",
-      "SinglePlayer"
+      "MultiPlayer"
     ]
   },
-  "9NSPSNLV2XQL": {
-    "antiquity": 221,
+  "9NSN96Q4K6FF": {
+    "antiquity": 61,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 3,
+    "price": 19.99,
+    "rate": 4.4,
+    "reviews": 51,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Strategy",
-      "Classics",
-      "SinglePlayer"
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9NSQBVH6ZC9Z": {
-    "antiquity": 955,
+    "antiquity": 1067,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.2,
-    "reviews": 21,
+    "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Family",
@@ -12400,13 +13606,33 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9NSQLMXB0F4F": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 20.49,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Cards",
+      "Family",
+      "Simulation",
+      "Classics",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9NSR1MJQ5R5H": {
-    "antiquity": 1298,
+    "antiquity": 1410,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
     "reviews": 18,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -12414,109 +13640,89 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NSR4RN8VGMF": {
-    "antiquity": 100,
+  "9NSRXKQ4XSWN": {
+    "antiquity": 109,
     "gamepass": false,
-    "price": 27.99,
-    "rate": 4.6,
+    "price": 19.99,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Strategy",
-      "Role playing",
-      "Classics",
+      "Sports",
+      "Simulation",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9NSS2JPDTN2X": {
+    "antiquity": 59,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
       "SinglePlayer"
-    ]
-  },
-  "9NSRXC0BMSXH": {
-    "antiquity": 370,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 2.3,
-    "reviews": 202,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NSTHB5F1702": {
-    "antiquity": 258,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 4.0,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
     ]
   },
   "9NSV7WJ9QJPZ": {
-    "antiquity": 17,
+    "antiquity": 129,
     "gamepass": false,
     "price": 59.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9NSWJKRV55V1": {
-    "antiquity": 158,
+  "9NSX10LQRZ3C": {
+    "antiquity": 73,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 4.2,
+    "price": 12.99,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Action",
+      "Simulation",
+      "Strategy",
       "SinglePlayer"
     ]
   },
-  "9NSXZLKHRQJQ": {
-    "antiquity": 97,
+  "9NSXDRXPFM5W": {
+    "antiquity": 110,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
+    "price": 32.99,
+    "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 45.007496,
     "tags": [
-      "Action",
-      "Strategy",
-      "Cards",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9NSZB8SNDWW4": {
-    "antiquity": 179,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Fighting",
-      "Action",
-      "SinglePlayer"
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9NT1KKVGMZFX": {
-    "antiquity": 129,
+    "antiquity": 241,
     "gamepass": false,
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Action",
@@ -12524,12 +13730,13 @@ const GAME = {
     ]
   },
   "9NT1ZBBV6WH6": {
-    "antiquity": 752,
+    "antiquity": 864,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
-    "reviews": 715,
+    "reviews": 778,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -12541,15 +13748,28 @@ const GAME = {
       "Free"
     ]
   },
-  "9NT3WC6RKBVQ": {
-    "antiquity": 353,
-    "gamepass": true,
-    "price": 0.0,
-    "rate": 2.8,
-    "reviews": 205,
+  "9NT2824TW8VR": {
+    "antiquity": 41,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.8,
+    "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "SoloGamePass",
+      "Compras",
+      "Bundle"
+    ]
+  },
+  "9NT3WC6RKBVQ": {
+    "antiquity": 465,
+    "gamepass": true,
+    "price": 39.99,
+    "rate": 3.1,
+    "reviews": 255,
+    "trial": false,
+    "discount": 0,
+    "tags": [
       "Compras",
       "Action",
       "Role playing",
@@ -12560,12 +13780,13 @@ const GAME = {
     ]
   },
   "9NT4X7P8B9NB": {
-    "antiquity": 1970,
+    "antiquity": 2082,
     "gamepass": true,
-    "price": 14.99,
+    "price": 29.99,
     "rate": 3.6,
-    "reviews": 2501,
+    "reviews": 2516,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -12576,12 +13797,13 @@ const GAME = {
     ]
   },
   "9NT57N0G00Q9": {
-    "antiquity": 490,
+    "antiquity": 602,
     "gamepass": false,
     "price": 0.0,
-    "rate": 1.8,
-    "reviews": 5,
+    "rate": 1.7,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Cards",
       "Educational",
@@ -12591,12 +13813,13 @@ const GAME = {
     ]
   },
   "9NT70HH77RLP": {
-    "antiquity": 11,
+    "antiquity": 123,
     "gamepass": false,
     "price": 79.99,
-    "rate": 4.5,
-    "reviews": 4,
+    "rate": 4.7,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -12605,12 +13828,13 @@ const GAME = {
     ]
   },
   "9NT7FNZ0WJM1": {
-    "antiquity": 93,
+    "antiquity": 205,
     "gamepass": false,
     "price": 79.99,
     "rate": 2.1,
-    "reviews": 7,
-    "trial": false,
+    "reviews": 15,
+    "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -12619,26 +13843,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NT956N9XCFN": {
-    "antiquity": 321,
-    "gamepass": false,
-    "price": 33.49,
-    "rate": 3.6,
-    "reviews": 100,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9NT9R76CMJ4S": {
-    "antiquity": 698,
+    "antiquity": 810,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.1,
-    "reviews": 17,
+    "rate": 4.2,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -12648,78 +13860,85 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NTDXZTCQLKR": {
-    "antiquity": 278,
+  "9NTDJV24HPW8": {
+    "antiquity": 97,
     "gamepass": false,
-    "price": 0.99,
-    "rate": 4.0,
-    "reviews": 1,
+    "price": 14.99,
+    "rate": 4.4,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
-      "Puzzle"
-    ]
-  },
-  "9NTGBNN1CZ25": {
-    "antiquity": 145,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.5,
-    "reviews": 59,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
+      "SinglePlayer"
     ]
   },
   "9NTGH3ZZ3PX3": {
-    "antiquity": 7981,
+    "antiquity": 8093,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
     "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
-  "9NTHQWXTL5XR": {
-    "antiquity": 585,
+  "9NTJTN5582BD": {
+    "antiquity": 88,
     "gamepass": false,
-    "price": 6.49,
-    "rate": 4.2,
-    "reviews": 4,
+    "price": 39.99,
+    "rate": 3.4,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Platformer",
       "Shooter",
-      "SinglePlayer"
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9NTPMJ9G1V8L": {
+    "antiquity": 25,
+    "gamepass": false,
+    "price": 4.79,
+    "rate": 3.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 20.03339,
+    "tags": [
+      "Shooter",
+      "Action",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NTPMT5Q7J06": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 35.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 17.99,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 50.0139,
     "tags": [
       "Compras",
-      "Bundle"
+      "Bundle",
+      "Oferta"
     ]
   },
   "9NTQ6MLD45VB": {
-    "antiquity": 47,
+    "antiquity": 145,
     "gamepass": false,
     "price": 11.99,
-    "rate": 0.0,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Classics",
@@ -12727,65 +13946,96 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NTS4D892SMW": {
-    "antiquity": 348,
+  "9NTQMM7RLRJ3": {
+    "antiquity": 101,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 3.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Shooter",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NTSL5H2QJCN": {
-    "antiquity": 131,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.0,
+    "price": 14.99,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Family",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9NTTZD91VZJR": {
-    "antiquity": 507,
+  "9NTRS771L8HL": {
+    "antiquity": 838,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 3.0,
-    "reviews": 6,
+    "price": 39.99,
+    "rate": 4.8,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9NTTBXDXC9G4": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 21.49,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NTWFQK02TWR": {
+    "antiquity": 103,
+    "gamepass": false,
+    "price": 36.99,
+    "rate": 2.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9NTWM8PXNLD9": {
-    "antiquity": 25,
+    "antiquity": 137,
     "gamepass": false,
     "price": 0.99,
     "rate": 4.2,
-    "reviews": 172,
+    "reviews": 189,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
+  "9NTWZGQG2QFB": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9NTX07HR22TG": {
-    "antiquity": 642,
+    "antiquity": 754,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
     "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -12793,13 +14043,31 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9NTX0QS9N0N6": {
+    "antiquity": 75,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 25.031292,
+    "tags": [
+      "Action",
+      "Shooter",
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NTX53L7BDCQ": {
-    "antiquity": 1284,
+    "antiquity": 1396,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.0,
-    "reviews": 87,
+    "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -12807,282 +14075,258 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9NTXHZQQNM2V": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NTXL8HRZ546": {
+    "antiquity": 75,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
   "9NTXRSH6DTRB": {
-    "antiquity": 68,
+    "antiquity": 180,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NTXXDBK3BWR": {
-    "antiquity": 963,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 5.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Classics",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
   "9NV0QGJFSKBD": {
-    "antiquity": 88,
+    "antiquity": 200,
     "gamepass": false,
     "price": 42.49,
     "rate": 3.5,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NV3XGZVC48N": {
-    "antiquity": 191,
+  "9NV4BVHMWC04": {
+    "antiquity": 926,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 4.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9NV4S56JBDLX": {
-    "antiquity": 198,
-    "gamepass": false,
-    "price": 79.99,
+    "price": 9.99,
     "rate": 4.6,
-    "reviews": 91,
+    "reviews": 5,
     "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NV5PDZ2SDBL": {
-    "antiquity": 212,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
-      "SinglePlayer"
+      "Shooter",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
-  "9NV5VZ21HDT3": {
-    "antiquity": 209,
+  "9NV4S56JBDLX": {
+    "antiquity": 310,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 1.6,
-    "reviews": 0,
+    "price": 79.99,
+    "rate": 4.6,
+    "reviews": 123,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Fighting",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9NV7R0PMFXNR": {
-    "antiquity": 198,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 5.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
+      "Compras",
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NV8BWGH15GN": {
-    "antiquity": 856,
+  "9NV6JR32F1XG": {
+    "antiquity": 1215,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.1,
-    "reviews": 11,
+    "price": 2.99,
+    "rate": 2.2,
+    "reviews": 0,
     "trial": false,
+    "discount": 80.05337,
     "tags": [
-      "Shooter"
+      "Action",
+      "Role playing",
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NV94S01M4BS": {
-    "antiquity": 674,
+    "antiquity": 786,
     "gamepass": false,
     "price": 11.99,
-    "rate": 4.6,
-    "reviews": 39,
+    "rate": 4.7,
+    "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
       "Role playing",
       "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9NVB18KPHC2V": {
-    "antiquity": 193,
-    "gamepass": false,
-    "price": 16.99,
-    "rate": 5.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "Action",
       "SinglePlayer"
     ]
   },
   "9NVBKDF85W8T": {
-    "antiquity": 543,
+    "antiquity": 655,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 136,
+    "reviews": 137,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NVBKJDSJLC3": {
-    "antiquity": 209,
+  "9NVBQZ9MBWRD": {
+    "antiquity": 94,
     "gamepass": false,
-    "price": 3.99,
-    "rate": 3.6,
+    "price": 19.99,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "SinglePlayer"
+      "Classics",
+      "Sports",
+      "Racing & flying",
+      "MOBA",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform"
     ]
   },
   "9NVCNM9DQ839": {
-    "antiquity": 1188,
+    "antiquity": 1300,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.2,
-    "reviews": 21,
+    "rate": 4.3,
+    "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9NVDZ0WBD4F7": {
-    "antiquity": 101,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9NVF9M4T9V51": {
-    "antiquity": 1025,
+    "antiquity": 1137,
     "gamepass": false,
     "price": 8.49,
     "rate": 4.0,
     "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9NVFCCC73JC1": {
-    "antiquity": 186,
+  "9NVFKGHJDHCG": {
+    "antiquity": 100,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 4.7,
+    "price": 9.99,
+    "rate": 2.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
+      "Action",
       "SinglePlayer"
     ]
   },
   "9NVFL2JTB2H6": {
-    "antiquity": 104,
+    "antiquity": 216,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9NVJ4L71DF5Q": {
-    "antiquity": 662,
+  "9NVFN0JC5WLK": {
+    "antiquity": 80,
     "gamepass": false,
-    "price": 7.49,
-    "rate": 3.2,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9NVJGRV0X1ZD": {
-    "antiquity": 104,
-    "gamepass": false,
-    "price": 2.99,
+    "price": 99.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
-      "Family",
-      "Classics",
+      "Compras",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9NVJM3BH2R0X": {
-    "antiquity": 74,
+    "antiquity": 186,
     "gamepass": false,
     "price": 24.99,
-    "rate": 4.3,
-    "reviews": 6,
+    "rate": 4.0,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
+  "9NVJRQK5KSNT": {
+    "antiquity": 66,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9NVJWR50KRXX": {
-    "antiquity": 922,
+    "antiquity": 1034,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.6,
-    "reviews": 40,
+    "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -13091,12 +14335,13 @@ const GAME = {
     ]
   },
   "9NVK1W7L093S": {
-    "antiquity": 1724,
+    "antiquity": 1836,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -13105,66 +14350,45 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9NVLHZJ0MG3K": {
+  "9NVLSW745SL0": {
     "antiquity": 136,
     "gamepass": false,
-    "price": 20.99,
-    "rate": 3.5,
-    "reviews": 57,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9NVLSW745SL0": {
-    "antiquity": 24,
-    "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9NVN8NSXDK41": {
-    "antiquity": 787,
+  "9NVNS4DPCLS3": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 2.9,
-    "reviews": 17,
+    "price": 9.99,
+    "rate": 3.7,
+    "reviews": 0,
     "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "Platformer",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
-  "9NVPM74DD797": {
-    "antiquity": 1160,
-    "gamepass": false,
-    "price": 3.99,
-    "rate": 3.6,
-    "reviews": 11,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
-      "SinglePlayer"
+      "Cards",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9NVPSTC08PFQ": {
-    "antiquity": 65,
+    "antiquity": 165,
     "gamepass": false,
     "price": 3.99,
-    "rate": 4.7,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -13172,41 +14396,26 @@ const GAME = {
     ]
   },
   "9NVPWX0148T2": {
-    "antiquity": 514,
+    "antiquity": 626,
     "gamepass": false,
-    "price": 19.99,
+    "price": 99.99,
     "rate": 5.0,
-    "reviews": 3,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NVR0JZ6P8FZ": {
-    "antiquity": 130,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "Puzzle",
-      "Sports",
-      "Strategy",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9NVR4ZQKNBSB": {
-    "antiquity": 1189,
+    "antiquity": 1301,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 225,
+    "reviews": 242,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -13215,38 +14424,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NVR6HDTQZT9": {
-    "antiquity": 831,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 4.0,
-    "reviews": 94,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9NVR7GXMNTV4": {
-    "antiquity": 733,
-    "gamepass": false,
-    "price": 12.49,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
   "9NVRJS95FLM9": {
-    "antiquity": 758,
+    "antiquity": 870,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 74,
+    "reviews": 77,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Cards",
@@ -13255,25 +14440,28 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NVRW2F33BTT": {
-    "antiquity": 205,
+  "9NVSWB0TQTVN": {
+    "antiquity": 97,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "price": 4.99,
+    "rate": 2.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Family",
+      "Strategy",
       "SinglePlayer"
     ]
   },
   "9NVVJ8TBD7KP": {
-    "antiquity": 1347,
+    "antiquity": 1459,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
     "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -13281,79 +14469,85 @@ const GAME = {
     ]
   },
   "9NVVSHQ771WG": {
-    "antiquity": 1263,
+    "antiquity": 1375,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.3,
     "reviews": 129,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NVW67QBRWKG": {
-    "antiquity": 191,
+  "9NVX0ZB8C8QZ": {
+    "antiquity": 47,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 2.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Simulation",
-      "Racing & flying",
-      "Classics",
-      "SinglePlayer"
-    ]
-  },
-  "9NVXV9CPJ0JB": {
-    "antiquity": 90,
-    "gamepass": false,
-    "price": 7.49,
+    "price": 23.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
+  "9NW18N652BCM": {
+    "antiquity": 82,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
   "9NW1D5D7L22V": {
-    "antiquity": 1081,
+    "antiquity": 1193,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
-    "reviews": 802,
+    "reviews": 828,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NW2PXCRC7D9": {
-    "antiquity": 212,
+  "9NW2M2MDWJB2": {
+    "antiquity": 37,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Action",
-      "Role playing",
+      "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
   "9NW2XNZLVSWW": {
-    "antiquity": 222,
+    "antiquity": 334,
     "gamepass": true,
     "price": 9.99,
-    "rate": 3.9,
-    "reviews": 27,
+    "rate": 3.8,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Simulation",
@@ -13366,12 +14560,13 @@ const GAME = {
     ]
   },
   "9NW3ZWP70KSW": {
-    "antiquity": 44,
+    "antiquity": 153,
     "gamepass": false,
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -13379,154 +14574,158 @@ const GAME = {
     ]
   },
   "9NW4Z3HPJVKW": {
-    "antiquity": 718,
+    "antiquity": 830,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.0,
-    "reviews": 47,
+    "rate": 3.1,
+    "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
+  "9NW4ZP84H25L": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Cards",
+      "Family",
+      "Puzzle",
+      "Educational",
+      "LocalMultiPlayer"
+    ]
+  },
   "9NW5KZ01QG5V": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NW6LB2HXH17": {
-    "antiquity": 221,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 4.5,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "MultiPlayer"
-    ]
-  },
-  "9NW7M71V29DT": {
-    "antiquity": 81,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 3.6,
-    "reviews": 29,
-    "trial": false,
-    "tags": [
-      "Action",
-      "GamePass"
-    ]
-  },
   "9NW7S04QK7XV": {
-    "antiquity": 828,
+    "antiquity": 940,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
     "reviews": 129,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NW8LZCVJMQF": {
-    "antiquity": 165,
+  "9NW9JTKTWKCX": {
+    "antiquity": 107,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.1,
+    "price": 8.59,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NWCGTMFLTG6": {
-    "antiquity": 318,
+  "9NWB4QLXXGJR": {
+    "antiquity": 1249,
     "gamepass": false,
-    "price": 5.49,
-    "rate": 1.7,
-    "reviews": 3,
+    "price": 1.59,
+    "rate": 4.2,
+    "reviews": 0,
     "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NWDHD37NHBQ": {
-    "antiquity": 205,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.8,
-    "reviews": 4,
-    "trial": true,
+    "discount": 80.10013,
     "tags": [
       "Puzzle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9NWBWVZNCWGJ": {
+    "antiquity": 877,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Puzzle",
+      "Sports",
+      "SinglePlayer"
+    ]
+  },
+  "9NWF05VWQCS8": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
       "Action",
+      "Fighting",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9NWGC41X5W1Z": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 2.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Classics",
       "Family",
       "SinglePlayer"
     ]
   },
-  "9NWDL03WDJP1": {
-    "antiquity": 179,
-    "gamepass": false,
-    "price": 89.99,
-    "rate": 4.1,
-    "reviews": 206,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9NWGTQ9N9SDK": {
-    "antiquity": 1350,
+    "antiquity": 1462,
     "gamepass": false,
     "price": 14.99,
-    "rate": 3.1,
+    "rate": 3.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9NWKG1K9XGBR": {
-    "antiquity": 177,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Platformer",
-      "Shooter",
-      "Fighting",
       "Action",
       "SinglePlayer"
     ]
   },
   "9NWLPG23T46V": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": true,
     "price": 39.99,
-    "rate": 4.4,
-    "reviews": 22,
+    "rate": 4.2,
+    "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -13535,24 +14734,26 @@ const GAME = {
     ]
   },
   "9NWMJR0C0FRS": {
-    "antiquity": 5,
+    "antiquity": 117,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
-    "reviews": 600,
+    "reviews": 631,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9NWNQC8H80RV": {
-    "antiquity": 187,
+    "antiquity": 299,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
-    "reviews": 51,
+    "reviews": 59,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -13561,67 +14762,115 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NWRD9D8V6T5": {
-    "antiquity": 201,
+  "9NWPK5KCH6KF": {
+    "antiquity": 67,
     "gamepass": false,
-    "price": 14.99,
+    "price": 29.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Shooter",
-      "Strategy",
+      "Platformer",
       "Action",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9NWWQQL5SQ5N": {
-    "antiquity": 95,
-    "gamepass": false,
-    "price": 2.49,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Strategy",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9NWXRV3P004H": {
-    "antiquity": 887,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 3.2,
-    "reviews": 6,
+  "9NWQ686JB33G": {
+    "antiquity": 89,
+    "gamepass": true,
+    "price": 39.99,
+    "rate": 3.6,
+    "reviews": 84,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "Strategy",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9NWRTFDFVSBX": {
+    "antiquity": 44,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 1.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9NWVSHRZC4Q0": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 3.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9NWVWC5MZSXC": {
+    "antiquity": 62,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.7,
+    "reviews": 23,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9NWZ2RVZT163": {
-    "antiquity": 114,
+  "9NWXRV3P004H": {
+    "antiquity": 999,
     "gamepass": false,
-    "price": 7.99,
-    "rate": 5.0,
-    "reviews": 12,
+    "price": 59.99,
+    "rate": 3.3,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Shooter",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NWZ8VVR0JVD": {
+    "antiquity": 1325,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Strategy",
       "SinglePlayer"
     ]
   },
   "9NWZGX09JMZH": {
-    "antiquity": 12,
+    "antiquity": 116,
     "gamepass": false,
-    "price": 15.99,
-    "rate": 0.0,
+    "price": 19.99,
+    "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -13630,36 +14879,118 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9NX008DVW20T": {
+    "antiquity": 452,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.8,
+    "reviews": 20,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NX07LBJ93XS": {
+    "antiquity": 48,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 1.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Family",
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9NX1KVDWPZBK": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 54.99,
+    "rate": 4.7,
+    "reviews": 108,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9NX284JVG8N7": {
+    "antiquity": 100,
+    "gamepass": false,
+    "price": 2.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Family",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
   "9NX2CDFGBBH1": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 119.99,
-    "rate": 3.4,
-    "reviews": 14,
+    "rate": 3.6,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
+  "9NX2FLJQ8QBN": {
+    "antiquity": 100,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 4.3,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "MOBA",
+      "Simulation",
+      "Sports",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
   "9NX3BNWNZ9V4": {
-    "antiquity": 59,
+    "antiquity": 171,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
-    "reviews": 836,
+    "reviews": 853,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "9NX3HX9Z4QXZ": {
-    "antiquity": 1173,
+    "antiquity": 1285,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
-    "reviews": 5,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -13667,12 +14998,13 @@ const GAME = {
     ]
   },
   "9NX6FB6V0L2N": {
-    "antiquity": 45,
+    "antiquity": 157,
     "gamepass": false,
     "price": 109.99,
     "rate": 3.3,
-    "reviews": 185,
+    "reviews": 190,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -13682,50 +15014,85 @@ const GAME = {
     ]
   },
   "9NX6K9HN4F4K": {
-    "antiquity": 483,
+    "antiquity": 595,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.5,
-    "reviews": 191,
+    "rate": 4.6,
+    "reviews": 204,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9NX6TD1K3HVM": {
-    "antiquity": 605,
+  "9NX6PN3BHLN2": {
+    "antiquity": 956,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 6,
+    "price": 7.49,
+    "rate": 2.6,
+    "reviews": 0,
     "trial": false,
+    "discount": 75.02501,
     "tags": [
-      "Shooter",
-      "SinglePlayer"
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9NX763V74544": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 3.5,
+    "reviews": 143,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
     ]
   },
   "9NX8WP3G9ZZD": {
-    "antiquity": 30,
+    "antiquity": 142,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Action",
       "SinglePlayer"
     ]
   },
+  "9NX9H4RKS43Q": {
+    "antiquity": 24,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 1.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "Action",
+      "Simulation",
+      "Sports",
+      "SinglePlayer"
+    ]
+  },
   "9NX9LJ5JSWH8": {
-    "antiquity": 985,
+    "antiquity": 1097,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 52,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -13733,12 +15100,13 @@ const GAME = {
     ]
   },
   "9NXBH70B3CVP": {
-    "antiquity": 46,
+    "antiquity": 158,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
-    "reviews": 23,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -13746,52 +15114,40 @@ const GAME = {
     ]
   },
   "9NXCSWCQTNFG": {
-    "antiquity": 1173,
+    "antiquity": 1285,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.4,
-    "reviews": 266,
+    "reviews": 280,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9NXCXBGNVQ3W": {
-    "antiquity": 115,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 3.1,
-    "reviews": 23,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9NXDR9SSKTJ4": {
-    "antiquity": 164,
+    "antiquity": 276,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NXF20V1TKGK": {
-    "antiquity": 3,
+    "antiquity": 115,
     "gamepass": false,
     "price": 84.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -13799,51 +15155,42 @@ const GAME = {
     ]
   },
   "9NXFTSM1W1BV": {
-    "antiquity": 86,
+    "antiquity": 198,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.8,
-    "reviews": 0,
+    "rate": 4.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9NXGGWMFM446": {
-    "antiquity": 108,
-    "gamepass": true,
-    "price": 14.99,
-    "rate": 2.5,
-    "reviews": 115,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "GamePass"
-    ]
-  },
-  "9NXHW06GR1ZH": {
-    "antiquity": 149,
+  "9NXJQW98VDN2": {
+    "antiquity": 1202,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.6,
-    "reviews": 0,
-    "trial": false,
+    "price": 19.99,
+    "rate": 4.6,
+    "reviews": 9,
+    "trial": true,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
+      "Racing & flying",
+      "Shooter",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
   "9NXK0DPRSN21": {
-    "antiquity": 31,
+    "antiquity": 143,
     "gamepass": false,
     "price": 17.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -13852,40 +15199,56 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9NXLK4JQ4TPC": {
-    "antiquity": 138,
+  "9NXK1JN52PRM": {
+    "antiquity": 6,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.0,
-    "reviews": 3,
-    "trial": false,
+    "price": 14.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": true,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Strategy",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "9NXM6K0WF0X2": {
+    "antiquity": 1184,
+    "gamepass": false,
+    "price": 30.49,
+    "rate": 4.5,
+    "reviews": 15,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
       "SinglePlayer"
     ]
   },
   "9NXMBTB02ZSF": {
-    "antiquity": 580,
-    "gamepass": true,
+    "antiquity": 692,
+    "gamepass": false,
     "price": 39.99,
     "rate": 2.8,
-    "reviews": 117,
+    "reviews": 133,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer",
-      "MultiPlayer",
-      "GamePass"
+      "MultiPlayer"
     ]
   },
   "9NXNST9MKMK1": {
-    "antiquity": 1266,
+    "antiquity": 1378,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.0,
-    "reviews": 47,
+    "reviews": 50,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -13894,24 +15257,39 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9NXNT26VB1HG": {
+    "antiquity": 111,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
   "9NXP19FZ7DZ4": {
-    "antiquity": 1088,
+    "antiquity": 1200,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.9,
     "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "9NXR6469DM2P": {
-    "antiquity": 1697,
+    "antiquity": 1809,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.6,
-    "reviews": 217,
+    "reviews": 222,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -13921,25 +15299,43 @@ const GAME = {
     ]
   },
   "9NXRSH726NJX": {
-    "antiquity": 156,
+    "antiquity": 268,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
+  "9NXTCLM90W7V": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 109.99,
+    "rate": 2.5,
+    "reviews": 34,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9NXTHJWTTPX1": {
-    "antiquity": 90,
+    "antiquity": 191,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -13947,24 +15343,27 @@ const GAME = {
     ]
   },
   "9NXV814FQHLQ": {
-    "antiquity": 166,
+    "antiquity": 278,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.6,
-    "reviews": 0,
+    "price": 15.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 60.015003,
     "tags": [
       "Simulation",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NXVC0482QS5": {
-    "antiquity": 1031,
+    "antiquity": 1143,
     "gamepass": true,
     "price": 39.99,
-    "rate": 4.7,
-    "reviews": 185,
+    "rate": 4.8,
+    "reviews": 196,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -13972,25 +15371,28 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NXW0SV6QDKM": {
-    "antiquity": 730,
+  "9NXW9LLX76Q9": {
+    "antiquity": 80,
     "gamepass": false,
-    "price": 25.99,
-    "rate": 4.9,
-    "reviews": 13,
+    "price": 59.99,
+    "rate": 4.7,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9NXWZBWB9HX5": {
-    "antiquity": 37,
+    "antiquity": 149,
     "gamepass": false,
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Classics",
@@ -13998,12 +15400,13 @@ const GAME = {
     ]
   },
   "9NXX1FQ9FPXL": {
-    "antiquity": 97,
+    "antiquity": 200,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -14011,26 +15414,42 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NZ01RJJHC3C": {
-    "antiquity": 1061,
+  "9NXZ9856LN2R": {
+    "antiquity": 95,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.7,
+    "price": 6.99,
+    "rate": 2.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Simulation",
+      "Classics",
       "SinglePlayer"
     ]
   },
+  "9NZ0HMKM3LML": {
+    "antiquity": 408,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 3.3,
+    "reviews": 100,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "9NZ11P2SP8V6": {
-    "antiquity": 52,
+    "antiquity": 150,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "Action",
@@ -14039,25 +15458,42 @@ const GAME = {
     ]
   },
   "9NZ240K9K7RC": {
-    "antiquity": 724,
+    "antiquity": 836,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.9,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "Free"
     ]
   },
+  "9NZ2GRWWV38X": {
+    "antiquity": 1172,
+    "gamepass": false,
+    "price": 2.49,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 75.07508,
+    "tags": [
+      "Educational",
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NZ34J10B02X": {
-    "antiquity": 299,
+    "antiquity": 411,
     "gamepass": false,
     "price": 69.99,
-    "rate": 3.0,
+    "rate": 2.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -14070,24 +15506,26 @@ const GAME = {
     ]
   },
   "9NZ358ZN9GH1": {
-    "antiquity": 51,
+    "antiquity": 163,
     "gamepass": false,
     "price": 18.99,
-    "rate": 0.0,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NZ35G3WCZBV": {
-    "antiquity": 774,
+    "antiquity": 886,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -14096,55 +15534,45 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9NZ47R1HNPQ1": {
+    "antiquity": 69,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.6,
+    "reviews": 62,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
   "9NZ59SGJBT21": {
-    "antiquity": 1115,
+    "antiquity": 1227,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 70,
+    "reviews": 73,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9NZ64C5B9G4X": {
-    "antiquity": 1341,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Puzzle",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
-  "9NZ6GD6JFRCB": {
-    "antiquity": 101,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 2.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "Casino",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9NZC09NNR93L": {
-    "antiquity": 1237,
+    "antiquity": 1349,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.4,
-    "reviews": 55,
+    "rate": 4.5,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -14152,24 +15580,26 @@ const GAME = {
     ]
   },
   "9NZCJF5VF1NV": {
-    "antiquity": 18,
+    "antiquity": 116,
     "gamepass": false,
     "price": 49.99,
-    "rate": 3.9,
-    "reviews": 9,
+    "rate": 3.6,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "9NZCW3RH94S4": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 64.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "rate": 3.7,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -14177,50 +15607,69 @@ const GAME = {
     ]
   },
   "9NZDHXL9SJJ8": {
-    "antiquity": 389,
-    "gamepass": true,
+    "antiquity": 501,
+    "gamepass": false,
     "price": 59.99,
     "rate": 4.7,
-    "reviews": 345,
+    "reviews": 359,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
-      "SinglePlayer",
-      "GamePass"
+      "SinglePlayer"
     ]
   },
-  "9NZFJMNF0077": {
-    "antiquity": 114,
+  "9NZF8N4MB354": {
+    "antiquity": 93,
     "gamepass": false,
-    "price": 7.99,
-    "rate": 3.0,
-    "reviews": 1,
+    "price": 53.99,
+    "rate": 3.5,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9NZFHL354C12": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 2.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Family",
+      "Classics",
       "SinglePlayer"
     ]
   },
   "9NZFTD2PXL5M": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 0.0,
+    "price": 14.99,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 50.01667,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NZFZXDRZQLR": {
-    "antiquity": 563,
+    "antiquity": 675,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.3,
     "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -14228,12 +15677,13 @@ const GAME = {
     ]
   },
   "9NZG72SH3H4W": {
-    "antiquity": 1285,
+    "antiquity": 1397,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.2,
-    "reviews": 39,
+    "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -14243,40 +15693,29 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NZGF2T5CLC8": {
-    "antiquity": 172,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 2.9,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "Simulation",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9NZJ6ZBCS1RR": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 64.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 25.99,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 60.009228,
     "tags": [
       "Compras",
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NZJGLTJX1J1": {
-    "antiquity": 40,
+    "antiquity": 152,
     "gamepass": false,
     "price": 149.99,
     "rate": 3.8,
-    "reviews": 158,
+    "reviews": 166,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -14285,27 +15724,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NZKJ17BBH50": {
-    "antiquity": 1474,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 2.7,
-    "reviews": 249,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9NZKLBVMJ3RF": {
-    "antiquity": 75,
+    "antiquity": 187,
     "gamepass": false,
-    "price": 55.99,
-    "rate": 4.1,
-    "reviews": 50,
+    "price": 69.99,
+    "rate": 3.8,
+    "reviews": 154,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -14313,12 +15739,13 @@ const GAME = {
     ]
   },
   "9NZL91Q08XRV": {
-    "antiquity": 1039,
+    "antiquity": 1151,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
-    "reviews": 92,
+    "reviews": 93,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -14326,13 +15753,41 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9NZL9LH9SWHQ": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 3.6,
+    "reviews": 28,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "9NZMJ2L3ZCGS": {
+    "antiquity": 76,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.0,
+    "reviews": 37,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9NZMNCX5RM20": {
-    "antiquity": 13,
+    "antiquity": 121,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "Family",
@@ -14341,12 +15796,13 @@ const GAME = {
     ]
   },
   "9NZNF26W2XMN": {
-    "antiquity": 103,
+    "antiquity": 215,
     "gamepass": true,
     "price": 29.99,
-    "rate": 4.5,
-    "reviews": 93,
+    "rate": 4.4,
+    "reviews": 99,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -14354,41 +15810,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NZP81BP50XQ": {
-    "antiquity": 1099,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 4.1,
-    "reviews": 13,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9NZPWQGGHF3L": {
-    "antiquity": 1038,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9NZPXDK97PTB": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -14396,41 +15825,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NZPXFZ7BZT7": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 2.8,
-    "reviews": 0,
-    "trial": true,
-    "tags": [
-      "Compras",
-      "Classics",
-      "Action",
-      "Shooter",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
-  "9NZQ2TK5ZTC8": {
-    "antiquity": 179,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 3.2,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9NZQPT0MWTD0": {
-    "antiquity": 1908,
+    "antiquity": 2020,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
-    "reviews": 17283,
+    "reviews": 18211,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -14444,36 +15846,81 @@ const GAME = {
     ]
   },
   "9NZSF0BLP606": {
-    "antiquity": 4,
+    "antiquity": 116,
     "gamepass": false,
     "price": 89.99,
-    "rate": 4.0,
-    "reviews": 5,
+    "rate": 3.6,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
+  "9NZTCVN4KD3Z": {
+    "antiquity": 61,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9NZV28P1ZMQ0": {
+    "antiquity": 426,
+    "gamepass": false,
+    "price": 75.0,
+    "rate": 4.1,
+    "reviews": 38,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NZVK11DRFRZ": {
+    "antiquity": 68,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Fighting",
+      "Action",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
   "9NZVLH901ZK7": {
-    "antiquity": 18,
+    "antiquity": 114,
     "gamepass": false,
     "price": 7.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9NZVPT1K9X7P": {
-    "antiquity": 208,
+    "antiquity": 320,
     "gamepass": false,
     "price": 74.99,
-    "rate": 4.3,
-    "reviews": 11,
+    "rate": 4.1,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -14482,26 +15929,41 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9NZVXVQFN0TF": {
-    "antiquity": 885,
+  "9NZVSLGBVV0J": {
+    "antiquity": 96,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.3,
-    "reviews": 9,
+    "price": 79.99,
+    "rate": 3.7,
+    "reviews": 69,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Strategy",
-      "CrossPlatform",
+      "Bundle",
       "MultiPlayer"
     ]
   },
+  "9NZW0BX211RF": {
+    "antiquity": 81,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
   "9NZWW8K1KX6S": {
-    "antiquity": 213,
+    "antiquity": 325,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.5,
-    "reviews": 37,
+    "reviews": 40,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Music",
@@ -14510,27 +15972,70 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NZXJ2FG2DMR": {
-    "antiquity": 192,
+  "9NZXCRS1RTFX": {
+    "antiquity": 53,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 4.2,
+    "price": 9.99,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Family",
-      "Cards",
-      "SinglePlayer",
-      "LocalMultiPlayer"
+      "Action",
+      "Shooter",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9NZXRSXHBV2W": {
+    "antiquity": 801,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9NZXSNNDNK8C": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9NZXZ95G1NKW": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
     ]
   },
   "9P008L2LS87F": {
-    "antiquity": 661,
+    "antiquity": 773,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.2,
-    "reviews": 312,
+    "reviews": 328,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -14538,66 +16043,70 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9P00SVGWDJCP": {
+    "antiquity": 130,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 5.0,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
   "9P00Z571J84R": {
-    "antiquity": 58,
+    "antiquity": 170,
     "gamepass": false,
     "price": 37.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9P014G2W3L83": {
-    "antiquity": 303,
+    "antiquity": 415,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.8,
-    "reviews": 9,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "MultiPlayer"
     ]
   },
   "9P01JWGQGQ9C": {
-    "antiquity": 346,
-    "gamepass": true,
+    "antiquity": 458,
+    "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
-    "reviews": 38,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9P01R01ZJ9BX": {
-    "antiquity": 768,
-    "gamepass": true,
-    "price": 12.49,
-    "rate": 3.4,
-    "reviews": 27,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer",
-      "GamePass"
+      "MultiPlayer"
     ]
   },
   "9P027MJC909C": {
-    "antiquity": 39,
+    "antiquity": 151,
     "gamepass": false,
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -14605,12 +16114,13 @@ const GAME = {
     ]
   },
   "9P03ZQMBMV65": {
-    "antiquity": 1582,
+    "antiquity": 1694,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 88,
+    "reviews": 97,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -14620,38 +16130,58 @@ const GAME = {
     ]
   },
   "9P0478ZTXLZ4": {
-    "antiquity": 1489,
+    "antiquity": 1601,
     "gamepass": false,
     "price": 24.99,
-    "rate": 4.6,
-    "reviews": 145,
+    "rate": 4.7,
+    "reviews": 152,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9P04HPMDZ99R": {
-    "antiquity": 123,
+  "9P04N164FHZB": {
+    "antiquity": 100,
     "gamepass": false,
-    "price": 2.49,
-    "rate": 2.9,
+    "price": 139.99,
+    "rate": 4.1,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P04VNZXS7NT": {
+    "antiquity": 10,
+    "gamepass": false,
+    "price": 3.99,
+    "rate": 1.2,
     "reviews": 0,
     "trial": false,
+    "discount": 20.040077,
     "tags": [
-      "Family",
-      "Strategy",
-      "SinglePlayer"
+      "Platformer",
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9P052X824T3T": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Action",
@@ -14662,25 +16192,31 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P08DXRD2HD2": {
-    "antiquity": 97,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 1.0,
-    "reviews": 1,
+  "9P07F616XR9R": {
+    "antiquity": 221,
+    "gamepass": true,
+    "price": 59.99,
+    "rate": 3.7,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Strategy",
+      "Simulation",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
+      "GamePass"
     ]
   },
   "9P08Z926GJVT": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
-    "price": 18.39,
-    "rate": 0.0,
+    "price": 22.99,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -14688,25 +16224,29 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P098WBQ8WN5": {
-    "antiquity": 389,
+  "9P094ZWKHR56": {
+    "antiquity": 522,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 4.1,
-    "reviews": 0,
+    "price": 6.99,
+    "rate": 2.0,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "SinglePlayer"
+      "Action",
+      "Platformer",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9P09PDN38S5M": {
-    "antiquity": 40,
+    "antiquity": 152,
     "gamepass": false,
     "price": 59.99,
-    "rate": 3.3,
-    "reviews": 6,
+    "rate": 3.1,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -14714,12 +16254,13 @@ const GAME = {
     ]
   },
   "9P0B86JN5X28": {
-    "antiquity": 667,
+    "antiquity": 779,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
     "reviews": 54,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -14727,12 +16268,13 @@ const GAME = {
     ]
   },
   "9P0BD1B6351B": {
-    "antiquity": 1399,
+    "antiquity": 1511,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
-    "reviews": 7,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Music",
       "LocalMultiPlayer",
@@ -14740,12 +16282,13 @@ const GAME = {
     ]
   },
   "9P0BWJ30RMP8": {
-    "antiquity": 80,
+    "antiquity": 192,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.0,
     "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -14756,50 +16299,83 @@ const GAME = {
     ]
   },
   "9P0C7T3K4GND": {
-    "antiquity": 1083,
+    "antiquity": 1195,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
-    "reviews": 57,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9P0FM76XDLSB": {
-    "antiquity": 774,
+  "9P0CDXB98P6V": {
+    "antiquity": 107,
     "gamepass": false,
-    "price": 7.49,
-    "rate": 3.6,
+    "price": 24.99,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P0CH36KMNH6": {
+    "antiquity": 1228,
+    "gamepass": false,
+    "price": 2.59,
+    "rate": 4.8,
+    "reviews": 10,
+    "trial": false,
+    "discount": 80.061584,
     "tags": [
       "Action",
-      "Puzzle",
-      "SinglePlayer"
+      "Role playing",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9P0FQ0XCV0LB": {
-    "antiquity": 544,
+    "antiquity": 656,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
     "reviews": 30,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9P0KRKDR11W3": {
-    "antiquity": 131,
+  "9P0HXGPX1NX0": {
+    "antiquity": 108,
     "gamepass": false,
-    "price": 12.99,
-    "rate": 4.8,
+    "price": 34.99,
+    "rate": 4.2,
+    "reviews": 4378,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9P0L6K7XDMCM": {
+    "antiquity": 62,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Educational",
@@ -14807,40 +16383,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P0LR428JQH9": {
-    "antiquity": 870,
+  "9P0N5HPX5KRB": {
+    "antiquity": 481,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 2.1,
-    "reviews": 39,
+    "price": 89.99,
+    "rate": 4.8,
+    "reviews": 168,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9P0MVFV3VQ9Q": {
-    "antiquity": 158,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
       "SinglePlayer"
     ]
   },
   "9P0NPLQ9P1DB": {
-    "antiquity": 332,
+    "antiquity": 444,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.8,
-    "reviews": 11,
+    "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -14849,76 +16412,70 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9P0P58R3NQDS": {
-    "antiquity": 244,
+  "9P0NZ0JH86CW": {
+    "antiquity": 75,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 69.99,
+    "rate": 4.5,
+    "reviews": 2,
     "trial": false,
-    "tags": [
-      "Family",
-      "SinglePlayer"
-    ]
-  },
-  "9P0PQDJVX01S": {
-    "antiquity": 137,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 4.0,
-    "reviews": 50,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9P0QCV147X0B": {
-    "antiquity": 208,
-    "gamepass": false,
-    "price": 23.99,
-    "rate": 4.7,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P0QMTQD46Z4": {
-    "antiquity": 138,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.3,
-    "reviews": 440,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9P0V739HZLBK": {
-    "antiquity": 546,
+  "9P0PQDJVX01S": {
+    "antiquity": 249,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 3.1,
-    "reviews": 11,
+    "price": 34.99,
+    "rate": 3.9,
+    "reviews": 52,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P0RTPKMCS5S": {
+    "antiquity": 59,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9P0TTXPS7G7B": {
+    "antiquity": 83,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9P0VF4BSN88L": {
-    "antiquity": 247,
+    "antiquity": 359,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
-    "reviews": 58,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -14928,26 +16485,127 @@ const GAME = {
       "Free"
     ]
   },
+  "9P0VN9WWF7TZ": {
+    "antiquity": 159,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 5.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "Simulation",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9P0W8CS6P7SF": {
+    "antiquity": 970,
+    "gamepass": false,
+    "price": 1.99,
+    "rate": 2.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 60.120235,
+    "tags": [
+      "Action",
+      "Classics",
+      "Platformer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P0ZSZCLPD40": {
+    "antiquity": 46,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9P0ZTJDML54K": {
+    "antiquity": 76,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
   "9P10239L64QV": {
-    "antiquity": 171,
+    "antiquity": 283,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.4,
-    "reviews": 5,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9P10L2608550": {
+    "antiquity": 16,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 2.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9P12JKLBDC03": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.8,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "9P13DT8NX19S": {
+    "antiquity": 79,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 4.3,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "9P1468J5QG2D": {
-    "antiquity": 1424,
+    "antiquity": 1536,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
     "reviews": 53,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -14955,40 +16613,72 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P15261BR4RF": {
-    "antiquity": 205,
+  "9P149N6SP4Z8": {
+    "antiquity": 772,
     "gamepass": false,
-    "price": 8.49,
+    "price": 12.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
       "Action",
+      "Platformer",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9P16BDBCRHZ2": {
-    "antiquity": 88,
+  "9P15B79HJ6GV": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 29.99,
+    "price": 14.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Shooter",
+      "Simulation",
+      "Strategy",
       "SinglePlayer"
     ]
   },
+  "9P15TL7WZD4P": {
+    "antiquity": 66,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9P161T5KQBFN": {
+    "antiquity": 44,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 550,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
   "9P16M6LF0QFH": {
-    "antiquity": 1403,
+    "antiquity": 1515,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
     "reviews": 75,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -14996,13 +16686,28 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P17WWMQVP91": {
-    "antiquity": 9,
+  "9P17KJLSCR59": {
+    "antiquity": 38,
     "gamepass": false,
-    "price": 15.99,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9P17WWMQVP91": {
+    "antiquity": 121,
+    "gamepass": false,
+    "price": 19.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -15010,24 +16715,28 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P181Z39SP9P": {
-    "antiquity": 199,
+  "9P18KH5VVS7L": {
+    "antiquity": 81,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 5.0,
+    "price": 4.99,
+    "rate": 2.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle"
+      "Action",
+      "Shooter",
+      "SinglePlayer"
     ]
   },
   "9P19V385GM8T": {
-    "antiquity": 830,
+    "antiquity": 942,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.8,
-    "reviews": 22,
+    "rate": 3.9,
+    "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -15035,39 +16744,55 @@ const GAME = {
     ]
   },
   "9P19XR7J5B61": {
-    "antiquity": 31,
+    "antiquity": 143,
     "gamepass": false,
     "price": 7.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9P1B3Q6W5GBB": {
-    "antiquity": 101,
+  "9P1C361XMN7F": {
+    "antiquity": 424,
     "gamepass": false,
-    "price": 79.99,
-    "rate": 3.7,
-    "reviews": 3,
+    "price": 59.99,
+    "rate": 3.1,
+    "reviews": 255,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
+  "9P1CJJJXFMW5": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
   "9P1CVDQXQ5RB": {
-    "antiquity": 65,
+    "antiquity": 177,
     "gamepass": false,
     "price": 13.99,
     "rate": 3.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -15076,153 +16801,112 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P1F5X4T2XZ4": {
-    "antiquity": 114,
+  "9P1F1PHQLZ8W": {
+    "antiquity": 3,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9P1G70N9ZBHQ": {
-    "antiquity": 164,
-    "gamepass": false,
-    "price": 4.99,
+    "price": 109.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Platformer",
-      "Simulation",
-      "Role playing",
+      "Compras",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9P1H1KJB032N": {
-    "antiquity": 12,
+    "antiquity": 124,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9P1HX37NMJLT": {
-    "antiquity": 847,
+  "9P1J66PDPGPD": {
+    "antiquity": 75,
     "gamepass": false,
-    "price": 89.99,
-    "rate": 3.5,
-    "reviews": 1463,
+    "price": 11.99,
+    "rate": 4.2,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer"
+      "Simulation",
+      "Strategy",
+      "Classics",
+      "SinglePlayer"
     ]
   },
-  "9P1KZ521Q7B9": {
-    "antiquity": 856,
+  "9P1JDGT3X5RK": {
+    "antiquity": 1152,
     "gamepass": false,
-    "price": 19.99,
+    "price": 1.39,
+    "rate": 3.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 80.11445,
+    "tags": [
+      "Shooter",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P1M9DR3XQ97": {
+    "antiquity": 44,
+    "gamepass": false,
+    "price": 4.49,
     "rate": 5.0,
     "reviews": 1,
-    "trial": true,
-    "tags": [
-      "Cards",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9P1L6MPHNMT7": {
-    "antiquity": 349,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.7,
-    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9P1LLKWKKXP7": {
-    "antiquity": 81,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9P1LXTT8V2B4": {
-    "antiquity": 1108,
-    "gamepass": false,
-    "price": 54.99,
-    "rate": 3.9,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Bundle",
+      "Platformer",
+      "Family",
+      "Classics",
       "SinglePlayer"
     ]
   },
   "9P1NHSKG4W6X": {
-    "antiquity": 67,
+    "antiquity": 179,
     "gamepass": false,
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9P1NV4N3P2LP": {
-    "antiquity": 1284,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.0,
-    "reviews": 146,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "9P1QCD4J75J8": {
-    "antiquity": 4835,
+    "antiquity": 4947,
     "gamepass": false,
-    "price": 19.99,
+    "price": 4.99,
     "rate": 4.5,
     "reviews": 17,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
-      "Action"
+      "Action",
+      "Oferta"
     ]
   },
   "9P1RPXHWZ1C7": {
-    "antiquity": 711,
+    "antiquity": 823,
     "gamepass": false,
     "price": 39.99,
-    "rate": 3.9,
-    "reviews": 26,
+    "rate": 4.0,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -15232,12 +16916,13 @@ const GAME = {
     ]
   },
   "9P1RSQ5MGPCR": {
-    "antiquity": 1159,
+    "antiquity": 1271,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.6,
-    "reviews": 125,
+    "rate": 2.7,
+    "reviews": 127,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -15248,66 +16933,112 @@ const GAME = {
     ]
   },
   "9P1S85QPHZQL": {
-    "antiquity": 17,
+    "antiquity": 122,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9P1W9X7J453R": {
-    "antiquity": 304,
+  "9P1TN93GRXL6": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 79.99,
-    "rate": 3.6,
-    "reviews": 56,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9P1XD5TH0QW1": {
-    "antiquity": 193,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.9,
+    "price": 14.99,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9P1XV82MWFR3": {
-    "antiquity": 1346,
+  "9P1TR86WJFBH": {
+    "antiquity": 590,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.7,
+    "price": 19.99,
+    "rate": 3.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Educational",
+      "Family",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9P1V3ZTGV75F": {
+    "antiquity": 429,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 3.0,
     "reviews": 3,
     "trial": false,
+    "discount": 50.033356,
     "tags": [
-      "Compras",
-      "Racing & flying",
+      "Family",
       "Simulation",
-      "Sports",
       "SinglePlayer",
-      "MultiPlayer"
+      "Oferta"
+    ]
+  },
+  "9P1VCWR5V9W7": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P1XM8K7P5F7": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9P1XMC1TVCLV": {
+    "antiquity": 51,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer"
     ]
   },
   "9P1Z43KRNQD4": {
-    "antiquity": 780,
+    "antiquity": 892,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
-    "reviews": 100,
+    "reviews": 101,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -15317,30 +17048,88 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P20H838HGQ3": {
-    "antiquity": 142,
+  "9P1ZSGSQ7DHV": {
+    "antiquity": 37,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.6,
+    "price": 4.99,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
-      "Family",
-      "Simulation",
-      "Sports",
+      "Shooter",
       "Classics",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "9P236GP3KTVH": {
+    "antiquity": 2202,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.9,
+    "reviews": 21,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
       "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P24L00XLRRL": {
+    "antiquity": 117,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9P259VBRWXK3": {
+    "antiquity": 89,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 2.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
+  "9P25V071SD3G": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 2.9,
+    "reviews": 0,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "Shooter",
       "SinglePlayer"
     ]
   },
   "9P2688LZXW86": {
-    "antiquity": 528,
+    "antiquity": 640,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.8,
-    "reviews": 26,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -15348,13 +17137,29 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P27BK0D8W4G": {
-    "antiquity": 17,
+  "9P26VHDG66PJ": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 15.99,
-    "rate": 0.0,
+    "price": 19.99,
+    "rate": 3.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9P27BK0D8W4G": {
+    "antiquity": 117,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Simulation",
@@ -15362,80 +17167,143 @@ const GAME = {
     ]
   },
   "9P27ZMZ7FDPZ": {
-    "antiquity": 1034,
+    "antiquity": 1146,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 100,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9P28374JCMP6": {
-    "antiquity": 157,
+  "9P28LMJGJR8L": {
+    "antiquity": 52,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9P28L4SKTGHF": {
-    "antiquity": 151,
-    "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
-    "tags": [
-      "Sports",
-      "Family",
-      "Classics",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P29ZKGSGX8F": {
-    "antiquity": 125,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.6,
-    "reviews": 0,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Family",
+      "Classics",
       "SinglePlayer"
     ]
   },
+  "9P2B1FK47495": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
   "9P2BSRS2MV38": {
-    "antiquity": 37,
+    "antiquity": 149,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9P2JF7VBP511": {
-    "antiquity": 25,
+  "9P2CSQSJ0NBC": {
+    "antiquity": 79,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 0.0,
+    "price": 23.99,
+    "rate": 1.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P2D13NKC0W3": {
+    "antiquity": 1098,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 2.8,
+    "reviews": 201,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P2DXSZVP8Z3": {
+    "antiquity": 60,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 20.040077,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Classics",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P2F4C1XFZJ4": {
+    "antiquity": 80,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 3.2,
+    "reviews": 36,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "GamePass"
+    ]
+  },
+  "9P2JCWVV5RWD": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P2JF7VBP511": {
+    "antiquity": 137,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -15443,26 +17311,14 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9P2JMFDTS4WJ": {
-    "antiquity": 124,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.8,
-    "reviews": 9,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9P2L941CCH2B": {
-    "antiquity": 53,
+    "antiquity": 165,
     "gamepass": false,
     "price": 29.99,
-    "rate": 0.0,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -15475,26 +17331,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P2LHWSMQ9HT": {
-    "antiquity": 191,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9P2N57MC619K": {
-    "antiquity": 2029,
+    "antiquity": 2141,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.7,
-    "reviews": 2768,
+    "reviews": 2825,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "CrossPlatform",
@@ -15502,79 +17346,100 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P2Q0J0GW1FJ": {
-    "antiquity": 143,
-    "gamepass": true,
-    "price": 16.99,
-    "rate": 2.8,
-    "reviews": 29,
+  "9P2NRWG6FNT9": {
+    "antiquity": 54,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 2.7,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Shooter",
+      "Compras",
+      "Bundle",
       "SinglePlayer",
-      "GamePass"
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
-  "9P2QKSZK1K4X": {
-    "antiquity": 821,
+  "9P2P1JGND87F": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 5.49,
-    "rate": 3.1,
-    "reviews": 17,
+    "price": 31.49,
+    "rate": 2.8,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Family",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9P2RSRFGL53N": {
-    "antiquity": 41,
+    "antiquity": 153,
     "gamepass": false,
     "price": 9.99,
+    "rate": 2.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9P2SNGQPT7LJ": {
+    "antiquity": 26,
+    "gamepass": false,
+    "price": 39.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Shooter",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9P2VGM9FXNFX": {
-    "antiquity": 126,
+  "9P2V402QXH62": {
+    "antiquity": 611,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.4,
-    "reviews": 0,
+    "price": 29.99,
+    "rate": 4.8,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Family",
+      "Platformer",
       "SinglePlayer"
     ]
   },
-  "9P2W3XCT75V2": {
-    "antiquity": 367,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 3.2,
-    "reviews": 19,
+  "9P2VCBLZG73K": {
+    "antiquity": 1662,
+    "gamepass": false,
+    "price": 13.99,
+    "rate": 4.3,
+    "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Shooter",
-      "MultiPlayer",
-      "GamePass"
+      "Platformer",
+      "Role playing",
+      "SinglePlayer"
     ]
   },
   "9P2W6Z00QF2J": {
-    "antiquity": 675,
+    "antiquity": 787,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.9,
-    "reviews": 11,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -15583,12 +17448,13 @@ const GAME = {
     ]
   },
   "9P2W72XG20S5": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Action",
@@ -15596,13 +17462,27 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9P2WJCRJBMRM": {
+    "antiquity": 1235,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.0,
+    "reviews": 130,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9P2Z4DTVCB7Z": {
-    "antiquity": 857,
+    "antiquity": 969,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -15613,12 +17493,13 @@ const GAME = {
     ]
   },
   "9P2Z7WDFM00X": {
-    "antiquity": 83,
+    "antiquity": 185,
     "gamepass": false,
     "price": 9.99,
-    "rate": 3.3,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -15626,12 +17507,13 @@ const GAME = {
     ]
   },
   "9P2ZC9BQXGWM": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -15639,26 +17521,58 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P2ZXR6HZMH3": {
-    "antiquity": 27,
+  "9P2ZR7V52K2Z": {
+    "antiquity": 108,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 0.0,
+    "price": 7.99,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9P2ZXR6HZMH3": {
+    "antiquity": 136,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9P30BFHZ1BKN": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.2,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "Action",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9P31WJ3N46KB": {
-    "antiquity": 738,
+    "antiquity": 850,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
     "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -15667,12 +17581,13 @@ const GAME = {
     ]
   },
   "9P33G235JFBT": {
-    "antiquity": 19,
+    "antiquity": 131,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -15680,67 +17595,99 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9P3488V8GCW7": {
-    "antiquity": 82,
+  "9P33VJGVPHVP": {
+    "antiquity": 94,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.0,
-    "reviews": 4,
+    "price": 44.99,
+    "rate": 2.6,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
       "Action",
       "Role playing",
-      "Platformer",
+      "Shooter",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9P35BQP00S3M": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 4.3,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9P3769NR8GS8": {
-    "antiquity": 73,
+    "antiquity": 177,
     "gamepass": false,
     "price": 14.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 4.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9P37Z9WHKN7L": {
-    "antiquity": 191,
+  "9P38JV260RMG": {
+    "antiquity": 703,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 3.7,
-    "reviews": 3,
+    "price": 29.99,
+    "rate": 5.0,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "Classics",
-      "LocalMultiPlayer",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9P38RKJH2D3P": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9P39PS01THMG": {
-    "antiquity": 41,
+    "antiquity": 142,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.1,
-    "reviews": 8,
+    "rate": 3.3,
+    "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9P3B05THXV0V": {
-    "antiquity": 47,
+    "antiquity": 159,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -15748,103 +17695,81 @@ const GAME = {
     ]
   },
   "9P3BDLM46TJN": {
-    "antiquity": 830,
+    "antiquity": 942,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.8,
     "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
     ]
   },
   "9P3BF9800P6B": {
-    "antiquity": 61,
+    "antiquity": 173,
     "gamepass": false,
-    "price": 27.99,
+    "price": 34.99,
     "rate": 2.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9P3CFT9QZNX5": {
-    "antiquity": 170,
+  "9P3D5X6WMK3M": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 26.99,
+    "rate": 0.0,
+    "reviews": 0,
     "trial": false,
-    "tags": [
-      "Classics",
-      "Simulation",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
-  "9P3FG89W613W": {
-    "antiquity": 144,
-    "gamepass": false,
-    "price": 8.99,
-    "rate": 3.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Fighting",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9P3GVGLCG230": {
-    "antiquity": 166,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 4.0,
-    "reviews": 3,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P3DRLT4ZV59": {
+    "antiquity": 1885,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 2.9,
+    "reviews": 8,
+    "trial": false,
+    "discount": 0,
+    "tags": [
       "SinglePlayer"
     ]
   },
-  "9P3GXQ4R7QR5": {
-    "antiquity": 709,
+  "9P3FWD0S5W92": {
+    "antiquity": 60,
     "gamepass": false,
-    "price": 12.99,
-    "rate": 4.5,
-    "reviews": 0,
+    "price": 17.99,
+    "rate": 4.0,
+    "reviews": 318,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9P3HXD6MDXVG": {
-    "antiquity": 188,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Action",
-      "SinglePlayer"
+      "Bundle"
     ]
   },
   "9P3J32CTXLRZ": {
-    "antiquity": 591,
+    "antiquity": 703,
     "gamepass": false,
-    "price": 69.99,
-    "rate": 4.7,
-    "reviews": 403,
+    "price": 59.99,
+    "rate": 4.6,
+    "reviews": 441,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -15852,52 +17777,45 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9P3JB0CSTTL7": {
-    "antiquity": 1252,
+  "9P3JVHGZB1DF": {
+    "antiquity": 1193,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 4.0,
-    "reviews": 60,
+    "price": 4.99,
+    "rate": 4.2,
+    "reviews": 4,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Action",
+      "Platformer",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
-  "9P3JBHPHS7KP": {
-    "antiquity": 321,
+  "9P3KXQTHZ5LW": {
+    "antiquity": 47,
     "gamepass": false,
-    "price": 10.04,
-    "rate": 5.0,
-    "reviews": 3,
+    "price": 39.99,
+    "rate": 4.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Strategy",
+      "Bundle",
       "SinglePlayer",
+      "CrossPlatform",
       "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
-  "9P3JF71BX2CG": {
-    "antiquity": 86,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9P3MGM8ZCS5D": {
-    "antiquity": 675,
+    "antiquity": 787,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 60,
+    "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -15906,13 +17824,28 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9P3MN5SQH69B": {
+    "antiquity": 81,
+    "gamepass": false,
+    "price": 25.99,
+    "rate": 3.5,
+    "reviews": 66,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer"
+    ]
+  },
   "9P3NT9H51RMR": {
-    "antiquity": 451,
+    "antiquity": 563,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 83,
+    "reviews": 84,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -15924,26 +17857,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P3P7TC6SNQW": {
-    "antiquity": 193,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9P3PL76N0KWZ": {
-    "antiquity": 2169,
+    "antiquity": 2281,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
-    "reviews": 1365,
+    "reviews": 1370,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "LocalMultiPlayer",
@@ -15952,12 +17873,13 @@ const GAME = {
     ]
   },
   "9P3R29Q9VK8F": {
-    "antiquity": 1648,
+    "antiquity": 1760,
     "gamepass": false,
     "price": 14.49,
     "rate": 4.1,
     "reviews": 23,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -15965,53 +17887,44 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P3SL80V60J1": {
-    "antiquity": 612,
-    "gamepass": false,
-    "price": 89.99,
-    "rate": 3.8,
-    "reviews": 121,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P3STQMKNS70": {
-    "antiquity": 1279,
-    "gamepass": false,
-    "price": 10.62,
-    "rate": 4.3,
-    "reviews": 45,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9P3V6RHQ82TP": {
-    "antiquity": 4086,
+    "antiquity": 4198,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
     "reviews": 3,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
       "Action",
-      "Role playing"
+      "Role playing",
+      "Oferta"
+    ]
+  },
+  "9P3VQTGV2CGK": {
+    "antiquity": 47,
+    "gamepass": false,
+    "price": 20.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
     ]
   },
   "9P3W2D5RVB75": {
-    "antiquity": 73,
+    "antiquity": 177,
     "gamepass": false,
     "price": 7.99,
     "rate": 2.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -16021,12 +17934,13 @@ const GAME = {
     ]
   },
   "9P3W7QMHR450": {
-    "antiquity": 855,
+    "antiquity": 967,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
     "reviews": 40,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -16036,12 +17950,13 @@ const GAME = {
     ]
   },
   "9P3X187Z1KGC": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Role playing",
@@ -16049,119 +17964,187 @@ const GAME = {
     ]
   },
   "9P3X94CCBPXN": {
-    "antiquity": 27,
+    "antiquity": 139,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.3,
-    "reviews": 97,
+    "reviews": 102,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9P3ZQ8PZNNCJ": {
-    "antiquity": 431,
+  "9P3Z84WDHHXQ": {
+    "antiquity": 474,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 3.7,
+    "price": 9.99,
+    "rate": 5.0,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9P3ZQ8PZNNCJ": {
+    "antiquity": 543,
+    "gamepass": false,
+    "price": 41.99,
+    "rate": 4.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 30.005001,
     "tags": [
       "Compras",
       "Fighting",
       "Sports",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9P3ZRGNQVC7D": {
-    "antiquity": 1074,
+    "antiquity": 1186,
     "gamepass": true,
     "price": 14.99,
-    "rate": 4.4,
-    "reviews": 29,
+    "rate": 4.5,
+    "reviews": 30,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9P40FJDR9BZR": {
-    "antiquity": 668,
+  "9P41RD8N7N6V": {
+    "antiquity": 18,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 4.5,
-    "reviews": 0,
+    "price": 89.99,
+    "rate": 4.2,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Simulation",
-      "SinglePlayer"
+      "Bundle"
     ]
   },
-  "9P41BMR3J98P": {
-    "antiquity": 192,
+  "9P42DSXNCCDG": {
+    "antiquity": 558,
     "gamepass": false,
-    "price": 14.99,
+    "price": 9.89,
     "rate": 5.0,
-    "reviews": 0,
+    "reviews": 4,
     "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9P41TRQ6B538": {
-    "antiquity": 172,
-    "gamepass": false,
-    "price": 16.99,
-    "rate": 4.7,
-    "reviews": 0,
-    "trial": false,
+    "discount": 67.02234,
     "tags": [
       "Action",
-      "Shooter",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
-  "9P453HT5DDWM": {
-    "antiquity": 140,
+  "9P430PCRVPGM": {
+    "antiquity": 115,
     "gamepass": false,
-    "price": 69.99,
-    "rate": 3.9,
-    "reviews": 155,
+    "price": 19.99,
+    "rate": 4.6,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform"
+    ]
+  },
+  "9P436CQCTNGW": {
+    "antiquity": 150,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 2.5,
+    "reviews": 2,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
+  "9P43MVJ9GQRX": {
+    "antiquity": 409,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 1.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
   "9P45LLRNDP1R": {
-    "antiquity": 1782,
+    "antiquity": 1894,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
     "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
+  "9P46GD2BT3SG": {
+    "antiquity": 814,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Classics",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "9P47S7NJGWZL": {
+    "antiquity": 705,
+    "gamepass": true,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 65,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
   "9P4811KBD5R9": {
-    "antiquity": 500,
+    "antiquity": 612,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.4,
-    "reviews": 65,
+    "reviews": 73,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -16171,51 +18154,105 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9P48FKLVF9MF": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 84.99,
+    "rate": 1.7,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9P48NK83KSMF": {
-    "antiquity": 768,
+    "antiquity": 880,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.5,
     "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9P492HKR7P3H": {
-    "antiquity": 1621,
+  "9P4909RMFJRC": {
+    "antiquity": 37,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 3.1,
-    "reviews": 0,
+    "price": 0.0,
+    "rate": 2.3,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Shooter",
+      "MOBA",
+      "Simulation",
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
+  "9P49CZ7F8FQD": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.3,
+    "reviews": 3,
+    "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
+      "Family",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
   "9P49H6GGMGF8": {
-    "antiquity": 66,
+    "antiquity": 178,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9P4B19SCKJN6": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 4.1,
+    "reviews": 27,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9P4D0K92BM7V": {
-    "antiquity": 978,
+    "antiquity": 1090,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.0,
-    "reviews": 35,
+    "rate": 4.1,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -16223,12 +18260,13 @@ const GAME = {
     ]
   },
   "9P4D41K02WB8": {
-    "antiquity": 2208,
+    "antiquity": 2320,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
     "reviews": 133,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -16240,12 +18278,13 @@ const GAME = {
     ]
   },
   "9P4F8NBPVDNH": {
-    "antiquity": 1459,
+    "antiquity": 1571,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
     "reviews": 31,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -16254,12 +18293,13 @@ const GAME = {
     ]
   },
   "9P4FCZR21QQK": {
-    "antiquity": 675,
+    "antiquity": 787,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -16267,25 +18307,42 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P4JJ53K8CRF": {
-    "antiquity": 719,
+  "9P4FNV66HMHJ": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.8,
-    "reviews": 0,
+    "price": 29.99,
+    "rate": 4.2,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P4K984K07LT": {
+    "antiquity": 877,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 4.5,
+    "reviews": 6028,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9P4KF63WK5P9": {
-    "antiquity": 115,
+    "antiquity": 227,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.7,
-    "reviews": 15,
+    "rate": 4.5,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Strategy",
@@ -16294,12 +18351,13 @@ const GAME = {
     ]
   },
   "9P4KMR76PLLQ": {
-    "antiquity": 1027,
+    "antiquity": 1139,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.7,
-    "reviews": 10914,
+    "reviews": 10973,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -16310,64 +18368,98 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P4NJFH17MRT": {
-    "antiquity": 1063,
+  "9P4L4FVNS098": {
+    "antiquity": 81,
     "gamepass": false,
+    "price": 11.99,
+    "rate": 2.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 40.02001,
+    "tags": [
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P4LSLG7B8CT": {
+    "antiquity": 17,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.4,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "9P4NJFH17MRT": {
+    "antiquity": 1175,
+    "gamepass": true,
     "price": 69.99,
     "rate": 3.7,
-    "reviews": 174,
+    "reviews": 206,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "GamePass"
     ]
   },
   "9P4Q17HQ2WKW": {
-    "antiquity": 1136,
+    "antiquity": 1248,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.9,
     "reviews": 30,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9P4QLM4821GJ": {
-    "antiquity": 164,
+  "9P4QGNDJB2XD": {
+    "antiquity": 93,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 6.99,
+    "rate": 3.7,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
+      "Shooter",
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9P4R2M0NRWNK": {
-    "antiquity": 381,
+    "antiquity": 493,
     "gamepass": false,
-    "price": 19.99,
+    "price": 9.99,
     "rate": 3.1,
     "reviews": 64,
     "trial": false,
+    "discount": 50.02501,
     "tags": [
       "Action",
       "Family",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9P4S1BPJLPHZ": {
-    "antiquity": 817,
+    "antiquity": 929,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
-    "reviews": 67,
+    "reviews": 69,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -16378,12 +18470,13 @@ const GAME = {
     ]
   },
   "9P4SV7R7N3HW": {
-    "antiquity": 247,
+    "antiquity": 359,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -16391,39 +18484,14 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9P4TCKR37TLZ": {
-    "antiquity": 768,
-    "gamepass": false,
-    "price": 39.98,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
-  "9P4TLV0D1QWH": {
-    "antiquity": 178,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Action",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9P4VML1WR91N": {
-    "antiquity": 306,
+    "antiquity": 418,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
-    "reviews": 20882,
+    "reviews": 20911,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -16433,145 +18501,173 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P4VMM1S71CG": {
-    "antiquity": 1089,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Simulation",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9P4VSPF3361T": {
-    "antiquity": 103,
-    "gamepass": false,
-    "price": 23.99,
-    "rate": 2.7,
-    "reviews": 6,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9P4W445L49N5": {
-    "antiquity": 961,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9P4W5GXW6GC2": {
-    "antiquity": 325,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9P4WHS14WFRK": {
-    "antiquity": 73,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9P4Z4TW66LPV": {
-    "antiquity": 1774,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.4,
-    "reviews": 618,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9P513P4MWC71": {
-    "antiquity": 1833,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 4.8,
-    "reviews": 30024,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9P52P070382Q": {
-    "antiquity": 996,
+  "9P4VXQ04DTTB": {
+    "antiquity": 98,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Platformer",
       "Action",
-      "Classics",
       "SinglePlayer"
     ]
   },
-  "9P5591C1FMQG": {
-    "antiquity": 1657,
+  "9P4WHS14WFRK": {
+    "antiquity": 185,
     "gamepass": false,
-    "price": 1.99,
-    "rate": 2.6,
-    "reviews": 7,
+    "price": 49.99,
+    "rate": 3.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P4WKZXWP1QW": {
+    "antiquity": 2371,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.6,
+    "reviews": 52,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9P4Z4TW66LPV": {
+    "antiquity": 1886,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.4,
+    "reviews": 618,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
+  "9P50C3S59NG7": {
+    "antiquity": 557,
+    "gamepass": false,
+    "price": 3.99,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.062572,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P50WQ5H24K4": {
+    "antiquity": 3,
+    "gamepass": false,
+    "price": 109.99,
+    "rate": 5.0,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P52RCLR2M7N": {
+    "antiquity": 83,
+    "gamepass": false,
+    "price": 23.99,
+    "rate": 4.2,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P53X94S6T5S": {
+    "antiquity": 232,
+    "gamepass": false,
+    "price": 26.99,
+    "rate": 4.8,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Role playing",
+      "Fighting",
+      "SinglePlayer"
+    ]
+  },
+  "9P558FW2W073": {
+    "antiquity": 101,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 4.1,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Action",
+      "Cards",
+      "Family",
+      "Role playing",
+      "Strategy",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9P55992QN40L": {
+    "antiquity": 107,
+    "gamepass": false,
+    "price": 44.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9P55TJKCL1BC": {
-    "antiquity": 780,
+    "antiquity": 892,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
     "reviews": 226,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9P59JKD8GTJL": {
-    "antiquity": 136,
+    "antiquity": 248,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.4,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -16581,107 +18677,42 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P59Q5KHC5DM": {
-    "antiquity": 465,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
   "9P5B81KVDGP1": {
-    "antiquity": 1235,
+    "antiquity": 1347,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
     "reviews": 166,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9P5C1HKZ2P2N": {
-    "antiquity": 240,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 2.9,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Action",
-      "Racing & flying",
-      "Simulation",
       "SinglePlayer"
     ]
   },
   "9P5C81K094KW": {
-    "antiquity": 1200,
+    "antiquity": 1312,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 56,
+    "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
-    ]
-  },
-  "9P5CBL8CQSDJ": {
-    "antiquity": 137,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9P5CK72457WF": {
-    "antiquity": 171,
-    "gamepass": true,
-    "price": 39.99,
-    "rate": 3.6,
-    "reviews": 21,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "GamePass"
-    ]
-  },
-  "9P5DB49C03W6": {
-    "antiquity": 55,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 2.5,
-    "reviews": 59,
-    "trial": true,
-    "tags": [
-      "Action",
-      "Role playing",
-      "Shooter",
-      "SinglePlayer",
-      "MultiPlayer"
     ]
   },
   "9P5G1VM74BNV": {
-    "antiquity": 207,
+    "antiquity": 319,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -16689,13 +18720,43 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9P5GR743B2DN": {
+    "antiquity": 58,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 4.0,
+    "reviews": 27,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P5GX4LL8M2L": {
+    "antiquity": 1432,
+    "gamepass": false,
+    "price": 1.49,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 70.14028,
+    "tags": [
+      "Action",
+      "Classics",
+      "Platformer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9P5H37NXML9D": {
-    "antiquity": 95,
+    "antiquity": 207,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.6,
-    "reviews": 12,
+    "rate": 2.2,
+    "reviews": 31,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -16706,27 +18767,58 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P5KQPG3P4D9": {
-    "antiquity": 223,
+  "9P5JTWQDC5B7": {
+    "antiquity": 74,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.9,
+    "reviews": 7,
+    "trial": false,
+    "discount": 20.003998,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P5L32KRTLJ2": {
+    "antiquity": 822,
     "gamepass": false,
     "price": 9.99,
+    "rate": 4.6,
+    "reviews": 12,
+    "trial": false,
+    "discount": 75.01876,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform",
+      "Oferta"
+    ]
+  },
+  "9P5L65VNTWCV": {
+    "antiquity": 59,
+    "gamepass": false,
+    "price": 49.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Family",
-      "Simulation",
-      "Educational",
+      "Action",
       "SinglePlayer"
     ]
   },
   "9P5LDSMW526L": {
-    "antiquity": 374,
+    "antiquity": 486,
     "gamepass": false,
     "price": 39.99,
-    "rate": 3.7,
-    "reviews": 15,
+    "rate": 3.8,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Role playing",
@@ -16734,27 +18826,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P5MLK30LTL7": {
-    "antiquity": 163,
-    "gamepass": false,
-    "price": 18.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Fighting",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9P5MT3SJNQ3T": {
-    "antiquity": 83,
+    "antiquity": 184,
     "gamepass": false,
     "price": 4.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -16762,27 +18841,44 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P5P0TB81MGL": {
-    "antiquity": 702,
+  "9P5N5HL106G0": {
+    "antiquity": 32,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 5.0,
-    "reviews": 6,
+    "price": 4.99,
+    "rate": 3.3,
+    "reviews": 0,
     "trial": false,
+    "discount": 20.040077,
     "tags": [
-      "Action",
       "Platformer",
+      "Action",
       "SinglePlayer",
-      "LocalMultiPlayer"
+      "Oferta"
+    ]
+  },
+  "9P5NCVFHZ8Z7": {
+    "antiquity": 73,
+    "gamepass": false,
+    "price": 54.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "Simulation",
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9P5P55S7HB9S": {
-    "antiquity": 73,
+    "antiquity": 181,
     "gamepass": true,
     "price": 14.99,
-    "rate": 3.5,
-    "reviews": 56,
+    "rate": 3.7,
+    "reviews": 79,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Family",
@@ -16790,26 +18886,44 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P5RS5065835": {
-    "antiquity": 143,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 3.2,
-    "reviews": 53,
+  "9P5PDMB2XQB4": {
+    "antiquity": 1057,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 3.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Compras",
+      "Racing & flying",
+      "Simulation",
+      "Sports",
       "SinglePlayer",
-      "GamePass"
+      "MultiPlayer"
+    ]
+  },
+  "9P5R32316ZK4": {
+    "antiquity": 221,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 3.7,
+    "reviews": 48,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
     ]
   },
   "9P5S26314HWQ": {
-    "antiquity": 1298,
+    "antiquity": 1410,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.6,
-    "reviews": 144,
+    "reviews": 150,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -16818,77 +18932,56 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P5SK3WNWTRN": {
-    "antiquity": 143,
+  "9P5TTSLG6K4R": {
+    "antiquity": 1663,
     "gamepass": false,
-    "price": 5.49,
-    "rate": 3.6,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9P5TCL6DG993": {
-    "antiquity": 117,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "Classics",
-      "SinglePlayer"
-    ]
-  },
-  "9P5TZQMM2P9D": {
-    "antiquity": 221,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 3.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9P5W3QV3LCVK": {
-    "antiquity": 170,
-    "gamepass": false,
-    "price": 28.99,
+    "price": 14.99,
     "rate": 5.0,
-    "reviews": 3,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9P5XKGCDCPWW": {
-    "antiquity": 116,
+  "9P5VMQZVMJL6": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P5WRQ5N5GQB": {
+    "antiquity": 1591,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Platformer",
+      "Role playing",
+      "Strategy",
       "SinglePlayer"
     ]
   },
   "9P5Z4530318L": {
-    "antiquity": 388,
+    "antiquity": 500,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.0,
-    "reviews": 177,
+    "reviews": 184,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -16898,13 +18991,27 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9P5ZKMZGG0WT": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.9,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9P5ZSRKCJ6VG": {
-    "antiquity": 488,
+    "antiquity": 600,
     "gamepass": false,
     "price": 54.99,
     "rate": 4.2,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Sports",
@@ -16912,81 +19019,94 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P63NBFCTWLD": {
-    "antiquity": 39,
+  "9P5ZW3QRJJ6W": {
+    "antiquity": 57,
     "gamepass": false,
-    "price": 34.99,
+    "price": 12.49,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P607FD9C3GL": {
+    "antiquity": 65,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9P63NBFCTWLD": {
+    "antiquity": 151,
+    "gamepass": false,
+    "price": 34.99,
+    "rate": 2.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9P648H4R49GB": {
-    "antiquity": 221,
+  "9P65CHDF6RJQ": {
+    "antiquity": 39,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.9,
+    "price": 9.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "LocalMultiPlayer",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9P64SQC33RN1": {
-    "antiquity": 199,
+  "9P66M24BMH79": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 119.99,
-    "rate": 3.4,
-    "reviews": 5,
+    "price": 31.49,
+    "rate": 3.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9P656L6N6P4Q": {
-    "antiquity": 149,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Simulation",
-      "Strategy",
-      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
   "9P66NTS6MW93": {
-    "antiquity": 74,
+    "antiquity": 186,
     "gamepass": false,
     "price": 0.99,
-    "rate": 1.5,
+    "rate": 2.9,
     "reviews": 0,
     "trial": false,
+    "discount": 66.88963,
     "tags": [
-      "Action"
+      "Action",
+      "Oferta"
     ]
   },
   "9P66ZL9CGB4B": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 9.99,
-    "rate": 5.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -16994,12 +19114,13 @@ const GAME = {
     ]
   },
   "9P675WH90SB4": {
-    "antiquity": 1454,
+    "antiquity": 1566,
     "gamepass": false,
     "price": 21.99,
-    "rate": 4.5,
-    "reviews": 139,
+    "rate": 4.4,
+    "reviews": 140,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -17007,51 +19128,44 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P6855MCZV9P": {
-    "antiquity": 100,
+  "9P68H1Z2L27V": {
+    "antiquity": 1283,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 2.5,
-    "reviews": 0,
+    "price": 19.99,
+    "rate": 4.5,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Action",
       "Shooter",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9P695V9561VB": {
-    "antiquity": 1483,
-    "gamepass": false,
-    "price": 1.99,
-    "rate": 2.5,
-    "reviews": 38,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
+      "Simulation",
+      "Strategy",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
   "9P69B09J5QGW": {
-    "antiquity": 53,
+    "antiquity": 165,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
   "9P69BDSC7QBG": {
-    "antiquity": 775,
+    "antiquity": 887,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 58,
+    "reviews": 60,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -17060,12 +19174,13 @@ const GAME = {
     ]
   },
   "9P6B1V23QBVQ": {
-    "antiquity": 1164,
+    "antiquity": 1276,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
     "reviews": 20,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -17073,13 +19188,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9P6B7297ZVVZ": {
+    "antiquity": 65,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
   "9P6CPB2M27WX": {
-    "antiquity": 783,
+    "antiquity": 895,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.8,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -17088,25 +19217,59 @@ const GAME = {
       "Free"
     ]
   },
+  "9P6D0918RT3W": {
+    "antiquity": 464,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9P6F5CVMFXTQ": {
+    "antiquity": 542,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Puzzle",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9P6FTM76L1S7": {
-    "antiquity": 1349,
+    "antiquity": 1461,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.6,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9P6FXKNWBVXF": {
-    "antiquity": 143,
+    "antiquity": 255,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.7,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -17114,24 +19277,26 @@ const GAME = {
     ]
   },
   "9P6G4L8BRP4K": {
-    "antiquity": 333,
+    "antiquity": 445,
     "gamepass": false,
     "price": 29.99,
-    "rate": 3.7,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Educational",
       "SinglePlayer"
     ]
   },
   "9P6GWDW4VHHF": {
-    "antiquity": 38,
+    "antiquity": 150,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
-    "reviews": 173,
+    "reviews": 183,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -17141,65 +19306,117 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P6HZPGNHN2B": {
-    "antiquity": 1143,
+  "9P6J1N7SC7TL": {
+    "antiquity": 878,
     "gamepass": false,
-    "price": 1.99,
-    "rate": 2.5,
-    "reviews": 2,
+    "price": 49.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
-      "SinglePlayer"
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9P6J9NFKGJ68": {
-    "antiquity": 389,
+    "antiquity": 501,
     "gamepass": false,
     "price": 59.99,
-    "rate": 4.4,
-    "reviews": 20,
+    "rate": 4.3,
+    "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
   "9P6JQDDZ2MQB": {
-    "antiquity": 796,
+    "antiquity": 908,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.6,
-    "reviews": 121,
+    "reviews": 123,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9P6MM45H27P7": {
-    "antiquity": 121,
+  "9P6KBLVP8V3G": {
+    "antiquity": 517,
+    "gamepass": false,
+    "price": 27.99,
+    "rate": 4.6,
+    "reviews": 131,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9P6KJFDKPGJL": {
+    "antiquity": 1010,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.3,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Classics",
+      "Platformer",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9P6LNN3KZ75R": {
+    "antiquity": 55,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.7,
+    "reviews": 3600,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
+  "9P6M3M3B127P": {
+    "antiquity": 1236,
     "gamepass": false,
     "price": 19.99,
-    "rate": 1.6,
-    "reviews": 0,
+    "rate": 4.7,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Family",
-      "Classics",
+      "Platformer",
       "SinglePlayer"
     ]
   },
   "9P6N45QZR81R": {
-    "antiquity": 629,
+    "antiquity": 741,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.3,
-    "reviews": 60,
+    "reviews": 64,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -17207,55 +19424,57 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P6N58X27150": {
-    "antiquity": 573,
-    "gamepass": true,
-    "price": 49.99,
-    "rate": 2.7,
-    "reviews": 31,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9P6NXV2FPCZJ": {
-    "antiquity": 117,
+  "9P6N7LQ4HZFD": {
+    "antiquity": 1521,
     "gamepass": false,
-    "price": 35.99,
-    "rate": 4.3,
-    "reviews": 23,
+    "price": 7.99,
+    "rate": 4.1,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Simulation",
+      "Strategy",
       "SinglePlayer"
     ]
   },
-  "9P6P0H0GPXLL": {
-    "antiquity": 89,
+  "9P6P8860TJNL": {
+    "antiquity": 110,
     "gamepass": false,
-    "price": 34.99,
-    "rate": 5.0,
-    "reviews": 13,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle"
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9P6PGKXTX89R": {
+    "antiquity": 576,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 2.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.01667,
+    "tags": [
+      "Family",
+      "Puzzle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9P6PQLFP9BN0": {
-    "antiquity": 782,
+    "antiquity": 894,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
     "reviews": 53,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -17263,26 +19482,59 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P6QRRZQKPCM": {
-    "antiquity": 1202,
+  "9P6PXDC2SXVR": {
+    "antiquity": 1221,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.3,
-    "reviews": 95,
+    "price": 6.99,
+    "rate": 3.5,
+    "reviews": 8,
     "trial": false,
+    "discount": 65.03252,
     "tags": [
-      "Racing & flying",
+      "Simulation",
+      "Strategy",
       "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P6QQG59N2P3": {
+    "antiquity": 1864,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9P6QSZH8RL0C": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 3.0,
+    "reviews": 81,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
   "9P6SRW1HVW9K": {
-    "antiquity": 686,
+    "antiquity": 798,
     "gamepass": true,
     "price": 39.99,
-    "rate": 3.9,
-    "reviews": 35,
+    "rate": 4.0,
+    "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer",
@@ -17291,28 +19543,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P6VM3TM22ZJ": {
-    "antiquity": 199,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 2.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Shooter",
-      "Fighting",
-      "SinglePlayer"
-    ]
-  },
   "9P6W46XMDJM5": {
-    "antiquity": 1516,
+    "antiquity": 1628,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.6,
-    "reviews": 92,
+    "reviews": 97,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Cards",
       "Role playing",
@@ -17322,12 +19560,13 @@ const GAME = {
     ]
   },
   "9P6X271HLG8Q": {
-    "antiquity": 1063,
+    "antiquity": 1175,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.0,
     "reviews": 58,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -17337,13 +19576,28 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9P6XD4F453DG": {
+    "antiquity": 909,
+    "gamepass": false,
+    "price": 18.99,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9P6Z4R93GZML": {
-    "antiquity": 38,
+    "antiquity": 150,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -17352,38 +19606,26 @@ const GAME = {
     ]
   },
   "9P6ZX0FVJLNZ": {
-    "antiquity": 18,
+    "antiquity": 124,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9P72MMDZC812": {
-    "antiquity": 151,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "Fighting",
-      "SinglePlayer"
-    ]
-  },
   "9P731Z4BBCT3": {
-    "antiquity": 340,
+    "antiquity": 452,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.2,
-    "reviews": 356,
+    "reviews": 378,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -17391,27 +19633,41 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P74PTLHF88F": {
-    "antiquity": 102,
+  "9P73DJK5X41G": {
+    "antiquity": 46,
     "gamepass": false,
     "price": 39.99,
-    "rate": 3.7,
-    "reviews": 0,
+    "rate": 3.8,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Strategy",
-      "Role playing",
+      "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
+  "9P73QQBQ1MMD": {
+    "antiquity": 82,
+    "gamepass": false,
+    "price": 44.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
   "9P74SKTVPH9F": {
-    "antiquity": 459,
+    "antiquity": 571,
     "gamepass": false,
     "price": 14.49,
     "rate": 4.8,
-    "reviews": 17,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -17419,27 +19675,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P76WSKFLZ12": {
-    "antiquity": 1237,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 1.6,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Music",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
   "9P778MQ2JPKC": {
-    "antiquity": 1283,
+    "antiquity": 1395,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Platformer",
@@ -17447,26 +19690,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P77VD8MGJX8": {
-    "antiquity": 376,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.4,
-    "reviews": 55,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9P7947QLX8PC": {
-    "antiquity": 26,
+    "antiquity": 138,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.3,
-    "reviews": 3,
+    "rate": 3.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -17475,50 +19706,101 @@ const GAME = {
     ]
   },
   "9P798W4VDT91": {
-    "antiquity": 2166,
+    "antiquity": 2278,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Educational",
       "SinglePlayer",
       "Free"
     ]
   },
+  "9P79R9C82HFQ": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 9.59,
+    "rate": 2.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 40.025013,
+    "tags": [
+      "Simulation",
+      "Educational",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P7G0WL4Z7RF": {
+    "antiquity": 333,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Fighting",
+      "Puzzle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
   "9P7GQ32XBG0R": {
-    "antiquity": 41,
+    "antiquity": 153,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9P7H099LDDHG": {
-    "antiquity": 110,
+  "9P7J2PBZ9QMM": {
+    "antiquity": 59,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 4.1,
+    "price": 19.99,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
-      "Puzzle",
+      "Action",
+      "Strategy",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9P7J621JRV7K": {
+    "antiquity": 1041,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
       "SinglePlayer"
     ]
   },
   "9P7JBQJ691KL": {
-    "antiquity": 1649,
+    "antiquity": 1761,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
     "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -17530,40 +19812,42 @@ const GAME = {
     ]
   },
   "9P7KD6Z42J58": {
-    "antiquity": 58,
+    "antiquity": 170,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9P7KK8SN99VB": {
-    "antiquity": 324,
+  "9P7KMPBK2G9C": {
+    "antiquity": 74,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.2,
-    "reviews": 15,
-    "trial": true,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer",
-      "CrossPlatform"
+      "Platformer",
+      "Shooter",
+      "SinglePlayer"
     ]
   },
   "9P7L9H478GGV": {
-    "antiquity": 59,
+    "antiquity": 171,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
-    "reviews": 55,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -17573,13 +19857,27 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P7LJW72MKXV": {
-    "antiquity": 65,
+  "9P7LG1GLJGGZ": {
+    "antiquity": 52,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.2,
+    "price": 24.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9P7LJW72MKXV": {
+    "antiquity": 177,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -17587,25 +19885,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P7M6CRC96J0": {
-    "antiquity": 1040,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.3,
-    "reviews": 112,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle"
-    ]
-  },
   "9P7MS7SRC9NX": {
-    "antiquity": 62,
+    "antiquity": 142,
     "gamepass": false,
     "price": 9.99,
-    "rate": 0.0,
+    "rate": 1.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -17613,25 +19900,28 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P7MSBMJJD5M": {
-    "antiquity": 142,
+  "9P7P72HWBDNP": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 18.99,
-    "rate": 2.3,
-    "reviews": 0,
+    "price": 4.99,
+    "rate": 4.4,
+    "reviews": 550,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "SinglePlayer"
+      "Compras",
+      "Bundle",
+      "MultiPlayer"
     ]
   },
   "9P7PF6ZP3958": {
-    "antiquity": 194,
+    "antiquity": 306,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.6,
-    "reviews": 13,
+    "rate": 4.5,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -17639,41 +19929,40 @@ const GAME = {
     ]
   },
   "9P7Q7S8FJ76V": {
-    "antiquity": 67,
+    "antiquity": 179,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9P7S4PJQNTNB": {
-    "antiquity": 1095,
+  "9P7QXQL2TLMD": {
+    "antiquity": 340,
     "gamepass": false,
-    "price": 5.99,
-    "rate": 2.4,
+    "price": 14.99,
+    "rate": 2.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Classics",
-      "Family",
-      "Racing & flying",
-      "Simulation",
       "SinglePlayer"
     ]
   },
   "9P7SL78VHVMF": {
-    "antiquity": 388,
+    "antiquity": 500,
     "gamepass": true,
     "price": 49.99,
-    "rate": 4.2,
-    "reviews": 106,
+    "rate": 4.1,
+    "reviews": 110,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -17681,190 +19970,86 @@ const GAME = {
     ]
   },
   "9P7TK3GJVH57": {
-    "antiquity": 954,
+    "antiquity": 1066,
     "gamepass": false,
-    "price": 29.99,
+    "price": 19.99,
     "rate": 4.8,
-    "reviews": 105,
+    "reviews": 108,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
-  "9P7VM88DHHT3": {
-    "antiquity": 184,
-    "gamepass": false,
-    "price": 18.99,
-    "rate": 5.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Puzzle",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9P7W91VJFKQ6": {
-    "antiquity": 172,
+    "antiquity": 284,
     "gamepass": false,
     "price": 9.99,
-    "rate": 3.7,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9P7WX4XL1PWT": {
-    "antiquity": 691,
+  "9P7ZGFS7F5C6": {
+    "antiquity": 1304,
     "gamepass": false,
-    "price": 11.24,
-    "rate": 3.7,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9P80FVDCXJKB": {
-    "antiquity": 123,
-    "gamepass": false,
-    "price": 54.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Simulation",
-      "Sports",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9P80M2MCDNZB": {
-    "antiquity": 97,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9P80SLMHNJF0": {
-    "antiquity": 182,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9P822XLW9PB8": {
-    "antiquity": 262,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 3.7,
-    "reviews": 3,
-    "trial": true,
-    "tags": [
-      "Compras",
-      "Sports",
-      "Family",
-      "MOBA",
-      "Simulation",
-      "Role playing",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P823KL5T79R": {
-    "antiquity": 207,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 2.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
-  "9P82KL371N5P": {
-    "antiquity": 814,
-    "gamepass": false,
-    "price": 4.99,
+    "price": 5.99,
     "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 70.03502,
     "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
-  "9P82LLV8FCHN": {
-    "antiquity": 1214,
-    "gamepass": false,
-    "price": 2.09,
-    "rate": 4.3,
-    "reviews": 3,
+  "9P80FVDCXJKB": {
+    "antiquity": 235,
+    "gamepass": true,
+    "price": 54.99,
+    "rate": 3.6,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "SinglePlayer"
+      "Compras",
+      "Simulation",
+      "Sports",
+      "Strategy",
+      "SinglePlayer",
+      "GamePass"
     ]
   },
   "9P843287F8X2": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 24.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
       "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9P84TP6N4D48": {
-    "antiquity": 156,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "Fighting",
       "SinglePlayer"
     ]
   },
   "9P862Q562R1X": {
-    "antiquity": 37,
+    "antiquity": 149,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -17873,36 +20058,40 @@ const GAME = {
     ]
   },
   "9P86HR73LQJZ": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 99.47,
-    "rate": 4.6,
-    "reviews": 745,
+    "rate": 4.5,
+    "reviews": 772,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9P8838757RCD": {
-    "antiquity": 135,
+  "9P87CGF1TCCX": {
+    "antiquity": 677,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 3.9,
-    "reviews": 8,
+    "price": 7.19,
+    "rate": 2.8,
+    "reviews": 13,
     "trial": false,
+    "discount": 60.03335,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Action",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9P88K6NQW12H": {
-    "antiquity": 55,
+    "antiquity": 167,
     "gamepass": false,
     "price": 29.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 3.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Strategy",
@@ -17912,108 +20101,42 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9P89LX2WK4N0": {
-    "antiquity": 19,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.7,
-    "reviews": 34,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9P8C595WWGS3": {
-    "antiquity": 248,
-    "gamepass": false,
-    "price": 9.74,
-    "rate": 4.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
   "9P8DL6W0JBB8": {
-    "antiquity": 847,
+    "antiquity": 959,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
-    "reviews": 275,
+    "reviews": 277,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9P8F9WGZ8L95": {
-    "antiquity": 179,
+  "9P8GR4BMTV36": {
+    "antiquity": 45,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 4.0,
+    "price": 39.99,
+    "rate": 3.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
+      "Simulation",
+      "Strategy",
       "SinglePlayer"
-    ]
-  },
-  "9P8FPMCF5X1F": {
-    "antiquity": 1398,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9P8JRMWRQP4H": {
-    "antiquity": 256,
-    "gamepass": true,
-    "price": 79.99,
-    "rate": 2.6,
-    "reviews": 601,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9P8K2WP8VXKF": {
-    "antiquity": 740,
-    "gamepass": false,
-    "price": 23.99,
-    "rate": 2.8,
-    "reviews": 149,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
     ]
   },
   "9P8K6ZZ71SX5": {
-    "antiquity": 861,
+    "antiquity": 973,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.3,
-    "reviews": 25,
+    "rate": 4.4,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -18021,12 +20144,13 @@ const GAME = {
     ]
   },
   "9P8K95CWTHX8": {
-    "antiquity": 69,
+    "antiquity": 170,
     "gamepass": false,
     "price": 2.99,
-    "rate": 4.0,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Family",
@@ -18035,12 +20159,13 @@ const GAME = {
     ]
   },
   "9P8M382HXBKH": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Classics",
@@ -18049,52 +20174,26 @@ const GAME = {
     ]
   },
   "9P8MQ0X518GC": {
-    "antiquity": 7249,
+    "antiquity": 7361,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
     "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
-  "9P8MS0ZFBTFJ": {
-    "antiquity": 107,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 2.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Action",
-      "Classics",
-      "SinglePlayer"
-    ]
-  },
-  "9P8NF6TXP8WF": {
-    "antiquity": 1096,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.2,
-    "reviews": 15,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "9P8NSTDMZ11P": {
-    "antiquity": 181,
+    "antiquity": 293,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.5,
-    "reviews": 2,
+    "rate": 4.8,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Cards",
@@ -18102,26 +20201,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9P8P3B0PVKGQ": {
-    "antiquity": 941,
+  "9P8P3BVRKTGV": {
+    "antiquity": 24,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 1.8,
-    "reviews": 4,
+    "price": 7.99,
+    "rate": 3.4,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
-      "Simulation",
       "SinglePlayer"
     ]
   },
   "9P8PGC771MLP": {
-    "antiquity": 119,
+    "antiquity": 231,
     "gamepass": false,
     "price": 99.99,
-    "rate": 3.4,
-    "reviews": 16,
+    "rate": 2.8,
+    "reviews": 600,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -18129,51 +20229,73 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P8PQTRQM6Q5": {
-    "antiquity": 164,
+  "9P8QW0SMZP57": {
+    "antiquity": 3,
     "gamepass": false,
-    "price": 6.99,
-    "rate": 1.3,
+    "price": 3.99,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 20.040077,
     "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
+      "Puzzle",
+      "Cards",
+      "Classics",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9P8RQH67TTT1": {
-    "antiquity": 480,
+    "antiquity": 592,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.5,
-    "reviews": 2425,
+    "reviews": 2438,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
-  "9P8RTRSDBDMG": {
-    "antiquity": 188,
+  "9P8RXNL2PXZT": {
+    "antiquity": 5,
     "gamepass": false,
-    "price": 12.99,
+    "price": 4.99,
     "rate": 5.0,
-    "reviews": 6,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Music",
+      "Strategy",
+      "Family",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
+  "9P8SMMTLH98S": {
+    "antiquity": 1529,
+    "gamepass": false,
+    "price": 3.74,
+    "rate": 2.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 75.05003,
+    "tags": [
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9P8SQQJ5T94B": {
-    "antiquity": 483,
+    "antiquity": 595,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.9,
-    "reviews": 93,
+    "rate": 3.0,
+    "reviews": 98,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -18187,89 +20309,80 @@ const GAME = {
     ]
   },
   "9P8T26SDVVDS": {
-    "antiquity": 81,
+    "antiquity": 193,
     "gamepass": false,
-    "price": 22.99,
-    "rate": 4.0,
+    "price": 11.99,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9P8WHKM8B1BM": {
-    "antiquity": 354,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.8,
-    "reviews": 114,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9P8WWN640564": {
-    "antiquity": 856,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.1,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9P8XJRLCLH2P": {
-    "antiquity": 1958,
+    "antiquity": 2070,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.9,
-    "reviews": 92,
+    "reviews": 96,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9P90FGQ2KX0M": {
-    "antiquity": 12,
+  "9P8XZ5W7TKP5": {
+    "antiquity": 79,
     "gamepass": false,
-    "price": 39.99,
+    "price": 42.49,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9P90FGQ2KX0M": {
+    "antiquity": 116,
+    "gamepass": false,
+    "price": 49.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9P90PC10BZW8": {
-    "antiquity": 737,
+  "9P91J18NC76V": {
+    "antiquity": 104,
     "gamepass": false,
-    "price": 49.99,
-    "rate": 4.1,
-    "reviews": 14,
+    "price": 24.99,
+    "rate": 3.7,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Role playing",
-      "MultiPlayer"
+      "SinglePlayer"
     ]
   },
   "9P91PLSLZBKW": {
-    "antiquity": 759,
+    "antiquity": 871,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
-    "reviews": 57,
+    "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -18277,124 +20390,113 @@ const GAME = {
     ]
   },
   "9P9278ZMGQLJ": {
-    "antiquity": 122,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 4.0,
-    "reviews": 48,
+    "antiquity": 234,
+    "gamepass": true,
+    "price": 49.99,
+    "rate": 3.8,
+    "reviews": 150,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P93Z9SJR08K": {
-    "antiquity": 188,
-    "gamepass": false,
-    "price": 26.99,
-    "rate": 5.0,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9P94S5BKWZNK": {
-    "antiquity": 194,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.9,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "SinglePlayer"
+      "MultiPlayer",
+      "GamePass"
     ]
   },
   "9P957BXL7RDQ": {
-    "antiquity": 418,
+    "antiquity": 530,
     "gamepass": false,
-    "price": 54.99,
-    "rate": 4.0,
-    "reviews": 15,
+    "price": 32.99,
+    "rate": 3.9,
+    "reviews": 18,
     "trial": false,
+    "discount": 40.007275,
     "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9P959CQZL8H4": {
+    "antiquity": 1054,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 3.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9P95CH4G6MJT": {
-    "antiquity": 179,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 4.2,
-    "reviews": 52,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9P95H49KSS5J": {
-    "antiquity": 193,
+    "antiquity": 305,
     "gamepass": false,
     "price": 26.99,
-    "rate": 5.0,
-    "reviews": 8,
+    "rate": 4.8,
+    "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9P9906TV3Z64": {
-    "antiquity": 179,
+    "antiquity": 291,
     "gamepass": false,
-    "price": 23.99,
-    "rate": 4.7,
-    "reviews": 3,
+    "price": 22.49,
+    "rate": 4.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 25.008339,
     "tags": [
       "Puzzle",
       "Action",
-      "Platformer"
+      "Platformer",
+      "Oferta"
     ]
   },
-  "9P9CNVGFK6N5": {
-    "antiquity": 158,
+  "9P9CBCBWXKGV": {
+    "antiquity": 110,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.7,
+    "price": 9.99,
+    "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9P9CXWVQP6M9": {
-    "antiquity": 1423,
+    "antiquity": 1535,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.3,
-    "reviews": 23,
+    "rate": 4.1,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
   "9P9F54WDBGH6": {
-    "antiquity": 51,
+    "antiquity": 163,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.6,
-    "reviews": 109,
+    "reviews": 120,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "CrossPlatform",
@@ -18402,107 +20504,67 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9P9GH5L54WL7": {
-    "antiquity": 30,
+  "9P9G5WX8C0VH": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 0.0,
-    "rate": 4.2,
-    "reviews": 172,
+    "price": 79.99,
+    "rate": 4.1,
+    "reviews": 505,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Tragaperras",
-      "Compras",
       "Bundle",
-      "MultiPlayer",
-      "Free"
-    ]
-  },
-  "9P9GXG7BJ42Q": {
-    "antiquity": 740,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 4.6,
-    "reviews": 189,
-    "trial": false,
-    "tags": [
-      "Bundle"
-    ]
-  },
-  "9P9K6RZC55WH": {
-    "antiquity": 627,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.8,
-    "reviews": 87,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
+      "SinglePlayer"
     ]
   },
   "9P9K78101LCW": {
-    "antiquity": 1574,
+    "antiquity": 1686,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 85,
+    "reviews": 87,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9P9KP4WTMN5M": {
-    "antiquity": 1361,
-    "gamepass": false,
-    "price": 22.49,
-    "rate": 3.9,
-    "reviews": 166,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9P9KR2GN0BZ3": {
-    "antiquity": 755,
+    "antiquity": 867,
     "gamepass": false,
-    "price": 16.99,
+    "price": 19.99,
     "rate": 4.9,
-    "reviews": 33,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9P9N0VB61K3H": {
-    "antiquity": 125,
+  "9P9KSB4ZVPF5": {
+    "antiquity": 1257,
     "gamepass": false,
-    "price": 99.99,
-    "rate": 4.0,
-    "reviews": 86,
+    "price": 9.99,
+    "rate": 2.7,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
+      "Action",
+      "SinglePlayer"
     ]
   },
   "9P9NTCZ7HZLL": {
-    "antiquity": 61,
+    "antiquity": 173,
     "gamepass": false,
     "price": 7.99,
-    "rate": 4.5,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Family",
@@ -18513,124 +20575,99 @@ const GAME = {
     ]
   },
   "9P9PB3GQDS1X": {
-    "antiquity": 125,
+    "antiquity": 237,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 3.8,
+    "price": 18.74,
+    "rate": 3.6,
     "reviews": 0,
     "trial": true,
+    "discount": 25.010002,
     "tags": [
       "Strategy",
       "SinglePlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
-  "9P9PJHJND42C": {
-    "antiquity": 116,
+  "9P9STFSPH997": {
+    "antiquity": 640,
     "gamepass": false,
-    "price": 84.99,
-    "rate": 4.4,
-    "reviews": 65,
+    "price": 29.99,
+    "rate": 2.8,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P9QSK5576D2": {
-    "antiquity": 38,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P9R16G52QZ0": {
-    "antiquity": 87,
-    "gamepass": false,
-    "price": 8.09,
-    "rate": 3.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Shooter",
-      "Racing & flying",
-      "Classics",
+      "Role playing",
       "SinglePlayer"
     ]
   },
-  "9P9SDTLGW400": {
-    "antiquity": 4580,
+  "9P9V1D2Q713J": {
+    "antiquity": 613,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 7,
+    "price": 17.99,
+    "rate": 4.1,
+    "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9P9T9837CPVC": {
-    "antiquity": 212,
-    "gamepass": false,
-    "price": 44.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Compras",
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9P9V5LM6VMTT": {
-    "antiquity": 177,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 5.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Family",
-      "Classics",
       "SinglePlayer"
     ]
   },
   "9P9V698V6MVR": {
-    "antiquity": 1073,
+    "antiquity": 1185,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
-    "reviews": 80,
+    "reviews": 82,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9P9WMJ1295TJ": {
-    "antiquity": 1466,
+  "9P9VZ4KF3K44": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 2.8,
-    "reviews": 150,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Family",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9P9W5KQ25FBJ": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 13.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Action",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "9P9WMJ1295TJ": {
+    "antiquity": 1578,
+    "gamepass": false,
+    "price": 99.99,
+    "rate": 2.9,
+    "reviews": 156,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -18639,12 +20676,13 @@ const GAME = {
     ]
   },
   "9P9XD2PVPVFZ": {
-    "antiquity": 144,
+    "antiquity": 256,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.2,
     "reviews": 88,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -18652,64 +20690,84 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P9XS9D0LBPV": {
-    "antiquity": 776,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.8,
-    "reviews": 40,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Simulation",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9P9XZD603VTT": {
-    "antiquity": 34,
+    "antiquity": 146,
     "gamepass": false,
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9PB10F0ST9JR": {
-    "antiquity": 158,
+  "9PB0MZN0TMNF": {
+    "antiquity": 111,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 4.3,
-    "reviews": 0,
+    "price": 35.99,
+    "rate": 4.1,
+    "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PB2P9N524ZX": {
-    "antiquity": 188,
+  "9PB1C8S0922M": {
+    "antiquity": 1150,
     "gamepass": false,
-    "price": 110.99,
+    "price": 19.99,
+    "rate": 3.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9PB1KW2J9580": {
+    "antiquity": 703,
+    "gamepass": false,
+    "price": 8.99,
+    "rate": 2.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 40.026684,
+    "tags": [
+      "Action",
+      "Family",
+      "Role playing",
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PB2P9N524ZX": {
+    "antiquity": 300,
+    "gamepass": false,
+    "price": 72.14,
     "rate": 4.3,
     "reviews": 3,
     "trial": false,
+    "discount": 35.003155,
     "tags": [
-      "Bundle"
+      "Bundle",
+      "Oferta"
     ]
   },
   "9PB3FDWRWB9L": {
-    "antiquity": 1304,
+    "antiquity": 1416,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -18721,123 +20779,190 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PB3VHFWB5RV": {
-    "antiquity": 898,
+  "9PB3TP3MT2Q0": {
+    "antiquity": 1200,
     "gamepass": false,
-    "price": 6.99,
-    "rate": 5.0,
-    "reviews": 3,
+    "price": 29.99,
+    "rate": 4.1,
+    "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9PB498R5X9B7": {
-    "antiquity": 171,
+  "9PB4MGPLLW7R": {
+    "antiquity": 3,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 3.6,
-    "reviews": 21,
+    "price": 119.99,
+    "rate": 5.0,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle"
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9PB4WLWQS892": {
+    "antiquity": 51,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.7,
+    "reviews": 3600,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Bundle",
+      "MultiPlayer",
+      "Free"
     ]
   },
   "9PB5JDBZB4S0": {
-    "antiquity": 40,
+    "antiquity": 149,
     "gamepass": false,
     "price": 6.99,
-    "rate": 0.0,
+    "rate": 2.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9PB5XB3FM6XC": {
-    "antiquity": 363,
+  "9PB6MMS1VJ5C": {
+    "antiquity": 12,
     "gamepass": false,
-    "price": 34.99,
-    "rate": 3.9,
-    "reviews": 13,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 20.016014,
     "tags": [
+      "Platformer",
       "Action",
-      "Role playing",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
-  "9PB8X1G48SSD": {
-    "antiquity": 171,
+  "9PB6RH1N17XT": {
+    "antiquity": 44,
     "gamepass": false,
-    "price": 34.99,
-    "rate": 3.6,
-    "reviews": 7,
+    "price": 14.99,
+    "rate": 2.1,
+    "reviews": 32,
     "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9PB9N4BTH6P6": {
-    "antiquity": 108,
-    "gamepass": false,
-    "price": 109.99,
-    "rate": 3.5,
-    "reviews": 8,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9PBB49G96Q4J": {
-    "antiquity": 175,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.6,
-    "reviews": 8,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
+  "9PBB49G96Q4J": {
+    "antiquity": 287,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 3.8,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle"
+    ]
+  },
+  "9PBB7WKGG8HN": {
+    "antiquity": 73,
+    "gamepass": false,
+    "price": 84.99,
+    "rate": 3.0,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9PBC65KXPV5V": {
-    "antiquity": 117,
+    "antiquity": 229,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 33,
+    "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "SinglePlayer",
       "GamePass"
     ]
   },
+  "9PBCVD3W8464": {
+    "antiquity": 66,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "Puzzle",
+      "Simulation",
+      "Educational",
+      "Family",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
   "9PBDC0XZ8TXK": {
-    "antiquity": 1172,
+    "antiquity": 1284,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.6,
-    "reviews": 216,
+    "reviews": 217,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9PBDWHWQNC12": {
+    "antiquity": 61,
+    "gamepass": false,
+    "price": 35.99,
+    "rate": 3.2,
+    "reviews": 27,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9PBFZPPSKNTJ": {
-    "antiquity": 45,
+    "antiquity": 157,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -18845,26 +20970,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PBG35089T5T": {
-    "antiquity": 837,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9PBGSDN53JP0": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Classics",
@@ -18872,120 +20985,115 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PBHXGWZTS2N": {
-    "antiquity": 1514,
+  "9PBH6CXRQ90P": {
+    "antiquity": 117,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.1,
-    "reviews": 146,
+    "price": 109.99,
+    "rate": 2.2,
+    "reviews": 339,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9PBHXGWZTS2N": {
+    "antiquity": 1626,
+    "gamepass": true,
+    "price": 39.99,
+    "rate": 4.2,
+    "reviews": 169,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "Shooter",
       "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9PBJ36QL2N9V": {
-    "antiquity": 187,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 4.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "SinglePlayer",
       "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
-  "9PBJ40ST48FG": {
-    "antiquity": 1173,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": true,
-    "tags": [
-      "Action",
-      "Classics",
-      "Platformer",
-      "Racing & flying",
-      "SinglePlayer"
+      "GamePass"
     ]
   },
   "9PBKGF8MW7J7": {
-    "antiquity": 72,
+    "antiquity": 184,
     "gamepass": false,
     "price": 6.99,
-    "rate": 2.4,
+    "rate": 2.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
+  "9PBLFJMCLW33": {
+    "antiquity": 37,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9PBLG3PK3F4V": {
-    "antiquity": 136,
+    "antiquity": 248,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.2,
-    "reviews": 116,
+    "reviews": 121,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "9PBLH1322GX0": {
-    "antiquity": 1200,
+    "antiquity": 1312,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
     "reviews": 120,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PBLLX1V5JBX": {
-    "antiquity": 151,
+    "antiquity": 263,
     "gamepass": false,
     "price": 26.99,
-    "rate": 4.4,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Family",
       "SinglePlayer"
     ]
   },
-  "9PBN02CTMRTH": {
-    "antiquity": 696,
-    "gamepass": false,
-    "price": 54.99,
-    "rate": 4.5,
-    "reviews": 354,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9PBN5HM4GZ21": {
-    "antiquity": 1283,
+    "antiquity": 1395,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.2,
-    "reviews": 0,
+    "rate": 4.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Simulation",
@@ -18994,53 +21102,90 @@ const GAME = {
     ]
   },
   "9PBNGCVBGML0": {
-    "antiquity": 863,
-    "gamepass": false,
-    "price": 17.49,
-    "rate": 3.4,
-    "reviews": 126,
+    "antiquity": 975,
+    "gamepass": true,
+    "price": 69.99,
+    "rate": 3.3,
+    "reviews": 165,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
       "Shooter",
       "SinglePlayer",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9PBPB145Z5XB": {
+    "antiquity": 76,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Music",
+      "Puzzle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
-  "9PBP03PCK429": {
-    "antiquity": 859,
+  "9PBQ7QTWXKZG": {
+    "antiquity": 97,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 2.9,
-    "reviews": 24,
+    "price": 69.99,
+    "rate": 2.8,
+    "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9PBR67RQR7FL": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PBRZ938K05J": {
-    "antiquity": 121,
+  "9PBRZQFK0XC3": {
+    "antiquity": 103,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.0,
-    "reviews": 0,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "Action",
-      "Strategy",
-      "SinglePlayer"
+      "Compras",
+      "Bundle"
     ]
   },
   "9PBS5BHSPHFJ": {
-    "antiquity": 486,
+    "antiquity": 598,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.0,
-    "reviews": 55,
+    "reviews": 57,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Role playing",
@@ -19048,67 +21193,73 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PBTH183Z1SK": {
-    "antiquity": 198,
+  "9PBS8M93F1BF": {
+    "antiquity": 1734,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 4.7,
-    "reviews": 3,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
-      "Family",
-      "Classics",
+      "Role playing",
+      "Strategy",
       "SinglePlayer"
     ]
   },
-  "9PBTMJ6PW9MK": {
-    "antiquity": 1074,
+  "9PBSFHJWMZ1F": {
+    "antiquity": 53,
     "gamepass": false,
-    "price": 119.99,
-    "rate": 3.0,
-    "reviews": 59,
+    "price": 109.99,
+    "rate": 4.2,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9PBV5P4DR4MZ": {
-    "antiquity": 203,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9PBVXQ4GSHJV": {
-    "antiquity": 180,
+    "antiquity": 292,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.8,
+    "price": 22.49,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 25.008339,
     "tags": [
       "Action",
       "Shooter",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PBX6142XRPP": {
+    "antiquity": 1110,
+    "gamepass": false,
+    "price": 2.19,
+    "rate": 3.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 80.07279,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PBX8G0DZ8PJ": {
-    "antiquity": 783,
+    "antiquity": 895,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.0,
-    "reviews": 24,
+    "rate": 4.1,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -19116,25 +21267,41 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PBZN2DT8T91": {
-    "antiquity": 262,
+  "9PBXZ93VT0RD": {
+    "antiquity": 602,
     "gamepass": false,
-    "price": 49.99,
+    "price": 19.99,
     "rate": 5.0,
-    "reviews": 6,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
+      "Action",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
+  "9PC0KMB9F5F0": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 99.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
   "9PC15H56NGJK": {
-    "antiquity": 124,
+    "antiquity": 236,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.4,
-    "reviews": 71,
+    "reviews": 78,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -19142,12 +21309,13 @@ const GAME = {
     ]
   },
   "9PC288TN7R8K": {
-    "antiquity": 1074,
+    "antiquity": 1186,
     "gamepass": true,
     "price": 14.99,
-    "rate": 4.3,
-    "reviews": 48,
+    "rate": 4.4,
+    "reviews": 53,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -19155,38 +21323,54 @@ const GAME = {
     ]
   },
   "9PC2BJDXR2LK": {
-    "antiquity": 1159,
+    "antiquity": 1271,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 136,
+    "reviews": 137,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PC3S5Z31JG2": {
-    "antiquity": 327,
+  "9PC2DZXVGKGN": {
+    "antiquity": 46,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 0.0,
+    "price": 4.99,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer"
+      "Action",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9PC2JKJBX288": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 3.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
     ]
   },
   "9PC4R8N1N2T6": {
-    "antiquity": 341,
+    "antiquity": 453,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.4,
-    "reviews": 110,
+    "reviews": 122,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -19195,12 +21379,13 @@ const GAME = {
     ]
   },
   "9PC4RWP34M2D": {
-    "antiquity": 1388,
+    "antiquity": 1500,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.1,
-    "reviews": 180,
+    "reviews": 188,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Fighting",
       "Simulation",
@@ -19211,39 +21396,114 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PC8DMNJX17T": {
-    "antiquity": 104,
+  "9PC575GPLN9J": {
+    "antiquity": 58,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.1,
+    "price": 4.99,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Puzzle",
       "Platformer",
-      "Action",
+      "Family",
       "SinglePlayer"
     ]
   },
-  "9PCCFDH6LMQJ": {
-    "antiquity": 759,
+  "9PC84MH58GJF": {
+    "antiquity": 86,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 4.4,
-    "reviews": 14,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "LocalMultiPlayer",
+      "Family",
+      "Platformer",
       "SinglePlayer"
+    ]
+  },
+  "9PC8F9T8GX3Q": {
+    "antiquity": 11,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9PC9CDGLRKK7": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 4.3,
+    "reviews": 6840,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9PCC2H5RRMH3": {
+    "antiquity": 82,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Action",
+      "Family",
+      "SinglePlayer"
+    ]
+  },
+  "9PCC43DPMGSH": {
+    "antiquity": 40,
+    "gamepass": false,
+    "price": 16.99,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 15.007502,
+    "tags": [
+      "Strategy",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9PCD85D1XBL1": {
+    "antiquity": 1451,
+    "gamepass": false,
+    "price": 1.99,
+    "rate": 3.2,
+    "reviews": 8,
+    "trial": false,
+    "discount": 80.08008,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PCDJWCFC4X8": {
-    "antiquity": 222,
+    "antiquity": 334,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.7,
-    "reviews": 7,
+    "rate": 4.0,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -19251,12 +21511,13 @@ const GAME = {
     ]
   },
   "9PCDNBHR11MR": {
-    "antiquity": 2336,
+    "antiquity": 2448,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
-    "reviews": 127,
+    "reviews": 128,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -19267,64 +21528,41 @@ const GAME = {
       "Free"
     ]
   },
-  "9PCDRDSZNL3S": {
-    "antiquity": 394,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9PCGG15VSS07": {
-    "antiquity": 32,
+    "antiquity": 144,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9PCGLX22S06M": {
-    "antiquity": 1370,
-    "gamepass": false,
-    "price": 7.49,
-    "rate": 4.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9PCK3VJWZCXQ": {
-    "antiquity": 117,
+  "9PCHNM2BLQHB": {
+    "antiquity": 93,
     "gamepass": false,
     "price": 4.99,
-    "rate": 3.3,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PCKBVF3P67H": {
-    "antiquity": 2203,
+    "antiquity": 2315,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.5,
-    "reviews": 64,
+    "rate": 3.4,
+    "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -19334,37 +21572,14 @@ const GAME = {
       "Free"
     ]
   },
-  "9PCKDV33X11T": {
-    "antiquity": 171,
-    "gamepass": false,
-    "price": 73.99,
-    "rate": 4.9,
-    "reviews": 14,
-    "trial": false,
-    "tags": [
-      "Bundle"
-    ]
-  },
-  "9PCLHGV00R60": {
-    "antiquity": 101,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9PCM4CMTPPGC": {
-    "antiquity": 23,
+    "antiquity": 135,
     "gamepass": true,
     "price": 59.99,
-    "rate": 4.0,
-    "reviews": 313,
+    "rate": 4.2,
+    "reviews": 576,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -19372,13 +21587,31 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PCQ7JRJVBVD": {
-    "antiquity": 60,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 4.5,
-    "reviews": 13,
+  "9PCMWNDPPBFZ": {
+    "antiquity": 234,
+    "gamepass": true,
+    "price": 49.99,
+    "rate": 4.7,
+    "reviews": 107,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9PCQ7JRJVBVD": {
+    "antiquity": 172,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.6,
+    "reviews": 16,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -19387,87 +21620,93 @@ const GAME = {
     ]
   },
   "9PCQHRS23M55": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9PCR9Q61R2H1": {
-    "antiquity": 1329,
+  "9PCQW56Z5VHZ": {
+    "antiquity": 108,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 4.9,
-    "reviews": 13,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9PCSZ41GJQ92": {
-    "antiquity": 191,
-    "gamepass": false,
-    "price": 17.99,
-    "rate": 3.2,
+    "price": 19.99,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Platformer",
+      "Compras",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PCTJQ025PWQ": {
-    "antiquity": 68,
+  "9PCR6CZBNSP8": {
+    "antiquity": 410,
     "gamepass": false,
-    "price": 23.99,
-    "rate": 4.0,
-    "reviews": 316,
-    "trial": false,
-    "tags": [
-      "Bundle"
-    ]
-  },
-  "9PCVP4JLPPQF": {
-    "antiquity": 212,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 5.0,
+    "price": 19.99,
+    "rate": 1.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9PCSH678RS9S": {
+    "antiquity": 836,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 5.0,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
-      "Shooter",
       "SinglePlayer"
     ]
   },
   "9PCVP9219CTB": {
-    "antiquity": 223,
+    "antiquity": 335,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.4,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
     ]
   },
+  "9PCVWW89JKVW": {
+    "antiquity": 426,
+    "gamepass": false,
+    "price": 99.99,
+    "rate": 4.2,
+    "reviews": 40,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9PCW1SMN9RGG": {
-    "antiquity": 850,
+    "antiquity": 962,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.6,
-    "reviews": 57,
+    "reviews": 59,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -19476,12 +21715,13 @@ const GAME = {
     ]
   },
   "9PCX1R3DMMWH": {
-    "antiquity": 53,
+    "antiquity": 165,
     "gamepass": false,
     "price": 79.99,
-    "rate": 5.0,
+    "rate": 1.9,
     "reviews": 0,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -19491,25 +21731,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PCZC0GZ9B0T": {
-    "antiquity": 215,
-    "gamepass": false,
-    "price": 89.99,
-    "rate": 4.0,
-    "reviews": 527,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle"
-    ]
-  },
   "9PD0KXV2138T": {
-    "antiquity": 17,
+    "antiquity": 129,
     "gamepass": false,
     "price": 89.99,
-    "rate": 1.7,
-    "reviews": 228,
+    "rate": 1.9,
+    "reviews": 266,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "CrossPlatform",
@@ -19517,24 +21746,88 @@ const GAME = {
     ]
   },
   "9PD16BQR4RTB": {
-    "antiquity": 79,
+    "antiquity": 191,
     "gamepass": false,
     "price": 23.99,
-    "rate": 4.0,
-    "reviews": 1,
+    "rate": 3.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
+  "9PD1FQCKM65P": {
+    "antiquity": 159,
+    "gamepass": false,
+    "price": 74.99,
+    "rate": 5.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9PD2BTTC84MQ": {
+    "antiquity": 340,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Cards",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9PD3N24ZBS56": {
+    "antiquity": 423,
+    "gamepass": false,
+    "price": 10.49,
+    "rate": 3.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 65.021675,
+    "tags": [
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PD4JFNZCZ90": {
+    "antiquity": 626,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.5,
+    "reviews": 32,
+    "trial": false,
+    "discount": 50.01667,
+    "tags": [
+      "Compras",
+      "Action",
+      "Shooter",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9PD5BM2Z8C4L": {
-    "antiquity": 507,
+    "antiquity": 619,
     "gamepass": true,
     "price": 3.99,
     "rate": 4.8,
-    "reviews": 365,
+    "reviews": 401,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -19542,57 +21835,30 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PD5JX3CGV66": {
-    "antiquity": 39,
+  "9PDBV8R4TSNH": {
+    "antiquity": 108,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.0,
-    "reviews": 23,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9PD7FWD66QC0": {
-    "antiquity": 150,
-    "gamepass": false,
-    "price": 23.99,
-    "rate": 3.3,
+    "price": 39.99,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Family",
       "Action",
+      "Platformer",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9PDBZT6BH848": {
-    "antiquity": 401,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "Fighting",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9PDDP6ML6XHF": {
-    "antiquity": 843,
+    "antiquity": 955,
     "gamepass": true,
     "price": 34.99,
-    "rate": 3.8,
-    "reviews": 154,
+    "rate": 3.7,
+    "reviews": 175,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -19601,37 +21867,56 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9PDDT56XFZ0K": {
+    "antiquity": 79,
+    "gamepass": false,
+    "price": 10.99,
+    "rate": 1.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Family",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9PDG551F7QGC": {
-    "antiquity": 5263,
+    "antiquity": 5375,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.3,
     "reviews": 13,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
       "Action",
-      "Role playing"
+      "Role playing",
+      "Oferta"
     ]
   },
   "9PDGWZPKCBT6": {
-    "antiquity": 1076,
+    "antiquity": 1188,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.3,
-    "reviews": 23,
+    "rate": 4.2,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PDHMB2N0V34": {
-    "antiquity": 93,
+    "antiquity": 205,
     "gamepass": false,
     "price": 69.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
+    "rate": 3.7,
+    "reviews": 7,
+    "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -19640,124 +21925,111 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PDHWZ7X3P03": {
-    "antiquity": 411,
-    "gamepass": true,
-    "price": 49.99,
-    "rate": 3.3,
-    "reviews": 86,
+  "9PDNKZ70QC7L": {
+    "antiquity": 109,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Role playing",
-      "Strategy",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform",
-      "GamePass"
+      "Platformer",
+      "SinglePlayer"
     ]
   },
-  "9PDKCJQ4MQXZ": {
-    "antiquity": 186,
+  "9PDP57CCGPC2": {
+    "antiquity": 332,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 2.0,
+    "price": 14.99,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "Family",
+      "Role playing",
+      "Action",
       "SinglePlayer"
     ]
   },
   "9PDP73BK988Q": {
-    "antiquity": 102,
+    "antiquity": 214,
     "gamepass": false,
-    "price": 24.99,
+    "price": 9.99,
     "rate": 2.5,
     "reviews": 2,
     "trial": false,
+    "discount": 60.02401,
     "tags": [
       "Simulation",
       "Action",
       "Strategy",
-      "SinglePlayer"
-    ]
-  },
-  "9PDPD158GLKD": {
-    "antiquity": 698,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 2.7,
-    "reviews": 24,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
       "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
+      "Oferta"
     ]
   },
   "9PDPVVDZK7MJ": {
-    "antiquity": 304,
+    "antiquity": 416,
     "gamepass": false,
     "price": 79.99,
-    "rate": 3.4,
-    "reviews": 80,
+    "rate": 3.5,
+    "reviews": 94,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PDQQ3HHDWTR": {
-    "antiquity": 851,
+  "9PDQZ0NL3GKK": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 2.8,
-    "reviews": 10,
+    "price": 12.99,
+    "rate": 4.3,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
+      "Action",
+      "Platformer",
+      "SinglePlayer"
     ]
   },
   "9PDS04TXBRMS": {
-    "antiquity": 66,
+    "antiquity": 178,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.5,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PDV8FKWP3B4": {
-    "antiquity": 2190,
+    "antiquity": 2302,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.8,
-    "reviews": 209,
+    "reviews": 215,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "GamePass"
     ]
   },
   "9PDXGMV5FVGV": {
-    "antiquity": 7,
+    "antiquity": 114,
     "gamepass": false,
     "price": 12.99,
-    "rate": 0.0,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -19765,12 +22037,13 @@ const GAME = {
     ]
   },
   "9PDXJP3805DN": {
-    "antiquity": 390,
+    "antiquity": 502,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
     "reviews": 120,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -19779,13 +22052,73 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9PDZC7SB4CC1": {
+    "antiquity": 775,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.2,
+    "reviews": 21,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
+  "9PF03JPJ4753": {
+    "antiquity": 1367,
+    "gamepass": false,
+    "price": 2.19,
+    "rate": 2.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 80.07279,
+    "tags": [
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PF0F2N6TCZ7": {
+    "antiquity": 787,
+    "gamepass": false,
+    "price": 16.99,
+    "rate": 4.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Shooter"
+    ]
+  },
+  "9PF0GL8Q6VVB": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 30.0,
+    "rate": 2.1,
+    "reviews": 341,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9PF0QP2LQZ2T": {
-    "antiquity": 20,
+    "antiquity": 124,
     "gamepass": false,
     "price": 49.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "rate": 3.7,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -19793,29 +22126,56 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PF1MJDCH3V7": {
-    "antiquity": 492,
+  "9PF1ZX4HHGSW": {
+    "antiquity": 54,
     "gamepass": false,
-    "price": 2.79,
-    "rate": 4.0,
-    "reviews": 0,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
+  "9PF27C4WRCP5": {
+    "antiquity": 1276,
+    "gamepass": false,
+    "price": 1.49,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 75.125206,
+    "tags": [
+      "Puzzle",
+      "Strategy",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PF3B188B28R": {
+    "antiquity": 325,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Fighting",
-      "Music",
-      "Platformer",
-      "SinglePlayer",
-      "LocalMultiPlayer"
+      "Racing & flying",
+      "SinglePlayer"
     ]
   },
   "9PF3NCDG22K1": {
-    "antiquity": 1472,
+    "antiquity": 1584,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -19825,12 +22185,13 @@ const GAME = {
     ]
   },
   "9PF432CVQBXT": {
-    "antiquity": 731,
+    "antiquity": 843,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.5,
-    "reviews": 689,
+    "reviews": 728,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -19842,78 +22203,104 @@ const GAME = {
       "Free"
     ]
   },
-  "9PF4TF8QP8T7": {
-    "antiquity": 150,
+  "9PF4C55FWR1M": {
+    "antiquity": 67,
     "gamepass": false,
-    "price": 41.99,
+    "price": 19.99,
+    "rate": 2.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9PF4TF8QP8T7": {
+    "antiquity": 262,
+    "gamepass": false,
+    "price": 69.99,
     "rate": 4.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9PF4XM6RFX38": {
-    "antiquity": 886,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.7,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9PF6XX9BSHF0": {
-    "antiquity": 1265,
+    "antiquity": 1377,
     "gamepass": false,
     "price": 7.99,
-    "rate": 3.9,
-    "reviews": 24,
+    "rate": 4.0,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
+  "9PF7HB2DJ7CR": {
+    "antiquity": 525,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 3.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Sports",
+      "Simulation",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9PF9XNS5KZ2S": {
-    "antiquity": 122,
+    "antiquity": 234,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.2,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PFBBLC9MBDF": {
-    "antiquity": 1416,
+  "9PFB0XGSXLR9": {
+    "antiquity": 108,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.5,
-    "reviews": 15,
+    "price": 49.99,
+    "rate": 3.9,
+    "reviews": 144,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "SinglePlayer",
+      "Bundle",
+      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
   "9PFBG52PQ6JQ": {
-    "antiquity": 143,
+    "antiquity": 255,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -19922,12 +22309,13 @@ const GAME = {
     ]
   },
   "9PFBJC0VVTMB": {
-    "antiquity": 146,
+    "antiquity": 258,
     "gamepass": false,
     "price": 49.99,
-    "rate": 2.8,
-    "reviews": 12,
+    "rate": 2.9,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -19937,24 +22325,54 @@ const GAME = {
     ]
   },
   "9PFD00CZJ35V": {
-    "antiquity": 887,
+    "antiquity": 999,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
     "reviews": 90,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
-  "9PFF66VNJDXR": {
-    "antiquity": 75,
+  "9PFDC72VHK80": {
+    "antiquity": 114,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 4.2,
+    "price": 49.99,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Platformer",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9PFDM84GDVQX": {
+    "antiquity": 16,
+    "gamepass": false,
+    "price": 16.49,
+    "rate": 3.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "9PFF66VNJDXR": {
+    "antiquity": 187,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.4,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -19962,12 +22380,13 @@ const GAME = {
     ]
   },
   "9PFFWMFBFWP3": {
-    "antiquity": 53,
+    "antiquity": 165,
     "gamepass": false,
     "price": 69.99,
-    "rate": 5.0,
+    "rate": 2.3,
     "reviews": 0,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -19977,89 +22396,56 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PFGKW6CBNTH": {
-    "antiquity": 850,
+  "9PFHX9TM2MW0": {
+    "antiquity": 464,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 1.6,
-    "reviews": 8,
+    "price": 4.99,
+    "rate": 3.2,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Sports",
+      "Puzzle",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9PFGQGC0XWLV": {
-    "antiquity": 131,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 3.9,
-    "reviews": 34,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9PFK1TLLZGXD": {
-    "antiquity": 947,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 4.2,
-    "reviews": 37,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9PFKHJH25TFF": {
-    "antiquity": 4163,
+    "antiquity": 4275,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.9,
-    "reviews": 37,
+    "rate": 4.8,
+    "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "9PFKKZ5T89NL": {
-    "antiquity": 1654,
+    "antiquity": 1766,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
     "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PFL29KF44DK": {
-    "antiquity": 114,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
   "9PFLS87CLD7P": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
-    "reviews": 3,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
@@ -20067,52 +22453,14 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PFLXKSX4Z3D": {
-    "antiquity": 457,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 3.8,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
-  "9PFM3WM299H6": {
-    "antiquity": 1167,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 3.3,
-    "reviews": 6,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Simulation",
-      "Sports",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9PFM9XD606HT": {
-    "antiquity": 199,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation"
-    ]
-  },
   "9PFMF665QXL2": {
-    "antiquity": 338,
+    "antiquity": 450,
     "gamepass": false,
     "price": 79.99,
-    "rate": 2.4,
-    "reviews": 271,
+    "rate": 2.2,
+    "reviews": 373,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -20122,40 +22470,56 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PFNPTNJC42S": {
-    "antiquity": 166,
+  "9PFPQRLJD1DW": {
+    "antiquity": 1279,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 3.7,
-    "reviews": 0,
+    "price": 29.99,
+    "rate": 4.9,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PFPM1P9HQN6": {
-    "antiquity": 486,
+  "9PFQFHCJQPT0": {
+    "antiquity": 3,
     "gamepass": false,
     "price": 84.99,
-    "rate": 4.8,
-    "reviews": 4,
+    "rate": 5.0,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9PFQQ6CWPHTR": {
+    "antiquity": 159,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 5.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "SinglePlayer",
-      "LocalMultiPlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
   "9PFQTLC9BHFB": {
-    "antiquity": 1165,
+    "antiquity": 1277,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -20169,51 +22533,69 @@ const GAME = {
     ]
   },
   "9PFSWXRMD478": {
-    "antiquity": 404,
+    "antiquity": 516,
     "gamepass": false,
     "price": 27.99,
     "rate": 2.2,
     "reviews": 4,
     "trial": false,
+    "discount": 65.008125,
     "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9PFT5ZLKQTNK": {
+    "antiquity": 703,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9PFV977CZPWR": {
+    "antiquity": 72,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 4.1,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
       "Bundle",
       "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
-  "9PFV3110RXS5": {
-    "antiquity": 206,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "Puzzle",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
   "9PFWHZ390TG6": {
-    "antiquity": 1279,
+    "antiquity": 1391,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.4,
     "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer"
     ]
   },
   "9PFX7F33KVG8": {
-    "antiquity": 717,
+    "antiquity": 829,
     "gamepass": true,
     "price": 49.99,
-    "rate": 3.3,
-    "reviews": 82,
+    "rate": 3.4,
+    "reviews": 86,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -20224,12 +22606,13 @@ const GAME = {
     ]
   },
   "9PFXNF3850RD": {
-    "antiquity": 262,
+    "antiquity": 374,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -20237,121 +22620,27 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9PFZ3QGKCKZ4": {
-    "antiquity": 126,
+  "9PG2RZ8GVZCJ": {
+    "antiquity": 375,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Family",
-      "Classics",
-      "SinglePlayer"
-    ]
-  },
-  "9PG0HF0DC6KG": {
-    "antiquity": 157,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 1.9,
+    "price": 19.99,
+    "rate": 4.9,
     "reviews": 0,
     "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9PG16TSBQSBT": {
-    "antiquity": 343,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 3.8,
-    "reviews": 71,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9PG26DBX43L1": {
-    "antiquity": 1055,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 4.0,
-    "reviews": 160,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9PG28RXDG9GQ": {
-    "antiquity": 837,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 2.9,
-    "reviews": 134,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9PG2T3C7JSWZ": {
-    "antiquity": 802,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.6,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing"
-    ]
-  },
-  "9PG2TC6Z3WS5": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9PG46Z7BDCVF": {
-    "antiquity": 248,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.7,
-    "reviews": 3,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PG495V9BT52": {
-    "antiquity": 334,
+    "antiquity": 446,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.7,
-    "reviews": 31,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -20359,25 +22648,70 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9PG4FP93CZ42": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 1.9,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Simulation",
+      "Classics",
+      "Racing & flying",
+      "SinglePlayer"
+    ]
+  },
+  "9PG4H899ZDC4": {
+    "antiquity": 87,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PG6CV3WZJ19": {
+    "antiquity": 971,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.7,
+    "reviews": 3,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9PG73DHBQQ0B": {
-    "antiquity": 5,
+    "antiquity": 117,
     "gamepass": false,
     "price": 28.49,
-    "rate": 5.0,
+    "rate": 4.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9PG77HHN20HN": {
-    "antiquity": 740,
+    "antiquity": 852,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
     "reviews": 42,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -20385,25 +22719,41 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9PG7MTR0MVP9": {
+    "antiquity": 1047,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.7,
+    "reviews": 991,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "9PG8R6F49KQ2": {
-    "antiquity": 156,
+    "antiquity": 268,
     "gamepass": false,
     "price": 11.99,
-    "rate": 4.1,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PG8W7863HL8": {
-    "antiquity": 17,
+    "antiquity": 129,
     "gamepass": false,
     "price": 69.99,
-    "rate": 0.0,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -20413,12 +22763,13 @@ const GAME = {
     ]
   },
   "9PG9G25LSKF7": {
-    "antiquity": 215,
+    "antiquity": 327,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 535,
+    "reviews": 542,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -20426,12 +22777,13 @@ const GAME = {
     ]
   },
   "9PGBTTGFVJ0B": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 59.99,
-    "rate": 3.9,
-    "reviews": 18,
+    "rate": 4.0,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -20441,147 +22793,196 @@ const GAME = {
     ]
   },
   "9PGC82V0DXFS": {
-    "antiquity": 303,
+    "antiquity": 415,
     "gamepass": false,
     "price": 79.99,
-    "rate": 4.1,
-    "reviews": 45,
+    "rate": 4.2,
+    "reviews": 65,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9PGF2DMBV3MD": {
-    "antiquity": 143,
+  "9PGD71CMDS0Z": {
+    "antiquity": 51,
     "gamepass": false,
-    "price": 19.99,
+    "price": 0.0,
+    "rate": 4.0,
+    "reviews": 85,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Shooter",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
+  "9PGDBB92B6N2": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 9.99,
     "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PGFCSX5DPVT": {
-    "antiquity": 86,
+  "9PGFK782V24Z": {
+    "antiquity": 52,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 3.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9PGGZPGS6KX5": {
-    "antiquity": 223,
-    "gamepass": false,
-    "price": 3.99,
+    "price": 24.99,
     "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
+      "Simulation",
+      "Role playing",
+      "Strategy",
       "SinglePlayer"
     ]
   },
   "9PGHSK2QR07H": {
-    "antiquity": 725,
+    "antiquity": 837,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
-    "reviews": 3,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
-  "9PGJ5PJ2S4W7": {
-    "antiquity": 165,
+  "9PGJK7M3P4RP": {
+    "antiquity": 646,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 11.49,
+    "rate": 4.6,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Role playing",
+      "Action",
       "Classics",
-      "Shooter",
-      "LocalMultiPlayer",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9PGJCBMPH7SG": {
-    "antiquity": 172,
+  "9PGJLD9L3PDP": {
+    "antiquity": 40,
     "gamepass": false,
-    "price": 9.79,
-    "rate": 4.0,
+    "price": 4.99,
+    "rate": 1.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Shooter",
       "Action",
+      "Classics",
       "SinglePlayer"
+    ]
+  },
+  "9PGK4MTQMWSD": {
+    "antiquity": 80,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 4.6,
+    "reviews": 108,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9PGK9LCMHJLC": {
-    "antiquity": 47,
+    "antiquity": 151,
     "gamepass": false,
     "price": 29.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PGLL77C201J": {
-    "antiquity": 713,
+    "antiquity": 825,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.5,
-    "reviews": 467,
+    "reviews": 470,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
+  "9PGMNL3KW663": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 4.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
+  "9PGMT9T2N5RG": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "Cards",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "9PGNCVFB8GN6": {
-    "antiquity": 44,
+    "antiquity": 156,
     "gamepass": false,
     "price": 34.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
-  "9PGP0J10H2HT": {
-    "antiquity": 556,
-    "gamepass": false,
-    "price": 6.74,
-    "rate": 4.7,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
   "9PGPPZW59JB8": {
-    "antiquity": 1462,
+    "antiquity": 1574,
     "gamepass": false,
     "price": 29.99,
-    "rate": 3.9,
-    "reviews": 25,
+    "rate": 4.0,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -20589,12 +22990,13 @@ const GAME = {
     ]
   },
   "9PGPQK0XTHRZ": {
-    "antiquity": 1039,
+    "antiquity": 1151,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.6,
-    "reviews": 1705,
+    "reviews": 1763,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -20621,87 +23023,120 @@ const GAME = {
       "Free"
     ]
   },
-  "9PGQ10210V32": {
-    "antiquity": 116,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 4.3,
-    "reviews": 6454,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9PGRFRJRQ28F": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 39.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "rate": 4.4,
+    "reviews": 7,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Action",
       "SinglePlayer"
     ]
   },
-  "9PGRZX0F2JR0": {
-    "antiquity": 921,
+  "9PGRQXG1C6MP": {
+    "antiquity": 45,
     "gamepass": false,
-    "price": 3.49,
-    "rate": 3.9,
+    "price": 19.99,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PGVPJQDRNQ8": {
-    "antiquity": 179,
+  "9PGSLC7DW3WC": {
+    "antiquity": 1151,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.9,
-    "reviews": 41,
+    "price": 16.49,
+    "rate": 4.0,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PGTJTW38JFW": {
+    "antiquity": 433,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 3.7,
+    "reviews": 99,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
+  "9PGTN6HRLB18": {
+    "antiquity": 116,
+    "gamepass": false,
+    "price": 28.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PGVVK65VW3H": {
-    "antiquity": 100,
+  "9PGV03L5R1V7": {
+    "antiquity": 111,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "SinglePlayer"
-    ]
-  },
-  "9PGWNRHSPB6W": {
-    "antiquity": 207,
-    "gamepass": false,
-    "price": 4.99,
+    "price": 9.99,
     "rate": 3.4,
     "reviews": 0,
-    "trial": false,
+    "trial": true,
+    "discount": 0,
     "tags": [
-      "Family",
       "Action",
+      "Shooter",
       "Puzzle",
       "SinglePlayer"
     ]
   },
+  "9PGV6XTWFLRQ": {
+    "antiquity": 53,
+    "gamepass": false,
+    "price": 64.99,
+    "rate": 4.4,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9PGW3C3SNXPR": {
+    "antiquity": 17,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 3.6,
+    "reviews": 21,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
   "9PGWTWWS2GD0": {
-    "antiquity": 6,
+    "antiquity": 114,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -20710,41 +23145,29 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PGX81GR67CZ": {
-    "antiquity": 802,
+  "9PGXZDQC92TK": {
+    "antiquity": 1969,
     "gamepass": false,
-    "price": 19.99,
+    "price": 9.99,
     "rate": 3.0,
-    "reviews": 2,
+    "reviews": 4,
     "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9PH1Q5TKPQCQ": {
-    "antiquity": 411,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.3,
-    "reviews": 139,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Fighting",
-      "Shooter",
+      "Classics",
+      "Role playing",
       "SinglePlayer"
     ]
   },
   "9PH2F5SFMNDK": {
-    "antiquity": 73,
+    "antiquity": 181,
     "gamepass": false,
     "price": 64.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 3.6,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -20752,64 +23175,127 @@ const GAME = {
     ]
   },
   "9PH339L3Z99C": {
-    "antiquity": 1808,
+    "antiquity": 1920,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.3,
-    "reviews": 571,
+    "reviews": 604,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9PH9B8Q0WMNT": {
+  "9PH36L2G7G1D": {
+    "antiquity": 105,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9PH4TQ1T0VRZ": {
+    "antiquity": 89,
+    "gamepass": true,
+    "price": 29.99,
+    "rate": 3.8,
+    "reviews": 20,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "Sports",
+      "SinglePlayer",
+      "GamePass"
+    ]
+  },
+  "9PH79V6FC1SJ": {
     "antiquity": 12,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "price": 19.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 10.005003,
+    "tags": [
+      "Simulation",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PH9B8Q0WMNT": {
+    "antiquity": 116,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9PHFDJ1RV965": {
-    "antiquity": 100,
+  "9PHC3LHFWQ3V": {
+    "antiquity": 1010,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.4,
-    "reviews": 0,
+    "price": 27.99,
+    "rate": 4.2,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Role playing",
       "Action",
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9PHFHD4659FL": {
-    "antiquity": 143,
+  "9PHCDZ7MHHP0": {
+    "antiquity": 690,
     "gamepass": false,
-    "price": 28.99,
-    "rate": 2.0,
-    "reviews": 2,
+    "price": 2.79,
+    "rate": 3.1,
+    "reviews": 0,
     "trial": false,
+    "discount": 60.085835,
     "tags": [
-      "Action",
-      "SinglePlayer"
+      "Family",
+      "Racing & flying",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9PHDKN5SFBVJ": {
+    "antiquity": 1326,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9PHFJ0N31NV1": {
-    "antiquity": 381,
+    "antiquity": 493,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.7,
-    "reviews": 94,
+    "reviews": 105,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -20817,53 +23303,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PHG0HCQ0NTD": {
-    "antiquity": 660,
+  "9PHFQSMTWX9G": {
+    "antiquity": 815,
     "gamepass": false,
-    "price": 7.99,
-    "rate": 3.0,
-    "reviews": 0,
+    "price": 24.99,
+    "rate": 2.9,
+    "reviews": 14,
     "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9PHGTP8PR6ZP": {
-    "antiquity": 128,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Action",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
-  "9PHGVPSJQ9DJ": {
-    "antiquity": 212,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.6,
-    "reviews": 0,
-    "trial": true,
-    "tags": [
-      "Platformer",
-      "Puzzle",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
-  "9PHGWSBGWCGL": {
-    "antiquity": 940,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.0,
-    "reviews": 3,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -20871,12 +23318,13 @@ const GAME = {
     ]
   },
   "9PHH1ZWRSZ41": {
-    "antiquity": 47,
+    "antiquity": 159,
     "gamepass": true,
     "price": 39.99,
-    "rate": 4.9,
-    "reviews": 50,
+    "rate": 4.8,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -20884,25 +23332,43 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PHKWCSZ0SQJ": {
-    "antiquity": 175,
+  "9PHH4DVB3SQG": {
+    "antiquity": 83,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.8,
-    "reviews": 9,
+    "price": 4.99,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle"
+      "Platformer",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PHJ6KG3QS78": {
+    "antiquity": 984,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Educational",
+      "Simulation",
+      "SinglePlayer"
     ]
   },
   "9PHKZ9XT6F85": {
-    "antiquity": 32,
+    "antiquity": 144,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Strategy",
@@ -20911,53 +23377,84 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PHL6XLQC875": {
-    "antiquity": 149,
+  "9PHMR1FW559R": {
+    "antiquity": 458,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 5.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Classics",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
-  "9PHM71SHLCVC": {
-    "antiquity": 126,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.8,
+    "price": 14.99,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 70.014,
     "tags": [
-      "Platformer",
       "Action",
-      "Shooter",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PHRJFG0DWFK": {
+    "antiquity": 94,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
       "SinglePlayer"
     ]
   },
   "9PHS893TVS24": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 79.99,
-    "rate": 3.7,
-    "reviews": 6,
+    "rate": 4.0,
+    "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PHT4213SXGZ": {
-    "antiquity": 30,
+  "9PHS9XT7PN54": {
+    "antiquity": 74,
     "gamepass": false,
-    "price": 5.99,
-    "rate": 0.0,
+    "price": 39.99,
+    "rate": 3.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PHSGZLT2TF8": {
+    "antiquity": 10,
+    "gamepass": false,
+    "price": 12.74,
+    "rate": 4.9,
     "reviews": 0,
     "trial": false,
+    "discount": 15.010005,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Fighting",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PHT4213SXGZ": {
+    "antiquity": 142,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -20966,79 +23463,72 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9PHT99P0SM47": {
+    "antiquity": 445,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Puzzle",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9PHTCQVHSZ4P": {
+    "antiquity": 53,
+    "gamepass": false,
+    "price": 129.99,
+    "rate": 4.1,
+    "reviews": 19,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
   "9PHVX0MD6ZNZ": {
-    "antiquity": 180,
+    "antiquity": 292,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PHW62DC4LGS": {
-    "antiquity": 418,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 3.8,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Simulation",
-      "Sports",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9PHW7BZS9P7Z": {
-    "antiquity": 725,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 4.4,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9PHZ6MLV5NDD": {
-    "antiquity": 891,
+    "antiquity": 1003,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.9,
-    "reviews": 8,
+    "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
       "SinglePlayer"
     ]
   },
-  "9PJ04CLFVDBX": {
-    "antiquity": 131,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9PJ06TZX4NMH": {
-    "antiquity": 2169,
+    "antiquity": 2281,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.3,
-    "reviews": 646,
+    "rate": 4.4,
+    "reviews": 654,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "SinglePlayer",
@@ -21047,40 +23537,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PJ0952T3011": {
-    "antiquity": 186,
-    "gamepass": false,
-    "price": 0.0,
-    "rate": 4.2,
-    "reviews": 172,
-    "trial": false,
-    "tags": [
-      "Tragaperras",
-      "Compras",
-      "Bundle",
-      "MultiPlayer",
-      "Free"
-    ]
-  },
-  "9PJ0N2X3RFG7": {
-    "antiquity": 304,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9PJ15D3RDXMV": {
-    "antiquity": 341,
+    "antiquity": 453,
     "gamepass": false,
     "price": 119.99,
     "rate": 3.1,
-    "reviews": 1051,
+    "reviews": 1091,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -21089,12 +23553,13 @@ const GAME = {
     ]
   },
   "9PJ2C9R9XN4Z": {
-    "antiquity": 299,
+    "antiquity": 411,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 359,
+    "reviews": 362,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -21103,66 +23568,83 @@ const GAME = {
     ]
   },
   "9PJ2DSSXZR0P": {
-    "antiquity": 1074,
+    "antiquity": 1186,
     "gamepass": false,
     "price": 31.49,
-    "rate": 4.4,
-    "reviews": 96,
+    "rate": 4.5,
+    "reviews": 113,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9PJ2FC2LK9QD": {
-    "antiquity": 339,
-    "gamepass": true,
+    "antiquity": 451,
+    "gamepass": false,
     "price": 19.99,
-    "rate": 4.7,
-    "reviews": 75,
+    "rate": 4.6,
+    "reviews": 83,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
-      "SinglePlayer",
-      "GamePass"
+      "SinglePlayer"
     ]
   },
   "9PJ4QR6S1N2T": {
-    "antiquity": 67,
+    "antiquity": 179,
     "gamepass": false,
     "price": 4.99,
-    "rate": 3.0,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "9PJ4R5F7S0TN": {
-    "antiquity": 97,
+  "9PJ522DSQR71": {
+    "antiquity": 19,
     "gamepass": false,
-    "price": 79.99,
-    "rate": 1.0,
-    "reviews": 2,
+    "price": 5.39,
+    "rate": 4.5,
+    "reviews": 0,
     "trial": false,
+    "discount": 10.016691,
     "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "CrossPlatform",
-      "MultiPlayer"
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PJ5MDVPGDRK": {
+    "antiquity": 576,
+    "gamepass": false,
+    "price": 3.99,
+    "rate": 3.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.062572,
+    "tags": [
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PJ61GMP1HZK": {
-    "antiquity": 60,
+    "antiquity": 172,
     "gamepass": false,
     "price": 24.99,
-    "rate": 3.3,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -21171,24 +23653,26 @@ const GAME = {
     ]
   },
   "9PJ6C03ZLLQV": {
-    "antiquity": 815,
+    "antiquity": 927,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.4,
     "reviews": 112,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "9PJ714M9HPT3": {
-    "antiquity": 39,
+    "antiquity": 151,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Racing & flying",
@@ -21196,12 +23680,13 @@ const GAME = {
     ]
   },
   "9PJ7GTJFD28C": {
-    "antiquity": 4,
+    "antiquity": 116,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -21209,50 +23694,56 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PJ91WJ7DK85": {
-    "antiquity": 144,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 5.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9PJ9GMB132DB": {
-    "antiquity": 25,
+    "antiquity": 137,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
+  "9PJB1ZRJDCBQ": {
+    "antiquity": 231,
+    "gamepass": true,
+    "price": 24.99,
+    "rate": 4.6,
+    "reviews": 207,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer",
+      "GamePass"
+    ]
+  },
   "9PJBC4BZPSMR": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
   "9PJD2KMX7TZ6": {
-    "antiquity": 1349,
+    "antiquity": 1461,
     "gamepass": true,
     "price": 59.99,
     "rate": 3.9,
-    "reviews": 29,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Strategy",
@@ -21260,51 +23751,90 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PJDVRGGFPPH": {
-    "antiquity": 1151,
+  "9PJDQ1MKWN3D": {
+    "antiquity": 152,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.3,
+    "price": 47.99,
+    "rate": 3.5,
     "reviews": 6,
-    "trial": true,
+    "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Fighting",
-      "LocalMultiPlayer"
+      "Strategy",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform"
     ]
   },
-  "9PJF9CW7L2RR": {
-    "antiquity": 1574,
+  "9PJF0L6ZBC5P": {
+    "antiquity": 79,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 4.5,
-    "reviews": 13,
+    "price": 5.49,
+    "rate": 2.9,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "Classics",
+      "SinglePlayer"
+    ]
+  },
+  "9PJF0V8MLD0N": {
+    "antiquity": 115,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
+      "Role playing",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
   "9PJFK4TCJD86": {
-    "antiquity": 178,
+    "antiquity": 290,
     "gamepass": false,
-    "price": 35.99,
+    "price": 59.99,
     "rate": 2.5,
     "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
+  "9PJFMVBP16CT": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.7,
+    "reviews": 3607,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Tragaperras",
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Free"
+    ]
+  },
   "9PJFS5DCZW4T": {
-    "antiquity": 24,
+    "antiquity": 136,
     "gamepass": false,
     "price": 39.99,
-    "rate": 0.0,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Music",
@@ -21314,24 +23844,26 @@ const GAME = {
     ]
   },
   "9PJGGX9XJXPB": {
-    "antiquity": 936,
+    "antiquity": 1048,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
-    "reviews": 88,
+    "reviews": 89,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
   "9PJGNFWR6MHL": {
-    "antiquity": 1264,
+    "antiquity": 1376,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
     "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -21342,53 +23874,74 @@ const GAME = {
     ]
   },
   "9PJHKHWQQ3NB": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
-    "price": 79.99,
-    "rate": 2.0,
-    "reviews": 65,
+    "price": 31.99,
+    "rate": 1.9,
+    "reviews": 208,
     "trial": false,
+    "discount": 60.0075,
     "tags": [
       "Compras",
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
-  "9PJKFBBX44FW": {
-    "antiquity": 13,
+  "9PJJ2LFBH06R": {
+    "antiquity": 19,
     "gamepass": false,
-    "price": 8.79,
+    "price": 7.19,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 20.022243,
+    "tags": [
+      "Classics",
+      "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PJJV5RJGFWJ": {
+    "antiquity": 1354,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.7,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9PJKFBBX44FW": {
+    "antiquity": 125,
+    "gamepass": false,
+    "price": 8.79,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "9PJKJ5SM251K": {
-    "antiquity": 103,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 2.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9PJL0VR9K32X": {
-    "antiquity": 1460,
+    "antiquity": 1572,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.5,
     "reviews": 10,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -21398,75 +23951,89 @@ const GAME = {
     ]
   },
   "9PJM4N3NWZ4B": {
-    "antiquity": 117,
+    "antiquity": 229,
     "gamepass": false,
     "price": 54.99,
-    "rate": 3.6,
-    "reviews": 14,
+    "rate": 2.5,
+    "reviews": 55,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9PJMQ9RK0JQ6": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 35.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 17.99,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 50.0139,
     "tags": [
       "Compras",
-      "Bundle"
+      "Bundle",
+      "Oferta"
     ]
   },
-  "9PJN16LJZ41M": {
-    "antiquity": 99,
+  "9PJNPR2N04XB": {
+    "antiquity": 47,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 3.7,
-    "reviews": 165,
+    "price": 41.99,
+    "rate": 4.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
       "SinglePlayer",
       "CrossPlatform",
+      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
-  "9PJNLHRPFB7W": {
-    "antiquity": 110,
+  "9PJP7FHHJGPZ": {
+    "antiquity": 423,
     "gamepass": false,
-    "price": 49.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 23.99,
+    "rate": 3.3,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Compras",
+      "Cards",
+      "Classics",
+      "Family",
+      "Simulation",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
     ]
   },
   "9PJPFVNC4KPB": {
-    "antiquity": 38,
+    "antiquity": 150,
     "gamepass": false,
     "price": 19.99,
-    "rate": 0.0,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PJPXZJQ0NQL": {
-    "antiquity": 18,
+    "antiquity": 130,
     "gamepass": false,
-    "price": 3.99,
-    "rate": 0.0,
+    "price": 4.99,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Cards",
       "Action",
@@ -21475,12 +24042,13 @@ const GAME = {
     ]
   },
   "9PJRB12LWG0F": {
-    "antiquity": 66,
+    "antiquity": 178,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.3,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -21489,69 +24057,61 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PJS4RFWL6L2": {
-    "antiquity": 114,
+  "9PJRKNNFDN08": {
+    "antiquity": 104,
     "gamepass": false,
-    "price": 9.99,
-    "rate": 2.6,
+    "price": 11.99,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
-      "Family",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9PJS5ZBHL9DT": {
-    "antiquity": 411,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 5.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
+      "Role playing",
+      "Simulation",
       "SinglePlayer"
     ]
   },
-  "9PJSD2FFQV56": {
-    "antiquity": 996,
+  "9PJSBFCGWBZ0": {
+    "antiquity": 606,
     "gamepass": false,
-    "price": 39.99,
+    "price": 3.99,
+    "rate": 3.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.062572,
+    "tags": [
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PJSD2FFQV56": {
+    "antiquity": 1108,
+    "gamepass": false,
+    "price": 11.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 70.0175,
     "tags": [
       "Compras",
       "Racing & flying",
       "Simulation",
       "Sports",
       "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9PJTP1JMJJDV": {
-    "antiquity": 163,
-    "gamepass": false,
-    "price": 2.49,
-    "rate": 4.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Simulation",
-      "Strategy",
-      "LocalMultiPlayer",
-      "SinglePlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9PJVG73JW2V2": {
-    "antiquity": 725,
+    "antiquity": 837,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 19,
+    "reviews": 20,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -21559,42 +24119,41 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PJVV5SGHCZC": {
-    "antiquity": 194,
+  "9PJW056LH7R9": {
+    "antiquity": 5283,
     "gamepass": false,
-    "price": 69.99,
-    "rate": 1.0,
+    "price": 4.99,
+    "rate": 4.3,
+    "reviews": 3,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Racing & flying",
+      "Oferta"
+    ]
+  },
+  "9PJXQXLCZ7L7": {
+    "antiquity": 103,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 2.5,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
       "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
       "MultiPlayer"
-    ]
-  },
-  "9PJZ48ZZMHCH": {
-    "antiquity": 795,
-    "gamepass": false,
-    "price": 2.39,
-    "rate": 3.1,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
     ]
   },
   "9PJZXCCK7VLW": {
-    "antiquity": 1398,
+    "antiquity": 1510,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
     "reviews": 93,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Cards",
@@ -21602,81 +24161,85 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PK08ZM5KKJG": {
-    "antiquity": 86,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 2.8,
-    "reviews": 143,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9PK1D30WX6M1": {
-    "antiquity": 159,
-    "gamepass": false,
-    "price": 89.99,
-    "rate": 4.6,
-    "reviews": 5,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
-  "9PK2M8HG5QHW": {
-    "antiquity": 135,
-    "gamepass": false,
-    "price": 10.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": true,
-    "tags": [
-      "Family",
-      "Platformer",
-      "Puzzle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9PK4B09SMN5C": {
-    "antiquity": 297,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 4.6,
-    "reviews": 56,
-    "trial": false,
-    "tags": [
-      "Role playing",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
-  "9PK82KP8V51N": {
-    "antiquity": 165,
+  "9PK0F0PFP3FT": {
+    "antiquity": 58,
     "gamepass": false,
     "price": 4.99,
-    "rate": 2.0,
-    "reviews": 1,
+    "rate": 4.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
       "Puzzle",
       "SinglePlayer"
     ]
   },
-  "9PK97P54BWG2": {
-    "antiquity": 761,
+  "9PK283CRVMK4": {
+    "antiquity": 55,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9PK4B09SMN5C": {
+    "antiquity": 409,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.7,
+    "reviews": 73,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9PK7W69MFT5B": {
+    "antiquity": 509,
     "gamepass": false,
     "price": 39.99,
-    "rate": 2.8,
-    "reviews": 12,
+    "rate": 2.9,
+    "reviews": 137,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
+    ]
+  },
+  "9PK8X4K64T5X": {
+    "antiquity": 39,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.3,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Role playing",
+      "Shooter",
+      "Fighting",
+      "SinglePlayer"
+    ]
+  },
+  "9PK97P54BWG2": {
+    "antiquity": 873,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 2.7,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -21688,115 +24251,207 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PK9X31P4XJ8": {
-    "antiquity": 360,
-    "gamepass": false,
-    "price": 12.49,
-    "rate": 2.9,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "9PKC29DP3MSV": {
-    "antiquity": 4,
+    "antiquity": 116,
     "gamepass": false,
-    "price": 17.99,
-    "rate": 0.0,
+    "price": 19.99,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PKC46N1BFL2": {
-    "antiquity": 947,
-    "gamepass": false,
-    "price": 5.39,
-    "rate": 4.3,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Cards",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9PKCKMMC8M9S": {
-    "antiquity": 124,
+    "antiquity": 236,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
     "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9PKDNVFFZCWX": {
-    "antiquity": 755,
+    "antiquity": 867,
     "gamepass": false,
     "price": 34.99,
-    "rate": 4.3,
-    "reviews": 18,
+    "rate": 4.4,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9PKH8FV3WFDX": {
-    "antiquity": 381,
+  "9PKDR66QS2ZJ": {
+    "antiquity": 78,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PKF2LDFPXTN": {
+    "antiquity": 89,
     "gamepass": false,
     "price": 59.99,
-    "rate": 4.0,
-    "reviews": 24,
+    "rate": 4.9,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9PKKLGN8H1HB": {
-    "antiquity": 116,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.4,
-    "reviews": 0,
-    "trial": true,
-    "tags": [
-      "Puzzle",
+      "Shooter",
       "Action",
-      "Family",
+      "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PKNN2R0VRQ4": {
-    "antiquity": 1200,
+  "9PKF79JQ1KR6": {
+    "antiquity": 96,
     "gamepass": false,
-    "price": 13.99,
-    "rate": 1.5,
-    "reviews": 10,
+    "price": 39.99,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PKGFK747FWX": {
+    "antiquity": 158,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 3.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9PKJD27R6M90": {
+    "antiquity": 579,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 1.7,
+    "reviews": 7,
+    "trial": false,
+    "discount": 50.00833,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "MultiPlayer",
+      "CrossPlatform",
+      "Oferta"
+    ]
+  },
+  "9PKM6RLKX8KM": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 36.99,
+    "rate": 3.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
+    ]
+  },
+  "9PKMCV16C1N2": {
+    "antiquity": 879,
+    "gamepass": false,
+    "price": 1.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 60.120235,
+    "tags": [
+      "Action",
+      "Platformer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PKMFH8K9XCK": {
+    "antiquity": 37,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 3.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9PKMG7SD4C8Q": {
+    "antiquity": 90,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 1.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PKMVK0RF7K7": {
+    "antiquity": 103,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 2.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PKNHDL3VD5B": {
+    "antiquity": 108,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.2,
+    "reviews": 4378,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
     ]
   },
   "9PKP39CL0C8D": {
-    "antiquity": 207,
+    "antiquity": 319,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.1,
-    "reviews": 206,
+    "reviews": 223,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -21804,44 +24459,45 @@ const GAME = {
     ]
   },
   "9PKPCQGQ2RZ9": {
-    "antiquity": 58,
+    "antiquity": 149,
     "gamepass": false,
     "price": 14.99,
-    "rate": 0.0,
+    "rate": 3.1,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
+      "Action",
       "Role playing",
+      "Puzzle",
       "Family",
       "SinglePlayer",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9PKQ1Q2QGRJ5": {
-    "antiquity": 174,
+  "9PKQTV109PT8": {
+    "antiquity": 1013,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.4,
+    "price": 1.99,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
+    "discount": 80.08008,
     "tags": [
-      "Fighting",
-      "Music",
-      "LocalMultiPlayer",
+      "Puzzle",
       "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
+      "Oferta"
     ]
   },
   "9PKQV9JT4GX2": {
-    "antiquity": 45,
+    "antiquity": 157,
     "gamepass": false,
     "price": 99.99,
-    "rate": 3.8,
-    "reviews": 54,
+    "rate": 3.7,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -21851,12 +24507,13 @@ const GAME = {
     ]
   },
   "9PKQVQ5916H5": {
-    "antiquity": 46,
+    "antiquity": 158,
     "gamepass": false,
     "price": 2.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Cards",
@@ -21867,12 +24524,13 @@ const GAME = {
     ]
   },
   "9PKR5R6L4L47": {
-    "antiquity": 460,
+    "antiquity": 572,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
     "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -21882,67 +24540,44 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PKRD185S44X": {
-    "antiquity": 690,
-    "gamepass": false,
-    "price": 1.99,
-    "rate": 2.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9PKRKKKV7KR3": {
-    "antiquity": 201,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.6,
-    "reviews": 57,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9PKTNJD05FVQ": {
-    "antiquity": 200,
+  "9PKS20TCGJJV": {
+    "antiquity": 53,
     "gamepass": false,
     "price": 14.99,
-    "rate": 5.0,
-    "reviews": 0,
+    "rate": 3.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Puzzle",
-      "Action",
+      "Simulation",
+      "Racing & flying",
+      "Educational",
       "SinglePlayer"
     ]
   },
-  "9PKV7B0XXPK4": {
-    "antiquity": 192,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 2.7,
-    "reviews": 11,
+  "9PKS70MZV4T0": {
+    "antiquity": 136,
+    "gamepass": false,
+    "price": 22.49,
+    "rate": 1.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 25.008339,
     "tags": [
-      "Action",
+      "Strategy",
       "SinglePlayer",
-      "GamePass"
+      "CrossPlatform",
+      "Oferta"
     ]
   },
   "9PKVNQRL9NQ1": {
-    "antiquity": 79,
+    "antiquity": 191,
     "gamepass": false,
     "price": 79.99,
-    "rate": 4.0,
-    "reviews": 24,
+    "rate": 3.9,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -21950,26 +24585,14 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9PKW8NDQL6J7": {
-    "antiquity": 171,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 5.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
   "9PKW9CKH3TWK": {
-    "antiquity": 401,
+    "antiquity": 513,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 12,
+    "reviews": 13,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Educational",
       "Family",
@@ -21979,12 +24602,13 @@ const GAME = {
     ]
   },
   "9PKWHT7G60WQ": {
-    "antiquity": 978,
+    "antiquity": 1090,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.7,
-    "reviews": 89,
+    "reviews": 106,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -21996,54 +24620,71 @@ const GAME = {
     ]
   },
   "9PKXDJTWPW36": {
-    "antiquity": 52,
+    "antiquity": 164,
     "gamepass": false,
     "price": 11.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PKZVCVMPZFD": {
-    "antiquity": 143,
+  "9PKXZH62N58F": {
+    "antiquity": 104,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Strategy",
-      "Action",
-      "Puzzle",
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9PKZKS759G12": {
+    "antiquity": 843,
+    "gamepass": false,
+    "price": 26.99,
+    "rate": 4.4,
+    "reviews": 145,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
   "9PL19N4160LX": {
-    "antiquity": 10,
+    "antiquity": 122,
     "gamepass": false,
-    "price": 109.99,
-    "rate": 2.0,
-    "reviews": 61,
+    "price": 43.99,
+    "rate": 1.9,
+    "reviews": 169,
     "trial": false,
+    "discount": 60.00545,
     "tags": [
       "Compras",
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9PL1R619TGHR": {
-    "antiquity": 41,
+    "antiquity": 153,
     "gamepass": false,
     "price": 74.99,
     "rate": 4.4,
     "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -22052,135 +24693,144 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PL36RW9ZTPW": {
-    "antiquity": 675,
-    "gamepass": true,
-    "price": 9.99,
-    "rate": 4.3,
-    "reviews": 31,
+  "9PL27989V9MD": {
+    "antiquity": 221,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.5,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PL36RW9ZTPW": {
+    "antiquity": 787,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.2,
+    "reviews": 36,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
       "SinglePlayer",
       "CrossPlatform",
       "LocalMultiPlayer",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9PL4K7NR0NKR": {
-    "antiquity": 159,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9PL5RJXSK896": {
-    "antiquity": 445,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 2.9,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "9PL746F501P9": {
-    "antiquity": 139,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 3.8,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
+  "9PL3M45QSMVT": {
+    "antiquity": 590,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.6,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PL4Z34HG9M4": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.9,
+    "reviews": 8,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
   "9PL9P3QZMRBM": {
-    "antiquity": 37,
+    "antiquity": 149,
     "gamepass": false,
     "price": 109.99,
     "rate": 3.9,
-    "reviews": 1243,
+    "reviews": 1516,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9PLBGM891PDC": {
-    "antiquity": 208,
+    "antiquity": 320,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "9PLBRNW62S2B": {
-    "antiquity": 144,
+    "antiquity": 247,
     "gamepass": false,
-    "price": 14.99,
+    "price": 5.99,
     "rate": 2.2,
     "reviews": 0,
     "trial": false,
+    "discount": 60.040028,
     "tags": [
       "Simulation",
       "Strategy",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PLCDVC5KWHF": {
+    "antiquity": 53,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 3.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Family",
+      "Educational",
       "SinglePlayer"
     ]
   },
   "9PLCL2VB2SC0": {
-    "antiquity": 747,
-    "gamepass": false,
-    "price": 39.99,
+    "antiquity": 859,
+    "gamepass": true,
+    "price": 19.99,
     "rate": 4.0,
-    "reviews": 93,
+    "reviews": 104,
     "trial": false,
+    "discount": 50.012505,
     "tags": [
       "Bundle",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9PLDD5FRSZRS": {
-    "antiquity": 262,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 4.9,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "MultiPlayer",
+      "GamePass",
+      "Oferta"
     ]
   },
   "9PLDLMPLR7JV": {
-    "antiquity": 1409,
+    "antiquity": 1521,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.4,
-    "reviews": 22,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -22188,12 +24838,13 @@ const GAME = {
     ]
   },
   "9PLDZNHSLR4C": {
-    "antiquity": 1326,
+    "antiquity": 1438,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
-    "reviews": 40,
+    "reviews": 41,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -22202,25 +24853,43 @@ const GAME = {
     ]
   },
   "9PLF2RS7JRZL": {
-    "antiquity": 346,
-    "gamepass": true,
+    "antiquity": 458,
+    "gamepass": false,
     "price": 19.99,
-    "rate": 4.7,
-    "reviews": 158,
+    "rate": 4.6,
+    "reviews": 174,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PLFHR52ZJZF": {
+    "antiquity": 676,
+    "gamepass": false,
+    "price": 74.99,
+    "rate": 4.1,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
       "SinglePlayer",
-      "GamePass"
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "9PLG49K93DKK": {
-    "antiquity": 871,
+    "antiquity": 983,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
-    "reviews": 15,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -22228,26 +24897,57 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9PLG6XWQTDGJ": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "SinglePlayer"
+    ]
+  },
   "9PLGRPRMTQJT": {
-    "antiquity": 831,
+    "antiquity": 943,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.9,
-    "reviews": 37,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
+  "9PLH1D2V949F": {
+    "antiquity": 55,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "Family",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9PLHB5JLTL0Z": {
-    "antiquity": 58,
+    "antiquity": 170,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
@@ -22257,52 +24957,81 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PLHL27PH1K7": {
-    "antiquity": 132,
-    "gamepass": false,
-    "price": 5.49,
-    "rate": 4.0,
-    "reviews": 3,
+  "9PLK75782446": {
+    "antiquity": 108,
+    "gamepass": true,
+    "price": 14.99,
+    "rate": 3.3,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Compras",
+      "Action",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform",
+      "GamePass"
     ]
   },
-  "9PLJWPMQJQ18": {
-    "antiquity": 1500,
+  "9PLKNFNPRXFG": {
+    "antiquity": 523,
     "gamepass": false,
-    "price": 1.99,
-    "rate": 3.0,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
-  "9PLKBK6M7CTK": {
-    "antiquity": 151,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 4.7,
+    "price": 17.99,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
+    "discount": 40.013336,
     "tags": [
-      "Puzzle",
-      "Cards",
+      "Compras",
       "Educational",
-      "SinglePlayer"
+      "Family",
+      "Puzzle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9PLKVSWR299F": {
+    "antiquity": 231,
+    "gamepass": true,
+    "price": 79.99,
+    "rate": 2.8,
+    "reviews": 802,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
+  "9PLM2TQ1WXNP": {
+    "antiquity": 775,
+    "gamepass": false,
+    "price": 4.94,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 67.0447,
+    "tags": [
+      "Educational",
+      "Family",
+      "Music",
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PLMR7VZ4J66": {
-    "antiquity": 45,
+    "antiquity": 142,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "Action",
@@ -22313,12 +25042,13 @@ const GAME = {
     ]
   },
   "9PLQTD4LT2KS": {
-    "antiquity": 103,
+    "antiquity": 215,
     "gamepass": false,
-    "price": 17.99,
+    "price": 29.99,
     "rate": 3.0,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -22326,26 +25056,28 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PLRFXLG6XK6": {
-    "antiquity": 424,
-    "gamepass": false,
-    "price": 3.49,
-    "rate": 2.1,
-    "reviews": 0,
+  "9PLS01JRJCWB": {
+    "antiquity": 87,
+    "gamepass": true,
+    "price": 29.99,
+    "rate": 3.0,
+    "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Role playing",
-      "SinglePlayer"
+      "SinglePlayer",
+      "GamePass"
     ]
   },
   "9PLSCHRN5715": {
-    "antiquity": 1342,
+    "antiquity": 1454,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.2,
-    "reviews": 97,
+    "reviews": 102,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -22355,12 +25087,13 @@ const GAME = {
     ]
   },
   "9PLT62LRF9V7": {
-    "antiquity": 1535,
+    "antiquity": 1647,
     "gamepass": true,
     "price": 4.99,
-    "rate": 4.6,
-    "reviews": 24,
+    "rate": 4.7,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -22369,12 +25102,13 @@ const GAME = {
     ]
   },
   "9PLTP0XJ75GS": {
-    "antiquity": 234,
+    "antiquity": 346,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.0,
-    "reviews": 27,
+    "rate": 2.1,
+    "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -22383,64 +25117,88 @@ const GAME = {
       "Free"
     ]
   },
-  "9PLVK4Q0PPQK": {
-    "antiquity": 102,
-    "gamepass": false,
-    "price": 24.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "Action",
-      "SinglePlayer"
-    ]
-  },
   "9PLWRPMWJQ0H": {
-    "antiquity": 5,
+    "antiquity": 117,
     "gamepass": false,
     "price": 14.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
       "SinglePlayer"
     ]
   },
+  "9PLXNR5QF4RT": {
+    "antiquity": 667,
+    "gamepass": false,
+    "price": 3.14,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 55.078686,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Shooter",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
   "9PLXV2VJR0QL": {
-    "antiquity": 1556,
+    "antiquity": 1668,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer"
     ]
   },
   "9PLXVNGCNS99": {
-    "antiquity": 33,
+    "antiquity": 144,
     "gamepass": false,
     "price": 11.99,
-    "rate": 0.0,
-    "reviews": 0,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Role playing",
       "SinglePlayer"
     ]
   },
+  "9PLXWDNT2GJX": {
+    "antiquity": 829,
+    "gamepass": false,
+    "price": 129.99,
+    "rate": 2.6,
+    "reviews": 221,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform"
+    ]
+  },
   "9PLZPHBNHTMF": {
-    "antiquity": 1535,
+    "antiquity": 1647,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.7,
-    "reviews": 55,
+    "reviews": 57,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -22449,76 +25207,87 @@ const GAME = {
     ]
   },
   "9PM1D9HZLDHX": {
-    "antiquity": 110,
+    "antiquity": 222,
     "gamepass": false,
-    "price": 69.99,
+    "price": 59.99,
     "rate": 2.7,
-    "reviews": 397,
+    "reviews": 403,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "9PM1LNB8ZRQ1": {
-    "antiquity": 136,
+  "9PM3K0FLKVRH": {
+    "antiquity": 102,
     "gamepass": false,
     "price": 4.99,
-    "rate": 5.0,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Puzzle",
       "Platformer",
-      "Simulation",
       "SinglePlayer"
     ]
   },
-  "9PM4MKJRVW2N": {
-    "antiquity": 206,
+  "9PM3Q3DX71P2": {
+    "antiquity": 746,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 5.0,
-    "reviews": 0,
+    "price": 14.99,
+    "rate": 3.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "SinglePlayer"
+      "Action",
+      "Platformer",
+      "Role playing",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
   "9PM6DBHQJCWD": {
-    "antiquity": 361,
+    "antiquity": 473,
     "gamepass": false,
     "price": 0.99,
-    "rate": 3.4,
-    "reviews": 5,
+    "rate": 2.7,
+    "reviews": 7,
     "trial": false,
+    "discount": 75.18797,
     "tags": [
       "Action",
       "Classics",
-      "Platformer"
+      "Platformer",
+      "Oferta"
     ]
   },
-  "9PM6SJBMVQZL": {
-    "antiquity": 591,
+  "9PM6PHCJZWM1": {
+    "antiquity": 107,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.2,
-    "reviews": 12,
+    "price": 49.99,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer"
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "9PM9GD7D3Z7W": {
-    "antiquity": 170,
+    "antiquity": 282,
     "gamepass": false,
-    "price": 5.99,
-    "rate": 4.3,
+    "price": 4.99,
+    "rate": 4.4,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Action",
@@ -22528,52 +25297,42 @@ const GAME = {
     ]
   },
   "9PM9HBXR9HX3": {
-    "antiquity": 79,
+    "antiquity": 191,
     "gamepass": false,
     "price": 4.99,
-    "rate": 2.6,
+    "rate": 2.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Family",
       "SinglePlayer"
     ]
   },
-  "9PM9PV1PBQRQ": {
-    "antiquity": 226,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 3.2,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Strategy",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
   "9PMC4B0FGVN5": {
-    "antiquity": 48,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 44.99,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 17.99,
+    "rate": 2.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 60.013344,
     "tags": [
       "Compras",
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PMDBC2M84L4": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 99.99,
-    "rate": 4.7,
-    "reviews": 12,
+    "rate": 4.5,
+    "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -22583,50 +25342,69 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PMGVP7B0RZF": {
-    "antiquity": 216,
+  "9PMH1VQVM2QN": {
+    "antiquity": 102,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.4,
-    "reviews": 5,
+    "price": 34.49,
+    "rate": 3.0,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Role playing",
+      "Bundle"
+    ]
+  },
+  "9PMH7F7GD178": {
+    "antiquity": 1557,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.3,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
       "Action",
+      "Family",
+      "Role playing",
       "SinglePlayer",
-      "MultiPlayer"
+      "LocalMultiPlayer"
     ]
   },
   "9PMHGHXLGLJM": {
-    "antiquity": 16,
+    "antiquity": 128,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "9PMK4W21XTWN": {
-    "antiquity": 137,
+  "9PMKJDSDK77C": {
+    "antiquity": 59,
     "gamepass": false,
     "price": 19.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 4.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Platformer",
       "Action",
+      "Role playing",
       "SinglePlayer"
     ]
   },
   "9PMM1HL2KQW6": {
-    "antiquity": 20,
+    "antiquity": 132,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -22636,25 +25414,41 @@ const GAME = {
     ]
   },
   "9PMM21KVRD72": {
-    "antiquity": 353,
+    "antiquity": 465,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.8,
-    "reviews": 27,
+    "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
+  "9PMM5C96NLJH": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9PMM5T8C0CN6": {
-    "antiquity": 577,
+    "antiquity": 689,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
     "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -22662,93 +25456,56 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "9PMMSG5BN945": {
-    "antiquity": 562,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.6,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Racing & flying",
-      "Simulation",
-      "SinglePlayer"
-    ]
-  },
-  "9PMN1XS32T6B": {
-    "antiquity": 81,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 2.5,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9PMN2HWWH6H4": {
-    "antiquity": 73,
+    "antiquity": 185,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer",
       "LocalMultiPlayer"
     ]
   },
-  "9PMNGB89CLJ2": {
-    "antiquity": 164,
-    "gamepass": true,
-    "price": 24.99,
-    "rate": 3.1,
-    "reviews": 108,
-    "trial": false,
+  "9PMN9XLP1HRK": {
+    "antiquity": 117,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 2.0,
+    "reviews": 1,
+    "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
-      "Puzzle",
-      "SinglePlayer",
-      "GamePass"
+      "Shooter",
+      "SinglePlayer"
     ]
   },
   "9PMPPXZSF88C": {
-    "antiquity": 446,
+    "antiquity": 558,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
-    "reviews": 4380,
+    "reviews": 4378,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer",
       "Free"
     ]
   },
-  "9PMQ9FB53XNW": {
-    "antiquity": 114,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9PMQDM08SNK9": {
-    "antiquity": 341,
+    "antiquity": 453,
     "gamepass": true,
     "price": 69.99,
     "rate": 3.1,
-    "reviews": 1079,
+    "reviews": 1128,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -22758,29 +25515,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PMQMGQ5L7QQ": {
-    "antiquity": 328,
-    "gamepass": false,
-    "price": 13.39,
-    "rate": 2.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "Strategy",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9PMR3T9NSF8W": {
-    "antiquity": 208,
+    "antiquity": 320,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.1,
-    "reviews": 29,
+    "rate": 3.8,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -22796,42 +25538,41 @@ const GAME = {
       "Free"
     ]
   },
-  "9PMT3JMG30R1": {
-    "antiquity": 1157,
+  "9PMSB4C5R2SQ": {
+    "antiquity": 93,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.5,
-    "reviews": 35,
+    "price": 24.99,
+    "rate": 3.8,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PMVG5SK0XJX": {
-    "antiquity": 212,
+  "9PMVDR1VCBB3": {
+    "antiquity": 74,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 1.9,
+    "price": 9.99,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
-      "Simulation",
-      "Family",
-      "Sports",
-      "Classics",
-      "LocalMultiPlayer",
+      "Action",
+      "Puzzle",
       "SinglePlayer"
     ]
   },
   "9PMVQ593823X": {
-    "antiquity": 39,
+    "antiquity": 151,
     "gamepass": false,
     "price": 44.99,
-    "rate": 3.0,
-    "reviews": 23,
+    "rate": 3.1,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -22841,12 +25582,13 @@ const GAME = {
     ]
   },
   "9PMXH5249DG5": {
-    "antiquity": 474,
+    "antiquity": 586,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 249,
+    "reviews": 259,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -22857,25 +25599,57 @@ const GAME = {
     ]
   },
   "9PN089KML0BL": {
-    "antiquity": 150,
+    "antiquity": 262,
     "gamepass": false,
     "price": 99.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer"
     ]
   },
+  "9PN0LC4CNLPT": {
+    "antiquity": 75,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Fighting",
+      "MOBA",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9PN0SQJKNXVF": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 44.99,
+    "rate": 3.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
   "9PN0WRT1ZFJ2": {
-    "antiquity": 37,
+    "antiquity": 149,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
-    "reviews": 3,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -22883,53 +25657,70 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PN1PWBPHT13": {
-    "antiquity": 192,
+  "9PN11W6W1LQ1": {
+    "antiquity": 1528,
     "gamepass": false,
-    "price": 4.99,
-    "rate": 4.3,
-    "reviews": 0,
+    "price": 29.99,
+    "rate": 4.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "Family",
+      "Action",
       "SinglePlayer"
     ]
   },
+  "9PN1RLHX981H": {
+    "antiquity": 711,
+    "gamepass": false,
+    "price": 32.99,
+    "rate": 3.2,
+    "reviews": 46,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "9PN1W2F1CNDL": {
-    "antiquity": 53,
+    "antiquity": 165,
     "gamepass": false,
     "price": 4.99,
-    "rate": 0.0,
+    "rate": 2.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Family",
       "SinglePlayer"
     ]
   },
-  "9PN1XP6K3LVX": {
-    "antiquity": 198,
+  "9PN2D189WSKP": {
+    "antiquity": 111,
     "gamepass": false,
     "price": 4.99,
-    "rate": 3.8,
+    "rate": 2.2,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
-      "SinglePlayer",
-      "LocalMultiPlayer"
+      "SinglePlayer"
     ]
   },
   "9PN3VDFTB5HZ": {
-    "antiquity": 1207,
+    "antiquity": 1319,
     "gamepass": true,
-    "price": 4.24,
-    "rate": 4.2,
-    "reviews": 21,
+    "price": 16.99,
+    "rate": 4.3,
+    "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -22938,67 +25729,102 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9PN4RZCTD4S1": {
-    "antiquity": 164,
+  "9PN42GDJ8XFG": {
+    "antiquity": 933,
     "gamepass": false,
-    "price": 12.99,
-    "rate": 4.7,
-    "reviews": 0,
+    "price": 14.99,
+    "rate": 3.8,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
+      "Shooter",
+      "Strategy",
+      "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "9PN66M6V02CC": {
-    "antiquity": 194,
+  "9PN4DRJDLZT7": {
+    "antiquity": 231,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 1.0,
-    "reviews": 2,
+    "price": 89.99,
+    "rate": 2.8,
+    "reviews": 562,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Bundle",
-      "SinglePlayer",
       "CrossPlatform",
-      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
+  "9PN5PQ4D6GLT": {
+    "antiquity": 338,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 2.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 60.030018,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9PN6MTJX8LZD": {
-    "antiquity": 1081,
+    "antiquity": 1193,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer"
     ]
   },
-  "9PN9FS3XTXG6": {
-    "antiquity": 180,
+  "9PN8FCQMDKLS": {
+    "antiquity": 93,
     "gamepass": false,
-    "price": 14.49,
-    "rate": 3.7,
-    "reviews": 0,
+    "price": 49.99,
+    "rate": 2.6,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
+      "Shooter",
       "SinglePlayer"
     ]
   },
+  "9PN911J8M69Z": {
+    "antiquity": 1508,
+    "gamepass": false,
+    "price": 41.99,
+    "rate": 2.8,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "9PNBGZTL0Z1S": {
-    "antiquity": 1439,
+    "antiquity": 1551,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.6,
     "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -23006,69 +25832,128 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9PNCT4QN38NN": {
+    "antiquity": 52,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 3.1,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9PND6XZTCZWT": {
+    "antiquity": 500,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 4.9,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9PNDFPVLN12L": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 33.99,
+    "rate": 4.1,
+    "reviews": 32,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
   "9PNFGB4TRV8C": {
-    "antiquity": 920,
+    "antiquity": 1032,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.0,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Simulation",
       "SinglePlayer"
     ]
   },
-  "9PNFQ9QVN34W": {
-    "antiquity": 458,
+  "9PNFRZ1GB6D2": {
+    "antiquity": 479,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 2.1,
-    "reviews": 19,
+    "price": 14.99,
+    "rate": 4.0,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
+  "9PNGB0WCM4BQ": {
+    "antiquity": 107,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 5.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "Family",
       "Sports",
-      "SinglePlayer",
       "LocalMultiPlayer",
+      "SinglePlayer",
       "MultiPlayer"
     ]
   },
   "9PNGDKFN7CVQ": {
-    "antiquity": 1063,
+    "antiquity": 1175,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.1,
-    "reviews": 10,
+    "price": 4.99,
+    "rate": 3.9,
+    "reviews": 15,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
       "Action",
       "Shooter",
       "LocalMultiPlayer",
       "SinglePlayer",
       "MultiPlayer",
-      "CrossPlatform"
+      "CrossPlatform",
+      "Oferta"
     ]
   },
-  "9PNH0VF21B0F": {
-    "antiquity": 408,
+  "9PNGJZZCXRW1": {
+    "antiquity": 101,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 4.7,
-    "reviews": 22,
+    "price": 4.99,
+    "rate": 0.0,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Bundle",
+      "Platformer",
       "SinglePlayer"
     ]
   },
   "9PNH6BGC71FP": {
-    "antiquity": 199,
+    "antiquity": 311,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
     "reviews": 1,
-    "trial": true,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -23079,48 +25964,26 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PNH7M334SJH": {
-    "antiquity": 192,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Action",
-      "SinglePlayer"
-    ]
-  },
-  "9PNH9SPB47ZP": {
-    "antiquity": 103,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 2.3,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "SinglePlayer"
-    ]
-  },
   "9PNHXRVF258Q": {
-    "antiquity": 1004,
+    "antiquity": 1116,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 28,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle"
     ]
   },
   "9PNJXVCVWD4K": {
-    "antiquity": 1833,
+    "antiquity": 1945,
     "gamepass": true,
     "price": 64.99,
     "rate": 4.8,
-    "reviews": 38213,
+    "reviews": 38409,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -23129,13 +25992,28 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9PNJZ92ZF5DC": {
+    "antiquity": 97,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
   "9PNKWDPBDG5W": {
-    "antiquity": 1207,
+    "antiquity": 1319,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
-    "reviews": 15,
+    "reviews": 16,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -23144,64 +26022,53 @@ const GAME = {
     ]
   },
   "9PNLPMP1GGH5": {
-    "antiquity": 446,
+    "antiquity": 558,
     "gamepass": false,
     "price": 24.99,
-    "rate": 4.0,
-    "reviews": 50,
+    "rate": 3.9,
+    "reviews": 52,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PNLQJTHCLDW": {
-    "antiquity": 223,
-    "gamepass": false,
-    "price": 0.99,
-    "rate": 3.1,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer"
-    ]
-  },
   "9PNNV537W2SN": {
-    "antiquity": 1228,
+    "antiquity": 1340,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
     "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PNPFBPLGCMW": {
-    "antiquity": 89,
+  "9PNPSS893GFH": {
+    "antiquity": 101,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 5.0,
-    "reviews": 3,
+    "price": 49.99,
+    "rate": 4.1,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer",
-      "LocalMultiPlayer"
+      "SinglePlayer"
     ]
   },
   "9PNQ7KRWCRW3": {
-    "antiquity": 675,
+    "antiquity": 787,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
-    "reviews": 24,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -23209,106 +26076,152 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PNRSC0J6DT8": {
-    "antiquity": 873,
-    "gamepass": true,
-    "price": 39.99,
-    "rate": 3.6,
-    "reviews": 67,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
-  "9PNRV2QXH76D": {
-    "antiquity": 45,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 5.0,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
-  "9PNW4M3ZGBPP": {
-    "antiquity": 166,
+  "9PNQT4TD10B5": {
+    "antiquity": 248,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9PNRV2QXH76D": {
+    "antiquity": 157,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 5.0,
+    "reviews": 16,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9PNV5ZHGF12W": {
+    "antiquity": 45,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Strategy",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
+      "SinglePlayer"
+    ]
+  },
+  "9PNVVXK3Z5H6": {
+    "antiquity": 51,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 3.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
     ]
   },
   "9PNWM0KB4CXP": {
-    "antiquity": 47,
+    "antiquity": 159,
     "gamepass": false,
-    "price": 20.99,
+    "price": 29.99,
     "rate": 1.0,
     "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
-  "9PP1RSTJ51PP": {
-    "antiquity": 150,
+  "9PNXZZX9HQFS": {
+    "antiquity": 1388,
     "gamepass": false,
-    "price": 5.99,
+    "price": 14.99,
     "rate": 4.0,
-    "reviews": 3,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer"
+      "Action",
+      "Role playing",
+      "Strategy",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
-  "9PP1V590RH6R": {
-    "antiquity": 108,
+  "9PNZFX8ST2JQ": {
+    "antiquity": 20,
     "gamepass": false,
     "price": 69.99,
-    "rate": 4.0,
-    "reviews": 4,
+    "rate": 3.3,
+    "reviews": 209,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9PP2FF9ZGDTK": {
-    "antiquity": 136,
-    "gamepass": false,
-    "price": 15.39,
-    "rate": 0.0,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
       "MultiPlayer"
     ]
   },
+  "9PNZH065X7PV": {
+    "antiquity": 249,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 4.3,
+    "reviews": 125,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "SinglePlayer"
+    ]
+  },
+  "9PP1ZR85KVSM": {
+    "antiquity": 1276,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing",
+      "Strategy",
+      "SinglePlayer"
+    ]
+  },
+  "9PP2K74FTHJD": {
+    "antiquity": 102,
+    "gamepass": false,
+    "price": 18.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "9PP2VLSGRBHJ": {
-    "antiquity": 110,
+    "antiquity": 222,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.3,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -23316,25 +26229,70 @@ const GAME = {
     ]
   },
   "9PP2WW5TQ7MS": {
-    "antiquity": 328,
+    "antiquity": 440,
     "gamepass": true,
     "price": 9.99,
-    "rate": 3.9,
-    "reviews": 38,
+    "rate": 4.0,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
+  "9PP4CM0V0PV9": {
+    "antiquity": 1363,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Classics",
+      "Family",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9PP4M7V5RBR9": {
+    "antiquity": 87,
+    "gamepass": false,
+    "price": 44.99,
+    "rate": 5.0,
+    "reviews": 28,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "SinglePlayer"
+    ]
+  },
+  "9PP4X6X618J0": {
+    "antiquity": 59,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Strategy",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
   "9PP5G1F0C2B6": {
-    "antiquity": 692,
-    "gamepass": true,
+    "antiquity": 804,
+    "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 691,
+    "reviews": 734,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -23342,57 +26300,56 @@ const GAME = {
       "CrossPlatform",
       "LocalMultiPlayer",
       "MultiPlayer",
-      "Free",
-      "GamePass"
+      "Free"
     ]
   },
   "9PP5HXGH2B0D": {
-    "antiquity": 1167,
+    "antiquity": 1279,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
     "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
-  "9PP6C21NFP4Z": {
-    "antiquity": 88,
+  "9PP5PN1XX57B": {
+    "antiquity": 20,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 4.5,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Action",
-      "SinglePlayer",
-      "MultiPlayer",
-      "CrossPlatform"
-    ]
-  },
-  "9PP6P2VD3QF2": {
-    "antiquity": 164,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 2.4,
+    "price": 14.99,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
-      "Role playing",
       "SinglePlayer"
+    ]
+  },
+  "9PP6MFZBQ6VH": {
+    "antiquity": 789,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 65.03252,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PP6RNF7V71T": {
-    "antiquity": 402,
+    "antiquity": 514,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
     "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -23402,31 +26359,30 @@ const GAME = {
       "Free"
     ]
   },
-  "9PP8Q82H79LC": {
-    "antiquity": 571,
-    "gamepass": true,
-    "price": 59.99,
-    "rate": 3.3,
-    "reviews": 185,
+  "9PP8M9DRHLV1": {
+    "antiquity": 1062,
+    "gamepass": false,
+    "price": 17.99,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 70.01167,
     "tags": [
       "Compras",
-      "Action",
-      "Shooter",
-      "Simulation",
-      "SinglePlayer",
-      "CrossPlatform",
+      "Bundle",
+      "LocalMultiPlayer",
       "MultiPlayer",
-      "GamePass"
+      "Oferta"
     ]
   },
   "9PP97VC2BL8H": {
-    "antiquity": 125,
+    "antiquity": 237,
     "gamepass": false,
     "price": 79.99,
-    "rate": 3.9,
-    "reviews": 95,
+    "rate": 3.8,
+    "reviews": 122,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -23436,39 +26392,70 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PP9CGD2HXJ9": {
-    "antiquity": 157,
+  "9PP99FJX93H4": {
+    "antiquity": 60,
     "gamepass": false,
-    "price": 5.99,
-    "rate": 3.9,
+    "price": 19.99,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Action",
-      "Classics",
+      "Simulation",
       "SinglePlayer"
     ]
   },
   "9PPB9PWXGM33": {
-    "antiquity": 69,
+    "antiquity": 181,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.5,
-    "reviews": 26,
+    "rate": 4.4,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
+  "9PPBCK707QRV": {
+    "antiquity": 1230,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.4,
+    "reviews": 78,
+    "trial": false,
+    "discount": 60.01201,
+    "tags": [
+      "Bundle",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9PPBRG8Z9TNG": {
+    "antiquity": 591,
+    "gamepass": false,
+    "price": 14.84,
+    "rate": 4.6,
+    "reviews": 14,
+    "trial": false,
+    "discount": 67.0149,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform",
+      "Oferta"
+    ]
+  },
   "9PPBVK3TK83M": {
-    "antiquity": 1063,
+    "antiquity": 1175,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
-    "reviews": 98,
+    "reviews": 99,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -23477,171 +26464,124 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PPC1B9PVHQH": {
-    "antiquity": 1136,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.8,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9PPCM6C714JB": {
-    "antiquity": 17,
+    "antiquity": 129,
     "gamepass": false,
     "price": 69.99,
-    "rate": 1.7,
-    "reviews": 228,
+    "rate": 1.9,
+    "reviews": 266,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "CrossPlatform",
       "MultiPlayer"
     ]
   },
-  "9PPCQ7CW837B": {
-    "antiquity": 117,
+  "9PPDLH53M8PM": {
+    "antiquity": 1601,
     "gamepass": false,
-    "price": 44.99,
-    "rate": 4.5,
-    "reviews": 120,
+    "price": 49.99,
+    "rate": 4.7,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
+      "Action",
+      "SinglePlayer"
+    ]
+  },
+  "9PPFG4XQLZF7": {
+    "antiquity": 124,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 3.7,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PPCV5VRBLF8": {
-    "antiquity": 317,
+  "9PPFJ0LRJRZQ": {
+    "antiquity": 9,
     "gamepass": false,
-    "price": 1.24,
-    "rate": 1.0,
-    "reviews": 1,
+    "price": 3.99,
+    "rate": 3.7,
+    "reviews": 0,
     "trial": false,
+    "discount": 20.040077,
     "tags": [
-      "Racing & flying",
+      "Shooter",
       "Action",
-      "LocalMultiPlayer",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
-  "9PPDFS60Z6JF": {
-    "antiquity": 164,
+  "9PPHRJN098F7": {
+    "antiquity": 93,
+    "gamepass": false,
+    "price": 22.49,
+    "rate": 4.3,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "9PPJFKL9W1C3": {
+    "antiquity": 893,
     "gamepass": false,
     "price": 19.99,
-    "rate": 5.0,
-    "reviews": 2,
+    "rate": 4.8,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "Shooter",
-      "SinglePlayer"
+      "Fighting",
+      "SinglePlayer",
+      "LocalMultiPlayer"
     ]
   },
-  "9PPFBQG81Q5J": {
-    "antiquity": 622,
+  "9PPK59BXLD4N": {
+    "antiquity": 94,
     "gamepass": true,
     "price": 19.99,
     "rate": 2.7,
-    "reviews": 6,
-    "trial": true,
+    "reviews": 18,
+    "trial": false,
+    "discount": 0,
     "tags": [
-      "Simulation",
+      "Role playing",
+      "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "9PPFM7H2T83Z": {
-    "antiquity": 800,
-    "gamepass": false,
-    "price": 1.99,
-    "rate": 3.4,
-    "reviews": 0,
-    "trial": false,
-    "tags": [
-      "Cards",
-      "Family",
-      "Puzzle",
-      "Strategy",
-      "LocalMultiPlayer",
-      "SinglePlayer"
-    ]
-  },
-  "9PPGSQKQ0MZT": {
-    "antiquity": 144,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 3.2,
-    "reviews": 88,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
-  "9PPJ8ZS17CZX": {
-    "antiquity": 1186,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.0,
-    "reviews": 3,
-    "trial": false,
-    "tags": [
-      "Platformer",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
-  "9PPJV0ZDBSKT": {
-    "antiquity": 173,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.9,
-    "reviews": 45,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
-  "9PPKBQ18XR47": {
-    "antiquity": 13,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 4.1,
-    "reviews": 465,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9PPKV1JGZ9KW": {
-    "antiquity": 2,
+    "antiquity": 114,
     "gamepass": false,
     "price": 89.99,
-    "rate": 4.5,
-    "reviews": 93,
+    "rate": 4.6,
+    "reviews": 112,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "9PPM9VJW284D": {
-    "antiquity": 717,
+    "antiquity": 829,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 4.6,
-    "reviews": 74,
+    "price": 49.99,
+    "rate": 4.7,
+    "reviews": 81,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Strategy",
@@ -23650,13 +26590,64 @@ const GAME = {
       "CrossPlatform"
     ]
   },
-  "9PPN49GPNH5M": {
-    "antiquity": 3,
+  "9PPMMGT8FJQN": {
+    "antiquity": 591,
     "gamepass": false,
-    "price": 69.99,
+    "price": 24.99,
+    "rate": 4.3,
+    "reviews": 11,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Fighting",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9PPMQ5R4F6WB": {
+    "antiquity": 339,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 3.0,
+    "reviews": 6,
+    "trial": false,
+    "discount": 50.03127,
+    "tags": [
+      "Compras",
+      "Cards",
+      "Family",
+      "Strategy",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9PPN1JNXSX4P": {
+    "antiquity": 98,
+    "gamepass": false,
+    "price": 9.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Family",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "9PPN49GPNH5M": {
+    "antiquity": 115,
+    "gamepass": false,
+    "price": 69.99,
+    "rate": 2.5,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "SinglePlayer",
@@ -23665,50 +26656,116 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9PPQQRT0KCSF": {
-    "antiquity": 52,
+  "9PPNKCB9ZZVV": {
+    "antiquity": 422,
     "gamepass": false,
-    "price": 26.99,
-    "rate": 4.0,
-    "reviews": 14,
+    "price": 89.99,
+    "rate": 3.8,
+    "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PPQX9ZGQW6N": {
-    "antiquity": 137,
+  "9PPP6FQBHZ1R": {
+    "antiquity": 531,
     "gamepass": false,
-    "price": 1.99,
-    "rate": 3.2,
-    "reviews": 0,
+    "price": 15.26,
+    "rate": 3.5,
+    "reviews": 2,
     "trial": false,
+    "discount": 35.036182,
     "tags": [
-      "Family",
-      "Strategy",
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PPQQRT0KCSF": {
+    "antiquity": 164,
+    "gamepass": false,
+    "price": 26.99,
+    "rate": 4.0,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
       "SinglePlayer"
     ]
   },
-  "9PPT7SJLMX89": {
-    "antiquity": 2,
+  "9PPRWSZLZN1Z": {
+    "antiquity": 128,
     "gamepass": false,
-    "price": 109.99,
-    "rate": 0.0,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Puzzle",
+      "Family",
+      "Classics",
+      "Educational",
+      "LocalMultiPlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9PPSM14VKCLW": {
+    "antiquity": 457,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 5.0,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Fighting",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9PPSP23DDZKW": {
+    "antiquity": 88,
+    "gamepass": false,
+    "price": 6.29,
+    "rate": 3.8,
     "reviews": 0,
     "trial": false,
+    "discount": 30.033367,
+    "tags": [
+      "Puzzle",
+      "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PPT7SJLMX89": {
+    "antiquity": 114,
+    "gamepass": false,
+    "price": 109.99,
+    "rate": 3.2,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "9WZDNCRDBV2N": {
-    "antiquity": 1332,
+    "antiquity": 1444,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -23718,13 +26775,28 @@ const GAME = {
       "Free"
     ]
   },
+  "9WZDNCRDNFBL": {
+    "antiquity": 1873,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 4.4,
+    "reviews": 26,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
   "BNBD3KT0ZW90": {
-    "antiquity": 3145,
+    "antiquity": 3257,
     "gamepass": false,
     "price": 69.98,
     "rate": 4.3,
     "reviews": 319,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -23732,12 +26804,13 @@ const GAME = {
     ]
   },
   "BNBLC4ZGFNKB": {
-    "antiquity": 2231,
+    "antiquity": 2343,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 1252,
+    "reviews": 1254,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -23749,73 +26822,81 @@ const GAME = {
     ]
   },
   "BNBWFH89FCF1": {
-    "antiquity": 2063,
+    "antiquity": 2175,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
-    "reviews": 163,
+    "reviews": 171,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "BNC1BNGGSWHV": {
-    "antiquity": 2028,
+    "antiquity": 2140,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 3.4,
-    "reviews": 22,
+    "price": 7.49,
+    "rate": 3.3,
+    "reviews": 23,
     "trial": false,
+    "discount": 75.02501,
     "tags": [
       "Role playing",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "BNCBCS5RJWH7": {
-    "antiquity": 2578,
+    "antiquity": 2690,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.8,
-    "reviews": 51,
+    "rate": 3.9,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "BNCR23L7NMG7": {
-    "antiquity": 1747,
+  "BND10J71Q760": {
+    "antiquity": 2782,
     "gamepass": false,
-    "price": 6.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "price": 14.99,
+    "rate": 3.2,
+    "reviews": 65,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Fighting",
-      "SinglePlayer",
-      "LocalMultiPlayer"
-    ]
-  },
-  "BNFFDT1JNVRL": {
-    "antiquity": 2126,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 4.3,
-    "reviews": 235,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
+      "Racing & flying",
+      "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
+  "BNF1MDX12NG3": {
+    "antiquity": 2469,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.7,
+    "reviews": 10,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "BNG91PT95LQN": {
-    "antiquity": 2081,
+    "antiquity": 2193,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.1,
-    "reviews": 132,
+    "reviews": 135,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -23825,46 +26906,52 @@ const GAME = {
     ]
   },
   "BNGT6SZBFM2T": {
-    "antiquity": 2196,
+    "antiquity": 2308,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
-    "reviews": 84,
+    "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BNHPW11QV69F": {
-    "antiquity": 1433,
+    "antiquity": 1545,
     "gamepass": false,
-    "price": 7.99,
-    "rate": 4.5,
-    "reviews": 23,
+    "price": 4.99,
+    "rate": 4.4,
+    "reviews": 27,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "BNJJGRCSH3RM": {
-    "antiquity": 2182,
+    "antiquity": 2294,
     "gamepass": false,
-    "price": 11.99,
+    "price": 9.99,
     "rate": 3.8,
     "reviews": 52,
     "trial": false,
+    "discount": 75.01876,
     "tags": [
-      "Role playing"
+      "Role playing",
+      "Oferta"
     ]
   },
   "BNK358CGCZ9F": {
-    "antiquity": 1867,
+    "antiquity": 1979,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
-    "reviews": 62,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -23873,36 +26960,39 @@ const GAME = {
     ]
   },
   "BNKDKQXMXRR2": {
-    "antiquity": 3302,
+    "antiquity": 3414,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.8,
-    "reviews": 58,
+    "rate": 4.9,
+    "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "GamePass"
     ]
   },
   "BNKXZ9WFM6H3": {
-    "antiquity": 2791,
+    "antiquity": 2903,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
     "reviews": 185,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "BNLWDLTJ5D68": {
-    "antiquity": 1894,
+    "antiquity": 2006,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.2,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -23911,36 +27001,40 @@ const GAME = {
     ]
   },
   "BNMRPFLB3PQW": {
-    "antiquity": 2042,
+    "antiquity": 2154,
     "gamepass": false,
     "price": 34.98,
     "rate": 3.8,
     "reviews": 50,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "BNN7BPDZ6GQB": {
-    "antiquity": 4387,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 3.8,
-    "reviews": 28,
+  "BNPTHWMGDFBR": {
+    "antiquity": 2167,
+    "gamepass": false,
+    "price": 1.99,
+    "rate": 2.4,
+    "reviews": 14,
     "trial": false,
+    "discount": 90.04502,
     "tags": [
-      "Shooter",
-      "GamePass"
+      "Platformer",
+      "LocalMultiPlayer",
+      "Oferta"
     ]
   },
   "BNQ94HH98ZTP": {
-    "antiquity": 3607,
+    "antiquity": 3719,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
     "reviews": 124,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Sports",
@@ -23948,36 +27042,27 @@ const GAME = {
       "Free"
     ]
   },
-  "BNQCGR7BX08D": {
-    "antiquity": 3509,
-    "gamepass": false,
-    "price": 19.98,
-    "rate": 3.7,
-    "reviews": 262,
-    "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
   "BNQD9TWQ10PC": {
-    "antiquity": 1997,
+    "antiquity": 2109,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.0,
-    "reviews": 21,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BNQQ3WVBNZCQ": {
-    "antiquity": 1433,
+    "antiquity": 1545,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 148,
+    "reviews": 157,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -23985,23 +27070,25 @@ const GAME = {
     ]
   },
   "BNQSZ6ZS57B0": {
-    "antiquity": 2907,
+    "antiquity": 3019,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.2,
-    "reviews": 301,
+    "reviews": 304,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BNRH7BRC1D02": {
-    "antiquity": 2782,
+    "antiquity": 2894,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.4,
-    "reviews": 322,
+    "reviews": 324,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -24011,12 +27098,13 @@ const GAME = {
     ]
   },
   "BNRN5CLM2ZQH": {
-    "antiquity": 2459,
+    "antiquity": 2571,
     "gamepass": false,
     "price": 19.98,
     "rate": 5.0,
-    "reviews": 23,
+    "reviews": 24,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -24025,72 +27113,110 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "BNT2NF1S3HNN": {
-    "antiquity": 2956,
+  "BNS4NCFZJDB0": {
+    "antiquity": 1581,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.5,
-    "reviews": 60,
+    "price": 39.98,
+    "rate": 4.1,
+    "reviews": 144,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
-    ]
-  },
-  "BNTNQL7BH4T3": {
-    "antiquity": 1125,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 2.8,
-    "reviews": 9,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Simulation",
-      "Strategy",
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "BNVMH8NVCRCT": {
-    "antiquity": 4758,
+  "BNSDHDK45KBR": {
+    "antiquity": 2721,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.3,
-    "reviews": 68,
+    "rate": 2.3,
+    "reviews": 50,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Cards",
+      "Classics",
+      "Family",
+      "Puzzle",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "BNT2NF1S3HNN": {
+    "antiquity": 3068,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.5,
+    "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BNVPW9NHWNM5": {
-    "antiquity": 2196,
+  "BNVMH8NVCRCT": {
+    "antiquity": 4870,
     "gamepass": false,
-    "price": 29.99,
+    "price": 9.99,
+    "rate": 4.3,
+    "reviews": 69,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
+  "BNVMW9KWTJH0": {
+    "antiquity": 2347,
+    "gamepass": false,
+    "price": 39.98,
+    "rate": 3.9,
+    "reviews": 29,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "BNVPW9NHWNM5": {
+    "antiquity": 2308,
+    "gamepass": false,
+    "price": 7.49,
     "rate": 4.5,
     "reviews": 77,
     "trial": false,
+    "discount": 75.02501,
     "tags": [
-      "Role playing"
+      "Role playing",
+      "Oferta"
     ]
   },
   "BNVZJ5ZB3WH6": {
-    "antiquity": 1860,
+    "antiquity": 1972,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.2,
-    "reviews": 33,
+    "rate": 4.1,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
     ]
   },
   "BNWBBMNNBBN2": {
-    "antiquity": 3250,
+    "antiquity": 3362,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
-    "reviews": 37,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -24102,12 +27228,13 @@ const GAME = {
     ]
   },
   "BNWM9F3C08B6": {
-    "antiquity": 2334,
+    "antiquity": 2446,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 30,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -24115,12 +27242,13 @@ const GAME = {
     ]
   },
   "BNXLPPCVS0HN": {
-    "antiquity": 1766,
+    "antiquity": 1878,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
-    "reviews": 93,
+    "reviews": 94,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -24129,12 +27257,13 @@ const GAME = {
     ]
   },
   "BNZ2TD4Q2PVD": {
-    "antiquity": 1759,
+    "antiquity": 1871,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.4,
-    "reviews": 8,
+    "rate": 3.6,
+    "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -24145,47 +27274,37 @@ const GAME = {
     ]
   },
   "BNZDGM7WJWGJ": {
-    "antiquity": 3392,
+    "antiquity": 3504,
     "gamepass": false,
     "price": 7.98,
     "rate": 4.3,
-    "reviews": 56,
+    "reviews": 57,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BNZGDS14LMW6": {
-    "antiquity": 1614,
-    "gamepass": false,
-    "price": 0.99,
-    "rate": 3.9,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family",
-      "SinglePlayer"
-    ]
-  },
   "BNZQJ2FBTDM7": {
-    "antiquity": 3183,
+    "antiquity": 3295,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.6,
-    "reviews": 304,
+    "reviews": 307,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BP021F0PG0D4": {
-    "antiquity": 1054,
+    "antiquity": 1166,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.4,
-    "reviews": 5,
+    "rate": 3.7,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -24198,12 +27317,13 @@ const GAME = {
     ]
   },
   "BP15SF17LH13": {
-    "antiquity": 3607,
+    "antiquity": 3719,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.1,
-    "reviews": 921,
+    "reviews": 922,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -24212,72 +27332,50 @@ const GAME = {
     ]
   },
   "BP1GZS0Z6G58": {
-    "antiquity": 2651,
+    "antiquity": 2763,
     "gamepass": false,
     "price": 35.98,
     "rate": 4.2,
-    "reviews": 86,
+    "reviews": 87,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
-  "BP1X6CCP4N49": {
-    "antiquity": 2209,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.9,
-    "reviews": 8,
-    "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
-  "BP2BW45WZ45Z": {
-    "antiquity": 1612,
-    "gamepass": false,
-    "price": 6.24,
-    "rate": 3.8,
-    "reviews": 40,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "BP3GH4D3HP2H": {
-    "antiquity": 3398,
+    "antiquity": 3510,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.5,
-    "reviews": 383,
+    "reviews": 384,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BP48G8SN49JF": {
-    "antiquity": 2375,
+    "antiquity": 2487,
     "gamepass": false,
     "price": 36.99,
-    "rate": 4.4,
-    "reviews": 23,
+    "rate": 4.5,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer"
     ]
   },
   "BP4S3XLJG78M": {
-    "antiquity": 2749,
+    "antiquity": 2861,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 683,
+    "reviews": 685,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -24288,23 +27386,25 @@ const GAME = {
     ]
   },
   "BP4TTT81TPPK": {
-    "antiquity": 4899,
+    "antiquity": 5011,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
-    "reviews": 42,
+    "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BP58JN2GVQS8": {
-    "antiquity": 4923,
+    "antiquity": 5035,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
-    "reviews": 46,
+    "reviews": 47,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -24312,12 +27412,13 @@ const GAME = {
     ]
   },
   "BP5HKF86C1NJ": {
-    "antiquity": 3173,
+    "antiquity": 3285,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.6,
-    "reviews": 230,
+    "reviews": 232,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -24325,58 +27426,63 @@ const GAME = {
     ]
   },
   "BP5WLGT6DS5N": {
-    "antiquity": 1979,
+    "antiquity": 2091,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.8,
+    "price": 29.99,
+    "rate": 4.7,
     "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "BP5XCJQK5HQH": {
-    "antiquity": 3411,
+    "antiquity": 3523,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
     "reviews": 207,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BP63MT1VJV6X": {
-    "antiquity": 1958,
+    "antiquity": 2070,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
     "reviews": 60,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Platformer",
       "SinglePlayer"
     ]
   },
   "BP664P1CXKKF": {
-    "antiquity": 4218,
+    "antiquity": 4330,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.3,
     "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BP6L3W5VRV3B": {
-    "antiquity": 2728,
+    "antiquity": 2840,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
-    "reviews": 67,
+    "reviews": 69,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -24385,101 +27491,78 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "BP6V6QZBMFP0": {
-    "antiquity": 1685,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.7,
-    "reviews": 15,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Racing & flying",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "BP73LMGB1DFD": {
-    "antiquity": 3896,
+    "antiquity": 4008,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 65,
+    "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BP79KKVGDDH1": {
-    "antiquity": 2333,
+    "antiquity": 2445,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
     "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer"
     ]
   },
   "BP8T903FZL2X": {
-    "antiquity": 2578,
+    "antiquity": 2690,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.9,
-    "reviews": 30,
+    "rate": 4.0,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
-  "BP8WDV3T37N7": {
-    "antiquity": 2622,
-    "gamepass": false,
-    "price": 15.99,
-    "rate": 3.8,
-    "reviews": 37,
-    "trial": false,
-    "tags": [
-      "Family",
-      "Strategy",
-      "Simulation",
-      "LocalMultiPlayer"
-    ]
-  },
   "BP95H7BN67D4": {
-    "antiquity": 1668,
+    "antiquity": 1780,
     "gamepass": false,
     "price": 69.98,
-    "rate": 4.0,
-    "reviews": 24,
+    "rate": 3.9,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BP96WRTVD7C1": {
-    "antiquity": 4856,
+    "antiquity": 4968,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
-    "reviews": 44,
+    "reviews": 45,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BPB96BRZ1V3C": {
-    "antiquity": 2186,
+    "antiquity": 2298,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
     "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -24487,88 +27570,108 @@ const GAME = {
     ]
   },
   "BPBC39LH0Q9B": {
-    "antiquity": 2229,
+    "antiquity": 2341,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.6,
-    "reviews": 33,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "BPBKTSC16MWT": {
-    "antiquity": 3075,
+    "antiquity": 3187,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
     "reviews": 140,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "BPBPGV9MXWPB": {
-    "antiquity": 3841,
+    "antiquity": 3953,
     "gamepass": false,
     "price": 4.79,
     "rate": 5.0,
     "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
       "Role playing"
     ]
   },
-  "BPCL0TXCGJ1W": {
-    "antiquity": 612,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 3.8,
-    "reviews": 118,
+  "BPCN22ZVT05C": {
+    "antiquity": 2998,
+    "gamepass": true,
+    "price": 0.0,
+    "rate": 4.8,
+    "reviews": 796,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
+      "SoloGamePass",
       "Action",
-      "Role playing",
       "SinglePlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "GamePass"
     ]
   },
   "BPD9XZWWFS8T": {
-    "antiquity": 2670,
+    "antiquity": 2782,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "LocalMultiPlayer"
     ]
   },
   "BPDDQWC1NJ3N": {
-    "antiquity": 4547,
+    "antiquity": 4659,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.1,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
+  "BPF0679N8FFN": {
+    "antiquity": 2106,
+    "gamepass": false,
+    "price": 2.49,
+    "rate": 5.0,
+    "reviews": 3,
+    "trial": false,
+    "discount": 75.07508,
+    "tags": [
+      "Shooter",
+      "Oferta"
+    ]
+  },
   "BPFVSMS2MN7L": {
-    "antiquity": 3084,
+    "antiquity": 3196,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.1,
     "reviews": 51,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -24576,36 +27679,26 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
-  "BPG50RX2GQF0": {
-    "antiquity": 2518,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 4.2,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "BPGQ2Z4JSFHB": {
-    "antiquity": 3698,
+    "antiquity": 3810,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
     "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BPH82WMZ6W7N": {
-    "antiquity": 2428,
+    "antiquity": 2540,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -24614,12 +27707,13 @@ const GAME = {
     ]
   },
   "BPHSZ44NGDB2": {
-    "antiquity": 1103,
+    "antiquity": 1215,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
-    "reviews": 82,
+    "reviews": 83,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -24629,28 +27723,14 @@ const GAME = {
       "Free"
     ]
   },
-  "BPJ686W6S0NH": {
-    "antiquity": 3246,
-    "gamepass": true,
-    "price": 0.0,
-    "rate": 4.5,
-    "reviews": 2359,
-    "trial": false,
-    "tags": [
-      "SoloGamePass",
-      "Compras",
-      "Action",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
   "BPKDQSSFQ9WV": {
-    "antiquity": 4212,
+    "antiquity": 4324,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.7,
-    "reviews": 174,
+    "reviews": 175,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -24661,24 +27741,26 @@ const GAME = {
     ]
   },
   "BPKQZ245CQ2H": {
-    "antiquity": 2396,
+    "antiquity": 2508,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.9,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "BPKVH4C4XV4N": {
-    "antiquity": 2333,
+    "antiquity": 2445,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.0,
     "reviews": 91,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -24687,12 +27769,13 @@ const GAME = {
     ]
   },
   "BPL68T0XK96W": {
-    "antiquity": 2239,
+    "antiquity": 2351,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.3,
-    "reviews": 450,
+    "reviews": 455,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -24700,24 +27783,42 @@ const GAME = {
       "GamePass"
     ]
   },
+  "BPLW9KMFDNMR": {
+    "antiquity": 1797,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.3,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "BPMJ413V6BB2": {
-    "antiquity": 1654,
+    "antiquity": 1766,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
-    "reviews": 37,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BPN08ZDRPSFK": {
-    "antiquity": 5031,
+    "antiquity": 5143,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.7,
-    "reviews": 123,
+    "reviews": 124,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -24728,35 +27829,38 @@ const GAME = {
     ]
   },
   "BPN103KDBX2H": {
-    "antiquity": 4244,
+    "antiquity": 4356,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 48,
+    "reviews": 52,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BPNDKQN84N6L": {
-    "antiquity": 2742,
+    "antiquity": 2854,
     "gamepass": true,
     "price": 39.98,
     "rate": 4.2,
-    "reviews": 1222,
+    "reviews": 1233,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BPNSJSZCRPPF": {
-    "antiquity": 2903,
+    "antiquity": 3015,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
-    "reviews": 103,
+    "reviews": 105,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -24764,46 +27868,64 @@ const GAME = {
     ]
   },
   "BPP935F82L43": {
-    "antiquity": 2762,
+    "antiquity": 2874,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BPPTRQZRJ341": {
-    "antiquity": 3327,
+    "antiquity": 3439,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 205,
+    "reviews": 210,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BPPZVT8BZ15N": {
-    "antiquity": 1930,
+    "antiquity": 2042,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.7,
-    "reviews": 239,
+    "reviews": 244,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
+  "BPQ8RMCDSLRL": {
+    "antiquity": 4937,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.9,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "BPQ955FQFPH6": {
-    "antiquity": 1598,
+    "antiquity": 1710,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
-    "reviews": 315,
+    "reviews": 327,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -24813,24 +27935,26 @@ const GAME = {
     ]
   },
   "BPQT0CXNCMRK": {
-    "antiquity": 2686,
+    "antiquity": 2798,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
-    "reviews": 176,
+    "reviews": 178,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BPQZT43FWD49": {
-    "antiquity": 1656,
+    "antiquity": 1768,
     "gamepass": true,
     "price": 19.99,
     "rate": 2.9,
-    "reviews": 209,
+    "reviews": 223,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -24839,35 +27963,57 @@ const GAME = {
       "GamePass"
     ]
   },
-  "BPQZVL68925G": {
-    "antiquity": 3068,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 1.4,
-    "reviews": 313,
-    "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
   "BPR2TBS2KMQJ": {
-    "antiquity": 1885,
-    "gamepass": false,
+    "antiquity": 1997,
+    "gamepass": true,
     "price": 69.99,
     "rate": 3.9,
-    "reviews": 139,
+    "reviews": 144,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
+      "Action",
+      "GamePass"
+    ]
+  },
+  "BPR4TX9NRWRW": {
+    "antiquity": 1958,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.8,
+    "reviews": 10,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Simulation",
+      "Sports",
+      "Strategy",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "BPR5GFHR9GTZ": {
+    "antiquity": 2462,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.0,
+    "reviews": 165,
+    "trial": false,
+    "discount": 75.01876,
+    "tags": [
+      "Bundle",
+      "Oferta"
     ]
   },
   "BPR721XZ2KBH": {
-    "antiquity": 2938,
+    "antiquity": 3050,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -24878,12 +28024,13 @@ const GAME = {
     ]
   },
   "BPRPQSKXTD1L": {
-    "antiquity": 2483,
+    "antiquity": 2595,
     "gamepass": true,
     "price": 19.98,
     "rate": 4.2,
-    "reviews": 35,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
@@ -24892,12 +28039,13 @@ const GAME = {
     ]
   },
   "BPS3XF74B9V1": {
-    "antiquity": 3323,
+    "antiquity": 3435,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
-    "reviews": 456,
+    "reviews": 465,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -24910,12 +28058,13 @@ const GAME = {
     ]
   },
   "BPT4J5TL5B4Z": {
-    "antiquity": 2158,
+    "antiquity": 2270,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
     "reviews": 51,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -24924,25 +28073,41 @@ const GAME = {
       "Free"
     ]
   },
+  "BPTT5KKP4FF6": {
+    "antiquity": 2235,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 2.1,
+    "reviews": 8,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Puzzle",
+      "LocalMultiPlayer"
+    ]
+  },
   "BPTWSRMJH2JF": {
-    "antiquity": 3040,
+    "antiquity": 3152,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
-    "reviews": 74,
+    "reviews": 75,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BPV4GXTDCNSH": {
-    "antiquity": 3078,
+    "antiquity": 3190,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 105,
+    "reviews": 107,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer",
@@ -24950,60 +28115,64 @@ const GAME = {
     ]
   },
   "BPV56ZX2B8PJ": {
-    "antiquity": 1994,
+    "antiquity": 2106,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
-    "reviews": 29,
+    "reviews": 30,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer"
     ]
   },
   "BPX57N768756": {
-    "antiquity": 3965,
+    "antiquity": 4077,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
     "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
-  "BPZ6Z3VDCVXC": {
-    "antiquity": 1567,
+  "BPXWDV0BS5W0": {
+    "antiquity": 1815,
     "gamepass": false,
-    "price": 49.99,
-    "rate": 3.7,
-    "reviews": 26,
+    "price": 44.99,
+    "rate": 4.0,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Role playing",
-      "Shooter",
-      "SinglePlayer"
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer"
     ]
   },
   "BPZT3CQCCWKG": {
-    "antiquity": 3028,
+    "antiquity": 3140,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
-    "reviews": 66,
+    "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQ023H8GXZ3T": {
-    "antiquity": 3145,
+    "antiquity": 3257,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
     "reviews": 243,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -25012,12 +28181,13 @@ const GAME = {
     ]
   },
   "BQ0T326DSPLQ": {
-    "antiquity": 2926,
+    "antiquity": 3038,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
-    "reviews": 57,
+    "reviews": 58,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -25026,37 +28196,57 @@ const GAME = {
     ]
   },
   "BQ0WGG6B6X2H": {
-    "antiquity": 4882,
+    "antiquity": 4994,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
-    "reviews": 23,
+    "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
       "MultiPlayer"
     ]
   },
+  "BQ18XCWDPNNR": {
+    "antiquity": 1895,
+    "gamepass": false,
+    "price": 2.49,
+    "rate": 2.4,
+    "reviews": 5,
+    "trial": false,
+    "discount": 75.07508,
+    "tags": [
+      "Racing & flying",
+      "Sports",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "BQ1Q84V1SXCC": {
-    "antiquity": 2697,
+    "antiquity": 2809,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.6,
     "reviews": 160,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BQ1TN1T79V9K": {
-    "antiquity": 2657,
+    "antiquity": 2769,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.9,
-    "reviews": 459,
+    "rate": 3.8,
+    "reviews": 493,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -25071,12 +28261,13 @@ const GAME = {
     ]
   },
   "BQ1W1T1FC14W": {
-    "antiquity": 2536,
+    "antiquity": 2648,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 352,
+    "reviews": 365,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -25084,12 +28275,13 @@ const GAME = {
     ]
   },
   "BQ216SGGM4M8": {
-    "antiquity": 1580,
+    "antiquity": 1692,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
-    "reviews": 38,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -25098,69 +28290,77 @@ const GAME = {
     ]
   },
   "BQ2307M831ZG": {
-    "antiquity": 2497,
+    "antiquity": 2609,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 71,
+    "reviews": 72,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQ2F1LGNL6M1": {
-    "antiquity": 2956,
+    "antiquity": 3068,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.6,
-    "reviews": 259,
+    "reviews": 262,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQ2NNLQPS8RS": {
-    "antiquity": 1608,
+    "antiquity": 1720,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
-    "reviews": 460,
+    "reviews": 464,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "BQ2V1LV1THGM": {
+    "antiquity": 2319,
+    "gamepass": false,
+    "price": 13.48,
+    "rate": 1.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Fighting",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "BQ30J3N2LPZX": {
-    "antiquity": 3840,
+    "antiquity": 3952,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.4,
-    "reviews": 48,
+    "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
-  "BQ3KRVCCLBVZ": {
-    "antiquity": 1713,
-    "gamepass": false,
-    "price": 7.49,
-    "rate": 4.0,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "SinglePlayer"
-    ]
-  },
   "BQ49WQ00XTWX": {
-    "antiquity": 1826,
+    "antiquity": 1938,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
-    "reviews": 965,
+    "reviews": 981,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -25170,39 +28370,39 @@ const GAME = {
       "Free"
     ]
   },
+  "BQ52CP76239L": {
+    "antiquity": 1955,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.4,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
   "BQ765BPQ7JGL": {
-    "antiquity": 2740,
+    "antiquity": 2852,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
     "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
     ]
   },
-  "BQ7NMRJT1NQ4": {
-    "antiquity": 2216,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.6,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Action",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "BQ9Q620NC614": {
-    "antiquity": 3355,
+    "antiquity": 3467,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
-    "reviews": 179,
+    "reviews": 182,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -25211,23 +28411,25 @@ const GAME = {
     ]
   },
   "BQ9S8ZKCT3Q7": {
-    "antiquity": 2516,
+    "antiquity": 2628,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.6,
     "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQ9T0JF0D3L4": {
-    "antiquity": 1136,
+    "antiquity": 1248,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.6,
     "reviews": 73,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -25236,46 +28438,50 @@ const GAME = {
     ]
   },
   "BQBQ98VM5FS2": {
-    "antiquity": 3635,
+    "antiquity": 3747,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.2,
-    "reviews": 24,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQBTGDT4P54J": {
-    "antiquity": 4724,
+    "antiquity": 4836,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 25,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "GamePass"
     ]
   },
   "BQC3DCLTWH3R": {
-    "antiquity": 4888,
+    "antiquity": 5000,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.0,
-    "reviews": 21,
+    "rate": 4.2,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQCLQ73MFGJ8": {
-    "antiquity": 2728,
+    "antiquity": 2840,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
-    "reviews": 52,
+    "reviews": 53,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -25284,47 +28490,51 @@ const GAME = {
     ]
   },
   "BQD45PQR4F4J": {
-    "antiquity": 2860,
+    "antiquity": 2972,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.6,
-    "reviews": 130,
+    "reviews": 129,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BQD5WRRP2D6Q": {
-    "antiquity": 1661,
+    "antiquity": 1773,
     "gamepass": false,
     "price": 69.99,
-    "rate": 4.3,
-    "reviews": 155,
+    "rate": 4.2,
+    "reviews": 168,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "BQDVBCS5Z4N1": {
-    "antiquity": 2154,
+    "antiquity": 2266,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.9,
-    "reviews": 33,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQF41W70ZLSV": {
-    "antiquity": 1866,
+    "antiquity": 1978,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
-    "reviews": 32,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Sports",
@@ -25335,12 +28545,13 @@ const GAME = {
     ]
   },
   "BQG162F04T2L": {
-    "antiquity": 4352,
+    "antiquity": 4464,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 37,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "Sports",
@@ -25348,47 +28559,77 @@ const GAME = {
     ]
   },
   "BQGPXM2H3T4H": {
-    "antiquity": 2602,
+    "antiquity": 2714,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.4,
-    "reviews": 162,
+    "reviews": 164,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
+  "BQJKD0DJ1Q8J": {
+    "antiquity": 1692,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.4,
+    "reviews": 31,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
+  "BQJNKMZJXZC4": {
+    "antiquity": 3463,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.3,
+    "reviews": 23,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Action",
+      "Role playing",
+      "Oferta"
+    ]
+  },
   "BQKKNPKX1C4P": {
-    "antiquity": 2203,
+    "antiquity": 2315,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.5,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BQKSXQGJTN43": {
-    "antiquity": 2602,
+    "antiquity": 2714,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 146,
+    "reviews": 148,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQL8L17RV09Z": {
-    "antiquity": 1511,
+    "antiquity": 1623,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.4,
-    "reviews": 2285,
+    "reviews": 2349,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -25399,12 +28640,13 @@ const GAME = {
     ]
   },
   "BQLMFLL88BSW": {
-    "antiquity": 2529,
+    "antiquity": 2641,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
-    "reviews": 185,
+    "reviews": 190,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -25412,94 +28654,88 @@ const GAME = {
     ]
   },
   "BQMVWCMB8P59": {
-    "antiquity": 2347,
+    "antiquity": 2459,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 153,
+    "reviews": 159,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BQNBKCDB2TPR": {
-    "antiquity": 2623,
+    "antiquity": 2735,
     "gamepass": false,
     "price": 22.99,
     "rate": 4.2,
     "reviews": 216,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BQPZGCHPFPV6": {
-    "antiquity": 2727,
+    "antiquity": 2839,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.0,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics"
     ]
   },
-  "BQQD1KHRWWL8": {
-    "antiquity": 2070,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.7,
-    "reviews": 17,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer",
-      "SinglePlayer"
-    ]
-  },
   "BQQKG9H2STC0": {
-    "antiquity": 2571,
+    "antiquity": 2683,
     "gamepass": true,
     "price": 19.98,
-    "rate": 4.4,
-    "reviews": 236,
+    "rate": 4.5,
+    "reviews": 265,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BQR5K462GR3M": {
-    "antiquity": 6764,
+    "antiquity": 6876,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
-    "reviews": 12,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQR7QS0F8SJ3": {
-    "antiquity": 2483,
+    "antiquity": 2595,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
-    "reviews": 65,
+    "reviews": 68,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "GamePass"
     ]
   },
   "BQRB60PW2SDL": {
-    "antiquity": 1571,
+    "antiquity": 1683,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -25508,24 +28744,26 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "BQRHDQ1NRW6R": {
-    "antiquity": 2791,
+  "BQRPK5LPR59Q": {
+    "antiquity": 2049,
     "gamepass": false,
-    "price": 11.99,
-    "rate": 3.6,
-    "reviews": 18,
+    "price": 29.99,
+    "rate": 4.3,
+    "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
+      "Bundle"
     ]
   },
   "BQSC9GDBDF0V": {
-    "antiquity": 2161,
+    "antiquity": 2273,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.5,
-    "reviews": 77,
+    "reviews": 84,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -25533,12 +28771,13 @@ const GAME = {
     ]
   },
   "BQSCNS1T8PHQ": {
-    "antiquity": 1888,
+    "antiquity": 2000,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.5,
-    "reviews": 78,
+    "reviews": 79,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -25547,36 +28786,39 @@ const GAME = {
     ]
   },
   "BQT2R5FK3P7R": {
-    "antiquity": 2035,
+    "antiquity": 2147,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Free"
     ]
   },
   "BQT9LF5VCDPC": {
-    "antiquity": 3180,
+    "antiquity": 3292,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
-    "reviews": 153,
+    "reviews": 154,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BQVQTL3PCH05": {
-    "antiquity": 1902,
+    "antiquity": 2014,
     "gamepass": true,
-    "price": 24.99,
+    "price": 49.99,
     "rate": 3.8,
-    "reviews": 582,
+    "reviews": 601,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -25588,35 +28830,38 @@ const GAME = {
     ]
   },
   "BQW8J8XM62JW": {
-    "antiquity": 4394,
+    "antiquity": 4506,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.5,
-    "reviews": 62,
+    "rate": 4.6,
+    "reviews": 69,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQWG99VDMBNV": {
-    "antiquity": 2970,
+    "antiquity": 3082,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.8,
     "reviews": 117,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer"
     ]
   },
   "BQWGBMCKRMSQ": {
-    "antiquity": 2564,
+    "antiquity": 2676,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
     "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
@@ -25624,12 +28869,13 @@ const GAME = {
     ]
   },
   "BQXN1S3V3FN9": {
-    "antiquity": 2578,
+    "antiquity": 2690,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.8,
-    "reviews": 79,
+    "reviews": 80,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -25637,48 +28883,39 @@ const GAME = {
     ]
   },
   "BQXTS0SX4W0N": {
-    "antiquity": 3537,
+    "antiquity": 3649,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 968,
+    "reviews": 977,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "BQXVSGCX6K8W": {
-    "antiquity": 1815,
-    "gamepass": false,
-    "price": 59.99,
-    "rate": 4.3,
-    "reviews": 6,
-    "trial": false,
-    "tags": [
-      "Action",
-      "LocalMultiPlayer"
-    ]
-  },
   "BQXWH8FJK3V0": {
-    "antiquity": 4352,
+    "antiquity": 4464,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.4,
-    "reviews": 12,
+    "rate": 4.5,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BQZ0V5R1HPXF": {
-    "antiquity": 4013,
+    "antiquity": 4125,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.3,
     "reviews": 45,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -25686,23 +28923,25 @@ const GAME = {
     ]
   },
   "BQZ10L79X0FP": {
-    "antiquity": 1804,
+    "antiquity": 1916,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
-    "reviews": 64,
+    "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "BQZKFWSZX483": {
-    "antiquity": 2889,
+    "antiquity": 3001,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
     "reviews": 101,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "SinglePlayer",
@@ -25710,23 +28949,38 @@ const GAME = {
     ]
   },
   "BQZW37W54ZZM": {
-    "antiquity": 3691,
+    "antiquity": 3803,
+    "gamepass": false,
+    "price": 2.99,
+    "rate": 4.3,
+    "reviews": 26,
+    "trial": false,
+    "discount": 85.04253,
+    "tags": [
+      "Action",
+      "Oferta"
+    ]
+  },
+  "BR03N9C6Z9G6": {
+    "antiquity": 3085,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.2,
-    "reviews": 23,
+    "rate": 3.7,
+    "reviews": 121,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BR1D9CR82ZM8": {
-    "antiquity": 4821,
+    "antiquity": 4933,
     "gamepass": true,
     "price": 14.49,
     "rate": 4.5,
     "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -25735,123 +28989,120 @@ const GAME = {
     ]
   },
   "BR1JD76JZ6H5": {
-    "antiquity": 2965,
+    "antiquity": 3077,
     "gamepass": false,
     "price": 13.98,
     "rate": 4.3,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BR1ZD21DCXJR": {
-    "antiquity": 4181,
+    "antiquity": 4293,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.5,
-    "reviews": 15,
+    "rate": 4.3,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Free"
     ]
   },
   "BR27BSZ2M3SR": {
-    "antiquity": 4387,
+    "antiquity": 4499,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 35,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "GamePass"
     ]
   },
-  "BR2C25ZF5LK7": {
-    "antiquity": 3180,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 3.6,
-    "reviews": 24,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Racing & flying",
-      "LocalMultiPlayer"
-    ]
-  },
   "BR2F4DG4WXF8": {
-    "antiquity": 2868,
+    "antiquity": 2980,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
-    "reviews": 308,
+    "reviews": 310,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BR30GBNH63F9": {
-    "antiquity": 4855,
+    "antiquity": 4967,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.6,
-    "reviews": 34,
+    "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle"
     ]
   },
   "BR3152PVJV5J": {
-    "antiquity": 2459,
+    "antiquity": 2571,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
     "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BR3TMVZ9PNWZ": {
-    "antiquity": 2903,
+    "antiquity": 3015,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.7,
-    "reviews": 440,
+    "reviews": 447,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BR46KM4D5B9L": {
-    "antiquity": 4727,
+    "antiquity": 4839,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
-    "reviews": 67,
+    "reviews": 68,
     "trial": false,
+    "discount": 50.02501,
     "tags": [
       "Action",
       "Strategy",
       "Simulation",
       "LocalMultiPlayer",
       "MultiPlayer",
-      "GamePass"
+      "GamePass",
+      "Oferta"
     ]
   },
   "BR47R4J78FH8": {
-    "antiquity": 1867,
+    "antiquity": 1979,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 18,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -25859,24 +29110,39 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "BR5BK5PNZKVH": {
+    "antiquity": 2921,
+    "gamepass": false,
+    "price": 19.98,
+    "rate": 3.7,
+    "reviews": 71,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "MultiPlayer"
+    ]
+  },
   "BR6HQDNQT004": {
-    "antiquity": 3785,
+    "antiquity": 3897,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 54,
+    "reviews": 57,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BR74RLMH966K": {
-    "antiquity": 4736,
+    "antiquity": 4848,
     "gamepass": true,
     "price": 14.39,
     "rate": 4.8,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -25884,12 +29150,13 @@ const GAME = {
     ]
   },
   "BR751B3H533G": {
-    "antiquity": 2963,
+    "antiquity": 3075,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
-    "reviews": 660,
+    "reviews": 667,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -25897,24 +29164,26 @@ const GAME = {
     ]
   },
   "BR765873CQJD": {
-    "antiquity": 3064,
+    "antiquity": 3176,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
-    "reviews": 1506,
+    "reviews": 1518,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "BR7H2605L0QQ": {
-    "antiquity": 2428,
+    "antiquity": 2540,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
     "reviews": 30,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -25922,12 +29191,13 @@ const GAME = {
     ]
   },
   "BR7X7MVBBQKM": {
-    "antiquity": 2021,
+    "antiquity": 2133,
     "gamepass": true,
-    "price": 10.49,
+    "price": 69.99,
     "rate": 4.0,
-    "reviews": 154,
+    "reviews": 168,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -25935,23 +29205,25 @@ const GAME = {
     ]
   },
   "BR7ZJJHGWT5X": {
-    "antiquity": 3271,
+    "antiquity": 3383,
     "gamepass": false,
     "price": 29.99,
-    "rate": 3.9,
-    "reviews": 65,
+    "rate": 3.8,
+    "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BR8K0RVDQJS5": {
-    "antiquity": 214,
+    "antiquity": 326,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.8,
-    "reviews": 24,
+    "rate": 3.7,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -25962,71 +29234,107 @@ const GAME = {
     ]
   },
   "BRB2J2GKCC3H": {
-    "antiquity": 2229,
+    "antiquity": 2341,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.5,
-    "reviews": 51,
+    "reviews": 52,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "BRB2XN908F4K": {
-    "antiquity": 2543,
+    "antiquity": 2655,
     "gamepass": false,
     "price": 14.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
+  "BRBD7BDK271P": {
+    "antiquity": 2203,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 2.2,
+    "reviews": 29,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Strategy"
+    ]
+  },
   "BRBVZF1T3GH3": {
-    "antiquity": 4100,
+    "antiquity": 4212,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.6,
     "reviews": 30,
     "trial": false,
+    "discount": 66.711136,
     "tags": [
       "Family",
-      "Platformer"
+      "Platformer",
+      "Oferta"
     ]
   },
   "BRC33X34H2C9": {
-    "antiquity": 4034,
+    "antiquity": 4146,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
     "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Shooter"
     ]
   },
   "BRCK1B8950B2": {
-    "antiquity": 4931,
+    "antiquity": 5043,
     "gamepass": false,
-    "price": 2.99,
+    "price": 9.99,
     "rate": 3.9,
     "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
+  "BRDV9ZW67F96": {
+    "antiquity": 2767,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 2.6,
+    "reviews": 83,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Role playing",
+      "Strategy",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "BRFHK8R9ZX53": {
-    "antiquity": 2945,
+    "antiquity": 3057,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
     "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -26036,48 +29344,83 @@ const GAME = {
     ]
   },
   "BRFKNLB9B2ZW": {
-    "antiquity": 3581,
+    "antiquity": 3693,
     "gamepass": false,
     "price": 0.0,
     "rate": 5.0,
     "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Free"
     ]
   },
   "BRGPD72KHM3Q": {
-    "antiquity": 2770,
+    "antiquity": 2882,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
-    "reviews": 1052,
+    "reviews": 1056,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
+  "BRGVJJB8S6FV": {
+    "antiquity": 1794,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 4.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "LocalMultiPlayer"
+    ]
+  },
   "BRH7S5QHZ0Q8": {
-    "antiquity": 4247,
+    "antiquity": 4359,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
-    "reviews": 22,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family"
     ]
   },
-  "BRHSML8030ZN": {
-    "antiquity": 3470,
+  "BRHB1G8F8ZCB": {
+    "antiquity": 1595,
     "gamepass": false,
-    "price": 59.98,
+    "price": 39.99,
+    "rate": 3.3,
+    "reviews": 20,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Educational",
+      "Family",
+      "Racing & flying",
+      "Simulation",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
+  "BRHSML8030ZN": {
+    "antiquity": 3582,
+    "gamepass": false,
+    "price": 59.99,
     "rate": 3.9,
     "reviews": 77,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Sports",
@@ -26086,48 +29429,39 @@ const GAME = {
     ]
   },
   "BRJB0RMH33T2": {
-    "antiquity": 1994,
+    "antiquity": 2106,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
-    "reviews": 24,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "LocalMultiPlayer",
       "SinglePlayer"
     ]
   },
-  "BRJK2LH5R6WV": {
-    "antiquity": 2791,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.7,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "Simulation"
-    ]
-  },
   "BRJLJ6RPLQTJ": {
-    "antiquity": 4814,
+    "antiquity": 4926,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
-    "reviews": 418,
+    "reviews": 422,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BRJNRZ9N734V": {
-    "antiquity": 1505,
+    "antiquity": 1617,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
     "reviews": 76,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -26135,63 +29469,51 @@ const GAME = {
       "GamePass"
     ]
   },
-  "BRJP066TZ2Q7": {
-    "antiquity": 1543,
+  "BRKB6H11MBDS": {
+    "antiquity": 6358,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 2.5,
-    "reviews": 18,
+    "price": 9.99,
+    "rate": 3.3,
+    "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
-      "LocalMultiPlayer",
-      "MultiPlayer"
+      "Action"
     ]
   },
   "BRKMHZX1RCF2": {
-    "antiquity": 3607,
+    "antiquity": 3719,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 679,
+    "reviews": 682,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
   "BRKVPTHJW525": {
-    "antiquity": 2336,
+    "antiquity": 2448,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.0,
-    "reviews": 60,
+    "rate": 4.1,
+    "reviews": 62,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
-  "BRKX5CRMRTC2": {
-    "antiquity": 2315,
-    "gamepass": true,
-    "price": 5.99,
-    "rate": 2.5,
-    "reviews": 538,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
   "BRL4TWKNVT82": {
-    "antiquity": 4155,
+    "antiquity": 4267,
     "gamepass": false,
     "price": 9.49,
-    "rate": 3.9,
-    "reviews": 16,
+    "rate": 4.0,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -26199,47 +29521,65 @@ const GAME = {
     ]
   },
   "BRL99QVV2BF3": {
-    "antiquity": 1804,
+    "antiquity": 1916,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.5,
-    "reviews": 47,
+    "rate": 4.6,
+    "reviews": 50,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BRMFLRV79C3H": {
-    "antiquity": 2993,
+    "antiquity": 3105,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.9,
     "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Free"
     ]
   },
+  "BRMVLDRVRTJ9": {
+    "antiquity": 4260,
+    "gamepass": false,
+    "price": 9.49,
+    "rate": 4.6,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Classics",
+      "Platformer"
+    ]
+  },
   "BRN6BHDHB58J": {
-    "antiquity": 4359,
+    "antiquity": 4471,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 66,
+    "reviews": 68,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "GamePass"
     ]
   },
   "BRPGP6H8P26F": {
-    "antiquity": 1685,
+    "antiquity": 1797,
     "gamepass": true,
     "price": 29.99,
-    "rate": 2.8,
-    "reviews": 61,
+    "rate": 2.9,
+    "reviews": 62,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Simulation",
@@ -26251,12 +29591,13 @@ const GAME = {
     ]
   },
   "BRPVTJKWHBR7": {
-    "antiquity": 926,
+    "antiquity": 1038,
     "gamepass": false,
     "price": 49.99,
-    "rate": 2.1,
-    "reviews": 38,
+    "rate": 2.2,
+    "reviews": 47,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -26266,35 +29607,38 @@ const GAME = {
     ]
   },
   "BRQ2SCZCTXF2": {
-    "antiquity": 4842,
+    "antiquity": 4954,
     "gamepass": false,
     "price": 24.99,
-    "rate": 4.2,
-    "reviews": 58,
+    "rate": 4.1,
+    "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BRQH27C9RGXS": {
-    "antiquity": 3251,
+    "antiquity": 3363,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
-    "reviews": 712,
+    "reviews": 719,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
   "BRRC2BP0G9P0": {
-    "antiquity": 2903,
+    "antiquity": 3015,
     "gamepass": true,
     "price": 19.98,
     "rate": 4.5,
-    "reviews": 977,
+    "reviews": 980,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -26302,12 +29646,13 @@ const GAME = {
     ]
   },
   "BRRC2X2GQGC7": {
-    "antiquity": 1209,
+    "antiquity": 1321,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.9,
     "reviews": 25,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -26316,57 +29661,37 @@ const GAME = {
     ]
   },
   "BRRN3ZC632XS": {
-    "antiquity": 4909,
+    "antiquity": 5021,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 35,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting"
     ]
   },
   "BRSZV60TT078": {
-    "antiquity": 4877,
+    "antiquity": 4989,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
-    "reviews": 26,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BRT1K9FV4LRR": {
-    "antiquity": 2298,
-    "gamepass": true,
-    "price": 14.99,
-    "rate": 4.2,
-    "reviews": 18,
-    "trial": false,
-    "tags": [
-      "Action",
-      "GamePass"
-    ]
-  },
-  "BRV3141ND0FG": {
-    "antiquity": 1564,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 3.7,
-    "reviews": 28,
-    "trial": false,
-    "tags": [
-      "Bundle"
-    ]
-  },
   "BRVM8RNWLXH1": {
-    "antiquity": 1724,
+    "antiquity": 1836,
     "gamepass": false,
     "price": 69.98,
     "rate": 3.9,
-    "reviews": 48,
+    "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -26374,35 +29699,38 @@ const GAME = {
     ]
   },
   "BRW49CBS558D": {
-    "antiquity": 2543,
+    "antiquity": 2655,
     "gamepass": false,
-    "price": 7.49,
+    "price": 49.99,
     "rate": 4.7,
-    "reviews": 152,
+    "reviews": 159,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BRW7FLNQ19PK": {
-    "antiquity": 2809,
+    "antiquity": 2921,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.2,
     "reviews": 77,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BRWJS8P512VF": {
-    "antiquity": 3607,
+    "antiquity": 3719,
     "gamepass": false,
     "price": 59.98,
     "rate": 4.0,
     "reviews": 177,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -26411,13 +29739,30 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "BRZHFR5XBLQS": {
-    "antiquity": 3264,
-    "gamepass": true,
-    "price": 19.98,
-    "rate": 4.5,
-    "reviews": 512,
+  "BRZ9553VPPBD": {
+    "antiquity": 1445,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 3.1,
+    "reviews": 46,
     "trial": false,
+    "discount": 70.0175,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "BRZHFR5XBLQS": {
+    "antiquity": 3376,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 4.5,
+    "reviews": 515,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -26426,80 +29771,55 @@ const GAME = {
     ]
   },
   "BRZXWGJ2NB2H": {
-    "antiquity": 3244,
+    "antiquity": 3356,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 444,
+    "reviews": 451,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "BS04D131Z77T": {
-    "antiquity": 1908,
-    "gamepass": false,
-    "price": 5.99,
-    "rate": 5.0,
-    "reviews": 2,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Fighting",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "BS0PFBB91B3V": {
-    "antiquity": 1462,
+  "BS0P7HLFPPP0": {
+    "antiquity": 438,
     "gamepass": true,
-    "price": 29.99,
-    "rate": 3.8,
-    "reviews": 33,
-    "trial": true,
+    "price": 19.99,
+    "rate": 4.3,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
       "Action",
-      "Racing & flying",
-      "Sports",
+      "Music",
       "SinglePlayer",
-      "MultiPlayer",
       "GamePass"
     ]
   },
   "BS18VCF4NLQ9": {
-    "antiquity": 1962,
+    "antiquity": 2074,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
-    "reviews": 82,
+    "reviews": 87,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
-  "BS1NPTPJGD4G": {
-    "antiquity": 5171,
-    "gamepass": true,
-    "price": 14.99,
-    "rate": 3.7,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Family",
-      "GamePass"
-    ]
-  },
   "BS1V82FLTGKJ": {
-    "antiquity": 2383,
+    "antiquity": 2495,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
     "reviews": 20,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -26507,24 +29827,68 @@ const GAME = {
       "Simulation"
     ]
   },
-  "BS2S6B326WJD": {
-    "antiquity": 3285,
+  "BS2P4JMZNPVT": {
+    "antiquity": 2424,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.3,
-    "reviews": 275,
+    "price": 19.98,
+    "rate": 3.2,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "BS2S6B326WJD": {
+    "antiquity": 3397,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.3,
+    "reviews": 286,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
+  "BS2V537JPRPB": {
+    "antiquity": 2536,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.8,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
+  "BS32QFXVPWBC": {
+    "antiquity": 2511,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.2,
+    "reviews": 45,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Puzzle",
+      "LocalMultiPlayer"
+    ]
+  },
   "BS34VNW7H61F": {
-    "antiquity": 2231,
+    "antiquity": 2343,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.0,
-    "reviews": 52,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Action",
@@ -26533,12 +29897,13 @@ const GAME = {
     ]
   },
   "BS37BWWP2PZ1": {
-    "antiquity": 2126,
+    "antiquity": 2238,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 244,
+    "reviews": 247,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -26546,36 +29911,38 @@ const GAME = {
     ]
   },
   "BS38ZDJVT78N": {
-    "antiquity": 4020,
+    "antiquity": 4132,
     "gamepass": false,
     "price": 9.49,
     "rate": 3.8,
-    "reviews": 31,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Platformer"
     ]
   },
-  "BS3X8KWG86LZ": {
-    "antiquity": 1909,
+  "BS3S7S0QMLJB": {
+    "antiquity": 2643,
     "gamepass": false,
-    "price": 2.49,
-    "rate": 3.6,
-    "reviews": 0,
+    "price": 29.99,
+    "rate": 4.7,
+    "reviews": 3,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "LocalMultiPlayer"
+      "Action"
     ]
   },
   "BS4R9GLTJBRL": {
-    "antiquity": 1990,
+    "antiquity": 2102,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
-    "reviews": 19,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -26585,36 +29952,64 @@ const GAME = {
       "Free"
     ]
   },
+  "BS5NB0DWLTP0": {
+    "antiquity": 3799,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 12,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
   "BS5RXLL3WQ2J": {
-    "antiquity": 2375,
+    "antiquity": 2487,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
     "reviews": 12,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BS68QN8SV1BN": {
-    "antiquity": 4401,
+    "antiquity": 4513,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
-    "reviews": 34,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "BS6CMVNFF1VB": {
+    "antiquity": 1909,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 3.8,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "LocalMultiPlayer"
+    ]
+  },
   "BS70ZCL9NZ9N": {
-    "antiquity": 2014,
+    "antiquity": 2126,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
-    "reviews": 113,
+    "reviews": 115,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -26624,97 +30019,108 @@ const GAME = {
     ]
   },
   "BS7F51G3DP8R": {
-    "antiquity": 2686,
+    "antiquity": 2798,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 66,
+    "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
   "BS7LQTHJGRM7": {
-    "antiquity": 3607,
+    "antiquity": 3719,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.2,
     "reviews": 244,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer"
     ]
   },
   "BS8LFD7729CL": {
-    "antiquity": 7331,
+    "antiquity": 7443,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.8,
-    "reviews": 42,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "BS97KVXLT9LK": {
-    "antiquity": 3708,
+    "antiquity": 3820,
     "gamepass": false,
-    "price": 19.99,
+    "price": 4.99,
     "rate": 4.2,
     "reviews": 11,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
-      "Classics"
+      "Classics",
+      "Oferta"
     ]
   },
   "BS9SX4Q6XJRF": {
-    "antiquity": 4807,
+    "antiquity": 4919,
     "gamepass": true,
-    "price": 3.99,
+    "price": 19.99,
     "rate": 4.7,
-    "reviews": 64,
+    "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
   "BSB132ZQVWZM": {
-    "antiquity": 2231,
+    "antiquity": 2343,
     "gamepass": false,
-    "price": 39.99,
+    "price": 29.99,
     "rate": 4.1,
-    "reviews": 35,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
       "Shooter",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
-  "BSBTJM430VVR": {
-    "antiquity": 2162,
+  "BSC0RPMPF8VH": {
+    "antiquity": 1930,
     "gamepass": false,
-    "price": 14.98,
-    "rate": 3.7,
-    "reviews": 35,
-    "trial": true,
+    "price": 29.99,
+    "rate": 3.6,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Family",
-      "Shooter",
-      "LocalMultiPlayer"
+      "Sports",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer"
     ]
   },
   "BSC5WP01852T": {
-    "antiquity": 2000,
+    "antiquity": 2112,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
-    "reviews": 27,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -26723,69 +30129,89 @@ const GAME = {
     ]
   },
   "BSCCQL7DZ9KD": {
-    "antiquity": 5324,
+    "antiquity": 5436,
     "gamepass": true,
     "price": 9.49,
     "rate": 4.1,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "GamePass"
     ]
   },
   "BSCSRTX27ZH3": {
-    "antiquity": 5184,
+    "antiquity": 5296,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
     "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BSF4MQFNW44N": {
-    "antiquity": 4573,
+    "antiquity": 4685,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying"
     ]
   },
   "BSG43BDRN81R": {
-    "antiquity": 4961,
+    "antiquity": 5073,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.4,
-    "reviews": 38,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
-  "BSGDS8K2HGMF": {
-    "antiquity": 3246,
+  "BSG54TVPP2M5": {
+    "antiquity": 4357,
     "gamepass": false,
-    "price": 12.49,
-    "rate": 4.4,
-    "reviews": 403,
+    "price": 2.49,
+    "rate": 3.5,
+    "reviews": 14,
     "trial": false,
+    "discount": 75.07508,
+    "tags": [
+      "Action",
+      "Shooter",
+      "Oferta"
+    ]
+  },
+  "BSGDS8K2HGMF": {
+    "antiquity": 3358,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.4,
+    "reviews": 407,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BSH5FPMR3GD8": {
-    "antiquity": 3028,
+    "antiquity": 3140,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
     "reviews": 58,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -26793,23 +30219,25 @@ const GAME = {
     ]
   },
   "BSHDWV6HV59G": {
-    "antiquity": 2791,
+    "antiquity": 2903,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
-    "reviews": 267,
+    "reviews": 268,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BSHMMGRP84N4": {
-    "antiquity": 3764,
+    "antiquity": 3876,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.1,
     "reviews": 94,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -26820,24 +30248,26 @@ const GAME = {
     ]
   },
   "BSHZGCGJNCN5": {
-    "antiquity": 2658,
+    "antiquity": 2770,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.7,
     "reviews": 81,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BSJG7TTSWVJ2": {
-    "antiquity": 5018,
+    "antiquity": 5130,
     "gamepass": true,
     "price": 14.39,
     "rate": 4.3,
-    "reviews": 31,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Platformer",
@@ -26845,48 +30275,64 @@ const GAME = {
     ]
   },
   "BSJK0B2ZQ5J1": {
-    "antiquity": 4618,
+    "antiquity": 4730,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
     "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer"
     ]
   },
+  "BSK1GN27RB8R": {
+    "antiquity": 2935,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 2.6,
+    "reviews": 163,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
   "BSLGLG8P9T01": {
-    "antiquity": 2272,
+    "antiquity": 2384,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 305,
+    "reviews": 306,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "BSLX1RNXR6H7": {
-    "antiquity": 3029,
+    "antiquity": 3141,
     "gamepass": true,
-    "price": 6.99,
+    "price": 34.99,
     "rate": 4.5,
-    "reviews": 371,
+    "reviews": 387,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BSMG6RBZH4LQ": {
-    "antiquity": 2690,
+    "antiquity": 2802,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
     "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
@@ -26894,47 +30340,64 @@ const GAME = {
     ]
   },
   "BSMX2D9V0C8B": {
-    "antiquity": 2903,
+    "antiquity": 3015,
     "gamepass": false,
-    "price": 7.49,
-    "rate": 3.9,
+    "price": 29.99,
+    "rate": 4.0,
     "reviews": 98,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "BSN8BS8F8BBJ": {
-    "antiquity": 866,
+    "antiquity": 978,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.0,
-    "reviews": 62,
+    "reviews": 63,
     "trial": false,
+    "discount": 60.015003,
     "tags": [
       "Role playing",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "BSNZHRCKC13J": {
-    "antiquity": 4317,
+    "antiquity": 4429,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 103,
+    "reviews": 110,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
+  "BSQ928V7VD2W": {
+    "antiquity": 3995,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.3,
+    "reviews": 21,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
   "BSQLNP8TV73X": {
-    "antiquity": 1934,
+    "antiquity": 2046,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -26943,12 +30406,13 @@ const GAME = {
     ]
   },
   "BSQZ03S3RV54": {
-    "antiquity": 2326,
+    "antiquity": 2438,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
     "reviews": 155,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -26957,61 +30421,85 @@ const GAME = {
     ]
   },
   "BSR5BPN8NMMJ": {
-    "antiquity": 3261,
+    "antiquity": 3373,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.1,
     "reviews": 834,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BSRKCPSS0QTD": {
-    "antiquity": 2004,
+    "antiquity": 2116,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
     "reviews": 7,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "LocalMultiPlayer"
     ]
   },
+  "BSRKXWKSZ8K1": {
+    "antiquity": 2529,
+    "gamepass": false,
+    "price": 0.99,
+    "rate": 2.6,
+    "reviews": 5,
+    "trial": false,
+    "discount": 75.18797,
+    "tags": [
+      "Action",
+      "Fighting",
+      "Strategy",
+      "Shooter",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
   "BSRVV8TJGVVZ": {
-    "antiquity": 2826,
+    "antiquity": 2938,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
     "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "Strategy",
-      "Simulation"
+      "Simulation",
+      "SinglePlayer"
     ]
   },
   "BSRXXBC5L1BV": {
-    "antiquity": 2483,
+    "antiquity": 2595,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 43,
+    "reviews": 46,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Free"
     ]
   },
   "BSS43MTLGFQR": {
-    "antiquity": 2942,
+    "antiquity": 3054,
     "gamepass": false,
     "price": 14.98,
     "rate": 3.9,
     "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -27019,72 +30507,79 @@ const GAME = {
     ]
   },
   "BSTM3283756M": {
-    "antiquity": 4855,
+    "antiquity": 4967,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.7,
-    "reviews": 85,
+    "reviews": 89,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics"
     ]
   },
   "BSTXLSRZWKH8": {
-    "antiquity": 2636,
+    "antiquity": 2748,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
     "reviews": 128,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "BSVZCMGZV52L": {
-    "antiquity": 1776,
+    "antiquity": 1888,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.3,
-    "reviews": 96,
+    "reviews": 97,
     "trial": false,
+    "discount": 70.0175,
     "tags": [
       "Action",
       "Role playing",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "BSWKX5K46W7M": {
-    "antiquity": 2963,
+    "antiquity": 3075,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
     "reviews": 40,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BSWTLFKMV96K": {
-    "antiquity": 1476,
+    "antiquity": 1588,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
     "reviews": 47,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
   "BSXLFN5QQZSC": {
-    "antiquity": 2518,
+    "antiquity": 2630,
     "gamepass": true,
-    "price": 10.49,
+    "price": 69.99,
     "rate": 4.1,
-    "reviews": 141,
+    "reviews": 148,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer",
@@ -27092,24 +30587,26 @@ const GAME = {
     ]
   },
   "BSXSL6WBJ0V7": {
-    "antiquity": 4877,
+    "antiquity": 4989,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "GamePass"
     ]
   },
   "BSZ576R612B0": {
-    "antiquity": 2809,
+    "antiquity": 2921,
     "gamepass": false,
-    "price": 1.99,
+    "price": 19.99,
     "rate": 4.2,
-    "reviews": 72,
+    "reviews": 73,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -27117,23 +30614,26 @@ const GAME = {
     ]
   },
   "BSZFRVD8JTJF": {
-    "antiquity": 2364,
+    "antiquity": 2476,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.4,
     "reviews": 45,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
+      "Action",
+      "SinglePlayer"
     ]
   },
   "BSZM480TSWGP": {
-    "antiquity": 2522,
+    "antiquity": 2634,
     "gamepass": true,
     "price": 29.99,
-    "rate": 4.4,
-    "reviews": 116,
+    "rate": 4.3,
+    "reviews": 118,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -27141,57 +30641,78 @@ const GAME = {
     ]
   },
   "BT0FF7LH14HV": {
-    "antiquity": 3812,
+    "antiquity": 3924,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.4,
     "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BT0MDT228WRP": {
-    "antiquity": 2298,
+    "antiquity": 2410,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "BT0N6ZXZJC82": {
+    "antiquity": 782,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 2.9,
+    "reviews": 7,
+    "trial": false,
+    "discount": 80.02667,
+    "tags": [
+      "Action",
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "BT21JH17GCVC": {
-    "antiquity": 2259,
+    "antiquity": 2371,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 53,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BT2B17V20D1P": {
-    "antiquity": 4107,
+    "antiquity": 4219,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 55,
+    "reviews": 56,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BT2F8LHH10GS": {
-    "antiquity": 1822,
+    "antiquity": 1934,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.7,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -27200,12 +30721,13 @@ const GAME = {
     ]
   },
   "BT3611GR00CQ": {
-    "antiquity": 353,
+    "antiquity": 465,
     "gamepass": true,
-    "price": 22.49,
-    "rate": 3.7,
-    "reviews": 104,
+    "price": 74.99,
+    "rate": 3.5,
+    "reviews": 171,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -27215,38 +30737,30 @@ const GAME = {
     ]
   },
   "BT3RWJD102LX": {
-    "antiquity": 2683,
+    "antiquity": 2795,
     "gamepass": false,
     "price": 69.98,
     "rate": 4.3,
     "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
-  "BT51M2LPKPZD": {
-    "antiquity": 1846,
-    "gamepass": false,
-    "price": 99.99,
-    "rate": 3.9,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "BT5P2X999VH2": {
-    "antiquity": 2266,
+    "antiquity": 2378,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.6,
-    "reviews": 3398,
+    "rate": 3.7,
+    "reviews": 3597,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Tragaperras",
+      "Compras",
       "Action",
       "Shooter",
       "Simulation",
@@ -27256,12 +30770,13 @@ const GAME = {
     ]
   },
   "BT5X0XGCWGD6": {
-    "antiquity": 1361,
+    "antiquity": 1473,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.9,
-    "reviews": 162,
+    "reviews": 168,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -27269,23 +30784,25 @@ const GAME = {
     ]
   },
   "BT7M0N12GN51": {
-    "antiquity": 3791,
+    "antiquity": 3903,
     "gamepass": false,
     "price": 14.39,
-    "rate": 4.5,
-    "reviews": 37,
+    "rate": 4.6,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BT8CSKSR2L49": {
-    "antiquity": 2494,
+    "antiquity": 2606,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.8,
-    "reviews": 47,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -27293,12 +30810,13 @@ const GAME = {
     ]
   },
   "BT9FFLG51VVG": {
-    "antiquity": 3428,
+    "antiquity": 3540,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 331,
+    "reviews": 334,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -27307,12 +30825,13 @@ const GAME = {
     ]
   },
   "BTB16H9WG3JT": {
-    "antiquity": 4701,
+    "antiquity": 4813,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.5,
-    "reviews": 26,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -27320,12 +30839,13 @@ const GAME = {
     ]
   },
   "BTB7HC3ZDL2V": {
-    "antiquity": 1682,
+    "antiquity": 1794,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.1,
-    "reviews": 31,
+    "rate": 3.2,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -27337,12 +30857,13 @@ const GAME = {
     ]
   },
   "BTC0L0BW6LWC": {
-    "antiquity": 1629,
+    "antiquity": 1741,
     "gamepass": true,
     "price": 49.99,
-    "rate": 4.0,
-    "reviews": 150,
+    "rate": 3.9,
+    "reviews": 168,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Fighting",
@@ -27354,86 +30875,92 @@ const GAME = {
     ]
   },
   "BTC8BR7V276X": {
-    "antiquity": 2578,
+    "antiquity": 2690,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.4,
-    "reviews": 35,
+    "rate": 4.3,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
+  "BTCRQ7V311BM": {
+    "antiquity": 1565,
+    "gamepass": false,
+    "price": 0.0,
+    "rate": 3.0,
+    "reviews": 2,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "SinglePlayer",
+      "Free"
+    ]
+  },
   "BTCS0LP052HL": {
-    "antiquity": 1580,
+    "antiquity": 1692,
     "gamepass": true,
     "price": 9.99,
-    "rate": 4.8,
-    "reviews": 43,
+    "rate": 4.7,
+    "reviews": 46,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "GamePass"
     ]
   },
   "BTDH0LJRWNWC": {
-    "antiquity": 2049,
+    "antiquity": 2161,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.2,
-    "reviews": 20,
+    "rate": 4.3,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
-      "MultiPlayer"
-    ]
-  },
-  "BTDHX5Z7GL0W": {
-    "antiquity": 2322,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 2.2,
-    "reviews": 22,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "SinglePlayer",
       "MultiPlayer"
     ]
   },
   "BTFM6JRRSSTM": {
-    "antiquity": 2903,
+    "antiquity": 3015,
     "gamepass": false,
     "price": 49.99,
-    "rate": 4.5,
-    "reviews": 1082,
+    "rate": 4.4,
+    "reviews": 1085,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BTGZWQCD01JC": {
-    "antiquity": 3806,
+    "antiquity": 3918,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
-    "reviews": 123,
+    "reviews": 125,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "BTJ0T8C04ZBV": {
-    "antiquity": 3511,
+    "antiquity": 3623,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
     "reviews": 418,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -27442,26 +30969,58 @@ const GAME = {
       "GamePass"
     ]
   },
+  "BTJN2TF71BR0": {
+    "antiquity": 2658,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.2,
+    "reviews": 293,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "BTKFDF4DHWRZ": {
-    "antiquity": 3126,
+    "antiquity": 3238,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
       "LocalMultiPlayer"
     ]
   },
+  "BTKGPC4331HC": {
+    "antiquity": 1599,
+    "gamepass": false,
+    "price": 79.99,
+    "rate": 3.8,
+    "reviews": 107,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "BTNPS60N3114": {
-    "antiquity": 3250,
+    "antiquity": 3362,
     "gamepass": true,
     "price": 18.99,
     "rate": 4.0,
-    "reviews": 119,
+    "reviews": 120,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -27473,36 +31032,27 @@ const GAME = {
     ]
   },
   "BTNTWQD5V8WG": {
-    "antiquity": 1837,
+    "antiquity": 1949,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.0,
-    "reviews": 44,
+    "rate": 4.1,
+    "reviews": 45,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "Free"
     ]
   },
-  "BTPLXWW2G1KT": {
-    "antiquity": 2035,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.1,
-    "reviews": 28,
-    "trial": false,
-    "tags": [
-      "Bundle"
-    ]
-  },
   "BTQKSHJSRP40": {
-    "antiquity": 2179,
+    "antiquity": 2291,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 16,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -27510,36 +31060,54 @@ const GAME = {
     ]
   },
   "BTQMHK78ZPF9": {
-    "antiquity": 3229,
+    "antiquity": 3341,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.3,
-    "reviews": 190,
+    "reviews": 196,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BTQP8RRP1PKD": {
-    "antiquity": 2762,
+    "antiquity": 2874,
     "gamepass": false,
-    "price": 9.99,
+    "price": 19.99,
     "rate": 4.3,
     "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
+  "BTS6DT1DJHFJ": {
+    "antiquity": 2025,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.9,
+    "reviews": 10,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "BTSQF5T410C6": {
-    "antiquity": 2168,
+    "antiquity": 2280,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
     "reviews": 56,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -27547,36 +31115,39 @@ const GAME = {
     ]
   },
   "BTT25GGLG6KD": {
-    "antiquity": 5176,
+    "antiquity": 5288,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
-    "reviews": 43,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family"
     ]
   },
   "BTT48FGF6SWM": {
-    "antiquity": 1403,
+    "antiquity": 1515,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.1,
-    "reviews": 24,
+    "rate": 3.9,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "BTVQTRMQVLJP": {
-    "antiquity": 774,
+    "antiquity": 886,
     "gamepass": false,
-    "price": 69.99,
+    "price": 29.99,
     "rate": 2.9,
-    "reviews": 68,
+    "reviews": 73,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -27586,83 +31157,95 @@ const GAME = {
     ]
   },
   "BTVQW5LF9JPV": {
-    "antiquity": 3684,
+    "antiquity": 3796,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 32,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "MultiPlayer"
     ]
   },
+  "BTWL97XSD0WT": {
+    "antiquity": 1818,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 2.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "BTWXL6VXS87B": {
-    "antiquity": 2949,
+    "antiquity": 3061,
     "gamepass": false,
     "price": 6.98,
     "rate": 4.2,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
-  "BTX10NSL9P28": {
-    "antiquity": 3385,
+  "BTX66HLTFPWR": {
+    "antiquity": 5017,
     "gamepass": false,
-    "price": 13.99,
-    "rate": 3.8,
-    "reviews": 225,
+    "price": 9.99,
+    "rate": 4.8,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "LocalMultiPlayer"
-    ]
-  },
-  "BTX1PSX2MBF6": {
-    "antiquity": 4722,
-    "gamepass": false,
-    "price": 9.49,
-    "rate": 4.7,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Classics"
+      "Shooter",
+      "Strategy",
+      "Simulation"
     ]
   },
   "BTXC0RGTT3XN": {
-    "antiquity": 5002,
+    "antiquity": 5114,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 4.4,
-    "reviews": 39,
+    "price": 4.99,
+    "rate": 4.5,
+    "reviews": 41,
     "trial": false,
+    "discount": 75.03752,
     "tags": [
-      "Action"
+      "Action",
+      "Oferta"
     ]
   },
   "BV02TBL15DX3": {
-    "antiquity": 1836,
+    "antiquity": 1948,
     "gamepass": true,
     "price": 29.99,
-    "rate": 3.8,
-    "reviews": 18,
+    "rate": 4.0,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BV0LH18Q1VHW": {
-    "antiquity": 3154,
+    "antiquity": 3266,
     "gamepass": false,
     "price": 19.98,
     "rate": 3.9,
     "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Cards",
@@ -27670,12 +31253,13 @@ const GAME = {
     ]
   },
   "BV26W4BTCLKG": {
-    "antiquity": 1846,
+    "antiquity": 1958,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.6,
     "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -27683,23 +31267,25 @@ const GAME = {
     ]
   },
   "BV2ZVP7PJZWL": {
-    "antiquity": 1930,
+    "antiquity": 2042,
     "gamepass": false,
-    "price": 7.49,
-    "rate": 3.8,
-    "reviews": 64,
+    "price": 29.99,
+    "rate": 3.9,
+    "reviews": 65,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BV3FZP8HC2T5": {
-    "antiquity": 1775,
+    "antiquity": 1887,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.7,
-    "reviews": 19,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Racing & flying",
@@ -27708,24 +31294,40 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "BV4F07T1WH5T": {
-    "antiquity": 2726,
+  "BV3P321WRMFP": {
+    "antiquity": 1699,
     "gamepass": false,
-    "price": 12.49,
-    "rate": 4.4,
-    "reviews": 531,
+    "price": 29.99,
+    "rate": 3.7,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "BV4F07T1WH5T": {
+    "antiquity": 2838,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.4,
+    "reviews": 540,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BV559LH6RTS1": {
-    "antiquity": 2306,
+    "antiquity": 2418,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Racing & flying",
@@ -27734,94 +31336,114 @@ const GAME = {
     ]
   },
   "BV5623GKKLGV": {
-    "antiquity": 3068,
+    "antiquity": 3180,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 113,
+    "reviews": 112,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "BV5N90RDT0SH": {
-    "antiquity": 5176,
+    "antiquity": 5288,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.9,
-    "reviews": 152,
+    "rate": 4.8,
+    "reviews": 154,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
   "BV6BRSLFJW3W": {
-    "antiquity": 2784,
+    "antiquity": 2896,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 164,
+    "reviews": 169,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BV6MJX1TDL17": {
-    "antiquity": 3327,
+    "antiquity": 3439,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
-    "reviews": 549,
+    "reviews": 557,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BV6WLXGS887C": {
-    "antiquity": 4842,
+    "antiquity": 4954,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
-    "reviews": 19,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying"
     ]
   },
   "BV701FMDP6SX": {
-    "antiquity": 2406,
+    "antiquity": 2518,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.3,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
+  "BV70995QL0QH": {
+    "antiquity": 2839,
+    "gamepass": false,
+    "price": 3.99,
+    "rate": 3.7,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Classics"
+    ]
+  },
   "BV7JZ6MTR47K": {
-    "antiquity": 3007,
+    "antiquity": 3119,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BV83SM3191S5": {
-    "antiquity": 5171,
+    "antiquity": 5283,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -27829,23 +31451,25 @@ const GAME = {
     ]
   },
   "BV8NQM6GF6Z5": {
-    "antiquity": 2693,
+    "antiquity": 2805,
     "gamepass": false,
     "price": 20.98,
     "rate": 4.4,
     "reviews": 93,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BV95S3CSP2DW": {
-    "antiquity": 3089,
+    "antiquity": 3201,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
     "reviews": 143,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MOBA",
@@ -27855,12 +31479,13 @@ const GAME = {
     ]
   },
   "BV9ML45J2Q5V": {
-    "antiquity": 1707,
+    "antiquity": 1819,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
-    "reviews": 431,
+    "reviews": 446,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -27871,117 +31496,138 @@ const GAME = {
     ]
   },
   "BVBQ72FDB4LK": {
-    "antiquity": 3111,
+    "antiquity": 3223,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
-    "reviews": 229,
+    "reviews": 231,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "MultiPlayer"
     ]
   },
   "BVC44J7FF2QB": {
-    "antiquity": 3687,
+    "antiquity": 3799,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 55,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting"
     ]
   },
   "BVCVS12P1H14": {
-    "antiquity": 3180,
+    "antiquity": 3292,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
-    "reviews": 75,
+    "reviews": 76,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
   "BVFB8CBS75R6": {
-    "antiquity": 2004,
+    "antiquity": 2116,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.6,
-    "reviews": 36,
+    "rate": 4.7,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "BVFDTJ1XF6CS": {
-    "antiquity": 2448,
+    "antiquity": 2560,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.5,
-    "reviews": 280,
+    "reviews": 281,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BVG6N37LFL8M": {
-    "antiquity": 2364,
+    "antiquity": 2476,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.8,
-    "reviews": 37,
+    "rate": 4.7,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BVGQMLJFSSZG": {
-    "antiquity": 3307,
+  "BVGH0BLWLR52": {
+    "antiquity": 1609,
     "gamepass": false,
-    "price": 14.98,
-    "rate": 4.0,
-    "reviews": 167,
+    "price": 39.99,
+    "rate": 4.4,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
-    ]
-  },
-  "BVH2R2SBWL51": {
-    "antiquity": 1431,
-    "gamepass": false,
-    "price": 79.99,
-    "rate": 3.0,
-    "reviews": 90,
-    "trial": false,
-    "tags": [
-      "Compras",
       "Bundle",
       "SinglePlayer",
       "MultiPlayer"
     ]
   },
+  "BVGQMLJFSSZG": {
+    "antiquity": 3419,
+    "gamepass": false,
+    "price": 14.98,
+    "rate": 4.0,
+    "reviews": 167,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
+  "BVGQP1TR2KQ5": {
+    "antiquity": 1574,
+    "gamepass": false,
+    "price": 49.99,
+    "rate": 4.3,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
   "BVJ6MPFR35NS": {
-    "antiquity": 2809,
+    "antiquity": 2921,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.2,
     "reviews": 135,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BVJLKDG2TX8H": {
-    "antiquity": 1888,
+    "antiquity": 2000,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.3,
-    "reviews": 43,
+    "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "SinglePlayer",
@@ -27990,25 +31636,14 @@ const GAME = {
       "GamePass"
     ]
   },
-  "BVJRH8WMB3BG": {
-    "antiquity": 2336,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.8,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer"
-    ]
-  },
   "BVM002M8HH0S": {
-    "antiquity": 1551,
+    "antiquity": 1663,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
-    "reviews": 47,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -28021,85 +31656,87 @@ const GAME = {
     ]
   },
   "BVMFBCFLL6QP": {
-    "antiquity": 4846,
+    "antiquity": 4958,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
     "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BVMGCSX6XPC9": {
-    "antiquity": 4716,
+    "antiquity": 4828,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 171,
+    "reviews": 176,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BVMM601GHXZ6": {
-    "antiquity": 2586,
+    "antiquity": 2698,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.6,
     "reviews": 9,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying"
     ]
   },
   "BVN6M64JCHTL": {
-    "antiquity": 3056,
+    "antiquity": 3168,
     "gamepass": false,
     "price": 14.98,
-    "rate": 4.3,
-    "reviews": 31,
+    "rate": 4.2,
+    "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "BVNRFF9XJ6KM": {
-    "antiquity": 2035,
+    "antiquity": 2147,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 19,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BVQ3FL3201P8": {
-    "antiquity": 2574,
-    "gamepass": true,
-    "price": 39.99,
-    "rate": 4.0,
-    "reviews": 703,
+  "BVPWW6JJKWXV": {
+    "antiquity": 1858,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 4.3,
+    "reviews": 14,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "CrossPlatform",
-      "MultiPlayer",
-      "GamePass"
+      "Bundle"
     ]
   },
   "BVQ3V30ZXVT5": {
-    "antiquity": 1668,
+    "antiquity": 1780,
     "gamepass": false,
     "price": 29.99,
-    "rate": 3.9,
-    "reviews": 141,
+    "rate": 4.0,
+    "reviews": 147,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Role playing",
@@ -28107,12 +31744,13 @@ const GAME = {
     ]
   },
   "BVR64CDJ01FJ": {
-    "antiquity": 4814,
+    "antiquity": 4926,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.0,
     "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -28120,38 +31758,39 @@ const GAME = {
       "GamePass"
     ]
   },
+  "BVSJRMBCBP4V": {
+    "antiquity": 2789,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.5,
+    "reviews": 36,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "MultiPlayer"
+    ]
+  },
   "BVT0L7DZJ5VC": {
-    "antiquity": 1727,
+    "antiquity": 1839,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.8,
-    "reviews": 24,
+    "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BVTFP7L3CVL8": {
-    "antiquity": 3607,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 3.7,
-    "reviews": 1116,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "BVTKN6CQ8W5F": {
-    "antiquity": 1445,
+    "antiquity": 1557,
     "gamepass": true,
     "price": 29.99,
-    "rate": 4.2,
-    "reviews": 241,
+    "rate": 4.1,
+    "reviews": 244,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -28160,46 +31799,37 @@ const GAME = {
     ]
   },
   "BVVP3LXMLP85": {
-    "antiquity": 2491,
+    "antiquity": 2603,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BVWMP1MBMNCP": {
-    "antiquity": 4125,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.8,
-    "reviews": 13,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Family"
-    ]
-  },
   "BVWPHR3TVQ6F": {
-    "antiquity": 2585,
+    "antiquity": 2697,
     "gamepass": false,
     "price": 14.98,
     "rate": 3.9,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BVX4Z50ZBH5Q": {
-    "antiquity": 1857,
+    "antiquity": 1969,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.2,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -28209,73 +31839,92 @@ const GAME = {
     ]
   },
   "BVZ0D05W8MP2": {
-    "antiquity": 2714,
+    "antiquity": 2826,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
     "reviews": 140,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
       "Shooter"
     ]
   },
+  "BVZ4H08BMQ3H": {
+    "antiquity": 4947,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 5.0,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Family",
+      "Sports"
+    ]
+  },
   "BVZLS7XZ68KF": {
-    "antiquity": 1237,
+    "antiquity": 1349,
     "gamepass": false,
     "price": 29.99,
-    "rate": 3.5,
-    "reviews": 132,
+    "rate": 3.4,
+    "reviews": 136,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "BW050BMB7FD7": {
-    "antiquity": 2551,
+    "antiquity": 2663,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 19,
+    "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BW08NW03FX4R": {
-    "antiquity": 4246,
+    "antiquity": 4358,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.1,
-    "reviews": 42,
+    "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "BW0D9LH9GG6D": {
-    "antiquity": 2504,
+    "antiquity": 2616,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.1,
-    "reviews": 41,
+    "rate": 4.0,
+    "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Free"
     ]
   },
   "BW2XDRNSCCPZ": {
-    "antiquity": 2735,
+    "antiquity": 2847,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.7,
-    "reviews": 400,
+    "reviews": 405,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -28283,35 +31932,50 @@ const GAME = {
     ]
   },
   "BW4BKDN4WT8F": {
-    "antiquity": 5171,
+    "antiquity": 5283,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
-    "reviews": 23,
+    "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BW6B077FCH11": {
-    "antiquity": 3264,
+    "antiquity": 3376,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.4,
-    "reviews": 249,
+    "reviews": 250,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
+  "BW6GCCJ41VM6": {
+    "antiquity": 2106,
+    "gamepass": false,
+    "price": 3.74,
+    "rate": 3.2,
+    "reviews": 10,
+    "trial": false,
+    "discount": 75.05003,
+    "tags": [
+      "Oferta"
+    ]
+  },
   "BW85KQB8Q31M": {
-    "antiquity": 2767,
+    "antiquity": 2879,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 369,
+    "reviews": 376,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -28319,12 +31983,13 @@ const GAME = {
     ]
   },
   "BW8JQLJ2GDT8": {
-    "antiquity": 2081,
+    "antiquity": 2193,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
     "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -28332,12 +31997,13 @@ const GAME = {
     ]
   },
   "BW8PVL4CJ2Q6": {
-    "antiquity": 1864,
+    "antiquity": 1976,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
-    "reviews": 31,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "LocalMultiPlayer",
@@ -28345,12 +32011,13 @@ const GAME = {
     ]
   },
   "BW9G6TCK52DV": {
-    "antiquity": 2746,
+    "antiquity": 2858,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
     "reviews": 92,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -28358,12 +32025,13 @@ const GAME = {
     ]
   },
   "BW9TWC8L4JCS": {
-    "antiquity": 1829,
+    "antiquity": 1941,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.4,
-    "reviews": 219,
+    "reviews": 233,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -28371,24 +32039,27 @@ const GAME = {
     ]
   },
   "BWB89BB14C5H": {
-    "antiquity": 4317,
+    "antiquity": 4429,
     "gamepass": false,
     "price": 4.49,
     "rate": 4.2,
     "reviews": 20,
     "trial": false,
+    "discount": 85.02834,
     "tags": [
       "Action",
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "BWC95BZPFBS7": {
-    "antiquity": 2236,
+    "antiquity": 2348,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
-    "reviews": 145,
+    "reviews": 147,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -28398,24 +32069,26 @@ const GAME = {
     ]
   },
   "BWCXFW8V0HBH": {
-    "antiquity": 2683,
+    "antiquity": 2795,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 22,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "BWD1JLTPBD16": {
-    "antiquity": 2209,
+    "antiquity": 2321,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.4,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -28423,24 +32096,39 @@ const GAME = {
     ]
   },
   "BWD88K55MK5W": {
-    "antiquity": 2354,
+    "antiquity": 2466,
     "gamepass": false,
     "price": 19.98,
-    "rate": 4.3,
-    "reviews": 95,
+    "rate": 4.2,
+    "reviews": 98,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
+  "BWDKPT1Q18D4": {
+    "antiquity": 1830,
+    "gamepass": false,
+    "price": 8.99,
+    "rate": 3.3,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter"
+    ]
+  },
   "BWG6LFT5QDR3": {
-    "antiquity": 2970,
+    "antiquity": 3082,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
     "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -28452,23 +32140,25 @@ const GAME = {
     ]
   },
   "BWGWPKRVZZV2": {
-    "antiquity": 3698,
+    "antiquity": 3810,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BWH2Q8NM07PC": {
-    "antiquity": 2830,
+    "antiquity": 2942,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.8,
-    "reviews": 96,
+    "reviews": 98,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -28476,71 +32166,51 @@ const GAME = {
     ]
   },
   "BWHFZNSL0PB5": {
-    "antiquity": 1790,
+    "antiquity": 1902,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BWHK1713PW2L": {
-    "antiquity": 1794,
-    "gamepass": false,
-    "price": 6.99,
-    "rate": 4.1,
-    "reviews": 8,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Platformer"
-    ]
-  },
-  "BWJK7NTJLKV9": {
-    "antiquity": 2021,
-    "gamepass": false,
-    "price": 89.99,
-    "rate": 4.0,
-    "reviews": 21,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "BWKLFHWT7DHC": {
-    "antiquity": 4888,
+    "antiquity": 5000,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
-    "reviews": 226,
+    "reviews": 230,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "BWKXQC5BL5R1": {
-    "antiquity": 1657,
+    "antiquity": 1769,
     "gamepass": false,
     "price": 15.98,
-    "rate": 4.6,
-    "reviews": 60,
+    "rate": 4.7,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
   "BWL72GR7Z7GK": {
-    "antiquity": 1685,
+    "antiquity": 1797,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.3,
     "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -28549,13 +32219,28 @@ const GAME = {
       "GamePass"
     ]
   },
+  "BWMB1BF5D69N": {
+    "antiquity": 2515,
+    "gamepass": false,
+    "price": 2.99,
+    "rate": 4.9,
+    "reviews": 8,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Racing & flying",
+      "MultiPlayer"
+    ]
+  },
   "BWMH4RQ4Q06F": {
-    "antiquity": 1490,
+    "antiquity": 1602,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
-    "reviews": 93,
+    "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -28563,23 +32248,26 @@ const GAME = {
     ]
   },
   "BWMH951M3G3P": {
-    "antiquity": 1717,
-    "gamepass": false,
+    "antiquity": 1829,
+    "gamepass": true,
     "price": 39.98,
     "rate": 4.8,
-    "reviews": 258,
+    "reviews": 307,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
+      "Action",
+      "GamePass"
     ]
   },
   "BWMQL2RPWBHB": {
-    "antiquity": 2081,
+    "antiquity": 2193,
     "gamepass": true,
     "price": 19.98,
-    "rate": 4.4,
-    "reviews": 135,
+    "rate": 4.3,
+    "reviews": 150,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "SinglePlayer",
@@ -28587,12 +32275,13 @@ const GAME = {
     ]
   },
   "BWMZDGGJ19VG": {
-    "antiquity": 4687,
+    "antiquity": 4799,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 34,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Racing & flying",
@@ -28600,12 +32289,13 @@ const GAME = {
     ]
   },
   "BWNN9M15W9V9": {
-    "antiquity": 2782,
+    "antiquity": 2894,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 421,
+    "reviews": 423,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -28614,12 +32304,13 @@ const GAME = {
     ]
   },
   "BWNQ4QZFV74P": {
-    "antiquity": 4534,
+    "antiquity": 4646,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.8,
-    "reviews": 36,
+    "rate": 4.7,
+    "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -28627,100 +32318,77 @@ const GAME = {
     ]
   },
   "BWNQM65KQK6H": {
-    "antiquity": 4863,
+    "antiquity": 4975,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.5,
-    "reviews": 23,
+    "rate": 4.6,
+    "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family"
     ]
   },
-  "BWP0Q27QDNWQ": {
-    "antiquity": 1979,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 3.1,
-    "reviews": 142,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "BWQ5FC9WDJ6H": {
-    "antiquity": 1636,
+    "antiquity": 1748,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
-    "reviews": 91,
+    "reviews": 97,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer"
     ]
   },
   "BWQ7GGKXG28T": {
-    "antiquity": 4687,
+    "antiquity": 4799,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
     "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Shooter",
       "Free"
     ]
   },
-  "BWT2GPVWCH2F": {
-    "antiquity": 1762,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 3.7,
-    "reviews": 26,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Simulation",
-      "Strategy",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "BWT5L9P3L60X": {
-    "antiquity": 2028,
+    "antiquity": 2140,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.5,
-    "reviews": 24,
+    "rate": 4.4,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BWTRGX57577H": {
-    "antiquity": 4548,
+    "antiquity": 4660,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
-    "reviews": 18,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting"
     ]
   },
   "BWTTW53M5B98": {
-    "antiquity": 2543,
+    "antiquity": 2655,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
-    "reviews": 413,
+    "reviews": 417,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -28729,12 +32397,13 @@ const GAME = {
     ]
   },
   "BWV3BH92JJ20": {
-    "antiquity": 1846,
+    "antiquity": 1958,
     "gamepass": false,
-    "price": 13.99,
+    "price": 69.99,
     "rate": 4.1,
-    "reviews": 217,
+    "reviews": 219,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -28742,12 +32411,13 @@ const GAME = {
     ]
   },
   "BWVBNCMF22ZK": {
-    "antiquity": 2026,
+    "antiquity": 2138,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 213,
+    "reviews": 224,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -28755,24 +32425,41 @@ const GAME = {
       "GamePass"
     ]
   },
+  "BWW1MP5KDLPB": {
+    "antiquity": 2133,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 2.7,
+    "reviews": 18,
+    "trial": false,
+    "discount": 75.02501,
+    "tags": [
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "BWZVPDGMPCC5": {
-    "antiquity": 4890,
+    "antiquity": 5002,
     "gamepass": false,
     "price": 14.39,
     "rate": 3.9,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics"
     ]
   },
   "BX03760D0QGN": {
-    "antiquity": 2536,
+    "antiquity": 2648,
     "gamepass": false,
-    "price": 69.98,
+    "price": 19.99,
     "rate": 3.9,
-    "reviews": 141,
+    "reviews": 144,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -28780,12 +32467,13 @@ const GAME = {
     ]
   },
   "BX0TSX0MD6Z7": {
-    "antiquity": 2940,
+    "antiquity": 3052,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -28793,12 +32481,13 @@ const GAME = {
     ]
   },
   "BX1DTCBD1HXJ": {
-    "antiquity": 1811,
+    "antiquity": 1923,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 6455,
+    "reviews": 6840,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -28809,12 +32498,13 @@ const GAME = {
     ]
   },
   "BX1FZX1X4132": {
-    "antiquity": 1636,
+    "antiquity": 1748,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.9,
     "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer",
@@ -28822,12 +32512,13 @@ const GAME = {
     ]
   },
   "BX1JCFLJT5KX": {
-    "antiquity": 3238,
+    "antiquity": 3350,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
     "reviews": 45,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -28837,13 +32528,28 @@ const GAME = {
       "Free"
     ]
   },
+  "BX1WPT5RJSB2": {
+    "antiquity": 2693,
+    "gamepass": false,
+    "price": 39.98,
+    "rate": 3.5,
+    "reviews": 47,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Puzzle",
+      "SinglePlayer"
+    ]
+  },
   "BX2045HX10WS": {
-    "antiquity": 2323,
+    "antiquity": 2435,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -28852,36 +32558,80 @@ const GAME = {
     ]
   },
   "BX27S00SKW1V": {
-    "antiquity": 4855,
+    "antiquity": 4967,
     "gamepass": true,
     "price": 14.39,
-    "rate": 4.7,
-    "reviews": 16,
+    "rate": 4.5,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
       "GamePass"
     ]
   },
+  "BX2CS20ZVL3L": {
+    "antiquity": 2839,
+    "gamepass": false,
+    "price": 3.99,
+    "rate": 4.4,
+    "reviews": 13,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Classics"
+    ]
+  },
   "BX2JJ48F0CKR": {
-    "antiquity": 4156,
+    "antiquity": 4268,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.1,
-    "reviews": 18,
+    "rate": 4.2,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "BX2PTCR8L5XP": {
+    "antiquity": 4945,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.2,
+    "reviews": 6,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Action",
+      "Racing & flying",
+      "Oferta"
+    ]
+  },
+  "BX2XLPLKZB5Q": {
+    "antiquity": 1153,
+    "gamepass": false,
+    "price": 8.99,
+    "rate": 4.0,
+    "reviews": 9,
+    "trial": false,
+    "discount": 70.023346,
+    "tags": [
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "BX3JNK07Z6QK": {
-    "antiquity": 4555,
+    "antiquity": 4667,
     "gamepass": true,
     "price": 9.99,
-    "rate": 4.8,
-    "reviews": 112,
+    "rate": 4.7,
+    "reviews": 125,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -28890,107 +32640,122 @@ const GAME = {
     ]
   },
   "BX3M8L83BBRW": {
-    "antiquity": 1033,
+    "antiquity": 1145,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.1,
-    "reviews": 465,
+    "reviews": 502,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "SinglePlayer"
     ]
   },
   "BX3S1Q5DVHRD": {
-    "antiquity": 1769,
+    "antiquity": 1881,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
-    "reviews": 287,
+    "reviews": 291,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "BX4JBN0GWCVB": {
-    "antiquity": 2883,
+    "antiquity": 2995,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
-    "reviews": 175,
+    "reviews": 180,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer"
     ]
   },
-  "BX7BC0M2NCGJ": {
-    "antiquity": 2347,
+  "BX6T2L66T497": {
+    "antiquity": 1972,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 3.0,
-    "reviews": 10,
+    "price": 12.98,
+    "rate": 4.4,
+    "reviews": 0,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
-    ]
-  },
-  "BX7CVHSZMFRH": {
-    "antiquity": 2938,
-    "gamepass": false,
-    "price": 1.79,
-    "rate": 2.9,
-    "reviews": 9,
-    "trial": true,
-    "tags": [
-      "Platformer",
+      "Action",
+      "Shooter",
       "LocalMultiPlayer"
     ]
   },
-  "BX7XFZ51XTW8": {
-    "antiquity": 4811,
+  "BX7MRJ9KR1K1": {
+    "antiquity": 4372,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 3.6,
-    "reviews": 18,
+    "price": 9.49,
+    "rate": 5.0,
+    "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "LocalMultiPlayer",
-      "MultiPlayer"
+      "Fighting"
     ]
   },
   "BX89DK9KLJ89": {
-    "antiquity": 2490,
+    "antiquity": 2602,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.1,
     "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BX8J66WFQ1VK": {
-    "antiquity": 2172,
+    "antiquity": 2284,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.5,
     "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
+  "BXBJQ1932138": {
+    "antiquity": 2309,
+    "gamepass": true,
+    "price": 29.99,
+    "rate": 3.7,
+    "reviews": 99,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "Simulation",
+      "Sports",
+      "Strategy",
+      "MultiPlayer",
+      "GamePass"
+    ]
+  },
   "BXBM72LSWFJ0": {
-    "antiquity": 2137,
+    "antiquity": 2249,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
-    "reviews": 33,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -28998,35 +32763,38 @@ const GAME = {
     ]
   },
   "BXC1K12NQFTF": {
-    "antiquity": 2706,
+    "antiquity": 2818,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
     "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BXC7CS90NX6S": {
-    "antiquity": 2033,
+    "antiquity": 2145,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.6,
-    "reviews": 403,
+    "reviews": 404,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy"
     ]
   },
   "BXCVNFBPZHXQ": {
-    "antiquity": 2749,
+    "antiquity": 2861,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
-    "reviews": 160,
+    "reviews": 163,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -29034,46 +32802,50 @@ const GAME = {
     ]
   },
   "BXDH919M16G9": {
-    "antiquity": 1622,
+    "antiquity": 1734,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
-    "reviews": 41,
+    "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "BXDSG249D6Q2": {
-    "antiquity": 2396,
+    "antiquity": 2508,
     "gamepass": false,
     "price": 14.99,
-    "rate": 3.8,
-    "reviews": 40,
+    "rate": 3.9,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "BXDT91NTZNDV": {
-    "antiquity": 3518,
+    "antiquity": 3630,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.0,
-    "reviews": 61,
+    "reviews": 62,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BXFFGCLPDDZ6": {
-    "antiquity": 3911,
+    "antiquity": 4023,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -29081,37 +32853,26 @@ const GAME = {
       "Simulation"
     ]
   },
-  "BXGBTNP4ZVCR": {
-    "antiquity": 2258,
-    "gamepass": false,
-    "price": 0.99,
-    "rate": 4.8,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "BXGSG9J32FLJ": {
-    "antiquity": 2784,
+    "antiquity": 2896,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BXH46NQT9W4Q": {
-    "antiquity": 2245,
+    "antiquity": 2357,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.7,
     "reviews": 68,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -29119,68 +32880,77 @@ const GAME = {
     ]
   },
   "BXHG2GX28L23": {
-    "antiquity": 2819,
+    "antiquity": 2931,
     "gamepass": false,
     "price": 19.98,
     "rate": 3.9,
-    "reviews": 150,
+    "reviews": 151,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BXHL96D1W827": {
-    "antiquity": 5961,
+    "antiquity": 6073,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.4,
     "reviews": 8,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics"
     ]
   },
   "BXHL9BJH9XKC": {
-    "antiquity": 6520,
+    "antiquity": 6632,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.1,
-    "reviews": 18,
+    "rate": 4.2,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Free"
     ]
   },
+  "BXJ3GNW2FZK0": {
+    "antiquity": 2242,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.2,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "BXK4F4K72TPQ": {
-    "antiquity": 3124,
+    "antiquity": 3236,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
     "reviews": 68,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
-  "BXKLDP56HFGZ": {
-    "antiquity": 2783,
-    "gamepass": false,
-    "price": 19.98,
-    "rate": 3.7,
-    "reviews": 33,
-    "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
   "BXKVN6G9C5WJ": {
-    "antiquity": 2048,
+    "antiquity": 2160,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.0,
     "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -29190,24 +32960,26 @@ const GAME = {
     ]
   },
   "BXLH97R22VM2": {
-    "antiquity": 2595,
+    "antiquity": 2707,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
     "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "BXT6TD05Q930": {
-    "antiquity": 2610,
+    "antiquity": 2722,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.2,
-    "reviews": 31,
+    "rate": 4.1,
+    "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Cards",
       "Casino",
@@ -29220,47 +32992,51 @@ const GAME = {
     ]
   },
   "BXTCRVBZ52DN": {
-    "antiquity": 4561,
+    "antiquity": 4673,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.5,
-    "reviews": 16,
+    "reviews": 17,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Role playing"
     ]
   },
   "BXVQ8M4J9HNM": {
-    "antiquity": 2907,
+    "antiquity": 3019,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
-    "reviews": 239,
+    "reviews": 242,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "BXW02MW8K8T1": {
-    "antiquity": 4888,
+    "antiquity": 5000,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying"
     ]
   },
   "BXWJNW4170RM": {
-    "antiquity": 2894,
+    "antiquity": 3006,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 232,
+    "reviews": 233,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "MultiPlayer",
@@ -29268,12 +33044,13 @@ const GAME = {
     ]
   },
   "BXX0NHDR1FNZ": {
-    "antiquity": 1425,
+    "antiquity": 1537,
     "gamepass": false,
     "price": 1.99,
     "rate": 3.9,
     "reviews": 79,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle",
@@ -29281,93 +33058,76 @@ const GAME = {
     ]
   },
   "BXZ0B7S1JD0Z": {
-    "antiquity": 3057,
+    "antiquity": 3169,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 73,
+    "reviews": 76,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "BXZ0JDCPRV6C": {
-    "antiquity": 3245,
+    "antiquity": 3357,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 19,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Family",
       "LocalMultiPlayer"
     ]
   },
-  "BXZG8RW2ZMNC": {
-    "antiquity": 1804,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "BXZLCHZT8NDF": {
-    "antiquity": 4213,
+    "antiquity": 4325,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.8,
-    "reviews": 29,
+    "rate": 4.6,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "BXZSX21X0S7X": {
-    "antiquity": 3467,
+    "antiquity": 3579,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
-    "reviews": 51,
+    "reviews": 52,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family"
     ]
   },
-  "BXZXM945LV54": {
-    "antiquity": 1776,
-    "gamepass": false,
-    "price": 49.99,
-    "rate": 3.3,
-    "reviews": 99,
-    "trial": false,
-    "tags": [
-      "Bundle"
-    ]
-  },
   "BZ271JBBZ9DC": {
-    "antiquity": 1717,
+    "antiquity": 1829,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.8,
-    "reviews": 279,
+    "reviews": 329,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BZ3CVPFPDSHK": {
-    "antiquity": 1349,
+    "antiquity": 1461,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
     "reviews": 42,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -29376,49 +33136,40 @@ const GAME = {
     ]
   },
   "BZ4WD43D8DTS": {
-    "antiquity": 2000,
+    "antiquity": 2112,
     "gamepass": true,
     "price": 14.99,
-    "rate": 3.9,
-    "reviews": 29,
+    "rate": 3.8,
+    "reviews": 30,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
   "BZ5FXSHHP5SV": {
-    "antiquity": 5021,
+    "antiquity": 5133,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 64,
+    "reviews": 65,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
       "SinglePlayer"
     ]
   },
-  "BZ5RJLM8NW91": {
-    "antiquity": 2266,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 4.2,
-    "reviews": 12,
-    "trial": false,
-    "tags": [
-      "Strategy",
-      "Simulation"
-    ]
-  },
   "BZ5VLVX84STW": {
-    "antiquity": 2427,
+    "antiquity": 2539,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.1,
-    "reviews": 77,
+    "reviews": 79,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -29427,12 +33178,13 @@ const GAME = {
     ]
   },
   "BZ5WXVG6180X": {
-    "antiquity": 1902,
+    "antiquity": 2014,
     "gamepass": false,
-    "price": 3.99,
+    "price": 19.98,
     "rate": 4.4,
     "reviews": 51,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -29441,12 +33193,13 @@ const GAME = {
     ]
   },
   "BZ6W9LRPC26W": {
-    "antiquity": 1504,
+    "antiquity": 1616,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 110,
+    "reviews": 112,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -29454,129 +33207,114 @@ const GAME = {
     ]
   },
   "BZ6XWGQZK45H": {
-    "antiquity": 4814,
+    "antiquity": 4926,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.9,
-    "reviews": 19,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Racing & flying"
     ]
   },
   "BZ7982MK3FWD": {
-    "antiquity": 2795,
+    "antiquity": 2907,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 446,
+    "reviews": 454,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "BZ83238KZD7N": {
-    "antiquity": 2757,
+    "antiquity": 2869,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.0,
-    "reviews": 169,
+    "reviews": 170,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BZ910SG8ML8X": {
-    "antiquity": 6108,
+    "antiquity": 6220,
     "gamepass": true,
     "price": 9.49,
     "rate": 3.9,
     "reviews": 19,
     "trial": false,
-    "tags": [
-      "Action",
-      "GamePass"
-    ]
-  },
-  "BZ92FB6PWXFJ": {
-    "antiquity": 3266,
-    "gamepass": true,
-    "price": 14.99,
-    "rate": 3.9,
-    "reviews": 92,
-    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "BZB4S8FS8T5B": {
-    "antiquity": 5759,
+    "antiquity": 5871,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.8,
-    "reviews": 151,
+    "reviews": 165,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "BZBX8JFCDBPR": {
-    "antiquity": 1731,
+    "antiquity": 1843,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.7,
     "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "LocalMultiPlayer"
     ]
   },
   "BZC8PXK6S00G": {
-    "antiquity": 4814,
+    "antiquity": 4926,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
-    "reviews": 81,
+    "reviews": 84,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BZD47S8QDNJ1": {
-    "antiquity": 2049,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 4.9,
-    "reviews": 9,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "BZF309Q32MDT": {
-    "antiquity": 2553,
+    "antiquity": 2665,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.8,
     "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer"
     ]
   },
   "BZF7N4FQWHNR": {
-    "antiquity": 5171,
+    "antiquity": 5283,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.9,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -29584,12 +33322,13 @@ const GAME = {
     ]
   },
   "BZF8QCRM89GK": {
-    "antiquity": 2308,
+    "antiquity": 2420,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.1,
     "reviews": 17,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -29600,12 +33339,13 @@ const GAME = {
     ]
   },
   "BZFB1F31614J": {
-    "antiquity": 2301,
+    "antiquity": 2413,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.8,
-    "reviews": 47,
+    "rate": 2.9,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -29616,36 +33356,26 @@ const GAME = {
       "Free"
     ]
   },
-  "BZFK7WNK7R4M": {
-    "antiquity": 2518,
-    "gamepass": false,
-    "price": 16.49,
-    "rate": 4.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "BZGBDSSP6G2J": {
-    "antiquity": 2784,
+    "antiquity": 2896,
     "gamepass": false,
-    "price": 11.54,
+    "price": 34.99,
     "rate": 4.5,
-    "reviews": 223,
+    "reviews": 228,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BZGJRJC1FGF3": {
-    "antiquity": 2172,
+    "antiquity": 2284,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.5,
-    "reviews": 328,
+    "reviews": 335,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -29654,24 +33384,26 @@ const GAME = {
     ]
   },
   "BZGPBRQ3LZ7G": {
-    "antiquity": 5541,
+    "antiquity": 5653,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.6,
     "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle"
     ]
   },
   "BZGZ3G053NTH": {
-    "antiquity": 3607,
+    "antiquity": 3719,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
-    "reviews": 192,
+    "reviews": 193,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -29679,34 +33411,37 @@ const GAME = {
     ]
   },
   "BZHS2XCVV5T3": {
-    "antiquity": 5758,
+    "antiquity": 5870,
     "gamepass": false,
     "price": 9.49,
     "rate": 3.9,
-    "reviews": 36,
+    "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics"
     ]
   },
   "BZHTJ3D9T57F": {
-    "antiquity": 3238,
+    "antiquity": 3350,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.4,
     "reviews": 50,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BZJ13K1JKGLP": {
-    "antiquity": 4765,
+    "antiquity": 4877,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
-    "reviews": 17,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -29714,133 +33449,183 @@ const GAME = {
     ]
   },
   "BZJ43GK4L0JC": {
-    "antiquity": 2235,
+    "antiquity": 2347,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 355,
+    "reviews": 358,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "BZK0PF5LXPDV": {
-    "antiquity": 3373,
+    "antiquity": 3485,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
-    "reviews": 73,
+    "reviews": 75,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "BZK6TK63SVMP": {
-    "antiquity": 2371,
+    "antiquity": 2483,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
-    "reviews": 37,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "SinglePlayer",
       "LocalMultiPlayer"
     ]
   },
+  "BZL79Z8GKDWV": {
+    "antiquity": 2075,
+    "gamepass": false,
+    "price": 8.69,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 80.018394,
+    "tags": [
+      "Bundle",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "BZP3R43F8DNH": {
+    "antiquity": 2053,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 4.5,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "LocalMultiPlayer"
+    ]
+  },
   "BZP6X6HKWG1G": {
-    "antiquity": 2231,
+    "antiquity": 2343,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
-    "reviews": 34,
+    "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
-  "BZRB09RQK88P": {
-    "antiquity": 2039,
+  "BZS4RFQH0SMH": {
+    "antiquity": 2790,
     "gamepass": false,
-    "price": 39.99,
-    "rate": 3.8,
-    "reviews": 0,
+    "price": 9.99,
+    "rate": 2.2,
+    "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Puzzle",
-      "LocalMultiPlayer"
+      "Action",
+      "Platformer",
+      "Puzzle"
     ]
   },
   "BZTC4776K9MS": {
-    "antiquity": 4715,
+    "antiquity": 4827,
     "gamepass": false,
     "price": 6.99,
     "rate": 3.8,
-    "reviews": 17,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "BZTZV149BZ44": {
-    "antiquity": 2930,
+    "antiquity": 3042,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.8,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation"
     ]
   },
   "BZV7W98B3XN4": {
-    "antiquity": 2581,
+    "antiquity": 2693,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
-    "reviews": 37,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "BZVK6GF5MGXS": {
+    "antiquity": 2347,
+    "gamepass": false,
+    "price": 19.98,
+    "rate": 4.3,
+    "reviews": 10,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "BZVPNM21TCJC": {
-    "antiquity": 2357,
+    "antiquity": 2469,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
     "reviews": 65,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "BZZ0Q9ZMM7GX": {
-    "antiquity": 1501,
+  "BZZ09B2B36P2": {
+    "antiquity": 2921,
     "gamepass": false,
-    "price": 19.99,
-    "rate": 3.8,
-    "reviews": 105,
-    "trial": true,
+    "price": 9.99,
+    "rate": 3.5,
+    "reviews": 16,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer",
-      "CrossPlatform"
+      "Platformer"
     ]
   },
   "BZZX30G7MBFZ": {
-    "antiquity": 4148,
+    "antiquity": 4260,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.5,
     "reviews": 46,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Classics",
@@ -29849,58 +33634,63 @@ const GAME = {
     ]
   },
   "C006S0X5ZJSB": {
-    "antiquity": 2581,
+    "antiquity": 2693,
     "gamepass": false,
     "price": 49.99,
-    "rate": 4.1,
-    "reviews": 54,
+    "rate": 4.2,
+    "reviews": 55,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "C01189NK5C8W": {
-    "antiquity": 2984,
+    "antiquity": 3096,
     "gamepass": false,
     "price": 19.98,
     "rate": 3.9,
     "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "C016H4M7FPRC": {
-    "antiquity": 2483,
+    "antiquity": 2595,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C01MSK2X5HPQ": {
-    "antiquity": 1994,
+    "antiquity": 2106,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C01Z9J8S9BJP": {
-    "antiquity": 3099,
+    "antiquity": 3211,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
     "reviews": 525,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "LocalMultiPlayer",
@@ -29908,46 +33698,51 @@ const GAME = {
     ]
   },
   "C02SL8LBS5K2": {
-    "antiquity": 3257,
+    "antiquity": 3369,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
     "reviews": 209,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C035L0NS3SQN": {
-    "antiquity": 5945,
+    "antiquity": 6057,
     "gamepass": false,
     "price": 3.99,
-    "rate": 4.5,
-    "reviews": 15,
+    "rate": 4.6,
+    "reviews": 16,
     "trial": false,
+    "discount": 80.040016,
     "tags": [
       "Action",
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "C03J6WR23XQ9": {
-    "antiquity": 3327,
+    "antiquity": 3439,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 167,
+    "reviews": 169,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "C040H652PD98": {
-    "antiquity": 4233,
+    "antiquity": 4345,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
-    "reviews": 38,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -29955,36 +33750,25 @@ const GAME = {
     ]
   },
   "C04KH9Z8WGXZ": {
-    "antiquity": 3440,
+    "antiquity": 3552,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
-  "C0723XB6XJSX": {
-    "antiquity": 2326,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.3,
-    "reviews": 154,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Action",
-      "MultiPlayer"
-    ]
-  },
   "C07KJZRH0L7S": {
-    "antiquity": 1040,
+    "antiquity": 1152,
     "gamepass": true,
-    "price": 10.49,
-    "rate": 4.2,
-    "reviews": 105,
+    "price": 69.99,
+    "rate": 4.3,
+    "reviews": 115,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -29993,35 +33777,38 @@ const GAME = {
     ]
   },
   "C07MPPVTXVVZ": {
-    "antiquity": 2252,
+    "antiquity": 2364,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer"
     ]
   },
   "C07NM31J7HLP": {
-    "antiquity": 2242,
+    "antiquity": 2354,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
     "reviews": 40,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C083G6BGJ334": {
-    "antiquity": 921,
+    "antiquity": 1033,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.2,
-    "reviews": 371,
+    "reviews": 375,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -30033,12 +33820,13 @@ const GAME = {
     ]
   },
   "C08CV6MR919R": {
-    "antiquity": 2658,
+    "antiquity": 2770,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.4,
-    "reviews": 156,
+    "reviews": 158,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -30046,12 +33834,13 @@ const GAME = {
     ]
   },
   "C08JXNK0VG5L": {
-    "antiquity": 2151,
+    "antiquity": 2263,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.4,
-    "reviews": 98,
+    "reviews": 108,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -30060,59 +33849,90 @@ const GAME = {
     ]
   },
   "C08MW8XHQN9G": {
-    "antiquity": 1713,
+    "antiquity": 1825,
     "gamepass": false,
     "price": 69.98,
-    "rate": 4.0,
-    "reviews": 63,
+    "rate": 3.9,
+    "reviews": 64,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
+  "C092FLK91X41": {
+    "antiquity": 2266,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.3,
+    "reviews": 12,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Platformer",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
   "C098FGNMTS8F": {
-    "antiquity": 4933,
+    "antiquity": 5045,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.2,
-    "reviews": 20,
+    "rate": 4.3,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "C09LFD39HKLW": {
-    "antiquity": 1769,
+    "antiquity": 1881,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.9,
-    "reviews": 28,
+    "rate": 4.0,
+    "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "C09XZ31GMN2N": {
-    "antiquity": 2648,
+    "antiquity": 2760,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "Role playing"
     ]
   },
+  "C0C3QC3J5JX2": {
+    "antiquity": 2154,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.7,
+    "reviews": 37,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle"
+    ]
+  },
   "C0CB2CVZVSNR": {
-    "antiquity": 3239,
+    "antiquity": 3351,
     "gamepass": false,
     "price": 14.99,
     "rate": 2.6,
-    "reviews": 74,
+    "reviews": 76,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Cards",
       "Classics",
@@ -30121,13 +33941,42 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "C0CDN1S0C9TS": {
+    "antiquity": 4891,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.4,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Shooter",
+      "MultiPlayer"
+    ]
+  },
+  "C0D7VLQ3VDDD": {
+    "antiquity": 4926,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.7,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "Strategy",
+      "Simulation"
+    ]
+  },
   "C0FZNGPNQQRQ": {
-    "antiquity": 2323,
+    "antiquity": 2435,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
-    "reviews": 4380,
+    "reviews": 4378,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -30136,25 +33985,26 @@ const GAME = {
       "Free"
     ]
   },
-  "C0G91V37489H": {
-    "antiquity": 2151,
+  "C0G1L18DT97K": {
+    "antiquity": 2242,
     "gamepass": false,
-    "price": 59.99,
-    "rate": 4.4,
-    "reviews": 8,
+    "price": 29.99,
+    "rate": 3.5,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action",
-      "LocalMultiPlayer"
+      "SinglePlayer"
     ]
   },
   "C0GG86060VF8": {
-    "antiquity": 5171,
+    "antiquity": 5043,
     "gamepass": false,
-    "price": 2.99,
+    "price": 19.99,
     "rate": 4.8,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -30162,12 +34012,13 @@ const GAME = {
     ]
   },
   "C0GMGV6XH996": {
-    "antiquity": 1587,
+    "antiquity": 1699,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
     "reviews": 49,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -30176,24 +34027,26 @@ const GAME = {
     ]
   },
   "C0GMW8QH429T": {
-    "antiquity": 3250,
+    "antiquity": 3362,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
     "reviews": 53,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "C0GQP41KXPVZ": {
-    "antiquity": 3113,
+    "antiquity": 3225,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.1,
-    "reviews": 319,
+    "rate": 3.0,
+    "reviews": 322,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "MultiPlayer",
@@ -30201,12 +34054,13 @@ const GAME = {
     ]
   },
   "C0GWTPD0S8S1": {
-    "antiquity": 2151,
+    "antiquity": 2263,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.7,
-    "reviews": 216,
+    "reviews": 220,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -30216,23 +34070,25 @@ const GAME = {
     ]
   },
   "C0KB8NGFN0TS": {
-    "antiquity": 1994,
+    "antiquity": 2106,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
-    "reviews": 22,
+    "reviews": 24,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C0KJ40T9QD86": {
-    "antiquity": 3246,
+    "antiquity": 3358,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 345,
+    "reviews": 349,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -30240,35 +34096,38 @@ const GAME = {
     ]
   },
   "C0KSN20BRP7Z": {
-    "antiquity": 1636,
+    "antiquity": 1748,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
-    "reviews": 32,
+    "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "C0MKH58NBHRG": {
-    "antiquity": 4839,
+    "antiquity": 4951,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
-    "reviews": 27,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Free"
     ]
   },
   "C0MN5DN8KR3F": {
-    "antiquity": 1860,
+    "antiquity": 1972,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
-    "reviews": 703,
+    "reviews": 710,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -30276,12 +34135,13 @@ const GAME = {
     ]
   },
   "C0N22P73QZ60": {
-    "antiquity": 2298,
+    "antiquity": 2410,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.3,
-    "reviews": 202,
+    "reviews": 209,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -30291,58 +34151,63 @@ const GAME = {
     ]
   },
   "C0NDKFJXW9SZ": {
-    "antiquity": 4737,
+    "antiquity": 4849,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 96,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "C0QDQ0KX4HDV": {
-    "antiquity": 2063,
+    "antiquity": 2175,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
-    "reviews": 56,
+    "reviews": 60,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "C0SFCF4PBRSZ": {
-    "antiquity": 3579,
+    "antiquity": 3691,
     "gamepass": true,
-    "price": 14.98,
+    "price": 14.99,
     "rate": 4.2,
-    "reviews": 494,
+    "reviews": 496,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "C0SKP911GZMV": {
-    "antiquity": 2665,
+    "antiquity": 2777,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
-    "reviews": 56,
+    "reviews": 59,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "C0SN83QXPL00": {
-    "antiquity": 3092,
+    "antiquity": 3204,
     "gamepass": false,
-    "price": 39.98,
+    "price": 39.99,
     "rate": 3.8,
     "reviews": 92,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -30351,12 +34216,13 @@ const GAME = {
     ]
   },
   "C0SWGV4560W1": {
-    "antiquity": 4953,
+    "antiquity": 5065,
     "gamepass": true,
     "price": 9.49,
     "rate": 4.3,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics",
       "Shooter",
@@ -30364,12 +34230,13 @@ const GAME = {
     ]
   },
   "C0SX9NVMVQG9": {
-    "antiquity": 2263,
+    "antiquity": 2375,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
     "reviews": 30,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -30377,60 +34244,52 @@ const GAME = {
     ]
   },
   "C0TMGF97V9LJ": {
-    "antiquity": 3138,
+    "antiquity": 3250,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
-    "reviews": 99,
+    "reviews": 100,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "MultiPlayer"
     ]
   },
-  "C0VMK0L6VJ0W": {
-    "antiquity": 2396,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 3.4,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "MultiPlayer"
-    ]
-  },
   "C0VN7PVQJ8C2": {
-    "antiquity": 3251,
+    "antiquity": 3363,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C0VQBXFNZ1Q0": {
-    "antiquity": 1881,
+    "antiquity": 1993,
     "gamepass": true,
     "price": 23.99,
     "rate": 4.6,
-    "reviews": 53,
+    "reviews": 57,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "GamePass"
     ]
   },
   "C0W8DRKPV6P4": {
-    "antiquity": 4490,
+    "antiquity": 4602,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 48,
+    "reviews": 50,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -30438,24 +34297,26 @@ const GAME = {
     ]
   },
   "C0X15TR4NP0B": {
-    "antiquity": 3392,
+    "antiquity": 3504,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
-    "reviews": 321,
+    "reviews": 322,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle"
     ]
   },
   "C0X2HNVH08FB": {
-    "antiquity": 2536,
+    "antiquity": 2648,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 309,
+    "reviews": 317,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -30463,47 +34324,64 @@ const GAME = {
     ]
   },
   "C0X6N5963CTW": {
-    "antiquity": 4912,
+    "antiquity": 5024,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 87,
+    "reviews": 91,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "C0XBNVR137DZ": {
-    "antiquity": 2965,
+    "antiquity": 3077,
     "gamepass": false,
     "price": 14.99,
-    "rate": 3.5,
-    "reviews": 51,
+    "rate": 3.6,
+    "reviews": 52,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C0Z1N477W100": {
-    "antiquity": 5000,
+    "antiquity": 5112,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 35,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
+  "C0ZJ976BH91X": {
+    "antiquity": 3068,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 2.9,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "LocalMultiPlayer"
+    ]
+  },
   "C10GWTNNNBZ8": {
-    "antiquity": 2951,
+    "antiquity": 3063,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.7,
     "reviews": 85,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -30512,23 +34390,25 @@ const GAME = {
     ]
   },
   "C10NTXFNSPBW": {
-    "antiquity": 3726,
+    "antiquity": 3838,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
-    "reviews": 18,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "C10WNR4SJM9G": {
-    "antiquity": 2816,
+    "antiquity": 2928,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
     "reviews": 17,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -30537,12 +34417,13 @@ const GAME = {
     ]
   },
   "C11GZGMKRTCV": {
-    "antiquity": 1880,
+    "antiquity": 1992,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
     "reviews": 45,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -30552,12 +34433,13 @@ const GAME = {
     ]
   },
   "C11HCJPQFHH7": {
-    "antiquity": 1124,
+    "antiquity": 1236,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
-    "reviews": 49,
+    "reviews": 52,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -30567,24 +34449,26 @@ const GAME = {
     ]
   },
   "C11KKHB5H7QJ": {
-    "antiquity": 2798,
+    "antiquity": 2910,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.7,
-    "reviews": 276,
+    "rate": 4.6,
+    "reviews": 279,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "GamePass"
     ]
   },
   "C125W9BG2K0V": {
-    "antiquity": 2790,
+    "antiquity": 2902,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 1269,
+    "reviews": 1283,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "LocalMultiPlayer",
@@ -30593,67 +34477,55 @@ const GAME = {
       "Free"
     ]
   },
-  "C12T2QLN7H4V": {
-    "antiquity": 1055,
+  "C12N0W3G401J": {
+    "antiquity": 7774,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.3,
-    "reviews": 10,
+    "price": 2.29,
+    "rate": 4.2,
+    "reviews": 8,
     "trial": false,
+    "discount": 84.72315,
     "tags": [
-      "Action",
+      "Classics",
       "Shooter",
       "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "C135285K8B33": {
-    "antiquity": 674,
-    "gamepass": false,
-    "price": 7.49,
-    "rate": 5.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Fighting",
-      "MOBA",
-      "Platformer",
-      "Shooter",
-      "LocalMultiPlayer",
-      "MultiPlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "C1365LM1Q2DK": {
-    "antiquity": 4736,
+    "antiquity": 4848,
     "gamepass": false,
     "price": 14.39,
     "rate": 3.9,
-    "reviews": 53,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "C160K9CDDDCW": {
-    "antiquity": 4118,
+    "antiquity": 4230,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 36,
+    "reviews": 40,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "C17DJVSST02N": {
-    "antiquity": 3054,
+    "antiquity": 3166,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -30661,12 +34533,13 @@ const GAME = {
     ]
   },
   "C17GQF31D617": {
-    "antiquity": 2657,
+    "antiquity": 2769,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 333,
+    "reviews": 342,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -30675,23 +34548,38 @@ const GAME = {
     ]
   },
   "C17KKS83S9GS": {
-    "antiquity": 6592,
+    "antiquity": 6704,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.9,
-    "reviews": 56,
+    "reviews": 59,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting"
     ]
   },
+  "C19V8NGRX4F5": {
+    "antiquity": 2602,
+    "gamepass": false,
+    "price": 22.39,
+    "rate": 3.4,
+    "reviews": 5,
+    "trial": false,
+    "discount": 20.007145,
+    "tags": [
+      "Bundle",
+      "Oferta"
+    ]
+  },
   "C19VR3KMN3ML": {
-    "antiquity": 2475,
+    "antiquity": 2587,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
-    "reviews": 557,
+    "reviews": 561,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -30699,25 +34587,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "C19X513V5F62": {
-    "antiquity": 2459,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 2.8,
-    "reviews": 9,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter"
-    ]
-  },
   "C1B77BPDGKZ4": {
-    "antiquity": 2956,
+    "antiquity": 3068,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 28,
+    "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -30726,12 +34603,13 @@ const GAME = {
     ]
   },
   "C1C4DZJPBC2V": {
-    "antiquity": 2693,
+    "antiquity": 2805,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 836,
+    "reviews": 853,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer",
@@ -30740,23 +34618,25 @@ const GAME = {
     ]
   },
   "C1D89J1G0NX2": {
-    "antiquity": 5056,
+    "antiquity": 5168,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.0,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Classics"
     ]
   },
   "C1DDW4PRF6K5": {
-    "antiquity": 1696,
+    "antiquity": 1808,
     "gamepass": false,
-    "price": 8.99,
-    "rate": 4.0,
-    "reviews": 37,
+    "price": 44.99,
+    "rate": 4.1,
+    "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -30764,49 +34644,39 @@ const GAME = {
     ]
   },
   "C1DNPSJ9362C": {
-    "antiquity": 5198,
+    "antiquity": 5310,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
     "reviews": 55,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle"
     ]
   },
   "C1H15FFSH2CB": {
-    "antiquity": 4793,
+    "antiquity": 4905,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
-    "reviews": 27,
+    "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
-  "C1H46KTPZZ2Q": {
-    "antiquity": 1689,
-    "gamepass": false,
-    "price": 7.49,
-    "rate": 3.1,
-    "reviews": 188,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "C1H74N0TR8KT": {
-    "antiquity": 1032,
+    "antiquity": 1144,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.6,
-    "reviews": 30,
+    "rate": 4.5,
+    "reviews": 33,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -30814,49 +34684,38 @@ const GAME = {
     ]
   },
   "C1H9V6SLK2K5": {
-    "antiquity": 3288,
+    "antiquity": 3400,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
-    "reviews": 365,
+    "reviews": 372,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C1HPGX40QF8X": {
-    "antiquity": 2963,
+    "antiquity": 3075,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle"
     ]
   },
-  "C1HZV4PRZ39K": {
-    "antiquity": 2684,
-    "gamepass": false,
-    "price": 0.0,
-    "rate": 2.4,
-    "reviews": 118,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Shooter",
-      "MultiPlayer",
-      "Free"
-    ]
-  },
   "C1JXWJR46913": {
-    "antiquity": 2656,
+    "antiquity": 2768,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
-    "reviews": 97,
+    "reviews": 98,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -30866,12 +34725,13 @@ const GAME = {
     ]
   },
   "C1KMFMVCD885": {
-    "antiquity": 3154,
+    "antiquity": 3266,
     "gamepass": false,
     "price": 12.98,
     "rate": 4.0,
     "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -30879,12 +34739,13 @@ const GAME = {
     ]
   },
   "C1KMTP26BWNR": {
-    "antiquity": 2643,
+    "antiquity": 2755,
     "gamepass": false,
     "price": 15.99,
     "rate": 3.9,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -30892,12 +34753,13 @@ const GAME = {
     ]
   },
   "C1KX6KNB7XMM": {
-    "antiquity": 2802,
+    "antiquity": 2914,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
     "reviews": 237,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -30907,12 +34769,13 @@ const GAME = {
     ]
   },
   "C1LD4244XCNJ": {
-    "antiquity": 1944,
+    "antiquity": 2056,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
     "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -30920,46 +34783,38 @@ const GAME = {
     ]
   },
   "C1LMJJ64FV3J": {
-    "antiquity": 1864,
+    "antiquity": 1976,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
-  "C1MRBXQVJVDQ": {
-    "antiquity": 5057,
-    "gamepass": false,
-    "price": 9.49,
-    "rate": 3.7,
-    "reviews": 17,
-    "trial": false,
-    "tags": [
-      "Classics"
-    ]
-  },
   "C1N2LVW7NNJ7": {
-    "antiquity": 2630,
+    "antiquity": 2742,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.6,
     "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
   "C1N8NK80CLXV": {
-    "antiquity": 2550,
+    "antiquity": 2662,
     "gamepass": false,
     "price": 9.99,
-    "rate": 3.6,
-    "reviews": 17,
+    "rate": 3.8,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -30968,12 +34823,13 @@ const GAME = {
     ]
   },
   "C1NJFJM3FPWN": {
-    "antiquity": 3064,
+    "antiquity": 3176,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
     "reviews": 51,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
@@ -30981,49 +34837,54 @@ const GAME = {
     ]
   },
   "C1NL49GLS561": {
-    "antiquity": 3967,
+    "antiquity": 4079,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
-    "reviews": 50,
+    "reviews": 54,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C1PJKCDKH6LN": {
-    "antiquity": 4898,
+    "antiquity": 5010,
     "gamepass": false,
-    "price": 19.99,
+    "price": 3.99,
     "rate": 4.4,
-    "reviews": 18,
+    "reviews": 20,
     "trial": false,
+    "discount": 80.040016,
     "tags": [
       "Action",
       "Shooter",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "C1QJM5XT9SXV": {
-    "antiquity": 3904,
+    "antiquity": 4016,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
-    "reviews": 73,
+    "reviews": 79,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "C1R51ZV4ZZ28": {
-    "antiquity": 1582,
+    "antiquity": 1694,
     "gamepass": false,
     "price": 18.99,
     "rate": 3.4,
-    "reviews": 40,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -31032,36 +34893,39 @@ const GAME = {
     ]
   },
   "C1S43G7ML8PD": {
-    "antiquity": 3264,
+    "antiquity": 3376,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 552,
+    "reviews": 555,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "C1S60CRC51JC": {
-    "antiquity": 4841,
+    "antiquity": 4953,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.7,
     "reviews": 36,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle"
     ]
   },
   "C1S8X55L9SS1": {
-    "antiquity": 4044,
+    "antiquity": 4156,
     "gamepass": false,
     "price": 4.79,
-    "rate": 4.4,
-    "reviews": 20,
+    "rate": 4.5,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -31069,12 +34933,13 @@ const GAME = {
     ]
   },
   "C1SDBNRFXT1D": {
-    "antiquity": 4744,
+    "antiquity": 4856,
     "gamepass": true,
     "price": 11.99,
-    "rate": 3.2,
-    "reviews": 276,
+    "rate": 3.1,
+    "reviews": 285,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "LocalMultiPlayer",
@@ -31085,82 +34950,115 @@ const GAME = {
     ]
   },
   "C1TBTQBVJMFL": {
-    "antiquity": 1696,
+    "antiquity": 1808,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 187,
+    "reviews": 195,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "SinglePlayer"
     ]
   },
+  "C1TJ5KT8LT9J": {
+    "antiquity": 1976,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.6,
+    "reviews": 20,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Puzzle"
+    ]
+  },
   "C1TXS9V9LJDB": {
-    "antiquity": 2942,
+    "antiquity": 3054,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.4,
     "reviews": 24,
     "trial": false,
+    "discount": 75.02501,
     "tags": [
-      "Action"
+      "Action",
+      "Oferta"
     ]
   },
   "C1V1FFWQ7B17": {
-    "antiquity": 4869,
+    "antiquity": 4981,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.1,
-    "reviews": 22,
+    "rate": 4.2,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family"
     ]
   },
-  "C1WRX8ZD77M9": {
-    "antiquity": 1075,
+  "C1WP25BWLVTF": {
+    "antiquity": 2594,
     "gamepass": false,
-    "price": 10.49,
-    "rate": 3.0,
-    "reviews": 59,
+    "price": 26.99,
+    "rate": 4.5,
+    "reviews": 538,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Compras",
-      "Action",
-      "MultiPlayer"
+      "Bundle"
     ]
   },
   "C1X3TD4QD17N": {
-    "antiquity": 3232,
+    "antiquity": 3344,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 4.8,
-    "reviews": 17,
+    "price": 3.74,
+    "rate": 4.7,
+    "reviews": 18,
     "trial": false,
+    "discount": 75.05003,
     "tags": [
-      "Platformer"
+      "Platformer",
+      "Oferta"
     ]
   },
   "C1XHZ605DZPG": {
-    "antiquity": 2595,
+    "antiquity": 2707,
     "gamepass": false,
     "price": 19.98,
     "rate": 3.9,
-    "reviews": 119,
+    "reviews": 126,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
+  "C1Z2DK71ZRWF": {
+    "antiquity": 2062,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.0,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Shooter",
+      "LocalMultiPlayer"
+    ]
+  },
   "C1ZT6N30L1WH": {
-    "antiquity": 1637,
+    "antiquity": 1749,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
-    "reviews": 172,
+    "reviews": 189,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -31174,12 +35072,13 @@ const GAME = {
     ]
   },
   "C1ZWH2BZ9TSF": {
-    "antiquity": 4155,
+    "antiquity": 4267,
     "gamepass": true,
     "price": 9.49,
-    "rate": 4.0,
-    "reviews": 20,
+    "rate": 4.1,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Racing & flying",
@@ -31188,12 +35087,13 @@ const GAME = {
     ]
   },
   "C20209H1D7LZ": {
-    "antiquity": 2777,
+    "antiquity": 2889,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
-    "reviews": 600,
+    "reviews": 602,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -31201,81 +35101,92 @@ const GAME = {
     ]
   },
   "C205FBSPZ3W8": {
-    "antiquity": 3173,
+    "antiquity": 3285,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.6,
-    "reviews": 372,
+    "reviews": 374,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "C20T418C1T43": {
-    "antiquity": 4258,
+    "antiquity": 4370,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.5,
-    "reviews": 19,
+    "rate": 4.6,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "C20VH7BD75NG": {
-    "antiquity": 2991,
+    "antiquity": 3103,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
     "reviews": 33,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Cards"
     ]
   },
   "C20W5LX41N6M": {
-    "antiquity": 4154,
+    "antiquity": 4266,
     "gamepass": false,
     "price": 3.99,
-    "rate": 3.8,
-    "reviews": 25,
-    "trial": false,
-    "tags": [
-      "Shooter"
-    ]
-  },
-  "C2127MDWMZTB": {
-    "antiquity": 2965,
-    "gamepass": false,
-    "price": 5.99,
     "rate": 3.9,
-    "reviews": 491,
+    "reviews": 26,
     "trial": false,
+    "discount": 60.06006,
     "tags": [
-      "Bundle",
-      "MultiPlayer"
+      "Shooter",
+      "Oferta"
     ]
   },
   "C21QTH7T677W": {
-    "antiquity": 2340,
+    "antiquity": 2452,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.6,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
+  "C22KC9H7NPT6": {
+    "antiquity": 1815,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.0,
+    "reviews": 5,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "Simulation",
+      "Sports",
+      "SinglePlayer",
+      "MultiPlayer"
+    ]
+  },
   "C22T53SQ7FLM": {
-    "antiquity": 2987,
+    "antiquity": 3099,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.7,
-    "reviews": 301,
+    "reviews": 303,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -31285,36 +35196,39 @@ const GAME = {
     ]
   },
   "C232CL8LQQ9N": {
-    "antiquity": 2292,
+    "antiquity": 2404,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
     "reviews": 31,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "C23CWXL81H3L": {
-    "antiquity": 2735,
+    "antiquity": 2847,
     "gamepass": false,
     "price": 94.49,
     "rate": 4.7,
-    "reviews": 535,
+    "reviews": 541,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "C23M2TC1ZFPJ": {
-    "antiquity": 2137,
+    "antiquity": 2249,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.9,
-    "reviews": 96,
+    "reviews": 101,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -31322,12 +35236,13 @@ const GAME = {
     ]
   },
   "C242DV9JQD3W": {
-    "antiquity": 2214,
+    "antiquity": 2326,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Sports",
@@ -31336,69 +35251,107 @@ const GAME = {
     ]
   },
   "C24DMFCJKDH2": {
-    "antiquity": 3736,
+    "antiquity": 3848,
     "gamepass": false,
     "price": 29.99,
-    "rate": 4.2,
-    "reviews": 32,
+    "rate": 4.1,
+    "reviews": 34,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting"
     ]
   },
   "C24SVX28PNWM": {
-    "antiquity": 2203,
+    "antiquity": 2315,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 1386,
+    "reviews": 1401,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
+  "C24T2MRDBB3W": {
+    "antiquity": 2070,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 3.8,
+    "reviews": 36,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Fighting",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "C253HWJP0L18": {
-    "antiquity": 2959,
+    "antiquity": 3071,
     "gamepass": false,
     "price": 54.98,
     "rate": 4.4,
-    "reviews": 298,
+    "reviews": 299,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
+  "C256X5ZJ375P": {
+    "antiquity": 2756,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.5,
+    "reviews": 11,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Simulation",
+      "Sports",
+      "Strategy",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "C25K1D8B4H2B": {
-    "antiquity": 3217,
+    "antiquity": 3329,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.9,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "LocalMultiPlayer"
     ]
   },
   "C261457LCNMJ": {
-    "antiquity": 2595,
+    "antiquity": 2707,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.6,
-    "reviews": 273,
+    "reviews": 285,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "C26K4DVGR45B": {
-    "antiquity": 3517,
+    "antiquity": 3629,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 285,
+    "reviews": 286,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -31406,12 +35359,13 @@ const GAME = {
     ]
   },
   "C26NJ29TKZ1W": {
-    "antiquity": 3699,
+    "antiquity": 3811,
     "gamepass": false,
     "price": 19.99,
-    "rate": 5.0,
-    "reviews": 26,
+    "rate": 4.9,
+    "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -31419,110 +35373,88 @@ const GAME = {
     ]
   },
   "C27H5T4HD4WW": {
-    "antiquity": 2599,
+    "antiquity": 2711,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.3,
-    "reviews": 83,
+    "reviews": 88,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "MultiPlayer"
     ]
   },
   "C27JSQ4XKP9X": {
-    "antiquity": 4282,
+    "antiquity": 4394,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.3,
-    "reviews": 17,
+    "rate": 4.2,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family"
     ]
   },
   "C27LHB0DH095": {
-    "antiquity": 3134,
+    "antiquity": 3246,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 111,
+    "reviews": 114,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "C27QL5JBKQ8M": {
-    "antiquity": 873,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 3.2,
-    "reviews": 500,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Role playing",
-      "Shooter",
-      "SinglePlayer",
-      "CrossPlatform",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
-  "C27W5Q3P0KJ7": {
-    "antiquity": 1850,
-    "gamepass": false,
-    "price": 1.19,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": true,
-    "tags": [
-      "Action",
-      "Platformer"
-    ]
-  },
   "C27XPR5XDMFT": {
-    "antiquity": 1927,
+    "antiquity": 2039,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 62,
+    "reviews": 64,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer"
     ]
   },
   "C289KCH8WP0F": {
-    "antiquity": 3047,
+    "antiquity": 3159,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "C28HP82H7MN8": {
-    "antiquity": 4603,
+    "antiquity": 4715,
     "gamepass": false,
     "price": 9.49,
-    "rate": 4.5,
-    "reviews": 44,
+    "rate": 4.6,
+    "reviews": 46,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C299QVC2BSJF": {
-    "antiquity": 2963,
+    "antiquity": 3075,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
-    "reviews": 137,
+    "reviews": 139,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -31530,36 +35462,55 @@ const GAME = {
     ]
   },
   "C29HJWWKRP5L": {
-    "antiquity": 3028,
+    "antiquity": 3140,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 310,
+    "reviews": 313,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle"
     ]
   },
   "C29HQ887KH4B": {
-    "antiquity": 4968,
+    "antiquity": 5080,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
-    "reviews": 208,
+    "reviews": 221,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
+  "C2B3HFJFGHS6": {
+    "antiquity": 1886,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 3.0,
+    "reviews": 5,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Action",
+      "Fighting",
+      "Platformer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "C2B4T86TXLRS": {
-    "antiquity": 1503,
+    "antiquity": 1615,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.9,
-    "reviews": 36,
+    "reviews": 38,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -31568,23 +35519,25 @@ const GAME = {
     ]
   },
   "C2B588K0RM2S": {
-    "antiquity": 5115,
+    "antiquity": 5227,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
-    "reviews": 47,
+    "reviews": 48,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "C2BD1F6CB3L5": {
-    "antiquity": 3147,
+    "antiquity": 3259,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
-    "reviews": 127,
+    "reviews": 131,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -31592,12 +35545,13 @@ const GAME = {
     ]
   },
   "C2CSDTSCBZ0C": {
-    "antiquity": 1424,
+    "antiquity": 1536,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.2,
-    "reviews": 294,
+    "reviews": 301,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -31605,12 +35559,13 @@ const GAME = {
     ]
   },
   "C2DQNHGBSXB7": {
-    "antiquity": 2280,
+    "antiquity": 2392,
     "gamepass": false,
     "price": 14.98,
     "rate": 3.9,
     "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -31619,24 +35574,26 @@ const GAME = {
     ]
   },
   "C2DQXX0CB42F": {
-    "antiquity": 3264,
+    "antiquity": 3376,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.6,
-    "reviews": 120,
+    "reviews": 122,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "C2F33PQF5MZ9": {
-    "antiquity": 1696,
+    "antiquity": 1808,
     "gamepass": false,
-    "price": 10.99,
+    "price": 54.99,
     "rate": 4.1,
-    "reviews": 41,
+    "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -31644,58 +35601,77 @@ const GAME = {
     ]
   },
   "C2GM9K7BK6H2": {
-    "antiquity": 2818,
+    "antiquity": 2930,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
   "C2GMBPMTHDDK": {
-    "antiquity": 1169,
+    "antiquity": 1281,
     "gamepass": false,
-    "price": 39.99,
+    "price": 13.99,
     "rate": 4.2,
     "reviews": 40,
     "trial": true,
+    "discount": 65.01626,
     "tags": [
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "C2HCDG7L1469": {
-    "antiquity": 2578,
+    "antiquity": 2690,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
-    "reviews": 125,
+    "reviews": 130,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
+  "C2HGH4LXTPK9": {
+    "antiquity": 2614,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.0,
+    "reviews": 7,
+    "trial": false,
+    "discount": 75.01876,
+    "tags": [
+      "Role playing",
+      "Oferta"
+    ]
+  },
   "C2HGK9J5367F": {
-    "antiquity": 5759,
+    "antiquity": 5871,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 56,
+    "reviews": 60,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "C2HQVXVVLMKG": {
-    "antiquity": 1481,
+    "antiquity": 1593,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
-    "reviews": 802,
+    "reviews": 828,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Simulation",
@@ -31704,36 +35680,39 @@ const GAME = {
     ]
   },
   "C2JDCLLLBK1W": {
-    "antiquity": 2497,
+    "antiquity": 2609,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.2,
-    "reviews": 103,
+    "reviews": 104,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
   "C2JLJJ4LT3PT": {
-    "antiquity": 2683,
+    "antiquity": 2795,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 43,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "C2KDNLT2H7DM": {
-    "antiquity": 1494,
+    "antiquity": 1606,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
-    "reviews": 10830,
+    "reviews": 10884,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -31744,25 +35723,55 @@ const GAME = {
     ]
   },
   "C2M8HBNVPT1T": {
-    "antiquity": 3281,
+    "antiquity": 3393,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 238,
+    "reviews": 243,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
+  "C2MDS4V6NKNX": {
+    "antiquity": 1694,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 2.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 80.020004,
+    "tags": [
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
+  "C2MG214BW2M0": {
+    "antiquity": 2329,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 4.4,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "Platformer"
+    ]
+  },
   "C2MHS238PDNS": {
-    "antiquity": 2972,
+    "antiquity": 3084,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
-    "reviews": 316,
+    "reviews": 318,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MOBA",
@@ -31770,37 +35779,41 @@ const GAME = {
       "Free"
     ]
   },
-  "C2MP3X67VWNV": {
-    "antiquity": 4020,
-    "gamepass": false,
-    "price": 9.49,
-    "rate": 4.5,
-    "reviews": 13,
-    "trial": false,
-    "tags": [
-      "Action",
-      "Classics",
-      "Platformer"
-    ]
-  },
   "C2MTG1SB3S11": {
-    "antiquity": 2314,
+    "antiquity": 2426,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 4.3,
-    "reviews": 117,
+    "reviews": 120,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
+  "C2MX0RPZKR53": {
+    "antiquity": 3798,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 4.8,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Classics",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
   "C2N9CS4FS1QR": {
-    "antiquity": 2406,
+    "antiquity": 2518,
     "gamepass": true,
-    "price": 9.99,
+    "price": 49.99,
     "rate": 4.1,
-    "reviews": 216,
+    "reviews": 217,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -31810,12 +35823,13 @@ const GAME = {
     ]
   },
   "C2NC88M7NWZ1": {
-    "antiquity": 2259,
+    "antiquity": 2371,
     "gamepass": false,
     "price": 19.98,
-    "rate": 4.3,
-    "reviews": 198,
+    "rate": 4.2,
+    "reviews": 212,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -31825,24 +35839,26 @@ const GAME = {
     ]
   },
   "C2NNGCPR2XP8": {
-    "antiquity": 5080,
+    "antiquity": 5192,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 18,
+    "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "C2P985H1H42H": {
-    "antiquity": 7878,
+    "antiquity": 7990,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
@@ -31850,190 +35866,184 @@ const GAME = {
     ]
   },
   "C2PB7STLJGS0": {
-    "antiquity": 4639,
+    "antiquity": 4751,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.8,
-    "reviews": 81,
+    "rate": 4.9,
+    "reviews": 90,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
-  "C2PGVNBVJ1VH": {
-    "antiquity": 1811,
-    "gamepass": false,
-    "price": 34.99,
-    "rate": 4.5,
-    "reviews": 17,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "C2Q32JM0BPZL": {
-    "antiquity": 3539,
+    "antiquity": 3651,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.2,
-    "reviews": 52,
+    "reviews": 53,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
   "C2QDBJVVLVLX": {
-    "antiquity": 3629,
+    "antiquity": 3741,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
-    "reviews": 26,
+    "reviews": 27,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C2S06Z61NJ9J": {
-    "antiquity": 2511,
+    "antiquity": 2623,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 4.1,
     "reviews": 58,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C2S98G1ZC8HS": {
-    "antiquity": 3978,
+    "antiquity": 4090,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.2,
-    "reviews": 25,
+    "rate": 4.3,
+    "reviews": 26,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying"
     ]
   },
   "C2SFHTW47D94": {
-    "antiquity": 4667,
+    "antiquity": 4779,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.5,
-    "reviews": 31,
+    "rate": 4.6,
+    "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C2TVKWCGTGR6": {
-    "antiquity": 1405,
+    "antiquity": 1517,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "LocalMultiPlayer"
     ]
   },
-  "C2VCPPHVBD4C": {
-    "antiquity": 2097,
+  "C2V3M3TVJSVB": {
+    "antiquity": 2342,
     "gamepass": false,
-    "price": 6.98,
-    "rate": 5.0,
+    "price": 14.99,
+    "rate": 4.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Fighting",
-      "LocalMultiPlayer"
+      "Action",
+      "Platformer"
     ]
   },
   "C2WJ0ZTTWVQS": {
-    "antiquity": 3125,
+    "antiquity": 3237,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
-    "reviews": 388,
+    "reviews": 391,
     "trial": false,
+    "discount": 0,
     "tags": [
+      "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
   "C2WKJJ9F5936": {
-    "antiquity": 4933,
+    "antiquity": 5045,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
-    "reviews": 66,
+    "reviews": 67,
     "trial": false,
+    "discount": 50.02501,
     "tags": [
       "Role playing",
       "LocalMultiPlayer",
-      "GamePass"
+      "GamePass",
+      "Oferta"
     ]
   },
   "C2XNJC9WK15X": {
-    "antiquity": 2784,
+    "antiquity": 2896,
     "gamepass": true,
     "price": 12.99,
     "rate": 4.6,
     "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "GamePass"
     ]
   },
-  "C2XTSV7BJLS9": {
-    "antiquity": 3750,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 3.8,
-    "reviews": 19,
-    "trial": false,
-    "tags": [
-      "Action"
-    ]
-  },
-  "C2Z9D406G0KQ": {
-    "antiquity": 3040,
-    "gamepass": true,
-    "price": 19.99,
-    "rate": 3.8,
-    "reviews": 138,
-    "trial": false,
-    "tags": [
-      "Shooter",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
   "C2ZJHNS6M3T6": {
-    "antiquity": 3390,
+    "antiquity": 3502,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
     "reviews": 4,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Sports"
     ]
   },
+  "C308TKBJMZ8W": {
+    "antiquity": 2012,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Strategy",
+      "Simulation",
+      "SinglePlayer"
+    ]
+  },
   "C30Z07T9Q9CT": {
-    "antiquity": 4617,
+    "antiquity": 4729,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.0,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -32041,12 +36051,13 @@ const GAME = {
     ]
   },
   "C348248BJZCQ": {
-    "antiquity": 1916,
+    "antiquity": 2028,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
     "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -32054,12 +36065,13 @@ const GAME = {
     ]
   },
   "C34NB0F1B5WQ": {
-    "antiquity": 1487,
+    "antiquity": 1599,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.8,
-    "reviews": 97,
+    "reviews": 103,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Shooter",
@@ -32069,62 +36081,53 @@ const GAME = {
     ]
   },
   "C350VBGGCL6P": {
-    "antiquity": 2501,
+    "antiquity": 2613,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
     "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Sports",
       "MultiPlayer"
     ]
   },
   "C3553MB4P5TT": {
-    "antiquity": 3225,
+    "antiquity": 3337,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
-    "reviews": 86,
+    "reviews": 88,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
-  "C3585Q6D4BFT": {
-    "antiquity": 1696,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.0,
-    "reviews": 39,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "C35H9BGPTFLG": {
-    "antiquity": 2802,
+    "antiquity": 2914,
     "gamepass": false,
     "price": 6.98,
     "rate": 4.3,
     "reviews": 15,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying"
     ]
   },
   "C35NTVN04WK5": {
-    "antiquity": 1720,
+    "antiquity": 1832,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
     "reviews": 44,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "CrossPlatform",
@@ -32133,53 +36136,85 @@ const GAME = {
     ]
   },
   "C35S5BRNWL70": {
-    "antiquity": 1202,
+    "antiquity": 1314,
     "gamepass": false,
-    "price": 29.99,
-    "rate": 4.8,
-    "reviews": 12,
+    "price": 10.49,
+    "rate": 4.5,
+    "reviews": 13,
     "trial": false,
+    "discount": 65.021675,
     "tags": [
       "Action",
       "Family",
       "Platformer",
       "LocalMultiPlayer",
       "SinglePlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "C360XV52R4NL": {
+    "antiquity": 2161,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 75.02501,
+    "tags": [
+      "Platformer",
+      "LocalMultiPlayer",
+      "Oferta"
     ]
   },
   "C363Q6CVHJ7X": {
-    "antiquity": 4023,
+    "antiquity": 4135,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.9,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family"
     ]
   },
-  "C36LT5HKHBJP": {
-    "antiquity": 2648,
+  "C3696D3MZFQZ": {
+    "antiquity": 3740,
     "gamepass": false,
-    "price": 19.98,
-    "rate": 4.0,
-    "reviews": 42,
+    "price": 9.99,
+    "rate": 3.7,
+    "reviews": 6,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
+  "C36LT5HKHBJP": {
+    "antiquity": 2760,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.0,
+    "reviews": 43,
+    "trial": false,
+    "discount": 75.025024,
     "tags": [
       "Action",
       "Racing & flying",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "C36X13QTJ3V5": {
-    "antiquity": 2391,
+    "antiquity": 2503,
     "gamepass": false,
     "price": 0.0,
-    "rate": 2.9,
-    "reviews": 12,
+    "rate": 3.1,
+    "reviews": 13,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -32190,36 +36225,26 @@ const GAME = {
     ]
   },
   "C374DZ0SCT26": {
-    "antiquity": 2229,
+    "antiquity": 2341,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
-    "reviews": 58,
+    "reviews": 59,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
-  "C38H3N2V4083": {
-    "antiquity": 2560,
-    "gamepass": false,
-    "price": 29.99,
-    "rate": 4.1,
-    "reviews": 7,
-    "trial": false,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer"
-    ]
-  },
   "C3B1V55CDL0C": {
-    "antiquity": 1798,
+    "antiquity": 1910,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
-    "reviews": 75,
+    "reviews": 78,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Family",
       "Fighting",
@@ -32231,49 +36256,40 @@ const GAME = {
       "Free"
     ]
   },
-  "C3BGK0R0KP38": {
-    "antiquity": 1994,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.6,
-    "reviews": 16,
-    "trial": false,
-    "tags": [
-      "Sports",
-      "LocalMultiPlayer"
-    ]
-  },
   "C3BVG9LGGV75": {
-    "antiquity": 1668,
+    "antiquity": 1780,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 228,
+    "reviews": 238,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer"
     ]
   },
   "C3CSPBFVQ80K": {
-    "antiquity": 2581,
+    "antiquity": 2693,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
     "reviews": 20,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
   "C3D891Z6TNQM": {
-    "antiquity": 2489,
+    "antiquity": 2601,
     "gamepass": true,
     "price": 14.99,
-    "rate": 4.4,
-    "reviews": 91,
+    "rate": 4.5,
+    "reviews": 95,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "Simulation",
@@ -32284,35 +36300,38 @@ const GAME = {
     ]
   },
   "C3D89V4NH8F2": {
-    "antiquity": 1797,
+    "antiquity": 1909,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.9,
-    "reviews": 17,
+    "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "MultiPlayer"
     ]
   },
   "C3DRG5G7FCB5": {
-    "antiquity": 3029,
+    "antiquity": 3141,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
-    "reviews": 443,
+    "reviews": 460,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "C3FK18TN91JD": {
-    "antiquity": 1496,
+    "antiquity": 1608,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 15,
+    "reviews": 16,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -32321,12 +36340,13 @@ const GAME = {
     ]
   },
   "C3FXTTH4NFQN": {
-    "antiquity": 2035,
+    "antiquity": 2147,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
-    "reviews": 40,
+    "reviews": 41,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -32335,69 +36355,75 @@ const GAME = {
     ]
   },
   "C3GDK9QKWLRD": {
-    "antiquity": 2574,
+    "antiquity": 2686,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.0,
-    "reviews": 756,
+    "reviews": 759,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "C3HNL83BXGZ3": {
-    "antiquity": 3965,
+    "antiquity": 4077,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C3JPD73R365S": {
-    "antiquity": 1951,
+    "antiquity": 2063,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
-    "reviews": 91,
+    "reviews": 94,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
   "C3K10N1VQTNB": {
-    "antiquity": 2683,
+    "antiquity": 2795,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.1,
     "reviews": 28,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C3KLDKZBHNCZ": {
-    "antiquity": 2889,
+    "antiquity": 3001,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.6,
-    "reviews": 1360,
+    "rate": 4.5,
+    "reviews": 1374,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
   "C3KN7PZXPP2M": {
-    "antiquity": 1783,
+    "antiquity": 1895,
     "gamepass": false,
-    "price": 1.99,
+    "price": 9.99,
     "rate": 4.5,
-    "reviews": 13,
+    "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -32405,24 +36431,26 @@ const GAME = {
     ]
   },
   "C3KR2LLCJM25": {
-    "antiquity": 2658,
+    "antiquity": 2770,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
     "reviews": 114,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer"
     ]
   },
   "C3L4J3H7H12R": {
-    "antiquity": 411,
+    "antiquity": 523,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.2,
-    "reviews": 44,
+    "reviews": 51,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -32432,12 +36460,13 @@ const GAME = {
     ]
   },
   "C3LF9PCRP9RP": {
-    "antiquity": 2588,
+    "antiquity": 2700,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.0,
-    "reviews": 65,
+    "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "MultiPlayer",
@@ -32446,47 +36475,52 @@ const GAME = {
     ]
   },
   "C3LW50BQJ878": {
-    "antiquity": 2721,
+    "antiquity": 2833,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
     "reviews": 267,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "C3M28PDJCJ8T": {
-    "antiquity": 3243,
+  "C3MJXH57PJTK": {
+    "antiquity": 5871,
     "gamepass": false,
-    "price": 2.99,
-    "rate": 3.8,
-    "reviews": 4,
+    "price": 9.99,
+    "rate": 4.2,
+    "reviews": 5,
     "trial": false,
+    "discount": 0,
     "tags": [
-      "Action"
+      "Action",
+      "Shooter"
     ]
   },
   "C3MPWS9W61S7": {
-    "antiquity": 3256,
+    "antiquity": 3368,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
-    "reviews": 761,
+    "reviews": 762,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
   "C3NNLTHW9T9W": {
-    "antiquity": 1594,
+    "antiquity": 1706,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 2131,
+    "reviews": 2140,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -32495,61 +36529,83 @@ const GAME = {
       "Free"
     ]
   },
+  "C3PB0BP0G04L": {
+    "antiquity": 2432,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 3.3,
+    "reviews": 42,
+    "trial": true,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "C3Q24Z8FQKD9": {
+    "antiquity": 2377,
+    "gamepass": false,
+    "price": 6.98,
+    "rate": 4.8,
+    "reviews": 9,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "LocalMultiPlayer"
+    ]
+  },
   "C3QDH0Z7DV31": {
-    "antiquity": 4840,
+    "antiquity": 4952,
     "gamepass": false,
     "price": 14.39,
     "rate": 3.8,
-    "reviews": 21,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Sports"
     ]
   },
   "C3QDK7R638H2": {
-    "antiquity": 2035,
+    "antiquity": 2147,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.9,
     "reviews": 11,
     "trial": false,
+    "discount": 75.02501,
     "tags": [
-      "Action"
+      "Action",
+      "Oferta"
     ]
   },
   "C3QH42WRGM3R": {
-    "antiquity": 2704,
+    "antiquity": 2816,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
-    "reviews": 336,
+    "reviews": 338,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter",
       "MultiPlayer",
       "GamePass"
     ]
   },
-  "C3QJ2Z8Q7HFR": {
-    "antiquity": 1801,
-    "gamepass": false,
-    "price": 39.99,
-    "rate": 5.0,
-    "reviews": 10,
-    "trial": false,
-    "tags": [
-      "Family",
-      "LocalMultiPlayer"
-    ]
-  },
   "C3QT3QJ9GZPL": {
-    "antiquity": 1906,
+    "antiquity": 2018,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
     "reviews": 29,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
@@ -32557,12 +36613,13 @@ const GAME = {
     ]
   },
   "C3SQQG5Q6Z64": {
-    "antiquity": 2755,
+    "antiquity": 2867,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
     "reviews": 78,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -32570,24 +36627,26 @@ const GAME = {
     ]
   },
   "C3TWVMK3BNNJ": {
-    "antiquity": 1759,
+    "antiquity": 1871,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
     "reviews": 39,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "C3VNJHHD7MM4": {
-    "antiquity": 4842,
+    "antiquity": 4954,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.4,
     "reviews": 40,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -32596,59 +36655,39 @@ const GAME = {
       "Free"
     ]
   },
-  "C3VVNLQQ54F8": {
-    "antiquity": 1469,
-    "gamepass": false,
-    "price": 69.99,
-    "rate": 2.8,
-    "reviews": 147,
-    "trial": true,
-    "tags": [
-      "Compras",
-      "Shooter",
-      "SinglePlayer",
-      "MultiPlayer"
-    ]
-  },
   "C3WX803ZX8SD": {
-    "antiquity": 4785,
+    "antiquity": 4897,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
-    "reviews": 57,
+    "reviews": 61,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
-  "C3XQS92KF9D4": {
-    "antiquity": 4720,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.0,
-    "reviews": 4,
-    "trial": false,
-    "tags": []
-  },
   "C4060P46HH4D": {
-    "antiquity": 1556,
+    "antiquity": 1668,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.4,
-    "reviews": 60,
+    "rate": 4.3,
+    "reviews": 63,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "C40860J5R2MP": {
-    "antiquity": 2186,
+    "antiquity": 2298,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.7,
-    "reviews": 160,
+    "reviews": 162,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
@@ -32656,35 +36695,38 @@ const GAME = {
     ]
   },
   "C41M2F4NWB2S": {
-    "antiquity": 1965,
+    "antiquity": 2077,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
     "reviews": 103,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Puzzle"
     ]
   },
   "C41PHGKPPCG9": {
-    "antiquity": 1915,
+    "antiquity": 2027,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
     "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C41ZDFQ82M1G": {
-    "antiquity": 2259,
+    "antiquity": 2371,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
     "reviews": 209,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Simulation",
@@ -32692,25 +36734,41 @@ const GAME = {
     ]
   },
   "C42GGWF64WH8": {
-    "antiquity": 3531,
+    "antiquity": 3643,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.1,
     "reviews": 91,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
       "LocalMultiPlayer"
     ]
   },
+  "C4353S63L7Q9": {
+    "antiquity": 2287,
+    "gamepass": false,
+    "price": 5.99,
+    "rate": 2.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 80.02667,
+    "tags": [
+      "Music",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
   "C43BGCBS0TVL": {
-    "antiquity": 2894,
+    "antiquity": 3006,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
-    "reviews": 314,
+    "reviews": 315,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -32718,50 +36776,84 @@ const GAME = {
     ]
   },
   "C43H00X6KZRJ": {
-    "antiquity": 4883,
+    "antiquity": 4995,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.4,
-    "reviews": 30,
+    "rate": 4.3,
+    "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "GamePass"
     ]
   },
+  "C43JJK1PQG5T": {
+    "antiquity": 914,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 4.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.033356,
+    "tags": [
+      "Action",
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "C45KV8Q992HV": {
-    "antiquity": 2539,
+    "antiquity": 2651,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
     "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation",
       "MultiPlayer"
     ]
   },
+  "C46J5M9FS4N6": {
+    "antiquity": 2167,
+    "gamepass": false,
+    "price": 89.99,
+    "rate": 3.7,
+    "reviews": 14,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "MultiPlayer"
+    ]
+  },
   "C47G7K9NWRRJ": {
-    "antiquity": 3967,
+    "antiquity": 4079,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
   "C47GZZBMR5WG": {
-    "antiquity": 3244,
+    "antiquity": 3356,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 357,
+    "reviews": 364,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Role playing",
@@ -32770,48 +36862,53 @@ const GAME = {
     ]
   },
   "C47VK1FQBPND": {
-    "antiquity": 4632,
+    "antiquity": 4744,
     "gamepass": false,
     "price": 2.99,
-    "rate": 3.9,
-    "reviews": 17,
+    "rate": 4.0,
+    "reviews": 19,
     "trial": false,
+    "discount": 80.05337,
     "tags": [
       "Action",
       "Racing & flying",
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "C488J2NND5LJ": {
-    "antiquity": 1901,
+    "antiquity": 2013,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer"
     ]
   },
   "C48LBRJJCP2L": {
-    "antiquity": 2677,
+    "antiquity": 2789,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
     "reviews": 169,
     "trial": false,
+    "discount": 0,
     "tags": [
       "GamePass"
     ]
   },
   "C48LJQLV397R": {
-    "antiquity": 1599,
+    "antiquity": 1711,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.1,
-    "reviews": 22,
+    "rate": 4.0,
+    "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -32820,24 +36917,39 @@ const GAME = {
     ]
   },
   "C48PP1NS6ZNP": {
-    "antiquity": 3614,
+    "antiquity": 3726,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.9,
-    "reviews": 19,
+    "rate": 5.0,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation"
     ]
   },
+  "C48XJRK40VC4": {
+    "antiquity": 3334,
+    "gamepass": false,
+    "price": 1.49,
+    "rate": 3.5,
+    "reviews": 47,
+    "trial": false,
+    "discount": 90.053406,
+    "tags": [
+      "Platformer",
+      "Oferta"
+    ]
+  },
   "C492DG1TQQ09": {
-    "antiquity": 2231,
+    "antiquity": 2343,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.1,
-    "reviews": 984,
+    "reviews": 986,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -32845,24 +36957,26 @@ const GAME = {
     ]
   },
   "C493V31WXV80": {
-    "antiquity": 4891,
+    "antiquity": 5003,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
-    "reviews": 141,
+    "reviews": 145,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "C496CLVXMJP8": {
-    "antiquity": 2119,
+    "antiquity": 2231,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 2397,
+    "reviews": 2406,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -32870,25 +36984,39 @@ const GAME = {
     ]
   },
   "C4B39136C8KR": {
-    "antiquity": 2935,
+    "antiquity": 3047,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
-    "reviews": 75,
+    "reviews": 76,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
       "LocalMultiPlayer"
     ]
   },
+  "C4BVWL544Q89": {
+    "antiquity": 2102,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 5.0,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action"
+    ]
+  },
   "C4BZ7X545J1T": {
-    "antiquity": 2602,
+    "antiquity": 2714,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
     "reviews": 25,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer",
@@ -32896,50 +37024,53 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "C4CCRJK7J4SS": {
+    "antiquity": 2354,
+    "gamepass": false,
+    "price": 19.98,
+    "rate": 4.0,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Music"
+    ]
+  },
   "C4CSS7QSS98C": {
-    "antiquity": 3117,
+    "antiquity": 3229,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.4,
     "reviews": 71,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer"
     ]
   },
-  "C4D86ZHWZ424": {
-    "antiquity": 1696,
-    "gamepass": false,
-    "price": 17.99,
-    "rate": 4.1,
-    "reviews": 41,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "MultiPlayer"
-    ]
-  },
   "C4DMGRPNSHXG": {
-    "antiquity": 3421,
+    "antiquity": 3533,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
-    "reviews": 429,
+    "reviews": 432,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "MultiPlayer"
     ]
   },
   "C4DQHRNN1ZN5": {
-    "antiquity": 3117,
+    "antiquity": 3229,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
-    "reviews": 279,
+    "reviews": 280,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer",
@@ -32947,12 +37078,13 @@ const GAME = {
     ]
   },
   "C4F7ZHLN6B2J": {
-    "antiquity": 3294,
+    "antiquity": 3406,
     "gamepass": true,
     "price": 44.99,
     "rate": 4.4,
-    "reviews": 1256,
+    "reviews": 1269,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer",
@@ -32960,12 +37092,13 @@ const GAME = {
     ]
   },
   "C4FDJJ0TC3BZ": {
-    "antiquity": 3124,
+    "antiquity": 3236,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
     "reviews": 32,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -32973,24 +37106,41 @@ const GAME = {
     ]
   },
   "C4FK95NSWL7G": {
-    "antiquity": 2770,
+    "antiquity": 2882,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
-    "reviews": 1147,
+    "reviews": 1151,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
-  "C4G76555T4QN": {
-    "antiquity": 4597,
-    "gamepass": true,
-    "price": 3.99,
-    "rate": 4.0,
-    "reviews": 34,
+  "C4FL0L6C09LG": {
+    "antiquity": 2326,
+    "gamepass": false,
+    "price": 14.98,
+    "rate": 2.0,
+    "reviews": 1,
     "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Family",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "C4G76555T4QN": {
+    "antiquity": 4709,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 4.0,
+    "reviews": 35,
+    "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -32998,48 +37148,52 @@ const GAME = {
     ]
   },
   "C4GH8N6ZXG5L": {
-    "antiquity": 2361,
+    "antiquity": 2473,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.6,
-    "reviews": 1100,
+    "reviews": 1118,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Simulation",
       "SinglePlayer",
       "GamePass"
     ]
   },
-  "C4HB1XWT02DK": {
-    "antiquity": 2798,
+  "C4H36B87SVL1": {
+    "antiquity": 1888,
     "gamepass": false,
-    "price": 24.99,
-    "rate": 2.8,
-    "reviews": 112,
+    "price": 59.99,
+    "rate": 4.5,
+    "reviews": 406,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "C4HFHZ44Z3R3": {
-    "antiquity": 3250,
+    "antiquity": 3362,
     "gamepass": false,
     "price": 64.99,
     "rate": 4.5,
     "reviews": 75,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "LocalMultiPlayer"
     ]
   },
   "C4HXGZ1X0881": {
-    "antiquity": 3085,
+    "antiquity": 3197,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.98,
     "rate": 4.1,
-    "reviews": 173,
+    "reviews": 177,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
@@ -33047,28 +37201,14 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "C4HZC7LJG6PX": {
-    "antiquity": 1452,
-    "gamepass": true,
-    "price": 29.99,
-    "rate": 3.5,
-    "reviews": 43,
-    "trial": false,
-    "tags": [
-      "Compras",
-      "Shooter",
-      "LocalMultiPlayer",
-      "MultiPlayer",
-      "GamePass"
-    ]
-  },
   "C4KBHNHRPLN6": {
-    "antiquity": 1472,
+    "antiquity": 1584,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
     "reviews": 97,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Strategy",
@@ -33077,24 +37217,26 @@ const GAME = {
     ]
   },
   "C4KCJBLFZ8V7": {
-    "antiquity": 4961,
+    "antiquity": 5073,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.2,
-    "reviews": 18,
+    "rate": 4.3,
+    "reviews": 19,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "C4LLMHFQ1BXQ": {
-    "antiquity": 2172,
+    "antiquity": 2284,
     "gamepass": true,
     "price": 39.99,
-    "rate": 4.2,
-    "reviews": 118,
+    "rate": 4.3,
+    "reviews": 122,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
@@ -33102,12 +37244,13 @@ const GAME = {
     ]
   },
   "C4M5BK5HMGJD": {
-    "antiquity": 2448,
+    "antiquity": 2560,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
-    "reviews": 65,
+    "reviews": 66,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -33121,23 +37264,25 @@ const GAME = {
     ]
   },
   "C4MFC7S8RSBF": {
-    "antiquity": 3056,
+    "antiquity": 3168,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
-    "reviews": 448,
+    "reviews": 451,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle"
     ]
   },
   "C4MSTXCKBXGL": {
-    "antiquity": 2557,
+    "antiquity": 2669,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
@@ -33145,24 +37290,26 @@ const GAME = {
     ]
   },
   "C4P9QWXCHKNJ": {
-    "antiquity": 4765,
+    "antiquity": 4877,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
     "reviews": 15,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter"
     ]
   },
   "C4PCN1CK76MR": {
-    "antiquity": 1769,
+    "antiquity": 1881,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.6,
-    "reviews": 22,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
@@ -33170,12 +37317,13 @@ const GAME = {
     ]
   },
   "C4PZ0V39GXN2": {
-    "antiquity": 2349,
+    "antiquity": 2461,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
-    "reviews": 194,
+    "reviews": 196,
     "trial": false,
+    "discount": 0,
     "tags": [
       "MOBA",
       "Shooter",
@@ -33185,23 +37333,25 @@ const GAME = {
     ]
   },
   "C4Q29CMJ31NX": {
-    "antiquity": 2979,
+    "antiquity": 3091,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
-    "reviews": 112,
+    "reviews": 113,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action"
     ]
   },
   "C4Q7K19Q0VBZ": {
-    "antiquity": 1577,
+    "antiquity": 1689,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.2,
-    "reviews": 45,
+    "reviews": 47,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Action",
@@ -33211,48 +37361,80 @@ const GAME = {
     ]
   },
   "C4QZ3K528LBQ": {
-    "antiquity": 2118,
+    "antiquity": 2230,
     "gamepass": false,
     "price": 6.98,
     "rate": 2.0,
     "reviews": 2,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer"
     ]
   },
+  "C4R968DKNJ7Z": {
+    "antiquity": 2099,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 3.7,
+    "reviews": 15,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Sports",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "C4RQNBKSLJG7": {
-    "antiquity": 1839,
+    "antiquity": 1951,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
     "reviews": 18,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Strategy",
       "Simulation"
     ]
   },
   "C4S60FPWF4XN": {
-    "antiquity": 2553,
+    "antiquity": 2665,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
-    "reviews": 940,
+    "reviews": 964,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Bundle",
       "MultiPlayer"
     ]
   },
+  "C4VHLVCM017T": {
+    "antiquity": 2648,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 3.9,
+    "reviews": 147,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "C4VKLMG1HLZW": {
-    "antiquity": 1947,
+    "antiquity": 2059,
     "gamepass": true,
     "price": 19.99,
-    "rate": 4.1,
-    "reviews": 33,
+    "rate": 3.9,
+    "reviews": 35,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Platformer",
       "LocalMultiPlayer",
@@ -33260,58 +37442,80 @@ const GAME = {
     ]
   },
   "C4VLMWJWM7BG": {
-    "antiquity": 2182,
+    "antiquity": 2294,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.4,
-    "reviews": 41,
+    "reviews": 43,
     "trial": true,
+    "discount": 0,
     "tags": [
       "Role playing"
     ]
   },
-  "C4XB8HD7BZG5": {
-    "antiquity": 4953,
-    "gamepass": false,
-    "price": 19.99,
-    "rate": 4.7,
-    "reviews": 11,
-    "trial": false,
-    "tags": [
-      "Fighting"
-    ]
-  },
   "C4XX6JL0N0DM": {
-    "antiquity": 3757,
+    "antiquity": 3869,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
     "reviews": 31,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Shooter"
     ]
   },
   "C4Z7QM8FSXM2": {
-    "antiquity": 2006,
+    "antiquity": 2118,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 462,
+    "reviews": 475,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "GamePass"
     ]
   },
+  "C50MCJDHVK7J": {
+    "antiquity": 2753,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 4.3,
+    "reviews": 13,
+    "trial": false,
+    "discount": 75.02501,
+    "tags": [
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "C5140GRN09VF": {
+    "antiquity": 1803,
+    "gamepass": false,
+    "price": 6.99,
+    "rate": 4.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Fighting",
+      "SinglePlayer",
+      "LocalMultiPlayer"
+    ]
+  },
   "C521HDXRTS7F": {
-    "antiquity": 2917,
+    "antiquity": 3029,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.1,
     "reviews": 71,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
@@ -33321,38 +37525,67 @@ const GAME = {
     ]
   },
   "C52HDXHZV2KR": {
-    "antiquity": 3764,
+    "antiquity": 3876,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.9,
-    "reviews": 22,
+    "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "LocalMultiPlayer",
       "MultiPlayer"
     ]
   },
+  "C535G04WLZ9R": {
+    "antiquity": 4958,
+    "gamepass": false,
+    "price": 3.74,
+    "rate": 4.0,
+    "reviews": 12,
+    "trial": false,
+    "discount": 75.05003,
+    "tags": [
+      "Shooter",
+      "Oferta"
+    ]
+  },
   "C5610G5KX0D6": {
-    "antiquity": 3272,
+    "antiquity": 3384,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
-    "reviews": 1057,
+    "reviews": 1058,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer"
     ]
   },
+  "C568X8SS5Q2T": {
+    "antiquity": 1888,
+    "gamepass": false,
+    "price": 15.99,
+    "rate": 4.1,
+    "reviews": 62,
+    "trial": false,
+    "discount": 80.01,
+    "tags": [
+      "Bundle",
+      "Oferta"
+    ]
+  },
   "C57L9GR0HHB7": {
-    "antiquity": 2994,
+    "antiquity": 3106,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 359,
+    "reviews": 361,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Tragaperras",
       "Compras",
@@ -33364,25 +37597,28 @@ const GAME = {
     ]
   },
   "C5828HS8K39D": {
-    "antiquity": 2676,
+    "antiquity": 2788,
     "gamepass": false,
-    "price": 18.49,
+    "price": 3.69,
     "rate": 3.8,
     "reviews": 37,
     "trial": false,
+    "discount": 80.04327,
     "tags": [
       "Strategy",
       "Simulation",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "C5911MLTLXK1": {
-    "antiquity": 2922,
+    "antiquity": 3034,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
-    "reviews": 128,
+    "reviews": 130,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
@@ -33390,12 +37626,13 @@ const GAME = {
     ]
   },
   "C596FKDKMQN7": {
-    "antiquity": 1593,
+    "antiquity": 1705,
     "gamepass": false,
-    "price": 14.99,
+    "price": 24.99,
     "rate": 4.6,
-    "reviews": 187,
+    "reviews": 191,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
@@ -33405,12 +37642,13 @@ const GAME = {
     ]
   },
   "C59QBPB8P1XJ": {
-    "antiquity": 2718,
+    "antiquity": 2830,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
     "reviews": 120,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Fighting",
@@ -33420,64 +37658,81 @@ const GAME = {
     ]
   },
   "C5B84LR72JB7": {
-    "antiquity": 1622,
+    "antiquity": 1734,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.5,
     "reviews": 6,
     "trial": false,
+    "discount": 75.02501,
     "tags": [
       "Action",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "C5CX546FNJLG": {
+    "antiquity": 3804,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 4.8,
+    "reviews": 6,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer"
     ]
   },
   "C5CZ41LM1DLM": {
-    "antiquity": 2404,
+    "antiquity": 2516,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.8,
-    "reviews": 20,
+    "rate": 3.9,
+    "reviews": 21,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
       "Free"
     ]
   },
+  "C5D7449R6SDR": {
+    "antiquity": 3215,
+    "gamepass": false,
+    "price": 19.99,
+    "rate": 2.8,
+    "reviews": 61,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Racing & flying",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
   "C5DB629HCWPK": {
-    "antiquity": 2411,
+    "antiquity": 2523,
     "gamepass": false,
     "price": 6.98,
-    "rate": 4.3,
-    "reviews": 10,
+    "rate": 4.4,
+    "reviews": 11,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "LocalMultiPlayer"
     ]
   },
-  "C5DP7MGFR583": {
-    "antiquity": 1986,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 4.5,
-    "reviews": 13,
-    "trial": false,
-    "tags": [
-      "Racing & flying",
-      "Action",
-      "Sports",
-      "SinglePlayer"
-    ]
-  },
   "C5DZFZ6NC5SQ": {
-    "antiquity": 1845,
+    "antiquity": 1957,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.6,
-    "reviews": 34,
+    "reviews": 37,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Strategy",
@@ -33487,48 +37742,39 @@ const GAME = {
     ]
   },
   "C5F2XDQPPJKZ": {
-    "antiquity": 2214,
+    "antiquity": 2326,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.3,
     "reviews": 22,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "GamePass"
     ]
   },
   "C5FP8DQ3R1WF": {
-    "antiquity": 3267,
+    "antiquity": 3379,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
-    "reviews": 232,
+    "reviews": 233,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
     ]
   },
-  "C5FWJGBXCVX4": {
-    "antiquity": 2194,
-    "gamepass": false,
-    "price": 6.98,
-    "rate": 3.4,
-    "reviews": 13,
-    "trial": false,
-    "tags": [
-      "Action",
-      "LocalMultiPlayer"
-    ]
-  },
   "C5GDG0CQ99RJ": {
-    "antiquity": 3153,
+    "antiquity": 3265,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
     "reviews": 67,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Fighting",
       "SinglePlayer",
@@ -33538,27 +37784,46 @@ const GAME = {
     ]
   },
   "C5K89TFLSV19": {
-    "antiquity": 4877,
+    "antiquity": 4989,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.7,
-    "reviews": 69,
+    "reviews": 71,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Role playing",
       "GamePass"
     ]
   },
   "C5KDXM27B23F": {
-    "antiquity": 4596,
+    "antiquity": 4708,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.2,
     "reviews": 23,
     "trial": false,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing"
+    ]
+  },
+  "C5KFH4XKWVKN": {
+    "antiquity": 2642,
+    "gamepass": false,
+    "price": 1.99,
+    "rate": 2.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 80.08008,
+    "tags": [
+      "Racing & flying",
+      "Sports",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
     ]
   }
 };

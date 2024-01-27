@@ -55,6 +55,17 @@
 				<input type="number" step="1" required id="rate_max" min="0" max="{{gl.mx.rate}}" value="{{gl.mx.rate}}" title="max: {{gl.mx.rate}}"> ★
 			</label>
 			</p>
+			{% if gl.discounts %}
+			<p>
+				<label for="discount">Descuento:
+				<select id="discount" data-type="number">
+					{% for a in gl.discounts %}
+					<option value="{{a}}">{{a}}</option>
+					{% endfor %}
+				</select> % o más
+				</label>
+			  </p>
+			{% endif %}
 			{% if gl.antiques %}
 			<p>
 				<label for="antiguedad">Antiguedad:
@@ -90,7 +101,7 @@
 <p>
 	<b><a href="{{j.url}}" class="title">{{j.title}}</a>{# <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b>
 	<br/>
-	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code>{{j.price | round | int}} €</code><br/>
+	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code{%if j.discount%} class="ofertaTrue" title="{{j.discount | round | int}}% de descuento"{%endif%}>{{j.price | round | int}} €</code><br/>
 	{#
 	{% if j.langs %}
 		[ {{" / ".join(j.langs) }} ]</br>
