@@ -133,7 +133,7 @@ class Game:
         if self.preload_state is None:
             return []
         obj = dict(self.preload_state)
-        for k in ('core2', 'products', 'productSummaries' , self.id, 'legalNotices'):
+        for k in ('core2', 'products', 'productSummaries', self.id, 'legalNotices'):
             obj = obj.get(k)
             if obj is None:
                 return tuple()

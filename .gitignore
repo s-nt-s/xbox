@@ -1,4 +1,4 @@
-_rec/
+*_rec/
 rec/
 .idea
 geckodriver.log
