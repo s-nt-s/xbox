@@ -1,7 +1,7 @@
-const ANTIQUITY = ((new Date().setHours(0, 0, 0, 0))-(new Date(2024, 1, 5))) / (1000 * 60 * 60 * 24);
+const ANTIQUITY = ((new Date().setHours(0, 0, 0, 0))-(new Date(2024, 1, 6))) / (1000 * 60 * 60 * 24);
 const GAME = {
   "9MSMGTKDM41V": {
-    "antiquity": 488,
+    "antiquity": 489,
     "gamepass": false,
     "price": 35.99,
     "rate": 3.3,
@@ -17,7 +17,7 @@ const GAME = {
     ]
   },
   "9MSN6MXZSVJW": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -33,7 +33,7 @@ const GAME = {
     ]
   },
   "9MSPCTN183CS": {
-    "antiquity": 219,
+    "antiquity": 220,
     "gamepass": false,
     "price": 41.99,
     "rate": 5.0,
@@ -50,7 +50,7 @@ const GAME = {
     ]
   },
   "9MSQ62J678QF": {
-    "antiquity": 490,
+    "antiquity": 491,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.2,
@@ -65,7 +65,7 @@ const GAME = {
     ]
   },
   "9MSR27KF1Q22": {
-    "antiquity": 1364,
+    "antiquity": 1365,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -81,7 +81,7 @@ const GAME = {
     ]
   },
   "9MSRMB4L8LRJ": {
-    "antiquity": 1368,
+    "antiquity": 1369,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -97,7 +97,7 @@ const GAME = {
     ]
   },
   "9MSVCH5RJLCS": {
-    "antiquity": 126,
+    "antiquity": 127,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -110,7 +110,7 @@ const GAME = {
     ]
   },
   "9MSX6WD4WSZ0": {
-    "antiquity": 158,
+    "antiquity": 159,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -126,7 +126,7 @@ const GAME = {
     ]
   },
   "9MT0MPP8NFCQ": {
-    "antiquity": 39,
+    "antiquity": 40,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
@@ -140,7 +140,7 @@ const GAME = {
     ]
   },
   "9MT2BNVP1BDW": {
-    "antiquity": 75,
+    "antiquity": 76,
     "gamepass": false,
     "price": 12.99,
     "rate": 0.0,
@@ -154,7 +154,7 @@ const GAME = {
     ]
   },
   "9MT4FDMPGXHH": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -171,7 +171,7 @@ const GAME = {
     ]
   },
   "9MT4G07V989L": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.7,
@@ -187,7 +187,7 @@ const GAME = {
     ]
   },
   "9MT4T5ZL8PVB": {
-    "antiquity": 515,
+    "antiquity": 516,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.3,
@@ -201,7 +201,7 @@ const GAME = {
     ]
   },
   "9MT5B3J6N9QW": {
-    "antiquity": 138,
+    "antiquity": 139,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.1,
@@ -214,11 +214,11 @@ const GAME = {
     ]
   },
   "9MT5NJ5W7B8Z": {
-    "antiquity": 529,
+    "antiquity": 530,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.6,
-    "reviews": 132,
+    "reviews": 133,
     "trial": false,
     "discount": 40.005333,
     "tags": [
@@ -230,7 +230,7 @@ const GAME = {
     ]
   },
   "9MT5XTXZ5LW0": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 10.49,
     "rate": 5.0,
@@ -246,7 +246,7 @@ const GAME = {
     ]
   },
   "9MT6TG9CXR2H": {
-    "antiquity": 650,
+    "antiquity": 651,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.4,
@@ -261,7 +261,7 @@ const GAME = {
     ]
   },
   "9MT8HTJC4GSB": {
-    "antiquity": 956,
+    "antiquity": 957,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
@@ -275,11 +275,11 @@ const GAME = {
     ]
   },
   "9MT8PTGVHX2P": {
-    "antiquity": 1544,
+    "antiquity": 1545,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.4,
-    "reviews": 635,
+    "reviews": 636,
     "trial": false,
     "discount": 75.01876,
     "tags": [
@@ -293,7 +293,7 @@ const GAME = {
     ]
   },
   "9MTBW414KK0J": {
-    "antiquity": 739,
+    "antiquity": 740,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -306,7 +306,7 @@ const GAME = {
     ]
   },
   "9MTCRVZQN3GV": {
-    "antiquity": 671,
+    "antiquity": 672,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.1,
@@ -321,7 +321,7 @@ const GAME = {
     ]
   },
   "9MTFBZ0RB6FW": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 6.99,
     "rate": 2.0,
@@ -336,7 +336,7 @@ const GAME = {
     ]
   },
   "9MTJ3JJF7RJC": {
-    "antiquity": 335,
+    "antiquity": 336,
     "gamepass": false,
     "price": 27.99,
     "rate": 3.9,
@@ -350,7 +350,7 @@ const GAME = {
     ]
   },
   "9MTK0S8CQ0QV": {
-    "antiquity": 278,
+    "antiquity": 279,
     "gamepass": true,
     "price": 23.99,
     "rate": 3.3,
@@ -371,7 +371,7 @@ const GAME = {
     ]
   },
   "9MTKD37N47L0": {
-    "antiquity": 1265,
+    "antiquity": 1266,
     "gamepass": false,
     "price": 3.39,
     "rate": 3.0,
@@ -385,7 +385,7 @@ const GAME = {
     ]
   },
   "9MTLHGS39M13": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
@@ -399,11 +399,11 @@ const GAME = {
     ]
   },
   "9MTLKM2DJMZ2": {
-    "antiquity": 967,
+    "antiquity": 968,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.5,
-    "reviews": 1798,
+    "reviews": 1801,
     "trial": false,
     "discount": 55.005497,
     "tags": [
@@ -414,7 +414,7 @@ const GAME = {
     ]
   },
   "9MTLZ7HMNLJB": {
-    "antiquity": 73,
+    "antiquity": 74,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -429,7 +429,7 @@ const GAME = {
     ]
   },
   "9MTMSS84NW5R": {
-    "antiquity": 298,
+    "antiquity": 299,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -443,7 +443,7 @@ const GAME = {
     ]
   },
   "9MTMT4DTW7TF": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -458,7 +458,7 @@ const GAME = {
     ]
   },
   "9MTP8ZKK293G": {
-    "antiquity": 221,
+    "antiquity": 222,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -476,7 +476,7 @@ const GAME = {
     ]
   },
   "9MTQ4L3SLHTK": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -491,7 +491,7 @@ const GAME = {
     ]
   },
   "9MTRHBX16QGD": {
-    "antiquity": 18,
+    "antiquity": 19,
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -505,7 +505,7 @@ const GAME = {
     ]
   },
   "9MTRTFXMNB7K": {
-    "antiquity": 70,
+    "antiquity": 71,
     "gamepass": false,
     "price": 6.99,
     "rate": 2.9,
@@ -520,7 +520,7 @@ const GAME = {
     ]
   },
   "9MTS16VGTT7J": {
-    "antiquity": 235,
+    "antiquity": 236,
     "gamepass": false,
     "price": 20.99,
     "rate": 2.4,
@@ -535,8 +535,22 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9MTXPTRRNLN8": {
+    "antiquity": 351,
+    "gamepass": false,
+    "price": 59.99,
+    "rate": 4.2,
+    "reviews": 379,
+    "trial": false,
+    "discount": 40.003998,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9MV0ZC8R18C4": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -550,7 +564,7 @@ const GAME = {
     ]
   },
   "9MV1792N0QTN": {
-    "antiquity": 80,
+    "antiquity": 81,
     "gamepass": false,
     "price": 7.99,
     "rate": 3.5,
@@ -564,7 +578,7 @@ const GAME = {
     ]
   },
   "9MV27QPRQRRF": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -578,7 +592,7 @@ const GAME = {
     ]
   },
   "9MV2S7Q5PHSW": {
-    "antiquity": 1299,
+    "antiquity": 1300,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.0,
@@ -594,7 +608,7 @@ const GAME = {
     ]
   },
   "9MV2TRX701DG": {
-    "antiquity": 143,
+    "antiquity": 144,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.4,
@@ -609,7 +623,7 @@ const GAME = {
     ]
   },
   "9MV2X560K5DH": {
-    "antiquity": 76,
+    "antiquity": 77,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.6,
@@ -621,7 +635,7 @@ const GAME = {
     ]
   },
   "9MV8ZPXM6B84": {
-    "antiquity": 292,
+    "antiquity": 293,
     "gamepass": false,
     "price": 10.71,
     "rate": 4.0,
@@ -635,7 +649,7 @@ const GAME = {
     ]
   },
   "9MVBGNCVD7QZ": {
-    "antiquity": 69,
+    "antiquity": 70,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
@@ -647,21 +661,8 @@ const GAME = {
       "Bundle"
     ]
   },
-  "9MVD487XSVGX": {
-    "antiquity": 238,
-    "gamepass": false,
-    "price": 0.99,
-    "rate": 2.0,
-    "reviews": 5,
-    "trial": false,
-    "discount": 75.18797,
-    "tags": [
-      "Fighting",
-      "Oferta"
-    ]
-  },
   "9MVDKVMBVZ7D": {
-    "antiquity": 109,
+    "antiquity": 110,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
@@ -678,7 +679,7 @@ const GAME = {
     ]
   },
   "9MVDW9JCKL8Z": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -692,7 +693,7 @@ const GAME = {
     ]
   },
   "9MVFDJV717DK": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -706,7 +707,7 @@ const GAME = {
     ]
   },
   "9MVFL3FNZVDT": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -718,8 +719,21 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9MVKFJLJZLL0": {
+    "antiquity": 401,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 60.008003,
+    "tags": [
+      "Bundle",
+      "Oferta"
+    ]
+  },
   "9MVL42NJFVZ2": {
-    "antiquity": 951,
+    "antiquity": 952,
     "gamepass": true,
     "price": 4.99,
     "rate": 3.6,
@@ -735,7 +749,7 @@ const GAME = {
     ]
   },
   "9MVLDWXSD4GW": {
-    "antiquity": 180,
+    "antiquity": 181,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -751,7 +765,7 @@ const GAME = {
     ]
   },
   "9MVMQ2BRHBF7": {
-    "antiquity": 179,
+    "antiquity": 180,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -763,7 +777,7 @@ const GAME = {
     ]
   },
   "9MVN4ND41DD3": {
-    "antiquity": 1637,
+    "antiquity": 1638,
     "gamepass": true,
     "price": 2.49,
     "rate": 4.3,
@@ -780,7 +794,7 @@ const GAME = {
     ]
   },
   "9MVRDC1BW8TQ": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.0,
@@ -795,7 +809,7 @@ const GAME = {
     ]
   },
   "9MVRWJ731537": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 9.99,
     "rate": 1.0,
@@ -810,7 +824,7 @@ const GAME = {
     ]
   },
   "9MVTCTDTHH23": {
-    "antiquity": 1512,
+    "antiquity": 1513,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -826,7 +840,7 @@ const GAME = {
     ]
   },
   "9MVTGWDJD7TP": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -843,7 +857,7 @@ const GAME = {
     ]
   },
   "9MVTZLG0GSTX": {
-    "antiquity": 158,
+    "antiquity": 159,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.1,
@@ -856,7 +870,7 @@ const GAME = {
     ]
   },
   "9MVVN5H57P39": {
-    "antiquity": 272,
+    "antiquity": 273,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -869,7 +883,7 @@ const GAME = {
     ]
   },
   "9MVXMVT8ZKWC": {
-    "antiquity": 2329,
+    "antiquity": 2330,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
@@ -888,7 +902,7 @@ const GAME = {
     ]
   },
   "9MVXZMRQXHSF": {
-    "antiquity": 517,
+    "antiquity": 518,
     "gamepass": false,
     "price": 22.49,
     "rate": 2.8,
@@ -904,7 +918,7 @@ const GAME = {
     ]
   },
   "9MVZLQNXJQFR": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 66.99,
     "rate": 4.4,
@@ -916,11 +930,11 @@ const GAME = {
     ]
   },
   "9MW10GX140N1": {
-    "antiquity": 363,
+    "antiquity": 364,
     "gamepass": false,
     "price": 84.99,
-    "rate": 4.7,
-    "reviews": 137,
+    "rate": 4.6,
+    "reviews": 138,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -930,7 +944,7 @@ const GAME = {
     ]
   },
   "9MW2RGQ5G5QW": {
-    "antiquity": 1406,
+    "antiquity": 1407,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.2,
@@ -943,7 +957,7 @@ const GAME = {
     ]
   },
   "9MW329TMP60T": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
@@ -957,7 +971,7 @@ const GAME = {
     ]
   },
   "9MW410G8BJ1N": {
-    "antiquity": 111,
+    "antiquity": 112,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -972,7 +986,7 @@ const GAME = {
     ]
   },
   "9MW4DL0NDX4C": {
-    "antiquity": 6,
+    "antiquity": 7,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -985,7 +999,7 @@ const GAME = {
     ]
   },
   "9MW581HCJPM6": {
-    "antiquity": 515,
+    "antiquity": 516,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.0,
@@ -1000,7 +1014,7 @@ const GAME = {
     ]
   },
   "9MW7D0DJ065Z": {
-    "antiquity": 174,
+    "antiquity": 175,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.9,
@@ -1016,7 +1030,7 @@ const GAME = {
     ]
   },
   "9MW7FV1V3RP7": {
-    "antiquity": 676,
+    "antiquity": 677,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -1031,7 +1045,7 @@ const GAME = {
     ]
   },
   "9MW8PSHZ7LJ0": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 19.99,
     "rate": 1.0,
@@ -1046,11 +1060,11 @@ const GAME = {
     ]
   },
   "9MW9469V91LM": {
-    "antiquity": 1959,
+    "antiquity": 1960,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.7,
-    "reviews": 367,
+    "reviews": 368,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -1061,7 +1075,7 @@ const GAME = {
     ]
   },
   "9MW9WP7G8CJN": {
-    "antiquity": 145,
+    "antiquity": 146,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.0,
@@ -1075,7 +1089,7 @@ const GAME = {
     ]
   },
   "9MWDJ429R5V0": {
-    "antiquity": 787,
+    "antiquity": 788,
     "gamepass": false,
     "price": 15.49,
     "rate": 3.5,
@@ -1092,7 +1106,7 @@ const GAME = {
     ]
   },
   "9MWDKL3SD6D9": {
-    "antiquity": 250,
+    "antiquity": 251,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -1110,11 +1124,11 @@ const GAME = {
     ]
   },
   "9MWFTJF7G5XF": {
-    "antiquity": 1182,
+    "antiquity": 1183,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.4,
-    "reviews": 287,
+    "reviews": 288,
     "trial": false,
     "discount": 80.00889,
     "tags": [
@@ -1123,7 +1137,7 @@ const GAME = {
     ]
   },
   "9MWG18BH5ML7": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -1136,7 +1150,7 @@ const GAME = {
     ]
   },
   "9MWGGZ3HLZJH": {
-    "antiquity": 75,
+    "antiquity": 76,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -1150,7 +1164,7 @@ const GAME = {
     ]
   },
   "9MWHMJ0SRBXV": {
-    "antiquity": 894,
+    "antiquity": 895,
     "gamepass": true,
     "price": 59.99,
     "rate": 3.5,
@@ -1165,7 +1179,7 @@ const GAME = {
     ]
   },
   "9MWJP514RHC1": {
-    "antiquity": 187,
+    "antiquity": 188,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.3,
@@ -1179,7 +1193,7 @@ const GAME = {
     ]
   },
   "9MWL1MMCK8X9": {
-    "antiquity": 94,
+    "antiquity": 95,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -1196,7 +1210,7 @@ const GAME = {
     ]
   },
   "9MWN6NJKLFB7": {
-    "antiquity": 240,
+    "antiquity": 241,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -1209,25 +1223,24 @@ const GAME = {
     ]
   },
   "9MWNC2J8LHZH": {
-    "antiquity": 1047,
+    "antiquity": 1048,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 2.5,
     "reviews": 2,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9MWNNSD2GMH1": {
-    "antiquity": 18,
+    "antiquity": 6,
     "gamepass": false,
     "price": 10.99,
-    "rate": 4.4,
+    "rate": 4.5,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -1238,7 +1251,7 @@ const GAME = {
     ]
   },
   "9MWNXG36MKPF": {
-    "antiquity": 335,
+    "antiquity": 336,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
@@ -1251,7 +1264,7 @@ const GAME = {
     ]
   },
   "9MWP4LX4KBW7": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -1263,7 +1276,7 @@ const GAME = {
     ]
   },
   "9MWPSHZ51RMT": {
-    "antiquity": 126,
+    "antiquity": 127,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.4,
@@ -1278,7 +1291,7 @@ const GAME = {
     ]
   },
   "9MWPVN4JKZ1T": {
-    "antiquity": 984,
+    "antiquity": 985,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
@@ -1292,7 +1305,7 @@ const GAME = {
     ]
   },
   "9MWQ4NQ5WX37": {
-    "antiquity": 969,
+    "antiquity": 970,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
@@ -1304,7 +1317,7 @@ const GAME = {
     ]
   },
   "9MWQKQRD2H1V": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -1319,7 +1332,7 @@ const GAME = {
     ]
   },
   "9MWST5SWRMJP": {
-    "antiquity": 143,
+    "antiquity": 144,
     "gamepass": false,
     "price": 7.99,
     "rate": 2.6,
@@ -1332,8 +1345,24 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9MWVDZDT9NTN": {
+    "antiquity": 361,
+    "gamepass": false,
+    "price": 1.49,
+    "rate": 5.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 50.16723,
+    "tags": [
+      "Simulation",
+      "Family",
+      "Classics",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9MWZ8JV5TSQG": {
-    "antiquity": 881,
+    "antiquity": 882,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -1345,7 +1374,7 @@ const GAME = {
     ]
   },
   "9MX1B2L6ZM36": {
-    "antiquity": 185,
+    "antiquity": 186,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -1360,7 +1389,7 @@ const GAME = {
     ]
   },
   "9MX2LLS736B3": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": true,
     "price": 44.99,
     "rate": 4.6,
@@ -1378,7 +1407,7 @@ const GAME = {
     ]
   },
   "9MX2VPPZ9TQ8": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 53.59,
     "rate": 4.3,
@@ -1394,7 +1423,7 @@ const GAME = {
     ]
   },
   "9MX369HPGVGH": {
-    "antiquity": 180,
+    "antiquity": 181,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -1407,7 +1436,7 @@ const GAME = {
     ]
   },
   "9MX3ZLK7N799": {
-    "antiquity": 1411,
+    "antiquity": 1412,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.4,
@@ -1424,7 +1453,7 @@ const GAME = {
     ]
   },
   "9MX4DXKMSCZW": {
-    "antiquity": 1686,
+    "antiquity": 1687,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -1437,23 +1466,8 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9MX73KZH25RD": {
-    "antiquity": 465,
-    "gamepass": false,
-    "price": 5.39,
-    "rate": 3.5,
-    "reviews": 4,
-    "trial": false,
-    "discount": 70.03892,
-    "tags": [
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9MX7DMHK13SC": {
-    "antiquity": 320,
+    "antiquity": 321,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
@@ -1466,7 +1480,7 @@ const GAME = {
     ]
   },
   "9MX7J7D809CD": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 4.99,
     "rate": 1.0,
@@ -1480,7 +1494,7 @@ const GAME = {
     ]
   },
   "9MX8GK8BH76W": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.9,
@@ -1497,7 +1511,7 @@ const GAME = {
     ]
   },
   "9MX9K92M5CSN": {
-    "antiquity": 1077,
+    "antiquity": 1078,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.1,
@@ -1511,7 +1525,7 @@ const GAME = {
     ]
   },
   "9MXC338HGXFH": {
-    "antiquity": 1237,
+    "antiquity": 1238,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -1525,7 +1539,7 @@ const GAME = {
     ]
   },
   "9MXDG1M57MTM": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -1539,7 +1553,7 @@ const GAME = {
     ]
   },
   "9MXF0F1L4P8H": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -1553,7 +1567,7 @@ const GAME = {
     ]
   },
   "9MXFM3J19R5H": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -1566,7 +1580,7 @@ const GAME = {
     ]
   },
   "9MXGJ8JZL0LK": {
-    "antiquity": 872,
+    "antiquity": 873,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.8,
@@ -1579,7 +1593,7 @@ const GAME = {
     ]
   },
   "9MXGK8PB8CXB": {
-    "antiquity": 27,
+    "antiquity": 28,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -1593,10 +1607,10 @@ const GAME = {
     ]
   },
   "9MXH08PCQ656": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.5,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -1608,7 +1622,7 @@ const GAME = {
     ]
   },
   "9MXH3WWBCW2D": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 6.49,
     "rate": 5.0,
@@ -1623,7 +1637,7 @@ const GAME = {
     ]
   },
   "9MXJSVP2NW44": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -1636,22 +1650,23 @@ const GAME = {
     ]
   },
   "9MXK2RSQJQND": {
-    "antiquity": 258,
+    "antiquity": 259,
     "gamepass": true,
-    "price": 19.99,
+    "price": 12.99,
     "rate": 4.6,
-    "reviews": 293,
+    "reviews": 294,
     "trial": false,
-    "discount": 0,
+    "discount": 35.01751,
     "tags": [
       "Platformer",
       "Action",
       "SinglePlayer",
-      "GamePass"
+      "GamePass",
+      "Oferta"
     ]
   },
   "9MXLF0MCCKZD": {
-    "antiquity": 312,
+    "antiquity": 313,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.5,
@@ -1666,7 +1681,7 @@ const GAME = {
     ]
   },
   "9MXMJFNZMVWD": {
-    "antiquity": 836,
+    "antiquity": 837,
     "gamepass": false,
     "price": 59.99,
     "rate": 2.9,
@@ -1679,7 +1694,7 @@ const GAME = {
     ]
   },
   "9MXND4PQLK3W": {
-    "antiquity": 1418,
+    "antiquity": 1419,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.6,
@@ -1694,7 +1709,7 @@ const GAME = {
     ]
   },
   "9MXPZ33Z9PWH": {
-    "antiquity": 935,
+    "antiquity": 936,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -1707,7 +1722,7 @@ const GAME = {
     ]
   },
   "9MXQJP2QC55J": {
-    "antiquity": 27,
+    "antiquity": 28,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.0,
@@ -1720,10 +1735,10 @@ const GAME = {
     ]
   },
   "9MXQL59MZF5W": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 9.99,
-    "rate": 4.2,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -1734,11 +1749,11 @@ const GAME = {
     ]
   },
   "9MXRRMJHNK7L": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 64.99,
     "rate": 3.0,
-    "reviews": 164,
+    "reviews": 165,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -1747,7 +1762,7 @@ const GAME = {
     ]
   },
   "9MXTLP1FP13B": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.7,
@@ -1761,7 +1776,7 @@ const GAME = {
     ]
   },
   "9MXW6JMGNCXW": {
-    "antiquity": 864,
+    "antiquity": 865,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -1776,21 +1791,20 @@ const GAME = {
     ]
   },
   "9MXW6WSDSSCV": {
-    "antiquity": 5239,
+    "antiquity": 5240,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 4.0,
     "reviews": 3,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
-      "Role playing",
-      "Oferta"
+      "Role playing"
     ]
   },
   "9MXZPC0NL8DX": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.0,
@@ -1802,7 +1816,7 @@ const GAME = {
     ]
   },
   "9MZ01WJM4MK1": {
-    "antiquity": 600,
+    "antiquity": 601,
     "gamepass": true,
     "price": 49.99,
     "rate": 3.2,
@@ -1818,7 +1832,7 @@ const GAME = {
     ]
   },
   "9MZ08RDQ4DM1": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": true,
     "price": 17.99,
     "rate": 3.4,
@@ -1837,7 +1851,7 @@ const GAME = {
     ]
   },
   "9MZ0SR207MG8": {
-    "antiquity": 967,
+    "antiquity": 968,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.9,
@@ -1850,7 +1864,7 @@ const GAME = {
     ]
   },
   "9MZ0T8P6MD22": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.2,
@@ -1864,7 +1878,7 @@ const GAME = {
     ]
   },
   "9MZ11KT5KLP6": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.8,
@@ -1880,7 +1894,7 @@ const GAME = {
     ]
   },
   "9MZ5MBNTCB1D": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -1894,7 +1908,7 @@ const GAME = {
     ]
   },
   "9MZ5SXHQFM0K": {
-    "antiquity": 54,
+    "antiquity": 55,
     "gamepass": false,
     "price": 73.99,
     "rate": 3.1,
@@ -1909,7 +1923,7 @@ const GAME = {
     ]
   },
   "9MZ607S3NJRB": {
-    "antiquity": 536,
+    "antiquity": 537,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -1926,7 +1940,7 @@ const GAME = {
     ]
   },
   "9MZ69CFLLFVH": {
-    "antiquity": 56,
+    "antiquity": 57,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -1940,7 +1954,7 @@ const GAME = {
     ]
   },
   "9MZ80QP44V5Z": {
-    "antiquity": 119,
+    "antiquity": 120,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.0,
@@ -1953,7 +1967,7 @@ const GAME = {
     ]
   },
   "9MZ8PMP89HGX": {
-    "antiquity": 46,
+    "antiquity": 47,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -1968,7 +1982,7 @@ const GAME = {
     ]
   },
   "9MZBBKTW4KSB": {
-    "antiquity": 18,
+    "antiquity": 19,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.9,
@@ -1984,7 +1998,7 @@ const GAME = {
     ]
   },
   "9MZBRTN95Z7M": {
-    "antiquity": 292,
+    "antiquity": 293,
     "gamepass": false,
     "price": 16.49,
     "rate": 4.0,
@@ -1998,7 +2012,7 @@ const GAME = {
     ]
   },
   "9MZCG78Z2DJZ": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.9,
@@ -2014,7 +2028,7 @@ const GAME = {
     ]
   },
   "9MZCQQK860T1": {
-    "antiquity": 615,
+    "antiquity": 616,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.4,
@@ -2031,7 +2045,7 @@ const GAME = {
     ]
   },
   "9MZDL6L34KF2": {
-    "antiquity": 339,
+    "antiquity": 340,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.7,
@@ -2049,7 +2063,7 @@ const GAME = {
     ]
   },
   "9MZFF9K46X48": {
-    "antiquity": 151,
+    "antiquity": 152,
     "gamepass": false,
     "price": 12.99,
     "rate": 3.9,
@@ -2065,7 +2079,7 @@ const GAME = {
     ]
   },
   "9MZGGWHPKQ4C": {
-    "antiquity": 865,
+    "antiquity": 866,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -2078,7 +2092,7 @@ const GAME = {
     ]
   },
   "9MZKB471R6CZ": {
-    "antiquity": 131,
+    "antiquity": 132,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -2092,7 +2106,7 @@ const GAME = {
     ]
   },
   "9MZKGMN35RM0": {
-    "antiquity": 12,
+    "antiquity": 13,
     "gamepass": false,
     "price": 12.49,
     "rate": 1.0,
@@ -2106,7 +2120,7 @@ const GAME = {
     ]
   },
   "9MZKQP6VJ6BC": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 0.0,
     "rate": 5.0,
@@ -2122,11 +2136,11 @@ const GAME = {
     ]
   },
   "9MZL842T57QN": {
-    "antiquity": 58,
+    "antiquity": 59,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 3609,
+    "reviews": 3610,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -2138,7 +2152,7 @@ const GAME = {
     ]
   },
   "9MZN3SMXN824": {
-    "antiquity": 1263,
+    "antiquity": 1264,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.3,
@@ -2153,7 +2167,7 @@ const GAME = {
     ]
   },
   "9MZNFF29W9ZX": {
-    "antiquity": 873,
+    "antiquity": 874,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -2167,7 +2181,7 @@ const GAME = {
     ]
   },
   "9MZNS9NZ97PF": {
-    "antiquity": 1155,
+    "antiquity": 1156,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -2183,7 +2197,7 @@ const GAME = {
     ]
   },
   "9MZNSBX2J595": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -2198,7 +2212,7 @@ const GAME = {
     ]
   },
   "9MZQ41B0XJ6S": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 34.99,
     "rate": 1.2,
@@ -2213,7 +2227,7 @@ const GAME = {
     ]
   },
   "9MZRSLLWKWDV": {
-    "antiquity": 956,
+    "antiquity": 957,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
@@ -2227,7 +2241,7 @@ const GAME = {
     ]
   },
   "9MZS106FV79K": {
-    "antiquity": 293,
+    "antiquity": 294,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.2,
@@ -2240,10 +2254,10 @@ const GAME = {
     ]
   },
   "9MZTR4N1K8C1": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 4.99,
-    "rate": 3.5,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -2258,7 +2272,7 @@ const GAME = {
     ]
   },
   "9MZTX19ZWKWQ": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 17.49,
     "rate": 4.0,
@@ -2274,7 +2288,7 @@ const GAME = {
     ]
   },
   "9MZVRNQQDH7W": {
-    "antiquity": 10,
+    "antiquity": 11,
     "gamepass": false,
     "price": 109.99,
     "rate": 3.4,
@@ -2285,24 +2299,8 @@ const GAME = {
       "Bundle"
     ]
   },
-  "9MZW3T6GTCLP": {
-    "antiquity": 335,
-    "gamepass": false,
-    "price": 3.49,
-    "rate": 3.8,
-    "reviews": 0,
-    "trial": false,
-    "discount": 30.060118,
-    "tags": [
-      "Shooter",
-      "Action",
-      "Fighting",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9N000033SQDR": {
-    "antiquity": 1357,
+    "antiquity": 1358,
     "gamepass": false,
     "price": 9.89,
     "rate": 3.6,
@@ -2317,7 +2315,7 @@ const GAME = {
     ]
   },
   "9N0102B834ZM": {
-    "antiquity": 770,
+    "antiquity": 771,
     "gamepass": false,
     "price": 0.99,
     "rate": 5.0,
@@ -2331,7 +2329,7 @@ const GAME = {
     ]
   },
   "9N01MR5LF53S": {
-    "antiquity": 295,
+    "antiquity": 296,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -2351,7 +2349,7 @@ const GAME = {
     ]
   },
   "9N0232QL7WNF": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 69.99,
     "rate": 2.7,
@@ -2366,7 +2364,7 @@ const GAME = {
     ]
   },
   "9N02PBHR35KM": {
-    "antiquity": 419,
+    "antiquity": 420,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -2383,7 +2381,7 @@ const GAME = {
     ]
   },
   "9N03Q5P2PPNJ": {
-    "antiquity": 154,
+    "antiquity": 155,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.1,
@@ -2399,7 +2397,7 @@ const GAME = {
     ]
   },
   "9N0423W2ZVNQ": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 18.99,
     "rate": 5.0,
@@ -2413,7 +2411,7 @@ const GAME = {
     ]
   },
   "9N060Z8B3BNF": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -2427,7 +2425,7 @@ const GAME = {
     ]
   },
   "9N06V8XJ5G7L": {
-    "antiquity": 984,
+    "antiquity": 985,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
@@ -2441,7 +2439,7 @@ const GAME = {
     ]
   },
   "9N09JVVPP3HH": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 49.99,
     "rate": 1.0,
@@ -2454,7 +2452,7 @@ const GAME = {
     ]
   },
   "9N0BXMRL9X66": {
-    "antiquity": 199,
+    "antiquity": 200,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
@@ -2478,10 +2476,10 @@ const GAME = {
     ]
   },
   "9N0CJJVN8K7G": {
-    "antiquity": 17,
+    "antiquity": 18,
     "gamepass": false,
     "price": 4.99,
-    "rate": 3.5,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -2493,20 +2491,19 @@ const GAME = {
     ]
   },
   "9N0J1QQZQV83": {
-    "antiquity": 1308,
+    "antiquity": 1309,
     "gamepass": false,
-    "price": 21.99,
+    "price": 54.99,
     "rate": 4.3,
     "reviews": 27,
     "trial": false,
-    "discount": 60.01091,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "Oferta"
+      "Bundle"
     ]
   },
   "9N0J5XX8LP8G": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -2520,7 +2517,7 @@ const GAME = {
     ]
   },
   "9N0K0Q39X4NT": {
-    "antiquity": 335,
+    "antiquity": 336,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -2537,7 +2534,7 @@ const GAME = {
     ]
   },
   "9N0L2L5PHDH0": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -2551,7 +2548,7 @@ const GAME = {
     ]
   },
   "9N0M3GVB0KNN": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -2566,7 +2563,7 @@ const GAME = {
     ]
   },
   "9N0PXW8HH8RG": {
-    "antiquity": 208,
+    "antiquity": 209,
     "gamepass": false,
     "price": 21.11,
     "rate": 4.5,
@@ -2582,7 +2579,7 @@ const GAME = {
     ]
   },
   "9N0QL7B5RB9J": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -2597,7 +2594,7 @@ const GAME = {
     ]
   },
   "9N0S54SZJTFJ": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
@@ -2613,20 +2610,21 @@ const GAME = {
     ]
   },
   "9N0VL3VWBQ82": {
-    "antiquity": 75,
+    "antiquity": 76,
     "gamepass": false,
-    "price": 15.99,
+    "price": 13.59,
     "rate": 4.5,
     "reviews": 0,
     "trial": false,
-    "discount": 0,
+    "discount": 15.009379,
     "tags": [
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9N0VPSQMG5QC": {
-    "antiquity": 80,
+    "antiquity": 81,
     "gamepass": false,
     "price": 66.49,
     "rate": 3.3,
@@ -2643,7 +2641,7 @@ const GAME = {
     ]
   },
   "9N0WCTGGMXX2": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -2655,7 +2653,7 @@ const GAME = {
     ]
   },
   "9N118HSQ143D": {
-    "antiquity": 342,
+    "antiquity": 343,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
@@ -2672,7 +2670,7 @@ const GAME = {
     ]
   },
   "9N13412FBDKB": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.5,
@@ -2686,7 +2684,7 @@ const GAME = {
     ]
   },
   "9N137SMF48BQ": {
-    "antiquity": 327,
+    "antiquity": 328,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
@@ -2701,7 +2699,7 @@ const GAME = {
     ]
   },
   "9N14221KDDV1": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -2717,7 +2715,7 @@ const GAME = {
     ]
   },
   "9N143C6TQNKQ": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 89.99,
     "rate": 4.0,
@@ -2733,7 +2731,7 @@ const GAME = {
     ]
   },
   "9N14J9JZ8ZXR": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -2747,7 +2745,7 @@ const GAME = {
     ]
   },
   "9N15NJCNG3BB": {
-    "antiquity": 321,
+    "antiquity": 322,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.9,
@@ -2760,7 +2758,7 @@ const GAME = {
     ]
   },
   "9N15RZTXDNPG": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -2775,23 +2773,22 @@ const GAME = {
     ]
   },
   "9N16L6MD35Q5": {
-    "antiquity": 1448,
+    "antiquity": 1449,
     "gamepass": false,
-    "price": 9.99,
+    "price": 39.99,
     "rate": 3.1,
     "reviews": 0,
     "trial": false,
-    "discount": 75.01876,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Sports",
       "SinglePlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "9N16VC4RS1H5": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 7.99,
     "rate": 5.0,
@@ -2804,7 +2801,7 @@ const GAME = {
     ]
   },
   "9N16X47Z5PH5": {
-    "antiquity": 104,
+    "antiquity": 105,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.1,
@@ -2817,7 +2814,7 @@ const GAME = {
     ]
   },
   "9N19RM08QL3K": {
-    "antiquity": 91,
+    "antiquity": 92,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -2829,8 +2826,25 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9N1B0BCFBFPV": {
+    "antiquity": 481,
+    "gamepass": false,
+    "price": 39.59,
+    "rate": 2.0,
+    "reviews": 4,
+    "trial": false,
+    "discount": 67.005585,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9N1C1W3913LG": {
-    "antiquity": 84,
+    "antiquity": 85,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -2845,7 +2859,7 @@ const GAME = {
     ]
   },
   "9N1GXPXX1LL2": {
-    "antiquity": 669,
+    "antiquity": 670,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.0,
@@ -2860,7 +2874,7 @@ const GAME = {
     ]
   },
   "9N1KBNN8X215": {
-    "antiquity": 475,
+    "antiquity": 476,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.5,
@@ -2874,7 +2888,7 @@ const GAME = {
     ]
   },
   "9N1L0KL84B56": {
-    "antiquity": 429,
+    "antiquity": 430,
     "gamepass": false,
     "price": 23.09,
     "rate": 3.8,
@@ -2888,7 +2902,7 @@ const GAME = {
     ]
   },
   "9N1L3W88X7W4": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.0,
@@ -2904,7 +2918,7 @@ const GAME = {
     ]
   },
   "9N1NSTSFN5NM": {
-    "antiquity": 258,
+    "antiquity": 259,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -2919,7 +2933,7 @@ const GAME = {
     ]
   },
   "9N1P6ZT92LNT": {
-    "antiquity": 1511,
+    "antiquity": 1512,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -2936,7 +2950,7 @@ const GAME = {
     ]
   },
   "9N1R83CKGZJP": {
-    "antiquity": 1029,
+    "antiquity": 1030,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
@@ -2951,7 +2965,7 @@ const GAME = {
     ]
   },
   "9N1T03Q2J6NH": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -2967,10 +2981,10 @@ const GAME = {
     ]
   },
   "9N1T1ZVNJHTR": {
-    "antiquity": 12,
+    "antiquity": 13,
     "gamepass": false,
     "price": 9.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -2981,8 +2995,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9N1VP8WDQK4D": {
+    "antiquity": 432,
+    "gamepass": true,
+    "price": 19.99,
+    "rate": 3.8,
+    "reviews": 173,
+    "trial": false,
+    "discount": 50.012505,
+    "tags": [
+      "Compras",
+      "Action",
+      "Role playing",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "GamePass",
+      "Oferta"
+    ]
+  },
   "9N1VXP11C7ND": {
-    "antiquity": 84,
+    "antiquity": 85,
     "gamepass": false,
     "price": 62.99,
     "rate": 3.8,
@@ -2996,7 +3029,7 @@ const GAME = {
     ]
   },
   "9N1Z8WNDX5RH": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -3011,10 +3044,10 @@ const GAME = {
     ]
   },
   "9N20FM8N1LD7": {
-    "antiquity": 13,
+    "antiquity": 14,
     "gamepass": false,
     "price": 11.99,
-    "rate": 3.5,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -3025,7 +3058,7 @@ const GAME = {
     ]
   },
   "9N20H470B709": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 9.99,
     "rate": 1.4,
@@ -3042,7 +3075,7 @@ const GAME = {
     ]
   },
   "9N232RBCFR2G": {
-    "antiquity": 756,
+    "antiquity": 757,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -3058,7 +3091,7 @@ const GAME = {
     ]
   },
   "9N2400CVNHVM": {
-    "antiquity": 90,
+    "antiquity": 91,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.4,
@@ -3071,7 +3104,7 @@ const GAME = {
     ]
   },
   "9N24ST9292XS": {
-    "antiquity": 180,
+    "antiquity": 181,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
@@ -3085,7 +3118,7 @@ const GAME = {
     ]
   },
   "9N25GV4TVG0C": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -3101,10 +3134,10 @@ const GAME = {
     ]
   },
   "9N25PP7JM560": {
-    "antiquity": 24,
+    "antiquity": 25,
     "gamepass": false,
     "price": 3.99,
-    "rate": 2.2,
+    "rate": 2.1,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -3116,7 +3149,7 @@ const GAME = {
     ]
   },
   "9N25STHZNZK8": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.0,
@@ -3132,7 +3165,7 @@ const GAME = {
     ]
   },
   "9N28HRLH972X": {
-    "antiquity": 160,
+    "antiquity": 161,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -3144,8 +3177,25 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9N29K0BW4KM0": {
+    "antiquity": 330,
+    "gamepass": false,
+    "price": 39.59,
+    "rate": 3.9,
+    "reviews": 7,
+    "trial": false,
+    "discount": 67.005585,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9N29VZ9LRNNQ": {
-    "antiquity": 755,
+    "antiquity": 756,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -3158,7 +3208,7 @@ const GAME = {
     ]
   },
   "9N2CTV36Z5S6": {
-    "antiquity": 1376,
+    "antiquity": 1377,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -3171,7 +3221,7 @@ const GAME = {
     ]
   },
   "9N2DCQKDLSB3": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.7,
@@ -3184,7 +3234,7 @@ const GAME = {
     ]
   },
   "9N2DMQBN9RC4": {
-    "antiquity": 1146,
+    "antiquity": 1147,
     "gamepass": false,
     "price": 23.09,
     "rate": 2.2,
@@ -3202,11 +3252,11 @@ const GAME = {
     ]
   },
   "9N2FWZ1ZG9JS": {
-    "antiquity": 133,
+    "antiquity": 134,
     "gamepass": false,
     "price": 59.99,
-    "rate": 2.3,
-    "reviews": 3,
+    "rate": 2.0,
+    "reviews": 4,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -3215,7 +3265,7 @@ const GAME = {
     ]
   },
   "9N2H63Z2GLBC": {
-    "antiquity": 1725,
+    "antiquity": 1726,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
@@ -3228,7 +3278,7 @@ const GAME = {
     ]
   },
   "9N2HB4MWG7HM": {
-    "antiquity": 69,
+    "antiquity": 70,
     "gamepass": true,
     "price": 34.99,
     "rate": 3.9,
@@ -3241,7 +3291,7 @@ const GAME = {
     ]
   },
   "9N2J0FGV30DX": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.0,
@@ -3256,7 +3306,7 @@ const GAME = {
     ]
   },
   "9N2J34SBH4WW": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.5,
@@ -3269,7 +3319,7 @@ const GAME = {
     ]
   },
   "9N2PS831S84N": {
-    "antiquity": 291,
+    "antiquity": 292,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.9,
@@ -3285,7 +3335,7 @@ const GAME = {
     ]
   },
   "9N2QFDZTMZW5": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.2,
@@ -3297,8 +3347,26 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9N2QM0D8H7ZX": {
+    "antiquity": 481,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 1.8,
+    "reviews": 5,
+    "trial": false,
+    "discount": 75.0075,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9N2QS4Z635WT": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 49.99,
     "rate": 2.5,
@@ -3315,7 +3383,7 @@ const GAME = {
     ]
   },
   "9N2S04LGXXH4": {
-    "antiquity": 1004,
+    "antiquity": 1005,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.4,
@@ -3329,7 +3397,7 @@ const GAME = {
     ]
   },
   "9N2S4G07469M": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 18.49,
     "rate": 5.0,
@@ -3342,7 +3410,7 @@ const GAME = {
     ]
   },
   "9N2TDJMPK2N5": {
-    "antiquity": 161,
+    "antiquity": 162,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -3357,7 +3425,7 @@ const GAME = {
     ]
   },
   "9N2TS3W9KLTZ": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.5,
@@ -3373,7 +3441,7 @@ const GAME = {
     ]
   },
   "9N2VDS259QP1": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
@@ -3390,7 +3458,7 @@ const GAME = {
     ]
   },
   "9N2W03KZ5776": {
-    "antiquity": 255,
+    "antiquity": 256,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.2,
@@ -3406,10 +3474,10 @@ const GAME = {
     ]
   },
   "9N2XC0ML2K47": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 12.49,
-    "rate": 3.8,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -3421,21 +3489,20 @@ const GAME = {
     ]
   },
   "9N2XHRDKCJPG": {
-    "antiquity": 797,
+    "antiquity": 798,
     "gamepass": false,
-    "price": 9.99,
+    "price": 39.99,
     "rate": 4.2,
     "reviews": 8,
     "trial": false,
-    "discount": 75.01876,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
-      "Oferta"
+      "Platformer"
     ]
   },
   "9N2Z748SPMTM": {
-    "antiquity": 384,
+    "antiquity": 385,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -3450,11 +3517,11 @@ const GAME = {
     ]
   },
   "9N2ZDN7NWQKV": {
-    "antiquity": 1928,
+    "antiquity": 1929,
     "gamepass": false,
     "price": 19.79,
     "rate": 4.4,
-    "reviews": 674,
+    "reviews": 675,
     "trial": false,
     "discount": 67.01117,
     "tags": [
@@ -3465,7 +3532,7 @@ const GAME = {
     ]
   },
   "9N2ZK1Z9FD6Z": {
-    "antiquity": 789,
+    "antiquity": 790,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
@@ -3483,7 +3550,7 @@ const GAME = {
     ]
   },
   "9N30NRTCRCGH": {
-    "antiquity": 1229,
+    "antiquity": 1230,
     "gamepass": false,
     "price": 11.99,
     "rate": 2.3,
@@ -3499,11 +3566,11 @@ const GAME = {
     ]
   },
   "9N31C351767Q": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.3,
-    "reviews": 6883,
+    "reviews": 6884,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -3512,7 +3579,7 @@ const GAME = {
     ]
   },
   "9N345MHDC8K6": {
-    "antiquity": 75,
+    "antiquity": 76,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.2,
@@ -3531,7 +3598,7 @@ const GAME = {
     ]
   },
   "9N34KBQN60ZW": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.8,
@@ -3546,7 +3613,7 @@ const GAME = {
     ]
   },
   "9N34TQ2ZWKSQ": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 4.99,
     "rate": 1.0,
@@ -3561,7 +3628,7 @@ const GAME = {
     ]
   },
   "9N36DLDC7ZR4": {
-    "antiquity": 1544,
+    "antiquity": 1545,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.8,
@@ -3576,7 +3643,7 @@ const GAME = {
     ]
   },
   "9N390R15QCG4": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 14.99,
     "rate": 2.8,
@@ -3592,7 +3659,7 @@ const GAME = {
     ]
   },
   "9N39Q75R7G35": {
-    "antiquity": 984,
+    "antiquity": 985,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -3607,11 +3674,11 @@ const GAME = {
     ]
   },
   "9N3CJZ3HFHTF": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.0,
-    "reviews": 76,
+    "reviews": 77,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -3623,11 +3690,11 @@ const GAME = {
     ]
   },
   "9N3FPS4LDHCR": {
-    "antiquity": 129,
+    "antiquity": 130,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.7,
-    "reviews": 279,
+    "reviews": 280,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -3638,10 +3705,10 @@ const GAME = {
     ]
   },
   "9N3GJKS8KC6F": {
-    "antiquity": 21,
+    "antiquity": 22,
     "gamepass": false,
     "price": 14.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -3652,7 +3719,7 @@ const GAME = {
     ]
   },
   "9N3JQ2FJ35QD": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -3665,7 +3732,7 @@ const GAME = {
     ]
   },
   "9N3JWSKW431S": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -3678,7 +3745,7 @@ const GAME = {
     ]
   },
   "9N3KJT4MHM4Z": {
-    "antiquity": 564,
+    "antiquity": 565,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.6,
@@ -3696,11 +3763,11 @@ const GAME = {
     ]
   },
   "9N3L5FF8M6SW": {
-    "antiquity": 1161,
+    "antiquity": 1162,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
-    "reviews": 568,
+    "reviews": 569,
     "trial": false,
     "discount": 50.02501,
     "tags": [
@@ -3710,10 +3777,10 @@ const GAME = {
     ]
   },
   "9N3NB0JVNJ6F": {
-    "antiquity": 18,
+    "antiquity": 5,
     "gamepass": false,
     "price": 19.19,
-    "rate": 4.5,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
     "discount": 20.008331,
@@ -3724,7 +3791,7 @@ const GAME = {
     ]
   },
   "9N3NBRGQWP1S": {
-    "antiquity": 214,
+    "antiquity": 215,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -3738,7 +3805,7 @@ const GAME = {
     ]
   },
   "9N3PC5P2S47W": {
-    "antiquity": 1411,
+    "antiquity": 1412,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.7,
@@ -3755,7 +3822,7 @@ const GAME = {
     ]
   },
   "9N3RJXBWDDKW": {
-    "antiquity": 1061,
+    "antiquity": 1062,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.0,
@@ -3770,7 +3837,7 @@ const GAME = {
     ]
   },
   "9N3X075GN7V3": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 29.99,
     "rate": 1.9,
@@ -3784,7 +3851,7 @@ const GAME = {
     ]
   },
   "9N3XD3SC1RBT": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.4,
@@ -3798,7 +3865,7 @@ const GAME = {
     ]
   },
   "9N3XQ7HX9RQ3": {
-    "antiquity": 1700,
+    "antiquity": 1701,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.5,
@@ -3815,7 +3882,7 @@ const GAME = {
     ]
   },
   "9N3ZBMK6BMQL": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 89.99,
     "rate": 5.0,
@@ -3831,7 +3898,7 @@ const GAME = {
     ]
   },
   "9N409FSKB2LP": {
-    "antiquity": 964,
+    "antiquity": 965,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.5,
@@ -3846,7 +3913,7 @@ const GAME = {
     ]
   },
   "9N41KXQK8BM7": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 25.99,
     "rate": 3.2,
@@ -3859,7 +3926,7 @@ const GAME = {
     ]
   },
   "9N41XJKKQT3S": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
@@ -3873,7 +3940,7 @@ const GAME = {
     ]
   },
   "9N423C013B1F": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 119.99,
     "rate": 4.2,
@@ -3887,11 +3954,11 @@ const GAME = {
     ]
   },
   "9N44WK3WV2HJ": {
-    "antiquity": 881,
+    "antiquity": 882,
     "gamepass": true,
     "price": 29.24,
     "rate": 3.0,
-    "reviews": 164,
+    "reviews": 165,
     "trial": false,
     "discount": 35.007782,
     "tags": [
@@ -3903,7 +3970,7 @@ const GAME = {
     ]
   },
   "9N46FXWKHZ24": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.2,
@@ -3917,7 +3984,7 @@ const GAME = {
     ]
   },
   "9N46MD02GQ42": {
-    "antiquity": 1103,
+    "antiquity": 1104,
     "gamepass": false,
     "price": 6.49,
     "rate": 4.8,
@@ -3931,8 +3998,24 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9N472W8BDP6S": {
+    "antiquity": 474,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 3.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 70.0175,
+    "tags": [
+      "Family",
+      "Music",
+      "Platformer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9N47KNN660VR": {
-    "antiquity": 301,
+    "antiquity": 302,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -3948,7 +4031,7 @@ const GAME = {
     ]
   },
   "9N4BH9FLLMWD": {
-    "antiquity": 509,
+    "antiquity": 510,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.2,
@@ -3964,7 +4047,7 @@ const GAME = {
     ]
   },
   "9N4CF9J71CKH": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 43.54,
     "rate": 2.7,
@@ -3978,7 +4061,7 @@ const GAME = {
     ]
   },
   "9N4CPQ4R2180": {
-    "antiquity": 237,
+    "antiquity": 238,
     "gamepass": true,
     "price": 49.99,
     "rate": 2.5,
@@ -3994,7 +4077,7 @@ const GAME = {
     ]
   },
   "9N4DC4325HLM": {
-    "antiquity": 326,
+    "antiquity": 327,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.6,
@@ -4007,7 +4090,7 @@ const GAME = {
     ]
   },
   "9N4DL8WL5DV2": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.4,
@@ -4022,10 +4105,10 @@ const GAME = {
     ]
   },
   "9N4FHWK9HWDK": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.9,
+    "rate": 4.8,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -4036,7 +4119,7 @@ const GAME = {
     ]
   },
   "9N4HFNM59ZZ6": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.7,
@@ -4049,7 +4132,7 @@ const GAME = {
     ]
   },
   "9N4HP33LJS14": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.9,
@@ -4064,7 +4147,7 @@ const GAME = {
     ]
   },
   "9N4HXL0QZ5TZ": {
-    "antiquity": 1523,
+    "antiquity": 1524,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.7,
@@ -4079,7 +4162,7 @@ const GAME = {
     ]
   },
   "9N4JKCZFXHV1": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 37.49,
     "rate": 4.6,
@@ -4091,7 +4174,7 @@ const GAME = {
     ]
   },
   "9N4K3F9558RP": {
-    "antiquity": 565,
+    "antiquity": 566,
     "gamepass": true,
     "price": 0.0,
     "rate": 1.8,
@@ -4110,7 +4193,7 @@ const GAME = {
     ]
   },
   "9N4N2LXTC18P": {
-    "antiquity": 993,
+    "antiquity": 994,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.3,
@@ -4124,7 +4207,7 @@ const GAME = {
     ]
   },
   "9N4N3DXNHG4K": {
-    "antiquity": 286,
+    "antiquity": 287,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
@@ -4137,10 +4220,10 @@ const GAME = {
     ]
   },
   "9N4PDF6566KB": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 10.99,
-    "rate": 0.0,
+    "rate": 5.0,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -4151,22 +4234,23 @@ const GAME = {
     ]
   },
   "9N4RSG99KV1X": {
-    "antiquity": 1537,
+    "antiquity": 1538,
     "gamepass": false,
-    "price": 29.99,
+    "price": 5.99,
     "rate": 2.9,
     "reviews": 61,
     "trial": false,
-    "discount": 0,
+    "discount": 80.02667,
     "tags": [
       "Compras",
       "Strategy",
       "SinglePlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9N4RV24CVXVV": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -4180,7 +4264,7 @@ const GAME = {
     ]
   },
   "9N4TDTC6K4QG": {
-    "antiquity": 430,
+    "antiquity": 431,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -4194,11 +4278,11 @@ const GAME = {
     ]
   },
   "9N4TJ7WZV63P": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 23.99,
     "rate": 3.2,
-    "reviews": 155,
+    "reviews": 156,
     "trial": false,
     "discount": 60.010002,
     "tags": [
@@ -4209,7 +4293,7 @@ const GAME = {
     ]
   },
   "9N4V8K7Z5RRG": {
-    "antiquity": 739,
+    "antiquity": 740,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
@@ -4226,7 +4310,7 @@ const GAME = {
     ]
   },
   "9N4WFSL71XXZ": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 79.99,
     "rate": 4.1,
@@ -4241,7 +4325,7 @@ const GAME = {
     ]
   },
   "9N51PFBPZKKS": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -4255,7 +4339,7 @@ const GAME = {
     ]
   },
   "9N51S9QZMSB6": {
-    "antiquity": 6895,
+    "antiquity": 6896,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -4267,7 +4351,7 @@ const GAME = {
     ]
   },
   "9N5253J559LR": {
-    "antiquity": 1529,
+    "antiquity": 1530,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.5,
@@ -4281,7 +4365,7 @@ const GAME = {
     ]
   },
   "9N52CQMFH3BB": {
-    "antiquity": 1278,
+    "antiquity": 1279,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -4295,7 +4379,7 @@ const GAME = {
     ]
   },
   "9N52P2VKKXCD": {
-    "antiquity": 131,
+    "antiquity": 132,
     "gamepass": false,
     "price": 25.99,
     "rate": 0.0,
@@ -4308,7 +4392,7 @@ const GAME = {
     ]
   },
   "9N52S03DRF2V": {
-    "antiquity": 1439,
+    "antiquity": 1440,
     "gamepass": false,
     "price": 10.49,
     "rate": 3.8,
@@ -4324,7 +4408,7 @@ const GAME = {
     ]
   },
   "9N56NGKLG0NW": {
-    "antiquity": 54,
+    "antiquity": 55,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.9,
@@ -4338,7 +4422,7 @@ const GAME = {
     ]
   },
   "9N584LPFG1GM": {
-    "antiquity": 1713,
+    "antiquity": 1714,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -4352,7 +4436,7 @@ const GAME = {
     ]
   },
   "9N5BFFN3V0K9": {
-    "antiquity": 131,
+    "antiquity": 132,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
@@ -4366,7 +4450,7 @@ const GAME = {
     ]
   },
   "9N5DK1RBPFX3": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 44.99,
     "rate": 2.5,
@@ -4379,7 +4463,7 @@ const GAME = {
     ]
   },
   "9N5FBD97PC72": {
-    "antiquity": 1376,
+    "antiquity": 1377,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -4391,7 +4475,7 @@ const GAME = {
     ]
   },
   "9N5GLFTT40SN": {
-    "antiquity": 887,
+    "antiquity": 888,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -4406,10 +4490,10 @@ const GAME = {
     ]
   },
   "9N5HBQZFJ2ZC": {
-    "antiquity": 54,
+    "antiquity": 55,
     "gamepass": false,
     "price": 9.99,
-    "rate": 5.0,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -4419,23 +4503,24 @@ const GAME = {
     ]
   },
   "9N5HDNDWVV34": {
-    "antiquity": 606,
+    "antiquity": 607,
     "gamepass": false,
-    "price": 74.99,
+    "price": 18.74,
     "rate": 4.1,
     "reviews": 29,
     "trial": true,
-    "discount": 0,
+    "discount": 75.01,
     "tags": [
       "Compras",
       "Action",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9N5JPWPRVCHT": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 16.99,
     "rate": 0.0,
@@ -4448,7 +4533,7 @@ const GAME = {
     ]
   },
   "9N5JR3Q164J3": {
-    "antiquity": 1364,
+    "antiquity": 1365,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.5,
@@ -4463,7 +4548,7 @@ const GAME = {
     ]
   },
   "9N5JRWWGMS1R": {
-    "antiquity": 984,
+    "antiquity": 985,
     "gamepass": true,
     "price": 34.99,
     "rate": 4.3,
@@ -4480,7 +4565,7 @@ const GAME = {
     ]
   },
   "9N5JX0CG1SVC": {
-    "antiquity": 1110,
+    "antiquity": 1111,
     "gamepass": true,
     "price": 9.99,
     "rate": 2.7,
@@ -4495,7 +4580,7 @@ const GAME = {
     ]
   },
   "9N5MDKX1H5ST": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": false,
     "price": 32.99,
     "rate": 2.8,
@@ -4512,7 +4597,7 @@ const GAME = {
     ]
   },
   "9N5MZM3J3LCQ": {
-    "antiquity": 239,
+    "antiquity": 240,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
@@ -4527,7 +4612,7 @@ const GAME = {
     ]
   },
   "9N5N6DGKCQXK": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 20.49,
     "rate": 4.1,
@@ -4542,7 +4627,7 @@ const GAME = {
     ]
   },
   "9N5P2152RBPM": {
-    "antiquity": 1670,
+    "antiquity": 1671,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.3,
@@ -4557,7 +4642,7 @@ const GAME = {
     ]
   },
   "9N5PWNBHR1Q4": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.0,
@@ -4571,11 +4656,11 @@ const GAME = {
     ]
   },
   "9N5RFGRVKQLF": {
-    "antiquity": 1202,
+    "antiquity": 1203,
     "gamepass": false,
     "price": 4.24,
-    "rate": 4.6,
-    "reviews": 0,
+    "rate": 1.0,
+    "reviews": 1,
     "trial": false,
     "discount": 75.04414,
     "tags": [
@@ -4586,7 +4671,7 @@ const GAME = {
     ]
   },
   "9N5RTZMQGW37": {
-    "antiquity": 888,
+    "antiquity": 889,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.9,
@@ -4602,7 +4687,7 @@ const GAME = {
     ]
   },
   "9N5S1PD9ZNSJ": {
-    "antiquity": 914,
+    "antiquity": 915,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.2,
@@ -4617,7 +4702,7 @@ const GAME = {
     ]
   },
   "9N5TQ3ML9LJJ": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -4631,7 +4716,7 @@ const GAME = {
     ]
   },
   "9N5V0PMFRP14": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 104.99,
     "rate": 2.5,
@@ -4645,7 +4730,7 @@ const GAME = {
     ]
   },
   "9N5V65564VWJ": {
-    "antiquity": 1194,
+    "antiquity": 1195,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.2,
@@ -4660,7 +4745,7 @@ const GAME = {
     ]
   },
   "9N5V8S7NF4MS": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.0,
@@ -4674,7 +4759,7 @@ const GAME = {
     ]
   },
   "9N5WP58FGTPK": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 8.99,
     "rate": 2.0,
@@ -4687,7 +4772,7 @@ const GAME = {
     ]
   },
   "9N5XWXRJRLCN": {
-    "antiquity": 174,
+    "antiquity": 175,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.0,
@@ -4703,7 +4788,7 @@ const GAME = {
     ]
   },
   "9N5ZZBDKSC3V": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.9,
@@ -4716,7 +4801,7 @@ const GAME = {
     ]
   },
   "9N60PDBXC0MB": {
-    "antiquity": 860,
+    "antiquity": 861,
     "gamepass": false,
     "price": 15.99,
     "rate": 2.9,
@@ -4732,7 +4817,7 @@ const GAME = {
     ]
   },
   "9N61DTKQXBX5": {
-    "antiquity": 1089,
+    "antiquity": 1090,
     "gamepass": false,
     "price": 29.99,
     "rate": 1.9,
@@ -4747,24 +4832,25 @@ const GAME = {
     ]
   },
   "9N61FL5WCCF6": {
-    "antiquity": 684,
+    "antiquity": 685,
     "gamepass": false,
-    "price": 89.99,
+    "price": 22.49,
     "rate": 4.2,
     "reviews": 16,
     "trial": false,
-    "discount": 0,
+    "discount": 75.00833,
     "tags": [
       "Compras",
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9N62DB7W4DQ2": {
-    "antiquity": 1671,
+    "antiquity": 1672,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -4778,7 +4864,7 @@ const GAME = {
     ]
   },
   "9N632462XWS0": {
-    "antiquity": 109,
+    "antiquity": 110,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.4,
@@ -4792,7 +4878,7 @@ const GAME = {
     ]
   },
   "9N64MTWKLCJ9": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -4806,7 +4892,7 @@ const GAME = {
     ]
   },
   "9N6594W8F09L": {
-    "antiquity": 90,
+    "antiquity": 91,
     "gamepass": false,
     "price": 54.99,
     "rate": 0.0,
@@ -4818,8 +4904,22 @@ const GAME = {
       "Bundle"
     ]
   },
+  "9N66Z9X8SCVB": {
+    "antiquity": 475,
+    "gamepass": false,
+    "price": 12.49,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 50.020008,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9N67P5D62MWZ": {
-    "antiquity": 1328,
+    "antiquity": 1329,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
@@ -4833,7 +4933,7 @@ const GAME = {
     ]
   },
   "9N68F8TM7TKW": {
-    "antiquity": 537,
+    "antiquity": 538,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.8,
@@ -4847,7 +4947,7 @@ const GAME = {
     ]
   },
   "9N69G2L33Z7S": {
-    "antiquity": 1399,
+    "antiquity": 1400,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -4861,7 +4961,7 @@ const GAME = {
     ]
   },
   "9N69TLHB90L9": {
-    "antiquity": 305,
+    "antiquity": 306,
     "gamepass": false,
     "price": 37.99,
     "rate": 3.4,
@@ -4878,7 +4978,7 @@ const GAME = {
     ]
   },
   "9N6C6J7C3GTQ": {
-    "antiquity": 419,
+    "antiquity": 420,
     "gamepass": true,
     "price": 16.99,
     "rate": 4.3,
@@ -4893,7 +4993,7 @@ const GAME = {
     ]
   },
   "9N6DTV59HR10": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 34.99,
     "rate": 5.0,
@@ -4906,7 +5006,7 @@ const GAME = {
     ]
   },
   "9N6FNFH45ZP6": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -4919,7 +5019,7 @@ const GAME = {
     ]
   },
   "9N6FTC4QJMWN": {
-    "antiquity": 1244,
+    "antiquity": 1245,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -4935,7 +5035,7 @@ const GAME = {
     ]
   },
   "9N6GBTLDV742": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.1,
@@ -4950,7 +5050,7 @@ const GAME = {
     ]
   },
   "9N6HB778ZWP2": {
-    "antiquity": 1411,
+    "antiquity": 1412,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
@@ -4965,7 +5065,7 @@ const GAME = {
     ]
   },
   "9N6KKTHZD14B": {
-    "antiquity": 31,
+    "antiquity": 32,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.8,
@@ -4979,7 +5079,7 @@ const GAME = {
     ]
   },
   "9N6MVSDBHPGN": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 22.49,
     "rate": 4.0,
@@ -4991,7 +5091,7 @@ const GAME = {
     ]
   },
   "9N6P9N9WDG4P": {
-    "antiquity": 136,
+    "antiquity": 137,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -5005,7 +5105,7 @@ const GAME = {
     ]
   },
   "9N6PB00DXQ7H": {
-    "antiquity": 1103,
+    "antiquity": 1104,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -5019,7 +5119,7 @@ const GAME = {
     ]
   },
   "9N6PXV525F05": {
-    "antiquity": 73,
+    "antiquity": 74,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.5,
@@ -5033,7 +5133,7 @@ const GAME = {
     ]
   },
   "9N6RH19H10J5": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -5048,7 +5148,7 @@ const GAME = {
     ]
   },
   "9N6S2LR57X9S": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -5061,7 +5161,7 @@ const GAME = {
     ]
   },
   "9N6T6G5C1CBX": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 12.99,
     "rate": 2.9,
@@ -5073,7 +5173,7 @@ const GAME = {
     ]
   },
   "9N6V0ZCG8XH3": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
@@ -5087,7 +5187,7 @@ const GAME = {
     ]
   },
   "9N6V2181GHLM": {
-    "antiquity": 1875,
+    "antiquity": 1876,
     "gamepass": false,
     "price": 12.99,
     "rate": 3.9,
@@ -5102,7 +5202,7 @@ const GAME = {
     ]
   },
   "9N6VSR9XVP7R": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.5,
@@ -5117,7 +5217,7 @@ const GAME = {
     ]
   },
   "9N6WFVFV6PZR": {
-    "antiquity": 76,
+    "antiquity": 77,
     "gamepass": false,
     "price": 27.49,
     "rate": 4.6,
@@ -5129,7 +5229,7 @@ const GAME = {
     ]
   },
   "9N6Z8DQXSQWH": {
-    "antiquity": 2289,
+    "antiquity": 2290,
     "gamepass": true,
     "price": 6.59,
     "rate": 4.7,
@@ -5145,7 +5245,7 @@ const GAME = {
     ]
   },
   "9N71MVPH8C67": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 14.99,
     "rate": 0.0,
@@ -5159,7 +5259,7 @@ const GAME = {
     ]
   },
   "9N7271QN4SGB": {
-    "antiquity": 262,
+    "antiquity": 263,
     "gamepass": false,
     "price": 74.99,
     "rate": 4.3,
@@ -5176,7 +5276,7 @@ const GAME = {
     ]
   },
   "9N732VFPMWKT": {
-    "antiquity": 321,
+    "antiquity": 322,
     "gamepass": true,
     "price": 22.49,
     "rate": 4.5,
@@ -5191,7 +5291,7 @@ const GAME = {
     ]
   },
   "9N74G6B9G7Q2": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -5204,7 +5304,7 @@ const GAME = {
     ]
   },
   "9N74TZD8HQ9H": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 14.99,
     "rate": 1.0,
@@ -5220,11 +5320,11 @@ const GAME = {
     ]
   },
   "9N77DC5QKC8X": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.2,
-    "reviews": 599,
+    "reviews": 601,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -5233,7 +5333,7 @@ const GAME = {
     ]
   },
   "9N77RQGB8ZHP": {
-    "antiquity": 19,
+    "antiquity": 20,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.5,
@@ -5246,7 +5346,7 @@ const GAME = {
     ]
   },
   "9N7BN9970PPS": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": false,
     "price": 12.49,
     "rate": 5.0,
@@ -5260,7 +5360,7 @@ const GAME = {
     ]
   },
   "9N7CKKL3J5N3": {
-    "antiquity": 651,
+    "antiquity": 652,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.3,
@@ -5275,7 +5375,7 @@ const GAME = {
     ]
   },
   "9N7D1V7GLSR7": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 35.99,
     "rate": 4.0,
@@ -5292,7 +5392,7 @@ const GAME = {
     ]
   },
   "9N7FRRZ31LTS": {
-    "antiquity": 136,
+    "antiquity": 137,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.1,
@@ -5310,7 +5410,7 @@ const GAME = {
     ]
   },
   "9N7GCF5SGCXC": {
-    "antiquity": 1284,
+    "antiquity": 1285,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
@@ -5326,7 +5426,7 @@ const GAME = {
     ]
   },
   "9N7GJJ2WTPBZ": {
-    "antiquity": 146,
+    "antiquity": 147,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.1,
@@ -5344,23 +5444,22 @@ const GAME = {
     ]
   },
   "9N7GSZS8X03N": {
-    "antiquity": 6538,
+    "antiquity": 6539,
     "gamepass": false,
-    "price": 3.74,
+    "price": 14.99,
     "rate": 5.0,
     "reviews": 4,
     "trial": false,
-    "discount": 75.05003,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
       "Simulation",
-      "Strategy",
-      "Oferta"
+      "Strategy"
     ]
   },
   "9N7H1V8CT8T2": {
-    "antiquity": 83,
+    "antiquity": 84,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -5376,7 +5475,7 @@ const GAME = {
     ]
   },
   "9N7H54KNCB9N": {
-    "antiquity": 1376,
+    "antiquity": 1377,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -5394,7 +5493,7 @@ const GAME = {
     ]
   },
   "9N7HT6KWHDXZ": {
-    "antiquity": 151,
+    "antiquity": 152,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -5406,7 +5505,7 @@ const GAME = {
     ]
   },
   "9N7J727BVHXL": {
-    "antiquity": 635,
+    "antiquity": 636,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.8,
@@ -5419,11 +5518,11 @@ const GAME = {
     ]
   },
   "9N7JCPPCPN37": {
-    "antiquity": 473,
+    "antiquity": 474,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.6,
-    "reviews": 112,
+    "reviews": 113,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -5433,7 +5532,7 @@ const GAME = {
     ]
   },
   "9N7JQH5D1T37": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.0,
@@ -5446,7 +5545,7 @@ const GAME = {
     ]
   },
   "9N7M2HMSMB2Q": {
-    "antiquity": 496,
+    "antiquity": 497,
     "gamepass": false,
     "price": 4.49,
     "rate": 2.8,
@@ -5460,7 +5559,7 @@ const GAME = {
     ]
   },
   "9N7MPSGBHKZ8": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.7,
@@ -5476,7 +5575,7 @@ const GAME = {
     ]
   },
   "9N7N2QZ5RZ1H": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
@@ -5490,7 +5589,7 @@ const GAME = {
     ]
   },
   "9N7P8GVMF6SS": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -5504,20 +5603,21 @@ const GAME = {
     ]
   },
   "9N7PF25QB1VC": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
-    "price": 31.49,
+    "price": 25.19,
     "rate": 4.5,
     "reviews": 2,
     "trial": false,
-    "discount": 0,
+    "discount": 20.006348,
     "tags": [
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9N7PL7D5CDJ8": {
-    "antiquity": 1902,
+    "antiquity": 1903,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
@@ -5536,7 +5636,7 @@ const GAME = {
     ]
   },
   "9N7PQ80B145R": {
-    "antiquity": 986,
+    "antiquity": 987,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.6,
@@ -5554,7 +5654,7 @@ const GAME = {
     ]
   },
   "9N7Q274FM3DT": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 12.99,
     "rate": 2.1,
@@ -5568,7 +5668,7 @@ const GAME = {
     ]
   },
   "9N7QQZF1MFHW": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -5581,11 +5681,11 @@ const GAME = {
     ]
   },
   "9N7RB1X6FKM4": {
-    "antiquity": 1516,
+    "antiquity": 1517,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
-    "reviews": 38,
+    "reviews": 39,
     "trial": true,
     "discount": 0,
     "tags": [
@@ -5596,7 +5696,7 @@ const GAME = {
     ]
   },
   "9N7RXHK6FN5B": {
-    "antiquity": 1551,
+    "antiquity": 1552,
     "gamepass": false,
     "price": 10.49,
     "rate": 2.9,
@@ -5610,7 +5710,7 @@ const GAME = {
     ]
   },
   "9N7S0GG6H8T2": {
-    "antiquity": 174,
+    "antiquity": 175,
     "gamepass": false,
     "price": 13.99,
     "rate": 5.0,
@@ -5623,7 +5723,7 @@ const GAME = {
     ]
   },
   "9N7T25ZJJQ9T": {
-    "antiquity": 466,
+    "antiquity": 467,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -5637,7 +5737,7 @@ const GAME = {
     ]
   },
   "9N7TG8VG6137": {
-    "antiquity": 132,
+    "antiquity": 133,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.0,
@@ -5650,7 +5750,7 @@ const GAME = {
     ]
   },
   "9N7TMD27740J": {
-    "antiquity": 431,
+    "antiquity": 432,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.7,
@@ -5666,7 +5766,7 @@ const GAME = {
     ]
   },
   "9N7TVGWPQ91H": {
-    "antiquity": 111,
+    "antiquity": 112,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -5679,7 +5779,7 @@ const GAME = {
     ]
   },
   "9N7TZ2PQ60WB": {
-    "antiquity": 200,
+    "antiquity": 201,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -5692,7 +5792,7 @@ const GAME = {
     ]
   },
   "9N7WG2G8PJT3": {
-    "antiquity": 185,
+    "antiquity": 186,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.3,
@@ -5705,7 +5805,7 @@ const GAME = {
     ]
   },
   "9N7WKBBVZ7QX": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -5721,7 +5821,7 @@ const GAME = {
     ]
   },
   "9N7ZCLLR01B3": {
-    "antiquity": 202,
+    "antiquity": 203,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -5736,7 +5836,7 @@ const GAME = {
     ]
   },
   "9N8028F76J12": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -5753,7 +5853,7 @@ const GAME = {
     ]
   },
   "9N80SXPS2HHC": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 7.49,
     "rate": 0.0,
@@ -5766,7 +5866,7 @@ const GAME = {
     ]
   },
   "9N81WS04WNR5": {
-    "antiquity": 1180,
+    "antiquity": 1181,
     "gamepass": false,
     "price": 7.49,
     "rate": 2.3,
@@ -5783,7 +5883,7 @@ const GAME = {
     ]
   },
   "9N857BZCZPMM": {
-    "antiquity": 845,
+    "antiquity": 846,
     "gamepass": false,
     "price": 27.99,
     "rate": 3.2,
@@ -5799,7 +5899,7 @@ const GAME = {
     ]
   },
   "9N85B4HLTVL1": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -5813,7 +5913,7 @@ const GAME = {
     ]
   },
   "9N866Z901GB5": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.2,
@@ -5828,8 +5928,23 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9N86ZGDKD4T4": {
+    "antiquity": 2,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 5.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Compras",
+      "Action",
+      "Platformer",
+      "SinglePlayer"
+    ]
+  },
   "9N872VFSPPQL": {
-    "antiquity": 893,
+    "antiquity": 894,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -5846,7 +5961,7 @@ const GAME = {
     ]
   },
   "9N879W8FXQ6C": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 7.99,
     "rate": 5.0,
@@ -5859,7 +5974,7 @@ const GAME = {
     ]
   },
   "9N87DV1CSMXK": {
-    "antiquity": 1425,
+    "antiquity": 1426,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -5876,7 +5991,7 @@ const GAME = {
     ]
   },
   "9N8CD0XZKLP4": {
-    "antiquity": 1515,
+    "antiquity": 1516,
     "gamepass": true,
     "price": 9.89,
     "rate": 4.7,
@@ -5892,7 +6007,7 @@ const GAME = {
     ]
   },
   "9N8GN31TF2L3": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 94.99,
     "rate": 4.3,
@@ -5905,7 +6020,7 @@ const GAME = {
     ]
   },
   "9N8JZH91GBFC": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 25.99,
     "rate": 4.3,
@@ -5918,7 +6033,7 @@ const GAME = {
     ]
   },
   "9N8KTVPKX66N": {
-    "antiquity": 1202,
+    "antiquity": 1203,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -5940,21 +6055,20 @@ const GAME = {
     ]
   },
   "9N8MMMC0C8MZ": {
-    "antiquity": 55,
+    "antiquity": 56,
     "gamepass": false,
-    "price": 27.19,
+    "price": 33.99,
     "rate": 1.0,
     "reviews": 0,
     "trial": false,
-    "discount": 20.005888,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9N8NDGT7W3M5": {
-    "antiquity": 132,
+    "antiquity": 133,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.5,
@@ -5968,7 +6082,7 @@ const GAME = {
     ]
   },
   "9N8NJ74FZTG9": {
-    "antiquity": 1406,
+    "antiquity": 1407,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.9,
@@ -5985,7 +6099,7 @@ const GAME = {
     ]
   },
   "9N8P2DHF2B0D": {
-    "antiquity": 138,
+    "antiquity": 139,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -6000,7 +6114,7 @@ const GAME = {
     ]
   },
   "9N8Q2DKWVLNX": {
-    "antiquity": 1483,
+    "antiquity": 1484,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -6017,7 +6131,7 @@ const GAME = {
     ]
   },
   "9N8V0PC1L660": {
-    "antiquity": 18,
+    "antiquity": 19,
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -6030,7 +6144,7 @@ const GAME = {
     ]
   },
   "9N8V7M317PZH": {
-    "antiquity": 283,
+    "antiquity": 284,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
@@ -6044,7 +6158,7 @@ const GAME = {
     ]
   },
   "9N8VG0B7TDZ0": {
-    "antiquity": 80,
+    "antiquity": 81,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -6060,7 +6174,7 @@ const GAME = {
     ]
   },
   "9N8WRDC25K6J": {
-    "antiquity": 1425,
+    "antiquity": 1426,
     "gamepass": true,
     "price": 12.99,
     "rate": 4.3,
@@ -6075,7 +6189,7 @@ const GAME = {
     ]
   },
   "9N8XHNXGNZB5": {
-    "antiquity": 1364,
+    "antiquity": 1365,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.1,
@@ -6091,7 +6205,7 @@ const GAME = {
     ]
   },
   "9N8Z8WQ39KTW": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 33.99,
     "rate": 4.0,
@@ -6104,7 +6218,7 @@ const GAME = {
     ]
   },
   "9N8ZGB1375XS": {
-    "antiquity": 838,
+    "antiquity": 839,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -6120,7 +6234,7 @@ const GAME = {
     ]
   },
   "9N90TMJFH89S": {
-    "antiquity": 27,
+    "antiquity": 28,
     "gamepass": false,
     "price": 19.99,
     "rate": 0.0,
@@ -6133,7 +6247,7 @@ const GAME = {
     ]
   },
   "9N92Z4FCHLQX": {
-    "antiquity": 256,
+    "antiquity": 257,
     "gamepass": false,
     "price": 10.49,
     "rate": 4.8,
@@ -6147,7 +6261,7 @@ const GAME = {
     ]
   },
   "9N93V5M3TG4N": {
-    "antiquity": 279,
+    "antiquity": 280,
     "gamepass": true,
     "price": 23.99,
     "rate": 1.6,
@@ -6167,7 +6281,7 @@ const GAME = {
     ]
   },
   "9N954129P3L6": {
-    "antiquity": 32,
+    "antiquity": 33,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.5,
@@ -6181,7 +6295,7 @@ const GAME = {
     ]
   },
   "9N9606CC950J": {
-    "antiquity": 1047,
+    "antiquity": 1048,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
@@ -6193,8 +6307,24 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9N961B11FJ4W": {
+    "antiquity": 670,
+    "gamepass": true,
+    "price": 17.99,
+    "rate": 3.3,
+    "reviews": 90,
+    "trial": false,
+    "discount": 55.013752,
+    "tags": [
+      "Action",
+      "Family",
+      "SinglePlayer",
+      "GamePass",
+      "Oferta"
+    ]
+  },
   "9N96LXZ5SW7C": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -6209,7 +6339,7 @@ const GAME = {
     ]
   },
   "9N974ZHVT0LP": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.3,
@@ -6223,7 +6353,7 @@ const GAME = {
     ]
   },
   "9N97G03VLS4C": {
-    "antiquity": 33,
+    "antiquity": 34,
     "gamepass": false,
     "price": 89.99,
     "rate": 5.0,
@@ -6237,7 +6367,7 @@ const GAME = {
     ]
   },
   "9N97G0QPHSNW": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -6251,11 +6381,11 @@ const GAME = {
     ]
   },
   "9N9C9KTPXL3X": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": true,
     "price": 17.99,
     "rate": 4.1,
-    "reviews": 14,
+    "reviews": 17,
     "trial": false,
     "discount": 10.005003,
     "tags": [
@@ -6267,7 +6397,7 @@ const GAME = {
     ]
   },
   "9N9DN90BLVRQ": {
-    "antiquity": 189,
+    "antiquity": 190,
     "gamepass": false,
     "price": 5.99,
     "rate": 5.0,
@@ -6279,7 +6409,7 @@ const GAME = {
     ]
   },
   "9N9FNJFRL3S3": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -6293,7 +6423,7 @@ const GAME = {
     ]
   },
   "9N9GL8NX4WW8": {
-    "antiquity": 747,
+    "antiquity": 748,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.9,
@@ -6312,7 +6442,7 @@ const GAME = {
     ]
   },
   "9N9H3XR6630F": {
-    "antiquity": 96,
+    "antiquity": 97,
     "gamepass": false,
     "price": 129.99,
     "rate": 5.0,
@@ -6326,7 +6456,7 @@ const GAME = {
     ]
   },
   "9N9HF2KBSV2D": {
-    "antiquity": 278,
+    "antiquity": 279,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.0,
@@ -6345,7 +6475,7 @@ const GAME = {
     ]
   },
   "9N9HW342BZ2X": {
-    "antiquity": 935,
+    "antiquity": 936,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -6362,7 +6492,7 @@ const GAME = {
     ]
   },
   "9N9KKJTQWCSR": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.5,
@@ -6377,7 +6507,7 @@ const GAME = {
     ]
   },
   "9N9L211HC9LQ": {
-    "antiquity": 13,
+    "antiquity": 14,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -6395,7 +6525,7 @@ const GAME = {
     ]
   },
   "9N9M35P20HT0": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -6412,7 +6542,7 @@ const GAME = {
     ]
   },
   "9N9M6QGRQCDG": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.1,
@@ -6427,7 +6557,7 @@ const GAME = {
     ]
   },
   "9N9N7F2C687P": {
-    "antiquity": 56,
+    "antiquity": 57,
     "gamepass": false,
     "price": 35.99,
     "rate": 5.0,
@@ -6440,7 +6570,7 @@ const GAME = {
     ]
   },
   "9N9PCRT8S7MR": {
-    "antiquity": 76,
+    "antiquity": 77,
     "gamepass": false,
     "price": 23.99,
     "rate": 2.9,
@@ -6456,7 +6586,7 @@ const GAME = {
     ]
   },
   "9N9PDJ7Z8S2R": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.1,
@@ -6475,7 +6605,7 @@ const GAME = {
     ]
   },
   "9N9PLFH8SW3F": {
-    "antiquity": 504,
+    "antiquity": 505,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.2,
@@ -6489,7 +6619,7 @@ const GAME = {
     ]
   },
   "9N9Q21DVHMX3": {
-    "antiquity": 620,
+    "antiquity": 621,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.0,
@@ -6504,22 +6634,21 @@ const GAME = {
     ]
   },
   "9N9RLJZJ7R6T": {
-    "antiquity": 724,
+    "antiquity": 725,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9N9RMHTJX41P": {
-    "antiquity": 1054,
+    "antiquity": 1055,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.4,
@@ -6534,7 +6663,7 @@ const GAME = {
     ]
   },
   "9N9RV75RKSL5": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.8,
@@ -6547,7 +6676,7 @@ const GAME = {
     ]
   },
   "9N9SFN0LWXFK": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 9.89,
     "rate": 4.7,
@@ -6562,7 +6691,7 @@ const GAME = {
     ]
   },
   "9N9SHZJQ8Z36": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -6580,7 +6709,7 @@ const GAME = {
     ]
   },
   "9N9TBTW00DKB": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 35.99,
     "rate": 3.3,
@@ -6593,7 +6722,7 @@ const GAME = {
     ]
   },
   "9N9W1JK1X5QJ": {
-    "antiquity": 1285,
+    "antiquity": 1286,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -6608,7 +6737,7 @@ const GAME = {
     ]
   },
   "9N9X0MZVPZQZ": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 33.99,
     "rate": 2.0,
@@ -6620,7 +6749,7 @@ const GAME = {
     ]
   },
   "9N9Z4S1RD397": {
-    "antiquity": 1148,
+    "antiquity": 1149,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.4,
@@ -6633,7 +6762,7 @@ const GAME = {
     ]
   },
   "9N9ZJHL09VH3": {
-    "antiquity": 489,
+    "antiquity": 490,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.1,
@@ -6646,7 +6775,7 @@ const GAME = {
     ]
   },
   "9NB0115C9WNM": {
-    "antiquity": 585,
+    "antiquity": 586,
     "gamepass": false,
     "price": 26.99,
     "rate": 4.6,
@@ -6660,7 +6789,7 @@ const GAME = {
     ]
   },
   "9NB2KCX4G29S": {
-    "antiquity": 973,
+    "antiquity": 974,
     "gamepass": false,
     "price": 15.99,
     "rate": 2.6,
@@ -6674,7 +6803,7 @@ const GAME = {
     ]
   },
   "9NB418HSGQNJ": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.8,
@@ -6687,7 +6816,7 @@ const GAME = {
     ]
   },
   "9NB4KT6SS2L4": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.0,
@@ -6700,8 +6829,23 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9NB52QBS4ZDB": {
+    "antiquity": 435,
+    "gamepass": false,
+    "price": 23.99,
+    "rate": 4.1,
+    "reviews": 35,
+    "trial": false,
+    "discount": 70.00876,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NB54XTF084M": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 55.99,
     "rate": 2.2,
@@ -6719,7 +6863,7 @@ const GAME = {
     ]
   },
   "9NB65S6LFZRT": {
-    "antiquity": 2498,
+    "antiquity": 2499,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -6732,7 +6876,7 @@ const GAME = {
     ]
   },
   "9NB68B7X3342": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -6746,7 +6890,7 @@ const GAME = {
     ]
   },
   "9NB6HC8S6BR6": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 10.99,
     "rate": 4.2,
@@ -6760,7 +6904,7 @@ const GAME = {
     ]
   },
   "9NB7FZ2GV5N1": {
-    "antiquity": 732,
+    "antiquity": 733,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.4,
@@ -6774,7 +6918,7 @@ const GAME = {
     ]
   },
   "9NB80T1XC43B": {
-    "antiquity": 1449,
+    "antiquity": 1450,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.8,
@@ -6788,7 +6932,7 @@ const GAME = {
     ]
   },
   "9NB8KBQWCQ8Q": {
-    "antiquity": 139,
+    "antiquity": 140,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.2,
@@ -6801,7 +6945,7 @@ const GAME = {
     ]
   },
   "9NBC54MT6KHX": {
-    "antiquity": 1839,
+    "antiquity": 1840,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -6819,7 +6963,7 @@ const GAME = {
     ]
   },
   "9NBCZCXN2NFQ": {
-    "antiquity": 579,
+    "antiquity": 580,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -6833,7 +6977,7 @@ const GAME = {
     ]
   },
   "9NBD3K7W357Q": {
-    "antiquity": 103,
+    "antiquity": 104,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -6846,7 +6990,7 @@ const GAME = {
     ]
   },
   "9NBD4TWVRV37": {
-    "antiquity": 1377,
+    "antiquity": 1378,
     "gamepass": false,
     "price": 2.49,
     "rate": 4.4,
@@ -6860,7 +7004,7 @@ const GAME = {
     ]
   },
   "9NBFGKQLMV33": {
-    "antiquity": 1440,
+    "antiquity": 1441,
     "gamepass": true,
     "price": 21.49,
     "rate": 4.3,
@@ -6874,7 +7018,7 @@ const GAME = {
     ]
   },
   "9NBFQMP69N1S": {
-    "antiquity": 1582,
+    "antiquity": 1583,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.3,
@@ -6890,7 +7034,7 @@ const GAME = {
     ]
   },
   "9NBGG5BNZT0K": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.5,
@@ -6904,7 +7048,7 @@ const GAME = {
     ]
   },
   "9NBGKZ46Z2SC": {
-    "antiquity": 1585,
+    "antiquity": 1586,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.1,
@@ -6917,7 +7061,7 @@ const GAME = {
     ]
   },
   "9NBHQSQ3621M": {
-    "antiquity": 914,
+    "antiquity": 915,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -6933,7 +7077,7 @@ const GAME = {
     ]
   },
   "9NBJG075JFJ5": {
-    "antiquity": 872,
+    "antiquity": 873,
     "gamepass": false,
     "price": 13.19,
     "rate": 3.0,
@@ -6949,7 +7093,7 @@ const GAME = {
     ]
   },
   "9NBJG3597KGH": {
-    "antiquity": 864,
+    "antiquity": 865,
     "gamepass": false,
     "price": 22.49,
     "rate": 4.7,
@@ -6964,7 +7108,7 @@ const GAME = {
     ]
   },
   "9NBL0XKVCN5L": {
-    "antiquity": 1320,
+    "antiquity": 1321,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -6978,7 +7122,7 @@ const GAME = {
     ]
   },
   "9NBL782WBHK6": {
-    "antiquity": 1042,
+    "antiquity": 1043,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
@@ -6992,10 +7136,10 @@ const GAME = {
     ]
   },
   "9NBL7BQFRH2D": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 39.99,
-    "rate": 4.7,
+    "rate": 4.6,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -7006,7 +7150,7 @@ const GAME = {
     ]
   },
   "9NBLGGH1Z6FQ": {
-    "antiquity": 2699,
+    "antiquity": 2700,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
@@ -7019,7 +7163,7 @@ const GAME = {
     ]
   },
   "9NBLGGH40DCM": {
-    "antiquity": 2503,
+    "antiquity": 2504,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -7031,7 +7175,7 @@ const GAME = {
     ]
   },
   "9NBLGGH42XC3": {
-    "antiquity": 2485,
+    "antiquity": 2486,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -7043,11 +7187,11 @@ const GAME = {
     ]
   },
   "9NBLGGH4PBBM": {
-    "antiquity": 2678,
+    "antiquity": 2679,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.3,
-    "reviews": 4404,
+    "reviews": 4405,
     "trial": true,
     "discount": 75.03752,
     "tags": [
@@ -7061,7 +7205,7 @@ const GAME = {
     ]
   },
   "9NBLGGH556N4": {
-    "antiquity": 2554,
+    "antiquity": 2555,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -7077,7 +7221,7 @@ const GAME = {
     ]
   },
   "9NBLGGH557RV": {
-    "antiquity": 2614,
+    "antiquity": 2615,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -7089,7 +7233,7 @@ const GAME = {
     ]
   },
   "9NBLNCN542JZ": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.9,
@@ -7101,11 +7245,11 @@ const GAME = {
     ]
   },
   "9NBPNW2JQNCD": {
-    "antiquity": 291,
+    "antiquity": 292,
     "gamepass": true,
     "price": 19.99,
-    "rate": 3.2,
-    "reviews": 17,
+    "rate": 3.3,
+    "reviews": 18,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -7115,7 +7259,7 @@ const GAME = {
     ]
   },
   "9NBQJ6N2T9V1": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
@@ -7132,7 +7276,7 @@ const GAME = {
     ]
   },
   "9NBR2VXT87SJ": {
-    "antiquity": 894,
+    "antiquity": 895,
     "gamepass": true,
     "price": 20.99,
     "rate": 4.7,
@@ -7148,7 +7292,7 @@ const GAME = {
     ]
   },
   "9NBR2ZSD99FX": {
-    "antiquity": 1529,
+    "antiquity": 1530,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.5,
@@ -7162,23 +7306,22 @@ const GAME = {
     ]
   },
   "9NBR9S4BLR0T": {
-    "antiquity": 867,
+    "antiquity": 868,
     "gamepass": false,
-    "price": 2.49,
+    "price": 4.99,
     "rate": 4.4,
     "reviews": 0,
     "trial": false,
-    "discount": 50.100197,
+    "discount": 0,
     "tags": [
       "Educational",
       "Family",
       "Puzzle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NBS08LKGD95": {
-    "antiquity": 76,
+    "antiquity": 77,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.0,
@@ -7193,11 +7336,11 @@ const GAME = {
     ]
   },
   "9NBSSCJFC7R7": {
-    "antiquity": 430,
+    "antiquity": 431,
     "gamepass": false,
     "price": 17.99,
     "rate": 2.8,
-    "reviews": 122,
+    "reviews": 123,
     "trial": false,
     "discount": 80.00889,
     "tags": [
@@ -7211,20 +7354,19 @@ const GAME = {
     ]
   },
   "9NBT5DR3T460": {
-    "antiquity": 5710,
+    "antiquity": 5711,
     "gamepass": false,
-    "price": 2.37,
+    "price": 9.49,
     "rate": 3.0,
     "reviews": 1,
     "trial": false,
-    "discount": 75.026344,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Oferta"
+      "Action"
     ]
   },
   "9NBTM8W775W4": {
-    "antiquity": 75,
+    "antiquity": 76,
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -7237,7 +7379,7 @@ const GAME = {
     ]
   },
   "9NBVZXRQJ8X1": {
-    "antiquity": 1537,
+    "antiquity": 1538,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -7254,7 +7396,7 @@ const GAME = {
     ]
   },
   "9NBW00JS60X8": {
-    "antiquity": 923,
+    "antiquity": 924,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.0,
@@ -7270,7 +7412,7 @@ const GAME = {
     ]
   },
   "9NBWC6XHQHTP": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": false,
     "price": 22.49,
     "rate": 3.4,
@@ -7285,7 +7427,7 @@ const GAME = {
     ]
   },
   "9NBXZLFKG682": {
-    "antiquity": 56,
+    "antiquity": 57,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -7300,7 +7442,7 @@ const GAME = {
     ]
   },
   "9NBZJ4TCWTM9": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -7314,7 +7456,7 @@ const GAME = {
     ]
   },
   "9NC0CH9K1KW0": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -7328,7 +7470,7 @@ const GAME = {
     ]
   },
   "9NC4RBGN9XZL": {
-    "antiquity": 136,
+    "antiquity": 137,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -7344,7 +7486,7 @@ const GAME = {
     ]
   },
   "9NC6BX5R7JKC": {
-    "antiquity": 928,
+    "antiquity": 929,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
@@ -7356,7 +7498,7 @@ const GAME = {
     ]
   },
   "9NC781DK18GN": {
-    "antiquity": 1301,
+    "antiquity": 1302,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
@@ -7371,10 +7513,10 @@ const GAME = {
     ]
   },
   "9NC7R2S22LJL": {
-    "antiquity": 103,
+    "antiquity": 104,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.1,
+    "rate": 4.2,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -7385,7 +7527,7 @@ const GAME = {
     ]
   },
   "9NC944T50735": {
-    "antiquity": 1404,
+    "antiquity": 1405,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.0,
@@ -7400,7 +7542,7 @@ const GAME = {
     ]
   },
   "9NC9TNXS9C8G": {
-    "antiquity": 972,
+    "antiquity": 973,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
@@ -7413,7 +7555,7 @@ const GAME = {
     ]
   },
   "9NCB34V82CHR": {
-    "antiquity": 844,
+    "antiquity": 845,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -7430,7 +7572,7 @@ const GAME = {
     ]
   },
   "9NCCV8WV36TL": {
-    "antiquity": 866,
+    "antiquity": 867,
     "gamepass": false,
     "price": 7.99,
     "rate": 3.8,
@@ -7445,7 +7587,7 @@ const GAME = {
     ]
   },
   "9NCD4FGMK8B6": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 7.49,
     "rate": 0.0,
@@ -7458,11 +7600,11 @@ const GAME = {
     ]
   },
   "9NCDMPCPDTQF": {
-    "antiquity": 127,
+    "antiquity": 128,
     "gamepass": false,
     "price": 20.99,
-    "rate": 4.3,
-    "reviews": 6,
+    "rate": 4.4,
+    "reviews": 7,
     "trial": false,
     "discount": 30.010002,
     "tags": [
@@ -7473,7 +7615,7 @@ const GAME = {
     ]
   },
   "9NCFNFTSBM96": {
-    "antiquity": 839,
+    "antiquity": 840,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
@@ -7487,7 +7629,7 @@ const GAME = {
     ]
   },
   "9NCH4DDSVVPV": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.6,
@@ -7503,7 +7645,7 @@ const GAME = {
     ]
   },
   "9NCH5XJ8768R": {
-    "antiquity": 256,
+    "antiquity": 257,
     "gamepass": false,
     "price": 47.99,
     "rate": 4.4,
@@ -7519,11 +7661,11 @@ const GAME = {
     ]
   },
   "9NCJSXWZTP88": {
-    "antiquity": 239,
+    "antiquity": 240,
     "gamepass": true,
     "price": 79.99,
     "rate": 3.9,
-    "reviews": 1529,
+    "reviews": 1531,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -7533,7 +7675,7 @@ const GAME = {
     ]
   },
   "9NCKCM45D6V9": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 5.99,
     "rate": 1.7,
@@ -7550,7 +7692,7 @@ const GAME = {
     ]
   },
   "9NCP1745JF7B": {
-    "antiquity": 1553,
+    "antiquity": 1554,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -7567,7 +7709,7 @@ const GAME = {
     ]
   },
   "9NCP9XXD8V69": {
-    "antiquity": 12,
+    "antiquity": 13,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -7581,7 +7723,7 @@ const GAME = {
     ]
   },
   "9NCRZW5L1N9M": {
-    "antiquity": 648,
+    "antiquity": 649,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -7595,7 +7737,7 @@ const GAME = {
     ]
   },
   "9NCT8VHJW6MM": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 49.49,
     "rate": 3.8,
@@ -7609,7 +7751,7 @@ const GAME = {
     ]
   },
   "9ND0JVB184XL": {
-    "antiquity": 476,
+    "antiquity": 477,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.7,
@@ -7624,7 +7766,7 @@ const GAME = {
     ]
   },
   "9ND3Z0QH0NKB": {
-    "antiquity": 1522,
+    "antiquity": 1523,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.3,
@@ -7638,7 +7780,7 @@ const GAME = {
     ]
   },
   "9ND4K25TLQCK": {
-    "antiquity": 129,
+    "antiquity": 130,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.1,
@@ -7653,7 +7795,7 @@ const GAME = {
     ]
   },
   "9ND58LQTG09T": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.1,
@@ -7670,7 +7812,7 @@ const GAME = {
     ]
   },
   "9ND80SNMBMH8": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.0,
@@ -7682,7 +7824,7 @@ const GAME = {
     ]
   },
   "9ND82BSMPZQM": {
-    "antiquity": 456,
+    "antiquity": 457,
     "gamepass": false,
     "price": 27.99,
     "rate": 4.7,
@@ -7696,7 +7838,7 @@ const GAME = {
     ]
   },
   "9ND8C4314ZZG": {
-    "antiquity": 503,
+    "antiquity": 504,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.1,
@@ -7712,20 +7854,21 @@ const GAME = {
     ]
   },
   "9ND8GSQQWJB2": {
-    "antiquity": 180,
+    "antiquity": 181,
     "gamepass": false,
-    "price": 4.99,
+    "price": 3.49,
     "rate": 5.0,
     "reviews": 0,
     "trial": false,
-    "discount": 0,
+    "discount": 30.060118,
     "tags": [
       "Bundle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9ND9RBGJ8VX2": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -7738,7 +7881,7 @@ const GAME = {
     ]
   },
   "9NDBG69LCSPJ": {
-    "antiquity": 1510,
+    "antiquity": 1511,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
@@ -7752,7 +7895,7 @@ const GAME = {
     ]
   },
   "9NDBR93LNRQD": {
-    "antiquity": 1196,
+    "antiquity": 1197,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -7766,7 +7909,7 @@ const GAME = {
     ]
   },
   "9NDC5LJS839S": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.0,
@@ -7784,7 +7927,7 @@ const GAME = {
     ]
   },
   "9NDCJXL11096": {
-    "antiquity": 998,
+    "antiquity": 999,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -7797,7 +7940,7 @@ const GAME = {
     ]
   },
   "9NDDMHZRZ0R6": {
-    "antiquity": 565,
+    "antiquity": 566,
     "gamepass": true,
     "price": 0.0,
     "rate": 2.1,
@@ -7816,7 +7959,7 @@ const GAME = {
     ]
   },
   "9NDGTQVVRSVS": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 99.99,
     "rate": 5.0,
@@ -7829,7 +7972,7 @@ const GAME = {
     ]
   },
   "9NDH0XPWZH24": {
-    "antiquity": 179,
+    "antiquity": 180,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -7844,7 +7987,7 @@ const GAME = {
     ]
   },
   "9NDJJQDF411C": {
-    "antiquity": 942,
+    "antiquity": 943,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -7859,11 +8002,11 @@ const GAME = {
     ]
   },
   "9NDJLXD2X2DM": {
-    "antiquity": 837,
+    "antiquity": 838,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.5,
-    "reviews": 145,
+    "reviews": 146,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -7873,7 +8016,7 @@ const GAME = {
     ]
   },
   "9NDP3897C8QP": {
-    "antiquity": 1369,
+    "antiquity": 1370,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -7888,11 +8031,11 @@ const GAME = {
     ]
   },
   "9NDPK8LS983G": {
-    "antiquity": 152,
+    "antiquity": 153,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.7,
-    "reviews": 794,
+    "reviews": 795,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -7904,24 +8047,25 @@ const GAME = {
     ]
   },
   "9NDSL2SN8S7Q": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
-    "price": 99.99,
+    "price": 34.99,
     "rate": 1.9,
     "reviews": 18,
     "trial": false,
-    "discount": 0,
+    "discount": 65.00649,
     "tags": [
       "Compras",
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9NDSW6RBWQM8": {
-    "antiquity": 501,
+    "antiquity": 502,
     "gamepass": false,
     "price": 7.49,
     "rate": 5.0,
@@ -7939,7 +8083,7 @@ const GAME = {
     ]
   },
   "9NDT1MS39FXZ": {
-    "antiquity": 18,
+    "antiquity": 19,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.2,
@@ -7953,7 +8097,7 @@ const GAME = {
     ]
   },
   "9NDV7GQBB9D1": {
-    "antiquity": 872,
+    "antiquity": 873,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
@@ -7967,22 +8111,21 @@ const GAME = {
     ]
   },
   "9NDVBN7QKLPC": {
-    "antiquity": 871,
+    "antiquity": 872,
     "gamepass": false,
-    "price": 27.99,
+    "price": 39.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
-    "discount": 30.007505,
+    "discount": 0,
     "tags": [
       "Family",
       "Platformer",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NDWGLD531FN": {
-    "antiquity": 691,
+    "antiquity": 692,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.2,
@@ -8000,7 +8143,7 @@ const GAME = {
     ]
   },
   "9NDZ67D45SJZ": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.2,
@@ -8013,7 +8156,7 @@ const GAME = {
     ]
   },
   "9NDZ7NXFF622": {
-    "antiquity": 968,
+    "antiquity": 969,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
@@ -8026,7 +8169,7 @@ const GAME = {
     ]
   },
   "9NF037SDSGGM": {
-    "antiquity": 152,
+    "antiquity": 153,
     "gamepass": false,
     "price": 7.59,
     "rate": 1.8,
@@ -8039,7 +8182,7 @@ const GAME = {
     ]
   },
   "9NF0D13RPX5L": {
-    "antiquity": 293,
+    "antiquity": 294,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.0,
@@ -8057,22 +8200,21 @@ const GAME = {
     ]
   },
   "9NF0WRDWJP36": {
-    "antiquity": 558,
+    "antiquity": 559,
     "gamepass": false,
-    "price": 2.49,
+    "price": 4.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
-    "discount": 50.100197,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NF19WZZFVQZ": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -8085,7 +8227,7 @@ const GAME = {
     ]
   },
   "9NF3L0DWTH2R": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.3,
@@ -8101,7 +8243,7 @@ const GAME = {
     ]
   },
   "9NF7SRV1W1WF": {
-    "antiquity": 145,
+    "antiquity": 146,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.8,
@@ -8114,7 +8256,7 @@ const GAME = {
     ]
   },
   "9NF83PRZK6K3": {
-    "antiquity": 1257,
+    "antiquity": 1258,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.0,
@@ -8129,7 +8271,7 @@ const GAME = {
     ]
   },
   "9NFB0Q076ZN9": {
-    "antiquity": 290,
+    "antiquity": 291,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -8146,7 +8288,7 @@ const GAME = {
     ]
   },
   "9NFGRPR749WJ": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.4,
@@ -8160,7 +8302,7 @@ const GAME = {
     ]
   },
   "9NFHFNNJQQL3": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.0,
@@ -8175,7 +8317,7 @@ const GAME = {
     ]
   },
   "9NFHWSJ3JWSC": {
-    "antiquity": 1363,
+    "antiquity": 1364,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
@@ -8190,7 +8332,7 @@ const GAME = {
     ]
   },
   "9NFJ5KDFKHH9": {
-    "antiquity": 670,
+    "antiquity": 671,
     "gamepass": false,
     "price": 6.99,
     "rate": 5.0,
@@ -8204,7 +8346,7 @@ const GAME = {
     ]
   },
   "9NFJBW6B6D78": {
-    "antiquity": 1118,
+    "antiquity": 1119,
     "gamepass": false,
     "price": 4.94,
     "rate": 4.1,
@@ -8217,7 +8359,7 @@ const GAME = {
     ]
   },
   "9NFK22F8VWPN": {
-    "antiquity": 83,
+    "antiquity": 84,
     "gamepass": false,
     "price": 79.99,
     "rate": 4.5,
@@ -8233,7 +8375,7 @@ const GAME = {
     ]
   },
   "9NFL7WZWJ3SP": {
-    "antiquity": 704,
+    "antiquity": 705,
     "gamepass": false,
     "price": 5.99,
     "rate": 5.0,
@@ -8248,7 +8390,7 @@ const GAME = {
     ]
   },
   "9NFM39PSFXJD": {
-    "antiquity": 797,
+    "antiquity": 798,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -8262,11 +8404,11 @@ const GAME = {
     ]
   },
   "9NFM4GFBFH8L": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 54.99,
     "rate": 3.0,
-    "reviews": 164,
+    "reviews": 165,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -8276,7 +8418,7 @@ const GAME = {
     ]
   },
   "9NFP2NRQW050": {
-    "antiquity": 254,
+    "antiquity": 255,
     "gamepass": false,
     "price": 40.19,
     "rate": 3.0,
@@ -8291,22 +8433,21 @@ const GAME = {
     ]
   },
   "9NFPHNF5SQ3S": {
-    "antiquity": 355,
+    "antiquity": 356,
     "gamepass": false,
-    "price": 1.79,
+    "price": 2.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
-    "discount": 40.13378,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NFSR96G6K4N": {
-    "antiquity": 1103,
+    "antiquity": 1104,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -8319,11 +8460,11 @@ const GAME = {
     ]
   },
   "9NFTC552K3GJ": {
-    "antiquity": 376,
+    "antiquity": 377,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.8,
-    "reviews": 758,
+    "reviews": 762,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -8333,7 +8474,7 @@ const GAME = {
     ]
   },
   "9NFVV7396MSB": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 26.99,
     "rate": 3.6,
@@ -8346,7 +8487,7 @@ const GAME = {
     ]
   },
   "9NFWSNN4JWKB": {
-    "antiquity": 879,
+    "antiquity": 880,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.3,
@@ -8361,7 +8502,7 @@ const GAME = {
     ]
   },
   "9NFX4ZQK3DW3": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 7.49,
     "rate": 0.0,
@@ -8374,7 +8515,7 @@ const GAME = {
     ]
   },
   "9NFZ65KKJ10X": {
-    "antiquity": 748,
+    "antiquity": 749,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
@@ -8391,11 +8532,11 @@ const GAME = {
     ]
   },
   "9NG07QJNK38J": {
-    "antiquity": 1146,
+    "antiquity": 1147,
     "gamepass": true,
     "price": 4.99,
-    "rate": 3.9,
-    "reviews": 295,
+    "rate": 3.8,
+    "reviews": 296,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -8406,22 +8547,8 @@ const GAME = {
       "GamePass"
     ]
   },
-  "9NG1LCL6T30F": {
-    "antiquity": 188,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 4.8,
-    "reviews": 0,
-    "trial": false,
-    "discount": 0,
-    "tags": [
-      "Action",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9NG3C8RL2SLN": {
-    "antiquity": 761,
+    "antiquity": 762,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -8437,7 +8564,7 @@ const GAME = {
     ]
   },
   "9NG3JPFB906B": {
-    "antiquity": 4659,
+    "antiquity": 4660,
     "gamepass": false,
     "price": 14.99,
     "rate": 1.0,
@@ -8450,7 +8577,7 @@ const GAME = {
     ]
   },
   "9NG3KDN390BB": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.2,
@@ -8467,7 +8594,7 @@ const GAME = {
     ]
   },
   "9NG3LJ2268TX": {
-    "antiquity": 55,
+    "antiquity": 56,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -8483,7 +8610,7 @@ const GAME = {
     ]
   },
   "9NG500N8Q3QX": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 11.99,
     "rate": 5.0,
@@ -8499,7 +8626,7 @@ const GAME = {
     ]
   },
   "9NG5L58FD3X5": {
-    "antiquity": 1266,
+    "antiquity": 1267,
     "gamepass": true,
     "price": 24.99,
     "rate": 3.6,
@@ -8516,7 +8643,7 @@ const GAME = {
     ]
   },
   "9NG6FCN9J92H": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -8529,7 +8656,7 @@ const GAME = {
     ]
   },
   "9NG7HXF3819V": {
-    "antiquity": 77,
+    "antiquity": 78,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.4,
@@ -8542,7 +8669,7 @@ const GAME = {
     ]
   },
   "9NG96ZKK3C56": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 21.49,
     "rate": 4.0,
@@ -8555,7 +8682,7 @@ const GAME = {
     ]
   },
   "9NGC9GQZ8R7W": {
-    "antiquity": 136,
+    "antiquity": 137,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -8568,7 +8695,7 @@ const GAME = {
     ]
   },
   "9NGCTMVTSQ1M": {
-    "antiquity": 151,
+    "antiquity": 152,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
@@ -8585,7 +8712,7 @@ const GAME = {
     ]
   },
   "9NGDWTP8Q14T": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.2,
@@ -8601,7 +8728,7 @@ const GAME = {
     ]
   },
   "9NGDZ4X41WFX": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.4,
@@ -8616,7 +8743,7 @@ const GAME = {
     ]
   },
   "9NGH2MTP0T44": {
-    "antiquity": 879,
+    "antiquity": 880,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -8630,11 +8757,11 @@ const GAME = {
     ]
   },
   "9NGHHPT7NJHX": {
-    "antiquity": 139,
+    "antiquity": 140,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.3,
-    "reviews": 6883,
+    "reviews": 6884,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -8643,7 +8770,7 @@ const GAME = {
     ]
   },
   "9NGKMPB3S10P": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 89.99,
     "rate": 4.2,
@@ -8659,7 +8786,7 @@ const GAME = {
     ]
   },
   "9NGL5DS0BBJ6": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.5,
@@ -8673,36 +8800,34 @@ const GAME = {
     ]
   },
   "9NGLLJ4NMN2P": {
-    "antiquity": 214,
+    "antiquity": 215,
     "gamepass": false,
-    "price": 7.99,
+    "price": 9.99,
     "rate": 5.0,
     "reviews": 1,
     "trial": false,
-    "discount": 20.02002,
+    "discount": 0,
     "tags": [
       "Action",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NGLZWQ19SNF": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 4.0,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NGP9M4BPZZ9": {
-    "antiquity": 237,
+    "antiquity": 238,
     "gamepass": false,
     "price": 17.99,
     "rate": 2.7,
@@ -8716,7 +8841,7 @@ const GAME = {
     ]
   },
   "9NGQ346TZC71": {
-    "antiquity": 25,
+    "antiquity": 26,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -8729,7 +8854,7 @@ const GAME = {
     ]
   },
   "9NGRB0D582P5": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.6,
@@ -8746,7 +8871,7 @@ const GAME = {
     ]
   },
   "9NGRWJ03GR1N": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.4,
@@ -8760,8 +8885,22 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9NGTPDZWT3VZ": {
+    "antiquity": 504,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.2,
+    "reviews": 17,
+    "trial": false,
+    "discount": 50.010002,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NGVWZ3MGT0B": {
-    "antiquity": 1350,
+    "antiquity": 1351,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -8776,7 +8915,7 @@ const GAME = {
     ]
   },
   "9NGW0T6L3BC5": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.6,
@@ -8789,7 +8928,7 @@ const GAME = {
     ]
   },
   "9NGXF3387KZK": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.8,
@@ -8806,7 +8945,7 @@ const GAME = {
     ]
   },
   "9NGXH4HXK5RR": {
-    "antiquity": 145,
+    "antiquity": 146,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -8820,7 +8959,7 @@ const GAME = {
     ]
   },
   "9NGXKG4FTXD4": {
-    "antiquity": 19,
+    "antiquity": 20,
     "gamepass": false,
     "price": 4.49,
     "rate": 3.0,
@@ -8838,7 +8977,7 @@ const GAME = {
     ]
   },
   "9NH0692FHFJQ": {
-    "antiquity": 354,
+    "antiquity": 355,
     "gamepass": false,
     "price": 49.99,
     "rate": 2.9,
@@ -8854,7 +8993,7 @@ const GAME = {
     ]
   },
   "9NH18TKPS522": {
-    "antiquity": 1404,
+    "antiquity": 1405,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -8869,7 +9008,7 @@ const GAME = {
     ]
   },
   "9NH27G9G07TN": {
-    "antiquity": 433,
+    "antiquity": 434,
     "gamepass": false,
     "price": 14.49,
     "rate": 2.0,
@@ -8882,7 +9021,7 @@ const GAME = {
     ]
   },
   "9NH2J7X3MPB0": {
-    "antiquity": 1208,
+    "antiquity": 1209,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
@@ -8896,7 +9035,7 @@ const GAME = {
     ]
   },
   "9NH33864JGPN": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.5,
@@ -8911,7 +9050,7 @@ const GAME = {
     ]
   },
   "9NH3QTH5N007": {
-    "antiquity": 578,
+    "antiquity": 579,
     "gamepass": false,
     "price": 23.39,
     "rate": 3.8,
@@ -8925,11 +9064,11 @@ const GAME = {
     ]
   },
   "9NH5HN11FG4M": {
-    "antiquity": 825,
+    "antiquity": 826,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 226,
+    "reviews": 227,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -8941,7 +9080,7 @@ const GAME = {
     ]
   },
   "9NH7669041ZK": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 38.49,
     "rate": 1.7,
@@ -8955,7 +9094,7 @@ const GAME = {
     ]
   },
   "9NH88HNTGNDZ": {
-    "antiquity": 277,
+    "antiquity": 278,
     "gamepass": true,
     "price": 24.99,
     "rate": 3.9,
@@ -8970,7 +9109,7 @@ const GAME = {
     ]
   },
   "9NH8K4B707H0": {
-    "antiquity": 151,
+    "antiquity": 152,
     "gamepass": false,
     "price": 47.99,
     "rate": 2.5,
@@ -8989,7 +9128,7 @@ const GAME = {
     ]
   },
   "9NH9QDVG63P1": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
@@ -9004,7 +9143,7 @@ const GAME = {
     ]
   },
   "9NHDF1Q6HGMH": {
-    "antiquity": 1449,
+    "antiquity": 1450,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -9018,7 +9157,7 @@ const GAME = {
     ]
   },
   "9NHDFTCL691C": {
-    "antiquity": 360,
+    "antiquity": 361,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.7,
@@ -9033,7 +9172,7 @@ const GAME = {
     ]
   },
   "9NHDJC0NW20M": {
-    "antiquity": 571,
+    "antiquity": 572,
     "gamepass": true,
     "price": 24.99,
     "rate": 3.9,
@@ -9049,7 +9188,7 @@ const GAME = {
     ]
   },
   "9NHFVWX1V7QJ": {
-    "antiquity": 1363,
+    "antiquity": 1364,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.3,
@@ -9065,7 +9204,7 @@ const GAME = {
     ]
   },
   "9NHJVGWGQTBJ": {
-    "antiquity": 1238,
+    "antiquity": 1239,
     "gamepass": false,
     "price": 19.79,
     "rate": 2.2,
@@ -9078,7 +9217,7 @@ const GAME = {
     ]
   },
   "9NHKL695M9F2": {
-    "antiquity": 1033,
+    "antiquity": 1034,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.4,
@@ -9097,7 +9236,7 @@ const GAME = {
     ]
   },
   "9NHKNM0ZVG66": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.6,
@@ -9111,7 +9250,7 @@ const GAME = {
     ]
   },
   "9NHL5VC7KXD2": {
-    "antiquity": 143,
+    "antiquity": 144,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.3,
@@ -9124,7 +9263,7 @@ const GAME = {
     ]
   },
   "9NHMBS5JC4RT": {
-    "antiquity": 1378,
+    "antiquity": 1379,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.2,
@@ -9137,7 +9276,7 @@ const GAME = {
     ]
   },
   "9NHMS63FGKC0": {
-    "antiquity": 622,
+    "antiquity": 623,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -9154,7 +9293,7 @@ const GAME = {
     ]
   },
   "9NHN30D462N2": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -9172,7 +9311,7 @@ const GAME = {
     ]
   },
   "9NHN8TVNZ58V": {
-    "antiquity": 378,
+    "antiquity": 379,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.9,
@@ -9190,21 +9329,20 @@ const GAME = {
     ]
   },
   "9NHQJD5B40P0": {
-    "antiquity": 1602,
+    "antiquity": 1603,
     "gamepass": false,
-    "price": 2.49,
+    "price": 9.99,
     "rate": 5.0,
     "reviews": 2,
     "trial": false,
-    "discount": 75.07508,
+    "discount": 0,
     "tags": [
       "Strategy",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NHRV2HKM5HM": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.1,
@@ -9218,7 +9356,7 @@ const GAME = {
     ]
   },
   "9NHS6134H27Z": {
-    "antiquity": 74,
+    "antiquity": 75,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -9232,7 +9370,7 @@ const GAME = {
     ]
   },
   "9NHSQLC84G6B": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.5,
@@ -9246,7 +9384,7 @@ const GAME = {
     ]
   },
   "9NHV57KM7RFB": {
-    "antiquity": 250,
+    "antiquity": 251,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -9260,7 +9398,7 @@ const GAME = {
     ]
   },
   "9NHVND554JQ5": {
-    "antiquity": 10,
+    "antiquity": 11,
     "gamepass": false,
     "price": 5.99,
     "rate": 5.0,
@@ -9276,7 +9414,7 @@ const GAME = {
     ]
   },
   "9NHW0HWH8621": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -9289,7 +9427,7 @@ const GAME = {
     ]
   },
   "9NHXCDC1RD7P": {
-    "antiquity": 109,
+    "antiquity": 110,
     "gamepass": false,
     "price": 25.99,
     "rate": 2.0,
@@ -9304,7 +9442,7 @@ const GAME = {
     ]
   },
   "9NJ18Z7SZ0ZX": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.0,
@@ -9318,7 +9456,7 @@ const GAME = {
     ]
   },
   "9NJ4FHM5P3TP": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 3.89,
     "rate": 4.9,
@@ -9333,7 +9471,7 @@ const GAME = {
     ]
   },
   "9NJ4R763M7TH": {
-    "antiquity": 922,
+    "antiquity": 923,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
@@ -9347,7 +9485,7 @@ const GAME = {
     ]
   },
   "9NJ5JHW7S49J": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.5,
@@ -9360,7 +9498,7 @@ const GAME = {
     ]
   },
   "9NJ5K5F4TLS6": {
-    "antiquity": 1259,
+    "antiquity": 1260,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -9376,7 +9514,7 @@ const GAME = {
     ]
   },
   "9NJ6LB1R5N0Q": {
-    "antiquity": 103,
+    "antiquity": 104,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.6,
@@ -9388,7 +9526,7 @@ const GAME = {
     ]
   },
   "9NJ78F33G4PW": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -9402,22 +9540,21 @@ const GAME = {
     ]
   },
   "9NJ9DF509ZTM": {
-    "antiquity": 486,
+    "antiquity": 487,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 2.5,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NJC6TLGK86N": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.0,
@@ -9434,7 +9571,7 @@ const GAME = {
     ]
   },
   "9NJD9S9VJ2H5": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.5,
@@ -9447,7 +9584,7 @@ const GAME = {
     ]
   },
   "9NJG1JSBL55N": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 44.99,
     "rate": 0.0,
@@ -9461,7 +9598,7 @@ const GAME = {
     ]
   },
   "9NJG36MFVR1L": {
-    "antiquity": 809,
+    "antiquity": 810,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.2,
@@ -9475,8 +9612,25 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9NJGPQ9WC96T": {
+    "antiquity": 333,
+    "gamepass": false,
+    "price": 3.24,
+    "rate": 4.8,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.077038,
+    "tags": [
+      "Family",
+      "Sports",
+      "Classics",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "Oferta"
+    ]
+  },
   "9NJJ8K0FX9G9": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 6.49,
     "rate": 5.0,
@@ -9490,7 +9644,7 @@ const GAME = {
     ]
   },
   "9NJJB86PHHS6": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.3,
@@ -9504,7 +9658,7 @@ const GAME = {
     ]
   },
   "9NJJFW6T33WQ": {
-    "antiquity": 132,
+    "antiquity": 133,
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -9517,7 +9671,7 @@ const GAME = {
     ]
   },
   "9NJMJT63FF1Z": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 32.99,
     "rate": 3.0,
@@ -9532,7 +9686,7 @@ const GAME = {
     ]
   },
   "9NJN1MC1X5FK": {
-    "antiquity": 672,
+    "antiquity": 673,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.8,
@@ -9548,21 +9702,22 @@ const GAME = {
     ]
   },
   "9NJNFNFX96DD": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
-    "price": 14.99,
+    "price": 8.99,
     "rate": 2.8,
     "reviews": 0,
     "trial": false,
-    "discount": 0,
+    "discount": 40.026684,
     "tags": [
       "Puzzle",
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NJRX71M5X9P": {
-    "antiquity": 2320,
+    "antiquity": 2321,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -9576,7 +9731,7 @@ const GAME = {
     ]
   },
   "9NJVF9WBJCCC": {
-    "antiquity": 248,
+    "antiquity": 249,
     "gamepass": false,
     "price": 27.99,
     "rate": 1.6,
@@ -9589,7 +9744,7 @@ const GAME = {
     ]
   },
   "9NJWL0XVLP7T": {
-    "antiquity": 417,
+    "antiquity": 418,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.4,
@@ -9603,7 +9758,7 @@ const GAME = {
     ]
   },
   "9NJX14L8SJ28": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.5,
@@ -9618,7 +9773,7 @@ const GAME = {
     ]
   },
   "9NJX2BM97R9X": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 99.99,
     "rate": 5.0,
@@ -9630,7 +9785,7 @@ const GAME = {
     ]
   },
   "9NJZ1MGSGB3S": {
-    "antiquity": 27,
+    "antiquity": 11,
     "gamepass": false,
     "price": 12.99,
     "rate": 5.0,
@@ -9644,7 +9799,7 @@ const GAME = {
     ]
   },
   "9NK06FG20984": {
-    "antiquity": 31,
+    "antiquity": 32,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -9659,7 +9814,7 @@ const GAME = {
     ]
   },
   "9NK108XJMVDL": {
-    "antiquity": 26,
+    "antiquity": 27,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -9672,7 +9827,7 @@ const GAME = {
     ]
   },
   "9NK3LLQCN3WQ": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
@@ -9685,7 +9840,7 @@ const GAME = {
     ]
   },
   "9NK4NTBFWW81": {
-    "antiquity": 277,
+    "antiquity": 278,
     "gamepass": false,
     "price": 41.99,
     "rate": 3.8,
@@ -9701,7 +9856,7 @@ const GAME = {
     ]
   },
   "9NK4Z12SNM72": {
-    "antiquity": 1307,
+    "antiquity": 1308,
     "gamepass": false,
     "price": 6.99,
     "rate": 3.1,
@@ -9715,7 +9870,7 @@ const GAME = {
     ]
   },
   "9NK53Q901G9P": {
-    "antiquity": 257,
+    "antiquity": 258,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -9732,7 +9887,7 @@ const GAME = {
     ]
   },
   "9NK5L90K6G8S": {
-    "antiquity": 119,
+    "antiquity": 120,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.3,
@@ -9745,7 +9900,7 @@ const GAME = {
     ]
   },
   "9NK6X8JHTQSS": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -9762,7 +9917,7 @@ const GAME = {
     ]
   },
   "9NK73970HRLM": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.5,
@@ -9777,7 +9932,7 @@ const GAME = {
     ]
   },
   "9NK78DF207SD": {
-    "antiquity": 813,
+    "antiquity": 814,
     "gamepass": true,
     "price": 7.99,
     "rate": 4.3,
@@ -9793,7 +9948,7 @@ const GAME = {
     ]
   },
   "9NK7HNCG0R8D": {
-    "antiquity": 721,
+    "antiquity": 722,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -9808,7 +9963,7 @@ const GAME = {
     ]
   },
   "9NK9LWX511GX": {
-    "antiquity": 865,
+    "antiquity": 866,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.2,
@@ -9825,7 +9980,7 @@ const GAME = {
     ]
   },
   "9NKB1B50PZLZ": {
-    "antiquity": 879,
+    "antiquity": 880,
     "gamepass": false,
     "price": 9.89,
     "rate": 4.2,
@@ -9840,7 +9995,7 @@ const GAME = {
     ]
   },
   "9NKC1Z4Z92VN": {
-    "antiquity": 700,
+    "antiquity": 701,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.8,
@@ -9855,22 +10010,36 @@ const GAME = {
     ]
   },
   "9NKFJTR38N6Z": {
-    "antiquity": 5215,
+    "antiquity": 5216,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 2.4,
     "reviews": 33,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
-      "Platformer",
+      "Platformer"
+    ]
+  },
+  "9NKG0X1MGQTX": {
+    "antiquity": 1230,
+    "gamepass": false,
+    "price": 19.79,
+    "rate": 3.6,
+    "reviews": 133,
+    "trial": false,
+    "discount": 67.01117,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
       "Oferta"
     ]
   },
   "9NKGXBS0B0N3": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 4.29,
     "rate": 2.7,
@@ -9884,11 +10053,11 @@ const GAME = {
     ]
   },
   "9NKHKBQJSSC3": {
-    "antiquity": 923,
+    "antiquity": 924,
     "gamepass": true,
     "price": 19.99,
-    "rate": 3.6,
-    "reviews": 16,
+    "rate": 3.7,
+    "reviews": 17,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -9901,7 +10070,7 @@ const GAME = {
     ]
   },
   "9NKJ0F4RFK88": {
-    "antiquity": 929,
+    "antiquity": 930,
     "gamepass": false,
     "price": 51.99,
     "rate": 4.5,
@@ -9915,7 +10084,7 @@ const GAME = {
     ]
   },
   "9NKJBN2RMQXB": {
-    "antiquity": 1364,
+    "antiquity": 1365,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
@@ -9934,7 +10103,7 @@ const GAME = {
     ]
   },
   "9NKJMMBGM4S7": {
-    "antiquity": 112,
+    "antiquity": 113,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -9947,7 +10116,7 @@ const GAME = {
     ]
   },
   "9NKK6CX54183": {
-    "antiquity": 1194,
+    "antiquity": 1195,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
@@ -9961,11 +10130,11 @@ const GAME = {
     ]
   },
   "9NKK6Z0K3RH2": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.7,
-    "reviews": 41,
+    "reviews": 50,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -9975,7 +10144,7 @@ const GAME = {
     ]
   },
   "9NKL4C3V1C88": {
-    "antiquity": 96,
+    "antiquity": 97,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -9990,7 +10159,7 @@ const GAME = {
     ]
   },
   "9NKLS9ZCPMTZ": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
@@ -10003,7 +10172,7 @@ const GAME = {
     ]
   },
   "9NKMJQ14QC7K": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 35.99,
     "rate": 4.0,
@@ -10015,24 +10184,8 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NKP8CZZR6F7": {
-    "antiquity": 920,
-    "gamepass": false,
-    "price": 2.49,
-    "rate": 5.0,
-    "reviews": 2,
-    "trial": false,
-    "discount": 50.100197,
-    "tags": [
-      "Educational",
-      "Family",
-      "Puzzle",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9NKPWB4J476X": {
-    "antiquity": 835,
+    "antiquity": 836,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.3,
@@ -10047,24 +10200,8 @@ const GAME = {
       "Oferta"
     ]
   },
-  "9NKRDHM6XCLF": {
-    "antiquity": 201,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 1.0,
-    "reviews": 1,
-    "trial": true,
-    "discount": 0,
-    "tags": [
-      "Action",
-      "Family",
-      "Platformer",
-      "Puzzle",
-      "SinglePlayer"
-    ]
-  },
   "9NKRFZ5VKV1H": {
-    "antiquity": 48,
+    "antiquity": 49,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.5,
@@ -10078,11 +10215,11 @@ const GAME = {
     ]
   },
   "9NKX70BBCDRN": {
-    "antiquity": 967,
+    "antiquity": 968,
     "gamepass": true,
     "price": 34.99,
     "rate": 3.5,
-    "reviews": 2130,
+    "reviews": 2132,
     "trial": false,
     "discount": 50.00714,
     "tags": [
@@ -10093,24 +10230,8 @@ const GAME = {
       "Oferta"
     ]
   },
-  "9NL1BJRKN9P8": {
-    "antiquity": 1615,
-    "gamepass": false,
-    "price": 1.12,
-    "rate": 4.8,
-    "reviews": 5,
-    "trial": false,
-    "discount": 75.05568,
-    "tags": [
-      "Action",
-      "Shooter",
-      "Classics",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9NL1XSMV9B6Q": {
-    "antiquity": 49,
+    "antiquity": 50,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -10126,7 +10247,7 @@ const GAME = {
     ]
   },
   "9NL4KTK0N4CG": {
-    "antiquity": 683,
+    "antiquity": 684,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
@@ -10139,7 +10260,7 @@ const GAME = {
     ]
   },
   "9NL56ZNV72WT": {
-    "antiquity": 25,
+    "antiquity": 26,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -10153,7 +10274,7 @@ const GAME = {
     ]
   },
   "9NL7RHXWWDPV": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.1,
@@ -10169,7 +10290,7 @@ const GAME = {
     ]
   },
   "9NL85B07P6J9": {
-    "antiquity": 86,
+    "antiquity": 87,
     "gamepass": false,
     "price": 7.99,
     "rate": 3.7,
@@ -10184,7 +10305,7 @@ const GAME = {
     ]
   },
   "9NL8W7NXWHBB": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -10202,7 +10323,7 @@ const GAME = {
     ]
   },
   "9NL91C1DJ2S6": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 11.99,
     "rate": 5.0,
@@ -10217,7 +10338,7 @@ const GAME = {
     ]
   },
   "9NL9H587WGMJ": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 35.99,
     "rate": 4.5,
@@ -10237,11 +10358,11 @@ const GAME = {
     ]
   },
   "9NLB6V0GNC9P": {
-    "antiquity": 503,
+    "antiquity": 504,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.8,
-    "reviews": 159,
+    "reviews": 160,
     "trial": false,
     "discount": 50.00625,
     "tags": [
@@ -10253,8 +10374,23 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9NLD7PRBMMML": {
+    "antiquity": 1,
+    "gamepass": false,
+    "price": 14.99,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Role playing",
+      "SinglePlayer"
+    ]
+  },
   "9NLD93THPPZ1": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 38.99,
     "rate": 4.0,
@@ -10267,7 +10403,7 @@ const GAME = {
     ]
   },
   "9NLFTZD95Q95": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.0,
@@ -10280,7 +10416,7 @@ const GAME = {
     ]
   },
   "9NLFZVMSQ7CC": {
-    "antiquity": 503,
+    "antiquity": 504,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.0,
@@ -10296,7 +10432,7 @@ const GAME = {
     ]
   },
   "9NLHNRBRRNWD": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": false,
     "price": 109.99,
     "rate": 4.1,
@@ -10312,7 +10448,7 @@ const GAME = {
     ]
   },
   "9NLHWTCWLKGX": {
-    "antiquity": 1378,
+    "antiquity": 1379,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.1,
@@ -10325,7 +10461,7 @@ const GAME = {
     ]
   },
   "9NLKS3T3LQTC": {
-    "antiquity": 7,
+    "antiquity": 8,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -10339,7 +10475,7 @@ const GAME = {
     ]
   },
   "9NLL6HLNR64C": {
-    "antiquity": 448,
+    "antiquity": 449,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -10353,7 +10489,7 @@ const GAME = {
     ]
   },
   "9NLLP82XVSKH": {
-    "antiquity": 524,
+    "antiquity": 525,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.9,
@@ -10366,7 +10502,7 @@ const GAME = {
     ]
   },
   "9NLLTTJZH40L": {
-    "antiquity": 160,
+    "antiquity": 161,
     "gamepass": true,
     "price": 34.99,
     "rate": 4.7,
@@ -10380,7 +10516,7 @@ const GAME = {
     ]
   },
   "9NLN2W8K8KW4": {
-    "antiquity": 49,
+    "antiquity": 50,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -10394,22 +10530,21 @@ const GAME = {
     ]
   },
   "9NLQ7KDBCS1R": {
-    "antiquity": 1048,
+    "antiquity": 1049,
     "gamepass": false,
-    "price": 1.99,
+    "price": 4.99,
     "rate": 4.0,
     "reviews": 2,
     "trial": false,
-    "discount": 60.120235,
+    "discount": 0,
     "tags": [
       "Action",
       "Platformer",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NLQTDKD0PMT": {
-    "antiquity": 2323,
+    "antiquity": 2324,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -10422,7 +10557,7 @@ const GAME = {
     ]
   },
   "9NLQZLBDKT3Q": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 17.59,
     "rate": 4.6,
@@ -10437,7 +10572,7 @@ const GAME = {
     ]
   },
   "9NLR47P5CNX4": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 79.99,
     "rate": 5.0,
@@ -10449,21 +10584,22 @@ const GAME = {
     ]
   },
   "9NLR862CDFR4": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
-    "price": 9.99,
+    "price": 5.99,
     "rate": 4.7,
     "reviews": 0,
     "trial": false,
-    "discount": 0,
+    "discount": 40.04004,
     "tags": [
       "Action",
       "Puzzle",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NLRLNWD9X67": {
-    "antiquity": 497,
+    "antiquity": 498,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.0,
@@ -10477,7 +10613,7 @@ const GAME = {
     ]
   },
   "9NLRT31Z4RWM": {
-    "antiquity": 691,
+    "antiquity": 692,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.6,
@@ -10490,7 +10626,7 @@ const GAME = {
     ]
   },
   "9NLTSH03F6BV": {
-    "antiquity": 319,
+    "antiquity": 320,
     "gamepass": false,
     "price": 32.99,
     "rate": 3.4,
@@ -10508,7 +10644,7 @@ const GAME = {
     ]
   },
   "9NLV3X229LG1": {
-    "antiquity": 1395,
+    "antiquity": 1396,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.1,
@@ -10525,7 +10661,7 @@ const GAME = {
     ]
   },
   "9NLVFTKQV50J": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.3,
@@ -10543,7 +10679,7 @@ const GAME = {
     ]
   },
   "9NLX3GWW0HF1": {
-    "antiquity": 921,
+    "antiquity": 922,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.4,
@@ -10556,7 +10692,7 @@ const GAME = {
     ]
   },
   "9NLZN34WNPBT": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -10570,7 +10706,7 @@ const GAME = {
     ]
   },
   "9NLZSTQXM211": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.8,
@@ -10583,24 +10719,23 @@ const GAME = {
     ]
   },
   "9NM07FMGZ9G9": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
-    "price": 2.79,
+    "price": 3.99,
     "rate": 3.2,
     "reviews": 0,
     "trial": false,
-    "discount": 30.075186,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
       "Family",
       "Simulation",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NM2SHWRH50L": {
-    "antiquity": 70,
+    "antiquity": 71,
     "gamepass": false,
     "price": 14.99,
     "rate": 1.0,
@@ -10616,7 +10751,7 @@ const GAME = {
     ]
   },
   "9NM3DSGF2G3H": {
-    "antiquity": 592,
+    "antiquity": 593,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -10630,7 +10765,7 @@ const GAME = {
     ]
   },
   "9NM3TNRPQXLR": {
-    "antiquity": 603,
+    "antiquity": 604,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.1,
@@ -10644,7 +10779,7 @@ const GAME = {
     ]
   },
   "9NM4S7P1MPKP": {
-    "antiquity": 1196,
+    "antiquity": 1197,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -10659,7 +10794,7 @@ const GAME = {
     ]
   },
   "9NM50L0DXX1W": {
-    "antiquity": 335,
+    "antiquity": 336,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
@@ -10674,11 +10809,11 @@ const GAME = {
     ]
   },
   "9NM5KFGCJ7S4": {
-    "antiquity": 14,
+    "antiquity": 15,
     "gamepass": false,
     "price": 14.99,
-    "rate": 5.0,
-    "reviews": 0,
+    "rate": 1.0,
+    "reviews": 1,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -10689,7 +10824,7 @@ const GAME = {
     ]
   },
   "9NM5MC4XFBBB": {
-    "antiquity": 187,
+    "antiquity": 188,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -10702,11 +10837,11 @@ const GAME = {
     ]
   },
   "9NM6L416XWMB": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 49.99,
-    "rate": 3.8,
-    "reviews": 0,
+    "rate": 3.3,
+    "reviews": 3,
     "trial": false,
     "discount": 50.004993,
     "tags": [
@@ -10716,7 +10851,7 @@ const GAME = {
     ]
   },
   "9NM79B7N9JM6": {
-    "antiquity": 248,
+    "antiquity": 249,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.1,
@@ -10732,7 +10867,7 @@ const GAME = {
     ]
   },
   "9NM8JFMGVCVB": {
-    "antiquity": 333,
+    "antiquity": 334,
     "gamepass": false,
     "price": 41.99,
     "rate": 3.3,
@@ -10751,7 +10886,7 @@ const GAME = {
     ]
   },
   "9NM92WGGVMT6": {
-    "antiquity": 670,
+    "antiquity": 671,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.5,
@@ -10765,10 +10900,10 @@ const GAME = {
     ]
   },
   "9NM9BNSR1K92": {
-    "antiquity": 146,
+    "antiquity": 147,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.3,
+    "rate": 3.4,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -10778,7 +10913,7 @@ const GAME = {
     ]
   },
   "9NMB4CBB6NHC": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
@@ -10793,7 +10928,7 @@ const GAME = {
     ]
   },
   "9NMB4T25W817": {
-    "antiquity": 606,
+    "antiquity": 607,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.2,
@@ -10812,7 +10947,7 @@ const GAME = {
     ]
   },
   "9NMBJQ0265ZK": {
-    "antiquity": 1218,
+    "antiquity": 1219,
     "gamepass": true,
     "price": 7.99,
     "rate": 3.3,
@@ -10830,7 +10965,7 @@ const GAME = {
     ]
   },
   "9NMBK4V30XJR": {
-    "antiquity": 1229,
+    "antiquity": 1230,
     "gamepass": false,
     "price": 59.98,
     "rate": 4.8,
@@ -10844,7 +10979,7 @@ const GAME = {
     ]
   },
   "9NMD6VV08WGF": {
-    "antiquity": 636,
+    "antiquity": 637,
     "gamepass": true,
     "price": 7.49,
     "rate": 4.3,
@@ -10858,7 +10993,7 @@ const GAME = {
     ]
   },
   "9NMG7ZJ9XK0H": {
-    "antiquity": 1047,
+    "antiquity": 1048,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
@@ -10873,7 +11008,7 @@ const GAME = {
     ]
   },
   "9NMKCN016SNF": {
-    "antiquity": 1449,
+    "antiquity": 1450,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -10887,10 +11022,10 @@ const GAME = {
     ]
   },
   "9NMP645ZGHP1": {
-    "antiquity": 7,
+    "antiquity": 8,
     "gamepass": false,
     "price": 19.99,
-    "rate": 5.0,
+    "rate": 4.0,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -10902,7 +11037,7 @@ const GAME = {
     ]
   },
   "9NMP8KFRTNCD": {
-    "antiquity": 440,
+    "antiquity": 441,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.7,
@@ -10915,7 +11050,7 @@ const GAME = {
     ]
   },
   "9NMP9B9KMKLF": {
-    "antiquity": 1889,
+    "antiquity": 1890,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.2,
@@ -10929,7 +11064,7 @@ const GAME = {
     ]
   },
   "9NMPDQ2NRX34": {
-    "antiquity": 179,
+    "antiquity": 180,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
@@ -10942,7 +11077,7 @@ const GAME = {
     ]
   },
   "9NMQ4H43DJPH": {
-    "antiquity": 367,
+    "antiquity": 368,
     "gamepass": false,
     "price": 47.99,
     "rate": 3.9,
@@ -10956,7 +11091,7 @@ const GAME = {
     ]
   },
   "9NMQZ1DCKCRP": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.0,
@@ -10969,7 +11104,7 @@ const GAME = {
     ]
   },
   "9NMZQ3V1MNSW": {
-    "antiquity": 40,
+    "antiquity": 41,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.7,
@@ -10982,7 +11117,7 @@ const GAME = {
     ]
   },
   "9NN066DTTWWS": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.4,
@@ -10999,7 +11134,7 @@ const GAME = {
     ]
   },
   "9NN16ML9S93V": {
-    "antiquity": 1063,
+    "antiquity": 1064,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -11012,7 +11147,7 @@ const GAME = {
     ]
   },
   "9NN1Z8LHMFBV": {
-    "antiquity": 865,
+    "antiquity": 866,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
@@ -11027,7 +11162,7 @@ const GAME = {
     ]
   },
   "9NN27WZ1L4J0": {
-    "antiquity": 33,
+    "antiquity": 34,
     "gamepass": false,
     "price": 16.19,
     "rate": 4.3,
@@ -11044,7 +11179,7 @@ const GAME = {
     ]
   },
   "9NN2CZ47HB73": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": false,
     "price": 26.99,
     "rate": 3.4,
@@ -11060,7 +11195,7 @@ const GAME = {
     ]
   },
   "9NN38XKP4M2J": {
-    "antiquity": 116,
+    "antiquity": 83,
     "gamepass": false,
     "price": 0.0,
     "rate": 5.0,
@@ -11076,7 +11211,7 @@ const GAME = {
     ]
   },
   "9NN3H5NHBC7K": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
     "price": 18.99,
     "rate": 2.5,
@@ -11089,11 +11224,11 @@ const GAME = {
     ]
   },
   "9NN3HCKW5TPC": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
-    "reviews": 2753,
+    "reviews": 2754,
     "trial": false,
     "discount": 75.01876,
     "tags": [
@@ -11104,11 +11239,11 @@ const GAME = {
     ]
   },
   "9NN3VX0L45VL": {
-    "antiquity": 7230,
+    "antiquity": 7231,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.9,
-    "reviews": 17,
+    "reviews": 18,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -11116,7 +11251,7 @@ const GAME = {
     ]
   },
   "9NN69HFJ8SX1": {
-    "antiquity": 1614,
+    "antiquity": 1615,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -11130,7 +11265,7 @@ const GAME = {
     ]
   },
   "9NN6BM65S46B": {
-    "antiquity": 704,
+    "antiquity": 705,
     "gamepass": false,
     "price": 15.49,
     "rate": 3.5,
@@ -11144,11 +11279,11 @@ const GAME = {
     ]
   },
   "9NN6QW1NPCKN": {
-    "antiquity": 215,
+    "antiquity": 216,
     "gamepass": false,
     "price": 0.0,
     "rate": 1.8,
-    "reviews": 139,
+    "reviews": 142,
     "trial": true,
     "discount": 0,
     "tags": [
@@ -11162,7 +11297,7 @@ const GAME = {
     ]
   },
   "9NN77KBJ3N24": {
-    "antiquity": 351,
+    "antiquity": 352,
     "gamepass": false,
     "price": 34.99,
     "rate": 5.0,
@@ -11177,11 +11312,11 @@ const GAME = {
     ]
   },
   "9NN78ZQCHN67": {
-    "antiquity": 50,
+    "antiquity": 51,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
-    "reviews": 33,
+    "reviews": 34,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -11190,7 +11325,7 @@ const GAME = {
     ]
   },
   "9NN82NH949D5": {
-    "antiquity": 746,
+    "antiquity": 747,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.8,
@@ -11203,7 +11338,7 @@ const GAME = {
     ]
   },
   "9NN8R15LFDGC": {
-    "antiquity": 888,
+    "antiquity": 889,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -11217,7 +11352,7 @@ const GAME = {
     ]
   },
   "9NN8Z7XBF15L": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 35.99,
     "rate": 2.5,
@@ -11230,7 +11365,7 @@ const GAME = {
     ]
   },
   "9NNBPBM2F60W": {
-    "antiquity": 817,
+    "antiquity": 818,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -11243,7 +11378,7 @@ const GAME = {
     ]
   },
   "9NNDJKHZD46P": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.2,
@@ -11256,7 +11391,7 @@ const GAME = {
     ]
   },
   "9NNDL9TPLQ0P": {
-    "antiquity": 14,
+    "antiquity": 15,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.0,
@@ -11270,11 +11405,11 @@ const GAME = {
     ]
   },
   "9NNFG8BQRCXL": {
-    "antiquity": 448,
+    "antiquity": 449,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.3,
-    "reviews": 603,
+    "reviews": 604,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -11287,7 +11422,7 @@ const GAME = {
     ]
   },
   "9NNHKK6BZNL9": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.2,
@@ -11301,7 +11436,7 @@ const GAME = {
     ]
   },
   "9NNKFF62LDND": {
-    "antiquity": 12,
+    "antiquity": 13,
     "gamepass": false,
     "price": 15.99,
     "rate": 0.0,
@@ -11314,7 +11449,7 @@ const GAME = {
     ]
   },
   "9NNLRFGN3JCD": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": false,
     "price": 28.49,
     "rate": 4.0,
@@ -11327,7 +11462,7 @@ const GAME = {
     ]
   },
   "9NNNGB12MS08": {
-    "antiquity": 138,
+    "antiquity": 139,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -11340,7 +11475,7 @@ const GAME = {
     ]
   },
   "9NNS41P5J1C7": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -11354,7 +11489,7 @@ const GAME = {
     ]
   },
   "9NNS5CDB6CVM": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.6,
@@ -11367,7 +11502,7 @@ const GAME = {
     ]
   },
   "9NNSTP6KJTZ9": {
-    "antiquity": 1145,
+    "antiquity": 1146,
     "gamepass": false,
     "price": 19.49,
     "rate": 3.9,
@@ -11382,7 +11517,7 @@ const GAME = {
     ]
   },
   "9NNTSPSC35ZB": {
-    "antiquity": 1617,
+    "antiquity": 1618,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.1,
@@ -11396,7 +11531,7 @@ const GAME = {
     ]
   },
   "9NNV1XN25XQ3": {
-    "antiquity": 20,
+    "antiquity": 21,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.5,
@@ -11408,7 +11543,7 @@ const GAME = {
     ]
   },
   "9NNWBBQPCT7F": {
-    "antiquity": 138,
+    "antiquity": 139,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.5,
@@ -11423,7 +11558,7 @@ const GAME = {
     ]
   },
   "9NNZXSRRZWBC": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -11436,11 +11571,11 @@ const GAME = {
     ]
   },
   "9NP1B2V92QZX": {
-    "antiquity": 667,
+    "antiquity": 668,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.8,
-    "reviews": 217,
+    "reviews": 218,
     "trial": false,
     "discount": 75.005356,
     "tags": [
@@ -11450,26 +11585,25 @@ const GAME = {
     ]
   },
   "9NP1DK14F46F": {
-    "antiquity": 368,
+    "antiquity": 369,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 2.9,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NP1P1WFS0LB": {
-    "antiquity": 789,
+    "antiquity": 790,
     "gamepass": true,
     "price": 27.99,
     "rate": 4.0,
-    "reviews": 1029,
+    "reviews": 1030,
     "trial": false,
     "discount": 60.008575,
     "tags": [
@@ -11483,7 +11617,7 @@ const GAME = {
     ]
   },
   "9NP24LBQ8K6J": {
-    "antiquity": 1334,
+    "antiquity": 1335,
     "gamepass": false,
     "price": 3.44,
     "rate": 3.8,
@@ -11500,7 +11634,7 @@ const GAME = {
     ]
   },
   "9NP2VX69B309": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 49.99,
     "rate": 0.0,
@@ -11513,11 +11647,11 @@ const GAME = {
     ]
   },
   "9NP42RG7LBGL": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 63.99,
     "rate": 4.3,
-    "reviews": 136,
+    "reviews": 137,
     "trial": false,
     "discount": 20.002497,
     "tags": [
@@ -11527,7 +11661,7 @@ const GAME = {
     ]
   },
   "9NP43JBLQ8C3": {
-    "antiquity": 278,
+    "antiquity": 279,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
@@ -11546,7 +11680,7 @@ const GAME = {
     ]
   },
   "9NP539LHJD8S": {
-    "antiquity": 1578,
+    "antiquity": 1579,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
@@ -11561,7 +11695,7 @@ const GAME = {
     ]
   },
   "9NP5PZH96PFR": {
-    "antiquity": 816,
+    "antiquity": 817,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.4,
@@ -11578,7 +11712,7 @@ const GAME = {
     ]
   },
   "9NP6V9LFVJ87": {
-    "antiquity": 1363,
+    "antiquity": 1364,
     "gamepass": true,
     "price": 39.99,
     "rate": 1.2,
@@ -11598,7 +11732,7 @@ const GAME = {
     ]
   },
   "9NP77PLZ7B3R": {
-    "antiquity": 258,
+    "antiquity": 259,
     "gamepass": false,
     "price": 21.99,
     "rate": 4.9,
@@ -11611,7 +11745,7 @@ const GAME = {
     ]
   },
   "9NP7Q2SSS81W": {
-    "antiquity": 7217,
+    "antiquity": 7218,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -11624,7 +11758,7 @@ const GAME = {
     ]
   },
   "9NP83DTS8T4W": {
-    "antiquity": 74,
+    "antiquity": 75,
     "gamepass": false,
     "price": 54.99,
     "rate": 2.7,
@@ -11639,7 +11773,7 @@ const GAME = {
     ]
   },
   "9NP89CZ9CP2L": {
-    "antiquity": 1116,
+    "antiquity": 1117,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -11653,7 +11787,7 @@ const GAME = {
     ]
   },
   "9NP9338NS1HB": {
-    "antiquity": 96,
+    "antiquity": 97,
     "gamepass": false,
     "price": 10.99,
     "rate": 4.2,
@@ -11667,7 +11801,7 @@ const GAME = {
     ]
   },
   "9NP9CZ94P96Z": {
-    "antiquity": 136,
+    "antiquity": 137,
     "gamepass": false,
     "price": 7.99,
     "rate": 0.0,
@@ -11680,7 +11814,7 @@ const GAME = {
     ]
   },
   "9NPCD8S1ZRVD": {
-    "antiquity": 754,
+    "antiquity": 755,
     "gamepass": false,
     "price": 22.49,
     "rate": 3.3,
@@ -11697,7 +11831,7 @@ const GAME = {
     ]
   },
   "9NPG3XDRX67N": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.8,
@@ -11711,7 +11845,7 @@ const GAME = {
     ]
   },
   "9NPGPDCXWJQ7": {
-    "antiquity": 217,
+    "antiquity": 218,
     "gamepass": false,
     "price": 29.99,
     "rate": 1.0,
@@ -11728,7 +11862,7 @@ const GAME = {
     ]
   },
   "9NPGTNQFC8B5": {
-    "antiquity": 1818,
+    "antiquity": 1819,
     "gamepass": false,
     "price": 8.39,
     "rate": 4.0,
@@ -11742,7 +11876,7 @@ const GAME = {
     ]
   },
   "9NPHNLJTCZC2": {
-    "antiquity": 270,
+    "antiquity": 271,
     "gamepass": false,
     "price": 23.99,
     "rate": 5.0,
@@ -11757,7 +11891,7 @@ const GAME = {
     ]
   },
   "9NPKKNBJ258V": {
-    "antiquity": 1292,
+    "antiquity": 1293,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -11771,7 +11905,7 @@ const GAME = {
     ]
   },
   "9NPL1WSCLWQ5": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.1,
@@ -11784,7 +11918,7 @@ const GAME = {
     ]
   },
   "9NPNCD6B83WP": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 12.99,
     "rate": 3.5,
@@ -11797,7 +11931,7 @@ const GAME = {
     ]
   },
   "9NPPK20VCTGM": {
-    "antiquity": 886,
+    "antiquity": 887,
     "gamepass": false,
     "price": 15.99,
     "rate": 3.0,
@@ -11814,7 +11948,7 @@ const GAME = {
     ]
   },
   "9NPPNNXC8ZC1": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -11828,8 +11962,25 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9NPQ9N17P1RH": {
+    "antiquity": 537,
+    "gamepass": false,
+    "price": 8.99,
+    "rate": 3.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 55.027515,
+    "tags": [
+      "Fighting",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "CrossPlatform",
+      "Oferta"
+    ]
+  },
   "9NPS0VNZBFQD": {
-    "antiquity": 1208,
+    "antiquity": 1209,
     "gamepass": false,
     "price": 3.74,
     "rate": 5.0,
@@ -11843,7 +11994,7 @@ const GAME = {
     ]
   },
   "9NPV2R926P0M": {
-    "antiquity": 266,
+    "antiquity": 267,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
@@ -11861,7 +12012,7 @@ const GAME = {
     ]
   },
   "9NPX8QQQL9K4": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -11874,11 +12025,11 @@ const GAME = {
     ]
   },
   "9NPZVDCH73SX": {
-    "antiquity": 239,
+    "antiquity": 240,
     "gamepass": true,
     "price": 39.99,
     "rate": 1.9,
-    "reviews": 267,
+    "reviews": 268,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -11889,7 +12040,7 @@ const GAME = {
     ]
   },
   "9NQ0V4DWRK49": {
-    "antiquity": 1721,
+    "antiquity": 1722,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.4,
@@ -11907,7 +12058,7 @@ const GAME = {
     ]
   },
   "9NQ1N709V0TV": {
-    "antiquity": 186,
+    "antiquity": 187,
     "gamepass": false,
     "price": 24.49,
     "rate": 5.0,
@@ -11927,7 +12078,7 @@ const GAME = {
     ]
   },
   "9NQ1NPNF0CPB": {
-    "antiquity": 112,
+    "antiquity": 113,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.3,
@@ -11940,11 +12091,11 @@ const GAME = {
     ]
   },
   "9NQ21Q5909KW": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 109.99,
-    "rate": 4.8,
-    "reviews": 19,
+    "rate": 4.5,
+    "reviews": 23,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -11953,7 +12104,7 @@ const GAME = {
     ]
   },
   "9NQ2BK4WH04X": {
-    "antiquity": 131,
+    "antiquity": 132,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -11968,7 +12119,7 @@ const GAME = {
     ]
   },
   "9NQ2CB7Z7J0W": {
-    "antiquity": 1515,
+    "antiquity": 1516,
     "gamepass": false,
     "price": 16.99,
     "rate": 2.2,
@@ -11984,7 +12135,7 @@ const GAME = {
     ]
   },
   "9NQ33RF63019": {
-    "antiquity": 951,
+    "antiquity": 952,
     "gamepass": false,
     "price": 5.24,
     "rate": 3.8,
@@ -12000,7 +12151,7 @@ const GAME = {
     ]
   },
   "9NQ4FHL918BT": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -12013,7 +12164,7 @@ const GAME = {
     ]
   },
   "9NQ4G8C6W0H4": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 25.99,
     "rate": 2.5,
@@ -12025,7 +12176,7 @@ const GAME = {
     ]
   },
   "9NQ5Z2WH4XDB": {
-    "antiquity": 133,
+    "antiquity": 134,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.5,
@@ -12041,7 +12192,7 @@ const GAME = {
     ]
   },
   "9NQ6CHXKNJ3K": {
-    "antiquity": 162,
+    "antiquity": 163,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -12054,7 +12205,7 @@ const GAME = {
     ]
   },
   "9NQ6MM2WDZ9Z": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.7,
@@ -12068,7 +12219,7 @@ const GAME = {
     ]
   },
   "9NQ73XB1Q5ZG": {
-    "antiquity": 921,
+    "antiquity": 922,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.9,
@@ -12081,7 +12232,7 @@ const GAME = {
     ]
   },
   "9NQ7B5TW16R6": {
-    "antiquity": 229,
+    "antiquity": 230,
     "gamepass": false,
     "price": 15.99,
     "rate": 5.0,
@@ -12095,7 +12246,7 @@ const GAME = {
     ]
   },
   "9NQ87FZ67JZM": {
-    "antiquity": 774,
+    "antiquity": 775,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -12112,7 +12263,7 @@ const GAME = {
     ]
   },
   "9NQ8Q7H7S40B": {
-    "antiquity": 333,
+    "antiquity": 334,
     "gamepass": false,
     "price": 20.09,
     "rate": 5.0,
@@ -12126,7 +12277,7 @@ const GAME = {
     ]
   },
   "9NQ8WPLVZW7L": {
-    "antiquity": 466,
+    "antiquity": 467,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.1,
@@ -12143,7 +12294,7 @@ const GAME = {
     ]
   },
   "9NQ99C9HJLSV": {
-    "antiquity": 888,
+    "antiquity": 889,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -12158,21 +12309,20 @@ const GAME = {
     ]
   },
   "9NQBFK993V7C": {
-    "antiquity": 1215,
+    "antiquity": 1216,
     "gamepass": false,
-    "price": 4.49,
+    "price": 14.99,
     "rate": 5.0,
     "reviews": 3,
     "trial": false,
-    "discount": 70.0467,
+    "discount": 0,
     "tags": [
       "Puzzle",
-      "Strategy",
-      "Oferta"
+      "Strategy"
     ]
   },
   "9NQCQSB1WRC3": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -12185,7 +12335,7 @@ const GAME = {
     ]
   },
   "9NQCRBPFDR8S": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -12202,7 +12352,7 @@ const GAME = {
     ]
   },
   "9NQD8GFG92MS": {
-    "antiquity": 80,
+    "antiquity": 81,
     "gamepass": false,
     "price": 16.99,
     "rate": 3.0,
@@ -12216,7 +12366,7 @@ const GAME = {
     ]
   },
   "9NQHGV8VLD9B": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.6,
@@ -12230,7 +12380,7 @@ const GAME = {
     ]
   },
   "9NQK8X1PD6QQ": {
-    "antiquity": 40,
+    "antiquity": 41,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -12243,8 +12393,26 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9NQKB8NZTGKK": {
+    "antiquity": 264,
+    "gamepass": false,
+    "price": 23.09,
+    "rate": 3.4,
+    "reviews": 5,
+    "trial": false,
+    "discount": 67.00957,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9NQKBZSC6718": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 10.99,
     "rate": 5.0,
@@ -12259,21 +12427,20 @@ const GAME = {
     ]
   },
   "9NQLK0RXLLXF": {
-    "antiquity": 348,
+    "antiquity": 349,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 4.5,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Puzzle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NQMLX3Z30DR": {
-    "antiquity": 550,
+    "antiquity": 551,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.6,
@@ -12289,11 +12456,11 @@ const GAME = {
     ]
   },
   "9NQN84J9S50M": {
-    "antiquity": 50,
+    "antiquity": 51,
     "gamepass": false,
     "price": 7.99,
-    "rate": 3.6,
-    "reviews": 0,
+    "rate": 5.0,
+    "reviews": 1,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -12304,7 +12471,7 @@ const GAME = {
     ]
   },
   "9NQQ8B4PJR25": {
-    "antiquity": 818,
+    "antiquity": 819,
     "gamepass": false,
     "price": 27.99,
     "rate": 2.7,
@@ -12322,21 +12489,20 @@ const GAME = {
     ]
   },
   "9NQS7F51ZLP3": {
-    "antiquity": 4653,
+    "antiquity": 4654,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 3.5,
     "reviews": 12,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
       "Racing & flying",
-      "Sports",
-      "Oferta"
+      "Sports"
     ]
   },
   "9NQSVT8LH9PC": {
-    "antiquity": 242,
+    "antiquity": 243,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
@@ -12353,7 +12519,7 @@ const GAME = {
     ]
   },
   "9NQW61WN3NF1": {
-    "antiquity": 4339,
+    "antiquity": 4340,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.2,
@@ -12367,7 +12533,7 @@ const GAME = {
     ]
   },
   "9NQWB2KZBS1P": {
-    "antiquity": 367,
+    "antiquity": 368,
     "gamepass": false,
     "price": 31.99,
     "rate": 4.5,
@@ -12381,7 +12547,7 @@ const GAME = {
     ]
   },
   "9NQWC50SXW0C": {
-    "antiquity": 103,
+    "antiquity": 104,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -12395,7 +12561,7 @@ const GAME = {
     ]
   },
   "9NQZ4RF4XWXQ": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
@@ -12408,7 +12574,7 @@ const GAME = {
     ]
   },
   "9NQZF3S02FGF": {
-    "antiquity": 1020,
+    "antiquity": 1021,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.8,
@@ -12426,7 +12592,7 @@ const GAME = {
     ]
   },
   "9NQZMG1G7CBN": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.1,
@@ -12441,22 +12607,21 @@ const GAME = {
     ]
   },
   "9NR06QJPMBK5": {
-    "antiquity": 706,
+    "antiquity": 707,
     "gamepass": false,
-    "price": 23.99,
+    "price": 59.99,
     "rate": 4.5,
     "reviews": 14,
     "trial": false,
-    "discount": 60.010002,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NR2JPJLPR8H": {
-    "antiquity": 18,
+    "antiquity": 19,
     "gamepass": false,
     "price": 20.99,
     "rate": 3.7,
@@ -12472,7 +12637,7 @@ const GAME = {
     ]
   },
   "9NR2S404JX3X": {
-    "antiquity": 111,
+    "antiquity": 112,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.6,
@@ -12485,7 +12650,7 @@ const GAME = {
     ]
   },
   "9NR4B9RG8SW6": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -12498,7 +12663,7 @@ const GAME = {
     ]
   },
   "9NR56Z50P67B": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -12512,7 +12677,7 @@ const GAME = {
     ]
   },
   "9NR5H934436J": {
-    "antiquity": 145,
+    "antiquity": 146,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -12526,7 +12691,7 @@ const GAME = {
     ]
   },
   "9NR6DRNCZS5Z": {
-    "antiquity": 747,
+    "antiquity": 748,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
@@ -12541,7 +12706,7 @@ const GAME = {
     ]
   },
   "9NR7CHJK9TMC": {
-    "antiquity": 459,
+    "antiquity": 460,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.1,
@@ -12558,7 +12723,7 @@ const GAME = {
     ]
   },
   "9NR7LV9PB9SD": {
-    "antiquity": 1035,
+    "antiquity": 1036,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
@@ -12573,7 +12738,7 @@ const GAME = {
     ]
   },
   "9NR7XDNVP5SW": {
-    "antiquity": 603,
+    "antiquity": 604,
     "gamepass": true,
     "price": 9.89,
     "rate": 4.5,
@@ -12591,7 +12756,7 @@ const GAME = {
     ]
   },
   "9NR832T55HJ6": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -12605,7 +12770,7 @@ const GAME = {
     ]
   },
   "9NR8V6M3QH57": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -12618,7 +12783,7 @@ const GAME = {
     ]
   },
   "9NR8ZBSJQ4FD": {
-    "antiquity": 1046,
+    "antiquity": 1047,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -12633,7 +12798,7 @@ const GAME = {
     ]
   },
   "9NRBH9HS807L": {
-    "antiquity": 788,
+    "antiquity": 789,
     "gamepass": false,
     "price": 17.49,
     "rate": 3.7,
@@ -12649,7 +12814,7 @@ const GAME = {
     ]
   },
   "9NRDG9Q1V2XM": {
-    "antiquity": 269,
+    "antiquity": 270,
     "gamepass": false,
     "price": 79.99,
     "rate": 4.4,
@@ -12667,7 +12832,7 @@ const GAME = {
     ]
   },
   "9NRDNGQJLD96": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.4,
@@ -12682,7 +12847,7 @@ const GAME = {
     ]
   },
   "9NRFS8111GN3": {
-    "antiquity": 782,
+    "antiquity": 783,
     "gamepass": false,
     "price": 9.89,
     "rate": 5.0,
@@ -12697,7 +12862,7 @@ const GAME = {
     ]
   },
   "9NRHBKDPTWCQ": {
-    "antiquity": 4360,
+    "antiquity": 4361,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.9,
@@ -12709,7 +12874,7 @@ const GAME = {
     ]
   },
   "9NRKMH6W45Q4": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.6,
@@ -12723,7 +12888,7 @@ const GAME = {
     ]
   },
   "9NRL0NM003WW": {
-    "antiquity": 259,
+    "antiquity": 260,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -12741,7 +12906,7 @@ const GAME = {
     ]
   },
   "9NRMXFFD3K13": {
-    "antiquity": 697,
+    "antiquity": 698,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -12760,7 +12925,7 @@ const GAME = {
     ]
   },
   "9NRPGJZQRP2M": {
-    "antiquity": 12,
+    "antiquity": 13,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
@@ -12776,11 +12941,11 @@ const GAME = {
     ]
   },
   "9NRPPQHL2MZM": {
-    "antiquity": 1718,
+    "antiquity": 1719,
     "gamepass": false,
     "price": 0.0,
-    "rate": 4.3,
-    "reviews": 95,
+    "rate": 4.2,
+    "reviews": 96,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -12796,7 +12961,7 @@ const GAME = {
     ]
   },
   "9NRPQ7Z4Q2D7": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": false,
     "price": 11.24,
     "rate": 3.8,
@@ -12813,7 +12978,7 @@ const GAME = {
     ]
   },
   "9NRPTTJ94PCK": {
-    "antiquity": 1830,
+    "antiquity": 1831,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.6,
@@ -12829,7 +12994,7 @@ const GAME = {
     ]
   },
   "9NRQDPTQGDFB": {
-    "antiquity": 143,
+    "antiquity": 144,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -12843,7 +13008,7 @@ const GAME = {
     ]
   },
   "9NRRS7MNZM4B": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -12858,21 +13023,20 @@ const GAME = {
     ]
   },
   "9NRS410K8WMJ": {
-    "antiquity": 1329,
+    "antiquity": 1330,
     "gamepass": false,
-    "price": 14.99,
+    "price": 49.99,
     "rate": 3.9,
     "reviews": 27,
     "trial": false,
-    "discount": 70.014,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NRSBXFHS9WC": {
-    "antiquity": 847,
+    "antiquity": 848,
     "gamepass": false,
     "price": 109.99,
     "rate": 3.1,
@@ -12887,11 +13051,11 @@ const GAME = {
     ]
   },
   "9NRVQSNK91GK": {
-    "antiquity": 195,
+    "antiquity": 196,
     "gamepass": false,
     "price": 35.99,
     "rate": 3.9,
-    "reviews": 155,
+    "reviews": 156,
     "trial": false,
     "discount": 40.006668,
     "tags": [
@@ -12902,7 +13066,7 @@ const GAME = {
     ]
   },
   "9NRWLT874D38": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -12918,7 +13082,7 @@ const GAME = {
     ]
   },
   "9NRX3HRMZQ7Z": {
-    "antiquity": 592,
+    "antiquity": 593,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.2,
@@ -12932,7 +13096,7 @@ const GAME = {
     ]
   },
   "9NRX55Z58QNV": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
@@ -12946,7 +13110,7 @@ const GAME = {
     ]
   },
   "9NS027TDJMXP": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.8,
@@ -12960,7 +13124,7 @@ const GAME = {
     ]
   },
   "9NS096G1K57J": {
-    "antiquity": 1624,
+    "antiquity": 1625,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.6,
@@ -12973,7 +13137,7 @@ const GAME = {
     ]
   },
   "9NS2JVJPFGTQ": {
-    "antiquity": 809,
+    "antiquity": 810,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -12990,7 +13154,7 @@ const GAME = {
     ]
   },
   "9NS2RVCMXH60": {
-    "antiquity": 112,
+    "antiquity": 113,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -13003,7 +13167,7 @@ const GAME = {
     ]
   },
   "9NS2WF6GVWQ6": {
-    "antiquity": 468,
+    "antiquity": 469,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
@@ -13016,11 +13180,11 @@ const GAME = {
     ]
   },
   "9NS3673HVH41": {
-    "antiquity": 606,
+    "antiquity": 607,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.6,
-    "reviews": 183,
+    "reviews": 184,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -13034,7 +13198,7 @@ const GAME = {
     ]
   },
   "9NS66QNVR00N": {
-    "antiquity": 1026,
+    "antiquity": 1027,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -13050,7 +13214,7 @@ const GAME = {
     ]
   },
   "9NS671JN9FBH": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 31.99,
     "rate": 4.0,
@@ -13067,25 +13231,8 @@ const GAME = {
       "Oferta"
     ]
   },
-  "9NS6HRJ20RPC": {
-    "antiquity": 248,
-    "gamepass": false,
-    "price": 4.99,
-    "rate": 2.0,
-    "reviews": 2,
-    "trial": false,
-    "discount": 50.05005,
-    "tags": [
-      "Racing & flying",
-      "Simulation",
-      "Sports",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9NS86BQ33SPX": {
-    "antiquity": 934,
+    "antiquity": 935,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.9,
@@ -13103,7 +13250,7 @@ const GAME = {
     ]
   },
   "9NS8FFT26NJF": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.7,
@@ -13117,7 +13264,7 @@ const GAME = {
     ]
   },
   "9NS9BRXC545T": {
-    "antiquity": 24,
+    "antiquity": 25,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.1,
@@ -13133,7 +13280,7 @@ const GAME = {
     ]
   },
   "9NSBBXF5S8PZ": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -13149,7 +13296,7 @@ const GAME = {
     ]
   },
   "9NSBR0CM6M1K": {
-    "antiquity": 411,
+    "antiquity": 412,
     "gamepass": false,
     "price": 14.99,
     "rate": 1.0,
@@ -13162,7 +13309,7 @@ const GAME = {
     ]
   },
   "9NSBX56ZNP7X": {
-    "antiquity": 431,
+    "antiquity": 432,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -13176,7 +13323,7 @@ const GAME = {
     ]
   },
   "9NSBZNCJ4BB6": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.8,
@@ -13189,7 +13336,7 @@ const GAME = {
     ]
   },
   "9NSCJVM7D76S": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 41.99,
     "rate": 3.9,
@@ -13203,7 +13350,7 @@ const GAME = {
     ]
   },
   "9NSD4HTWM8HT": {
-    "antiquity": 298,
+    "antiquity": 299,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.6,
@@ -13218,7 +13365,7 @@ const GAME = {
     ]
   },
   "9NSH67S5R3V4": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.8,
@@ -13233,7 +13380,7 @@ const GAME = {
     ]
   },
   "9NSHP02MNJ45": {
-    "antiquity": 220,
+    "antiquity": 221,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.3,
@@ -13247,7 +13394,7 @@ const GAME = {
     ]
   },
   "9NSL68D814GC": {
-    "antiquity": 1655,
+    "antiquity": 1656,
     "gamepass": true,
     "price": 9.99,
     "rate": 3.5,
@@ -13261,7 +13408,7 @@ const GAME = {
     ]
   },
   "9NSLQMF111VP": {
-    "antiquity": 74,
+    "antiquity": 75,
     "gamepass": false,
     "price": 26.99,
     "rate": 2.7,
@@ -13276,7 +13423,7 @@ const GAME = {
     ]
   },
   "9NSMDJ3MCVP0": {
-    "antiquity": 13,
+    "antiquity": 14,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.6,
@@ -13289,7 +13436,7 @@ const GAME = {
     ]
   },
   "9NSN96Q4K6FF": {
-    "antiquity": 69,
+    "antiquity": 70,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -13303,7 +13450,7 @@ const GAME = {
     ]
   },
   "9NSQBVH6ZC9Z": {
-    "antiquity": 1075,
+    "antiquity": 1076,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.2,
@@ -13321,7 +13468,7 @@ const GAME = {
     ]
   },
   "9NSQLMXB0F4F": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 20.49,
     "rate": 3.8,
@@ -13340,7 +13487,7 @@ const GAME = {
     ]
   },
   "9NSR1MJQ5R5H": {
-    "antiquity": 1418,
+    "antiquity": 1419,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
@@ -13355,10 +13502,10 @@ const GAME = {
     ]
   },
   "9NSRXKQ4XSWN": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.4,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -13370,7 +13517,7 @@ const GAME = {
     ]
   },
   "9NSS2JPDTN2X": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -13383,7 +13530,7 @@ const GAME = {
     ]
   },
   "9NSTHB5F1702": {
-    "antiquity": 329,
+    "antiquity": 330,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -13400,7 +13547,7 @@ const GAME = {
     ]
   },
   "9NSV7WJ9QJPZ": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.0,
@@ -13414,7 +13561,7 @@ const GAME = {
     ]
   },
   "9NSWRNXVBRJP": {
-    "antiquity": 1537,
+    "antiquity": 1538,
     "gamepass": false,
     "price": 24.49,
     "rate": 4.2,
@@ -13431,7 +13578,7 @@ const GAME = {
     ]
   },
   "9NSX10LQRZ3C": {
-    "antiquity": 81,
+    "antiquity": 69,
     "gamepass": false,
     "price": 12.99,
     "rate": 5.0,
@@ -13446,7 +13593,7 @@ const GAME = {
     ]
   },
   "9NSXDRXPFM5W": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.0,
@@ -13463,7 +13610,7 @@ const GAME = {
     ]
   },
   "9NSXG3RPQ8M7": {
-    "antiquity": 5,
+    "antiquity": 6,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
@@ -13476,7 +13623,7 @@ const GAME = {
     ]
   },
   "9NT063NR9NGQ": {
-    "antiquity": 340,
+    "antiquity": 341,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -13490,7 +13637,7 @@ const GAME = {
     ]
   },
   "9NT1KKVGMZFX": {
-    "antiquity": 249,
+    "antiquity": 250,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -13504,11 +13651,11 @@ const GAME = {
     ]
   },
   "9NT1ZBBV6WH6": {
-    "antiquity": 872,
+    "antiquity": 873,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
-    "reviews": 792,
+    "reviews": 793,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -13523,7 +13670,7 @@ const GAME = {
     ]
   },
   "9NT2824TW8VR": {
-    "antiquity": 49,
+    "antiquity": 50,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
@@ -13536,7 +13683,7 @@ const GAME = {
     ]
   },
   "9NT2KRVRL6XG": {
-    "antiquity": 342,
+    "antiquity": 343,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.0,
@@ -13550,7 +13697,7 @@ const GAME = {
     ]
   },
   "9NT2TQPST9S0": {
-    "antiquity": 852,
+    "antiquity": 853,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.3,
@@ -13566,7 +13713,7 @@ const GAME = {
     ]
   },
   "9NT3WC6RKBVQ": {
-    "antiquity": 473,
+    "antiquity": 474,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.1,
@@ -13584,11 +13731,11 @@ const GAME = {
     ]
   },
   "9NT4X7P8B9NB": {
-    "antiquity": 2090,
+    "antiquity": 2091,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.6,
-    "reviews": 2518,
+    "reviews": 2519,
     "trial": false,
     "discount": 50.01667,
     "tags": [
@@ -13602,7 +13749,7 @@ const GAME = {
     ]
   },
   "9NT57N0G00Q9": {
-    "antiquity": 610,
+    "antiquity": 611,
     "gamepass": false,
     "price": 0.0,
     "rate": 1.7,
@@ -13618,7 +13765,7 @@ const GAME = {
     ]
   },
   "9NT70HH77RLP": {
-    "antiquity": 131,
+    "antiquity": 132,
     "gamepass": false,
     "price": 79.99,
     "rate": 4.5,
@@ -13633,40 +13780,42 @@ const GAME = {
     ]
   },
   "9NT7FNZ0WJM1": {
-    "antiquity": 213,
+    "antiquity": 214,
     "gamepass": false,
-    "price": 79.99,
+    "price": 23.99,
     "rate": 1.9,
     "reviews": 18,
     "trial": true,
-    "discount": 0,
+    "discount": 70.00876,
     "tags": [
       "Compras",
       "Sports",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9NT9R76CMJ4S": {
-    "antiquity": 818,
+    "antiquity": 819,
     "gamepass": false,
-    "price": 9.99,
+    "price": 4.99,
     "rate": 4.2,
     "reviews": 18,
     "trial": false,
-    "discount": 0,
+    "discount": 50.05005,
     "tags": [
       "Action",
       "Role playing",
       "Shooter",
       "LocalMultiPlayer",
       "SinglePlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9NTDJV24HPW8": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -13679,7 +13828,7 @@ const GAME = {
     ]
   },
   "9NTFPTBXDDT3": {
-    "antiquity": 488,
+    "antiquity": 489,
     "gamepass": true,
     "price": 39.99,
     "rate": 2.7,
@@ -13696,7 +13845,7 @@ const GAME = {
     ]
   },
   "9NTGH3ZZ3PX3": {
-    "antiquity": 8101,
+    "antiquity": 8102,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -13709,7 +13858,7 @@ const GAME = {
     ]
   },
   "9NTJTN5582BD": {
-    "antiquity": 96,
+    "antiquity": 97,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.4,
@@ -13725,7 +13874,7 @@ const GAME = {
     ]
   },
   "9NTLCSBHKLQD": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 5.99,
     "rate": 1.0,
@@ -13738,7 +13887,7 @@ const GAME = {
     ]
   },
   "9NTPMJ9G1V8L": {
-    "antiquity": 33,
+    "antiquity": 34,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.0,
@@ -13752,7 +13901,7 @@ const GAME = {
     ]
   },
   "9NTPMT5Q7J06": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 35.99,
     "rate": 2.5,
@@ -13765,7 +13914,7 @@ const GAME = {
     ]
   },
   "9NTQ6MLD45VB": {
-    "antiquity": 153,
+    "antiquity": 154,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.9,
@@ -13780,7 +13929,7 @@ const GAME = {
     ]
   },
   "9NTQMM7RLRJ3": {
-    "antiquity": 109,
+    "antiquity": 110,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -13794,7 +13943,7 @@ const GAME = {
     ]
   },
   "9NTRS771L8HL": {
-    "antiquity": 846,
+    "antiquity": 847,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.8,
@@ -13807,7 +13956,7 @@ const GAME = {
     ]
   },
   "9NTTBXDXC9G4": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 21.49,
     "rate": 5.0,
@@ -13821,7 +13970,7 @@ const GAME = {
     ]
   },
   "9NTWFQK02TWR": {
-    "antiquity": 111,
+    "antiquity": 112,
     "gamepass": false,
     "price": 18.49,
     "rate": 2.0,
@@ -13835,7 +13984,7 @@ const GAME = {
     ]
   },
   "9NTWM8PXNLD9": {
-    "antiquity": 145,
+    "antiquity": 146,
     "gamepass": false,
     "price": 0.99,
     "rate": 4.2,
@@ -13849,7 +13998,7 @@ const GAME = {
     ]
   },
   "9NTWZGQG2QFB": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
@@ -13863,7 +14012,7 @@ const GAME = {
     ]
   },
   "9NTX07HR22TG": {
-    "antiquity": 762,
+    "antiquity": 763,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -13878,7 +14027,7 @@ const GAME = {
     ]
   },
   "9NTX0QS9N0N6": {
-    "antiquity": 83,
+    "antiquity": 84,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.8,
@@ -13894,7 +14043,7 @@ const GAME = {
     ]
   },
   "9NTX53L7BDCQ": {
-    "antiquity": 1404,
+    "antiquity": 1405,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -13910,7 +14059,7 @@ const GAME = {
     ]
   },
   "9NTXHZQQNM2V": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.2,
@@ -13924,7 +14073,7 @@ const GAME = {
     ]
   },
   "9NTXL8HRZ546": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.3,
@@ -13938,25 +14087,26 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NTXRSH6DTRB": {
-    "antiquity": 188,
+  "9NTZV27BDFCP": {
+    "antiquity": 533,
     "gamepass": false,
     "price": 19.99,
-    "rate": 2.0,
-    "reviews": 1,
+    "rate": 3.7,
+    "reviews": 6,
     "trial": false,
-    "discount": 0,
+    "discount": 50.012505,
     "tags": [
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NV4S56JBDLX": {
-    "antiquity": 318,
+    "antiquity": 319,
     "gamepass": false,
     "price": 79.99,
     "rate": 4.6,
-    "reviews": 124,
+    "reviews": 125,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -13965,22 +14115,8 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9NV57SLB8CD2": {
-    "antiquity": 438,
-    "gamepass": false,
-    "price": 2.99,
-    "rate": 5.0,
-    "reviews": 0,
-    "trial": false,
-    "discount": 70.07007,
-    "tags": [
-      "Bundle",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9NV6JR32F1XG": {
-    "antiquity": 1223,
+    "antiquity": 1224,
     "gamepass": false,
     "price": 14.99,
     "rate": 2.2,
@@ -13995,11 +14131,11 @@ const GAME = {
     ]
   },
   "9NV94S01M4BS": {
-    "antiquity": 794,
+    "antiquity": 795,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
-    "reviews": 42,
+    "reviews": 43,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -14011,7 +14147,7 @@ const GAME = {
     ]
   },
   "9NVBKDF85W8T": {
-    "antiquity": 663,
+    "antiquity": 664,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -14024,7 +14160,7 @@ const GAME = {
     ]
   },
   "9NVBQZ9MBWRD": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -14043,7 +14179,7 @@ const GAME = {
     ]
   },
   "9NVCNM9DQ839": {
-    "antiquity": 1308,
+    "antiquity": 1309,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -14057,7 +14193,7 @@ const GAME = {
     ]
   },
   "9NVF9M4T9V51": {
-    "antiquity": 1145,
+    "antiquity": 1146,
     "gamepass": false,
     "price": 8.49,
     "rate": 4.0,
@@ -14071,7 +14207,7 @@ const GAME = {
     ]
   },
   "9NVFKGHJDHCG": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.4,
@@ -14084,7 +14220,7 @@ const GAME = {
     ]
   },
   "9NVFN0JC5WLK": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
@@ -14099,7 +14235,7 @@ const GAME = {
     ]
   },
   "9NVJ4L71DF5Q": {
-    "antiquity": 782,
+    "antiquity": 783,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.3,
@@ -14114,7 +14250,7 @@ const GAME = {
     ]
   },
   "9NVJM3BH2R0X": {
-    "antiquity": 194,
+    "antiquity": 195,
     "gamepass": false,
     "price": 17.49,
     "rate": 4.0,
@@ -14129,7 +14265,7 @@ const GAME = {
     ]
   },
   "9NVJRQK5KSNT": {
-    "antiquity": 74,
+    "antiquity": 75,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -14142,7 +14278,7 @@ const GAME = {
     ]
   },
   "9NVJWR50KRXX": {
-    "antiquity": 1042,
+    "antiquity": 1043,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.6,
@@ -14157,7 +14293,7 @@ const GAME = {
     ]
   },
   "9NVK1W7L093S": {
-    "antiquity": 1844,
+    "antiquity": 1845,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -14173,7 +14309,7 @@ const GAME = {
     ]
   },
   "9NVLSW745SL0": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -14187,7 +14323,7 @@ const GAME = {
     ]
   },
   "9NVNS4DPCLS3": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.7,
@@ -14204,7 +14340,7 @@ const GAME = {
     ]
   },
   "9NVPSTC08PFQ": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.8,
@@ -14218,7 +14354,7 @@ const GAME = {
     ]
   },
   "9NVQ3KCWBQG2": {
-    "antiquity": 1537,
+    "antiquity": 1538,
     "gamepass": false,
     "price": 24.49,
     "rate": 4.3,
@@ -14235,11 +14371,11 @@ const GAME = {
     ]
   },
   "9NVR4ZQKNBSB": {
-    "antiquity": 1309,
+    "antiquity": 1310,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 243,
+    "reviews": 244,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -14251,7 +14387,7 @@ const GAME = {
     ]
   },
   "9NVR6HDTQZT9": {
-    "antiquity": 951,
+    "antiquity": 952,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -14264,7 +14400,7 @@ const GAME = {
     ]
   },
   "9NVRJS95FLM9": {
-    "antiquity": 878,
+    "antiquity": 879,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.5,
@@ -14280,7 +14416,7 @@ const GAME = {
     ]
   },
   "9NVSWB0TQTVN": {
-    "antiquity": 19,
+    "antiquity": 20,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -14294,7 +14430,7 @@ const GAME = {
     ]
   },
   "9NVVJ8TBD7KP": {
-    "antiquity": 1467,
+    "antiquity": 1468,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -14308,7 +14444,7 @@ const GAME = {
     ]
   },
   "9NVVSHQ771WG": {
-    "antiquity": 1383,
+    "antiquity": 1384,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.3,
@@ -14321,7 +14457,7 @@ const GAME = {
     ]
   },
   "9NVX0ZB8C8QZ": {
-    "antiquity": 55,
+    "antiquity": 56,
     "gamepass": false,
     "price": 23.99,
     "rate": 0.0,
@@ -14337,7 +14473,7 @@ const GAME = {
     ]
   },
   "9NW18N652BCM": {
-    "antiquity": 90,
+    "antiquity": 91,
     "gamepass": false,
     "price": 39.99,
     "rate": 0.0,
@@ -14352,7 +14488,7 @@ const GAME = {
     ]
   },
   "9NW2M2MDWJB2": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -14366,7 +14502,7 @@ const GAME = {
     ]
   },
   "9NW2XNZLVSWW": {
-    "antiquity": 342,
+    "antiquity": 343,
     "gamepass": true,
     "price": 9.99,
     "rate": 3.8,
@@ -14385,7 +14521,7 @@ const GAME = {
     ]
   },
   "9NW3ZWP70KSW": {
-    "antiquity": 161,
+    "antiquity": 162,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.2,
@@ -14399,7 +14535,7 @@ const GAME = {
     ]
   },
   "9NW4Z3HPJVKW": {
-    "antiquity": 838,
+    "antiquity": 839,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.1,
@@ -14414,7 +14550,7 @@ const GAME = {
     ]
   },
   "9NW4ZP84H25L": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 39.99,
     "rate": 1.0,
@@ -14430,8 +14566,24 @@ const GAME = {
       "LocalMultiPlayer"
     ]
   },
+  "9NW5BHKZ45CL": {
+    "antiquity": 553,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 2.4,
+    "reviews": 20,
+    "trial": false,
+    "discount": 75.03752,
+    "tags": [
+      "Compras",
+      "Action",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9NW5KZ01QG5V": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -14445,7 +14597,7 @@ const GAME = {
     ]
   },
   "9NW7S04QK7XV": {
-    "antiquity": 948,
+    "antiquity": 949,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.7,
@@ -14458,7 +14610,7 @@ const GAME = {
     ]
   },
   "9NW9JTKTWKCX": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 8.59,
     "rate": 5.0,
@@ -14471,7 +14623,7 @@ const GAME = {
     ]
   },
   "9NWB4QLXXGJR": {
-    "antiquity": 1257,
+    "antiquity": 1258,
     "gamepass": false,
     "price": 7.99,
     "rate": 5.0,
@@ -14484,7 +14636,7 @@ const GAME = {
     ]
   },
   "9NWCGTMFLTG6": {
-    "antiquity": 438,
+    "antiquity": 439,
     "gamepass": false,
     "price": 5.49,
     "rate": 1.7,
@@ -14499,7 +14651,7 @@ const GAME = {
     ]
   },
   "9NWDL03WDJP1": {
-    "antiquity": 299,
+    "antiquity": 300,
     "gamepass": false,
     "price": 29.69,
     "rate": 4.1,
@@ -14513,7 +14665,7 @@ const GAME = {
     ]
   },
   "9NWDTZSZR6B3": {
-    "antiquity": 19,
+    "antiquity": 20,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.0,
@@ -14527,7 +14679,7 @@ const GAME = {
     ]
   },
   "9NWF05VWQCS8": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -14543,7 +14695,7 @@ const GAME = {
     ]
   },
   "9NWGC41X5W1Z": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 5.99,
     "rate": 2.6,
@@ -14559,7 +14711,7 @@ const GAME = {
     ]
   },
   "9NWGTQ9N9SDK": {
-    "antiquity": 1470,
+    "antiquity": 1471,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.0,
@@ -14572,7 +14724,7 @@ const GAME = {
     ]
   },
   "9NWLPG23T46V": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.2,
@@ -14587,7 +14739,7 @@ const GAME = {
     ]
   },
   "9NWMJR0C0FRS": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
@@ -14600,7 +14752,7 @@ const GAME = {
     ]
   },
   "9NWNQC8H80RV": {
-    "antiquity": 307,
+    "antiquity": 308,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
@@ -14616,7 +14768,7 @@ const GAME = {
     ]
   },
   "9NWPK5KCH6KF": {
-    "antiquity": 75,
+    "antiquity": 76,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -14631,7 +14783,7 @@ const GAME = {
     ]
   },
   "9NWQ686JB33G": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.6,
@@ -14648,11 +14800,11 @@ const GAME = {
     ]
   },
   "9NWR8CP7KN49": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 17.49,
-    "rate": 4.0,
-    "reviews": 35,
+    "rate": 4.1,
+    "reviews": 39,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -14661,7 +14813,7 @@ const GAME = {
     ]
   },
   "9NWRTFDFVSBX": {
-    "antiquity": 50,
+    "antiquity": 51,
     "gamepass": false,
     "price": 39.99,
     "rate": 1.2,
@@ -14676,7 +14828,7 @@ const GAME = {
     ]
   },
   "9NWVSHRZC4Q0": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.5,
@@ -14690,7 +14842,7 @@ const GAME = {
     ]
   },
   "9NWVWC5MZSXC": {
-    "antiquity": 70,
+    "antiquity": 71,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
@@ -14703,7 +14855,7 @@ const GAME = {
     ]
   },
   "9NWZ2RVZT163": {
-    "antiquity": 234,
+    "antiquity": 235,
     "gamepass": false,
     "price": 7.99,
     "rate": 5.0,
@@ -14717,7 +14869,7 @@ const GAME = {
     ]
   },
   "9NWZGX09JMZH": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -14733,11 +14885,11 @@ const GAME = {
     ]
   },
   "9NX008DVW20T": {
-    "antiquity": 460,
+    "antiquity": 461,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.8,
-    "reviews": 22,
+    "reviews": 23,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -14746,7 +14898,7 @@ const GAME = {
     ]
   },
   "9NX07LBJ93XS": {
-    "antiquity": 46,
+    "antiquity": 47,
     "gamepass": false,
     "price": 19.99,
     "rate": 1.5,
@@ -14762,11 +14914,11 @@ const GAME = {
     ]
   },
   "9NX1KVDWPZBK": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 38.49,
     "rate": 4.7,
-    "reviews": 115,
+    "reviews": 116,
     "trial": false,
     "discount": 30.005455,
     "tags": [
@@ -14778,23 +14930,22 @@ const GAME = {
     ]
   },
   "9NX284JVG8N7": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
-    "price": 1.49,
-    "rate": 4.0,
+    "price": 2.99,
+    "rate": 3.9,
     "reviews": 0,
     "trial": false,
-    "discount": 50.16723,
+    "discount": 0,
     "tags": [
       "Simulation",
       "Family",
       "Classics",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9NX2CDFGBBH1": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.6,
@@ -14808,7 +14959,7 @@ const GAME = {
     ]
   },
   "9NX2FLJQ8QBN": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -14828,7 +14979,7 @@ const GAME = {
     ]
   },
   "9NX3BNWNZ9V4": {
-    "antiquity": 179,
+    "antiquity": 180,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
@@ -14840,7 +14991,7 @@ const GAME = {
     ]
   },
   "9NX6FB6V0L2N": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 109.99,
     "rate": 3.3,
@@ -14856,7 +15007,7 @@ const GAME = {
     ]
   },
   "9NX6K9HN4F4K": {
-    "antiquity": 603,
+    "antiquity": 604,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.6,
@@ -14871,7 +15022,7 @@ const GAME = {
     ]
   },
   "9NX763V74544": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.5,
@@ -14884,7 +15035,7 @@ const GAME = {
     ]
   },
   "9NX8WP3G9ZZD": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -14898,7 +15049,7 @@ const GAME = {
     ]
   },
   "9NX9H4RKS43Q": {
-    "antiquity": 32,
+    "antiquity": 33,
     "gamepass": false,
     "price": 14.99,
     "rate": 1.7,
@@ -14914,7 +15065,7 @@ const GAME = {
     ]
   },
   "9NX9LJ5JSWH8": {
-    "antiquity": 1105,
+    "antiquity": 1106,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -14928,11 +15079,11 @@ const GAME = {
     ]
   },
   "9NXBH70B3CVP": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": false,
     "price": 22.49,
     "rate": 5.0,
-    "reviews": 28,
+    "reviews": 29,
     "trial": false,
     "discount": 25.008339,
     "tags": [
@@ -14943,11 +15094,11 @@ const GAME = {
     ]
   },
   "9NXCSWCQTNFG": {
-    "antiquity": 1293,
+    "antiquity": 1294,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.4,
-    "reviews": 282,
+    "reviews": 283,
     "trial": false,
     "discount": 80.013336,
     "tags": [
@@ -14958,7 +15109,7 @@ const GAME = {
     ]
   },
   "9NXCXBGNVQ3W": {
-    "antiquity": 235,
+    "antiquity": 236,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.3,
@@ -14975,7 +15126,7 @@ const GAME = {
     ]
   },
   "9NXF20V1TKGK": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 84.99,
     "rate": 5.0,
@@ -14989,7 +15140,7 @@ const GAME = {
     ]
   },
   "9NXJQW98VDN2": {
-    "antiquity": 1210,
+    "antiquity": 1211,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -15004,7 +15155,7 @@ const GAME = {
     ]
   },
   "9NXK0DPRSN21": {
-    "antiquity": 151,
+    "antiquity": 152,
     "gamepass": false,
     "price": 17.99,
     "rate": 2.5,
@@ -15020,7 +15171,7 @@ const GAME = {
     ]
   },
   "9NXK1JN52PRM": {
-    "antiquity": 14,
+    "antiquity": 15,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -15034,7 +15185,7 @@ const GAME = {
     ]
   },
   "9NXM6K0WF0X2": {
-    "antiquity": 1192,
+    "antiquity": 1193,
     "gamepass": false,
     "price": 30.49,
     "rate": 4.5,
@@ -15047,11 +15198,11 @@ const GAME = {
     ]
   },
   "9NXMBTB02ZSF": {
-    "antiquity": 700,
+    "antiquity": 701,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.8,
-    "reviews": 137,
+    "reviews": 138,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -15062,7 +15213,7 @@ const GAME = {
     ]
   },
   "9NXMFBKVQ1J9": {
-    "antiquity": 1650,
+    "antiquity": 1651,
     "gamepass": false,
     "price": 1.99,
     "rate": 2.0,
@@ -15077,7 +15228,7 @@ const GAME = {
     ]
   },
   "9NXNST9MKMK1": {
-    "antiquity": 1386,
+    "antiquity": 1387,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.0,
@@ -15093,7 +15244,7 @@ const GAME = {
     ]
   },
   "9NXNT26VB1HG": {
-    "antiquity": 119,
+    "antiquity": 120,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -15106,7 +15257,7 @@ const GAME = {
     ]
   },
   "9NXP19FZ7DZ4": {
-    "antiquity": 1208,
+    "antiquity": 1209,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.9,
@@ -15118,11 +15269,11 @@ const GAME = {
     ]
   },
   "9NXQ7HHKJVPJ": {
-    "antiquity": 914,
+    "antiquity": 915,
     "gamepass": false,
     "price": 22.49,
     "rate": 3.7,
-    "reviews": 212,
+    "reviews": 213,
     "trial": false,
     "discount": 75.00833,
     "tags": [
@@ -15133,7 +15284,7 @@ const GAME = {
     ]
   },
   "9NXR6469DM2P": {
-    "antiquity": 1817,
+    "antiquity": 1818,
     "gamepass": true,
     "price": 9.89,
     "rate": 3.6,
@@ -15150,7 +15301,7 @@ const GAME = {
     ]
   },
   "9NXTCLM90W7V": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 65.99,
     "rate": 2.5,
@@ -15167,7 +15318,7 @@ const GAME = {
     ]
   },
   "9NXVC0482QS5": {
-    "antiquity": 1151,
+    "antiquity": 1152,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.8,
@@ -15183,7 +15334,7 @@ const GAME = {
     ]
   },
   "9NXW9LLX76Q9": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.6,
@@ -15198,7 +15349,7 @@ const GAME = {
     ]
   },
   "9NXWZBWB9HX5": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.7,
@@ -15212,7 +15363,7 @@ const GAME = {
     ]
   },
   "9NXZ9856LN2R": {
-    "antiquity": 103,
+    "antiquity": 104,
     "gamepass": false,
     "price": 6.99,
     "rate": 2.9,
@@ -15226,7 +15377,7 @@ const GAME = {
     ]
   },
   "9NZ11P2SP8V6": {
-    "antiquity": 158,
+    "antiquity": 159,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -15241,7 +15392,7 @@ const GAME = {
     ]
   },
   "9NZ240K9K7RC": {
-    "antiquity": 844,
+    "antiquity": 845,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
@@ -15255,7 +15406,7 @@ const GAME = {
     ]
   },
   "9NZ2GRWWV38X": {
-    "antiquity": 1180,
+    "antiquity": 1181,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -15269,10 +15420,10 @@ const GAME = {
     ]
   },
   "9NZ34J10B02X": {
-    "antiquity": 419,
+    "antiquity": 420,
     "gamepass": false,
     "price": 69.99,
-    "rate": 2.9,
+    "rate": 3.0,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -15288,7 +15439,7 @@ const GAME = {
     ]
   },
   "9NZ358ZN9GH1": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": false,
     "price": 18.99,
     "rate": 4.4,
@@ -15301,7 +15452,7 @@ const GAME = {
     ]
   },
   "9NZ35G3WCZBV": {
-    "antiquity": 894,
+    "antiquity": 895,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -15317,7 +15468,7 @@ const GAME = {
     ]
   },
   "9NZ47R1HNPQ1": {
-    "antiquity": 77,
+    "antiquity": 78,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -15334,7 +15485,7 @@ const GAME = {
     ]
   },
   "9NZ59SGJBT21": {
-    "antiquity": 1235,
+    "antiquity": 1236,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -15348,7 +15499,7 @@ const GAME = {
     ]
   },
   "9NZ6GD6JFRCB": {
-    "antiquity": 221,
+    "antiquity": 222,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.3,
@@ -15364,7 +15515,7 @@ const GAME = {
     ]
   },
   "9NZ6H4C813G4": {
-    "antiquity": 587,
+    "antiquity": 588,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -15378,24 +15529,25 @@ const GAME = {
     ]
   },
   "9NZC09NNR93L": {
-    "antiquity": 1357,
+    "antiquity": 1358,
     "gamepass": false,
-    "price": 39.99,
+    "price": 9.99,
     "rate": 4.5,
     "reviews": 63,
     "trial": false,
-    "discount": 0,
+    "discount": 75.01876,
     "tags": [
       "Compras",
       "Shooter",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9NZCFCTCC145": {
-    "antiquity": 1159,
+    "antiquity": 1160,
     "gamepass": false,
     "price": 3.74,
-    "rate": 4.3,
+    "rate": 4.4,
     "reviews": 12,
     "trial": false,
     "discount": 85.03401,
@@ -15407,7 +15559,7 @@ const GAME = {
     ]
   },
   "9NZCJF5VF1NV": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.6,
@@ -15421,7 +15573,7 @@ const GAME = {
     ]
   },
   "9NZCW3RH94S4": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 64.99,
     "rate": 3.7,
@@ -15435,7 +15587,7 @@ const GAME = {
     ]
   },
   "9NZDHXL9SJJ8": {
-    "antiquity": 509,
+    "antiquity": 510,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.7,
@@ -15448,7 +15600,7 @@ const GAME = {
     ]
   },
   "9NZF8N4MB354": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 53.99,
     "rate": 3.8,
@@ -15461,7 +15613,7 @@ const GAME = {
     ]
   },
   "9NZFHL354C12": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.0,
@@ -15476,7 +15628,7 @@ const GAME = {
     ]
   },
   "9NZFTD2PXL5M": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.2,
@@ -15490,7 +15642,7 @@ const GAME = {
     ]
   },
   "9NZFZXDRZQLR": {
-    "antiquity": 683,
+    "antiquity": 684,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.3,
@@ -15504,7 +15656,7 @@ const GAME = {
     ]
   },
   "9NZG72SH3H4W": {
-    "antiquity": 1405,
+    "antiquity": 1406,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.2,
@@ -15521,7 +15673,7 @@ const GAME = {
     ]
   },
   "9NZJ6ZBCS1RR": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 64.99,
     "rate": 2.5,
@@ -15535,27 +15687,28 @@ const GAME = {
     ]
   },
   "9NZJGLTJX1J1": {
-    "antiquity": 160,
+    "antiquity": 161,
     "gamepass": false,
-    "price": 149.99,
+    "price": 49.49,
     "rate": 3.8,
     "reviews": 166,
     "trial": false,
-    "discount": 0,
+    "discount": 67.00446,
     "tags": [
       "Compras",
       "Bundle",
       "LocalMultiPlayer",
       "SinglePlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9NZKLBVMJ3RF": {
-    "antiquity": 195,
+    "antiquity": 196,
     "gamepass": false,
     "price": 41.99,
     "rate": 3.9,
-    "reviews": 159,
+    "reviews": 160,
     "trial": false,
     "discount": 40.005714,
     "tags": [
@@ -15566,7 +15719,7 @@ const GAME = {
     ]
   },
   "9NZL91Q08XRV": {
-    "antiquity": 1159,
+    "antiquity": 1160,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -15581,7 +15734,7 @@ const GAME = {
     ]
   },
   "9NZL9LH9SWHQ": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.6,
@@ -15593,7 +15746,7 @@ const GAME = {
     ]
   },
   "9NZMJ2L3ZCGS": {
-    "antiquity": 84,
+    "antiquity": 85,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.0,
@@ -15608,7 +15761,7 @@ const GAME = {
     ]
   },
   "9NZMNCX5RM20": {
-    "antiquity": 129,
+    "antiquity": 130,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.6,
@@ -15623,7 +15776,7 @@ const GAME = {
     ]
   },
   "9NZNF26W2XMN": {
-    "antiquity": 223,
+    "antiquity": 224,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
@@ -15638,7 +15791,7 @@ const GAME = {
     ]
   },
   "9NZPXDK97PTB": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.4,
@@ -15653,11 +15806,11 @@ const GAME = {
     ]
   },
   "9NZQPT0MWTD0": {
-    "antiquity": 2028,
+    "antiquity": 2029,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.7,
-    "reviews": 18324,
+    "reviews": 18340,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -15668,12 +15821,13 @@ const GAME = {
       "Sports",
       "SinglePlayer",
       "CrossPlatform",
+      "LocalMultiPlayer",
       "MultiPlayer",
       "Free"
     ]
   },
   "9NZS3FB9NXPD": {
-    "antiquity": 579,
+    "antiquity": 580,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.6,
@@ -15686,7 +15840,7 @@ const GAME = {
     ]
   },
   "9NZSF0BLP606": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 89.99,
     "rate": 3.6,
@@ -15699,7 +15853,7 @@ const GAME = {
     ]
   },
   "9NZTCVN4KD3Z": {
-    "antiquity": 69,
+    "antiquity": 70,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -15711,8 +15865,23 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9NZV28P1ZMQ0": {
+    "antiquity": 435,
+    "gamepass": false,
+    "price": 22.5,
+    "rate": 4.2,
+    "reviews": 40,
+    "trial": false,
+    "discount": 70,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9NZVK11DRFRZ": {
-    "antiquity": 76,
+    "antiquity": 77,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -15727,7 +15896,7 @@ const GAME = {
     ]
   },
   "9NZVLH901ZK7": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.3,
@@ -15740,7 +15909,7 @@ const GAME = {
     ]
   },
   "9NZVPT1K9X7P": {
-    "antiquity": 328,
+    "antiquity": 329,
     "gamepass": false,
     "price": 74.99,
     "rate": 4.1,
@@ -15756,7 +15925,7 @@ const GAME = {
     ]
   },
   "9NZVSLGBVV0J": {
-    "antiquity": 104,
+    "antiquity": 105,
     "gamepass": false,
     "price": 79.99,
     "rate": 3.7,
@@ -15769,7 +15938,7 @@ const GAME = {
     ]
   },
   "9NZW0BX211RF": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -15783,7 +15952,7 @@ const GAME = {
     ]
   },
   "9NZWW8K1KX6S": {
-    "antiquity": 333,
+    "antiquity": 334,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.5,
@@ -15799,7 +15968,7 @@ const GAME = {
     ]
   },
   "9NZXCRS1RTFX": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.7,
@@ -15814,7 +15983,7 @@ const GAME = {
     ]
   },
   "9NZXSNNDNK8C": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 27.49,
     "rate": 5.0,
@@ -15828,7 +15997,7 @@ const GAME = {
     ]
   },
   "9NZXZ95G1NKW": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 11.99,
     "rate": 0.0,
@@ -15840,11 +16009,27 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9NZZHB7QGS7W": {
+    "antiquity": 537,
+    "gamepass": false,
+    "price": 17.99,
+    "rate": 3.7,
+    "reviews": 3,
+    "trial": false,
+    "discount": 55.013752,
+    "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9NZZXCB9GSWD": {
-    "antiquity": 725,
+    "antiquity": 726,
     "gamepass": false,
     "price": 11.99,
-    "rate": 4.0,
+    "rate": 4.1,
     "reviews": 0,
     "trial": false,
     "discount": 70.0175,
@@ -15857,26 +16042,27 @@ const GAME = {
     ]
   },
   "9P008L2LS87F": {
-    "antiquity": 781,
+    "antiquity": 782,
     "gamepass": true,
-    "price": 24.99,
+    "price": 8.74,
     "rate": 4.2,
     "reviews": 329,
     "trial": false,
-    "discount": 0,
+    "discount": 65.02601,
     "tags": [
       "Action",
       "Platformer",
       "SinglePlayer",
-      "GamePass"
+      "GamePass",
+      "Oferta"
     ]
   },
   "9P00SVGWDJCP": {
-    "antiquity": 138,
+    "antiquity": 139,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
-    "reviews": 18,
+    "reviews": 19,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -15886,7 +16072,7 @@ const GAME = {
     ]
   },
   "9P00Z571J84R": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 37.99,
     "rate": 4.5,
@@ -15899,7 +16085,7 @@ const GAME = {
     ]
   },
   "9P01JWGQGQ9C": {
-    "antiquity": 466,
+    "antiquity": 467,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -15916,7 +16102,7 @@ const GAME = {
     ]
   },
   "9P027MJC909C": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -15930,7 +16116,7 @@ const GAME = {
     ]
   },
   "9P03ZQMBMV65": {
-    "antiquity": 1702,
+    "antiquity": 1703,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.2,
@@ -15946,7 +16132,7 @@ const GAME = {
     ]
   },
   "9P0478ZTXLZ4": {
-    "antiquity": 1609,
+    "antiquity": 1610,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
@@ -15960,23 +16146,24 @@ const GAME = {
     ]
   },
   "9P04N164FHZB": {
-    "antiquity": 108,
+    "antiquity": 109,
     "gamepass": false,
-    "price": 139.99,
+    "price": 48.99,
     "rate": 4.0,
     "reviews": 14,
     "trial": false,
-    "discount": 0,
+    "discount": 65.00465,
     "tags": [
       "Compras",
       "Bundle",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9P04VNZXS7NT": {
-    "antiquity": 18,
+    "antiquity": 19,
     "gamepass": false,
     "price": 4.99,
     "rate": 1.4,
@@ -15990,7 +16177,7 @@ const GAME = {
     ]
   },
   "9P052X824T3T": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.3,
@@ -16008,7 +16195,7 @@ const GAME = {
     ]
   },
   "9P058FXZ4G79": {
-    "antiquity": 1426,
+    "antiquity": 1427,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.7,
@@ -16023,7 +16210,7 @@ const GAME = {
     ]
   },
   "9P07F616XR9R": {
-    "antiquity": 229,
+    "antiquity": 230,
     "gamepass": true,
     "price": 41.99,
     "rate": 3.6,
@@ -16041,7 +16228,7 @@ const GAME = {
     ]
   },
   "9P08Z926GJVT": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 22.99,
     "rate": 3.2,
@@ -16056,7 +16243,7 @@ const GAME = {
     ]
   },
   "9P09PDN38S5M": {
-    "antiquity": 160,
+    "antiquity": 161,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.1,
@@ -16070,7 +16257,7 @@ const GAME = {
     ]
   },
   "9P0B86JN5X28": {
-    "antiquity": 787,
+    "antiquity": 788,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -16084,7 +16271,7 @@ const GAME = {
     ]
   },
   "9P0BD1B6351B": {
-    "antiquity": 1519,
+    "antiquity": 1520,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -16098,7 +16285,7 @@ const GAME = {
     ]
   },
   "9P0CDXB98P6V": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -16113,7 +16300,7 @@ const GAME = {
     ]
   },
   "9P0CH36KMNH6": {
-    "antiquity": 1236,
+    "antiquity": 1237,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.8,
@@ -16127,7 +16314,7 @@ const GAME = {
     ]
   },
   "9P0FQ0XCV0LB": {
-    "antiquity": 664,
+    "antiquity": 665,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
@@ -16140,7 +16327,7 @@ const GAME = {
     ]
   },
   "9P0HXGPX1NX0": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.2,
@@ -16153,7 +16340,7 @@ const GAME = {
     ]
   },
   "9P0J4MFCK2MW": {
-    "antiquity": 879,
+    "antiquity": 880,
     "gamepass": false,
     "price": 31.99,
     "rate": 4.3,
@@ -16168,7 +16355,7 @@ const GAME = {
     ]
   },
   "9P0L6K7XDMCM": {
-    "antiquity": 70,
+    "antiquity": 71,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.3,
@@ -16183,11 +16370,11 @@ const GAME = {
     ]
   },
   "9P0N5HPX5KRB": {
-    "antiquity": 489,
+    "antiquity": 490,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.8,
-    "reviews": 174,
+    "reviews": 175,
     "trial": false,
     "discount": 50.005554,
     "tags": [
@@ -16197,7 +16384,7 @@ const GAME = {
     ]
   },
   "9P0NZ0JH86CW": {
-    "antiquity": 83,
+    "antiquity": 84,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.5,
@@ -16213,7 +16400,7 @@ const GAME = {
     ]
   },
   "9P0PQDJVX01S": {
-    "antiquity": 257,
+    "antiquity": 258,
     "gamepass": false,
     "price": 20.99,
     "rate": 3.9,
@@ -16226,8 +16413,24 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9P0R69JP728B": {
+    "antiquity": 505,
+    "gamepass": false,
+    "price": 23.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 60.010002,
+    "tags": [
+      "Simulation",
+      "Role playing",
+      "Strategy",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9P0RGJND5SR0": {
-    "antiquity": 789,
+    "antiquity": 790,
     "gamepass": false,
     "price": 7.49,
     "rate": 2.9,
@@ -16246,7 +16449,7 @@ const GAME = {
     ]
   },
   "9P0RTPKMCS5S": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -16260,7 +16463,7 @@ const GAME = {
     ]
   },
   "9P0TTXPS7G7B": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -16273,7 +16476,7 @@ const GAME = {
     ]
   },
   "9P0VF4BSN88L": {
-    "antiquity": 367,
+    "antiquity": 368,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -16290,7 +16493,7 @@ const GAME = {
     ]
   },
   "9P0VN9WWF7TZ": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -16306,7 +16509,7 @@ const GAME = {
     ]
   },
   "9P0W8CS6P7SF": {
-    "antiquity": 978,
+    "antiquity": 979,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.8,
@@ -16321,7 +16524,7 @@ const GAME = {
     ]
   },
   "9P0XSL4VHKGZ": {
-    "antiquity": 515,
+    "antiquity": 516,
     "gamepass": false,
     "price": 27.99,
     "rate": 5.0,
@@ -16335,7 +16538,7 @@ const GAME = {
     ]
   },
   "9P0ZSZCLPD40": {
-    "antiquity": 54,
+    "antiquity": 55,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
@@ -16349,7 +16552,7 @@ const GAME = {
     ]
   },
   "9P0ZTJDML54K": {
-    "antiquity": 84,
+    "antiquity": 85,
     "gamepass": false,
     "price": 32.49,
     "rate": 4.4,
@@ -16363,7 +16566,7 @@ const GAME = {
     ]
   },
   "9P10L2608550": {
-    "antiquity": 24,
+    "antiquity": 25,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.3,
@@ -16376,7 +16579,7 @@ const GAME = {
     ]
   },
   "9P121GJW0X9Q": {
-    "antiquity": 811,
+    "antiquity": 812,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -16389,7 +16592,7 @@ const GAME = {
     ]
   },
   "9P125QM7H83X": {
-    "antiquity": 977,
+    "antiquity": 978,
     "gamepass": false,
     "price": 3.99,
     "rate": 2.2,
@@ -16404,7 +16607,7 @@ const GAME = {
     ]
   },
   "9P12JKLBDC03": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -16416,7 +16619,7 @@ const GAME = {
     ]
   },
   "9P13DT8NX19S": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.3,
@@ -16431,7 +16634,7 @@ const GAME = {
     ]
   },
   "9P1468J5QG2D": {
-    "antiquity": 1544,
+    "antiquity": 1545,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
@@ -16446,7 +16649,7 @@ const GAME = {
     ]
   },
   "9P15B79HJ6GV": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -16460,7 +16663,7 @@ const GAME = {
     ]
   },
   "9P15TL7WZD4P": {
-    "antiquity": 74,
+    "antiquity": 75,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -16475,7 +16678,7 @@ const GAME = {
     ]
   },
   "9P15W0WLBJ0H": {
-    "antiquity": 1379,
+    "antiquity": 1380,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -16491,7 +16694,7 @@ const GAME = {
     ]
   },
   "9P161T5KQBFN": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -16505,7 +16708,7 @@ const GAME = {
     ]
   },
   "9P16M6LF0QFH": {
-    "antiquity": 1523,
+    "antiquity": 1524,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -16520,11 +16723,11 @@ const GAME = {
     ]
   },
   "9P175WJ0DCSD": {
-    "antiquity": 447,
+    "antiquity": 448,
     "gamepass": false,
     "price": 3.89,
-    "rate": 3.6,
-    "reviews": 10,
+    "rate": 3.5,
+    "reviews": 11,
     "trial": false,
     "discount": 35.058426,
     "tags": [
@@ -16534,7 +16737,7 @@ const GAME = {
     ]
   },
   "9P17KJLSCR59": {
-    "antiquity": 46,
+    "antiquity": 47,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -16548,7 +16751,7 @@ const GAME = {
     ]
   },
   "9P17WWMQVP91": {
-    "antiquity": 129,
+    "antiquity": 130,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -16563,7 +16766,7 @@ const GAME = {
     ]
   },
   "9P18KH5VVS7L": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.4,
@@ -16577,7 +16780,7 @@ const GAME = {
     ]
   },
   "9P19V385GM8T": {
-    "antiquity": 950,
+    "antiquity": 951,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -16591,7 +16794,7 @@ const GAME = {
     ]
   },
   "9P19XR7J5B61": {
-    "antiquity": 151,
+    "antiquity": 152,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.5,
@@ -16604,7 +16807,7 @@ const GAME = {
     ]
   },
   "9P1C361XMN7F": {
-    "antiquity": 432,
+    "antiquity": 433,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.1,
@@ -16619,7 +16822,7 @@ const GAME = {
     ]
   },
   "9P1CJJJXFMW5": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.3,
@@ -16633,7 +16836,7 @@ const GAME = {
     ]
   },
   "9P1CVDQXQ5RB": {
-    "antiquity": 185,
+    "antiquity": 186,
     "gamepass": false,
     "price": 13.99,
     "rate": 3.0,
@@ -16649,11 +16852,11 @@ const GAME = {
     ]
   },
   "9P1F1PHQLZ8W": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 109.99,
     "rate": 5.0,
-    "reviews": 21,
+    "reviews": 22,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -16663,7 +16866,7 @@ const GAME = {
     ]
   },
   "9P1H1KJB032N": {
-    "antiquity": 132,
+    "antiquity": 133,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -16677,7 +16880,7 @@ const GAME = {
     ]
   },
   "9P1J66PDPGPD": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.2,
@@ -16692,7 +16895,7 @@ const GAME = {
     ]
   },
   "9P1JDGT3X5RK": {
-    "antiquity": 1160,
+    "antiquity": 1161,
     "gamepass": false,
     "price": 6.99,
     "rate": 3.4,
@@ -16704,8 +16907,56 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9P1K4FCX2SB9": {
+    "antiquity": 382,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.6,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.010002,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
+  "9P1KL7WVV777": {
+    "antiquity": 357,
+    "gamepass": false,
+    "price": 11.99,
+    "rate": 4.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 25.015635,
+    "tags": [
+      "Action",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9P1KPD71FK1S": {
+    "antiquity": 368,
+    "gamepass": false,
+    "price": 4.99,
+    "rate": 4.5,
+    "reviews": 6,
+    "trial": false,
+    "discount": 50.05005,
+    "tags": [
+      "Racing & flying",
+      "Sports",
+      "Simulation",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9P1M9DR3XQ97": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 4.49,
     "rate": 5.0,
@@ -16720,7 +16971,7 @@ const GAME = {
     ]
   },
   "9P1NHSKG4W6X": {
-    "antiquity": 187,
+    "antiquity": 188,
     "gamepass": false,
     "price": 12.99,
     "rate": 5.0,
@@ -16733,7 +16984,7 @@ const GAME = {
     ]
   },
   "9P1NV4N3P2LP": {
-    "antiquity": 1404,
+    "antiquity": 1405,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.0,
@@ -16748,20 +16999,19 @@ const GAME = {
     ]
   },
   "9P1QCD4J75J8": {
-    "antiquity": 4955,
+    "antiquity": 4956,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 4.5,
     "reviews": 17,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Oferta"
+      "Action"
     ]
   },
   "9P1RPXHWZ1C7": {
-    "antiquity": 831,
+    "antiquity": 832,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -16778,7 +17028,7 @@ const GAME = {
     ]
   },
   "9P1RSQ5MGPCR": {
-    "antiquity": 1279,
+    "antiquity": 1280,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
@@ -16795,7 +17045,7 @@ const GAME = {
     ]
   },
   "9P1S85QPHZQL": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.8,
@@ -16808,7 +17058,7 @@ const GAME = {
     ]
   },
   "9P1TN93GRXL6": {
-    "antiquity": 46,
+    "antiquity": 47,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.1,
@@ -16821,7 +17071,7 @@ const GAME = {
     ]
   },
   "9P1V3ZTGV75F": {
-    "antiquity": 437,
+    "antiquity": 438,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.0,
@@ -16835,7 +17085,7 @@ const GAME = {
     ]
   },
   "9P1VCWR5V9W7": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
@@ -16848,7 +17098,7 @@ const GAME = {
     ]
   },
   "9P1XM8K7P5F7": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.0,
@@ -16862,7 +17112,7 @@ const GAME = {
     ]
   },
   "9P1XMC1TVCLV": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
@@ -16877,7 +17127,7 @@ const GAME = {
     ]
   },
   "9P1Z43KRNQD4": {
-    "antiquity": 900,
+    "antiquity": 901,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
@@ -16894,10 +17144,10 @@ const GAME = {
     ]
   },
   "9P1ZSGSQ7DHV": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 4.99,
-    "rate": 3.4,
+    "rate": 3.3,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -16909,7 +17159,7 @@ const GAME = {
     ]
   },
   "9P24L00XLRRL": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -16922,7 +17172,7 @@ const GAME = {
     ]
   },
   "9P259VBRWXK3": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": false,
     "price": 5.99,
     "rate": 2.8,
@@ -16936,7 +17186,7 @@ const GAME = {
     ]
   },
   "9P25V071SD3G": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.9,
@@ -16951,7 +17201,7 @@ const GAME = {
     ]
   },
   "9P2645MZWPNM": {
-    "antiquity": 459,
+    "antiquity": 460,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.5,
@@ -16966,7 +17216,7 @@ const GAME = {
     ]
   },
   "9P2688LZXW86": {
-    "antiquity": 648,
+    "antiquity": 649,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.8,
@@ -16981,7 +17231,7 @@ const GAME = {
     ]
   },
   "9P26VHDG66PJ": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -16996,7 +17246,7 @@ const GAME = {
     ]
   },
   "9P27BK0D8W4G": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -17010,7 +17260,7 @@ const GAME = {
     ]
   },
   "9P27ZMZ7FDPZ": {
-    "antiquity": 1154,
+    "antiquity": 1155,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -17024,7 +17274,7 @@ const GAME = {
     ]
   },
   "9P28LMJGJR8L": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -17039,7 +17289,7 @@ const GAME = {
     ]
   },
   "9P2B1FK47495": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 7.49,
     "rate": 5.0,
@@ -17052,7 +17302,7 @@ const GAME = {
     ]
   },
   "9P2BSRS2MV38": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
@@ -17066,7 +17316,7 @@ const GAME = {
     ]
   },
   "9P2CSQSJ0NBC": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 23.99,
     "rate": 1.0,
@@ -17079,7 +17329,7 @@ const GAME = {
     ]
   },
   "9P2D13NKC0W3": {
-    "antiquity": 1106,
+    "antiquity": 1107,
     "gamepass": false,
     "price": 89.99,
     "rate": 2.8,
@@ -17095,23 +17345,22 @@ const GAME = {
     ]
   },
   "9P2DXSZVP8Z3": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 3.3,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
       "Classics",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9P2F4C1XFZJ4": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.2,
@@ -17126,7 +17375,7 @@ const GAME = {
     ]
   },
   "9P2JCWVV5RWD": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -17140,7 +17389,7 @@ const GAME = {
     ]
   },
   "9P2JF7VBP511": {
-    "antiquity": 145,
+    "antiquity": 146,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.2,
@@ -17155,7 +17404,7 @@ const GAME = {
     ]
   },
   "9P2L941CCH2B": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -17175,7 +17424,7 @@ const GAME = {
     ]
   },
   "9P2N57MC619K": {
-    "antiquity": 2149,
+    "antiquity": 2150,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.7,
@@ -17191,7 +17440,7 @@ const GAME = {
     ]
   },
   "9P2NRWG6FNT9": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 40.49,
     "rate": 2.7,
@@ -17208,7 +17457,7 @@ const GAME = {
     ]
   },
   "9P2P1JGND87F": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 31.49,
     "rate": 2.8,
@@ -17221,7 +17470,7 @@ const GAME = {
     ]
   },
   "9P2RSRFGL53N": {
-    "antiquity": 161,
+    "antiquity": 162,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.2,
@@ -17235,7 +17484,7 @@ const GAME = {
     ]
   },
   "9P2SNGQPT7LJ": {
-    "antiquity": 34,
+    "antiquity": 35,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -17248,7 +17497,7 @@ const GAME = {
     ]
   },
   "9P2VCBLZG73K": {
-    "antiquity": 1670,
+    "antiquity": 1671,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.3,
@@ -17263,7 +17512,7 @@ const GAME = {
     ]
   },
   "9P2W6Z00QF2J": {
-    "antiquity": 795,
+    "antiquity": 796,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.9,
@@ -17278,7 +17527,7 @@ const GAME = {
     ]
   },
   "9P2W72XG20S5": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.0,
@@ -17293,7 +17542,7 @@ const GAME = {
     ]
   },
   "9P2WJCRJBMRM": {
-    "antiquity": 1243,
+    "antiquity": 1244,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -17306,7 +17555,7 @@ const GAME = {
     ]
   },
   "9P2Z4DTVCB7Z": {
-    "antiquity": 977,
+    "antiquity": 978,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -17323,7 +17572,7 @@ const GAME = {
     ]
   },
   "9P2Z7WDFM00X": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 6.99,
     "rate": 3.2,
@@ -17338,7 +17587,7 @@ const GAME = {
     ]
   },
   "9P2ZC9BQXGWM": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -17353,7 +17602,7 @@ const GAME = {
     ]
   },
   "9P2ZR7V52K2Z": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.2,
@@ -17368,7 +17617,7 @@ const GAME = {
     ]
   },
   "9P2ZXR6HZMH3": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -17382,7 +17631,7 @@ const GAME = {
     ]
   },
   "9P30BFHZ1BKN": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.2,
@@ -17397,7 +17646,7 @@ const GAME = {
     ]
   },
   "9P31WJ3N46KB": {
-    "antiquity": 858,
+    "antiquity": 859,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -17412,7 +17661,7 @@ const GAME = {
     ]
   },
   "9P33G235JFBT": {
-    "antiquity": 139,
+    "antiquity": 140,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -17427,7 +17676,7 @@ const GAME = {
     ]
   },
   "9P33VJGVPHVP": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 44.99,
     "rate": 2.5,
@@ -17446,7 +17695,7 @@ const GAME = {
     ]
   },
   "9P33X3C755SK": {
-    "antiquity": 429,
+    "antiquity": 430,
     "gamepass": false,
     "price": 19.79,
     "rate": 2.8,
@@ -17460,11 +17709,11 @@ const GAME = {
     ]
   },
   "9P35BQP00S3M": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
     "price": 34.99,
-    "rate": 4.3,
-    "reviews": 6,
+    "rate": 4.4,
+    "reviews": 7,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -17473,7 +17722,7 @@ const GAME = {
     ]
   },
   "9P3769NR8GS8": {
-    "antiquity": 185,
+    "antiquity": 186,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -17486,7 +17735,7 @@ const GAME = {
     ]
   },
   "9P38RKJH2D3P": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 79.99,
     "rate": 5.0,
@@ -17500,7 +17749,7 @@ const GAME = {
     ]
   },
   "9P39PS01THMG": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.3,
@@ -17513,7 +17762,7 @@ const GAME = {
     ]
   },
   "9P3B05THXV0V": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -17527,7 +17776,7 @@ const GAME = {
     ]
   },
   "9P3BF9800P6B": {
-    "antiquity": 181,
+    "antiquity": 182,
     "gamepass": false,
     "price": 34.99,
     "rate": 2.0,
@@ -17541,7 +17790,7 @@ const GAME = {
     ]
   },
   "9P3D5X6WMK3M": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 26.99,
     "rate": 0.0,
@@ -17558,7 +17807,7 @@ const GAME = {
     ]
   },
   "9P3FWD0S5W92": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.0,
@@ -17569,8 +17818,25 @@ const GAME = {
       "Bundle"
     ]
   },
+  "9P3GWK7CBWMQ": {
+    "antiquity": 13,
+    "gamepass": false,
+    "price": 15.29,
+    "rate": 0.0,
+    "reviews": 0,
+    "trial": false,
+    "discount": 15.008336,
+    "tags": [
+      "Action",
+      "Shooter",
+      "Simulation",
+      "Role playing",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9P3J32CTXLRZ": {
-    "antiquity": 711,
+    "antiquity": 712,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
@@ -17585,7 +17851,7 @@ const GAME = {
     ]
   },
   "9P3JVHGZB1DF": {
-    "antiquity": 1201,
+    "antiquity": 1202,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -17599,7 +17865,7 @@ const GAME = {
     ]
   },
   "9P3KXQTHZ5LW": {
-    "antiquity": 55,
+    "antiquity": 56,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.8,
@@ -17615,7 +17881,7 @@ const GAME = {
     ]
   },
   "9P3MGM8ZCS5D": {
-    "antiquity": 795,
+    "antiquity": 796,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -17631,7 +17897,7 @@ const GAME = {
     ]
   },
   "9P3MN5SQH69B": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 25.99,
     "rate": 3.5,
@@ -17645,7 +17911,7 @@ const GAME = {
     ]
   },
   "9P3NT9H51RMR": {
-    "antiquity": 571,
+    "antiquity": 572,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.2,
@@ -17664,11 +17930,11 @@ const GAME = {
     ]
   },
   "9P3NWVBWB1F5": {
-    "antiquity": 1057,
+    "antiquity": 1058,
     "gamepass": false,
     "price": 25.99,
-    "rate": 3.8,
-    "reviews": 211,
+    "rate": 3.7,
+    "reviews": 212,
     "trial": false,
     "discount": 80.00616,
     "tags": [
@@ -17679,7 +17945,7 @@ const GAME = {
     ]
   },
   "9P3PL76N0KWZ": {
-    "antiquity": 2289,
+    "antiquity": 2290,
     "gamepass": true,
     "price": 6.59,
     "rate": 4.5,
@@ -17695,7 +17961,7 @@ const GAME = {
     ]
   },
   "9P3R29Q9VK8F": {
-    "antiquity": 1768,
+    "antiquity": 1769,
     "gamepass": false,
     "price": 14.49,
     "rate": 4.1,
@@ -17710,7 +17976,7 @@ const GAME = {
     ]
   },
   "9P3SL80V60J1": {
-    "antiquity": 732,
+    "antiquity": 733,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.8,
@@ -17726,7 +17992,7 @@ const GAME = {
     ]
   },
   "9P3STQMKNS70": {
-    "antiquity": 1399,
+    "antiquity": 1400,
     "gamepass": false,
     "price": 42.49,
     "rate": 4.3,
@@ -17741,21 +18007,20 @@ const GAME = {
     ]
   },
   "9P3V6RHQ82TP": {
-    "antiquity": 4206,
+    "antiquity": 4207,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 5.0,
     "reviews": 3,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
-      "Role playing",
-      "Oferta"
+      "Role playing"
     ]
   },
   "9P3VQTGV2CGK": {
-    "antiquity": 55,
+    "antiquity": 56,
     "gamepass": false,
     "price": 20.99,
     "rate": 0.0,
@@ -17771,7 +18036,7 @@ const GAME = {
     ]
   },
   "9P3W2D5RVB75": {
-    "antiquity": 185,
+    "antiquity": 186,
     "gamepass": false,
     "price": 7.99,
     "rate": 2.8,
@@ -17787,7 +18052,7 @@ const GAME = {
     ]
   },
   "9P3W7QMHR450": {
-    "antiquity": 975,
+    "antiquity": 976,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -17803,7 +18068,7 @@ const GAME = {
     ]
   },
   "9P3X94CCBPXN": {
-    "antiquity": 147,
+    "antiquity": 148,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.3,
@@ -17816,26 +18081,8 @@ const GAME = {
       "MultiPlayer"
     ]
   },
-  "9P3ZQ8PZNNCJ": {
-    "antiquity": 551,
-    "gamepass": false,
-    "price": 41.99,
-    "rate": 4.0,
-    "reviews": 4,
-    "trial": false,
-    "discount": 30.005001,
-    "tags": [
-      "Compras",
-      "Fighting",
-      "Sports",
-      "SinglePlayer",
-      "LocalMultiPlayer",
-      "MultiPlayer",
-      "Oferta"
-    ]
-  },
   "9P3ZRGNQVC7D": {
-    "antiquity": 1194,
+    "antiquity": 1195,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
@@ -17849,7 +18096,7 @@ const GAME = {
     ]
   },
   "9P41RD8N7N6V": {
-    "antiquity": 26,
+    "antiquity": 27,
     "gamepass": false,
     "price": 60.29,
     "rate": 4.2,
@@ -17862,7 +18109,7 @@ const GAME = {
     ]
   },
   "9P427RGRK91M": {
-    "antiquity": 858,
+    "antiquity": 859,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -17877,21 +18124,20 @@ const GAME = {
     ]
   },
   "9P42DSXNCCDG": {
-    "antiquity": 566,
+    "antiquity": 567,
     "gamepass": false,
-    "price": 9.89,
+    "price": 29.99,
     "rate": 5.0,
     "reviews": 4,
     "trial": false,
-    "discount": 67.02234,
+    "discount": 0,
     "tags": [
       "Action",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9P430PCRVPGM": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -17907,7 +18153,7 @@ const GAME = {
     ]
   },
   "9P436CQCTNGW": {
-    "antiquity": 158,
+    "antiquity": 159,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.5,
@@ -17920,8 +18166,24 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9P453HT5DDWM": {
+    "antiquity": 261,
+    "gamepass": false,
+    "price": 31.49,
+    "rate": 4.0,
+    "reviews": 163,
+    "trial": false,
+    "discount": 55.00786,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9P45LLRNDP1R": {
-    "antiquity": 1902,
+    "antiquity": 1903,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -17935,7 +18197,7 @@ const GAME = {
     ]
   },
   "9P47S7NJGWZL": {
-    "antiquity": 713,
+    "antiquity": 714,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.4,
@@ -17951,7 +18213,7 @@ const GAME = {
     ]
   },
   "9P4811KBD5R9": {
-    "antiquity": 620,
+    "antiquity": 621,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -17969,7 +18231,7 @@ const GAME = {
     ]
   },
   "9P48FKLVF9MF": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 50.99,
     "rate": 1.7,
@@ -17984,7 +18246,7 @@ const GAME = {
     ]
   },
   "9P48NK83KSMF": {
-    "antiquity": 888,
+    "antiquity": 889,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.5,
@@ -17998,7 +18260,7 @@ const GAME = {
     ]
   },
   "9P4909RMFJRC": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.2,
@@ -18020,7 +18282,7 @@ const GAME = {
     ]
   },
   "9P49CZ7F8FQD": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -18035,7 +18297,7 @@ const GAME = {
     ]
   },
   "9P49H6GGMGF8": {
-    "antiquity": 186,
+    "antiquity": 187,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -18048,7 +18310,7 @@ const GAME = {
     ]
   },
   "9P4B19SCKJN6": {
-    "antiquity": 46,
+    "antiquity": 47,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.1,
@@ -18061,7 +18323,7 @@ const GAME = {
     ]
   },
   "9P4D0K92BM7V": {
-    "antiquity": 1098,
+    "antiquity": 1099,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -18075,7 +18337,7 @@ const GAME = {
     ]
   },
   "9P4D41K02WB8": {
-    "antiquity": 2328,
+    "antiquity": 2329,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -18093,7 +18355,7 @@ const GAME = {
     ]
   },
   "9P4F8NBPVDNH": {
-    "antiquity": 1579,
+    "antiquity": 1580,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
@@ -18108,7 +18370,7 @@ const GAME = {
     ]
   },
   "9P4FCZR21QQK": {
-    "antiquity": 795,
+    "antiquity": 796,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -18123,7 +18385,7 @@ const GAME = {
     ]
   },
   "9P4FNV66HMHJ": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -18139,7 +18401,7 @@ const GAME = {
     ]
   },
   "9P4KF63WK5P9": {
-    "antiquity": 235,
+    "antiquity": 236,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.5,
@@ -18155,7 +18417,7 @@ const GAME = {
     ]
   },
   "9P4KMR76PLLQ": {
-    "antiquity": 1147,
+    "antiquity": 1148,
     "gamepass": true,
     "price": 17.49,
     "rate": 4.7,
@@ -18174,7 +18436,7 @@ const GAME = {
     ]
   },
   "9P4L4FVNS098": {
-    "antiquity": 89,
+    "antiquity": 90,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.2,
@@ -18187,7 +18449,7 @@ const GAME = {
     ]
   },
   "9P4LSLG7B8CT": {
-    "antiquity": 25,
+    "antiquity": 26,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -18199,11 +18461,11 @@ const GAME = {
     ]
   },
   "9P4NJFH17MRT": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": true,
     "price": 17.49,
-    "rate": 3.8,
-    "reviews": 211,
+    "rate": 3.7,
+    "reviews": 212,
     "trial": false,
     "discount": 75.01072,
     "tags": [
@@ -18215,7 +18477,7 @@ const GAME = {
     ]
   },
   "9P4Q17HQ2WKW": {
-    "antiquity": 1256,
+    "antiquity": 1257,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.9,
@@ -18228,10 +18490,10 @@ const GAME = {
     ]
   },
   "9P4QGNDJB2XD": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 6.99,
-    "rate": 3.6,
+    "rate": 3.5,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -18243,7 +18505,7 @@ const GAME = {
     ]
   },
   "9P4S1BPJLPHZ": {
-    "antiquity": 937,
+    "antiquity": 938,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -18260,7 +18522,7 @@ const GAME = {
     ]
   },
   "9P4SV7R7N3HW": {
-    "antiquity": 367,
+    "antiquity": 368,
     "gamepass": false,
     "price": 48.99,
     "rate": 5.0,
@@ -18276,11 +18538,11 @@ const GAME = {
     ]
   },
   "9P4TCKR37TLZ": {
-    "antiquity": 888,
+    "antiquity": 889,
     "gamepass": false,
     "price": 15.99,
-    "rate": 5.0,
-    "reviews": 1,
+    "rate": 4.7,
+    "reviews": 0,
     "trial": false,
     "discount": 60.005005,
     "tags": [
@@ -18290,7 +18552,7 @@ const GAME = {
     ]
   },
   "9P4VML1WR91N": {
-    "antiquity": 426,
+    "antiquity": 427,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
@@ -18307,7 +18569,7 @@ const GAME = {
     ]
   },
   "9P4VXQ04DTTB": {
-    "antiquity": 106,
+    "antiquity": 107,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -18321,7 +18583,7 @@ const GAME = {
     ]
   },
   "9P4WHS14WFRK": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.0,
@@ -18335,7 +18597,7 @@ const GAME = {
     ]
   },
   "9P4WP953F1L7": {
-    "antiquity": 4963,
+    "antiquity": 4964,
     "gamepass": false,
     "price": 3.59,
     "rate": 5.0,
@@ -18350,7 +18612,7 @@ const GAME = {
     ]
   },
   "9P4Z4TW66LPV": {
-    "antiquity": 1894,
+    "antiquity": 1895,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -18364,7 +18626,7 @@ const GAME = {
     ]
   },
   "9P50WQ5H24K4": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 109.99,
     "rate": 4.9,
@@ -18381,11 +18643,11 @@ const GAME = {
     ]
   },
   "9P513P4MWC71": {
-    "antiquity": 1953,
+    "antiquity": 1954,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.8,
-    "reviews": 30187,
+    "reviews": 30188,
     "trial": false,
     "discount": 65.00649,
     "tags": [
@@ -18397,7 +18659,7 @@ const GAME = {
     ]
   },
   "9P52RCLR2M7N": {
-    "antiquity": 91,
+    "antiquity": 92,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.2,
@@ -18410,7 +18672,7 @@ const GAME = {
     ]
   },
   "9P53X94S6T5S": {
-    "antiquity": 240,
+    "antiquity": 241,
     "gamepass": false,
     "price": 26.99,
     "rate": 4.8,
@@ -18426,7 +18688,7 @@ const GAME = {
     ]
   },
   "9P558FW2W073": {
-    "antiquity": 109,
+    "antiquity": 110,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -18445,7 +18707,7 @@ const GAME = {
     ]
   },
   "9P55992QN40L": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.5,
@@ -18458,7 +18720,7 @@ const GAME = {
     ]
   },
   "9P55TJKCL1BC": {
-    "antiquity": 900,
+    "antiquity": 901,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
@@ -18471,7 +18733,7 @@ const GAME = {
     ]
   },
   "9P59JKD8GTJL": {
-    "antiquity": 256,
+    "antiquity": 257,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.4,
@@ -18488,7 +18750,7 @@ const GAME = {
     ]
   },
   "9P5B81KVDGP1": {
-    "antiquity": 1355,
+    "antiquity": 1356,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.2,
@@ -18503,7 +18765,7 @@ const GAME = {
     ]
   },
   "9P5C81K094KW": {
-    "antiquity": 1320,
+    "antiquity": 1321,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.7,
@@ -18518,7 +18780,7 @@ const GAME = {
     ]
   },
   "9P5CK72457WF": {
-    "antiquity": 291,
+    "antiquity": 292,
     "gamepass": true,
     "price": 31.99,
     "rate": 3.6,
@@ -18532,7 +18794,7 @@ const GAME = {
     ]
   },
   "9P5G1VM74BNV": {
-    "antiquity": 327,
+    "antiquity": 328,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
@@ -18547,7 +18809,7 @@ const GAME = {
     ]
   },
   "9P5GR743B2DN": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -18560,7 +18822,7 @@ const GAME = {
     ]
   },
   "9P5GX4LL8M2L": {
-    "antiquity": 1440,
+    "antiquity": 1441,
     "gamepass": false,
     "price": 4.99,
     "rate": 1.0,
@@ -18575,7 +18837,7 @@ const GAME = {
     ]
   },
   "9P5H37NXML9D": {
-    "antiquity": 215,
+    "antiquity": 216,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.1,
@@ -18593,7 +18855,7 @@ const GAME = {
     ]
   },
   "9P5JTWQDC5B7": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.9,
@@ -18606,7 +18868,7 @@ const GAME = {
     ]
   },
   "9P5L65VNTWCV": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -18619,7 +18881,7 @@ const GAME = {
     ]
   },
   "9P5L7BGTTW7N": {
-    "antiquity": 578,
+    "antiquity": 579,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.6,
@@ -18632,7 +18894,7 @@ const GAME = {
     ]
   },
   "9P5LDSMW526L": {
-    "antiquity": 494,
+    "antiquity": 495,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.8,
@@ -18647,7 +18909,7 @@ const GAME = {
     ]
   },
   "9P5MBBFF3RNT": {
-    "antiquity": 1091,
+    "antiquity": 1092,
     "gamepass": false,
     "price": 16.49,
     "rate": 4.8,
@@ -18661,7 +18923,7 @@ const GAME = {
     ]
   },
   "9P5N5HL106G0": {
-    "antiquity": 40,
+    "antiquity": 41,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.3,
@@ -18675,7 +18937,7 @@ const GAME = {
     ]
   },
   "9P5NCVFHZ8Z7": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 54.99,
     "rate": 4.3,
@@ -18690,7 +18952,7 @@ const GAME = {
     ]
   },
   "9P5R32316ZK4": {
-    "antiquity": 229,
+    "antiquity": 230,
     "gamepass": false,
     "price": 79.99,
     "rate": 3.6,
@@ -18703,11 +18965,11 @@ const GAME = {
     ]
   },
   "9P5S26314HWQ": {
-    "antiquity": 1418,
+    "antiquity": 1419,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.6,
-    "reviews": 150,
+    "reviews": 151,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -18719,7 +18981,7 @@ const GAME = {
     ]
   },
   "9P5VMQZVMJL6": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -18732,7 +18994,7 @@ const GAME = {
     ]
   },
   "9P5Z4530318L": {
-    "antiquity": 508,
+    "antiquity": 509,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.0,
@@ -18749,7 +19011,7 @@ const GAME = {
     ]
   },
   "9P5ZKMZGG0WT": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
@@ -18762,7 +19024,7 @@ const GAME = {
     ]
   },
   "9P5ZSRKCJ6VG": {
-    "antiquity": 608,
+    "antiquity": 609,
     "gamepass": false,
     "price": 54.99,
     "rate": 4.2,
@@ -18777,7 +19039,7 @@ const GAME = {
     ]
   },
   "9P5ZW3QRJJ6W": {
-    "antiquity": 65,
+    "antiquity": 66,
     "gamepass": false,
     "price": 12.49,
     "rate": 0.0,
@@ -18790,7 +19052,7 @@ const GAME = {
     ]
   },
   "9P607FD9C3GL": {
-    "antiquity": 73,
+    "antiquity": 74,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.9,
@@ -18804,7 +19066,7 @@ const GAME = {
     ]
   },
   "9P63NBFCTWLD": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 34.99,
     "rate": 2.3,
@@ -18818,7 +19080,7 @@ const GAME = {
     ]
   },
   "9P648H4R49GB": {
-    "antiquity": 341,
+    "antiquity": 342,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.9,
@@ -18832,8 +19094,26 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9P64SQC33RN1": {
+    "antiquity": 320,
+    "gamepass": false,
+    "price": 47.99,
+    "rate": 3.4,
+    "reviews": 5,
+    "trial": false,
+    "discount": 60.004997,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9P65CHDF6RJQ": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -18846,7 +19126,7 @@ const GAME = {
     ]
   },
   "9P65SVC7S9N7": {
-    "antiquity": 930,
+    "antiquity": 931,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.6,
@@ -18861,7 +19141,7 @@ const GAME = {
     ]
   },
   "9P66M24BMH79": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 31.49,
     "rate": 3.5,
@@ -18874,7 +19154,7 @@ const GAME = {
     ]
   },
   "9P66NTS6MW93": {
-    "antiquity": 194,
+    "antiquity": 195,
     "gamepass": false,
     "price": 0.99,
     "rate": 3.0,
@@ -18887,7 +19167,7 @@ const GAME = {
     ]
   },
   "9P66ZL9CGB4B": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
@@ -18901,7 +19181,7 @@ const GAME = {
     ]
   },
   "9P675WH90SB4": {
-    "antiquity": 1574,
+    "antiquity": 1575,
     "gamepass": false,
     "price": 21.99,
     "rate": 4.4,
@@ -18916,7 +19196,7 @@ const GAME = {
     ]
   },
   "9P69B09J5QGW": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
@@ -18929,7 +19209,7 @@ const GAME = {
     ]
   },
   "9P69BDSC7QBG": {
-    "antiquity": 895,
+    "antiquity": 896,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -18944,7 +19224,7 @@ const GAME = {
     ]
   },
   "9P6B1V23QBVQ": {
-    "antiquity": 1284,
+    "antiquity": 1285,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -18959,7 +19239,7 @@ const GAME = {
     ]
   },
   "9P6B7297ZVVZ": {
-    "antiquity": 73,
+    "antiquity": 74,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -18972,7 +19252,7 @@ const GAME = {
     ]
   },
   "9P6CPB2M27WX": {
-    "antiquity": 903,
+    "antiquity": 904,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.8,
@@ -18988,7 +19268,7 @@ const GAME = {
     ]
   },
   "9P6FTM76L1S7": {
-    "antiquity": 1469,
+    "antiquity": 1470,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.6,
@@ -19001,7 +19281,7 @@ const GAME = {
     ]
   },
   "9P6G4L8BRP4K": {
-    "antiquity": 453,
+    "antiquity": 454,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -19014,7 +19294,7 @@ const GAME = {
     ]
   },
   "9P6GWDW4VHHF": {
-    "antiquity": 158,
+    "antiquity": 159,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -19031,7 +19311,7 @@ const GAME = {
     ]
   },
   "9P6J9NFKGJ68": {
-    "antiquity": 509,
+    "antiquity": 510,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.3,
@@ -19044,11 +19324,11 @@ const GAME = {
     ]
   },
   "9P6LNN3KZ75R": {
-    "antiquity": 63,
+    "antiquity": 64,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 3613,
+    "reviews": 3614,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -19061,7 +19341,7 @@ const GAME = {
     ]
   },
   "9P6M3M3B127P": {
-    "antiquity": 1244,
+    "antiquity": 1245,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -19075,7 +19355,7 @@ const GAME = {
     ]
   },
   "9P6N45QZR81R": {
-    "antiquity": 749,
+    "antiquity": 750,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.3,
@@ -19090,7 +19370,7 @@ const GAME = {
     ]
   },
   "9P6N7LQ4HZFD": {
-    "antiquity": 1529,
+    "antiquity": 1530,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.1,
@@ -19104,7 +19384,7 @@ const GAME = {
     ]
   },
   "9P6P8860TJNL": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -19117,7 +19397,7 @@ const GAME = {
     ]
   },
   "9P6PQLFP9BN0": {
-    "antiquity": 902,
+    "antiquity": 903,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
@@ -19132,7 +19412,7 @@ const GAME = {
     ]
   },
   "9P6QH9KLFHWF": {
-    "antiquity": 984,
+    "antiquity": 985,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.4,
@@ -19149,7 +19429,7 @@ const GAME = {
     ]
   },
   "9P6QRRZQKPCM": {
-    "antiquity": 1322,
+    "antiquity": 1323,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.3,
@@ -19164,11 +19444,11 @@ const GAME = {
     ]
   },
   "9P6QSZH8RL0C": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 79.99,
     "rate": 2.9,
-    "reviews": 82,
+    "reviews": 83,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -19179,7 +19459,7 @@ const GAME = {
     ]
   },
   "9P6SRW1HVW9K": {
-    "antiquity": 806,
+    "antiquity": 807,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.0,
@@ -19195,7 +19475,7 @@ const GAME = {
     ]
   },
   "9P6W46XMDJM5": {
-    "antiquity": 1636,
+    "antiquity": 1637,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.6,
@@ -19211,7 +19491,7 @@ const GAME = {
     ]
   },
   "9P6Z4R93GZML": {
-    "antiquity": 158,
+    "antiquity": 159,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -19226,7 +19506,7 @@ const GAME = {
     ]
   },
   "9P6ZX0FVJLNZ": {
-    "antiquity": 132,
+    "antiquity": 133,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.0,
@@ -19239,7 +19519,7 @@ const GAME = {
     ]
   },
   "9P731Z4BBCT3": {
-    "antiquity": 460,
+    "antiquity": 461,
     "gamepass": true,
     "price": 69.99,
     "rate": 4.2,
@@ -19254,7 +19534,7 @@ const GAME = {
     ]
   },
   "9P73DJK5X41G": {
-    "antiquity": 50,
+    "antiquity": 51,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.8,
@@ -19268,7 +19548,7 @@ const GAME = {
     ]
   },
   "9P73QQBQ1MMD": {
-    "antiquity": 90,
+    "antiquity": 91,
     "gamepass": false,
     "price": 44.99,
     "rate": 0.0,
@@ -19281,22 +19561,23 @@ const GAME = {
     ]
   },
   "9P74SKTVPH9F": {
-    "antiquity": 579,
+    "antiquity": 580,
     "gamepass": false,
-    "price": 14.49,
+    "price": 9.41,
     "rate": 4.8,
     "reviews": 19,
     "trial": false,
-    "discount": 0,
+    "discount": 35.05866,
     "tags": [
       "Action",
       "Racing & flying",
       "Simulation",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9P778MQ2JPKC": {
-    "antiquity": 1403,
+    "antiquity": 1404,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.9,
@@ -19311,7 +19592,7 @@ const GAME = {
     ]
   },
   "9P7947QLX8PC": {
-    "antiquity": 146,
+    "antiquity": 147,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -19326,7 +19607,7 @@ const GAME = {
     ]
   },
   "9P798W4VDT91": {
-    "antiquity": 2286,
+    "antiquity": 2287,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
@@ -19340,11 +19621,11 @@ const GAME = {
     ]
   },
   "9P79R9C82HFQ": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 15.99,
-    "rate": 2.5,
-    "reviews": 2,
+    "rate": 2.0,
+    "reviews": 3,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -19353,8 +19634,26 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9P7DMDVMQW8P": {
+    "antiquity": 481,
+    "gamepass": false,
+    "price": 18.74,
+    "rate": 2.2,
+    "reviews": 5,
+    "trial": false,
+    "discount": 75.01,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9P7G0WL4Z7RF": {
-    "antiquity": 341,
+    "antiquity": 342,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -19370,10 +19669,10 @@ const GAME = {
     ]
   },
   "9P7G96DLDPC7": {
-    "antiquity": 6,
+    "antiquity": 7,
     "gamepass": false,
     "price": 7.99,
-    "rate": 3.6,
+    "rate": 3.7,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -19384,7 +19683,7 @@ const GAME = {
     ]
   },
   "9P7GBPGT90L3": {
-    "antiquity": 1566,
+    "antiquity": 1567,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.9,
@@ -19399,7 +19698,7 @@ const GAME = {
     ]
   },
   "9P7GQ32XBG0R": {
-    "antiquity": 161,
+    "antiquity": 162,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -19412,7 +19711,7 @@ const GAME = {
     ]
   },
   "9P7J2PBZ9QMM": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -19429,7 +19728,7 @@ const GAME = {
     ]
   },
   "9P7JBQJ691KL": {
-    "antiquity": 1769,
+    "antiquity": 1770,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -19447,7 +19746,7 @@ const GAME = {
     ]
   },
   "9P7KD6Z42J58": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.4,
@@ -19461,7 +19760,7 @@ const GAME = {
     ]
   },
   "9P7KMPBK2G9C": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -19476,7 +19775,7 @@ const GAME = {
     ]
   },
   "9P7L9H478GGV": {
-    "antiquity": 179,
+    "antiquity": 180,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
@@ -19493,7 +19792,7 @@ const GAME = {
     ]
   },
   "9P7LG1GLJGGZ": {
-    "antiquity": 55,
+    "antiquity": 56,
     "gamepass": false,
     "price": 24.99,
     "rate": 0.0,
@@ -19506,7 +19805,7 @@ const GAME = {
     ]
   },
   "9P7LJW72MKXV": {
-    "antiquity": 185,
+    "antiquity": 186,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.4,
@@ -19521,7 +19820,7 @@ const GAME = {
     ]
   },
   "9P7M6CRC96J0": {
-    "antiquity": 1160,
+    "antiquity": 1161,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -19535,7 +19834,7 @@ const GAME = {
     ]
   },
   "9P7MS7SRC9NX": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 9.99,
     "rate": 1.6,
@@ -19550,7 +19849,7 @@ const GAME = {
     ]
   },
   "9P7P72HWBDNP": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -19564,7 +19863,7 @@ const GAME = {
     ]
   },
   "9P7PF6ZP3958": {
-    "antiquity": 314,
+    "antiquity": 315,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.6,
@@ -19578,22 +19877,8 @@ const GAME = {
       "Oferta"
     ]
   },
-  "9P7Q7S8FJ76V": {
-    "antiquity": 187,
-    "gamepass": false,
-    "price": 14.99,
-    "rate": 3.7,
-    "reviews": 0,
-    "trial": false,
-    "discount": 0,
-    "tags": [
-      "Simulation",
-      "Role playing",
-      "SinglePlayer"
-    ]
-  },
   "9P7RQQLCV4BH": {
-    "antiquity": 18,
+    "antiquity": 19,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -19608,7 +19893,7 @@ const GAME = {
     ]
   },
   "9P7SL78VHVMF": {
-    "antiquity": 508,
+    "antiquity": 509,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.1,
@@ -19622,7 +19907,7 @@ const GAME = {
     ]
   },
   "9P7TK3GJVH57": {
-    "antiquity": 1074,
+    "antiquity": 1075,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -19634,25 +19919,8 @@ const GAME = {
       "Platformer"
     ]
   },
-  "9P80FVDCXJKB": {
-    "antiquity": 243,
-    "gamepass": true,
-    "price": 54.99,
-    "rate": 3.7,
-    "reviews": 18,
-    "trial": false,
-    "discount": 0,
-    "tags": [
-      "Compras",
-      "Simulation",
-      "Sports",
-      "Strategy",
-      "SinglePlayer",
-      "GamePass"
-    ]
-  },
   "9P822XLW9PB8": {
-    "antiquity": 382,
+    "antiquity": 383,
     "gamepass": false,
     "price": 31.99,
     "rate": 3.4,
@@ -19673,7 +19941,7 @@ const GAME = {
     ]
   },
   "9P843287F8X2": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -19688,7 +19956,7 @@ const GAME = {
     ]
   },
   "9P862Q562R1X": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -19703,11 +19971,11 @@ const GAME = {
     ]
   },
   "9P86HR73LQJZ": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 49.73,
     "rate": 4.5,
-    "reviews": 774,
+    "reviews": 775,
     "trial": false,
     "discount": 50.00503,
     "tags": [
@@ -19717,7 +19985,7 @@ const GAME = {
     ]
   },
   "9P886VG62RT0": {
-    "antiquity": 1020,
+    "antiquity": 1021,
     "gamepass": false,
     "price": 5.99,
     "rate": 2.4,
@@ -19735,7 +20003,7 @@ const GAME = {
     ]
   },
   "9P88K6NQW12H": {
-    "antiquity": 175,
+    "antiquity": 176,
     "gamepass": false,
     "price": 19.49,
     "rate": 3.0,
@@ -19753,7 +20021,7 @@ const GAME = {
     ]
   },
   "9P8C89QGRXVG": {
-    "antiquity": 811,
+    "antiquity": 812,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.0,
@@ -19767,21 +20035,20 @@ const GAME = {
     ]
   },
   "9P8CTN0T9S6X": {
-    "antiquity": 362,
+    "antiquity": 363,
     "gamepass": false,
-    "price": 3.74,
+    "price": 4.99,
     "rate": 4.5,
     "reviews": 0,
     "trial": false,
-    "discount": 25.050098,
+    "discount": 0,
     "tags": [
       "Puzzle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9P8DL6W0JBB8": {
-    "antiquity": 967,
+    "antiquity": 968,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
@@ -19795,7 +20062,7 @@ const GAME = {
     ]
   },
   "9P8GR4BMTV36": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 39.99,
     "rate": 1.0,
@@ -19809,7 +20076,7 @@ const GAME = {
     ]
   },
   "9P8K2WP8VXKF": {
-    "antiquity": 860,
+    "antiquity": 861,
     "gamepass": false,
     "price": 23.99,
     "rate": 2.9,
@@ -19825,7 +20092,7 @@ const GAME = {
     ]
   },
   "9P8K6ZZ71SX5": {
-    "antiquity": 981,
+    "antiquity": 982,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.4,
@@ -19840,7 +20107,7 @@ const GAME = {
     ]
   },
   "9P8K95CWTHX8": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.7,
@@ -19855,7 +20122,7 @@ const GAME = {
     ]
   },
   "9P8M382HXBKH": {
-    "antiquity": 193,
+    "antiquity": 194,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -19870,7 +20137,7 @@ const GAME = {
     ]
   },
   "9P8MQ0X518GC": {
-    "antiquity": 7369,
+    "antiquity": 7370,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -19882,24 +20149,8 @@ const GAME = {
       "Shooter"
     ]
   },
-  "9P8MS0ZFBTFJ": {
-    "antiquity": 227,
-    "gamepass": false,
-    "price": 1.59,
-    "rate": 3.0,
-    "reviews": 0,
-    "trial": false,
-    "discount": 60.15037,
-    "tags": [
-      "Shooter",
-      "Action",
-      "Classics",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9P8P3BVRKTGV": {
-    "antiquity": 32,
+    "antiquity": 33,
     "gamepass": false,
     "price": 7.99,
     "rate": 3.3,
@@ -19912,11 +20163,11 @@ const GAME = {
     ]
   },
   "9P8PGC771MLP": {
-    "antiquity": 239,
+    "antiquity": 240,
     "gamepass": false,
     "price": 79.99,
     "rate": 2.9,
-    "reviews": 626,
+    "reviews": 629,
     "trial": false,
     "discount": 20.002,
     "tags": [
@@ -19928,7 +20179,7 @@ const GAME = {
     ]
   },
   "9P8Q560GC2XR": {
-    "antiquity": 907,
+    "antiquity": 908,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.9,
@@ -19943,7 +20194,7 @@ const GAME = {
     ]
   },
   "9P8QW0SMZP57": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 3.99,
     "rate": 5.0,
@@ -19959,7 +20210,7 @@ const GAME = {
     ]
   },
   "9P8RBKXKNFQ0": {
-    "antiquity": 1104,
+    "antiquity": 1105,
     "gamepass": false,
     "price": 7.99,
     "rate": 2.3,
@@ -19974,7 +20225,7 @@ const GAME = {
     ]
   },
   "9P8RQH67TTT1": {
-    "antiquity": 600,
+    "antiquity": 601,
     "gamepass": false,
     "price": 19.79,
     "rate": 4.5,
@@ -19988,7 +20239,7 @@ const GAME = {
     ]
   },
   "9P8RXNL2PXZT": {
-    "antiquity": 13,
+    "antiquity": 14,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -20003,7 +20254,7 @@ const GAME = {
     ]
   },
   "9P8SQQJ5T94B": {
-    "antiquity": 603,
+    "antiquity": 604,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
@@ -20023,7 +20274,7 @@ const GAME = {
     ]
   },
   "9P8XJRLCLH2P": {
-    "antiquity": 2078,
+    "antiquity": 2079,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.9,
@@ -20037,7 +20288,7 @@ const GAME = {
     ]
   },
   "9P8XZ5W7TKP5": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 42.49,
     "rate": 4.3,
@@ -20050,7 +20301,7 @@ const GAME = {
     ]
   },
   "9P90FGQ2KX0M": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -20064,7 +20315,7 @@ const GAME = {
     ]
   },
   "9P91J18NC76V": {
-    "antiquity": 112,
+    "antiquity": 113,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.7,
@@ -20077,7 +20328,7 @@ const GAME = {
     ]
   },
   "9P91PLSLZBKW": {
-    "antiquity": 879,
+    "antiquity": 880,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -20092,11 +20343,11 @@ const GAME = {
     ]
   },
   "9P9278ZMGQLJ": {
-    "antiquity": 242,
+    "antiquity": 243,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.9,
-    "reviews": 155,
+    "reviews": 156,
     "trial": false,
     "discount": 40.008003,
     "tags": [
@@ -20109,22 +20360,21 @@ const GAME = {
     ]
   },
   "9P957BXL7RDQ": {
-    "antiquity": 538,
+    "antiquity": 539,
     "gamepass": false,
-    "price": 32.99,
+    "price": 54.99,
     "rate": 3.9,
     "reviews": 18,
     "trial": false,
-    "discount": 40.007275,
+    "discount": 0,
     "tags": [
       "Bundle",
       "SinglePlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "9P95H49KSS5J": {
-    "antiquity": 313,
+    "antiquity": 314,
     "gamepass": false,
     "price": 20.24,
     "rate": 4.8,
@@ -20138,22 +20388,21 @@ const GAME = {
     ]
   },
   "9P9906TV3Z64": {
-    "antiquity": 299,
+    "antiquity": 300,
     "gamepass": false,
-    "price": 22.49,
+    "price": 29.99,
     "rate": 4.8,
     "reviews": 4,
     "trial": false,
-    "discount": 25.008339,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Action",
-      "Platformer",
-      "Oferta"
+      "Platformer"
     ]
   },
   "9P9CBCBWXKGV": {
-    "antiquity": 118,
+    "antiquity": 119,
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -20166,7 +20415,7 @@ const GAME = {
     ]
   },
   "9P9CXWVQP6M9": {
-    "antiquity": 1543,
+    "antiquity": 1544,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -20179,7 +20428,7 @@ const GAME = {
     ]
   },
   "9P9F54WDBGH6": {
-    "antiquity": 171,
+    "antiquity": 172,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.6,
@@ -20195,10 +20444,10 @@ const GAME = {
     ]
   },
   "9P9G5WX8C0VH": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 53.59,
-    "rate": 4.1,
+    "rate": 4.2,
     "reviews": 510,
     "trial": false,
     "discount": 33.004124,
@@ -20208,8 +20457,22 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9P9JZ8K1TNBM": {
+    "antiquity": 475,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 4.1,
+    "reviews": 75,
+    "trial": false,
+    "discount": 50.010002,
+    "tags": [
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9P9K6RZC55WH": {
-    "antiquity": 747,
+    "antiquity": 748,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.7,
@@ -20226,7 +20489,7 @@ const GAME = {
     ]
   },
   "9P9K78101LCW": {
-    "antiquity": 1694,
+    "antiquity": 1695,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.5,
@@ -20240,7 +20503,7 @@ const GAME = {
     ]
   },
   "9P9KR2GN0BZ3": {
-    "antiquity": 875,
+    "antiquity": 876,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
@@ -20254,7 +20517,7 @@ const GAME = {
     ]
   },
   "9P9MC8B7R5FP": {
-    "antiquity": 1551,
+    "antiquity": 1552,
     "gamepass": true,
     "price": 5.99,
     "rate": 2.6,
@@ -20269,7 +20532,7 @@ const GAME = {
     ]
   },
   "9P9N0VB61K3H": {
-    "antiquity": 245,
+    "antiquity": 246,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.9,
@@ -20287,40 +20550,24 @@ const GAME = {
     ]
   },
   "9P9NTCZ7HZLL": {
-    "antiquity": 181,
+    "antiquity": 182,
     "gamepass": false,
-    "price": 3.99,
+    "price": 7.99,
     "rate": 4.6,
     "reviews": 0,
     "trial": false,
-    "discount": 50.062572,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Family",
       "Strategy",
       "SinglePlayer",
       "CrossPlatform",
-      "MultiPlayer",
-      "Oferta"
-    ]
-  },
-  "9P9PB3GQDS1X": {
-    "antiquity": 245,
-    "gamepass": false,
-    "price": 18.74,
-    "rate": 4.0,
-    "reviews": 1,
-    "trial": true,
-    "discount": 25.010002,
-    "tags": [
-      "Strategy",
-      "SinglePlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "9P9PJHJND42C": {
-    "antiquity": 236,
+    "antiquity": 237,
     "gamepass": false,
     "price": 38.24,
     "rate": 4.4,
@@ -20337,7 +20584,7 @@ const GAME = {
     ]
   },
   "9P9V698V6MVR": {
-    "antiquity": 1193,
+    "antiquity": 1194,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -20351,11 +20598,11 @@ const GAME = {
     ]
   },
   "9P9VNSQK1W3K": {
-    "antiquity": 20,
+    "antiquity": 21,
     "gamepass": true,
     "price": 4.99,
-    "rate": 4.0,
-    "reviews": 35,
+    "rate": 4.1,
+    "reviews": 39,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -20368,7 +20615,7 @@ const GAME = {
     ]
   },
   "9P9VZ4KF3K44": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -20384,7 +20631,7 @@ const GAME = {
     ]
   },
   "9P9W5KQ25FBJ": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 13.99,
     "rate": 5.0,
@@ -20399,7 +20646,7 @@ const GAME = {
     ]
   },
   "9P9WMJ1295TJ": {
-    "antiquity": 1586,
+    "antiquity": 1587,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.9,
@@ -20415,7 +20662,7 @@ const GAME = {
     ]
   },
   "9P9XZD603VTT": {
-    "antiquity": 154,
+    "antiquity": 155,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.4,
@@ -20429,7 +20676,7 @@ const GAME = {
     ]
   },
   "9PB0MZN0TMNF": {
-    "antiquity": 119,
+    "antiquity": 120,
     "gamepass": false,
     "price": 35.99,
     "rate": 4.1,
@@ -20442,7 +20689,7 @@ const GAME = {
     ]
   },
   "9PB3FDWRWB9L": {
-    "antiquity": 1424,
+    "antiquity": 1425,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -20461,7 +20708,7 @@ const GAME = {
     ]
   },
   "9PB498R5X9B7": {
-    "antiquity": 291,
+    "antiquity": 292,
     "gamepass": false,
     "price": 47.99,
     "rate": 3.6,
@@ -20474,7 +20721,7 @@ const GAME = {
     ]
   },
   "9PB4MGPLLW7R": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 119.99,
     "rate": 4.9,
@@ -20491,11 +20738,11 @@ const GAME = {
     ]
   },
   "9PB4WLWQS892": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 3612,
+    "reviews": 3613,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -20507,7 +20754,7 @@ const GAME = {
     ]
   },
   "9PB5JDBZB4S0": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 6.99,
     "rate": 2.9,
@@ -20521,7 +20768,7 @@ const GAME = {
     ]
   },
   "9PB6MMS1VJ5C": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -20536,7 +20783,7 @@ const GAME = {
     ]
   },
   "9PB6RH1N17XT": {
-    "antiquity": 52,
+    "antiquity": 53,
     "gamepass": false,
     "price": 14.99,
     "rate": 2.2,
@@ -20549,7 +20796,7 @@ const GAME = {
     ]
   },
   "9PBB49G96Q4J": {
-    "antiquity": 295,
+    "antiquity": 296,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -20563,7 +20810,7 @@ const GAME = {
     ]
   },
   "9PBB7WKGG8HN": {
-    "antiquity": 81,
+    "antiquity": 82,
     "gamepass": false,
     "price": 84.99,
     "rate": 3.0,
@@ -20579,7 +20826,7 @@ const GAME = {
     ]
   },
   "9PBC65KXPV5V": {
-    "antiquity": 237,
+    "antiquity": 238,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -20592,7 +20839,7 @@ const GAME = {
     ]
   },
   "9PBCVD3W8464": {
-    "antiquity": 74,
+    "antiquity": 75,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -20610,7 +20857,7 @@ const GAME = {
     ]
   },
   "9PBDC0XZ8TXK": {
-    "antiquity": 1292,
+    "antiquity": 1293,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.6,
@@ -20623,7 +20870,7 @@ const GAME = {
     ]
   },
   "9PBDWHWQNC12": {
-    "antiquity": 69,
+    "antiquity": 70,
     "gamepass": false,
     "price": 35.99,
     "rate": 3.2,
@@ -20638,11 +20885,11 @@ const GAME = {
     ]
   },
   "9PBFZPPSKNTJ": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 59.99,
-    "rate": 3.0,
-    "reviews": 0,
+    "rate": 4.0,
+    "reviews": 1,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -20653,7 +20900,7 @@ const GAME = {
     ]
   },
   "9PBGBFL3504L": {
-    "antiquity": 1047,
+    "antiquity": 1048,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.2,
@@ -20668,7 +20915,7 @@ const GAME = {
     ]
   },
   "9PBGSDN53JP0": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
@@ -20683,7 +20930,7 @@ const GAME = {
     ]
   },
   "9PBH6CXRQ90P": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 109.99,
     "rate": 2.2,
@@ -20700,7 +20947,7 @@ const GAME = {
     ]
   },
   "9PBHXGWZTS2N": {
-    "antiquity": 1634,
+    "antiquity": 1635,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.2,
@@ -20717,7 +20964,7 @@ const GAME = {
     ]
   },
   "9PBLFJMCLW33": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -20731,7 +20978,7 @@ const GAME = {
     ]
   },
   "9PBLH1322GX0": {
-    "antiquity": 1320,
+    "antiquity": 1321,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -20744,7 +20991,7 @@ const GAME = {
     ]
   },
   "9PBN5HM4GZ21": {
-    "antiquity": 1403,
+    "antiquity": 1404,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -20759,7 +21006,7 @@ const GAME = {
     ]
   },
   "9PBNGCVBGML0": {
-    "antiquity": 983,
+    "antiquity": 984,
     "gamepass": true,
     "price": 17.49,
     "rate": 3.3,
@@ -20776,8 +21023,24 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9PBNN5FWSXDL": {
+    "antiquity": 453,
+    "gamepass": false,
+    "price": 17.39,
+    "rate": 4.0,
+    "reviews": 2,
+    "trial": false,
+    "discount": 40.0138,
+    "tags": [
+      "Fighting",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9PBP03PCK429": {
-    "antiquity": 979,
+    "antiquity": 980,
     "gamepass": false,
     "price": 11.99,
     "rate": 2.9,
@@ -20791,7 +21054,7 @@ const GAME = {
     ]
   },
   "9PBPB145Z5XB": {
-    "antiquity": 84,
+    "antiquity": 85,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
@@ -20809,7 +21072,7 @@ const GAME = {
     ]
   },
   "9PBQ7QTWXKZG": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 69.99,
     "rate": 2.8,
@@ -20825,7 +21088,7 @@ const GAME = {
     ]
   },
   "9PBR67RQR7FL": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.2,
@@ -20838,7 +21101,7 @@ const GAME = {
     ]
   },
   "9PBRZQFK0XC3": {
-    "antiquity": 111,
+    "antiquity": 112,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -20851,7 +21114,7 @@ const GAME = {
     ]
   },
   "9PBS5BHSPHFJ": {
-    "antiquity": 606,
+    "antiquity": 607,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.0,
@@ -20866,7 +21129,7 @@ const GAME = {
     ]
   },
   "9PBSFHJWMZ1F": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 73.69,
     "rate": 4.2,
@@ -20882,7 +21145,7 @@ const GAME = {
     ]
   },
   "9PBTMJ6PW9MK": {
-    "antiquity": 1194,
+    "antiquity": 1195,
     "gamepass": false,
     "price": 23.99,
     "rate": 3.2,
@@ -20896,23 +21159,8 @@ const GAME = {
       "Oferta"
     ]
   },
-  "9PBVXQ4GSHJV": {
-    "antiquity": 300,
-    "gamepass": false,
-    "price": 22.49,
-    "rate": 4.5,
-    "reviews": 0,
-    "trial": false,
-    "discount": 25.008339,
-    "tags": [
-      "Action",
-      "Shooter",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "9PBX6142XRPP": {
-    "antiquity": 1118,
+    "antiquity": 1119,
     "gamepass": false,
     "price": 10.99,
     "rate": 3.4,
@@ -20926,7 +21174,7 @@ const GAME = {
     ]
   },
   "9PBX8G0DZ8PJ": {
-    "antiquity": 903,
+    "antiquity": 904,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -20941,7 +21189,7 @@ const GAME = {
     ]
   },
   "9PBZN2DT8T91": {
-    "antiquity": 382,
+    "antiquity": 383,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -20955,21 +21203,20 @@ const GAME = {
     ]
   },
   "9PC0KMB9F5F0": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
-    "price": 59.99,
+    "price": 99.99,
     "rate": 0.0,
     "reviews": 0,
     "trial": false,
-    "discount": 40.003998,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9PC15H56NGJK": {
-    "antiquity": 244,
+    "antiquity": 245,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.4,
@@ -20983,7 +21230,7 @@ const GAME = {
     ]
   },
   "9PC1D0103GFF": {
-    "antiquity": 888,
+    "antiquity": 889,
     "gamepass": false,
     "price": 9.89,
     "rate": 4.3,
@@ -20997,7 +21244,7 @@ const GAME = {
     ]
   },
   "9PC288TN7R8K": {
-    "antiquity": 1194,
+    "antiquity": 1195,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.4,
@@ -21011,7 +21258,7 @@ const GAME = {
     ]
   },
   "9PC2BJDXR2LK": {
-    "antiquity": 1279,
+    "antiquity": 1280,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -21025,7 +21272,7 @@ const GAME = {
     ]
   },
   "9PC2DZXVGKGN": {
-    "antiquity": 54,
+    "antiquity": 55,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.2,
@@ -21039,7 +21286,7 @@ const GAME = {
     ]
   },
   "9PC2JKJBX288": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.8,
@@ -21052,7 +21299,7 @@ const GAME = {
     ]
   },
   "9PC4R8N1N2T6": {
-    "antiquity": 461,
+    "antiquity": 462,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.4,
@@ -21067,7 +21314,7 @@ const GAME = {
     ]
   },
   "9PC4RWP34M2D": {
-    "antiquity": 1508,
+    "antiquity": 1509,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.1,
@@ -21085,7 +21332,7 @@ const GAME = {
     ]
   },
   "9PC575GPLN9J": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -21100,7 +21347,7 @@ const GAME = {
     ]
   },
   "9PC84MH58GJF": {
-    "antiquity": 94,
+    "antiquity": 95,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -21115,7 +21362,7 @@ const GAME = {
     ]
   },
   "9PC8F9T8GX3Q": {
-    "antiquity": 19,
+    "antiquity": 20,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -21128,11 +21375,11 @@ const GAME = {
     ]
   },
   "9PC9CDGLRKK7": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.3,
-    "reviews": 6883,
+    "reviews": 6884,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -21141,7 +21388,7 @@ const GAME = {
     ]
   },
   "9PCC2H5RRMH3": {
-    "antiquity": 90,
+    "antiquity": 91,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -21156,7 +21403,7 @@ const GAME = {
     ]
   },
   "9PCC43DPMGSH": {
-    "antiquity": 48,
+    "antiquity": 49,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.4,
@@ -21170,7 +21417,7 @@ const GAME = {
     ]
   },
   "9PCDJWCFC4X8": {
-    "antiquity": 342,
+    "antiquity": 343,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -21184,7 +21431,7 @@ const GAME = {
     ]
   },
   "9PCDNBHR11MR": {
-    "antiquity": 2456,
+    "antiquity": 2457,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -21202,7 +21449,7 @@ const GAME = {
     ]
   },
   "9PCGG15VSS07": {
-    "antiquity": 152,
+    "antiquity": 153,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.4,
@@ -21216,7 +21463,7 @@ const GAME = {
     ]
   },
   "9PCHNM2BLQHB": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -21229,7 +21476,7 @@ const GAME = {
     ]
   },
   "9PCKBVF3P67H": {
-    "antiquity": 2323,
+    "antiquity": 2324,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.4,
@@ -21246,11 +21493,11 @@ const GAME = {
     ]
   },
   "9PCM4CMTPPGC": {
-    "antiquity": 143,
+    "antiquity": 144,
     "gamepass": true,
     "price": 59.99,
     "rate": 4.2,
-    "reviews": 598,
+    "reviews": 600,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -21261,11 +21508,11 @@ const GAME = {
     ]
   },
   "9PCMWNDPPBFZ": {
-    "antiquity": 242,
+    "antiquity": 243,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.7,
-    "reviews": 114,
+    "reviews": 115,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -21278,7 +21525,7 @@ const GAME = {
     ]
   },
   "9PCPD8CGKR4L": {
-    "antiquity": 957,
+    "antiquity": 958,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.2,
@@ -21296,7 +21543,7 @@ const GAME = {
     ]
   },
   "9PCQ7JRJVBVD": {
-    "antiquity": 180,
+    "antiquity": 181,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.6,
@@ -21311,7 +21558,7 @@ const GAME = {
     ]
   },
   "9PCQHRS23M55": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.3,
@@ -21324,7 +21571,7 @@ const GAME = {
     ]
   },
   "9PCQW56Z5VHZ": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -21338,7 +21585,7 @@ const GAME = {
     ]
   },
   "9PCSHF41PJCJ": {
-    "antiquity": 1182,
+    "antiquity": 1183,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -21353,7 +21600,7 @@ const GAME = {
     ]
   },
   "9PCVN6LRVV13": {
-    "antiquity": 962,
+    "antiquity": 963,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -21370,8 +21617,23 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9PCVWW89JKVW": {
+    "antiquity": 435,
+    "gamepass": false,
+    "price": 29.99,
+    "rate": 4.2,
+    "reviews": 42,
+    "trial": false,
+    "discount": 70.007,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9PCW1SMN9RGG": {
-    "antiquity": 970,
+    "antiquity": 971,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.6,
@@ -21386,7 +21648,7 @@ const GAME = {
     ]
   },
   "9PCX1R3DMMWH": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 31.99,
     "rate": 1.9,
@@ -21404,7 +21666,7 @@ const GAME = {
     ]
   },
   "9PCZC0GZ9B0T": {
-    "antiquity": 335,
+    "antiquity": 336,
     "gamepass": false,
     "price": 40.49,
     "rate": 3.9,
@@ -21418,11 +21680,11 @@ const GAME = {
     ]
   },
   "9PD0KXV2138T": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
     "price": 89.99,
     "rate": 1.9,
-    "reviews": 267,
+    "reviews": 268,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -21432,7 +21694,7 @@ const GAME = {
     ]
   },
   "9PD1FQCKM65P": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 74.99,
     "rate": 5.0,
@@ -21447,7 +21709,7 @@ const GAME = {
     ]
   },
   "9PD3N24ZBS56": {
-    "antiquity": 431,
+    "antiquity": 432,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.2,
@@ -21461,7 +21723,7 @@ const GAME = {
     ]
   },
   "9PD5BFNZ4V7K": {
-    "antiquity": 971,
+    "antiquity": 972,
     "gamepass": true,
     "price": 13.99,
     "rate": 2.2,
@@ -21478,11 +21740,11 @@ const GAME = {
     ]
   },
   "9PD5BM2Z8C4L": {
-    "antiquity": 627,
+    "antiquity": 628,
     "gamepass": true,
     "price": 3.99,
     "rate": 4.8,
-    "reviews": 402,
+    "reviews": 403,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -21493,7 +21755,7 @@ const GAME = {
     ]
   },
   "9PDBV8R4TSNH": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
@@ -21509,7 +21771,7 @@ const GAME = {
     ]
   },
   "9PDBZT6BH848": {
-    "antiquity": 521,
+    "antiquity": 522,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -21527,7 +21789,7 @@ const GAME = {
     ]
   },
   "9PDDP6ML6XHF": {
-    "antiquity": 963,
+    "antiquity": 964,
     "gamepass": true,
     "price": 34.99,
     "rate": 3.7,
@@ -21543,7 +21805,7 @@ const GAME = {
     ]
   },
   "9PDDT56XFZ0K": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 10.99,
     "rate": 1.7,
@@ -21558,21 +21820,20 @@ const GAME = {
     ]
   },
   "9PDG551F7QGC": {
-    "antiquity": 5383,
+    "antiquity": 5384,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 4.3,
     "reviews": 13,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
-      "Role playing",
-      "Oferta"
+      "Role playing"
     ]
   },
   "9PDGWZPKCBT6": {
-    "antiquity": 1196,
+    "antiquity": 1197,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.2,
@@ -21586,23 +21847,24 @@ const GAME = {
     ]
   },
   "9PDHMB2N0V34": {
-    "antiquity": 213,
+    "antiquity": 214,
     "gamepass": false,
-    "price": 69.99,
-    "rate": 3.4,
-    "reviews": 8,
+    "price": 17.49,
+    "rate": 3.6,
+    "reviews": 9,
     "trial": true,
-    "discount": 0,
+    "discount": 75.01072,
     "tags": [
       "Compras",
       "Sports",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "9PDNKZ70QC7L": {
-    "antiquity": 117,
+    "antiquity": 118,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -21616,7 +21878,7 @@ const GAME = {
     ]
   },
   "9PDP73BK988Q": {
-    "antiquity": 222,
+    "antiquity": 223,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.5,
@@ -21631,7 +21893,7 @@ const GAME = {
     ]
   },
   "9PDPD158GLKD": {
-    "antiquity": 818,
+    "antiquity": 819,
     "gamepass": false,
     "price": 79.99,
     "rate": 2.8,
@@ -21648,7 +21910,7 @@ const GAME = {
     ]
   },
   "9PDQZ0NL3GKK": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 12.99,
     "rate": 5.0,
@@ -21662,7 +21924,7 @@ const GAME = {
     ]
   },
   "9PDS04TXBRMS": {
-    "antiquity": 186,
+    "antiquity": 187,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -21675,7 +21937,7 @@ const GAME = {
     ]
   },
   "9PDV8FKWP3B4": {
-    "antiquity": 2310,
+    "antiquity": 2311,
     "gamepass": true,
     "price": 5.99,
     "rate": 3.8,
@@ -21689,7 +21951,7 @@ const GAME = {
     ]
   },
   "9PDXGMV5FVGV": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.5,
@@ -21703,7 +21965,7 @@ const GAME = {
     ]
   },
   "9PDXJP3805DN": {
-    "antiquity": 510,
+    "antiquity": 511,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -21719,7 +21981,7 @@ const GAME = {
     ]
   },
   "9PF03JPJ4753": {
-    "antiquity": 1375,
+    "antiquity": 1376,
     "gamepass": false,
     "price": 10.99,
     "rate": 2.0,
@@ -21731,25 +21993,8 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PF0GL8Q6VVB": {
-    "antiquity": 116,
-    "gamepass": false,
-    "price": 30.0,
-    "rate": 2.1,
-    "reviews": 350,
-    "trial": false,
-    "discount": 0,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "SinglePlayer",
-      "CrossPlatform",
-      "MultiPlayer"
-    ]
-  },
   "9PF0QP2LQZ2T": {
-    "antiquity": 132,
+    "antiquity": 133,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
@@ -21764,7 +22009,7 @@ const GAME = {
     ]
   },
   "9PF1ZX4HHGSW": {
-    "antiquity": 62,
+    "antiquity": 63,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -21777,7 +22022,7 @@ const GAME = {
     ]
   },
   "9PF27C4WRCP5": {
-    "antiquity": 1284,
+    "antiquity": 1285,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -21791,7 +22036,7 @@ const GAME = {
     ]
   },
   "9PF3NCDG22K1": {
-    "antiquity": 1592,
+    "antiquity": 1593,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -21807,11 +22052,11 @@ const GAME = {
     ]
   },
   "9PF432CVQBXT": {
-    "antiquity": 851,
+    "antiquity": 852,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.5,
-    "reviews": 730,
+    "reviews": 732,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -21826,7 +22071,7 @@ const GAME = {
     ]
   },
   "9PF4C55FWR1M": {
-    "antiquity": 75,
+    "antiquity": 76,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.8,
@@ -21841,7 +22086,7 @@ const GAME = {
     ]
   },
   "9PF4TF8QP8T7": {
-    "antiquity": 270,
+    "antiquity": 271,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -21856,7 +22101,7 @@ const GAME = {
     ]
   },
   "9PF6XX9BSHF0": {
-    "antiquity": 1385,
+    "antiquity": 1386,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
@@ -21870,7 +22115,7 @@ const GAME = {
     ]
   },
   "9PF7G7PQ02JW": {
-    "antiquity": 1231,
+    "antiquity": 1232,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.4,
@@ -21885,7 +22130,7 @@ const GAME = {
     ]
   },
   "9PFB0XGSXLR9": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -21900,7 +22145,7 @@ const GAME = {
     ]
   },
   "9PFBJC0VVTMB": {
-    "antiquity": 266,
+    "antiquity": 267,
     "gamepass": false,
     "price": 49.99,
     "rate": 2.9,
@@ -21916,7 +22161,7 @@ const GAME = {
     ]
   },
   "9PFD00CZJ35V": {
-    "antiquity": 1007,
+    "antiquity": 1008,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
@@ -21929,7 +22174,7 @@ const GAME = {
     ]
   },
   "9PFDC72VHK80": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.2,
@@ -21945,7 +22190,7 @@ const GAME = {
     ]
   },
   "9PFDM84GDVQX": {
-    "antiquity": 24,
+    "antiquity": 25,
     "gamepass": false,
     "price": 16.49,
     "rate": 3.8,
@@ -21957,10 +22202,10 @@ const GAME = {
     ]
   },
   "9PFFWMFBFWP3": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 27.99,
-    "rate": 2.3,
+    "rate": 2.2,
     "reviews": 0,
     "trial": true,
     "discount": 60.008575,
@@ -21975,7 +22220,7 @@ const GAME = {
     ]
   },
   "9PFGKW6CBNTH": {
-    "antiquity": 970,
+    "antiquity": 971,
     "gamepass": false,
     "price": 5.99,
     "rate": 1.6,
@@ -21990,7 +22235,7 @@ const GAME = {
     ]
   },
   "9PFJTFFBCTX0": {
-    "antiquity": 1517,
+    "antiquity": 1518,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.1,
@@ -22006,7 +22251,7 @@ const GAME = {
     ]
   },
   "9PFKHJH25TFF": {
-    "antiquity": 4283,
+    "antiquity": 4284,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -22018,7 +22263,7 @@ const GAME = {
     ]
   },
   "9PFKKZ5T89NL": {
-    "antiquity": 1774,
+    "antiquity": 1775,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -22031,7 +22276,7 @@ const GAME = {
     ]
   },
   "9PFLS87CLD7P": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -22046,7 +22291,7 @@ const GAME = {
     ]
   },
   "9PFMBQ9QR8HK": {
-    "antiquity": 347,
+    "antiquity": 348,
     "gamepass": false,
     "price": 35.99,
     "rate": 2.7,
@@ -22063,11 +22308,11 @@ const GAME = {
     ]
   },
   "9PFQFHCJQPT0": {
-    "antiquity": 11,
+    "antiquity": 12,
     "gamepass": false,
     "price": 84.99,
     "rate": 5.0,
-    "reviews": 18,
+    "reviews": 19,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -22077,11 +22322,11 @@ const GAME = {
     ]
   },
   "9PFQQ6CWPHTR": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 69.99,
     "rate": 5.0,
-    "reviews": 4,
+    "reviews": 0,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -22092,7 +22337,7 @@ const GAME = {
     ]
   },
   "9PFQTLC9BHFB": {
-    "antiquity": 1285,
+    "antiquity": 1286,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -22112,37 +22357,37 @@ const GAME = {
     ]
   },
   "9PFSWXRMD478": {
-    "antiquity": 524,
+    "antiquity": 525,
     "gamepass": false,
-    "price": 27.99,
+    "price": 79.99,
     "rate": 2.2,
     "reviews": 4,
     "trial": false,
-    "discount": 65.008125,
+    "discount": 0,
     "tags": [
+      "Bundle",
+      "LocalMultiPlayer",
+      "MultiPlayer"
+    ]
+  },
+  "9PFV977CZPWR": {
+    "antiquity": 81,
+    "gamepass": false,
+    "price": 22.49,
+    "rate": 4.0,
+    "reviews": 14,
+    "trial": false,
+    "discount": 75.00833,
+    "tags": [
+      "Compras",
       "Bundle",
       "LocalMultiPlayer",
       "MultiPlayer",
       "Oferta"
     ]
   },
-  "9PFV977CZPWR": {
-    "antiquity": 80,
-    "gamepass": false,
-    "price": 89.99,
-    "rate": 4.0,
-    "reviews": 14,
-    "trial": false,
-    "discount": 0,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "LocalMultiPlayer",
-      "MultiPlayer"
-    ]
-  },
   "9PFWHZ390TG6": {
-    "antiquity": 1399,
+    "antiquity": 1400,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.4,
@@ -22155,7 +22400,7 @@ const GAME = {
     ]
   },
   "9PFX7F33KVG8": {
-    "antiquity": 837,
+    "antiquity": 838,
     "gamepass": true,
     "price": 49.99,
     "rate": 3.4,
@@ -22172,7 +22417,7 @@ const GAME = {
     ]
   },
   "9PFXNF3850RD": {
-    "antiquity": 382,
+    "antiquity": 383,
     "gamepass": false,
     "price": 41.99,
     "rate": 5.0,
@@ -22188,22 +22433,21 @@ const GAME = {
     ]
   },
   "9PG0HF0DC6KG": {
-    "antiquity": 264,
+    "antiquity": 265,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 2.8,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Action",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9PG495V9BT52": {
-    "antiquity": 454,
+    "antiquity": 455,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.7,
@@ -22218,23 +22462,24 @@ const GAME = {
     ]
   },
   "9PG4FP93CZ42": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
-    "price": 14.99,
-    "rate": 1.9,
+    "price": 11.24,
+    "rate": 1.8,
     "reviews": 0,
     "trial": false,
-    "discount": 0,
+    "discount": 25.016678,
     "tags": [
       "Family",
       "Simulation",
       "Classics",
       "Racing & flying",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PG4H899ZDC4": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
@@ -22247,10 +22492,10 @@ const GAME = {
     ]
   },
   "9PG52KFBFGM2": {
-    "antiquity": 7,
+    "antiquity": 8,
     "gamepass": false,
     "price": 11.99,
-    "rate": 5.0,
+    "rate": 4.3,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -22263,10 +22508,10 @@ const GAME = {
     ]
   },
   "9PG6KVQ9PB02": {
-    "antiquity": 5,
+    "antiquity": 6,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.4,
+    "rate": 3.0,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -22282,7 +22527,7 @@ const GAME = {
     ]
   },
   "9PG73DHBQQ0B": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 28.49,
     "rate": 4.0,
@@ -22295,7 +22540,7 @@ const GAME = {
     ]
   },
   "9PG77HHN20HN": {
-    "antiquity": 860,
+    "antiquity": 861,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -22310,7 +22555,7 @@ const GAME = {
     ]
   },
   "9PG7MTR0MVP9": {
-    "antiquity": 1055,
+    "antiquity": 1056,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.7,
@@ -22324,7 +22569,7 @@ const GAME = {
     ]
   },
   "9PG8W7863HL8": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.6,
@@ -22340,7 +22585,7 @@ const GAME = {
     ]
   },
   "9PG9G25LSKF7": {
-    "antiquity": 335,
+    "antiquity": 336,
     "gamepass": true,
     "price": 9.89,
     "rate": 3.9,
@@ -22355,7 +22600,7 @@ const GAME = {
     ]
   },
   "9PGBTTGFVJ0B": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.0,
@@ -22372,7 +22617,7 @@ const GAME = {
     ]
   },
   "9PGC82V0DXFS": {
-    "antiquity": 423,
+    "antiquity": 424,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -22386,11 +22631,11 @@ const GAME = {
     ]
   },
   "9PGD71CMDS0Z": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
-    "reviews": 89,
+    "reviews": 90,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -22403,7 +22648,7 @@ const GAME = {
     ]
   },
   "9PGDBB92B6N2": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -22416,7 +22661,7 @@ const GAME = {
     ]
   },
   "9PGFK782V24Z": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -22431,7 +22676,7 @@ const GAME = {
     ]
   },
   "9PGHSK2QR07H": {
-    "antiquity": 845,
+    "antiquity": 846,
     "gamepass": false,
     "price": 59.99,
     "rate": 5.0,
@@ -22444,7 +22689,7 @@ const GAME = {
     ]
   },
   "9PGJCBMPH7SG": {
-    "antiquity": 292,
+    "antiquity": 293,
     "gamepass": false,
     "price": 3.91,
     "rate": 4.1,
@@ -22458,22 +22703,23 @@ const GAME = {
     ]
   },
   "9PGJLD9L3PDP": {
-    "antiquity": 48,
+    "antiquity": 49,
     "gamepass": false,
-    "price": 4.99,
+    "price": 3.74,
     "rate": 1.5,
     "reviews": 0,
     "trial": false,
-    "discount": 0,
+    "discount": 25.050098,
     "tags": [
       "Shooter",
       "Action",
       "Classics",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PGJTL53NKBN": {
-    "antiquity": 1343,
+    "antiquity": 1344,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.0,
@@ -22488,7 +22734,7 @@ const GAME = {
     ]
   },
   "9PGK4MTQMWSD": {
-    "antiquity": 88,
+    "antiquity": 89,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
@@ -22503,7 +22749,7 @@ const GAME = {
     ]
   },
   "9PGK9LCMHJLC": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -22516,7 +22762,7 @@ const GAME = {
     ]
   },
   "9PGLL77C201J": {
-    "antiquity": 833,
+    "antiquity": 834,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.5,
@@ -22529,7 +22775,7 @@ const GAME = {
     ]
   },
   "9PGMNL3KW663": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
@@ -22543,7 +22789,7 @@ const GAME = {
     ]
   },
   "9PGMT9T2N5RG": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -22558,7 +22804,7 @@ const GAME = {
     ]
   },
   "9PGMWSRZNVRB": {
-    "antiquity": 389,
+    "antiquity": 390,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
@@ -22573,7 +22819,7 @@ const GAME = {
     ]
   },
   "9PGNCVFB8GN6": {
-    "antiquity": 164,
+    "antiquity": 165,
     "gamepass": false,
     "price": 34.99,
     "rate": 5.0,
@@ -22585,7 +22831,7 @@ const GAME = {
     ]
   },
   "9PGPPZW59JB8": {
-    "antiquity": 1582,
+    "antiquity": 1583,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -22599,7 +22845,7 @@ const GAME = {
     ]
   },
   "9PGPQK0XTHRZ": {
-    "antiquity": 1159,
+    "antiquity": 1160,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.6,
@@ -22633,7 +22879,7 @@ const GAME = {
     ]
   },
   "9PGRFRJRQ28F": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 31.99,
     "rate": 4.4,
@@ -22648,7 +22894,7 @@ const GAME = {
     ]
   },
   "9PGRQXG1C6MP": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -22661,7 +22907,7 @@ const GAME = {
     ]
   },
   "9PGTN6HRLB18": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 28.99,
     "rate": 5.0,
@@ -22674,7 +22920,7 @@ const GAME = {
     ]
   },
   "9PGV03L5R1V7": {
-    "antiquity": 119,
+    "antiquity": 120,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.4,
@@ -22689,7 +22935,7 @@ const GAME = {
     ]
   },
   "9PGV6XTWFLRQ": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 64.99,
     "rate": 4.4,
@@ -22702,7 +22948,7 @@ const GAME = {
     ]
   },
   "9PGW3C3SNXPR": {
-    "antiquity": 25,
+    "antiquity": 26,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.6,
@@ -22714,7 +22960,7 @@ const GAME = {
     ]
   },
   "9PGWTWWS2GD0": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.8,
@@ -22729,22 +22975,8 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PH2F5SFMNDK": {
-    "antiquity": 189,
-    "gamepass": false,
-    "price": 64.99,
-    "rate": 3.8,
-    "reviews": 19,
-    "trial": false,
-    "discount": 0,
-    "tags": [
-      "Compras",
-      "Bundle",
-      "SinglePlayer"
-    ]
-  },
   "9PH2RJ3T6CJS": {
-    "antiquity": 1572,
+    "antiquity": 1573,
     "gamepass": false,
     "price": 34.99,
     "rate": 3.5,
@@ -22759,11 +22991,11 @@ const GAME = {
     ]
   },
   "9PH339L3Z99C": {
-    "antiquity": 1928,
+    "antiquity": 1929,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.3,
-    "reviews": 605,
+    "reviews": 606,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -22773,7 +23005,7 @@ const GAME = {
     ]
   },
   "9PH36L2G7G1D": {
-    "antiquity": 113,
+    "antiquity": 114,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -22786,7 +23018,7 @@ const GAME = {
     ]
   },
   "9PH4TQ1T0VRZ": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": true,
     "price": 9.89,
     "rate": 3.8,
@@ -22802,7 +23034,7 @@ const GAME = {
     ]
   },
   "9PH79V6FC1SJ": {
-    "antiquity": 20,
+    "antiquity": 21,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -22815,7 +23047,7 @@ const GAME = {
     ]
   },
   "9PH9B8Q0WMNT": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -22828,7 +23060,7 @@ const GAME = {
     ]
   },
   "9PHFHD4659FL": {
-    "antiquity": 263,
+    "antiquity": 264,
     "gamepass": false,
     "price": 14.49,
     "rate": 2.0,
@@ -22842,7 +23074,7 @@ const GAME = {
     ]
   },
   "9PHFJ0N31NV1": {
-    "antiquity": 501,
+    "antiquity": 502,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.7,
@@ -22857,7 +23089,7 @@ const GAME = {
     ]
   },
   "9PHFQSMTWX9G": {
-    "antiquity": 823,
+    "antiquity": 824,
     "gamepass": false,
     "price": 24.99,
     "rate": 2.7,
@@ -22871,7 +23103,7 @@ const GAME = {
     ]
   },
   "9PHH1ZWRSZ41": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.8,
@@ -22886,7 +23118,7 @@ const GAME = {
     ]
   },
   "9PHH4DVB3SQG": {
-    "antiquity": 91,
+    "antiquity": 92,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -22900,7 +23132,7 @@ const GAME = {
     ]
   },
   "9PHJC0H6HPKD": {
-    "antiquity": 475,
+    "antiquity": 476,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.6,
@@ -22916,7 +23148,7 @@ const GAME = {
     ]
   },
   "9PHKWCSZ0SQJ": {
-    "antiquity": 295,
+    "antiquity": 296,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -22930,7 +23162,7 @@ const GAME = {
     ]
   },
   "9PHKZ9XT6F85": {
-    "antiquity": 152,
+    "antiquity": 153,
     "gamepass": false,
     "price": 29.99,
     "rate": 5.0,
@@ -22946,7 +23178,7 @@ const GAME = {
     ]
   },
   "9PHM9KWZC44F": {
-    "antiquity": 1726,
+    "antiquity": 1727,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.5,
@@ -22960,7 +23192,7 @@ const GAME = {
     ]
   },
   "9PHMN32NZZT9": {
-    "antiquity": 1235,
+    "antiquity": 1236,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -22974,10 +23206,10 @@ const GAME = {
     ]
   },
   "9PHMR1FW559R": {
-    "antiquity": 466,
+    "antiquity": 467,
     "gamepass": false,
     "price": 49.99,
-    "rate": 3.7,
+    "rate": 3.6,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -22988,7 +23220,7 @@ const GAME = {
     ]
   },
   "9PHP9DZGP2H2": {
-    "antiquity": 1560,
+    "antiquity": 1561,
     "gamepass": false,
     "price": 6.99,
     "rate": 2.8,
@@ -23002,7 +23234,7 @@ const GAME = {
     ]
   },
   "9PHQSHKZL9W5": {
-    "antiquity": 1266,
+    "antiquity": 1267,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.0,
@@ -23018,20 +23250,21 @@ const GAME = {
     ]
   },
   "9PHRJFG0DWFK": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": false,
-    "price": 29.99,
+    "price": 23.99,
     "rate": 2.0,
     "reviews": 0,
     "trial": false,
-    "discount": 0,
+    "discount": 20.006668,
     "tags": [
       "Strategy",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "9PHS9XT7PN54": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 27.99,
     "rate": 3.0,
@@ -23045,7 +23278,7 @@ const GAME = {
     ]
   },
   "9PHSGZLT2TF8": {
-    "antiquity": 12,
+    "antiquity": 13,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.9,
@@ -23060,7 +23293,7 @@ const GAME = {
     ]
   },
   "9PHT4213SXGZ": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.8,
@@ -23076,7 +23309,7 @@ const GAME = {
     ]
   },
   "9PHTCQVHSZ4P": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 87.09,
     "rate": 4.1,
@@ -23092,7 +23325,7 @@ const GAME = {
     ]
   },
   "9PHV1JWMGBZ6": {
-    "antiquity": 508,
+    "antiquity": 509,
     "gamepass": false,
     "price": 18.39,
     "rate": 4.1,
@@ -23108,11 +23341,11 @@ const GAME = {
     ]
   },
   "9PJ06TZX4NMH": {
-    "antiquity": 2289,
+    "antiquity": 2290,
     "gamepass": true,
     "price": 6.59,
     "rate": 4.4,
-    "reviews": 656,
+    "reviews": 658,
     "trial": false,
     "discount": 67.033516,
     "tags": [
@@ -23125,11 +23358,11 @@ const GAME = {
     ]
   },
   "9PJ15D3RDXMV": {
-    "antiquity": 461,
+    "antiquity": 462,
     "gamepass": false,
     "price": 119.99,
     "rate": 3.1,
-    "reviews": 1097,
+    "reviews": 1098,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -23140,7 +23373,7 @@ const GAME = {
     ]
   },
   "9PJ187C1C8X8": {
-    "antiquity": 1482,
+    "antiquity": 1483,
     "gamepass": false,
     "price": 5.99,
     "rate": 5.0,
@@ -23154,7 +23387,7 @@ const GAME = {
     ]
   },
   "9PJ2C9R9XN4Z": {
-    "antiquity": 419,
+    "antiquity": 420,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -23169,7 +23402,7 @@ const GAME = {
     ]
   },
   "9PJ2DSSXZR0P": {
-    "antiquity": 1194,
+    "antiquity": 1195,
     "gamepass": false,
     "price": 31.49,
     "rate": 4.5,
@@ -23182,7 +23415,7 @@ const GAME = {
     ]
   },
   "9PJ2FC2LK9QD": {
-    "antiquity": 459,
+    "antiquity": 460,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -23196,22 +23429,21 @@ const GAME = {
     ]
   },
   "9PJ4QR6S1N2T": {
-    "antiquity": 187,
+    "antiquity": 188,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 3.0,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Action",
       "Shooter",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9PJ4R5F7S0TN": {
-    "antiquity": 217,
+    "antiquity": 218,
     "gamepass": false,
     "price": 39.99,
     "rate": 1.0,
@@ -23228,7 +23460,7 @@ const GAME = {
     ]
   },
   "9PJ522DSQR71": {
-    "antiquity": 27,
+    "antiquity": 28,
     "gamepass": false,
     "price": 5.39,
     "rate": 4.3,
@@ -23243,7 +23475,7 @@ const GAME = {
     ]
   },
   "9PJ61GMP1HZK": {
-    "antiquity": 180,
+    "antiquity": 181,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.6,
@@ -23258,7 +23490,7 @@ const GAME = {
     ]
   },
   "9PJ6C03ZLLQV": {
-    "antiquity": 935,
+    "antiquity": 936,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.4,
@@ -23271,7 +23503,7 @@ const GAME = {
     ]
   },
   "9PJ714M9HPT3": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.6,
@@ -23285,7 +23517,7 @@ const GAME = {
     ]
   },
   "9PJ7GTJFD28C": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.0,
@@ -23300,11 +23532,11 @@ const GAME = {
     ]
   },
   "9PJ9GMB132DB": {
-    "antiquity": 145,
+    "antiquity": 146,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
-    "reviews": 3,
+    "reviews": 4,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -23314,11 +23546,11 @@ const GAME = {
     ]
   },
   "9PJB1ZRJDCBQ": {
-    "antiquity": 239,
+    "antiquity": 240,
     "gamepass": true,
     "price": 18.74,
     "rate": 4.6,
-    "reviews": 216,
+    "reviews": 217,
     "trial": false,
     "discount": 25.010002,
     "tags": [
@@ -23330,7 +23562,7 @@ const GAME = {
     ]
   },
   "9PJBC4BZPSMR": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 24.99,
     "rate": 5.0,
@@ -23343,7 +23575,7 @@ const GAME = {
     ]
   },
   "9PJD2KMX7TZ6": {
-    "antiquity": 1469,
+    "antiquity": 1470,
     "gamepass": true,
     "price": 59.99,
     "rate": 3.9,
@@ -23358,24 +23590,23 @@ const GAME = {
     ]
   },
   "9PJDQ1MKWN3D": {
-    "antiquity": 160,
+    "antiquity": 161,
     "gamepass": false,
-    "price": 47.99,
+    "price": 59.99,
     "rate": 3.5,
     "reviews": 6,
     "trial": false,
-    "discount": 20.00333,
+    "discount": 0,
     "tags": [
       "Strategy",
       "LocalMultiPlayer",
       "SinglePlayer",
       "MultiPlayer",
-      "CrossPlatform",
-      "Oferta"
+      "CrossPlatform"
     ]
   },
   "9PJF0L6ZBC5P": {
-    "antiquity": 87,
+    "antiquity": 88,
     "gamepass": false,
     "price": 5.49,
     "rate": 2.9,
@@ -23390,7 +23621,7 @@ const GAME = {
     ]
   },
   "9PJF0V8MLD0N": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -23405,7 +23636,7 @@ const GAME = {
     ]
   },
   "9PJF9CW7L2RR": {
-    "antiquity": 1694,
+    "antiquity": 1695,
     "gamepass": false,
     "price": 2.49,
     "rate": 4.5,
@@ -23420,7 +23651,7 @@ const GAME = {
     ]
   },
   "9PJFK4TCJD86": {
-    "antiquity": 298,
+    "antiquity": 299,
     "gamepass": false,
     "price": 23.99,
     "rate": 2.5,
@@ -23434,11 +23665,11 @@ const GAME = {
     ]
   },
   "9PJFMVBP16CT": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 3620,
+    "reviews": 3621,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -23451,7 +23682,7 @@ const GAME = {
     ]
   },
   "9PJFS5DCZW4T": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.7,
@@ -23467,7 +23698,7 @@ const GAME = {
     ]
   },
   "9PJGGX9XJXPB": {
-    "antiquity": 1056,
+    "antiquity": 1057,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
@@ -23480,7 +23711,7 @@ const GAME = {
     ]
   },
   "9PJGNFWR6MHL": {
-    "antiquity": 1384,
+    "antiquity": 1385,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
@@ -23497,11 +23728,11 @@ const GAME = {
     ]
   },
   "9PJHKHWQQ3NB": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 27.99,
-    "rate": 1.9,
-    "reviews": 225,
+    "rate": 1.8,
+    "reviews": 228,
     "trial": false,
     "discount": 65.008125,
     "tags": [
@@ -23515,7 +23746,7 @@ const GAME = {
     ]
   },
   "9PJJ2LFBH06R": {
-    "antiquity": 10,
+    "antiquity": 11,
     "gamepass": false,
     "price": 7.19,
     "rate": 3.8,
@@ -23530,7 +23761,7 @@ const GAME = {
     ]
   },
   "9PJKFBBX44FW": {
-    "antiquity": 133,
+    "antiquity": 134,
     "gamepass": false,
     "price": 8.79,
     "rate": 3.7,
@@ -23544,7 +23775,7 @@ const GAME = {
     ]
   },
   "9PJL0VR9K32X": {
-    "antiquity": 1580,
+    "antiquity": 1581,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.5,
@@ -23560,7 +23791,7 @@ const GAME = {
     ]
   },
   "9PJM4N3NWZ4B": {
-    "antiquity": 237,
+    "antiquity": 238,
     "gamepass": false,
     "price": 54.99,
     "rate": 2.5,
@@ -23573,7 +23804,7 @@ const GAME = {
     ]
   },
   "9PJMQ9RK0JQ6": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 35.99,
     "rate": 2.5,
@@ -23586,7 +23817,7 @@ const GAME = {
     ]
   },
   "9PJN16LJZ41M": {
-    "antiquity": 219,
+    "antiquity": 220,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -23603,7 +23834,7 @@ const GAME = {
     ]
   },
   "9PJNPR2N04XB": {
-    "antiquity": 55,
+    "antiquity": 56,
     "gamepass": false,
     "price": 41.99,
     "rate": 4.8,
@@ -23619,7 +23850,7 @@ const GAME = {
     ]
   },
   "9PJPFVNC4KPB": {
-    "antiquity": 158,
+    "antiquity": 159,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -23632,7 +23863,7 @@ const GAME = {
     ]
   },
   "9PJPXZJQ0NQL": {
-    "antiquity": 138,
+    "antiquity": 139,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.6,
@@ -23647,7 +23878,7 @@ const GAME = {
     ]
   },
   "9PJPZ2N2P0W3": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.2,
@@ -23661,7 +23892,7 @@ const GAME = {
     ]
   },
   "9PJRB12LWG0F": {
-    "antiquity": 186,
+    "antiquity": 187,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.3,
@@ -23677,7 +23908,7 @@ const GAME = {
     ]
   },
   "9PJRKNNFDN08": {
-    "antiquity": 112,
+    "antiquity": 113,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.1,
@@ -23691,8 +23922,24 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9PJTP1JMJJDV": {
+    "antiquity": 284,
+    "gamepass": false,
+    "price": 1.99,
+    "rate": 4.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 60.120235,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9PJVG73JW2V2": {
-    "antiquity": 845,
+    "antiquity": 846,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -23707,20 +23954,19 @@ const GAME = {
     ]
   },
   "9PJW056LH7R9": {
-    "antiquity": 5291,
+    "antiquity": 5292,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 4.3,
     "reviews": 3,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
-      "Racing & flying",
-      "Oferta"
+      "Racing & flying"
     ]
   },
   "9PJXQXLCZ7L7": {
-    "antiquity": 111,
+    "antiquity": 112,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.5,
@@ -23734,7 +23980,7 @@ const GAME = {
     ]
   },
   "9PJZXCCK7VLW": {
-    "antiquity": 1518,
+    "antiquity": 1519,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -23749,7 +23995,7 @@ const GAME = {
     ]
   },
   "9PK0F0PFP3FT": {
-    "antiquity": 66,
+    "antiquity": 67,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -23762,7 +24008,7 @@ const GAME = {
     ]
   },
   "9PK283CRVMK4": {
-    "antiquity": 63,
+    "antiquity": 64,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -23775,7 +24021,7 @@ const GAME = {
     ]
   },
   "9PK4B09SMN5C": {
-    "antiquity": 417,
+    "antiquity": 418,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
@@ -23789,7 +24035,7 @@ const GAME = {
     ]
   },
   "9PK7W69MFT5B": {
-    "antiquity": 517,
+    "antiquity": 518,
     "gamepass": false,
     "price": 39.99,
     "rate": 2.9,
@@ -23804,7 +24050,7 @@ const GAME = {
     ]
   },
   "9PK8X4K64T5X": {
-    "antiquity": 47,
+    "antiquity": 48,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -23821,7 +24067,7 @@ const GAME = {
     ]
   },
   "9PKC29DP3MSV": {
-    "antiquity": 124,
+    "antiquity": 125,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -23835,7 +24081,7 @@ const GAME = {
     ]
   },
   "9PKCT24V6JR7": {
-    "antiquity": 1552,
+    "antiquity": 1553,
     "gamepass": false,
     "price": 1.29,
     "rate": 2.0,
@@ -23851,7 +24097,7 @@ const GAME = {
     ]
   },
   "9PKDNVFFZCWX": {
-    "antiquity": 875,
+    "antiquity": 876,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.4,
@@ -23864,7 +24110,7 @@ const GAME = {
     ]
   },
   "9PKDR66QS2ZJ": {
-    "antiquity": 86,
+    "antiquity": 87,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.2,
@@ -23877,7 +24123,7 @@ const GAME = {
     ]
   },
   "9PKF2LDFPXTN": {
-    "antiquity": 97,
+    "antiquity": 98,
     "gamepass": false,
     "price": 38.99,
     "rate": 4.9,
@@ -23893,7 +24139,7 @@ const GAME = {
     ]
   },
   "9PKF79JQ1KR6": {
-    "antiquity": 104,
+    "antiquity": 105,
     "gamepass": false,
     "price": 23.99,
     "rate": 5.0,
@@ -23907,7 +24153,7 @@ const GAME = {
     ]
   },
   "9PKGFK747FWX": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -23921,7 +24167,7 @@ const GAME = {
     ]
   },
   "9PKH8FV3WFDX": {
-    "antiquity": 501,
+    "antiquity": 502,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.1,
@@ -23935,23 +24181,22 @@ const GAME = {
     ]
   },
   "9PKJD27R6M90": {
-    "antiquity": 587,
+    "antiquity": 588,
     "gamepass": false,
-    "price": 29.99,
+    "price": 59.99,
     "rate": 2.0,
     "reviews": 8,
     "trial": false,
-    "discount": 50.00833,
+    "discount": 0,
     "tags": [
       "Compras",
       "Bundle",
       "MultiPlayer",
-      "CrossPlatform",
-      "Oferta"
+      "CrossPlatform"
     ]
   },
   "9PKL31DD6JRX": {
-    "antiquity": 1651,
+    "antiquity": 1652,
     "gamepass": false,
     "price": 2.99,
     "rate": 1.5,
@@ -23966,7 +24211,7 @@ const GAME = {
     ]
   },
   "9PKM6RLKX8KM": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 36.99,
     "rate": 3.0,
@@ -23979,7 +24224,7 @@ const GAME = {
     ]
   },
   "9PKMFH8K9XCK": {
-    "antiquity": 45,
+    "antiquity": 46,
     "gamepass": false,
     "price": 7.99,
     "rate": 3.0,
@@ -23993,7 +24238,7 @@ const GAME = {
     ]
   },
   "9PKMG7SD4C8Q": {
-    "antiquity": 98,
+    "antiquity": 99,
     "gamepass": false,
     "price": 19.99,
     "rate": 1.0,
@@ -24007,7 +24252,7 @@ const GAME = {
     ]
   },
   "9PKMVK0RF7K7": {
-    "antiquity": 111,
+    "antiquity": 112,
     "gamepass": false,
     "price": 49.99,
     "rate": 2.0,
@@ -24020,7 +24265,7 @@ const GAME = {
     ]
   },
   "9PKNHDL3VD5B": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -24033,7 +24278,7 @@ const GAME = {
     ]
   },
   "9PKP39CL0C8D": {
-    "antiquity": 327,
+    "antiquity": 328,
     "gamepass": true,
     "price": 23.09,
     "rate": 4.1,
@@ -24048,10 +24293,10 @@ const GAME = {
     ]
   },
   "9PKPCQGQ2RZ9": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 7.99,
-    "rate": 3.1,
+    "rate": 3.2,
     "reviews": 0,
     "trial": false,
     "discount": 0,
@@ -24066,7 +24311,7 @@ const GAME = {
     ]
   },
   "9PKQ1Q2QGRJ5": {
-    "antiquity": 294,
+    "antiquity": 295,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.4,
@@ -24084,7 +24329,7 @@ const GAME = {
     ]
   },
   "9PKQTV109PT8": {
-    "antiquity": 1021,
+    "antiquity": 1022,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -24097,7 +24342,7 @@ const GAME = {
     ]
   },
   "9PKQV9JT4GX2": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 74.99,
     "rate": 3.7,
@@ -24114,7 +24359,7 @@ const GAME = {
     ]
   },
   "9PKQVQ5916H5": {
-    "antiquity": 166,
+    "antiquity": 167,
     "gamepass": false,
     "price": 2.99,
     "rate": 5.0,
@@ -24131,7 +24376,7 @@ const GAME = {
     ]
   },
   "9PKS20TCGJJV": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.0,
@@ -24146,22 +24391,21 @@ const GAME = {
     ]
   },
   "9PKS70MZV4T0": {
-    "antiquity": 144,
+    "antiquity": 145,
     "gamepass": false,
-    "price": 22.49,
+    "price": 29.99,
     "rate": 1.0,
     "reviews": 2,
     "trial": false,
-    "discount": 25.008339,
+    "discount": 0,
     "tags": [
       "Strategy",
       "SinglePlayer",
-      "CrossPlatform",
-      "Oferta"
+      "CrossPlatform"
     ]
   },
   "9PKW9CKH3TWK": {
-    "antiquity": 521,
+    "antiquity": 522,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
@@ -24177,11 +24421,11 @@ const GAME = {
     ]
   },
   "9PKWHT7G60WQ": {
-    "antiquity": 1098,
+    "antiquity": 1099,
     "gamepass": true,
     "price": 13.99,
     "rate": 4.7,
-    "reviews": 110,
+    "reviews": 111,
     "trial": false,
     "discount": 80.01143,
     "tags": [
@@ -24196,7 +24440,7 @@ const GAME = {
     ]
   },
   "9PKXDJTWPW36": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 11.99,
     "rate": 5.0,
@@ -24209,11 +24453,11 @@ const GAME = {
     ]
   },
   "9PKXGL2GD008": {
-    "antiquity": 757,
+    "antiquity": 758,
     "gamepass": false,
     "price": 37.99,
-    "rate": 3.8,
-    "reviews": 211,
+    "rate": 3.7,
+    "reviews": 212,
     "trial": false,
     "discount": 80.00421,
     "tags": [
@@ -24224,7 +24468,7 @@ const GAME = {
     ]
   },
   "9PKXZH62N58F": {
-    "antiquity": 112,
+    "antiquity": 113,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -24237,11 +24481,11 @@ const GAME = {
     ]
   },
   "9PL19N4160LX": {
-    "antiquity": 130,
+    "antiquity": 131,
     "gamepass": false,
     "price": 43.99,
-    "rate": 1.9,
-    "reviews": 180,
+    "rate": 1.8,
+    "reviews": 183,
     "trial": false,
     "discount": 60.00545,
     "tags": [
@@ -24255,7 +24499,7 @@ const GAME = {
     ]
   },
   "9PL1R619TGHR": {
-    "antiquity": 161,
+    "antiquity": 162,
     "gamepass": false,
     "price": 74.99,
     "rate": 4.4,
@@ -24271,7 +24515,7 @@ const GAME = {
     ]
   },
   "9PL27989V9MD": {
-    "antiquity": 229,
+    "antiquity": 230,
     "gamepass": false,
     "price": 15.99,
     "rate": 5.0,
@@ -24285,7 +24529,7 @@ const GAME = {
     ]
   },
   "9PL36RW9ZTPW": {
-    "antiquity": 795,
+    "antiquity": 796,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -24302,7 +24546,7 @@ const GAME = {
     ]
   },
   "9PL4Z34HG9M4": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
@@ -24316,7 +24560,7 @@ const GAME = {
     ]
   },
   "9PL5V82NZNJS": {
-    "antiquity": 1754,
+    "antiquity": 1755,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.6,
@@ -24333,7 +24577,7 @@ const GAME = {
     ]
   },
   "9PL746F501P9": {
-    "antiquity": 259,
+    "antiquity": 260,
     "gamepass": false,
     "price": 27.99,
     "rate": 3.7,
@@ -24349,11 +24593,11 @@ const GAME = {
     ]
   },
   "9PL9P3QZMRBM": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 109.99,
     "rate": 3.9,
-    "reviews": 1531,
+    "reviews": 1533,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -24362,7 +24606,7 @@ const GAME = {
     ]
   },
   "9PLBRNW62S2B": {
-    "antiquity": 255,
+    "antiquity": 256,
     "gamepass": false,
     "price": 14.99,
     "rate": 2.1,
@@ -24376,7 +24620,7 @@ const GAME = {
     ]
   },
   "9PLCDVC5KWHF": {
-    "antiquity": 61,
+    "antiquity": 62,
     "gamepass": false,
     "price": 7.99,
     "rate": 3.0,
@@ -24391,7 +24635,7 @@ const GAME = {
     ]
   },
   "9PLD39R1NF87": {
-    "antiquity": 1671,
+    "antiquity": 1672,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.0,
@@ -24404,7 +24648,7 @@ const GAME = {
     ]
   },
   "9PLDZNHSLR4C": {
-    "antiquity": 1446,
+    "antiquity": 1447,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -24419,7 +24663,7 @@ const GAME = {
     ]
   },
   "9PLF2RS7JRZL": {
-    "antiquity": 466,
+    "antiquity": 467,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -24432,7 +24676,7 @@ const GAME = {
     ]
   },
   "9PLG49K93DKK": {
-    "antiquity": 991,
+    "antiquity": 992,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.3,
@@ -24448,7 +24692,7 @@ const GAME = {
     ]
   },
   "9PLG6XWQTDGJ": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.0,
@@ -24459,8 +24703,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
+  "9PLGHH2VNRLX": {
+    "antiquity": 1308,
+    "gamepass": false,
+    "price": 7.99,
+    "rate": 3.7,
+    "reviews": 10,
+    "trial": false,
+    "discount": 80.020004,
+    "tags": [
+      "Compras",
+      "Fighting",
+      "Sports",
+      "SinglePlayer",
+      "CrossPlatform",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9PLGRPRMTQJT": {
-    "antiquity": 951,
+    "antiquity": 952,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.9,
@@ -24474,7 +24737,7 @@ const GAME = {
     ]
   },
   "9PLH1D2V949F": {
-    "antiquity": 63,
+    "antiquity": 64,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -24491,7 +24754,7 @@ const GAME = {
     ]
   },
   "9PLHB5JLTL0Z": {
-    "antiquity": 178,
+    "antiquity": 179,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.4,
@@ -24508,7 +24771,7 @@ const GAME = {
     ]
   },
   "9PLK75782446": {
-    "antiquity": 116,
+    "antiquity": 117,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.3,
@@ -24525,11 +24788,11 @@ const GAME = {
     ]
   },
   "9PLKVSWR299F": {
-    "antiquity": 239,
+    "antiquity": 240,
     "gamepass": true,
     "price": 63.99,
     "rate": 2.8,
-    "reviews": 832,
+    "reviews": 835,
     "trial": false,
     "discount": 20.002497,
     "tags": [
@@ -24541,24 +24804,23 @@ const GAME = {
     ]
   },
   "9PLM2TQ1WXNP": {
-    "antiquity": 783,
+    "antiquity": 784,
     "gamepass": false,
-    "price": 4.94,
+    "price": 14.99,
     "rate": 4.0,
     "reviews": 0,
     "trial": false,
-    "discount": 67.0447,
+    "discount": 0,
     "tags": [
       "Educational",
       "Family",
       "Music",
       "Puzzle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9PLMR7VZ4J66": {
-    "antiquity": 150,
+    "antiquity": 151,
     "gamepass": false,
     "price": 4.99,
     "rate": 5.0,
@@ -24575,7 +24837,7 @@ const GAME = {
     ]
   },
   "9PLNM411DPLP": {
-    "antiquity": 5,
+    "antiquity": 6,
     "gamepass": false,
     "price": 22.99,
     "rate": 5.0,
@@ -24588,7 +24850,7 @@ const GAME = {
     ]
   },
   "9PLQTD4LT2KS": {
-    "antiquity": 223,
+    "antiquity": 224,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.0,
@@ -24604,7 +24866,7 @@ const GAME = {
     ]
   },
   "9PLS01JRJCWB": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.0,
@@ -24618,7 +24880,7 @@ const GAME = {
     ]
   },
   "9PLSCHRN5715": {
-    "antiquity": 1462,
+    "antiquity": 1463,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.2,
@@ -24634,7 +24896,7 @@ const GAME = {
     ]
   },
   "9PLT62LRF9V7": {
-    "antiquity": 1655,
+    "antiquity": 1656,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.7,
@@ -24649,7 +24911,7 @@ const GAME = {
     ]
   },
   "9PLTP0XJ75GS": {
-    "antiquity": 354,
+    "antiquity": 355,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.2,
@@ -24665,22 +24927,21 @@ const GAME = {
     ]
   },
   "9PLTPL1PT4ZM": {
-    "antiquity": 362,
+    "antiquity": 363,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 4.2,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Platformer",
       "Puzzle",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "9PLWRPMWJQ0H": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 14.99,
     "rate": 0.0,
@@ -24694,7 +24955,7 @@ const GAME = {
     ]
   },
   "9PLXNR5QF4RT": {
-    "antiquity": 675,
+    "antiquity": 676,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.0,
@@ -24710,7 +24971,7 @@ const GAME = {
     ]
   },
   "9PLXV2VJR0QL": {
-    "antiquity": 1676,
+    "antiquity": 1677,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -24723,7 +24984,7 @@ const GAME = {
     ]
   },
   "9PLXVNGCNS99": {
-    "antiquity": 152,
+    "antiquity": 153,
     "gamepass": false,
     "price": 11.99,
     "rate": 5.0,
@@ -24737,7 +24998,7 @@ const GAME = {
     ]
   },
   "9PLZPHBNHTMF": {
-    "antiquity": 1655,
+    "antiquity": 1656,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.7,
@@ -24752,22 +25013,36 @@ const GAME = {
     ]
   },
   "9PM3K0FLKVRH": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
-    "price": 3.49,
+    "price": 4.99,
     "rate": 3.2,
     "reviews": 0,
     "trial": false,
-    "discount": 30.060118,
+    "discount": 0,
     "tags": [
       "Puzzle",
       "Platformer",
-      "SinglePlayer",
+      "SinglePlayer"
+    ]
+  },
+  "9PM6DBHQJCWD": {
+    "antiquity": 482,
+    "gamepass": false,
+    "price": 0.99,
+    "rate": 2.7,
+    "reviews": 7,
+    "trial": false,
+    "discount": 75.18797,
+    "tags": [
+      "Action",
+      "Classics",
+      "Platformer",
       "Oferta"
     ]
   },
   "9PM6PHCJZWM1": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 49.99,
     "rate": 5.0,
@@ -24782,7 +25057,7 @@ const GAME = {
     ]
   },
   "9PM6X8KR5955": {
-    "antiquity": 382,
+    "antiquity": 383,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -24795,8 +25070,22 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9PMBJV9V0F94": {
+    "antiquity": 389,
+    "gamepass": false,
+    "price": 3.24,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 35.07014,
+    "tags": [
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9PMC4B0FGVN5": {
-    "antiquity": 168,
+    "antiquity": 169,
     "gamepass": false,
     "price": 44.99,
     "rate": 2.5,
@@ -24810,7 +25099,7 @@ const GAME = {
     ]
   },
   "9PMDBC2M84L4": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.3,
@@ -24827,7 +25116,7 @@ const GAME = {
     ]
   },
   "9PMH1VQVM2QN": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 34.49,
     "rate": 3.0,
@@ -24839,7 +25128,7 @@ const GAME = {
     ]
   },
   "9PMHGHXLGLJM": {
-    "antiquity": 136,
+    "antiquity": 137,
     "gamepass": false,
     "price": 18.74,
     "rate": 5.0,
@@ -24852,7 +25141,7 @@ const GAME = {
     ]
   },
   "9PMKJDSDK77C": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -24867,7 +25156,7 @@ const GAME = {
     ]
   },
   "9PMM1HL2KQW6": {
-    "antiquity": 140,
+    "antiquity": 141,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -24883,7 +25172,7 @@ const GAME = {
     ]
   },
   "9PMM21KVRD72": {
-    "antiquity": 473,
+    "antiquity": 474,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.8,
@@ -24897,7 +25186,7 @@ const GAME = {
     ]
   },
   "9PMM5C96NLJH": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.5,
@@ -24911,7 +25200,7 @@ const GAME = {
     ]
   },
   "9PMM5T8C0CN6": {
-    "antiquity": 697,
+    "antiquity": 698,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
@@ -24926,7 +25215,7 @@ const GAME = {
     ]
   },
   "9PMN9XLP1HRK": {
-    "antiquity": 125,
+    "antiquity": 126,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.0,
@@ -24940,7 +25229,7 @@ const GAME = {
     ]
   },
   "9PMPPXZSF88C": {
-    "antiquity": 566,
+    "antiquity": 567,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -24954,11 +25243,11 @@ const GAME = {
     ]
   },
   "9PMQDM08SNK9": {
-    "antiquity": 461,
+    "antiquity": 462,
     "gamepass": true,
     "price": 69.99,
     "rate": 3.1,
-    "reviews": 1134,
+    "reviews": 1135,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -24970,12 +25259,30 @@ const GAME = {
       "GamePass"
     ]
   },
+  "9PMQMGQ5L7QQ": {
+    "antiquity": 449,
+    "gamepass": false,
+    "price": 9.99,
+    "rate": 2.5,
+    "reviews": 2,
+    "trial": false,
+    "discount": 50.02501,
+    "tags": [
+      "Action",
+      "Platformer",
+      "Strategy",
+      "SinglePlayer",
+      "LocalMultiPlayer",
+      "MultiPlayer",
+      "Oferta"
+    ]
+  },
   "9PMR3T9NSF8W": {
-    "antiquity": 328,
+    "antiquity": 329,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 64,
+    "reviews": 65,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -24994,7 +25301,7 @@ const GAME = {
     ]
   },
   "9PMSB4C5R2SQ": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
@@ -25007,7 +25314,7 @@ const GAME = {
     ]
   },
   "9PMVDR1VCBB3": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -25021,7 +25328,7 @@ const GAME = {
     ]
   },
   "9PMVQ593823X": {
-    "antiquity": 159,
+    "antiquity": 160,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.1,
@@ -25037,7 +25344,7 @@ const GAME = {
     ]
   },
   "9PMWDKRKH7GS": {
-    "antiquity": 578,
+    "antiquity": 579,
     "gamepass": false,
     "price": 12.49,
     "rate": 5.0,
@@ -25053,7 +25360,7 @@ const GAME = {
     ]
   },
   "9PMXH5249DG5": {
-    "antiquity": 594,
+    "antiquity": 595,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -25070,7 +25377,7 @@ const GAME = {
     ]
   },
   "9PMXPQ307Z5P": {
-    "antiquity": 1323,
+    "antiquity": 1324,
     "gamepass": false,
     "price": 23.09,
     "rate": 4.3,
@@ -25082,8 +25389,23 @@ const GAME = {
       "Oferta"
     ]
   },
+  "9PN089KML0BL": {
+    "antiquity": 271,
+    "gamepass": false,
+    "price": 24.99,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 75.0075,
+    "tags": [
+      "Compras",
+      "Bundle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9PN0LC4CNLPT": {
-    "antiquity": 83,
+    "antiquity": 84,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -25100,7 +25422,7 @@ const GAME = {
     ]
   },
   "9PN0SQJKNXVF": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 44.99,
     "rate": 3.0,
@@ -25113,7 +25435,7 @@ const GAME = {
     ]
   },
   "9PN0THQF07S8": {
-    "antiquity": 1411,
+    "antiquity": 1412,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -25126,7 +25448,7 @@ const GAME = {
     ]
   },
   "9PN0WRT1ZFJ2": {
-    "antiquity": 157,
+    "antiquity": 158,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -25141,7 +25463,7 @@ const GAME = {
     ]
   },
   "9PN1RLHX981H": {
-    "antiquity": 719,
+    "antiquity": 720,
     "gamepass": false,
     "price": 32.99,
     "rate": 3.2,
@@ -25156,7 +25478,7 @@ const GAME = {
     ]
   },
   "9PN1W2F1CNDL": {
-    "antiquity": 173,
+    "antiquity": 174,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.7,
@@ -25170,7 +25492,7 @@ const GAME = {
     ]
   },
   "9PN2D189WSKP": {
-    "antiquity": 119,
+    "antiquity": 120,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.2,
@@ -25184,7 +25506,7 @@ const GAME = {
     ]
   },
   "9PN3VDFTB5HZ": {
-    "antiquity": 1327,
+    "antiquity": 1328,
     "gamepass": true,
     "price": 4.24,
     "rate": 4.3,
@@ -25201,11 +25523,11 @@ const GAME = {
     ]
   },
   "9PN4DRJDLZT7": {
-    "antiquity": 239,
+    "antiquity": 240,
     "gamepass": false,
     "price": 71.99,
     "rate": 2.8,
-    "reviews": 588,
+    "reviews": 591,
     "trial": false,
     "discount": 20.002222,
     "tags": [
@@ -25216,7 +25538,7 @@ const GAME = {
     ]
   },
   "9PN6MTJX8LZD": {
-    "antiquity": 1201,
+    "antiquity": 1202,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -25230,7 +25552,7 @@ const GAME = {
     ]
   },
   "9PN8FCQMDKLS": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 49.99,
     "rate": 2.2,
@@ -25244,7 +25566,7 @@ const GAME = {
     ]
   },
   "9PNBGZTL0Z1S": {
-    "antiquity": 1559,
+    "antiquity": 1560,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.6,
@@ -25259,7 +25581,7 @@ const GAME = {
     ]
   },
   "9PNBM7K445CM": {
-    "antiquity": 657,
+    "antiquity": 658,
     "gamepass": false,
     "price": 41.99,
     "rate": 4.1,
@@ -25273,7 +25595,7 @@ const GAME = {
     ]
   },
   "9PNCT4QN38NN": {
-    "antiquity": 60,
+    "antiquity": 61,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.1,
@@ -25286,7 +25608,7 @@ const GAME = {
     ]
   },
   "9PND6XZTCZWT": {
-    "antiquity": 508,
+    "antiquity": 509,
     "gamepass": false,
     "price": 27.99,
     "rate": 4.9,
@@ -25300,7 +25622,7 @@ const GAME = {
     ]
   },
   "9PNDFPVLN12L": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 33.99,
     "rate": 4.1,
@@ -25312,7 +25634,7 @@ const GAME = {
     ]
   },
   "9PNFGB4TRV8C": {
-    "antiquity": 1040,
+    "antiquity": 1041,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.0,
@@ -25326,7 +25648,7 @@ const GAME = {
     ]
   },
   "9PNGB0WCM4BQ": {
-    "antiquity": 115,
+    "antiquity": 116,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -25343,7 +25665,7 @@ const GAME = {
     ]
   },
   "9PNGDKFN7CVQ": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -25360,7 +25682,7 @@ const GAME = {
     ]
   },
   "9PNGJZZCXRW1": {
-    "antiquity": 109,
+    "antiquity": 110,
     "gamepass": false,
     "price": 4.99,
     "rate": 0.0,
@@ -25372,22 +25694,27 @@ const GAME = {
       "SinglePlayer"
     ]
   },
-  "9PNH9SPB47ZP": {
-    "antiquity": 223,
+  "9PNH6BGC71FP": {
+    "antiquity": 320,
     "gamepass": false,
-    "price": 13.99,
-    "rate": 2.4,
-    "reviews": 0,
-    "trial": true,
-    "discount": 30.015009,
+    "price": 19.79,
+    "rate": 5.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 67.01117,
     "tags": [
-      "Strategy",
+      "Compras",
+      "Racing & flying",
+      "Family",
+      "LocalMultiPlayer",
       "SinglePlayer",
+      "CrossPlatform",
+      "MultiPlayer",
       "Oferta"
     ]
   },
   "9PNHXRVF258Q": {
-    "antiquity": 1124,
+    "antiquity": 1125,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -25399,11 +25726,11 @@ const GAME = {
     ]
   },
   "9PNJXVCVWD4K": {
-    "antiquity": 1953,
+    "antiquity": 1954,
     "gamepass": true,
     "price": 21.44,
     "rate": 4.8,
-    "reviews": 38420,
+    "reviews": 38421,
     "trial": false,
     "discount": 67.01031,
     "tags": [
@@ -25416,7 +25743,7 @@ const GAME = {
     ]
   },
   "9PNJZ92ZF5DC": {
-    "antiquity": 105,
+    "antiquity": 106,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -25430,7 +25757,7 @@ const GAME = {
     ]
   },
   "9PNKWDPBDG5W": {
-    "antiquity": 1327,
+    "antiquity": 1328,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
@@ -25445,7 +25772,7 @@ const GAME = {
     ]
   },
   "9PNLPMP1GGH5": {
-    "antiquity": 566,
+    "antiquity": 567,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.9,
@@ -25459,7 +25786,7 @@ const GAME = {
     ]
   },
   "9PNNV537W2SN": {
-    "antiquity": 1348,
+    "antiquity": 1349,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
@@ -25473,7 +25800,7 @@ const GAME = {
     ]
   },
   "9PNPSS893GFH": {
-    "antiquity": 109,
+    "antiquity": 110,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
@@ -25485,7 +25812,7 @@ const GAME = {
     ]
   },
   "9PNQ7KRWCRW3": {
-    "antiquity": 795,
+    "antiquity": 796,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.4,
@@ -25500,7 +25827,7 @@ const GAME = {
     ]
   },
   "9PNQT4TD10B5": {
-    "antiquity": 256,
+    "antiquity": 257,
     "gamepass": false,
     "price": 39.99,
     "rate": 5.0,
@@ -25514,7 +25841,7 @@ const GAME = {
     ]
   },
   "9PNRSC0J6DT8": {
-    "antiquity": 993,
+    "antiquity": 994,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.3,
@@ -25529,7 +25856,7 @@ const GAME = {
     ]
   },
   "9PNRV2QXH76D": {
-    "antiquity": 165,
+    "antiquity": 166,
     "gamepass": false,
     "price": 55.99,
     "rate": 5.0,
@@ -25544,7 +25871,7 @@ const GAME = {
     ]
   },
   "9PNV5ZHGF12W": {
-    "antiquity": 53,
+    "antiquity": 54,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -25557,7 +25884,7 @@ const GAME = {
     ]
   },
   "9PNVVXK3Z5H6": {
-    "antiquity": 59,
+    "antiquity": 60,
     "gamepass": false,
     "price": 11.99,
     "rate": 3.5,
@@ -25569,7 +25896,7 @@ const GAME = {
     ]
   },
   "9PNWM0KB4CXP": {
-    "antiquity": 167,
+    "antiquity": 168,
     "gamepass": false,
     "price": 29.99,
     "rate": 1.0,
@@ -25582,7 +25909,7 @@ const GAME = {
     ]
   },
   "9PNZFX8ST2JQ": {
-    "antiquity": 28,
+    "antiquity": 29,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.3,
@@ -25597,11 +25924,11 @@ const GAME = {
     ]
   },
   "9PNZH065X7PV": {
-    "antiquity": 257,
+    "antiquity": 258,
     "gamepass": false,
     "price": 47.99,
     "rate": 4.3,
-    "reviews": 132,
+    "reviews": 133,
     "trial": false,
     "discount": 20.00333,
     "tags": [
@@ -25612,7 +25939,7 @@ const GAME = {
     ]
   },
   "9PP2K74FTHJD": {
-    "antiquity": 110,
+    "antiquity": 111,
     "gamepass": false,
     "price": 18.99,
     "rate": 5.0,
@@ -25625,7 +25952,7 @@ const GAME = {
     ]
   },
   "9PP2NCZ72C79": {
-    "antiquity": 1182,
+    "antiquity": 1183,
     "gamepass": false,
     "price": 15.99,
     "rate": 3.6,
@@ -25641,7 +25968,7 @@ const GAME = {
     ]
   },
   "9PP2WW5TQ7MS": {
-    "antiquity": 448,
+    "antiquity": 449,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.0,
@@ -25655,11 +25982,11 @@ const GAME = {
     ]
   },
   "9PP4M7V5RBR9": {
-    "antiquity": 95,
+    "antiquity": 96,
     "gamepass": false,
     "price": 44.99,
     "rate": 5.0,
-    "reviews": 28,
+    "reviews": 29,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -25668,7 +25995,7 @@ const GAME = {
     ]
   },
   "9PP4X6X618J0": {
-    "antiquity": 67,
+    "antiquity": 68,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -25682,11 +26009,11 @@ const GAME = {
     ]
   },
   "9PP5G1F0C2B6": {
-    "antiquity": 812,
+    "antiquity": 813,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
-    "reviews": 738,
+    "reviews": 739,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -25700,7 +26027,7 @@ const GAME = {
     ]
   },
   "9PP5HXGH2B0D": {
-    "antiquity": 1287,
+    "antiquity": 1288,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -25713,7 +26040,7 @@ const GAME = {
     ]
   },
   "9PP5PN1XX57B": {
-    "antiquity": 28,
+    "antiquity": 29,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.6,
@@ -25725,7 +26052,7 @@ const GAME = {
     ]
   },
   "9PP6MFZBQ6VH": {
-    "antiquity": 797,
+    "antiquity": 798,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -25738,7 +26065,7 @@ const GAME = {
     ]
   },
   "9PP6RNF7V71T": {
-    "antiquity": 522,
+    "antiquity": 523,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
@@ -25755,11 +26082,11 @@ const GAME = {
     ]
   },
   "9PP837L3Q75D": {
-    "antiquity": 487,
+    "antiquity": 488,
     "gamepass": true,
     "price": 15.99,
     "rate": 2.8,
-    "reviews": 118,
+    "reviews": 119,
     "trial": false,
     "discount": 80.01,
     "tags": [
@@ -25775,7 +26102,7 @@ const GAME = {
     ]
   },
   "9PP97VC2BL8H": {
-    "antiquity": 245,
+    "antiquity": 246,
     "gamepass": false,
     "price": 47.99,
     "rate": 3.8,
@@ -25793,7 +26120,7 @@ const GAME = {
     ]
   },
   "9PP99FJX93H4": {
-    "antiquity": 68,
+    "antiquity": 69,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.6,
@@ -25806,21 +26133,20 @@ const GAME = {
     ]
   },
   "9PPBCK707QRV": {
-    "antiquity": 1238,
+    "antiquity": 1239,
     "gamepass": false,
-    "price": 19.99,
+    "price": 49.99,
     "rate": 4.4,
     "reviews": 78,
     "trial": false,
-    "discount": 60.01201,
+    "discount": 0,
     "tags": [
       "Bundle",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "9PPBRG8Z9TNG": {
-    "antiquity": 599,
+    "antiquity": 600,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.6,
@@ -25835,7 +26161,7 @@ const GAME = {
     ]
   },
   "9PPBVK3TK83M": {
-    "antiquity": 1183,
+    "antiquity": 1184,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -25851,11 +26177,11 @@ const GAME = {
     ]
   },
   "9PPCM6C714JB": {
-    "antiquity": 137,
+    "antiquity": 138,
     "gamepass": false,
     "price": 69.99,
     "rate": 1.9,
-    "reviews": 267,
+    "reviews": 268,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -25864,8 +26190,41 @@ const GAME = {
       "MultiPlayer"
     ]
   },
+  "9PPCV5VRBLF8": {
+    "antiquity": 438,
+    "gamepass": false,
+    "price": 0.99,
+    "rate": 1.0,
+    "reviews": 1,
+    "trial": false,
+    "discount": 80.16032,
+    "tags": [
+      "Racing & flying",
+      "Action",
+      "LocalMultiPlayer",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
+  "9PPD179372S9": {
+    "antiquity": 376,
+    "gamepass": false,
+    "price": 7.49,
+    "rate": 3.3,
+    "reviews": 0,
+    "trial": false,
+    "discount": 50.033356,
+    "tags": [
+      "Cards",
+      "Casino",
+      "Strategy",
+      "Puzzle",
+      "SinglePlayer",
+      "Oferta"
+    ]
+  },
   "9PPFG4XQLZF7": {
-    "antiquity": 132,
+    "antiquity": 133,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
@@ -25878,7 +26237,7 @@ const GAME = {
     ]
   },
   "9PPFJ0LRJRZQ": {
-    "antiquity": 17,
+    "antiquity": 18,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.9,
@@ -25892,7 +26251,7 @@ const GAME = {
     ]
   },
   "9PPHRJN098F7": {
-    "antiquity": 101,
+    "antiquity": 102,
     "gamepass": false,
     "price": 22.49,
     "rate": 4.4,
@@ -25904,7 +26263,7 @@ const GAME = {
     ]
   },
   "9PPK59BXLD4N": {
-    "antiquity": 102,
+    "antiquity": 103,
     "gamepass": true,
     "price": 19.99,
     "rate": 2.7,
@@ -25919,7 +26278,7 @@ const GAME = {
     ]
   },
   "9PPKV1JGZ9KW": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 89.99,
     "rate": 4.6,
@@ -25932,7 +26291,7 @@ const GAME = {
     ]
   },
   "9PPLXJ981STX": {
-    "antiquity": 4,
+    "antiquity": 5,
     "gamepass": false,
     "price": 79.99,
     "rate": 0.0,
@@ -25945,7 +26304,7 @@ const GAME = {
     ]
   },
   "9PPM9VJW284D": {
-    "antiquity": 837,
+    "antiquity": 838,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
@@ -25962,7 +26321,7 @@ const GAME = {
     ]
   },
   "9PPMQ5R4F6WB": {
-    "antiquity": 347,
+    "antiquity": 348,
     "gamepass": false,
     "price": 15.99,
     "rate": 3.0,
@@ -25981,7 +26340,7 @@ const GAME = {
     ]
   },
   "9PPN1JNXSX4P": {
-    "antiquity": 106,
+    "antiquity": 107,
     "gamepass": false,
     "price": 9.99,
     "rate": 0.0,
@@ -25997,7 +26356,7 @@ const GAME = {
     ]
   },
   "9PPN49GPNH5M": {
-    "antiquity": 123,
+    "antiquity": 124,
     "gamepass": false,
     "price": 69.99,
     "rate": 2.5,
@@ -26013,7 +26372,7 @@ const GAME = {
     ]
   },
   "9PPNKCB9ZZVV": {
-    "antiquity": 430,
+    "antiquity": 431,
     "gamepass": false,
     "price": 89.99,
     "rate": 3.8,
@@ -26026,7 +26385,7 @@ const GAME = {
     ]
   },
   "9PPQQRT0KCSF": {
-    "antiquity": 172,
+    "antiquity": 173,
     "gamepass": false,
     "price": 26.99,
     "rate": 4.0,
@@ -26039,7 +26398,7 @@ const GAME = {
     ]
   },
   "9PPRWSZLZN1Z": {
-    "antiquity": 136,
+    "antiquity": 137,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -26056,7 +26415,7 @@ const GAME = {
     ]
   },
   "9PPRZRCCLJL6": {
-    "antiquity": 453,
+    "antiquity": 454,
     "gamepass": false,
     "price": 19.99,
     "rate": 5.0,
@@ -26071,7 +26430,7 @@ const GAME = {
     ]
   },
   "9PPSM14VKCLW": {
-    "antiquity": 465,
+    "antiquity": 466,
     "gamepass": false,
     "price": 79.99,
     "rate": 4.9,
@@ -26088,7 +26447,7 @@ const GAME = {
     ]
   },
   "9PPSP23DDZKW": {
-    "antiquity": 96,
+    "antiquity": 97,
     "gamepass": false,
     "price": 8.99,
     "rate": 3.9,
@@ -26102,7 +26461,7 @@ const GAME = {
     ]
   },
   "9PPT7SJLMX89": {
-    "antiquity": 122,
+    "antiquity": 123,
     "gamepass": false,
     "price": 43.99,
     "rate": 3.1,
@@ -26116,7 +26475,7 @@ const GAME = {
     ]
   },
   "9WZDNCRDBV2N": {
-    "antiquity": 1452,
+    "antiquity": 1453,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
@@ -26133,7 +26492,7 @@ const GAME = {
     ]
   },
   "BNBD3KT0ZW90": {
-    "antiquity": 3265,
+    "antiquity": 3266,
     "gamepass": false,
     "price": 69.98,
     "rate": 4.3,
@@ -26147,7 +26506,7 @@ const GAME = {
     ]
   },
   "BNBLC4ZGFNKB": {
-    "antiquity": 2351,
+    "antiquity": 2352,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -26165,7 +26524,7 @@ const GAME = {
     ]
   },
   "BNBWFH89FCF1": {
-    "antiquity": 2183,
+    "antiquity": 2184,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -26177,21 +26536,20 @@ const GAME = {
     ]
   },
   "BNC1BNGGSWHV": {
-    "antiquity": 2148,
+    "antiquity": 2149,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 3.3,
     "reviews": 23,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
       "Role playing",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "BNCBCS5RJWH7": {
-    "antiquity": 2698,
+    "antiquity": 2699,
     "gamepass": false,
     "price": 7.99,
     "rate": 3.9,
@@ -26205,7 +26563,7 @@ const GAME = {
     ]
   },
   "BND10J71Q760": {
-    "antiquity": 2790,
+    "antiquity": 2791,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.2,
@@ -26219,7 +26577,7 @@ const GAME = {
     ]
   },
   "BNF1MDX12NG3": {
-    "antiquity": 2477,
+    "antiquity": 2478,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -26233,7 +26591,7 @@ const GAME = {
     ]
   },
   "BNF5Q9ZSD84Z": {
-    "antiquity": 1949,
+    "antiquity": 1950,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -26246,7 +26604,7 @@ const GAME = {
     ]
   },
   "BNFFDT1JNVRL": {
-    "antiquity": 2246,
+    "antiquity": 2247,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.3,
@@ -26261,7 +26619,7 @@ const GAME = {
     ]
   },
   "BNG91PT95LQN": {
-    "antiquity": 2201,
+    "antiquity": 2202,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
@@ -26278,11 +26636,11 @@ const GAME = {
     ]
   },
   "BNGT6SZBFM2T": {
-    "antiquity": 2316,
+    "antiquity": 2317,
     "gamepass": false,
     "price": 3.74,
     "rate": 4.6,
-    "reviews": 96,
+    "reviews": 97,
     "trial": false,
     "discount": 85.03401,
     "tags": [
@@ -26291,11 +26649,11 @@ const GAME = {
     ]
   },
   "BNHPW11QV69F": {
-    "antiquity": 1553,
+    "antiquity": 1554,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
-    "reviews": 27,
+    "reviews": 28,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -26304,20 +26662,19 @@ const GAME = {
     ]
   },
   "BNJJGRCSH3RM": {
-    "antiquity": 2302,
+    "antiquity": 2303,
     "gamepass": false,
-    "price": 9.99,
+    "price": 39.99,
     "rate": 3.8,
     "reviews": 53,
     "trial": false,
-    "discount": 75.01876,
+    "discount": 0,
     "tags": [
-      "Role playing",
-      "Oferta"
+      "Role playing"
     ]
   },
   "BNK358CGCZ9F": {
-    "antiquity": 1987,
+    "antiquity": 1988,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
@@ -26332,7 +26689,7 @@ const GAME = {
     ]
   },
   "BNKDKQXMXRR2": {
-    "antiquity": 3422,
+    "antiquity": 3423,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.9,
@@ -26345,7 +26702,7 @@ const GAME = {
     ]
   },
   "BNKXZ9WFM6H3": {
-    "antiquity": 2911,
+    "antiquity": 2912,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -26358,7 +26715,7 @@ const GAME = {
     ]
   },
   "BNLWDLTJ5D68": {
-    "antiquity": 2014,
+    "antiquity": 2015,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.2,
@@ -26373,7 +26730,7 @@ const GAME = {
     ]
   },
   "BNMRPFLB3PQW": {
-    "antiquity": 2162,
+    "antiquity": 2163,
     "gamepass": false,
     "price": 13.99,
     "rate": 3.8,
@@ -26387,21 +26744,20 @@ const GAME = {
     ]
   },
   "BNPTHWMGDFBR": {
-    "antiquity": 2175,
+    "antiquity": 2176,
     "gamepass": false,
-    "price": 1.99,
+    "price": 19.99,
     "rate": 2.4,
     "reviews": 14,
     "trial": false,
-    "discount": 90.04502,
+    "discount": 0,
     "tags": [
       "Platformer",
-      "LocalMultiPlayer",
-      "Oferta"
+      "LocalMultiPlayer"
     ]
   },
   "BNQ94HH98ZTP": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
@@ -26416,7 +26772,7 @@ const GAME = {
     ]
   },
   "BNQD9TWQ10PC": {
-    "antiquity": 2117,
+    "antiquity": 2118,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.0,
@@ -26429,7 +26785,7 @@ const GAME = {
     ]
   },
   "BNQQ3WVBNZCQ": {
-    "antiquity": 1553,
+    "antiquity": 1554,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -26443,7 +26799,7 @@ const GAME = {
     ]
   },
   "BNQSZ6ZS57B0": {
-    "antiquity": 3027,
+    "antiquity": 3028,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -26456,7 +26812,7 @@ const GAME = {
     ]
   },
   "BNRH7BRC1D02": {
-    "antiquity": 2902,
+    "antiquity": 2903,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.4,
@@ -26472,7 +26828,7 @@ const GAME = {
     ]
   },
   "BNRN5CLM2ZQH": {
-    "antiquity": 2579,
+    "antiquity": 2580,
     "gamepass": false,
     "price": 19.98,
     "rate": 5.0,
@@ -26488,7 +26844,7 @@ const GAME = {
     ]
   },
   "BNS4NCFZJDB0": {
-    "antiquity": 1589,
+    "antiquity": 1590,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -26504,7 +26860,7 @@ const GAME = {
     ]
   },
   "BNSDHDK45KBR": {
-    "antiquity": 2729,
+    "antiquity": 2730,
     "gamepass": false,
     "price": 3.99,
     "rate": 2.3,
@@ -26522,7 +26878,7 @@ const GAME = {
     ]
   },
   "BNT2NF1S3HNN": {
-    "antiquity": 3076,
+    "antiquity": 3077,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -26534,7 +26890,7 @@ const GAME = {
     ]
   },
   "BNTNQL7BH4T3": {
-    "antiquity": 1245,
+    "antiquity": 1246,
     "gamepass": false,
     "price": 4.99,
     "rate": 2.8,
@@ -26550,7 +26906,7 @@ const GAME = {
     ]
   },
   "BNVMH8NVCRCT": {
-    "antiquity": 4878,
+    "antiquity": 4879,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -26562,7 +26918,7 @@ const GAME = {
     ]
   },
   "BNVMW9KWTJH0": {
-    "antiquity": 2355,
+    "antiquity": 2356,
     "gamepass": false,
     "price": 39.98,
     "rate": 3.9,
@@ -26576,20 +26932,19 @@ const GAME = {
     ]
   },
   "BNVPW9NHWNM5": {
-    "antiquity": 2316,
+    "antiquity": 2317,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 4.5,
     "reviews": 78,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
-      "Role playing",
-      "Oferta"
+      "Role playing"
     ]
   },
   "BNVZJ5ZB3WH6": {
-    "antiquity": 1980,
+    "antiquity": 1981,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
@@ -26602,7 +26957,7 @@ const GAME = {
     ]
   },
   "BNWBBMNNBBN2": {
-    "antiquity": 3370,
+    "antiquity": 3371,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -26620,7 +26975,7 @@ const GAME = {
     ]
   },
   "BNWM9F3C08B6": {
-    "antiquity": 2454,
+    "antiquity": 2455,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.0,
@@ -26635,7 +26990,7 @@ const GAME = {
     ]
   },
   "BNXLPPCVS0HN": {
-    "antiquity": 1886,
+    "antiquity": 1887,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -26650,7 +27005,7 @@ const GAME = {
     ]
   },
   "BNZ2TD4Q2PVD": {
-    "antiquity": 1879,
+    "antiquity": 1880,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -26667,7 +27022,7 @@ const GAME = {
     ]
   },
   "BNZDGM7WJWGJ": {
-    "antiquity": 3512,
+    "antiquity": 3513,
     "gamepass": false,
     "price": 7.98,
     "rate": 4.3,
@@ -26679,7 +27034,7 @@ const GAME = {
     ]
   },
   "BNZQJ2FBTDM7": {
-    "antiquity": 3303,
+    "antiquity": 3304,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.6,
@@ -26692,7 +27047,7 @@ const GAME = {
     ]
   },
   "BP021F0PG0D4": {
-    "antiquity": 1174,
+    "antiquity": 1175,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -26711,7 +27066,7 @@ const GAME = {
     ]
   },
   "BP0JKGVDHHFD": {
-    "antiquity": 2684,
+    "antiquity": 2685,
     "gamepass": false,
     "price": 6.49,
     "rate": 4.3,
@@ -26725,7 +27080,7 @@ const GAME = {
     ]
   },
   "BP15SF17LH13": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.1,
@@ -26740,7 +27095,7 @@ const GAME = {
     ]
   },
   "BP1GZS0Z6G58": {
-    "antiquity": 2771,
+    "antiquity": 2772,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.2,
@@ -26753,7 +27108,7 @@ const GAME = {
     ]
   },
   "BP3GH4D3HP2H": {
-    "antiquity": 3518,
+    "antiquity": 3519,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.5,
@@ -26765,7 +27120,7 @@ const GAME = {
     ]
   },
   "BP48G8SN49JF": {
-    "antiquity": 2495,
+    "antiquity": 2496,
     "gamepass": false,
     "price": 36.99,
     "rate": 4.5,
@@ -26778,7 +27133,7 @@ const GAME = {
     ]
   },
   "BP4S3XLJG78M": {
-    "antiquity": 2869,
+    "antiquity": 2870,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -26795,7 +27150,7 @@ const GAME = {
     ]
   },
   "BP4TTT81TPPK": {
-    "antiquity": 5019,
+    "antiquity": 5020,
     "gamepass": false,
     "price": 5.24,
     "rate": 4.0,
@@ -26808,7 +27163,7 @@ const GAME = {
     ]
   },
   "BP58JN2GVQS8": {
-    "antiquity": 5043,
+    "antiquity": 5044,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
@@ -26822,7 +27177,7 @@ const GAME = {
     ]
   },
   "BP5HKF86C1NJ": {
-    "antiquity": 3293,
+    "antiquity": 3294,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.6,
@@ -26836,7 +27191,7 @@ const GAME = {
     ]
   },
   "BP5XCJQK5HQH": {
-    "antiquity": 3531,
+    "antiquity": 3532,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.0,
@@ -26849,7 +27204,7 @@ const GAME = {
     ]
   },
   "BP63MT1VJV6X": {
-    "antiquity": 2078,
+    "antiquity": 2079,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -26862,7 +27217,7 @@ const GAME = {
     ]
   },
   "BP664P1CXKKF": {
-    "antiquity": 4338,
+    "antiquity": 4339,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.3,
@@ -26874,7 +27229,7 @@ const GAME = {
     ]
   },
   "BP6L3W5VRV3B": {
-    "antiquity": 2848,
+    "antiquity": 2849,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -26890,7 +27245,7 @@ const GAME = {
     ]
   },
   "BP6V6QZBMFP0": {
-    "antiquity": 1805,
+    "antiquity": 1806,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.7,
@@ -26907,7 +27262,7 @@ const GAME = {
     ]
   },
   "BP73LMGB1DFD": {
-    "antiquity": 4016,
+    "antiquity": 4017,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -26920,7 +27275,7 @@ const GAME = {
     ]
   },
   "BP79KKVGDDH1": {
-    "antiquity": 2453,
+    "antiquity": 2454,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
@@ -26933,7 +27288,7 @@ const GAME = {
     ]
   },
   "BP8T903FZL2X": {
-    "antiquity": 2698,
+    "antiquity": 2699,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -26947,7 +27302,7 @@ const GAME = {
     ]
   },
   "BP8WDV3T37N7": {
-    "antiquity": 2742,
+    "antiquity": 2743,
     "gamepass": false,
     "price": 15.99,
     "rate": 3.7,
@@ -26962,7 +27317,7 @@ const GAME = {
     ]
   },
   "BP95H7BN67D4": {
-    "antiquity": 1788,
+    "antiquity": 1789,
     "gamepass": false,
     "price": 6.99,
     "rate": 3.9,
@@ -26975,7 +27330,7 @@ const GAME = {
     ]
   },
   "BP96WRTVD7C1": {
-    "antiquity": 4976,
+    "antiquity": 4977,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
@@ -26988,7 +27343,7 @@ const GAME = {
     ]
   },
   "BPB96BRZ1V3C": {
-    "antiquity": 2306,
+    "antiquity": 2307,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -27002,7 +27357,7 @@ const GAME = {
     ]
   },
   "BPBC39LH0Q9B": {
-    "antiquity": 2349,
+    "antiquity": 2350,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.6,
@@ -27015,7 +27370,7 @@ const GAME = {
     ]
   },
   "BPBKTSC16MWT": {
-    "antiquity": 3195,
+    "antiquity": 3196,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -27028,7 +27383,7 @@ const GAME = {
     ]
   },
   "BPBPGV9MXWPB": {
-    "antiquity": 3961,
+    "antiquity": 3962,
     "gamepass": false,
     "price": 4.79,
     "rate": 5.0,
@@ -27042,7 +27397,7 @@ const GAME = {
     ]
   },
   "BPBZVTWFWS8F": {
-    "antiquity": 2201,
+    "antiquity": 2202,
     "gamepass": false,
     "price": 28.74,
     "rate": 3.6,
@@ -27057,7 +27412,7 @@ const GAME = {
     ]
   },
   "BPD9XZWWFS8T": {
-    "antiquity": 2790,
+    "antiquity": 2791,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -27070,7 +27425,7 @@ const GAME = {
     ]
   },
   "BPDDQWC1NJ3N": {
-    "antiquity": 4667,
+    "antiquity": 4668,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.1,
@@ -27083,20 +27438,19 @@ const GAME = {
     ]
   },
   "BPF0679N8FFN": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
-    "price": 2.49,
+    "price": 9.99,
     "rate": 5.0,
     "reviews": 4,
     "trial": false,
-    "discount": 75.07508,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "Oferta"
+      "Shooter"
     ]
   },
   "BPFVSMS2MN7L": {
-    "antiquity": 3204,
+    "antiquity": 3205,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.1,
@@ -27111,7 +27465,7 @@ const GAME = {
     ]
   },
   "BPFXMQVLHFV4": {
-    "antiquity": 5722,
+    "antiquity": 5723,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.9,
@@ -27127,7 +27481,7 @@ const GAME = {
     ]
   },
   "BPGQ2Z4JSFHB": {
-    "antiquity": 3818,
+    "antiquity": 3819,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -27139,7 +27493,7 @@ const GAME = {
     ]
   },
   "BPH82WMZ6W7N": {
-    "antiquity": 2548,
+    "antiquity": 2549,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -27154,7 +27508,7 @@ const GAME = {
     ]
   },
   "BPHSZ44NGDB2": {
-    "antiquity": 1223,
+    "antiquity": 1224,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
@@ -27171,7 +27525,7 @@ const GAME = {
     ]
   },
   "BPKDQSSFQ9WV": {
-    "antiquity": 4332,
+    "antiquity": 4333,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.7,
@@ -27188,7 +27542,7 @@ const GAME = {
     ]
   },
   "BPKQZ245CQ2H": {
-    "antiquity": 2516,
+    "antiquity": 2517,
     "gamepass": false,
     "price": 1.99,
     "rate": 3.9,
@@ -27202,7 +27556,7 @@ const GAME = {
     ]
   },
   "BPKVH4C4XV4N": {
-    "antiquity": 2453,
+    "antiquity": 2454,
     "gamepass": true,
     "price": 5.99,
     "rate": 4.0,
@@ -27218,7 +27572,7 @@ const GAME = {
     ]
   },
   "BPL68T0XK96W": {
-    "antiquity": 2359,
+    "antiquity": 2360,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.3,
@@ -27233,7 +27587,7 @@ const GAME = {
     ]
   },
   "BPLW9KMFDNMR": {
-    "antiquity": 1805,
+    "antiquity": 1806,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -27249,7 +27603,7 @@ const GAME = {
     ]
   },
   "BPMJ413V6BB2": {
-    "antiquity": 1774,
+    "antiquity": 1775,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -27262,7 +27616,7 @@ const GAME = {
     ]
   },
   "BPN08ZDRPSFK": {
-    "antiquity": 5151,
+    "antiquity": 5152,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.7,
@@ -27279,7 +27633,7 @@ const GAME = {
     ]
   },
   "BPN103KDBX2H": {
-    "antiquity": 4364,
+    "antiquity": 4365,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -27291,7 +27645,7 @@ const GAME = {
     ]
   },
   "BPNDKQN84N6L": {
-    "antiquity": 2862,
+    "antiquity": 2863,
     "gamepass": true,
     "price": 13.19,
     "rate": 4.2,
@@ -27305,7 +27659,7 @@ const GAME = {
     ]
   },
   "BPNSJSZCRPPF": {
-    "antiquity": 3023,
+    "antiquity": 3024,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
@@ -27319,7 +27673,7 @@ const GAME = {
     ]
   },
   "BPP4NB1CKGP1": {
-    "antiquity": 2351,
+    "antiquity": 2352,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -27334,7 +27688,7 @@ const GAME = {
     ]
   },
   "BPP935F82L43": {
-    "antiquity": 2882,
+    "antiquity": 2883,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -27346,7 +27700,7 @@ const GAME = {
     ]
   },
   "BPPTRQZRJ341": {
-    "antiquity": 3447,
+    "antiquity": 3448,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -27358,7 +27712,7 @@ const GAME = {
     ]
   },
   "BPPZVT8BZ15N": {
-    "antiquity": 2050,
+    "antiquity": 2051,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.7,
@@ -27371,7 +27725,7 @@ const GAME = {
     ]
   },
   "BPQ955FQFPH6": {
-    "antiquity": 1718,
+    "antiquity": 1719,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -27387,7 +27741,7 @@ const GAME = {
     ]
   },
   "BPQT0CXNCMRK": {
-    "antiquity": 2806,
+    "antiquity": 2807,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
@@ -27400,7 +27754,7 @@ const GAME = {
     ]
   },
   "BPQZT43FWD49": {
-    "antiquity": 1776,
+    "antiquity": 1777,
     "gamepass": true,
     "price": 19.99,
     "rate": 2.9,
@@ -27416,7 +27770,7 @@ const GAME = {
     ]
   },
   "BPR2TBS2KMQJ": {
-    "antiquity": 2005,
+    "antiquity": 2006,
     "gamepass": true,
     "price": 24.49,
     "rate": 3.9,
@@ -27430,20 +27784,19 @@ const GAME = {
     ]
   },
   "BPR5GFHR9GTZ": {
-    "antiquity": 2470,
+    "antiquity": 2471,
     "gamepass": false,
-    "price": 9.99,
+    "price": 39.99,
     "rate": 4.0,
     "reviews": 165,
     "trial": false,
-    "discount": 75.01876,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "Oferta"
+      "Bundle"
     ]
   },
   "BPR721XZ2KBH": {
-    "antiquity": 3058,
+    "antiquity": 3059,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -27460,7 +27813,7 @@ const GAME = {
     ]
   },
   "BPRC68M9R1JZ": {
-    "antiquity": 1676,
+    "antiquity": 1677,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.7,
@@ -27475,11 +27828,11 @@ const GAME = {
     ]
   },
   "BPRPQSKXTD1L": {
-    "antiquity": 2603,
+    "antiquity": 2604,
     "gamepass": true,
     "price": 19.98,
     "rate": 4.3,
-    "reviews": 38,
+    "reviews": 39,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -27490,7 +27843,7 @@ const GAME = {
     ]
   },
   "BPS3XF74B9V1": {
-    "antiquity": 3443,
+    "antiquity": 3444,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -27509,7 +27862,7 @@ const GAME = {
     ]
   },
   "BPT4J5TL5B4Z": {
-    "antiquity": 2278,
+    "antiquity": 2279,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
@@ -27525,7 +27878,7 @@ const GAME = {
     ]
   },
   "BPTWSRMJH2JF": {
-    "antiquity": 3160,
+    "antiquity": 3161,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -27538,7 +27891,7 @@ const GAME = {
     ]
   },
   "BPV4GXTDCNSH": {
-    "antiquity": 3198,
+    "antiquity": 3199,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -27552,7 +27905,7 @@ const GAME = {
     ]
   },
   "BPV56ZX2B8PJ": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
     "price": 3.49,
     "rate": 4.5,
@@ -27566,7 +27919,7 @@ const GAME = {
     ]
   },
   "BPX57N768756": {
-    "antiquity": 4085,
+    "antiquity": 4086,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
@@ -27578,7 +27931,7 @@ const GAME = {
     ]
   },
   "BPXWDV0BS5W0": {
-    "antiquity": 1823,
+    "antiquity": 1824,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.0,
@@ -27592,7 +27945,7 @@ const GAME = {
     ]
   },
   "BPZT3CQCCWKG": {
-    "antiquity": 3148,
+    "antiquity": 3149,
     "gamepass": false,
     "price": 7.49,
     "rate": 4.2,
@@ -27605,7 +27958,7 @@ const GAME = {
     ]
   },
   "BQ023H8GXZ3T": {
-    "antiquity": 3265,
+    "antiquity": 3266,
     "gamepass": false,
     "price": 7.49,
     "rate": 4.3,
@@ -27621,7 +27974,7 @@ const GAME = {
     ]
   },
   "BQ0T326DSPLQ": {
-    "antiquity": 3046,
+    "antiquity": 3047,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -27636,21 +27989,22 @@ const GAME = {
     ]
   },
   "BQ0WGG6B6X2H": {
-    "antiquity": 5002,
+    "antiquity": 5003,
     "gamepass": false,
-    "price": 29.99,
+    "price": 7.49,
     "rate": 4.9,
     "reviews": 24,
     "trial": false,
-    "discount": 0,
+    "discount": 75.02501,
     "tags": [
       "Strategy",
       "Simulation",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "BQ18XCWDPNNR": {
-    "antiquity": 1903,
+    "antiquity": 1904,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.5,
@@ -27666,7 +28020,7 @@ const GAME = {
     ]
   },
   "BQ1Q84V1SXCC": {
-    "antiquity": 2817,
+    "antiquity": 2818,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.6,
@@ -27679,7 +28033,7 @@ const GAME = {
     ]
   },
   "BQ1TN1T79V9K": {
-    "antiquity": 2777,
+    "antiquity": 2778,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -27700,7 +28054,7 @@ const GAME = {
     ]
   },
   "BQ1W1T1FC14W": {
-    "antiquity": 2656,
+    "antiquity": 2657,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.5,
@@ -27714,7 +28068,7 @@ const GAME = {
     ]
   },
   "BQ216SGGM4M8": {
-    "antiquity": 1700,
+    "antiquity": 1701,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
@@ -27729,7 +28083,7 @@ const GAME = {
     ]
   },
   "BQ2307M831ZG": {
-    "antiquity": 2617,
+    "antiquity": 2618,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.6,
@@ -27742,21 +28096,20 @@ const GAME = {
     ]
   },
   "BQ29CK8F9918": {
-    "antiquity": 2841,
+    "antiquity": 2842,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 2.9,
     "reviews": 15,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Strategy",
-      "Simulation",
-      "Oferta"
+      "Simulation"
     ]
   },
   "BQ2F1LGNL6M1": {
-    "antiquity": 3076,
+    "antiquity": 3077,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.6,
@@ -27769,7 +28122,7 @@ const GAME = {
     ]
   },
   "BQ2NNLQPS8RS": {
-    "antiquity": 1728,
+    "antiquity": 1729,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
@@ -27781,7 +28134,7 @@ const GAME = {
     ]
   },
   "BQ30J3N2LPZX": {
-    "antiquity": 3960,
+    "antiquity": 3961,
     "gamepass": false,
     "price": 4.74,
     "rate": 4.4,
@@ -27795,7 +28148,7 @@ const GAME = {
     ]
   },
   "BQ48FH11C9P2": {
-    "antiquity": 4975,
+    "antiquity": 4976,
     "gamepass": false,
     "price": 3.13,
     "rate": 4.3,
@@ -27809,11 +28162,11 @@ const GAME = {
     ]
   },
   "BQ49WQ00XTWX": {
-    "antiquity": 1946,
+    "antiquity": 1947,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
-    "reviews": 985,
+    "reviews": 986,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -27826,7 +28179,7 @@ const GAME = {
     ]
   },
   "BQ4GD4LDGLTB": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
     "price": 3.49,
     "rate": 4.4,
@@ -27839,7 +28192,7 @@ const GAME = {
     ]
   },
   "BQ5KC1NMPP8P": {
-    "antiquity": 2239,
+    "antiquity": 2240,
     "gamepass": false,
     "price": 35.99,
     "rate": 4.5,
@@ -27855,7 +28208,7 @@ const GAME = {
     ]
   },
   "BQ765BPQ7JGL": {
-    "antiquity": 2860,
+    "antiquity": 2861,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -27868,7 +28221,7 @@ const GAME = {
     ]
   },
   "BQ9Q620NC614": {
-    "antiquity": 3475,
+    "antiquity": 3476,
     "gamepass": false,
     "price": 4.49,
     "rate": 4.2,
@@ -27884,7 +28237,7 @@ const GAME = {
     ]
   },
   "BQ9S8ZKCT3Q7": {
-    "antiquity": 2636,
+    "antiquity": 2637,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -27897,7 +28250,7 @@ const GAME = {
     ]
   },
   "BQ9T0JF0D3L4": {
-    "antiquity": 1256,
+    "antiquity": 1257,
     "gamepass": true,
     "price": 39.99,
     "rate": 3.6,
@@ -27912,7 +28265,7 @@ const GAME = {
     ]
   },
   "BQBQ98VM5FS2": {
-    "antiquity": 3755,
+    "antiquity": 3756,
     "gamepass": false,
     "price": 3.59,
     "rate": 4.2,
@@ -27925,7 +28278,7 @@ const GAME = {
     ]
   },
   "BQBTGDT4P54J": {
-    "antiquity": 4844,
+    "antiquity": 4845,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -27938,7 +28291,7 @@ const GAME = {
     ]
   },
   "BQC3DCLTWH3R": {
-    "antiquity": 5008,
+    "antiquity": 5009,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -27950,7 +28303,7 @@ const GAME = {
     ]
   },
   "BQCLQ73MFGJ8": {
-    "antiquity": 2848,
+    "antiquity": 2849,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
@@ -27965,7 +28318,7 @@ const GAME = {
     ]
   },
   "BQD45PQR4F4J": {
-    "antiquity": 2980,
+    "antiquity": 2981,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.6,
@@ -27978,7 +28331,7 @@ const GAME = {
     ]
   },
   "BQD5WRRP2D6Q": {
-    "antiquity": 1781,
+    "antiquity": 1782,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.3,
@@ -27991,7 +28344,7 @@ const GAME = {
     ]
   },
   "BQDVBCS5Z4N1": {
-    "antiquity": 2274,
+    "antiquity": 2275,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.9,
@@ -28003,7 +28356,7 @@ const GAME = {
     ]
   },
   "BQF41W70ZLSV": {
-    "antiquity": 1986,
+    "antiquity": 1987,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -28020,7 +28373,7 @@ const GAME = {
     ]
   },
   "BQG162F04T2L": {
-    "antiquity": 4472,
+    "antiquity": 4473,
     "gamepass": true,
     "price": 3.99,
     "rate": 4.0,
@@ -28035,7 +28388,7 @@ const GAME = {
     ]
   },
   "BQGPXM2H3T4H": {
-    "antiquity": 2722,
+    "antiquity": 2723,
     "gamepass": false,
     "price": 44.99,
     "rate": 4.4,
@@ -28048,7 +28401,7 @@ const GAME = {
     ]
   },
   "BQHCTFQ14DFK": {
-    "antiquity": 4863,
+    "antiquity": 4864,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.3,
@@ -28061,7 +28414,7 @@ const GAME = {
     ]
   },
   "BQJKD0DJ1Q8J": {
-    "antiquity": 1700,
+    "antiquity": 1701,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.3,
@@ -28073,21 +28426,20 @@ const GAME = {
     ]
   },
   "BQJNKMZJXZC4": {
-    "antiquity": 3471,
+    "antiquity": 3472,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 3.3,
     "reviews": 23,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
-      "Role playing",
-      "Oferta"
+      "Role playing"
     ]
   },
   "BQKKNPKX1C4P": {
-    "antiquity": 2323,
+    "antiquity": 2324,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.5,
@@ -28101,7 +28453,7 @@ const GAME = {
     ]
   },
   "BQKSXQGJTN43": {
-    "antiquity": 2722,
+    "antiquity": 2723,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -28113,11 +28465,11 @@ const GAME = {
     ]
   },
   "BQL8L17RV09Z": {
-    "antiquity": 1631,
+    "antiquity": 1632,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.4,
-    "reviews": 2354,
+    "reviews": 2355,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -28130,7 +28482,7 @@ const GAME = {
     ]
   },
   "BQLMFLL88BSW": {
-    "antiquity": 2649,
+    "antiquity": 2650,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -28145,7 +28497,7 @@ const GAME = {
     ]
   },
   "BQMPTJ2MVCQJ": {
-    "antiquity": 4066,
+    "antiquity": 4067,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -28158,7 +28510,7 @@ const GAME = {
     ]
   },
   "BQMQ3K1BLV1T": {
-    "antiquity": 2152,
+    "antiquity": 2153,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.4,
@@ -28172,7 +28524,7 @@ const GAME = {
     ]
   },
   "BQMVWCMB8P59": {
-    "antiquity": 2467,
+    "antiquity": 2468,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.5,
@@ -28185,7 +28537,7 @@ const GAME = {
     ]
   },
   "BQNBKCDB2TPR": {
-    "antiquity": 2743,
+    "antiquity": 2744,
     "gamepass": false,
     "price": 22.99,
     "rate": 4.2,
@@ -28197,7 +28549,7 @@ const GAME = {
     ]
   },
   "BQPZGCHPFPV6": {
-    "antiquity": 2847,
+    "antiquity": 2848,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.0,
@@ -28209,11 +28561,11 @@ const GAME = {
     ]
   },
   "BQQKG9H2STC0": {
-    "antiquity": 2691,
+    "antiquity": 2692,
     "gamepass": true,
     "price": 19.98,
     "rate": 4.5,
-    "reviews": 270,
+    "reviews": 272,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -28222,7 +28574,7 @@ const GAME = {
     ]
   },
   "BQR7QS0F8SJ3": {
-    "antiquity": 2603,
+    "antiquity": 2604,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
@@ -28235,7 +28587,7 @@ const GAME = {
     ]
   },
   "BQRB60PW2SDL": {
-    "antiquity": 1691,
+    "antiquity": 1692,
     "gamepass": false,
     "price": 13.99,
     "rate": 3.8,
@@ -28252,7 +28604,7 @@ const GAME = {
     ]
   },
   "BQSC9GDBDF0V": {
-    "antiquity": 2281,
+    "antiquity": 2282,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.5,
@@ -28266,7 +28618,7 @@ const GAME = {
     ]
   },
   "BQSCNS1T8PHQ": {
-    "antiquity": 2008,
+    "antiquity": 2009,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.5,
@@ -28281,7 +28633,7 @@ const GAME = {
     ]
   },
   "BQSW32RWSJW5": {
-    "antiquity": 2677,
+    "antiquity": 2678,
     "gamepass": false,
     "price": 3.74,
     "rate": 3.4,
@@ -28296,7 +28648,7 @@ const GAME = {
     ]
   },
   "BQT2R5FK3P7R": {
-    "antiquity": 2155,
+    "antiquity": 2156,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -28309,7 +28661,7 @@ const GAME = {
     ]
   },
   "BQT9LF5VCDPC": {
-    "antiquity": 3300,
+    "antiquity": 3301,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -28322,7 +28674,7 @@ const GAME = {
     ]
   },
   "BQVQTL3PCH05": {
-    "antiquity": 2022,
+    "antiquity": 2023,
     "gamepass": true,
     "price": 49.99,
     "rate": 3.8,
@@ -28340,7 +28692,7 @@ const GAME = {
     ]
   },
   "BQW8J8XM62JW": {
-    "antiquity": 4514,
+    "antiquity": 4515,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.6,
@@ -28353,7 +28705,7 @@ const GAME = {
     ]
   },
   "BQWG99VDMBNV": {
-    "antiquity": 3090,
+    "antiquity": 3091,
     "gamepass": false,
     "price": 17.99,
     "rate": 3.8,
@@ -28366,7 +28718,7 @@ const GAME = {
     ]
   },
   "BQWGBMCKRMSQ": {
-    "antiquity": 2684,
+    "antiquity": 2685,
     "gamepass": false,
     "price": 2.49,
     "rate": 4.3,
@@ -28381,7 +28733,7 @@ const GAME = {
     ]
   },
   "BQWR4PH8X3PZ": {
-    "antiquity": 2561,
+    "antiquity": 2562,
     "gamepass": false,
     "price": 1.39,
     "rate": 3.3,
@@ -28396,7 +28748,7 @@ const GAME = {
     ]
   },
   "BQXN1S3V3FN9": {
-    "antiquity": 2698,
+    "antiquity": 2699,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.8,
@@ -28410,7 +28762,7 @@ const GAME = {
     ]
   },
   "BQXTS0SX4W0N": {
-    "antiquity": 3657,
+    "antiquity": 3658,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -28424,7 +28776,7 @@ const GAME = {
     ]
   },
   "BQXVSGCX6K8W": {
-    "antiquity": 1935,
+    "antiquity": 1936,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.3,
@@ -28438,7 +28790,7 @@ const GAME = {
     ]
   },
   "BQXWH8FJK3V0": {
-    "antiquity": 4472,
+    "antiquity": 4473,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.5,
@@ -28451,7 +28803,7 @@ const GAME = {
     ]
   },
   "BQZ0V5R1HPXF": {
-    "antiquity": 4133,
+    "antiquity": 4134,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.3,
@@ -28465,7 +28817,7 @@ const GAME = {
     ]
   },
   "BQZ10L79X0FP": {
-    "antiquity": 1924,
+    "antiquity": 1925,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -28477,7 +28829,7 @@ const GAME = {
     ]
   },
   "BQZKFWSZX483": {
-    "antiquity": 3009,
+    "antiquity": 3010,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -28491,7 +28843,7 @@ const GAME = {
     ]
   },
   "BQZW37W54ZZM": {
-    "antiquity": 3811,
+    "antiquity": 3812,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.3,
@@ -28504,7 +28856,7 @@ const GAME = {
     ]
   },
   "BR03N9C6Z9G6": {
-    "antiquity": 3093,
+    "antiquity": 3094,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -28516,7 +28868,7 @@ const GAME = {
     ]
   },
   "BR1D9CR82ZM8": {
-    "antiquity": 4941,
+    "antiquity": 4942,
     "gamepass": true,
     "price": 14.49,
     "rate": 4.5,
@@ -28531,7 +28883,7 @@ const GAME = {
     ]
   },
   "BR1JD76JZ6H5": {
-    "antiquity": 3085,
+    "antiquity": 3086,
     "gamepass": false,
     "price": 13.98,
     "rate": 4.3,
@@ -28544,7 +28896,7 @@ const GAME = {
     ]
   },
   "BR1ZD21DCXJR": {
-    "antiquity": 4301,
+    "antiquity": 4302,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
@@ -28557,7 +28909,7 @@ const GAME = {
     ]
   },
   "BR27BSZ2M3SR": {
-    "antiquity": 4507,
+    "antiquity": 4508,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.3,
@@ -28571,7 +28923,7 @@ const GAME = {
     ]
   },
   "BR2F4DG4WXF8": {
-    "antiquity": 2988,
+    "antiquity": 2989,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.3,
@@ -28584,7 +28936,7 @@ const GAME = {
     ]
   },
   "BR30GBNH63F9": {
-    "antiquity": 4975,
+    "antiquity": 4976,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.6,
@@ -28597,7 +28949,7 @@ const GAME = {
     ]
   },
   "BR3152PVJV5J": {
-    "antiquity": 2579,
+    "antiquity": 2580,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -28609,7 +28961,7 @@ const GAME = {
     ]
   },
   "BR3TMVZ9PNWZ": {
-    "antiquity": 3023,
+    "antiquity": 3024,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.7,
@@ -28621,7 +28973,7 @@ const GAME = {
     ]
   },
   "BR46KM4D5B9L": {
-    "antiquity": 4847,
+    "antiquity": 4848,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
@@ -28639,7 +28991,7 @@ const GAME = {
     ]
   },
   "BR47R4J78FH8": {
-    "antiquity": 1987,
+    "antiquity": 1988,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -28654,7 +29006,7 @@ const GAME = {
     ]
   },
   "BR5BK5PNZKVH": {
-    "antiquity": 2929,
+    "antiquity": 2930,
     "gamepass": false,
     "price": 19.98,
     "rate": 3.7,
@@ -28667,7 +29019,7 @@ const GAME = {
     ]
   },
   "BR6DLJ4RDR9Q": {
-    "antiquity": 2174,
+    "antiquity": 2175,
     "gamepass": false,
     "price": 23.98,
     "rate": 3.4,
@@ -28681,7 +29033,7 @@ const GAME = {
     ]
   },
   "BR6HQDNQT004": {
-    "antiquity": 3905,
+    "antiquity": 3906,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -28693,7 +29045,7 @@ const GAME = {
     ]
   },
   "BR74RLMH966K": {
-    "antiquity": 4856,
+    "antiquity": 4857,
     "gamepass": true,
     "price": 5.03,
     "rate": 4.8,
@@ -28708,7 +29060,7 @@ const GAME = {
     ]
   },
   "BR751B3H533G": {
-    "antiquity": 3083,
+    "antiquity": 3084,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -28723,7 +29075,7 @@ const GAME = {
     ]
   },
   "BR765873CQJD": {
-    "antiquity": 3184,
+    "antiquity": 3185,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.7,
@@ -28737,7 +29089,7 @@ const GAME = {
     ]
   },
   "BR7H2605L0QQ": {
-    "antiquity": 2548,
+    "antiquity": 2549,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.2,
@@ -28752,7 +29104,7 @@ const GAME = {
     ]
   },
   "BR7X7MVBBQKM": {
-    "antiquity": 2141,
+    "antiquity": 2142,
     "gamepass": true,
     "price": 10.49,
     "rate": 4.0,
@@ -28767,7 +29119,7 @@ const GAME = {
     ]
   },
   "BR7ZJJHGWT5X": {
-    "antiquity": 3391,
+    "antiquity": 3392,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -28779,7 +29131,7 @@ const GAME = {
     ]
   },
   "BR8K0RVDQJS5": {
-    "antiquity": 334,
+    "antiquity": 335,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -28796,7 +29148,7 @@ const GAME = {
     ]
   },
   "BRB2J2GKCC3H": {
-    "antiquity": 2349,
+    "antiquity": 2350,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.5,
@@ -28809,7 +29161,7 @@ const GAME = {
     ]
   },
   "BRB2XN908F4K": {
-    "antiquity": 2663,
+    "antiquity": 2664,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
@@ -28822,7 +29174,7 @@ const GAME = {
     ]
   },
   "BRBVZF1T3GH3": {
-    "antiquity": 4220,
+    "antiquity": 4221,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.6,
@@ -28836,20 +29188,21 @@ const GAME = {
     ]
   },
   "BRC33X34H2C9": {
-    "antiquity": 4154,
+    "antiquity": 4155,
     "gamepass": false,
-    "price": 29.99,
+    "price": 11.99,
     "rate": 4.5,
     "reviews": 31,
     "trial": false,
-    "discount": 0,
+    "discount": 60.020004,
     "tags": [
       "Role playing",
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "BRCK1B8950B2": {
-    "antiquity": 5051,
+    "antiquity": 5052,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.9,
@@ -28861,7 +29214,7 @@ const GAME = {
     ]
   },
   "BRFHK8R9ZX53": {
-    "antiquity": 3065,
+    "antiquity": 3066,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.8,
@@ -28877,7 +29230,7 @@ const GAME = {
     ]
   },
   "BRFKNLB9B2ZW": {
-    "antiquity": 3701,
+    "antiquity": 3702,
     "gamepass": false,
     "price": 0.0,
     "rate": 5.0,
@@ -28890,7 +29243,7 @@ const GAME = {
     ]
   },
   "BRGPD72KHM3Q": {
-    "antiquity": 2890,
+    "antiquity": 2891,
     "gamepass": false,
     "price": 4.49,
     "rate": 4.3,
@@ -28904,7 +29257,7 @@ const GAME = {
     ]
   },
   "BRGVJJB8S6FV": {
-    "antiquity": 1802,
+    "antiquity": 1803,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.5,
@@ -28918,7 +29271,7 @@ const GAME = {
     ]
   },
   "BRH7S5QHZ0Q8": {
-    "antiquity": 4367,
+    "antiquity": 4368,
     "gamepass": false,
     "price": 2.49,
     "rate": 4.6,
@@ -28932,7 +29285,7 @@ const GAME = {
     ]
   },
   "BRHB1G8F8ZCB": {
-    "antiquity": 1603,
+    "antiquity": 1604,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.3,
@@ -28950,7 +29303,7 @@ const GAME = {
     ]
   },
   "BRHSML8030ZN": {
-    "antiquity": 3590,
+    "antiquity": 3591,
     "gamepass": false,
     "price": 59.99,
     "rate": 3.9,
@@ -28965,7 +29318,7 @@ const GAME = {
     ]
   },
   "BRJB0RMH33T2": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
     "price": 3.49,
     "rate": 4.7,
@@ -28979,7 +29332,7 @@ const GAME = {
     ]
   },
   "BRJLJ6RPLQTJ": {
-    "antiquity": 4934,
+    "antiquity": 4935,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
@@ -28992,7 +29345,7 @@ const GAME = {
     ]
   },
   "BRJNRZ9N734V": {
-    "antiquity": 1625,
+    "antiquity": 1626,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
@@ -29007,7 +29360,7 @@ const GAME = {
     ]
   },
   "BRK1B5GSB6W4": {
-    "antiquity": 3421,
+    "antiquity": 3422,
     "gamepass": false,
     "price": 3.74,
     "rate": 3.7,
@@ -29024,7 +29377,7 @@ const GAME = {
     ]
   },
   "BRKMHZX1RCF2": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.3,
@@ -29038,7 +29391,7 @@ const GAME = {
     ]
   },
   "BRKVPTHJW525": {
-    "antiquity": 2456,
+    "antiquity": 2457,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
@@ -29050,7 +29403,7 @@ const GAME = {
     ]
   },
   "BRKX5CRMRTC2": {
-    "antiquity": 2435,
+    "antiquity": 2436,
     "gamepass": true,
     "price": 19.99,
     "rate": 2.5,
@@ -29065,7 +29418,7 @@ const GAME = {
     ]
   },
   "BRL4TWKNVT82": {
-    "antiquity": 4275,
+    "antiquity": 4276,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.0,
@@ -29079,7 +29432,7 @@ const GAME = {
     ]
   },
   "BRL99QVV2BF3": {
-    "antiquity": 1924,
+    "antiquity": 1925,
     "gamepass": false,
     "price": 6.59,
     "rate": 4.6,
@@ -29092,7 +29445,7 @@ const GAME = {
     ]
   },
   "BRMFLRV79C3H": {
-    "antiquity": 3113,
+    "antiquity": 3114,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.9,
@@ -29105,7 +29458,7 @@ const GAME = {
     ]
   },
   "BRN6BHDHB58J": {
-    "antiquity": 4479,
+    "antiquity": 4480,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.1,
@@ -29118,7 +29471,7 @@ const GAME = {
     ]
   },
   "BRPVTJKWHBR7": {
-    "antiquity": 1046,
+    "antiquity": 1047,
     "gamepass": false,
     "price": 49.99,
     "rate": 2.2,
@@ -29134,7 +29487,7 @@ const GAME = {
     ]
   },
   "BRQ2SCZCTXF2": {
-    "antiquity": 4962,
+    "antiquity": 4963,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -29146,11 +29499,11 @@ const GAME = {
     ]
   },
   "BRQGNR1PZHP4": {
-    "antiquity": 1949,
+    "antiquity": 1950,
     "gamepass": false,
     "price": 22.99,
     "rate": 4.5,
-    "reviews": 249,
+    "reviews": 250,
     "trial": false,
     "discount": 80.00696,
     "tags": [
@@ -29159,7 +29512,7 @@ const GAME = {
     ]
   },
   "BRQH27C9RGXS": {
-    "antiquity": 3371,
+    "antiquity": 3372,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.2,
@@ -29173,7 +29526,7 @@ const GAME = {
     ]
   },
   "BRRC2BP0G9P0": {
-    "antiquity": 3023,
+    "antiquity": 3024,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.5,
@@ -29188,7 +29541,7 @@ const GAME = {
     ]
   },
   "BRRC2X2GQGC7": {
-    "antiquity": 1329,
+    "antiquity": 1330,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.9,
@@ -29203,7 +29556,7 @@ const GAME = {
     ]
   },
   "BRRN3ZC632XS": {
-    "antiquity": 5029,
+    "antiquity": 5030,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -29215,7 +29568,7 @@ const GAME = {
     ]
   },
   "BRSZV60TT078": {
-    "antiquity": 4997,
+    "antiquity": 4998,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -29227,7 +29580,7 @@ const GAME = {
     ]
   },
   "BRVM8RNWLXH1": {
-    "antiquity": 1844,
+    "antiquity": 1845,
     "gamepass": false,
     "price": 10.49,
     "rate": 3.9,
@@ -29242,7 +29595,7 @@ const GAME = {
     ]
   },
   "BRW49CBS558D": {
-    "antiquity": 2663,
+    "antiquity": 2664,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.7,
@@ -29254,7 +29607,7 @@ const GAME = {
     ]
   },
   "BRW7FLNQ19PK": {
-    "antiquity": 2929,
+    "antiquity": 2930,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -29268,7 +29621,7 @@ const GAME = {
     ]
   },
   "BRWJS8P512VF": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": false,
     "price": 19.79,
     "rate": 4.0,
@@ -29285,7 +29638,7 @@ const GAME = {
     ]
   },
   "BRX56LQJMZ4G": {
-    "antiquity": 1984,
+    "antiquity": 1985,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.3,
@@ -29299,23 +29652,22 @@ const GAME = {
     ]
   },
   "BRZ9553VPPBD": {
-    "antiquity": 1453,
+    "antiquity": 1454,
     "gamepass": false,
-    "price": 11.99,
+    "price": 39.99,
     "rate": 3.1,
     "reviews": 46,
     "trial": false,
-    "discount": 70.0175,
+    "discount": 0,
     "tags": [
       "Action",
       "SinglePlayer",
       "LocalMultiPlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "BRZHFR5XBLQS": {
-    "antiquity": 3384,
+    "antiquity": 3385,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.5,
@@ -29331,7 +29683,7 @@ const GAME = {
     ]
   },
   "BRZXWGJ2NB2H": {
-    "antiquity": 3364,
+    "antiquity": 3365,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -29345,7 +29697,7 @@ const GAME = {
     ]
   },
   "BS18VCF4NLQ9": {
-    "antiquity": 2082,
+    "antiquity": 2083,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -29359,7 +29711,7 @@ const GAME = {
     ]
   },
   "BS1V82FLTGKJ": {
-    "antiquity": 2503,
+    "antiquity": 2504,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -29374,7 +29726,7 @@ const GAME = {
     ]
   },
   "BS2S6B326WJD": {
-    "antiquity": 3405,
+    "antiquity": 3406,
     "gamepass": false,
     "price": 4.49,
     "rate": 4.3,
@@ -29387,7 +29739,7 @@ const GAME = {
     ]
   },
   "BS34VNW7H61F": {
-    "antiquity": 2351,
+    "antiquity": 2352,
     "gamepass": true,
     "price": 12.49,
     "rate": 4.0,
@@ -29403,7 +29755,7 @@ const GAME = {
     ]
   },
   "BS37BWWP2PZ1": {
-    "antiquity": 2246,
+    "antiquity": 2247,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -29417,7 +29769,7 @@ const GAME = {
     ]
   },
   "BS38ZDJVT78N": {
-    "antiquity": 4140,
+    "antiquity": 4141,
     "gamepass": false,
     "price": 9.49,
     "rate": 3.8,
@@ -29430,7 +29782,7 @@ const GAME = {
     ]
   },
   "BS4R9GLTJBRL": {
-    "antiquity": 2110,
+    "antiquity": 2111,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -29447,7 +29799,7 @@ const GAME = {
     ]
   },
   "BS5RXLL3WQ2J": {
-    "antiquity": 2495,
+    "antiquity": 2496,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.6,
@@ -29461,7 +29813,7 @@ const GAME = {
     ]
   },
   "BS68QN8SV1BN": {
-    "antiquity": 4521,
+    "antiquity": 4522,
     "gamepass": false,
     "price": 5.24,
     "rate": 4.4,
@@ -29474,7 +29826,7 @@ const GAME = {
     ]
   },
   "BS70ZCL9NZ9N": {
-    "antiquity": 2134,
+    "antiquity": 2135,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.7,
@@ -29490,7 +29842,7 @@ const GAME = {
     ]
   },
   "BS7CR1KN2W1H": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
     "price": 3.49,
     "rate": 2.4,
@@ -29506,7 +29858,7 @@ const GAME = {
     ]
   },
   "BS7F51G3DP8R": {
-    "antiquity": 2806,
+    "antiquity": 2807,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -29519,7 +29871,7 @@ const GAME = {
     ]
   },
   "BS7LQTHJGRM7": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": false,
     "price": 3.74,
     "rate": 3.2,
@@ -29533,7 +29885,7 @@ const GAME = {
     ]
   },
   "BS8LFD7729CL": {
-    "antiquity": 7451,
+    "antiquity": 7452,
     "gamepass": false,
     "price": 3.49,
     "rate": 4.8,
@@ -29546,7 +29898,7 @@ const GAME = {
     ]
   },
   "BS8XGCLL3VQZ": {
-    "antiquity": 2358,
+    "antiquity": 2359,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.5,
@@ -29564,7 +29916,7 @@ const GAME = {
     ]
   },
   "BS97KVXLT9LK": {
-    "antiquity": 3828,
+    "antiquity": 3829,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.2,
@@ -29577,7 +29929,7 @@ const GAME = {
     ]
   },
   "BS9SX4Q6XJRF": {
-    "antiquity": 4927,
+    "antiquity": 4928,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -29590,7 +29942,7 @@ const GAME = {
     ]
   },
   "BSB132ZQVWZM": {
-    "antiquity": 2351,
+    "antiquity": 2352,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.1,
@@ -29606,7 +29958,7 @@ const GAME = {
     ]
   },
   "BSC246MT070F": {
-    "antiquity": 2028,
+    "antiquity": 2029,
     "gamepass": false,
     "price": 1.49,
     "rate": 3.8,
@@ -29620,7 +29972,7 @@ const GAME = {
     ]
   },
   "BSC5WP01852T": {
-    "antiquity": 2120,
+    "antiquity": 2121,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -29635,7 +29987,7 @@ const GAME = {
     ]
   },
   "BSCCQL7DZ9KD": {
-    "antiquity": 5444,
+    "antiquity": 5445,
     "gamepass": true,
     "price": 9.49,
     "rate": 4.1,
@@ -29648,7 +30000,7 @@ const GAME = {
     ]
   },
   "BSCSRTX27ZH3": {
-    "antiquity": 5304,
+    "antiquity": 5305,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -29660,7 +30012,7 @@ const GAME = {
     ]
   },
   "BSF4MQFNW44N": {
-    "antiquity": 4693,
+    "antiquity": 4694,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -29672,7 +30024,7 @@ const GAME = {
     ]
   },
   "BSG43BDRN81R": {
-    "antiquity": 5081,
+    "antiquity": 5082,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.4,
@@ -29684,21 +30036,20 @@ const GAME = {
     ]
   },
   "BSG54TVPP2M5": {
-    "antiquity": 4365,
+    "antiquity": 4366,
     "gamepass": false,
-    "price": 2.49,
+    "price": 9.99,
     "rate": 3.5,
     "reviews": 15,
     "trial": false,
-    "discount": 75.07508,
+    "discount": 0,
     "tags": [
       "Action",
-      "Shooter",
-      "Oferta"
+      "Shooter"
     ]
   },
   "BSGDS8K2HGMF": {
-    "antiquity": 3366,
+    "antiquity": 3367,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.4,
@@ -29712,7 +30063,7 @@ const GAME = {
     ]
   },
   "BSH5FPMR3GD8": {
-    "antiquity": 3148,
+    "antiquity": 3149,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
@@ -29726,7 +30077,7 @@ const GAME = {
     ]
   },
   "BSHDWV6HV59G": {
-    "antiquity": 2911,
+    "antiquity": 2912,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -29738,7 +30089,7 @@ const GAME = {
     ]
   },
   "BSHMMGRP84N4": {
-    "antiquity": 3884,
+    "antiquity": 3885,
     "gamepass": true,
     "price": 11.99,
     "rate": 4.1,
@@ -29755,7 +30106,7 @@ const GAME = {
     ]
   },
   "BSHZGCGJNCN5": {
-    "antiquity": 2778,
+    "antiquity": 2779,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -29769,7 +30120,7 @@ const GAME = {
     ]
   },
   "BSJG7TTSWVJ2": {
-    "antiquity": 5138,
+    "antiquity": 5139,
     "gamepass": true,
     "price": 14.39,
     "rate": 4.3,
@@ -29783,7 +30134,7 @@ const GAME = {
     ]
   },
   "BSJK0B2ZQ5J1": {
-    "antiquity": 4738,
+    "antiquity": 4739,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -29796,7 +30147,7 @@ const GAME = {
     ]
   },
   "BSLGLG8P9T01": {
-    "antiquity": 2392,
+    "antiquity": 2393,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -29809,7 +30160,7 @@ const GAME = {
     ]
   },
   "BSLX1RNXR6H7": {
-    "antiquity": 3149,
+    "antiquity": 3150,
     "gamepass": true,
     "price": 5.24,
     "rate": 4.5,
@@ -29823,7 +30174,7 @@ const GAME = {
     ]
   },
   "BSM6ZPCDSJ0N": {
-    "antiquity": 1893,
+    "antiquity": 1894,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.1,
@@ -29837,7 +30188,7 @@ const GAME = {
     ]
   },
   "BSMG6RBZH4LQ": {
-    "antiquity": 2810,
+    "antiquity": 2811,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.4,
@@ -29852,7 +30203,7 @@ const GAME = {
     ]
   },
   "BSMX2D9V0C8B": {
-    "antiquity": 3023,
+    "antiquity": 3024,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -29864,7 +30215,7 @@ const GAME = {
     ]
   },
   "BSMZH25V6V46": {
-    "antiquity": 2460,
+    "antiquity": 2461,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.7,
@@ -29883,21 +30234,20 @@ const GAME = {
     ]
   },
   "BSN8BS8F8BBJ": {
-    "antiquity": 986,
+    "antiquity": 987,
     "gamepass": false,
-    "price": 15.99,
+    "price": 39.99,
     "rate": 4.0,
     "reviews": 63,
     "trial": false,
-    "discount": 60.015003,
+    "discount": 0,
     "tags": [
       "Role playing",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "BSNJMZJH6HJW": {
-    "antiquity": 2418,
+    "antiquity": 2419,
     "gamepass": false,
     "price": 12.49,
     "rate": 3.6,
@@ -29915,7 +30265,7 @@ const GAME = {
     ]
   },
   "BSNZHRCKC13J": {
-    "antiquity": 4437,
+    "antiquity": 4438,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -29928,7 +30278,7 @@ const GAME = {
     ]
   },
   "BSQ928V7VD2W": {
-    "antiquity": 4003,
+    "antiquity": 4004,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.3,
@@ -29941,7 +30291,7 @@ const GAME = {
     ]
   },
   "BSQLNP8TV73X": {
-    "antiquity": 2054,
+    "antiquity": 2055,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
@@ -29956,7 +30306,7 @@ const GAME = {
     ]
   },
   "BSQZ03S3RV54": {
-    "antiquity": 2446,
+    "antiquity": 2447,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.7,
@@ -29971,7 +30321,7 @@ const GAME = {
     ]
   },
   "BSR5BPN8NMMJ": {
-    "antiquity": 3381,
+    "antiquity": 3382,
     "gamepass": false,
     "price": 99.99,
     "rate": 4.1,
@@ -29983,7 +30333,7 @@ const GAME = {
     ]
   },
   "BSRKCPSS0QTD": {
-    "antiquity": 2124,
+    "antiquity": 2125,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -29996,7 +30346,7 @@ const GAME = {
     ]
   },
   "BSRKXWKSZ8K1": {
-    "antiquity": 2537,
+    "antiquity": 2538,
     "gamepass": false,
     "price": 3.99,
     "rate": 2.6,
@@ -30013,7 +30363,7 @@ const GAME = {
     ]
   },
   "BSRVV8TJGVVZ": {
-    "antiquity": 2946,
+    "antiquity": 2947,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -30029,7 +30379,7 @@ const GAME = {
     ]
   },
   "BSRXXBC5L1BV": {
-    "antiquity": 2603,
+    "antiquity": 2604,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
@@ -30042,7 +30392,7 @@ const GAME = {
     ]
   },
   "BSS43MTLGFQR": {
-    "antiquity": 3062,
+    "antiquity": 3063,
     "gamepass": false,
     "price": 14.98,
     "rate": 3.9,
@@ -30056,7 +30406,7 @@ const GAME = {
     ]
   },
   "BSTM3283756M": {
-    "antiquity": 4975,
+    "antiquity": 4976,
     "gamepass": false,
     "price": 3.13,
     "rate": 4.7,
@@ -30070,7 +30420,7 @@ const GAME = {
     ]
   },
   "BSTXLSRZWKH8": {
-    "antiquity": 2756,
+    "antiquity": 2757,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.7,
@@ -30082,23 +30432,8 @@ const GAME = {
       "Platformer"
     ]
   },
-  "BSVZCMGZV52L": {
-    "antiquity": 1896,
-    "gamepass": false,
-    "price": 11.99,
-    "rate": 3.3,
-    "reviews": 97,
-    "trial": false,
-    "discount": 70.0175,
-    "tags": [
-      "Action",
-      "Role playing",
-      "SinglePlayer",
-      "Oferta"
-    ]
-  },
   "BSW8GKBVB5W8": {
-    "antiquity": 1957,
+    "antiquity": 1958,
     "gamepass": false,
     "price": 12.78,
     "rate": 4.5,
@@ -30111,7 +30446,7 @@ const GAME = {
     ]
   },
   "BSWKX5K46W7M": {
-    "antiquity": 3083,
+    "antiquity": 3084,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -30123,7 +30458,7 @@ const GAME = {
     ]
   },
   "BSWTLFKMV96K": {
-    "antiquity": 1596,
+    "antiquity": 1597,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -30136,7 +30471,7 @@ const GAME = {
     ]
   },
   "BSXLFN5QQZSC": {
-    "antiquity": 2638,
+    "antiquity": 2639,
     "gamepass": true,
     "price": 10.49,
     "rate": 4.1,
@@ -30151,7 +30486,7 @@ const GAME = {
     ]
   },
   "BSXSL6WBJ0V7": {
-    "antiquity": 4997,
+    "antiquity": 4998,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
@@ -30164,7 +30499,7 @@ const GAME = {
     ]
   },
   "BSZ576R612B0": {
-    "antiquity": 2929,
+    "antiquity": 2930,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -30178,7 +30513,7 @@ const GAME = {
     ]
   },
   "BSZFRVD8JTJF": {
-    "antiquity": 2484,
+    "antiquity": 2485,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.4,
@@ -30191,7 +30526,7 @@ const GAME = {
     ]
   },
   "BSZM480TSWGP": {
-    "antiquity": 2642,
+    "antiquity": 2643,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.3,
@@ -30205,7 +30540,7 @@ const GAME = {
     ]
   },
   "BT0FF7LH14HV": {
-    "antiquity": 3932,
+    "antiquity": 3933,
     "gamepass": false,
     "price": 4.31,
     "rate": 4.4,
@@ -30218,7 +30553,7 @@ const GAME = {
     ]
   },
   "BT0MDT228WRP": {
-    "antiquity": 2418,
+    "antiquity": 2419,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.7,
@@ -30230,7 +30565,7 @@ const GAME = {
     ]
   },
   "BT0N6ZXZJC82": {
-    "antiquity": 790,
+    "antiquity": 791,
     "gamepass": false,
     "price": 29.99,
     "rate": 2.9,
@@ -30245,7 +30580,7 @@ const GAME = {
     ]
   },
   "BT21JH17GCVC": {
-    "antiquity": 2379,
+    "antiquity": 2380,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -30258,7 +30593,7 @@ const GAME = {
     ]
   },
   "BT21Z933PQCH": {
-    "antiquity": 2659,
+    "antiquity": 2660,
     "gamepass": false,
     "price": 14.99,
     "rate": 2.4,
@@ -30273,7 +30608,7 @@ const GAME = {
     ]
   },
   "BT259H6M8L07": {
-    "antiquity": 2155,
+    "antiquity": 2156,
     "gamepass": false,
     "price": 14.84,
     "rate": 4.2,
@@ -30286,7 +30621,7 @@ const GAME = {
     ]
   },
   "BT2B17V20D1P": {
-    "antiquity": 4227,
+    "antiquity": 4228,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -30298,7 +30633,7 @@ const GAME = {
     ]
   },
   "BT2F8LHH10GS": {
-    "antiquity": 1942,
+    "antiquity": 1943,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.7,
@@ -30313,11 +30648,11 @@ const GAME = {
     ]
   },
   "BT3611GR00CQ": {
-    "antiquity": 473,
+    "antiquity": 474,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.5,
-    "reviews": 174,
+    "reviews": 175,
     "trial": false,
     "discount": 80.010666,
     "tags": [
@@ -30330,7 +30665,7 @@ const GAME = {
     ]
   },
   "BT3RWJD102LX": {
-    "antiquity": 2803,
+    "antiquity": 2804,
     "gamepass": false,
     "price": 6.99,
     "rate": 4.3,
@@ -30345,7 +30680,7 @@ const GAME = {
     ]
   },
   "BT51M2LPKPZD": {
-    "antiquity": 1966,
+    "antiquity": 1967,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -30360,11 +30695,11 @@ const GAME = {
     ]
   },
   "BT5P2X999VH2": {
-    "antiquity": 2386,
+    "antiquity": 2387,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
-    "reviews": 3609,
+    "reviews": 3610,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -30379,7 +30714,7 @@ const GAME = {
     ]
   },
   "BT5X0XGCWGD6": {
-    "antiquity": 1481,
+    "antiquity": 1482,
     "gamepass": false,
     "price": 17.49,
     "rate": 3.9,
@@ -30394,19 +30729,20 @@ const GAME = {
     ]
   },
   "BT7M0N12GN51": {
-    "antiquity": 3911,
+    "antiquity": 3912,
     "gamepass": false,
-    "price": 14.39,
+    "price": 2.87,
     "rate": 4.6,
     "reviews": 38,
     "trial": false,
-    "discount": 0,
+    "discount": 80.055595,
     "tags": [
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "BT8CSKSR2L49": {
-    "antiquity": 2614,
+    "antiquity": 2615,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.8,
@@ -30420,7 +30756,7 @@ const GAME = {
     ]
   },
   "BT9FFLG51VVG": {
-    "antiquity": 3548,
+    "antiquity": 3549,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -30435,7 +30771,7 @@ const GAME = {
     ]
   },
   "BTB16H9WG3JT": {
-    "antiquity": 4821,
+    "antiquity": 4822,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.5,
@@ -30449,7 +30785,7 @@ const GAME = {
     ]
   },
   "BTB7HC3ZDL2V": {
-    "antiquity": 1802,
+    "antiquity": 1803,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
@@ -30467,7 +30803,7 @@ const GAME = {
     ]
   },
   "BTBXS3M5QQSM": {
-    "antiquity": 2649,
+    "antiquity": 2650,
     "gamepass": false,
     "price": 23.09,
     "rate": 2.9,
@@ -30482,7 +30818,7 @@ const GAME = {
     ]
   },
   "BTC0L0BW6LWC": {
-    "antiquity": 1749,
+    "antiquity": 1750,
     "gamepass": true,
     "price": 9.99,
     "rate": 3.9,
@@ -30501,7 +30837,7 @@ const GAME = {
     ]
   },
   "BTC8BR7V276X": {
-    "antiquity": 2698,
+    "antiquity": 2699,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.3,
@@ -30515,7 +30851,7 @@ const GAME = {
     ]
   },
   "BTCRQ7V311BM": {
-    "antiquity": 1573,
+    "antiquity": 1574,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
@@ -30530,7 +30866,7 @@ const GAME = {
     ]
   },
   "BTCS0LP052HL": {
-    "antiquity": 1700,
+    "antiquity": 1701,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
@@ -30543,7 +30879,7 @@ const GAME = {
     ]
   },
   "BTDH0LJRWNWC": {
-    "antiquity": 2169,
+    "antiquity": 2170,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -30556,7 +30892,7 @@ const GAME = {
     ]
   },
   "BTDKMK8M1LH2": {
-    "antiquity": 4787,
+    "antiquity": 4788,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -30568,7 +30904,7 @@ const GAME = {
     ]
   },
   "BTFM6JRRSSTM": {
-    "antiquity": 3023,
+    "antiquity": 3024,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
@@ -30581,7 +30917,7 @@ const GAME = {
     ]
   },
   "BTGZWQCD01JC": {
-    "antiquity": 3926,
+    "antiquity": 3927,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.7,
@@ -30594,7 +30930,7 @@ const GAME = {
     ]
   },
   "BTHQ42GWNT93": {
-    "antiquity": 1589,
+    "antiquity": 1590,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -30610,7 +30946,7 @@ const GAME = {
     ]
   },
   "BTJ0T8C04ZBV": {
-    "antiquity": 3631,
+    "antiquity": 3632,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -30626,7 +30962,7 @@ const GAME = {
     ]
   },
   "BTKFDF4DHWRZ": {
-    "antiquity": 3246,
+    "antiquity": 3247,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.1,
@@ -30640,7 +30976,7 @@ const GAME = {
     ]
   },
   "BTNPS60N3114": {
-    "antiquity": 3370,
+    "antiquity": 3371,
     "gamepass": true,
     "price": 9.49,
     "rate": 4.0,
@@ -30659,7 +30995,7 @@ const GAME = {
     ]
   },
   "BTNTWQD5V8WG": {
-    "antiquity": 1957,
+    "antiquity": 1958,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -30673,7 +31009,7 @@ const GAME = {
     ]
   },
   "BTQKSHJSRP40": {
-    "antiquity": 2299,
+    "antiquity": 2300,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -30687,7 +31023,7 @@ const GAME = {
     ]
   },
   "BTQMHK78ZPF9": {
-    "antiquity": 3349,
+    "antiquity": 3350,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.3,
@@ -30700,20 +31036,21 @@ const GAME = {
     ]
   },
   "BTQP8RRP1PKD": {
-    "antiquity": 2882,
+    "antiquity": 2883,
     "gamepass": false,
-    "price": 19.99,
+    "price": 9.99,
     "rate": 4.3,
     "reviews": 49,
     "trial": false,
-    "discount": 0,
+    "discount": 50.02501,
     "tags": [
       "Action",
-      "SinglePlayer"
+      "SinglePlayer",
+      "Oferta"
     ]
   },
   "BTSQF5T410C6": {
-    "antiquity": 2288,
+    "antiquity": 2289,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
@@ -30727,7 +31064,7 @@ const GAME = {
     ]
   },
   "BTT25GGLG6KD": {
-    "antiquity": 5296,
+    "antiquity": 5297,
     "gamepass": false,
     "price": 3.74,
     "rate": 4.7,
@@ -30741,7 +31078,7 @@ const GAME = {
     ]
   },
   "BTT48FGF6SWM": {
-    "antiquity": 1523,
+    "antiquity": 1524,
     "gamepass": false,
     "price": 39.99,
     "rate": 3.9,
@@ -30754,7 +31091,7 @@ const GAME = {
     ]
   },
   "BTVQW5LF9JPV": {
-    "antiquity": 3804,
+    "antiquity": 3805,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -30768,7 +31105,7 @@ const GAME = {
     ]
   },
   "BTWXL6VXS87B": {
-    "antiquity": 3069,
+    "antiquity": 3070,
     "gamepass": false,
     "price": 6.98,
     "rate": 4.2,
@@ -30781,20 +31118,19 @@ const GAME = {
     ]
   },
   "BTXC0RGTT3XN": {
-    "antiquity": 5122,
+    "antiquity": 5123,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 4.5,
     "reviews": 41,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Oferta"
+      "Action"
     ]
   },
   "BTZT8SVMMCK2": {
-    "antiquity": 3820,
+    "antiquity": 3821,
     "gamepass": false,
     "price": 2.37,
     "rate": 4.1,
@@ -30807,7 +31143,7 @@ const GAME = {
     ]
   },
   "BV02TBL15DX3": {
-    "antiquity": 1956,
+    "antiquity": 1957,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.0,
@@ -30820,7 +31156,7 @@ const GAME = {
     ]
   },
   "BV073NP0Q3XL": {
-    "antiquity": 2239,
+    "antiquity": 2240,
     "gamepass": false,
     "price": 23.99,
     "rate": 4.5,
@@ -30836,7 +31172,7 @@ const GAME = {
     ]
   },
   "BV0LH18Q1VHW": {
-    "antiquity": 3274,
+    "antiquity": 3275,
     "gamepass": false,
     "price": 19.98,
     "rate": 3.9,
@@ -30850,7 +31186,7 @@ const GAME = {
     ]
   },
   "BV26W4BTCLKG": {
-    "antiquity": 1966,
+    "antiquity": 1967,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.6,
@@ -30864,7 +31200,7 @@ const GAME = {
     ]
   },
   "BV2ZVP7PJZWL": {
-    "antiquity": 2050,
+    "antiquity": 2051,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.8,
@@ -30877,7 +31213,7 @@ const GAME = {
     ]
   },
   "BV3FZP8HC2T5": {
-    "antiquity": 1895,
+    "antiquity": 1896,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.7,
@@ -30893,7 +31229,7 @@ const GAME = {
     ]
   },
   "BV3P321WRMFP": {
-    "antiquity": 1707,
+    "antiquity": 1708,
     "gamepass": false,
     "price": 2.99,
     "rate": 3.7,
@@ -30908,7 +31244,7 @@ const GAME = {
     ]
   },
   "BV4F07T1WH5T": {
-    "antiquity": 2846,
+    "antiquity": 2847,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.4,
@@ -30921,7 +31257,7 @@ const GAME = {
     ]
   },
   "BV559LH6RTS1": {
-    "antiquity": 2426,
+    "antiquity": 2427,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -30936,7 +31272,7 @@ const GAME = {
     ]
   },
   "BV5623GKKLGV": {
-    "antiquity": 3188,
+    "antiquity": 3189,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -30949,7 +31285,7 @@ const GAME = {
     ]
   },
   "BV5N90RDT0SH": {
-    "antiquity": 5296,
+    "antiquity": 5297,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.8,
@@ -30963,7 +31299,7 @@ const GAME = {
     ]
   },
   "BV6BRSLFJW3W": {
-    "antiquity": 2904,
+    "antiquity": 2905,
     "gamepass": false,
     "price": 7.49,
     "rate": 4.4,
@@ -30976,7 +31312,7 @@ const GAME = {
     ]
   },
   "BV6MJX1TDL17": {
-    "antiquity": 3447,
+    "antiquity": 3448,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -30988,7 +31324,7 @@ const GAME = {
     ]
   },
   "BV6WLXGS887C": {
-    "antiquity": 4962,
+    "antiquity": 4963,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -31001,7 +31337,7 @@ const GAME = {
     ]
   },
   "BV701FMDP6SX": {
-    "antiquity": 2526,
+    "antiquity": 2527,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.3,
@@ -31015,7 +31351,7 @@ const GAME = {
     ]
   },
   "BV7JZ6MTR47K": {
-    "antiquity": 3127,
+    "antiquity": 3128,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -31027,7 +31363,7 @@ const GAME = {
     ]
   },
   "BV83SM3191S5": {
-    "antiquity": 5291,
+    "antiquity": 5292,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
@@ -31041,7 +31377,7 @@ const GAME = {
     ]
   },
   "BV8NQM6GF6Z5": {
-    "antiquity": 2813,
+    "antiquity": 2814,
     "gamepass": false,
     "price": 20.98,
     "rate": 4.4,
@@ -31053,7 +31389,7 @@ const GAME = {
     ]
   },
   "BV95S3CSP2DW": {
-    "antiquity": 3209,
+    "antiquity": 3210,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -31069,7 +31405,7 @@ const GAME = {
     ]
   },
   "BV9ML45J2Q5V": {
-    "antiquity": 1827,
+    "antiquity": 1828,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -31086,7 +31422,7 @@ const GAME = {
     ]
   },
   "BVBQ72FDB4LK": {
-    "antiquity": 3231,
+    "antiquity": 3232,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -31100,7 +31436,7 @@ const GAME = {
     ]
   },
   "BVC44J7FF2QB": {
-    "antiquity": 3807,
+    "antiquity": 3808,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -31112,7 +31448,7 @@ const GAME = {
     ]
   },
   "BVCVS12P1H14": {
-    "antiquity": 3300,
+    "antiquity": 3301,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -31125,11 +31461,11 @@ const GAME = {
     ]
   },
   "BVFB8CBS75R6": {
-    "antiquity": 2124,
+    "antiquity": 2125,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
-    "reviews": 38,
+    "reviews": 39,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -31138,7 +31474,7 @@ const GAME = {
     ]
   },
   "BVFDTJ1XF6CS": {
-    "antiquity": 2568,
+    "antiquity": 2569,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.5,
@@ -31151,7 +31487,7 @@ const GAME = {
     ]
   },
   "BVFWMVZCLQM8": {
-    "antiquity": 5158,
+    "antiquity": 5159,
     "gamepass": false,
     "price": 2.39,
     "rate": 3.9,
@@ -31165,7 +31501,7 @@ const GAME = {
     ]
   },
   "BVG6N37LFL8M": {
-    "antiquity": 2484,
+    "antiquity": 2485,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -31177,7 +31513,7 @@ const GAME = {
     ]
   },
   "BVG8N7M5NZHD": {
-    "antiquity": 1550,
+    "antiquity": 1551,
     "gamepass": false,
     "price": 10.49,
     "rate": 5.0,
@@ -31195,7 +31531,7 @@ const GAME = {
     ]
   },
   "BVGH0BLWLR52": {
-    "antiquity": 1617,
+    "antiquity": 1618,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -31210,7 +31546,7 @@ const GAME = {
     ]
   },
   "BVGQMLJFSSZG": {
-    "antiquity": 3427,
+    "antiquity": 3428,
     "gamepass": false,
     "price": 3.74,
     "rate": 4.0,
@@ -31223,7 +31559,7 @@ const GAME = {
     ]
   },
   "BVH2R2SBWL51": {
-    "antiquity": 1551,
+    "antiquity": 1552,
     "gamepass": false,
     "price": 15.99,
     "rate": 2.9,
@@ -31239,7 +31575,7 @@ const GAME = {
     ]
   },
   "BVJ6MPFR35NS": {
-    "antiquity": 2929,
+    "antiquity": 2930,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.2,
@@ -31251,7 +31587,7 @@ const GAME = {
     ]
   },
   "BVJLKDG2TX8H": {
-    "antiquity": 2008,
+    "antiquity": 2009,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.3,
@@ -31267,7 +31603,7 @@ const GAME = {
     ]
   },
   "BVKKVGKJ6GQW": {
-    "antiquity": 2141,
+    "antiquity": 2142,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.1,
@@ -31280,7 +31616,7 @@ const GAME = {
     ]
   },
   "BVM002M8HH0S": {
-    "antiquity": 1671,
+    "antiquity": 1672,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -31299,7 +31635,7 @@ const GAME = {
     ]
   },
   "BVMFBCFLL6QP": {
-    "antiquity": 4966,
+    "antiquity": 4967,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -31311,7 +31647,7 @@ const GAME = {
     ]
   },
   "BVMGCSX6XPC9": {
-    "antiquity": 4836,
+    "antiquity": 4837,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -31323,7 +31659,7 @@ const GAME = {
     ]
   },
   "BVN6M64JCHTL": {
-    "antiquity": 3176,
+    "antiquity": 3177,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.3,
@@ -31336,7 +31672,7 @@ const GAME = {
     ]
   },
   "BVNRFF9XJ6KM": {
-    "antiquity": 2155,
+    "antiquity": 2156,
     "gamepass": false,
     "price": 9.89,
     "rate": 4.4,
@@ -31349,7 +31685,7 @@ const GAME = {
     ]
   },
   "BVQ3V30ZXVT5": {
-    "antiquity": 1788,
+    "antiquity": 1789,
     "gamepass": false,
     "price": 8.99,
     "rate": 3.9,
@@ -31364,7 +31700,7 @@ const GAME = {
     ]
   },
   "BVR64CDJ01FJ": {
-    "antiquity": 4934,
+    "antiquity": 4935,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.0,
@@ -31379,7 +31715,7 @@ const GAME = {
     ]
   },
   "BVT0L7DZJ5VC": {
-    "antiquity": 1847,
+    "antiquity": 1848,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.8,
@@ -31391,11 +31727,11 @@ const GAME = {
     ]
   },
   "BVTFP7L3CVL8": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": false,
     "price": 23.09,
     "rate": 3.7,
-    "reviews": 1116,
+    "reviews": 1117,
     "trial": false,
     "discount": 67.00957,
     "tags": [
@@ -31407,7 +31743,7 @@ const GAME = {
     ]
   },
   "BVTKN6CQ8W5F": {
-    "antiquity": 1565,
+    "antiquity": 1566,
     "gamepass": true,
     "price": 19.49,
     "rate": 4.1,
@@ -31423,7 +31759,7 @@ const GAME = {
     ]
   },
   "BVVP3LXMLP85": {
-    "antiquity": 2611,
+    "antiquity": 2612,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -31435,7 +31771,7 @@ const GAME = {
     ]
   },
   "BVW63H3J0JM9": {
-    "antiquity": 4248,
+    "antiquity": 4249,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.6,
@@ -31448,7 +31784,7 @@ const GAME = {
     ]
   },
   "BVWPHR3TVQ6F": {
-    "antiquity": 2705,
+    "antiquity": 2706,
     "gamepass": false,
     "price": 14.98,
     "rate": 3.9,
@@ -31460,7 +31796,7 @@ const GAME = {
     ]
   },
   "BVX4Z50ZBH5Q": {
-    "antiquity": 1977,
+    "antiquity": 1978,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.2,
@@ -31476,7 +31812,7 @@ const GAME = {
     ]
   },
   "BVZ0D05W8MP2": {
-    "antiquity": 2834,
+    "antiquity": 2835,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -31490,7 +31826,7 @@ const GAME = {
     ]
   },
   "BVZ4H08BMQ3H": {
-    "antiquity": 4955,
+    "antiquity": 4956,
     "gamepass": false,
     "price": 14.99,
     "rate": 5.0,
@@ -31503,7 +31839,7 @@ const GAME = {
     ]
   },
   "BVZLS7XZ68KF": {
-    "antiquity": 1357,
+    "antiquity": 1358,
     "gamepass": false,
     "price": 9.89,
     "rate": 3.4,
@@ -31517,7 +31853,7 @@ const GAME = {
     ]
   },
   "BW050BMB7FD7": {
-    "antiquity": 2671,
+    "antiquity": 2672,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -31530,7 +31866,7 @@ const GAME = {
     ]
   },
   "BW08NW03FX4R": {
-    "antiquity": 4366,
+    "antiquity": 4367,
     "gamepass": false,
     "price": 3.13,
     "rate": 4.1,
@@ -31544,7 +31880,7 @@ const GAME = {
     ]
   },
   "BW0D9LH9GG6D": {
-    "antiquity": 2624,
+    "antiquity": 2625,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
@@ -31557,7 +31893,7 @@ const GAME = {
     ]
   },
   "BW2XDRNSCCPZ": {
-    "antiquity": 2855,
+    "antiquity": 2856,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.7,
@@ -31572,7 +31908,7 @@ const GAME = {
     ]
   },
   "BW4BKDN4WT8F": {
-    "antiquity": 5291,
+    "antiquity": 5292,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.1,
@@ -31584,7 +31920,7 @@ const GAME = {
     ]
   },
   "BW6B077FCH11": {
-    "antiquity": 3384,
+    "antiquity": 3385,
     "gamepass": true,
     "price": 3.74,
     "rate": 4.4,
@@ -31598,34 +31934,31 @@ const GAME = {
     ]
   },
   "BW6GCCJ41VM6": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
-    "price": 3.74,
+    "price": 14.99,
     "rate": 3.2,
     "reviews": 10,
     "trial": false,
-    "discount": 75.05003,
-    "tags": [
-      "Oferta"
-    ]
+    "discount": 0,
+    "tags": []
   },
   "BW7QNRL06HB9": {
-    "antiquity": 2335,
+    "antiquity": 2336,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 3.4,
     "reviews": 10,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "BW85KQB8Q31M": {
-    "antiquity": 2887,
+    "antiquity": 2888,
     "gamepass": true,
     "price": 4.99,
     "rate": 4.8,
@@ -31640,7 +31973,7 @@ const GAME = {
     ]
   },
   "BW8JQLJ2GDT8": {
-    "antiquity": 2201,
+    "antiquity": 2202,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -31654,7 +31987,7 @@ const GAME = {
     ]
   },
   "BW8PVL4CJ2Q6": {
-    "antiquity": 1984,
+    "antiquity": 1985,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -31668,7 +32001,7 @@ const GAME = {
     ]
   },
   "BW9G6TCK52DV": {
-    "antiquity": 2866,
+    "antiquity": 2867,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -31682,11 +32015,11 @@ const GAME = {
     ]
   },
   "BW9TWC8L4JCS": {
-    "antiquity": 1949,
+    "antiquity": 1950,
     "gamepass": true,
     "price": 13.99,
     "rate": 4.4,
-    "reviews": 235,
+    "reviews": 236,
     "trial": false,
     "discount": 80.01143,
     "tags": [
@@ -31697,7 +32030,7 @@ const GAME = {
     ]
   },
   "BWB89BB14C5H": {
-    "antiquity": 4437,
+    "antiquity": 4438,
     "gamepass": false,
     "price": 4.49,
     "rate": 4.2,
@@ -31711,7 +32044,7 @@ const GAME = {
     ]
   },
   "BWC95BZPFBS7": {
-    "antiquity": 2356,
+    "antiquity": 2357,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -31727,11 +32060,11 @@ const GAME = {
     ]
   },
   "BWCF86S64BWW": {
-    "antiquity": 2292,
+    "antiquity": 2293,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.5,
-    "reviews": 350,
+    "reviews": 352,
     "trial": false,
     "discount": 80.01,
     "tags": [
@@ -31741,7 +32074,7 @@ const GAME = {
     ]
   },
   "BWCXFW8V0HBH": {
-    "antiquity": 2803,
+    "antiquity": 2804,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -31754,7 +32087,7 @@ const GAME = {
     ]
   },
   "BWD1JLTPBD16": {
-    "antiquity": 2329,
+    "antiquity": 2330,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.4,
@@ -31768,7 +32101,7 @@ const GAME = {
     ]
   },
   "BWD88K55MK5W": {
-    "antiquity": 2474,
+    "antiquity": 2475,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.2,
@@ -31782,7 +32115,7 @@ const GAME = {
     ]
   },
   "BWG6LFT5QDR3": {
-    "antiquity": 3090,
+    "antiquity": 3091,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -31800,19 +32133,20 @@ const GAME = {
     ]
   },
   "BWGWPKRVZZV2": {
-    "antiquity": 3818,
+    "antiquity": 3819,
     "gamepass": false,
-    "price": 19.99,
+    "price": 2.99,
     "rate": 4.5,
     "reviews": 15,
     "trial": false,
-    "discount": 0,
+    "discount": 85.04253,
     "tags": [
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "BWH2Q8NM07PC": {
-    "antiquity": 2950,
+    "antiquity": 2951,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.8,
@@ -31826,7 +32160,7 @@ const GAME = {
     ]
   },
   "BWHFZNSL0PB5": {
-    "antiquity": 1910,
+    "antiquity": 1911,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.7,
@@ -31839,7 +32173,7 @@ const GAME = {
     ]
   },
   "BWJK7NTJLKV9": {
-    "antiquity": 2141,
+    "antiquity": 2142,
     "gamepass": false,
     "price": 13.49,
     "rate": 4.0,
@@ -31853,7 +32187,7 @@ const GAME = {
     ]
   },
   "BWKLFHWT7DHC": {
-    "antiquity": 5008,
+    "antiquity": 5009,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
@@ -31866,7 +32200,7 @@ const GAME = {
     ]
   },
   "BWKXQC5BL5R1": {
-    "antiquity": 1777,
+    "antiquity": 1778,
     "gamepass": false,
     "price": 6.39,
     "rate": 4.7,
@@ -31880,7 +32214,7 @@ const GAME = {
     ]
   },
   "BWL72GR7Z7GK": {
-    "antiquity": 1805,
+    "antiquity": 1806,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.3,
@@ -31896,7 +32230,7 @@ const GAME = {
     ]
   },
   "BWMH4RQ4Q06F": {
-    "antiquity": 1610,
+    "antiquity": 1611,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.0,
@@ -31910,11 +32244,11 @@ const GAME = {
     ]
   },
   "BWMH951M3G3P": {
-    "antiquity": 1837,
+    "antiquity": 1838,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
-    "reviews": 332,
+    "reviews": 333,
     "trial": false,
     "discount": 75.012505,
     "tags": [
@@ -31924,11 +32258,11 @@ const GAME = {
     ]
   },
   "BWMQL2RPWBHB": {
-    "antiquity": 2201,
+    "antiquity": 2202,
     "gamepass": true,
     "price": 19.98,
     "rate": 4.4,
-    "reviews": 152,
+    "reviews": 154,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -31938,7 +32272,7 @@ const GAME = {
     ]
   },
   "BWMZDGGJ19VG": {
-    "antiquity": 4807,
+    "antiquity": 4808,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -31952,7 +32286,7 @@ const GAME = {
     ]
   },
   "BWNN9M15W9V9": {
-    "antiquity": 2902,
+    "antiquity": 2903,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
@@ -31967,7 +32301,7 @@ const GAME = {
     ]
   },
   "BWNQ4QZFV74P": {
-    "antiquity": 4654,
+    "antiquity": 4655,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.7,
@@ -31981,7 +32315,7 @@ const GAME = {
     ]
   },
   "BWNQM65KQK6H": {
-    "antiquity": 4983,
+    "antiquity": 4984,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.6,
@@ -31995,7 +32329,7 @@ const GAME = {
     ]
   },
   "BWP0Q27QDNWQ": {
-    "antiquity": 2099,
+    "antiquity": 2100,
     "gamepass": false,
     "price": 23.09,
     "rate": 3.1,
@@ -32010,7 +32344,7 @@ const GAME = {
     ]
   },
   "BWPV4QXW8W2C": {
-    "antiquity": 2523,
+    "antiquity": 2524,
     "gamepass": false,
     "price": 4.49,
     "rate": 3.5,
@@ -32025,7 +32359,7 @@ const GAME = {
     ]
   },
   "BWQ5FC9WDJ6H": {
-    "antiquity": 1756,
+    "antiquity": 1757,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -32038,7 +32372,7 @@ const GAME = {
     ]
   },
   "BWQ7GGKXG28T": {
-    "antiquity": 4807,
+    "antiquity": 4808,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
@@ -32052,7 +32386,7 @@ const GAME = {
     ]
   },
   "BWT5L9P3L60X": {
-    "antiquity": 2148,
+    "antiquity": 2149,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.4,
@@ -32065,7 +32399,7 @@ const GAME = {
     ]
   },
   "BWTRGX57577H": {
-    "antiquity": 4668,
+    "antiquity": 4669,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -32077,7 +32411,7 @@ const GAME = {
     ]
   },
   "BWTTW53M5B98": {
-    "antiquity": 2663,
+    "antiquity": 2664,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -32092,7 +32426,7 @@ const GAME = {
     ]
   },
   "BWV3BH92JJ20": {
-    "antiquity": 1966,
+    "antiquity": 1967,
     "gamepass": false,
     "price": 13.99,
     "rate": 4.1,
@@ -32107,7 +32441,7 @@ const GAME = {
     ]
   },
   "BWVBNCMF22ZK": {
-    "antiquity": 2146,
+    "antiquity": 2147,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
@@ -32122,22 +32456,21 @@ const GAME = {
     ]
   },
   "BWW1MP5KDLPB": {
-    "antiquity": 2141,
+    "antiquity": 2142,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 2.7,
     "reviews": 18,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "BWWQQPX5HX1C": {
-    "antiquity": 2287,
+    "antiquity": 2288,
     "gamepass": false,
     "price": 6.98,
     "rate": 4.2,
@@ -32150,7 +32483,7 @@ const GAME = {
     ]
   },
   "BWZVPDGMPCC5": {
-    "antiquity": 5010,
+    "antiquity": 5011,
     "gamepass": false,
     "price": 14.39,
     "rate": 3.9,
@@ -32162,7 +32495,7 @@ const GAME = {
     ]
   },
   "BX03760D0QGN": {
-    "antiquity": 2656,
+    "antiquity": 2657,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.9,
@@ -32177,7 +32510,7 @@ const GAME = {
     ]
   },
   "BX0TSX0MD6Z7": {
-    "antiquity": 3060,
+    "antiquity": 3061,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
@@ -32191,11 +32524,11 @@ const GAME = {
     ]
   },
   "BX1DTCBD1HXJ": {
-    "antiquity": 1931,
+    "antiquity": 1932,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 6883,
+    "reviews": 6884,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -32208,7 +32541,7 @@ const GAME = {
     ]
   },
   "BX1FZX1X4132": {
-    "antiquity": 1756,
+    "antiquity": 1757,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.9,
@@ -32222,7 +32555,7 @@ const GAME = {
     ]
   },
   "BX1JCFLJT5KX": {
-    "antiquity": 3358,
+    "antiquity": 3359,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
@@ -32239,7 +32572,7 @@ const GAME = {
     ]
   },
   "BX2045HX10WS": {
-    "antiquity": 2443,
+    "antiquity": 2444,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
@@ -32254,7 +32587,7 @@ const GAME = {
     ]
   },
   "BX27S00SKW1V": {
-    "antiquity": 4975,
+    "antiquity": 4976,
     "gamepass": true,
     "price": 14.39,
     "rate": 4.5,
@@ -32268,7 +32601,7 @@ const GAME = {
     ]
   },
   "BX2CS20ZVL3L": {
-    "antiquity": 2847,
+    "antiquity": 2848,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.4,
@@ -32280,7 +32613,7 @@ const GAME = {
     ]
   },
   "BX2JJ48F0CKR": {
-    "antiquity": 4276,
+    "antiquity": 4277,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -32292,36 +32625,34 @@ const GAME = {
     ]
   },
   "BX2PTCR8L5XP": {
-    "antiquity": 4953,
+    "antiquity": 4954,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 4.2,
     "reviews": 6,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Action",
-      "Racing & flying",
-      "Oferta"
+      "Racing & flying"
     ]
   },
   "BX2XLPLKZB5Q": {
-    "antiquity": 1161,
+    "antiquity": 1162,
     "gamepass": false,
-    "price": 8.99,
+    "price": 29.99,
     "rate": 4.0,
     "reviews": 10,
     "trial": false,
-    "discount": 70.023346,
+    "discount": 0,
     "tags": [
       "Action",
       "Role playing",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "BX3JNK07Z6QK": {
-    "antiquity": 4675,
+    "antiquity": 4676,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
@@ -32336,7 +32667,7 @@ const GAME = {
     ]
   },
   "BX3M8L83BBRW": {
-    "antiquity": 1153,
+    "antiquity": 1154,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
@@ -32350,7 +32681,7 @@ const GAME = {
     ]
   },
   "BX3S1Q5DVHRD": {
-    "antiquity": 1889,
+    "antiquity": 1890,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -32363,7 +32694,7 @@ const GAME = {
     ]
   },
   "BX4JBN0GWCVB": {
-    "antiquity": 3003,
+    "antiquity": 3004,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -32376,7 +32707,7 @@ const GAME = {
     ]
   },
   "BX89DK9KLJ89": {
-    "antiquity": 2610,
+    "antiquity": 2611,
     "gamepass": false,
     "price": 12.99,
     "rate": 4.1,
@@ -32388,7 +32719,7 @@ const GAME = {
     ]
   },
   "BX8J66WFQ1VK": {
-    "antiquity": 2292,
+    "antiquity": 2293,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.5,
@@ -32402,7 +32733,7 @@ const GAME = {
     ]
   },
   "BXBM72LSWFJ0": {
-    "antiquity": 2257,
+    "antiquity": 2258,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -32416,7 +32747,7 @@ const GAME = {
     ]
   },
   "BXC1K12NQFTF": {
-    "antiquity": 2826,
+    "antiquity": 2827,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
@@ -32428,7 +32759,7 @@ const GAME = {
     ]
   },
   "BXC7CS90NX6S": {
-    "antiquity": 2153,
+    "antiquity": 2154,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.6,
@@ -32441,7 +32772,7 @@ const GAME = {
     ]
   },
   "BXCVNFBPZHXQ": {
-    "antiquity": 2869,
+    "antiquity": 2870,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -32456,7 +32787,7 @@ const GAME = {
     ]
   },
   "BXDH919M16G9": {
-    "antiquity": 1742,
+    "antiquity": 1743,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -32469,7 +32800,7 @@ const GAME = {
     ]
   },
   "BXDSG249D6Q2": {
-    "antiquity": 2516,
+    "antiquity": 2517,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.9,
@@ -32482,7 +32813,7 @@ const GAME = {
     ]
   },
   "BXDT91NTZNDV": {
-    "antiquity": 3638,
+    "antiquity": 3639,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.0,
@@ -32494,7 +32825,7 @@ const GAME = {
     ]
   },
   "BXFFGCLPDDZ6": {
-    "antiquity": 4031,
+    "antiquity": 4032,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -32509,7 +32840,7 @@ const GAME = {
     ]
   },
   "BXFP2QC134V7": {
-    "antiquity": 2036,
+    "antiquity": 2037,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.4,
@@ -32522,7 +32853,7 @@ const GAME = {
     ]
   },
   "BXGSG9J32FLJ": {
-    "antiquity": 2904,
+    "antiquity": 2905,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.1,
@@ -32534,7 +32865,7 @@ const GAME = {
     ]
   },
   "BXH46NQT9W4Q": {
-    "antiquity": 2365,
+    "antiquity": 2366,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.7,
@@ -32548,7 +32879,7 @@ const GAME = {
     ]
   },
   "BXHG2GX28L23": {
-    "antiquity": 2939,
+    "antiquity": 2940,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.9,
@@ -32561,7 +32892,7 @@ const GAME = {
     ]
   },
   "BXHL96D1W827": {
-    "antiquity": 6081,
+    "antiquity": 6082,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.4,
@@ -32573,7 +32904,7 @@ const GAME = {
     ]
   },
   "BXHL9BJH9XKC": {
-    "antiquity": 6640,
+    "antiquity": 6641,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -32586,7 +32917,7 @@ const GAME = {
     ]
   },
   "BXK4F4K72TPQ": {
-    "antiquity": 3244,
+    "antiquity": 3245,
     "gamepass": false,
     "price": 7.99,
     "rate": 4.0,
@@ -32599,7 +32930,7 @@ const GAME = {
     ]
   },
   "BXKVN6G9C5WJ": {
-    "antiquity": 2168,
+    "antiquity": 2169,
     "gamepass": true,
     "price": 24.99,
     "rate": 4.0,
@@ -32615,7 +32946,7 @@ const GAME = {
     ]
   },
   "BXLH97R22VM2": {
-    "antiquity": 2715,
+    "antiquity": 2716,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -32628,7 +32959,7 @@ const GAME = {
     ]
   },
   "BXLL06QN8HVP": {
-    "antiquity": 1145,
+    "antiquity": 1146,
     "gamepass": true,
     "price": 10.49,
     "rate": 3.1,
@@ -32645,7 +32976,7 @@ const GAME = {
     ]
   },
   "BXMPGZDSVVFK": {
-    "antiquity": 2183,
+    "antiquity": 2184,
     "gamepass": false,
     "price": 1.99,
     "rate": 4.2,
@@ -32659,7 +32990,7 @@ const GAME = {
     ]
   },
   "BXRB4ZH2GJHK": {
-    "antiquity": 747,
+    "antiquity": 748,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.7,
@@ -32677,7 +33008,7 @@ const GAME = {
     ]
   },
   "BXRGHTQFK7XQ": {
-    "antiquity": 2302,
+    "antiquity": 2303,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -32690,7 +33021,7 @@ const GAME = {
     ]
   },
   "BXT6TD05Q930": {
-    "antiquity": 2730,
+    "antiquity": 2731,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -32709,7 +33040,7 @@ const GAME = {
     ]
   },
   "BXTCRVBZ52DN": {
-    "antiquity": 4681,
+    "antiquity": 4682,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.5,
@@ -32722,7 +33053,7 @@ const GAME = {
     ]
   },
   "BXVQ8M4J9HNM": {
-    "antiquity": 3027,
+    "antiquity": 3028,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.1,
@@ -32735,7 +33066,7 @@ const GAME = {
     ]
   },
   "BXW02MW8K8T1": {
-    "antiquity": 5008,
+    "antiquity": 5009,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.1,
@@ -32749,7 +33080,7 @@ const GAME = {
     ]
   },
   "BXWJNW4170RM": {
-    "antiquity": 3014,
+    "antiquity": 3015,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.0,
@@ -32764,7 +33095,7 @@ const GAME = {
     ]
   },
   "BXX0NHDR1FNZ": {
-    "antiquity": 1545,
+    "antiquity": 1546,
     "gamepass": false,
     "price": 1.99,
     "rate": 3.9,
@@ -32778,7 +33109,7 @@ const GAME = {
     ]
   },
   "BXZ0B7S1JD0Z": {
-    "antiquity": 3177,
+    "antiquity": 3178,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.9,
@@ -32792,7 +33123,7 @@ const GAME = {
     ]
   },
   "BXZ0JDCPRV6C": {
-    "antiquity": 3365,
+    "antiquity": 3366,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.8,
@@ -32806,7 +33137,7 @@ const GAME = {
     ]
   },
   "BXZG8RW2ZMNC": {
-    "antiquity": 1924,
+    "antiquity": 1925,
     "gamepass": false,
     "price": 9.99,
     "rate": 1.0,
@@ -32820,7 +33151,7 @@ const GAME = {
     ]
   },
   "BXZLCHZT8NDF": {
-    "antiquity": 4333,
+    "antiquity": 4334,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -32832,7 +33163,7 @@ const GAME = {
     ]
   },
   "BXZSX21X0S7X": {
-    "antiquity": 3587,
+    "antiquity": 3588,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.0,
@@ -32845,11 +33176,11 @@ const GAME = {
     ]
   },
   "BZ271JBBZ9DC": {
-    "antiquity": 1837,
+    "antiquity": 1838,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.7,
-    "reviews": 354,
+    "reviews": 355,
     "trial": false,
     "discount": 75.015,
     "tags": [
@@ -32858,7 +33189,7 @@ const GAME = {
     ]
   },
   "BZ3CVPFPDSHK": {
-    "antiquity": 1469,
+    "antiquity": 1470,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.4,
@@ -32874,7 +33205,7 @@ const GAME = {
     ]
   },
   "BZ4WD43D8DTS": {
-    "antiquity": 2120,
+    "antiquity": 2121,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.8,
@@ -32887,7 +33218,7 @@ const GAME = {
     ]
   },
   "BZ5FXSHHP5SV": {
-    "antiquity": 5141,
+    "antiquity": 5142,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.6,
@@ -32901,7 +33232,7 @@ const GAME = {
     ]
   },
   "BZ5VLVX84STW": {
-    "antiquity": 2547,
+    "antiquity": 2548,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.1,
@@ -32916,7 +33247,7 @@ const GAME = {
     ]
   },
   "BZ5WXVG6180X": {
-    "antiquity": 2022,
+    "antiquity": 2023,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.4,
@@ -32931,7 +33262,7 @@ const GAME = {
     ]
   },
   "BZ6W9LRPC26W": {
-    "antiquity": 1624,
+    "antiquity": 1625,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.9,
@@ -32946,7 +33277,7 @@ const GAME = {
     ]
   },
   "BZ6XWGQZK45H": {
-    "antiquity": 4934,
+    "antiquity": 4935,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.9,
@@ -32959,20 +33290,21 @@ const GAME = {
     ]
   },
   "BZ7982MK3FWD": {
-    "antiquity": 2915,
+    "antiquity": 2916,
     "gamepass": false,
-    "price": 29.99,
+    "price": 8.99,
     "rate": 4.5,
     "reviews": 454,
     "trial": false,
-    "discount": 0,
+    "discount": 70.023346,
     "tags": [
       "Bundle",
-      "MultiPlayer"
+      "MultiPlayer",
+      "Oferta"
     ]
   },
   "BZ7FPSGCCMQQ": {
-    "antiquity": 1914,
+    "antiquity": 1915,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
@@ -32984,7 +33316,7 @@ const GAME = {
     ]
   },
   "BZ83238KZD7N": {
-    "antiquity": 2877,
+    "antiquity": 2878,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.0,
@@ -32997,7 +33329,7 @@ const GAME = {
     ]
   },
   "BZ84XLQBRHTG": {
-    "antiquity": 2414,
+    "antiquity": 2415,
     "gamepass": false,
     "price": 23.09,
     "rate": 4.4,
@@ -33012,7 +33344,7 @@ const GAME = {
     ]
   },
   "BZ910SG8ML8X": {
-    "antiquity": 6228,
+    "antiquity": 6229,
     "gamepass": true,
     "price": 9.49,
     "rate": 3.9,
@@ -33025,7 +33357,7 @@ const GAME = {
     ]
   },
   "BZB4S8FS8T5B": {
-    "antiquity": 5879,
+    "antiquity": 5880,
     "gamepass": false,
     "price": 8.24,
     "rate": 4.8,
@@ -33038,7 +33370,7 @@ const GAME = {
     ]
   },
   "BZB7PMR2N4WG": {
-    "antiquity": 6699,
+    "antiquity": 6700,
     "gamepass": false,
     "price": 1.58,
     "rate": 2.0,
@@ -33050,7 +33382,7 @@ const GAME = {
     ]
   },
   "BZBX8JFCDBPR": {
-    "antiquity": 1851,
+    "antiquity": 1852,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.7,
@@ -33063,7 +33395,7 @@ const GAME = {
     ]
   },
   "BZC8PXK6S00G": {
-    "antiquity": 4934,
+    "antiquity": 4935,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -33075,7 +33407,7 @@ const GAME = {
     ]
   },
   "BZF309Q32MDT": {
-    "antiquity": 2673,
+    "antiquity": 2674,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.8,
@@ -33088,7 +33420,7 @@ const GAME = {
     ]
   },
   "BZF7N4FQWHNR": {
-    "antiquity": 5291,
+    "antiquity": 5292,
     "gamepass": true,
     "price": 14.99,
     "rate": 3.9,
@@ -33102,7 +33434,7 @@ const GAME = {
     ]
   },
   "BZF8QCRM89GK": {
-    "antiquity": 2428,
+    "antiquity": 2429,
     "gamepass": false,
     "price": 16.99,
     "rate": 4.1,
@@ -33119,7 +33451,7 @@ const GAME = {
     ]
   },
   "BZFB1F31614J": {
-    "antiquity": 2421,
+    "antiquity": 2422,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.9,
@@ -33137,7 +33469,7 @@ const GAME = {
     ]
   },
   "BZFK7WNK7R4M": {
-    "antiquity": 2638,
+    "antiquity": 2639,
     "gamepass": false,
     "price": 16.49,
     "rate": 4.0,
@@ -33151,7 +33483,7 @@ const GAME = {
     ]
   },
   "BZGBDSSP6G2J": {
-    "antiquity": 2904,
+    "antiquity": 2905,
     "gamepass": false,
     "price": 11.54,
     "rate": 4.5,
@@ -33164,11 +33496,11 @@ const GAME = {
     ]
   },
   "BZGJRJC1FGF3": {
-    "antiquity": 2292,
+    "antiquity": 2293,
     "gamepass": true,
     "price": 10.49,
     "rate": 4.5,
-    "reviews": 336,
+    "reviews": 338,
     "trial": false,
     "discount": 85.012146,
     "tags": [
@@ -33180,7 +33512,7 @@ const GAME = {
     ]
   },
   "BZGPBRQ3LZ7G": {
-    "antiquity": 5661,
+    "antiquity": 5662,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.6,
@@ -33193,7 +33525,7 @@ const GAME = {
     ]
   },
   "BZGX4ZQZKVKG": {
-    "antiquity": 5879,
+    "antiquity": 5880,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.3,
@@ -33208,7 +33540,7 @@ const GAME = {
     ]
   },
   "BZGZ3G053NTH": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -33222,7 +33554,7 @@ const GAME = {
     ]
   },
   "BZHS2XCVV5T3": {
-    "antiquity": 5878,
+    "antiquity": 5879,
     "gamepass": false,
     "price": 9.49,
     "rate": 3.9,
@@ -33234,7 +33566,7 @@ const GAME = {
     ]
   },
   "BZHTJ3D9T57F": {
-    "antiquity": 3358,
+    "antiquity": 3359,
     "gamepass": false,
     "price": 8.99,
     "rate": 3.4,
@@ -33247,7 +33579,7 @@ const GAME = {
     ]
   },
   "BZJ13K1JKGLP": {
-    "antiquity": 4885,
+    "antiquity": 4886,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.9,
@@ -33261,7 +33593,7 @@ const GAME = {
     ]
   },
   "BZJ43GK4L0JC": {
-    "antiquity": 2355,
+    "antiquity": 2356,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -33273,7 +33605,7 @@ const GAME = {
     ]
   },
   "BZJWV056VNPB": {
-    "antiquity": 1735,
+    "antiquity": 1736,
     "gamepass": false,
     "price": 23.09,
     "rate": 2.4,
@@ -33288,7 +33620,7 @@ const GAME = {
     ]
   },
   "BZK0PF5LXPDV": {
-    "antiquity": 3493,
+    "antiquity": 3494,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -33301,7 +33633,7 @@ const GAME = {
     ]
   },
   "BZK6TK63SVMP": {
-    "antiquity": 2491,
+    "antiquity": 2492,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -33315,7 +33647,7 @@ const GAME = {
     ]
   },
   "BZMCVGQK6MLN": {
-    "antiquity": 2351,
+    "antiquity": 2352,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.1,
@@ -33332,7 +33664,7 @@ const GAME = {
     ]
   },
   "BZP3R43F8DNH": {
-    "antiquity": 2061,
+    "antiquity": 2062,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.5,
@@ -33346,7 +33678,7 @@ const GAME = {
     ]
   },
   "BZP6X6HKWG1G": {
-    "antiquity": 2351,
+    "antiquity": 2352,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.3,
@@ -33360,11 +33692,11 @@ const GAME = {
     ]
   },
   "BZRK5C951KK7": {
-    "antiquity": 2201,
+    "antiquity": 2202,
     "gamepass": false,
     "price": 10.49,
     "rate": 3.6,
-    "reviews": 90,
+    "reviews": 91,
     "trial": false,
     "discount": 85.01,
     "tags": [
@@ -33375,7 +33707,7 @@ const GAME = {
     ]
   },
   "BZS1294V9FQ3": {
-    "antiquity": 4933,
+    "antiquity": 4934,
     "gamepass": false,
     "price": 4.74,
     "rate": 4.0,
@@ -33390,7 +33722,7 @@ const GAME = {
     ]
   },
   "BZSWRLXJM182": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
     "price": 3.49,
     "rate": 4.0,
@@ -33406,7 +33738,7 @@ const GAME = {
     ]
   },
   "BZTC4776K9MS": {
-    "antiquity": 4835,
+    "antiquity": 4836,
     "gamepass": false,
     "price": 1.39,
     "rate": 3.8,
@@ -33420,7 +33752,7 @@ const GAME = {
     ]
   },
   "BZTZV149BZ44": {
-    "antiquity": 3050,
+    "antiquity": 3051,
     "gamepass": false,
     "price": 4.49,
     "rate": 3.8,
@@ -33434,7 +33766,7 @@ const GAME = {
     ]
   },
   "BZV7W98B3XN4": {
-    "antiquity": 2701,
+    "antiquity": 2702,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
@@ -33446,7 +33778,7 @@ const GAME = {
     ]
   },
   "BZVPNM21TCJC": {
-    "antiquity": 2477,
+    "antiquity": 2478,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -33458,7 +33790,7 @@ const GAME = {
     ]
   },
   "BZWKS52TWZWC": {
-    "antiquity": 2183,
+    "antiquity": 2184,
     "gamepass": false,
     "price": 2.99,
     "rate": 5.0,
@@ -33472,7 +33804,7 @@ const GAME = {
     ]
   },
   "BZX2GNKXKNHL": {
-    "antiquity": 1930,
+    "antiquity": 1931,
     "gamepass": false,
     "price": 4.49,
     "rate": 4.7,
@@ -33485,7 +33817,7 @@ const GAME = {
     ]
   },
   "BZZX30G7MBFZ": {
-    "antiquity": 4268,
+    "antiquity": 4269,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.5,
@@ -33500,7 +33832,7 @@ const GAME = {
     ]
   },
   "C006S0X5ZJSB": {
-    "antiquity": 2701,
+    "antiquity": 2702,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.2,
@@ -33513,7 +33845,7 @@ const GAME = {
     ]
   },
   "C01189NK5C8W": {
-    "antiquity": 3104,
+    "antiquity": 3105,
     "gamepass": false,
     "price": 19.98,
     "rate": 3.9,
@@ -33526,7 +33858,7 @@ const GAME = {
     ]
   },
   "C016H4M7FPRC": {
-    "antiquity": 2603,
+    "antiquity": 2604,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -33538,7 +33870,7 @@ const GAME = {
     ]
   },
   "C01MSK2X5HPQ": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -33550,7 +33882,7 @@ const GAME = {
     ]
   },
   "C01XK01QTZB1": {
-    "antiquity": 2385,
+    "antiquity": 2386,
     "gamepass": false,
     "price": 2.49,
     "rate": 4.3,
@@ -33566,7 +33898,7 @@ const GAME = {
     ]
   },
   "C01Z9J8S9BJP": {
-    "antiquity": 3219,
+    "antiquity": 3220,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -33580,7 +33912,7 @@ const GAME = {
     ]
   },
   "C02SL8LBS5K2": {
-    "antiquity": 3377,
+    "antiquity": 3378,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -33592,7 +33924,7 @@ const GAME = {
     ]
   },
   "C035L0NS3SQN": {
-    "antiquity": 6065,
+    "antiquity": 6066,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.6,
@@ -33606,7 +33938,7 @@ const GAME = {
     ]
   },
   "C03J6WR23XQ9": {
-    "antiquity": 3447,
+    "antiquity": 3448,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -33618,7 +33950,7 @@ const GAME = {
     ]
   },
   "C040H652PD98": {
-    "antiquity": 4353,
+    "antiquity": 4354,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
@@ -33632,11 +33964,11 @@ const GAME = {
     ]
   },
   "C04KH9Z8WGXZ": {
-    "antiquity": 3560,
+    "antiquity": 3561,
     "gamepass": false,
     "price": 1.99,
     "rate": 4.4,
-    "reviews": 26,
+    "reviews": 27,
     "trial": false,
     "discount": 80.08008,
     "tags": [
@@ -33645,7 +33977,7 @@ const GAME = {
     ]
   },
   "C07KJZRH0L7S": {
-    "antiquity": 1160,
+    "antiquity": 1161,
     "gamepass": true,
     "price": 10.49,
     "rate": 4.3,
@@ -33661,11 +33993,11 @@ const GAME = {
     ]
   },
   "C07MPPVTXVVZ": {
-    "antiquity": 2372,
+    "antiquity": 2373,
     "gamepass": false,
     "price": 19.99,
-    "rate": 4.3,
-    "reviews": 19,
+    "rate": 4.2,
+    "reviews": 20,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -33674,7 +34006,7 @@ const GAME = {
     ]
   },
   "C07NM31J7HLP": {
-    "antiquity": 2362,
+    "antiquity": 2363,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -33686,7 +34018,7 @@ const GAME = {
     ]
   },
   "C083G6BGJ334": {
-    "antiquity": 1041,
+    "antiquity": 1042,
     "gamepass": false,
     "price": 69.99,
     "rate": 3.2,
@@ -33704,7 +34036,7 @@ const GAME = {
     ]
   },
   "C08CV6MR919R": {
-    "antiquity": 2778,
+    "antiquity": 2779,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -33719,7 +34051,7 @@ const GAME = {
     ]
   },
   "C08JXNK0VG5L": {
-    "antiquity": 2271,
+    "antiquity": 2272,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.4,
@@ -33734,7 +34066,7 @@ const GAME = {
     ]
   },
   "C08MW8XHQN9G": {
-    "antiquity": 1833,
+    "antiquity": 1834,
     "gamepass": false,
     "price": 27.99,
     "rate": 3.9,
@@ -33747,7 +34079,7 @@ const GAME = {
     ]
   },
   "C098FGNMTS8F": {
-    "antiquity": 5053,
+    "antiquity": 5054,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.3,
@@ -33760,7 +34092,7 @@ const GAME = {
     ]
   },
   "C09LFD39HKLW": {
-    "antiquity": 1889,
+    "antiquity": 1890,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.0,
@@ -33773,7 +34105,7 @@ const GAME = {
     ]
   },
   "C09XZ31GMN2N": {
-    "antiquity": 2768,
+    "antiquity": 2769,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -33787,7 +34119,7 @@ const GAME = {
     ]
   },
   "C0CB2CVZVSNR": {
-    "antiquity": 3359,
+    "antiquity": 3360,
     "gamepass": false,
     "price": 4.49,
     "rate": 2.6,
@@ -33804,7 +34136,7 @@ const GAME = {
     ]
   },
   "C0CDN1S0C9TS": {
-    "antiquity": 4899,
+    "antiquity": 4900,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -33817,7 +34149,7 @@ const GAME = {
     ]
   },
   "C0FZNGPNQQRQ": {
-    "antiquity": 2443,
+    "antiquity": 2444,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -33833,7 +34165,7 @@ const GAME = {
     ]
   },
   "C0G1L18DT97K": {
-    "antiquity": 2250,
+    "antiquity": 2251,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.5,
@@ -33846,7 +34178,7 @@ const GAME = {
     ]
   },
   "C0G91V37489H": {
-    "antiquity": 2271,
+    "antiquity": 2272,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.4,
@@ -33860,7 +34192,7 @@ const GAME = {
     ]
   },
   "C0GG86060VF8": {
-    "antiquity": 5051,
+    "antiquity": 5052,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -33874,7 +34206,7 @@ const GAME = {
     ]
   },
   "C0GMGV6XH996": {
-    "antiquity": 1707,
+    "antiquity": 1708,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.7,
@@ -33889,7 +34221,7 @@ const GAME = {
     ]
   },
   "C0GMW8QH429T": {
-    "antiquity": 3370,
+    "antiquity": 3371,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.5,
@@ -33903,7 +34235,7 @@ const GAME = {
     ]
   },
   "C0GQP41KXPVZ": {
-    "antiquity": 3233,
+    "antiquity": 3234,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.0,
@@ -33917,7 +34249,7 @@ const GAME = {
     ]
   },
   "C0GWTPD0S8S1": {
-    "antiquity": 2271,
+    "antiquity": 2272,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.7,
@@ -33933,11 +34265,11 @@ const GAME = {
     ]
   },
   "C0HSBW2L0378": {
-    "antiquity": 82,
+    "antiquity": 83,
     "gamepass": false,
     "price": 79.99,
-    "rate": 4.6,
-    "reviews": 19,
+    "rate": 4.5,
+    "reviews": 21,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -33948,7 +34280,7 @@ const GAME = {
     ]
   },
   "C0KB8NGFN0TS": {
-    "antiquity": 2114,
+    "antiquity": 2115,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -33960,7 +34292,7 @@ const GAME = {
     ]
   },
   "C0KJ40T9QD86": {
-    "antiquity": 3366,
+    "antiquity": 3367,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.4,
@@ -33975,7 +34307,7 @@ const GAME = {
     ]
   },
   "C0KSN20BRP7Z": {
-    "antiquity": 1756,
+    "antiquity": 1757,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -33988,7 +34320,7 @@ const GAME = {
     ]
   },
   "C0MKH58NBHRG": {
-    "antiquity": 4959,
+    "antiquity": 4960,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -34001,7 +34333,7 @@ const GAME = {
     ]
   },
   "C0MN5DN8KR3F": {
-    "antiquity": 1980,
+    "antiquity": 1981,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.3,
@@ -34015,7 +34347,7 @@ const GAME = {
     ]
   },
   "C0N22P73QZ60": {
-    "antiquity": 2418,
+    "antiquity": 2419,
     "gamepass": true,
     "price": 17.99,
     "rate": 3.3,
@@ -34032,19 +34364,20 @@ const GAME = {
     ]
   },
   "C0NDKFJXW9SZ": {
-    "antiquity": 4857,
+    "antiquity": 4858,
     "gamepass": false,
-    "price": 19.99,
+    "price": 7.99,
     "rate": 4.3,
     "reviews": 96,
     "trial": false,
-    "discount": 0,
+    "discount": 60.030018,
     "tags": [
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "C0QDQ0KX4HDV": {
-    "antiquity": 2183,
+    "antiquity": 2184,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.8,
@@ -34057,7 +34390,7 @@ const GAME = {
     ]
   },
   "C0RNBFHQ7X96": {
-    "antiquity": 1966,
+    "antiquity": 1967,
     "gamepass": false,
     "price": 6.24,
     "rate": 3.9,
@@ -34069,7 +34402,7 @@ const GAME = {
     ]
   },
   "C0SFCF4PBRSZ": {
-    "antiquity": 3699,
+    "antiquity": 3700,
     "gamepass": true,
     "price": 3.74,
     "rate": 4.2,
@@ -34083,7 +34416,7 @@ const GAME = {
     ]
   },
   "C0SKP911GZMV": {
-    "antiquity": 2785,
+    "antiquity": 2786,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.4,
@@ -34096,10 +34429,10 @@ const GAME = {
     ]
   },
   "C0SN83QXPL00": {
-    "antiquity": 3212,
+    "antiquity": 3213,
     "gamepass": false,
     "price": 19.99,
-    "rate": 3.8,
+    "rate": 3.9,
     "reviews": 93,
     "trial": false,
     "discount": 50.012505,
@@ -34112,7 +34445,7 @@ const GAME = {
     ]
   },
   "C0SSJXG14R4T": {
-    "antiquity": 3639,
+    "antiquity": 3640,
     "gamepass": false,
     "price": 9.74,
     "rate": 2.8,
@@ -34126,7 +34459,7 @@ const GAME = {
     ]
   },
   "C0SWGV4560W1": {
-    "antiquity": 5073,
+    "antiquity": 5074,
     "gamepass": true,
     "price": 9.49,
     "rate": 4.3,
@@ -34140,7 +34473,7 @@ const GAME = {
     ]
   },
   "C0SX9NVMVQG9": {
-    "antiquity": 2383,
+    "antiquity": 2384,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.6,
@@ -34154,7 +34487,7 @@ const GAME = {
     ]
   },
   "C0TMGF97V9LJ": {
-    "antiquity": 3258,
+    "antiquity": 3259,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
@@ -34168,7 +34501,7 @@ const GAME = {
     ]
   },
   "C0VN7PVQJ8C2": {
-    "antiquity": 3371,
+    "antiquity": 3372,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -34180,7 +34513,7 @@ const GAME = {
     ]
   },
   "C0VQBXFNZ1Q0": {
-    "antiquity": 2001,
+    "antiquity": 2002,
     "gamepass": true,
     "price": 23.99,
     "rate": 4.7,
@@ -34193,7 +34526,7 @@ const GAME = {
     ]
   },
   "C0W8DRKPV6P4": {
-    "antiquity": 4610,
+    "antiquity": 4611,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -34207,7 +34540,7 @@ const GAME = {
     ]
   },
   "C0WF1M4KMFL9": {
-    "antiquity": 3365,
+    "antiquity": 3366,
     "gamepass": false,
     "price": 1.49,
     "rate": 2.6,
@@ -34223,7 +34556,7 @@ const GAME = {
     ]
   },
   "C0X15TR4NP0B": {
-    "antiquity": 3512,
+    "antiquity": 3513,
     "gamepass": false,
     "price": 4.49,
     "rate": 4.6,
@@ -34237,7 +34570,7 @@ const GAME = {
     ]
   },
   "C0X2HNVH08FB": {
-    "antiquity": 2656,
+    "antiquity": 2657,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
@@ -34251,11 +34584,11 @@ const GAME = {
     ]
   },
   "C0X6N5963CTW": {
-    "antiquity": 5032,
+    "antiquity": 5033,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
-    "reviews": 91,
+    "reviews": 92,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -34264,7 +34597,7 @@ const GAME = {
     ]
   },
   "C0XBNVR137DZ": {
-    "antiquity": 3085,
+    "antiquity": 3086,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.6,
@@ -34276,7 +34609,7 @@ const GAME = {
     ]
   },
   "C0Z1N477W100": {
-    "antiquity": 5120,
+    "antiquity": 5121,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.8,
@@ -34289,7 +34622,7 @@ const GAME = {
     ]
   },
   "C10GWTNNNBZ8": {
-    "antiquity": 3071,
+    "antiquity": 3072,
     "gamepass": false,
     "price": 7.49,
     "rate": 4.7,
@@ -34305,7 +34638,7 @@ const GAME = {
     ]
   },
   "C10NTXFNSPBW": {
-    "antiquity": 3846,
+    "antiquity": 3847,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.4,
@@ -34317,7 +34650,7 @@ const GAME = {
     ]
   },
   "C10WNR4SJM9G": {
-    "antiquity": 2936,
+    "antiquity": 2937,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.2,
@@ -34332,7 +34665,7 @@ const GAME = {
     ]
   },
   "C11GZGMKRTCV": {
-    "antiquity": 2000,
+    "antiquity": 2001,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -34348,7 +34681,7 @@ const GAME = {
     ]
   },
   "C11HCJPQFHH7": {
-    "antiquity": 1244,
+    "antiquity": 1245,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -34364,7 +34697,7 @@ const GAME = {
     ]
   },
   "C11KKHB5H7QJ": {
-    "antiquity": 2918,
+    "antiquity": 2919,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.6,
@@ -34377,11 +34710,11 @@ const GAME = {
     ]
   },
   "C125W9BG2K0V": {
-    "antiquity": 2910,
+    "antiquity": 2911,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.3,
-    "reviews": 1286,
+    "reviews": 1287,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -34393,7 +34726,7 @@ const GAME = {
     ]
   },
   "C12M59WTB2S9": {
-    "antiquity": 2882,
+    "antiquity": 2883,
     "gamepass": false,
     "price": 1.49,
     "rate": 4.6,
@@ -34406,7 +34739,7 @@ const GAME = {
     ]
   },
   "C1365LM1Q2DK": {
-    "antiquity": 4856,
+    "antiquity": 4857,
     "gamepass": false,
     "price": 4.74,
     "rate": 3.9,
@@ -34420,7 +34753,7 @@ const GAME = {
     ]
   },
   "C13B30356JXW": {
-    "antiquity": 1928,
+    "antiquity": 1929,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.2,
@@ -34437,7 +34770,7 @@ const GAME = {
     ]
   },
   "C17DJVSST02N": {
-    "antiquity": 3174,
+    "antiquity": 3175,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -34451,7 +34784,7 @@ const GAME = {
     ]
   },
   "C17GQF31D617": {
-    "antiquity": 2777,
+    "antiquity": 2778,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -34466,7 +34799,7 @@ const GAME = {
     ]
   },
   "C17KKS83S9GS": {
-    "antiquity": 6712,
+    "antiquity": 6713,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.9,
@@ -34478,7 +34811,7 @@ const GAME = {
     ]
   },
   "C19VR3KMN3ML": {
-    "antiquity": 2595,
+    "antiquity": 2596,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -34493,7 +34826,7 @@ const GAME = {
     ]
   },
   "C1B77BPDGKZ4": {
-    "antiquity": 3076,
+    "antiquity": 3077,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -34508,7 +34841,7 @@ const GAME = {
     ]
   },
   "C1C13GGXM7JG": {
-    "antiquity": 2323,
+    "antiquity": 2324,
     "gamepass": false,
     "price": 16.24,
     "rate": 4.2,
@@ -34523,7 +34856,7 @@ const GAME = {
     ]
   },
   "C1C4DZJPBC2V": {
-    "antiquity": 2813,
+    "antiquity": 2814,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -34538,7 +34871,7 @@ const GAME = {
     ]
   },
   "C1D89J1G0NX2": {
-    "antiquity": 5176,
+    "antiquity": 5177,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.0,
@@ -34550,7 +34883,7 @@ const GAME = {
     ]
   },
   "C1DDW4PRF6K5": {
-    "antiquity": 1816,
+    "antiquity": 1817,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.1,
@@ -34565,7 +34898,7 @@ const GAME = {
     ]
   },
   "C1DNPSJ9362C": {
-    "antiquity": 5318,
+    "antiquity": 5319,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -34578,20 +34911,21 @@ const GAME = {
     ]
   },
   "C1H15FFSH2CB": {
-    "antiquity": 4913,
+    "antiquity": 4914,
     "gamepass": false,
-    "price": 29.99,
+    "price": 7.49,
     "rate": 4.9,
     "reviews": 28,
     "trial": false,
-    "discount": 0,
+    "discount": 75.02501,
     "tags": [
       "Action",
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "C1H74N0TR8KT": {
-    "antiquity": 1152,
+    "antiquity": 1153,
     "gamepass": false,
     "price": 9.89,
     "rate": 4.5,
@@ -34606,7 +34940,7 @@ const GAME = {
     ]
   },
   "C1H9V6SLK2K5": {
-    "antiquity": 3408,
+    "antiquity": 3409,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.7,
@@ -34618,7 +34952,7 @@ const GAME = {
     ]
   },
   "C1HPGX40QF8X": {
-    "antiquity": 3083,
+    "antiquity": 3084,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -34631,7 +34965,7 @@ const GAME = {
     ]
   },
   "C1JXWJR46913": {
-    "antiquity": 2776,
+    "antiquity": 2777,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.1,
@@ -34647,7 +34981,7 @@ const GAME = {
     ]
   },
   "C1KMFMVCD885": {
-    "antiquity": 3274,
+    "antiquity": 3275,
     "gamepass": false,
     "price": 12.98,
     "rate": 4.0,
@@ -34661,7 +34995,7 @@ const GAME = {
     ]
   },
   "C1KMTP26BWNR": {
-    "antiquity": 2763,
+    "antiquity": 2764,
     "gamepass": false,
     "price": 15.99,
     "rate": 3.9,
@@ -34675,7 +35009,7 @@ const GAME = {
     ]
   },
   "C1KX6KNB7XMM": {
-    "antiquity": 2922,
+    "antiquity": 2923,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -34691,7 +35025,7 @@ const GAME = {
     ]
   },
   "C1LD4244XCNJ": {
-    "antiquity": 2064,
+    "antiquity": 2065,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.1,
@@ -34705,7 +35039,7 @@ const GAME = {
     ]
   },
   "C1LMJJ64FV3J": {
-    "antiquity": 1984,
+    "antiquity": 1985,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -34717,7 +35051,7 @@ const GAME = {
     ]
   },
   "C1N2LVW7NNJ7": {
-    "antiquity": 2750,
+    "antiquity": 2751,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.6,
@@ -34730,7 +35064,7 @@ const GAME = {
     ]
   },
   "C1N8NK80CLXV": {
-    "antiquity": 2670,
+    "antiquity": 2671,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.8,
@@ -34745,7 +35079,7 @@ const GAME = {
     ]
   },
   "C1NJFJM3FPWN": {
-    "antiquity": 3184,
+    "antiquity": 3185,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -34759,7 +35093,7 @@ const GAME = {
     ]
   },
   "C1NL49GLS561": {
-    "antiquity": 4087,
+    "antiquity": 4088,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
@@ -34771,7 +35105,7 @@ const GAME = {
     ]
   },
   "C1PJKCDKH6LN": {
-    "antiquity": 5018,
+    "antiquity": 5019,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.4,
@@ -34787,7 +35121,7 @@ const GAME = {
     ]
   },
   "C1QJM5XT9SXV": {
-    "antiquity": 4024,
+    "antiquity": 4025,
     "gamepass": false,
     "price": 49.99,
     "rate": 3.7,
@@ -34800,7 +35134,7 @@ const GAME = {
     ]
   },
   "C1R51ZV4ZZ28": {
-    "antiquity": 1702,
+    "antiquity": 1703,
     "gamepass": false,
     "price": 18.99,
     "rate": 3.4,
@@ -34815,7 +35149,7 @@ const GAME = {
     ]
   },
   "C1S43G7ML8PD": {
-    "antiquity": 3384,
+    "antiquity": 3385,
     "gamepass": false,
     "price": 7.49,
     "rate": 4.5,
@@ -34829,7 +35163,7 @@ const GAME = {
     ]
   },
   "C1S60CRC51JC": {
-    "antiquity": 4961,
+    "antiquity": 4962,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.7,
@@ -34842,7 +35176,7 @@ const GAME = {
     ]
   },
   "C1S8X55L9SS1": {
-    "antiquity": 4164,
+    "antiquity": 4165,
     "gamepass": false,
     "price": 4.79,
     "rate": 4.5,
@@ -34856,7 +35190,7 @@ const GAME = {
     ]
   },
   "C1SDBNRFXT1D": {
-    "antiquity": 4864,
+    "antiquity": 4865,
     "gamepass": true,
     "price": 11.99,
     "rate": 3.1,
@@ -34873,7 +35207,7 @@ const GAME = {
     ]
   },
   "C1TBTQBVJMFL": {
-    "antiquity": 1816,
+    "antiquity": 1817,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -34886,7 +35220,7 @@ const GAME = {
     ]
   },
   "C1TJ5KT8LT9J": {
-    "antiquity": 1984,
+    "antiquity": 1985,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.6,
@@ -34898,20 +35232,19 @@ const GAME = {
     ]
   },
   "C1TXS9V9LJDB": {
-    "antiquity": 3062,
+    "antiquity": 3063,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 3.4,
     "reviews": 24,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Oferta"
+      "Action"
     ]
   },
   "C1V1FFWQ7B17": {
-    "antiquity": 4989,
+    "antiquity": 4990,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.2,
@@ -34924,7 +35257,7 @@ const GAME = {
     ]
   },
   "C1WRX8ZD77M9": {
-    "antiquity": 1195,
+    "antiquity": 1196,
     "gamepass": false,
     "price": 10.49,
     "rate": 3.2,
@@ -34939,20 +35272,19 @@ const GAME = {
     ]
   },
   "C1X3TD4QD17N": {
-    "antiquity": 3352,
+    "antiquity": 3353,
     "gamepass": false,
-    "price": 3.74,
+    "price": 14.99,
     "rate": 4.7,
     "reviews": 18,
     "trial": false,
-    "discount": 75.05003,
+    "discount": 0,
     "tags": [
-      "Platformer",
-      "Oferta"
+      "Platformer"
     ]
   },
   "C1XHZ605DZPG": {
-    "antiquity": 2715,
+    "antiquity": 2716,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.9,
@@ -34965,7 +35297,7 @@ const GAME = {
     ]
   },
   "C1ZT6N30L1WH": {
-    "antiquity": 1757,
+    "antiquity": 1758,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -34985,7 +35317,7 @@ const GAME = {
     ]
   },
   "C1ZWH2BZ9TSF": {
-    "antiquity": 4275,
+    "antiquity": 4276,
     "gamepass": true,
     "price": 2.37,
     "rate": 4.1,
@@ -35001,7 +35333,7 @@ const GAME = {
     ]
   },
   "C20209H1D7LZ": {
-    "antiquity": 2897,
+    "antiquity": 2898,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.4,
@@ -35015,11 +35347,11 @@ const GAME = {
     ]
   },
   "C205FBSPZ3W8": {
-    "antiquity": 3293,
+    "antiquity": 3294,
     "gamepass": false,
     "price": 19.98,
-    "rate": 4.7,
-    "reviews": 142,
+    "rate": 4.6,
+    "reviews": 374,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -35028,7 +35360,7 @@ const GAME = {
     ]
   },
   "C20HL06X0V8W": {
-    "antiquity": 3226,
+    "antiquity": 3227,
     "gamepass": false,
     "price": 23.09,
     "rate": 4.0,
@@ -35043,19 +35375,20 @@ const GAME = {
     ]
   },
   "C20T418C1T43": {
-    "antiquity": 4378,
+    "antiquity": 4379,
     "gamepass": false,
-    "price": 29.99,
+    "price": 5.99,
     "rate": 4.6,
     "reviews": 20,
     "trial": false,
-    "discount": 0,
+    "discount": 80.02667,
     "tags": [
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "C20VH7BD75NG": {
-    "antiquity": 3111,
+    "antiquity": 3112,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
@@ -35067,7 +35400,7 @@ const GAME = {
     ]
   },
   "C20W5LX41N6M": {
-    "antiquity": 4274,
+    "antiquity": 4275,
     "gamepass": false,
     "price": 3.99,
     "rate": 3.9,
@@ -35080,7 +35413,7 @@ const GAME = {
     ]
   },
   "C2127MDWMZTB": {
-    "antiquity": 3085,
+    "antiquity": 3086,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.9,
@@ -35094,7 +35427,7 @@ const GAME = {
     ]
   },
   "C21QTH7T677W": {
-    "antiquity": 2460,
+    "antiquity": 2461,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.6,
@@ -35107,7 +35440,7 @@ const GAME = {
     ]
   },
   "C22KC9H7NPT6": {
-    "antiquity": 1823,
+    "antiquity": 1824,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -35123,7 +35456,7 @@ const GAME = {
     ]
   },
   "C22T53SQ7FLM": {
-    "antiquity": 3107,
+    "antiquity": 3108,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.7,
@@ -35139,7 +35472,7 @@ const GAME = {
     ]
   },
   "C232CL8LQQ9N": {
-    "antiquity": 2412,
+    "antiquity": 2413,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -35152,7 +35485,7 @@ const GAME = {
     ]
   },
   "C23CWXL81H3L": {
-    "antiquity": 2855,
+    "antiquity": 2856,
     "gamepass": false,
     "price": 47.24,
     "rate": 4.7,
@@ -35166,7 +35499,7 @@ const GAME = {
     ]
   },
   "C23M2TC1ZFPJ": {
-    "antiquity": 2257,
+    "antiquity": 2258,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.9,
@@ -35180,7 +35513,7 @@ const GAME = {
     ]
   },
   "C242DV9JQD3W": {
-    "antiquity": 2334,
+    "antiquity": 2335,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -35195,7 +35528,7 @@ const GAME = {
     ]
   },
   "C24DMFCJKDH2": {
-    "antiquity": 3856,
+    "antiquity": 3857,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
@@ -35207,7 +35540,7 @@ const GAME = {
     ]
   },
   "C24SVX28PNWM": {
-    "antiquity": 2323,
+    "antiquity": 2324,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -35219,7 +35552,7 @@ const GAME = {
     ]
   },
   "C24T2MRDBB3W": {
-    "antiquity": 2078,
+    "antiquity": 2079,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.8,
@@ -35233,7 +35566,7 @@ const GAME = {
     ]
   },
   "C253HWJP0L18": {
-    "antiquity": 3079,
+    "antiquity": 3080,
     "gamepass": false,
     "price": 54.98,
     "rate": 4.4,
@@ -35246,7 +35579,7 @@ const GAME = {
     ]
   },
   "C25K1D8B4H2B": {
-    "antiquity": 3337,
+    "antiquity": 3338,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.9,
@@ -35259,7 +35592,7 @@ const GAME = {
     ]
   },
   "C261457LCNMJ": {
-    "antiquity": 2715,
+    "antiquity": 2716,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -35272,7 +35605,7 @@ const GAME = {
     ]
   },
   "C26K4DVGR45B": {
-    "antiquity": 3637,
+    "antiquity": 3638,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.4,
@@ -35287,7 +35620,7 @@ const GAME = {
     ]
   },
   "C26NJ29TKZ1W": {
-    "antiquity": 3819,
+    "antiquity": 3820,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -35301,7 +35634,7 @@ const GAME = {
     ]
   },
   "C27H5T4HD4WW": {
-    "antiquity": 2719,
+    "antiquity": 2720,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.3,
@@ -35315,7 +35648,7 @@ const GAME = {
     ]
   },
   "C27JSQ4XKP9X": {
-    "antiquity": 4402,
+    "antiquity": 4403,
     "gamepass": false,
     "price": 3.74,
     "rate": 4.2,
@@ -35329,7 +35662,7 @@ const GAME = {
     ]
   },
   "C27LHB0DH095": {
-    "antiquity": 3254,
+    "antiquity": 3255,
     "gamepass": false,
     "price": 8.99,
     "rate": 4.5,
@@ -35342,7 +35675,7 @@ const GAME = {
     ]
   },
   "C27XPR5XDMFT": {
-    "antiquity": 2047,
+    "antiquity": 2048,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.5,
@@ -35355,7 +35688,7 @@ const GAME = {
     ]
   },
   "C289KCH8WP0F": {
-    "antiquity": 3167,
+    "antiquity": 3168,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.4,
@@ -35368,7 +35701,7 @@ const GAME = {
     ]
   },
   "C28HP82H7MN8": {
-    "antiquity": 4723,
+    "antiquity": 4724,
     "gamepass": false,
     "price": 2.84,
     "rate": 4.6,
@@ -35381,7 +35714,7 @@ const GAME = {
     ]
   },
   "C299QVC2BSJF": {
-    "antiquity": 3083,
+    "antiquity": 3084,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
@@ -35395,7 +35728,7 @@ const GAME = {
     ]
   },
   "C29HJWWKRP5L": {
-    "antiquity": 3148,
+    "antiquity": 3149,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -35408,7 +35741,7 @@ const GAME = {
     ]
   },
   "C29HQ887KH4B": {
-    "antiquity": 5088,
+    "antiquity": 5089,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.7,
@@ -35421,20 +35754,19 @@ const GAME = {
     ]
   },
   "C29QZC55CCZG": {
-    "antiquity": 2260,
+    "antiquity": 2261,
     "gamepass": false,
-    "price": 9.99,
+    "price": 39.99,
     "rate": 2.9,
     "reviews": 14,
     "trial": false,
-    "discount": 75.01876,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Oferta"
+      "Action"
     ]
   },
   "C2B3HFJFGHS6": {
-    "antiquity": 1894,
+    "antiquity": 1895,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.0,
@@ -35449,7 +35781,7 @@ const GAME = {
     ]
   },
   "C2B4T86TXLRS": {
-    "antiquity": 1623,
+    "antiquity": 1624,
     "gamepass": true,
     "price": 13.19,
     "rate": 3.9,
@@ -35465,7 +35797,7 @@ const GAME = {
     ]
   },
   "C2B588K0RM2S": {
-    "antiquity": 5235,
+    "antiquity": 5236,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.2,
@@ -35477,7 +35809,7 @@ const GAME = {
     ]
   },
   "C2BD1F6CB3L5": {
-    "antiquity": 3267,
+    "antiquity": 3268,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.2,
@@ -35491,7 +35823,7 @@ const GAME = {
     ]
   },
   "C2CSDTSCBZ0C": {
-    "antiquity": 1544,
+    "antiquity": 1545,
     "gamepass": true,
     "price": 49.99,
     "rate": 4.2,
@@ -35505,7 +35837,7 @@ const GAME = {
     ]
   },
   "C2DQNHGBSXB7": {
-    "antiquity": 2400,
+    "antiquity": 2401,
     "gamepass": false,
     "price": 4.49,
     "rate": 3.9,
@@ -35521,7 +35853,7 @@ const GAME = {
     ]
   },
   "C2DQXX0CB42F": {
-    "antiquity": 3384,
+    "antiquity": 3385,
     "gamepass": true,
     "price": 3.74,
     "rate": 4.6,
@@ -35535,7 +35867,7 @@ const GAME = {
     ]
   },
   "C2F33PQF5MZ9": {
-    "antiquity": 1816,
+    "antiquity": 1817,
     "gamepass": false,
     "price": 10.99,
     "rate": 4.1,
@@ -35550,7 +35882,7 @@ const GAME = {
     ]
   },
   "C2FCHJG6RNPR": {
-    "antiquity": 3289,
+    "antiquity": 3290,
     "gamepass": false,
     "price": 4.49,
     "rate": 3.1,
@@ -35565,7 +35897,7 @@ const GAME = {
     ]
   },
   "C2GM9K7BK6H2": {
-    "antiquity": 2938,
+    "antiquity": 2939,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.3,
@@ -35578,46 +35910,45 @@ const GAME = {
     ]
   },
   "C2GMBPMTHDDK": {
-    "antiquity": 1289,
+    "antiquity": 1290,
     "gamepass": false,
-    "price": 13.99,
+    "price": 39.99,
     "rate": 4.2,
     "reviews": 40,
     "trial": true,
-    "discount": 65.01626,
+    "discount": 0,
     "tags": [
       "Action",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "C2HCDG7L1469": {
-    "antiquity": 2698,
+    "antiquity": 2699,
     "gamepass": false,
-    "price": 49.99,
+    "price": 9.99,
     "rate": 4.5,
     "reviews": 130,
     "trial": false,
-    "discount": 0,
+    "discount": 80.01601,
     "tags": [
-      "Bundle"
-    ]
-  },
-  "C2HGH4LXTPK9": {
-    "antiquity": 2622,
-    "gamepass": false,
-    "price": 9.99,
-    "rate": 3.0,
-    "reviews": 7,
-    "trial": false,
-    "discount": 75.01876,
-    "tags": [
-      "Role playing",
+      "Bundle",
       "Oferta"
     ]
   },
+  "C2HGH4LXTPK9": {
+    "antiquity": 2623,
+    "gamepass": false,
+    "price": 39.99,
+    "rate": 3.0,
+    "reviews": 7,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Role playing"
+    ]
+  },
   "C2HGK9J5367F": {
-    "antiquity": 5879,
+    "antiquity": 5880,
     "gamepass": false,
     "price": 6.59,
     "rate": 4.7,
@@ -35630,7 +35961,7 @@ const GAME = {
     ]
   },
   "C2HQVXVVLMKG": {
-    "antiquity": 1601,
+    "antiquity": 1602,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
@@ -35645,7 +35976,7 @@ const GAME = {
     ]
   },
   "C2JDCLLLBK1W": {
-    "antiquity": 2617,
+    "antiquity": 2618,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.2,
@@ -35658,20 +35989,19 @@ const GAME = {
     ]
   },
   "C2JFN44MMK4P": {
-    "antiquity": 1959,
+    "antiquity": 1960,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 4.5,
     "reviews": 4,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
-      "Action",
-      "Oferta"
+      "Action"
     ]
   },
   "C2JLJJ4LT3PT": {
-    "antiquity": 2803,
+    "antiquity": 2804,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -35684,7 +36014,7 @@ const GAME = {
     ]
   },
   "C2KDNLT2H7DM": {
-    "antiquity": 1614,
+    "antiquity": 1615,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -35702,7 +36032,7 @@ const GAME = {
     ]
   },
   "C2M8HBNVPT1T": {
-    "antiquity": 3401,
+    "antiquity": 3402,
     "gamepass": true,
     "price": 2.99,
     "rate": 4.4,
@@ -35717,7 +36047,7 @@ const GAME = {
     ]
   },
   "C2MHS238PDNS": {
-    "antiquity": 3092,
+    "antiquity": 3093,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.0,
@@ -35732,7 +36062,7 @@ const GAME = {
     ]
   },
   "C2MP3X67VWNV": {
-    "antiquity": 4140,
+    "antiquity": 4141,
     "gamepass": false,
     "price": 9.49,
     "rate": 4.5,
@@ -35746,7 +36076,7 @@ const GAME = {
     ]
   },
   "C2MTG1SB3S11": {
-    "antiquity": 2434,
+    "antiquity": 2435,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -35758,7 +36088,7 @@ const GAME = {
     ]
   },
   "C2MX0RPZKR53": {
-    "antiquity": 3806,
+    "antiquity": 3807,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.8,
@@ -35773,7 +36103,7 @@ const GAME = {
     ]
   },
   "C2N9CS4FS1QR": {
-    "antiquity": 2526,
+    "antiquity": 2527,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.1,
@@ -35790,11 +36120,11 @@ const GAME = {
     ]
   },
   "C2NC88M7NWZ1": {
-    "antiquity": 2379,
+    "antiquity": 2380,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.3,
-    "reviews": 214,
+    "reviews": 216,
     "trial": true,
     "discount": 0,
     "tags": [
@@ -35806,7 +36136,7 @@ const GAME = {
     ]
   },
   "C2NNGCPR2XP8": {
-    "antiquity": 5200,
+    "antiquity": 5201,
     "gamepass": false,
     "price": 29.99,
     "rate": 3.9,
@@ -35819,7 +36149,7 @@ const GAME = {
     ]
   },
   "C2P985H1H42H": {
-    "antiquity": 7998,
+    "antiquity": 7999,
     "gamepass": true,
     "price": 3.29,
     "rate": 4.6,
@@ -35834,7 +36164,7 @@ const GAME = {
     ]
   },
   "C2PB7STLJGS0": {
-    "antiquity": 4759,
+    "antiquity": 4760,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.9,
@@ -35847,7 +36177,7 @@ const GAME = {
     ]
   },
   "C2PGVNBVJ1VH": {
-    "antiquity": 1931,
+    "antiquity": 1932,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.5,
@@ -35860,7 +36190,7 @@ const GAME = {
     ]
   },
   "C2Q32JM0BPZL": {
-    "antiquity": 3659,
+    "antiquity": 3660,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.2,
@@ -35873,7 +36203,7 @@ const GAME = {
     ]
   },
   "C2Q9FW49H8K3": {
-    "antiquity": 1721,
+    "antiquity": 1722,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.2,
@@ -35888,7 +36218,7 @@ const GAME = {
     ]
   },
   "C2QDBJVVLVLX": {
-    "antiquity": 3749,
+    "antiquity": 3750,
     "gamepass": false,
     "price": 12.49,
     "rate": 4.3,
@@ -35901,7 +36231,7 @@ const GAME = {
     ]
   },
   "C2S06Z61NJ9J": {
-    "antiquity": 2631,
+    "antiquity": 2632,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.1,
@@ -35913,7 +36243,7 @@ const GAME = {
     ]
   },
   "C2S98G1ZC8HS": {
-    "antiquity": 4098,
+    "antiquity": 4099,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -35925,7 +36255,7 @@ const GAME = {
     ]
   },
   "C2SFHTW47D94": {
-    "antiquity": 4787,
+    "antiquity": 4788,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -35937,7 +36267,7 @@ const GAME = {
     ]
   },
   "C2T2QKRDNWLC": {
-    "antiquity": 6156,
+    "antiquity": 6157,
     "gamepass": false,
     "price": 4.49,
     "rate": 3.5,
@@ -35950,7 +36280,7 @@ const GAME = {
     ]
   },
   "C2TVKWCGTGR6": {
-    "antiquity": 1525,
+    "antiquity": 1526,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.8,
@@ -35964,7 +36294,7 @@ const GAME = {
     ]
   },
   "C2WJ0ZTTWVQS": {
-    "antiquity": 3245,
+    "antiquity": 3246,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -35978,7 +36308,7 @@ const GAME = {
     ]
   },
   "C2WKJJ9F5936": {
-    "antiquity": 5053,
+    "antiquity": 5054,
     "gamepass": true,
     "price": 9.99,
     "rate": 4.6,
@@ -35993,7 +36323,7 @@ const GAME = {
     ]
   },
   "C2XNJC9WK15X": {
-    "antiquity": 2904,
+    "antiquity": 2905,
     "gamepass": true,
     "price": 12.99,
     "rate": 4.6,
@@ -36006,7 +36336,7 @@ const GAME = {
     ]
   },
   "C2Z9D406G0KQ": {
-    "antiquity": 3160,
+    "antiquity": 3161,
     "gamepass": true,
     "price": 3.99,
     "rate": 3.7,
@@ -36021,7 +36351,7 @@ const GAME = {
     ]
   },
   "C30Z07T9Q9CT": {
-    "antiquity": 4737,
+    "antiquity": 4738,
     "gamepass": false,
     "price": 4.74,
     "rate": 4.0,
@@ -36036,7 +36366,7 @@ const GAME = {
     ]
   },
   "C348248BJZCQ": {
-    "antiquity": 2036,
+    "antiquity": 2037,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.8,
@@ -36050,7 +36380,7 @@ const GAME = {
     ]
   },
   "C34HQZGZQ6GJ": {
-    "antiquity": 4595,
+    "antiquity": 4596,
     "gamepass": false,
     "price": 3.74,
     "rate": 4.3,
@@ -36064,7 +36394,7 @@ const GAME = {
     ]
   },
   "C350VBGGCL6P": {
-    "antiquity": 2621,
+    "antiquity": 2622,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.9,
@@ -36078,7 +36408,7 @@ const GAME = {
     ]
   },
   "C3553MB4P5TT": {
-    "antiquity": 3345,
+    "antiquity": 3346,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
@@ -36092,7 +36422,7 @@ const GAME = {
     ]
   },
   "C3585Q6D4BFT": {
-    "antiquity": 1816,
+    "antiquity": 1817,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.0,
@@ -36107,7 +36437,7 @@ const GAME = {
     ]
   },
   "C35H9BGPTFLG": {
-    "antiquity": 2922,
+    "antiquity": 2923,
     "gamepass": false,
     "price": 6.98,
     "rate": 4.3,
@@ -36120,7 +36450,7 @@ const GAME = {
     ]
   },
   "C35NTVN04WK5": {
-    "antiquity": 1840,
+    "antiquity": 1841,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -36135,25 +36465,24 @@ const GAME = {
     ]
   },
   "C35S5BRNWL70": {
-    "antiquity": 1322,
+    "antiquity": 1323,
     "gamepass": false,
-    "price": 10.49,
+    "price": 29.99,
     "rate": 4.5,
     "reviews": 13,
     "trial": false,
-    "discount": 65.021675,
+    "discount": 0,
     "tags": [
       "Action",
       "Family",
       "Platformer",
       "LocalMultiPlayer",
       "SinglePlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "C363Q6CVHJ7X": {
-    "antiquity": 4143,
+    "antiquity": 4144,
     "gamepass": false,
     "price": 2.49,
     "rate": 3.9,
@@ -36167,7 +36496,7 @@ const GAME = {
     ]
   },
   "C3696D3MZFQZ": {
-    "antiquity": 3748,
+    "antiquity": 3749,
     "gamepass": false,
     "price": 9.99,
     "rate": 3.7,
@@ -36179,22 +36508,21 @@ const GAME = {
     ]
   },
   "C36LT5HKHBJP": {
-    "antiquity": 2768,
+    "antiquity": 2769,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.98,
     "rate": 4.0,
     "reviews": 43,
     "trial": false,
-    "discount": 75.025024,
+    "discount": 0,
     "tags": [
       "Action",
       "Racing & flying",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "C36X13QTJ3V5": {
-    "antiquity": 2511,
+    "antiquity": 2512,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.1,
@@ -36211,7 +36539,7 @@ const GAME = {
     ]
   },
   "C374DZ0SCT26": {
-    "antiquity": 2349,
+    "antiquity": 2350,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.7,
@@ -36224,21 +36552,20 @@ const GAME = {
     ]
   },
   "C375VTTBG2X2": {
-    "antiquity": 2511,
+    "antiquity": 2512,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.99,
     "rate": 3.8,
     "reviews": 6,
     "trial": false,
-    "discount": 75.03752,
+    "discount": 0,
     "tags": [
       "Simulation",
-      "Strategy",
-      "Oferta"
+      "Strategy"
     ]
   },
   "C3B1V55CDL0C": {
-    "antiquity": 1918,
+    "antiquity": 1919,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.2,
@@ -36257,7 +36584,7 @@ const GAME = {
     ]
   },
   "C3BVG9LGGV75": {
-    "antiquity": 1788,
+    "antiquity": 1789,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.5,
@@ -36270,7 +36597,7 @@ const GAME = {
     ]
   },
   "C3CSPBFVQ80K": {
-    "antiquity": 2701,
+    "antiquity": 2702,
     "gamepass": false,
     "price": 19.98,
     "rate": 4.0,
@@ -36283,7 +36610,7 @@ const GAME = {
     ]
   },
   "C3D891Z6TNQM": {
-    "antiquity": 2609,
+    "antiquity": 2610,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.5,
@@ -36300,7 +36627,7 @@ const GAME = {
     ]
   },
   "C3D89V4NH8F2": {
-    "antiquity": 1917,
+    "antiquity": 1918,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.9,
@@ -36314,7 +36641,7 @@ const GAME = {
     ]
   },
   "C3DRG5G7FCB5": {
-    "antiquity": 3149,
+    "antiquity": 3150,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.5,
@@ -36326,7 +36653,7 @@ const GAME = {
     ]
   },
   "C3FK18TN91JD": {
-    "antiquity": 1616,
+    "antiquity": 1617,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -36341,7 +36668,7 @@ const GAME = {
     ]
   },
   "C3FNJLM45CCC": {
-    "antiquity": 4807,
+    "antiquity": 4808,
     "gamepass": false,
     "price": 2.37,
     "rate": 4.4,
@@ -36356,7 +36683,7 @@ const GAME = {
     ]
   },
   "C3FXTTH4NFQN": {
-    "antiquity": 2155,
+    "antiquity": 2156,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.4,
@@ -36371,7 +36698,7 @@ const GAME = {
     ]
   },
   "C3GDK9QKWLRD": {
-    "antiquity": 2694,
+    "antiquity": 2695,
     "gamepass": false,
     "price": 19.79,
     "rate": 4.0,
@@ -36385,7 +36712,7 @@ const GAME = {
     ]
   },
   "C3HNL83BXGZ3": {
-    "antiquity": 4085,
+    "antiquity": 4086,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.1,
@@ -36397,11 +36724,11 @@ const GAME = {
     ]
   },
   "C3HQKX3B35PD": {
-    "antiquity": 2502,
+    "antiquity": 2503,
     "gamepass": false,
     "price": 4.49,
     "rate": 2.7,
-    "reviews": 250,
+    "reviews": 251,
     "trial": false,
     "discount": 85.02834,
     "tags": [
@@ -36413,7 +36740,7 @@ const GAME = {
     ]
   },
   "C3JPD73R365S": {
-    "antiquity": 2071,
+    "antiquity": 2072,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.1,
@@ -36425,7 +36752,7 @@ const GAME = {
     ]
   },
   "C3K10N1VQTNB": {
-    "antiquity": 2803,
+    "antiquity": 2804,
     "gamepass": false,
     "price": 14.98,
     "rate": 4.1,
@@ -36437,7 +36764,7 @@ const GAME = {
     ]
   },
   "C3K1HT81Z3QC": {
-    "antiquity": 3386,
+    "antiquity": 3387,
     "gamepass": false,
     "price": 4.99,
     "rate": 3.7,
@@ -36452,7 +36779,7 @@ const GAME = {
     ]
   },
   "C3KLDKZBHNCZ": {
-    "antiquity": 3009,
+    "antiquity": 3010,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.5,
@@ -36465,7 +36792,7 @@ const GAME = {
     ]
   },
   "C3KN7PZXPP2M": {
-    "antiquity": 1903,
+    "antiquity": 1904,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -36479,7 +36806,7 @@ const GAME = {
     ]
   },
   "C3KR2LLCJM25": {
-    "antiquity": 2778,
+    "antiquity": 2779,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.6,
@@ -36492,7 +36819,7 @@ const GAME = {
     ]
   },
   "C3L4J3H7H12R": {
-    "antiquity": 531,
+    "antiquity": 532,
     "gamepass": false,
     "price": 69.99,
     "rate": 4.2,
@@ -36508,7 +36835,7 @@ const GAME = {
     ]
   },
   "C3LF9PCRP9RP": {
-    "antiquity": 2708,
+    "antiquity": 2709,
     "gamepass": false,
     "price": 0.0,
     "rate": 2.0,
@@ -36523,7 +36850,7 @@ const GAME = {
     ]
   },
   "C3LW50BQJ878": {
-    "antiquity": 2841,
+    "antiquity": 2842,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.0,
@@ -36536,7 +36863,7 @@ const GAME = {
     ]
   },
   "C3MPWS9W61S7": {
-    "antiquity": 3376,
+    "antiquity": 3377,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
@@ -36549,7 +36876,7 @@ const GAME = {
     ]
   },
   "C3NHWKLR94M9": {
-    "antiquity": 2029,
+    "antiquity": 2030,
     "gamepass": false,
     "price": 1.99,
     "rate": 4.3,
@@ -36562,11 +36889,11 @@ const GAME = {
     ]
   },
   "C3NKGFRNG3H6": {
-    "antiquity": 1875,
+    "antiquity": 1876,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.7,
-    "reviews": 252,
+    "reviews": 253,
     "trial": false,
     "discount": 80.008,
     "tags": [
@@ -36577,7 +36904,7 @@ const GAME = {
     ]
   },
   "C3NNLTHW9T9W": {
-    "antiquity": 1714,
+    "antiquity": 1715,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -36593,7 +36920,7 @@ const GAME = {
     ]
   },
   "C3QDH0Z7DV31": {
-    "antiquity": 4960,
+    "antiquity": 4961,
     "gamepass": false,
     "price": 14.39,
     "rate": 3.8,
@@ -36606,7 +36933,7 @@ const GAME = {
     ]
   },
   "C3QH42WRGM3R": {
-    "antiquity": 2824,
+    "antiquity": 2825,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.7,
@@ -36620,7 +36947,7 @@ const GAME = {
     ]
   },
   "C3QT3QJ9GZPL": {
-    "antiquity": 2026,
+    "antiquity": 2027,
     "gamepass": false,
     "price": 24.99,
     "rate": 3.8,
@@ -36634,7 +36961,7 @@ const GAME = {
     ]
   },
   "C3SQQG5Q6Z64": {
-    "antiquity": 2875,
+    "antiquity": 2876,
     "gamepass": false,
     "price": 5.99,
     "rate": 3.8,
@@ -36649,7 +36976,7 @@ const GAME = {
     ]
   },
   "C3TWVMK3BNNJ": {
-    "antiquity": 1879,
+    "antiquity": 1880,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -36662,7 +36989,7 @@ const GAME = {
     ]
   },
   "C3V22FQD8N84": {
-    "antiquity": 1935,
+    "antiquity": 1936,
     "gamepass": false,
     "price": 10.49,
     "rate": 3.5,
@@ -36678,7 +37005,7 @@ const GAME = {
     ]
   },
   "C3VM0TMWNZ5M": {
-    "antiquity": 3727,
+    "antiquity": 3728,
     "gamepass": true,
     "price": 9.99,
     "rate": 3.6,
@@ -36693,7 +37020,7 @@ const GAME = {
     ]
   },
   "C3VNJHHD7MM4": {
-    "antiquity": 4962,
+    "antiquity": 4963,
     "gamepass": false,
     "price": 0.0,
     "rate": 4.4,
@@ -36709,7 +37036,7 @@ const GAME = {
     ]
   },
   "C3VVNLQQ54F8": {
-    "antiquity": 1589,
+    "antiquity": 1590,
     "gamepass": false,
     "price": 10.49,
     "rate": 2.9,
@@ -36725,7 +37052,7 @@ const GAME = {
     ]
   },
   "C3WX803ZX8SD": {
-    "antiquity": 4905,
+    "antiquity": 4906,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -36737,7 +37064,7 @@ const GAME = {
     ]
   },
   "C4060P46HH4D": {
-    "antiquity": 1676,
+    "antiquity": 1677,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -36750,7 +37077,7 @@ const GAME = {
     ]
   },
   "C40860J5R2MP": {
-    "antiquity": 2306,
+    "antiquity": 2307,
     "gamepass": true,
     "price": 5.99,
     "rate": 4.7,
@@ -36765,7 +37092,7 @@ const GAME = {
     ]
   },
   "C40FNR9XDVK5": {
-    "antiquity": 6871,
+    "antiquity": 6872,
     "gamepass": false,
     "price": 3.29,
     "rate": 4.6,
@@ -36778,7 +37105,7 @@ const GAME = {
     ]
   },
   "C41M2F4NWB2S": {
-    "antiquity": 2085,
+    "antiquity": 2086,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.6,
@@ -36791,7 +37118,7 @@ const GAME = {
     ]
   },
   "C41PHGKPPCG9": {
-    "antiquity": 2035,
+    "antiquity": 2036,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.7,
@@ -36803,7 +37130,7 @@ const GAME = {
     ]
   },
   "C41ZDFQ82M1G": {
-    "antiquity": 2379,
+    "antiquity": 2380,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.0,
@@ -36817,7 +37144,7 @@ const GAME = {
     ]
   },
   "C42GGWF64WH8": {
-    "antiquity": 3651,
+    "antiquity": 3652,
     "gamepass": false,
     "price": 34.99,
     "rate": 4.1,
@@ -36831,7 +37158,7 @@ const GAME = {
     ]
   },
   "C43BGCBS0TVL": {
-    "antiquity": 3014,
+    "antiquity": 3015,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.1,
@@ -36845,7 +37172,7 @@ const GAME = {
     ]
   },
   "C43H00X6KZRJ": {
-    "antiquity": 5003,
+    "antiquity": 5004,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -36859,7 +37186,7 @@ const GAME = {
     ]
   },
   "C45KV8Q992HV": {
-    "antiquity": 2659,
+    "antiquity": 2660,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.4,
@@ -36873,7 +37200,7 @@ const GAME = {
     ]
   },
   "C47G7K9NWRRJ": {
-    "antiquity": 4087,
+    "antiquity": 4088,
     "gamepass": false,
     "price": 14.99,
     "rate": 3.8,
@@ -36886,7 +37213,7 @@ const GAME = {
     ]
   },
   "C47GZZBMR5WG": {
-    "antiquity": 3364,
+    "antiquity": 3365,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.4,
@@ -36901,7 +37228,7 @@ const GAME = {
     ]
   },
   "C47VK1FQBPND": {
-    "antiquity": 4752,
+    "antiquity": 4753,
     "gamepass": false,
     "price": 2.99,
     "rate": 4.0,
@@ -36916,7 +37243,7 @@ const GAME = {
     ]
   },
   "C488J2NND5LJ": {
-    "antiquity": 2021,
+    "antiquity": 2022,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
@@ -36929,7 +37256,7 @@ const GAME = {
     ]
   },
   "C48LBRJJCP2L": {
-    "antiquity": 2797,
+    "antiquity": 2798,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.3,
@@ -36941,7 +37268,7 @@ const GAME = {
     ]
   },
   "C48LJQLV397R": {
-    "antiquity": 1719,
+    "antiquity": 1720,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -36956,33 +37283,33 @@ const GAME = {
     ]
   },
   "C48PP1NS6ZNP": {
-    "antiquity": 3734,
+    "antiquity": 3735,
     "gamepass": false,
-    "price": 39.99,
+    "price": 7.99,
     "rate": 5.0,
     "reviews": 21,
     "trial": false,
-    "discount": 0,
+    "discount": 80.020004,
     "tags": [
       "Strategy",
-      "Simulation"
-    ]
-  },
-  "C48XJRK40VC4": {
-    "antiquity": 3342,
-    "gamepass": false,
-    "price": 1.49,
-    "rate": 3.5,
-    "reviews": 47,
-    "trial": false,
-    "discount": 90.053406,
-    "tags": [
-      "Platformer",
+      "Simulation",
       "Oferta"
     ]
   },
+  "C48XJRK40VC4": {
+    "antiquity": 3343,
+    "gamepass": false,
+    "price": 14.98,
+    "rate": 3.5,
+    "reviews": 47,
+    "trial": false,
+    "discount": 0,
+    "tags": [
+      "Platformer"
+    ]
+  },
   "C48ZFTBQ17Q3": {
-    "antiquity": 2841,
+    "antiquity": 2842,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -36995,7 +37322,7 @@ const GAME = {
     ]
   },
   "C493V31WXV80": {
-    "antiquity": 5011,
+    "antiquity": 5012,
     "gamepass": false,
     "price": 6.59,
     "rate": 4.8,
@@ -37009,11 +37336,11 @@ const GAME = {
     ]
   },
   "C496CLVXMJP8": {
-    "antiquity": 2239,
+    "antiquity": 2240,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.5,
-    "reviews": 2407,
+    "reviews": 2408,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -37023,7 +37350,7 @@ const GAME = {
     ]
   },
   "C4B39136C8KR": {
-    "antiquity": 3055,
+    "antiquity": 3056,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.5,
@@ -37037,7 +37364,7 @@ const GAME = {
     ]
   },
   "C4B4K16TJG7Z": {
-    "antiquity": 1938,
+    "antiquity": 1939,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.0,
@@ -37050,7 +37377,7 @@ const GAME = {
     ]
   },
   "C4BZ7X545J1T": {
-    "antiquity": 2722,
+    "antiquity": 2723,
     "gamepass": false,
     "price": 5.99,
     "rate": 4.4,
@@ -37066,7 +37393,7 @@ const GAME = {
     ]
   },
   "C4C2Q9BC2W28": {
-    "antiquity": 2638,
+    "antiquity": 2639,
     "gamepass": false,
     "price": 18.99,
     "rate": 3.8,
@@ -37079,21 +37406,20 @@ const GAME = {
     ]
   },
   "C4CSS7QSS98C": {
-    "antiquity": 3237,
+    "antiquity": 3238,
     "gamepass": false,
-    "price": 4.99,
+    "price": 19.98,
     "rate": 4.4,
     "reviews": 71,
     "trial": false,
-    "discount": 75.025024,
+    "discount": 0,
     "tags": [
       "Action",
-      "Platformer",
-      "Oferta"
+      "Platformer"
     ]
   },
   "C4D86ZHWZ424": {
-    "antiquity": 1816,
+    "antiquity": 1817,
     "gamepass": false,
     "price": 17.99,
     "rate": 4.1,
@@ -37108,7 +37434,7 @@ const GAME = {
     ]
   },
   "C4DMGRPNSHXG": {
-    "antiquity": 3541,
+    "antiquity": 3542,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.0,
@@ -37122,7 +37448,7 @@ const GAME = {
     ]
   },
   "C4DQHRNN1ZN5": {
-    "antiquity": 3237,
+    "antiquity": 3238,
     "gamepass": false,
     "price": 9.99,
     "rate": 4.6,
@@ -37137,7 +37463,7 @@ const GAME = {
     ]
   },
   "C4F7ZHLN6B2J": {
-    "antiquity": 3414,
+    "antiquity": 3415,
     "gamepass": true,
     "price": 14.84,
     "rate": 4.4,
@@ -37152,7 +37478,7 @@ const GAME = {
     ]
   },
   "C4FDJJ0TC3BZ": {
-    "antiquity": 3244,
+    "antiquity": 3245,
     "gamepass": false,
     "price": 14.99,
     "rate": 4.5,
@@ -37166,7 +37492,7 @@ const GAME = {
     ]
   },
   "C4FK95NSWL7G": {
-    "antiquity": 2890,
+    "antiquity": 2891,
     "gamepass": false,
     "price": 49.99,
     "rate": 4.3,
@@ -37179,7 +37505,7 @@ const GAME = {
     ]
   },
   "C4G76555T4QN": {
-    "antiquity": 4717,
+    "antiquity": 4718,
     "gamepass": true,
     "price": 19.99,
     "rate": 4.0,
@@ -37193,7 +37519,7 @@ const GAME = {
     ]
   },
   "C4GH8N6ZXG5L": {
-    "antiquity": 2481,
+    "antiquity": 2482,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.6,
@@ -37207,7 +37533,7 @@ const GAME = {
     ]
   },
   "C4H36B87SVL1": {
-    "antiquity": 1896,
+    "antiquity": 1897,
     "gamepass": false,
     "price": 59.99,
     "rate": 4.5,
@@ -37219,7 +37545,7 @@ const GAME = {
     ]
   },
   "C4HFHZ44Z3R3": {
-    "antiquity": 3370,
+    "antiquity": 3371,
     "gamepass": false,
     "price": 64.99,
     "rate": 4.5,
@@ -37232,7 +37558,7 @@ const GAME = {
     ]
   },
   "C4HXGZ1X0881": {
-    "antiquity": 3205,
+    "antiquity": 3206,
     "gamepass": false,
     "price": 4.99,
     "rate": 4.1,
@@ -37248,7 +37574,7 @@ const GAME = {
     ]
   },
   "C4HZC7LJG6PX": {
-    "antiquity": 1572,
+    "antiquity": 1573,
     "gamepass": true,
     "price": 29.99,
     "rate": 3.4,
@@ -37264,7 +37590,7 @@ const GAME = {
     ]
   },
   "C4KBHNHRPLN6": {
-    "antiquity": 1592,
+    "antiquity": 1593,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -37279,7 +37605,7 @@ const GAME = {
     ]
   },
   "C4KCJBLFZ8V7": {
-    "antiquity": 5081,
+    "antiquity": 5082,
     "gamepass": false,
     "price": 19.99,
     "rate": 4.3,
@@ -37292,7 +37618,7 @@ const GAME = {
     ]
   },
   "C4LLMHFQ1BXQ": {
-    "antiquity": 2292,
+    "antiquity": 2293,
     "gamepass": true,
     "price": 39.99,
     "rate": 4.3,
@@ -37306,7 +37632,7 @@ const GAME = {
     ]
   },
   "C4M5BK5HMGJD": {
-    "antiquity": 2568,
+    "antiquity": 2569,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.5,
@@ -37326,7 +37652,7 @@ const GAME = {
     ]
   },
   "C4MFC7S8RSBF": {
-    "antiquity": 3176,
+    "antiquity": 3177,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.5,
@@ -37338,7 +37664,7 @@ const GAME = {
     ]
   },
   "C4MSTXCKBXGL": {
-    "antiquity": 2677,
+    "antiquity": 2678,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.2,
@@ -37352,7 +37678,7 @@ const GAME = {
     ]
   },
   "C4P9QWXCHKNJ": {
-    "antiquity": 4885,
+    "antiquity": 4886,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.9,
@@ -37365,7 +37691,7 @@ const GAME = {
     ]
   },
   "C4PCN1CK76MR": {
-    "antiquity": 1889,
+    "antiquity": 1890,
     "gamepass": false,
     "price": 39.98,
     "rate": 4.6,
@@ -37379,7 +37705,7 @@ const GAME = {
     ]
   },
   "C4PZ0V39GXN2": {
-    "antiquity": 2469,
+    "antiquity": 2470,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.8,
@@ -37395,7 +37721,7 @@ const GAME = {
     ]
   },
   "C4Q29CMJ31NX": {
-    "antiquity": 3099,
+    "antiquity": 3100,
     "gamepass": false,
     "price": 3.99,
     "rate": 4.3,
@@ -37408,7 +37734,7 @@ const GAME = {
     ]
   },
   "C4Q7K19Q0VBZ": {
-    "antiquity": 1697,
+    "antiquity": 1698,
     "gamepass": false,
     "price": 10.49,
     "rate": 4.2,
@@ -37425,7 +37751,7 @@ const GAME = {
     ]
   },
   "C4QNR5Z103QW": {
-    "antiquity": 2649,
+    "antiquity": 2650,
     "gamepass": false,
     "price": 43.99,
     "rate": 4.1,
@@ -37440,7 +37766,7 @@ const GAME = {
     ]
   },
   "C4RQNBKSLJG7": {
-    "antiquity": 1959,
+    "antiquity": 1960,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.4,
@@ -37453,7 +37779,7 @@ const GAME = {
     ]
   },
   "C4S60FPWF4XN": {
-    "antiquity": 2673,
+    "antiquity": 2674,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.8,
@@ -37466,7 +37792,7 @@ const GAME = {
     ]
   },
   "C4VKLMG1HLZW": {
-    "antiquity": 2067,
+    "antiquity": 2068,
     "gamepass": true,
     "price": 19.99,
     "rate": 3.9,
@@ -37480,7 +37806,7 @@ const GAME = {
     ]
   },
   "C4VLMWJWM7BG": {
-    "antiquity": 2302,
+    "antiquity": 2303,
     "gamepass": false,
     "price": 11.99,
     "rate": 4.3,
@@ -37493,23 +37819,24 @@ const GAME = {
     ]
   },
   "C4XX6JL0N0DM": {
-    "antiquity": 3877,
+    "antiquity": 3878,
     "gamepass": false,
-    "price": 29.99,
+    "price": 8.99,
     "rate": 4.5,
     "reviews": 31,
     "trial": false,
-    "discount": 0,
+    "discount": 70.023346,
     "tags": [
-      "Shooter"
+      "Shooter",
+      "Oferta"
     ]
   },
   "C4Z7QM8FSXM2": {
-    "antiquity": 2126,
+    "antiquity": 2127,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.4,
-    "reviews": 480,
+    "reviews": 481,
     "trial": false,
     "discount": 0,
     "tags": [
@@ -37519,7 +37846,7 @@ const GAME = {
     ]
   },
   "C50KFXWMQSFW": {
-    "antiquity": 3345,
+    "antiquity": 3346,
     "gamepass": false,
     "price": 7.49,
     "rate": 3.4,
@@ -37532,22 +37859,21 @@ const GAME = {
     ]
   },
   "C50MCJDHVK7J": {
-    "antiquity": 2761,
+    "antiquity": 2762,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 4.3,
     "reviews": 13,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "LocalMultiPlayer",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "C521HDXRTS7F": {
-    "antiquity": 3037,
+    "antiquity": 3038,
     "gamepass": true,
     "price": 7.49,
     "rate": 4.1,
@@ -37564,7 +37890,7 @@ const GAME = {
     ]
   },
   "C52HDXHZV2KR": {
-    "antiquity": 3884,
+    "antiquity": 3885,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.9,
@@ -37578,20 +37904,19 @@ const GAME = {
     ]
   },
   "C535G04WLZ9R": {
-    "antiquity": 4966,
+    "antiquity": 4967,
     "gamepass": false,
-    "price": 3.74,
+    "price": 14.99,
     "rate": 4.0,
     "reviews": 12,
     "trial": false,
-    "discount": 75.05003,
+    "discount": 0,
     "tags": [
-      "Shooter",
-      "Oferta"
+      "Shooter"
     ]
   },
   "C545JKTS21Q2": {
-    "antiquity": 2568,
+    "antiquity": 2569,
     "gamepass": false,
     "price": 15.99,
     "rate": 4.6,
@@ -37604,7 +37929,7 @@ const GAME = {
     ]
   },
   "C54H8FDKTJPG": {
-    "antiquity": 2239,
+    "antiquity": 2240,
     "gamepass": false,
     "price": 20.24,
     "rate": 4.5,
@@ -37620,7 +37945,7 @@ const GAME = {
     ]
   },
   "C5610G5KX0D6": {
-    "antiquity": 3392,
+    "antiquity": 3393,
     "gamepass": false,
     "price": 39.99,
     "rate": 4.2,
@@ -37634,20 +37959,19 @@ const GAME = {
     ]
   },
   "C568X8SS5Q2T": {
-    "antiquity": 1896,
+    "antiquity": 1897,
     "gamepass": false,
-    "price": 15.99,
+    "price": 79.99,
     "rate": 4.1,
     "reviews": 62,
     "trial": false,
-    "discount": 80.01,
+    "discount": 0,
     "tags": [
-      "Bundle",
-      "Oferta"
+      "Bundle"
     ]
   },
   "C57L9GR0HHB7": {
-    "antiquity": 3114,
+    "antiquity": 3115,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.7,
@@ -37665,7 +37989,7 @@ const GAME = {
     ]
   },
   "C5828HS8K39D": {
-    "antiquity": 2796,
+    "antiquity": 2797,
     "gamepass": false,
     "price": 18.49,
     "rate": 3.8,
@@ -37679,7 +38003,7 @@ const GAME = {
     ]
   },
   "C58BNJCDWJ4X": {
-    "antiquity": 3107,
+    "antiquity": 3108,
     "gamepass": false,
     "price": 3.99,
     "rate": 2.9,
@@ -37693,7 +38017,7 @@ const GAME = {
     ]
   },
   "C5911MLTLXK1": {
-    "antiquity": 3042,
+    "antiquity": 3043,
     "gamepass": false,
     "price": 29.99,
     "rate": 4.3,
@@ -37707,7 +38031,7 @@ const GAME = {
     ]
   },
   "C596FKDKMQN7": {
-    "antiquity": 1713,
+    "antiquity": 1714,
     "gamepass": false,
     "price": 24.99,
     "rate": 4.6,
@@ -37723,7 +38047,7 @@ const GAME = {
     ]
   },
   "C59QBPB8P1XJ": {
-    "antiquity": 2838,
+    "antiquity": 2839,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.6,
@@ -37739,21 +38063,20 @@ const GAME = {
     ]
   },
   "C5B84LR72JB7": {
-    "antiquity": 1742,
+    "antiquity": 1743,
     "gamepass": false,
-    "price": 7.49,
+    "price": 29.99,
     "rate": 3.5,
     "reviews": 6,
     "trial": false,
-    "discount": 75.02501,
+    "discount": 0,
     "tags": [
       "Action",
-      "MultiPlayer",
-      "Oferta"
+      "MultiPlayer"
     ]
   },
   "C5CPCD5GBSPX": {
-    "antiquity": 6149,
+    "antiquity": 6150,
     "gamepass": false,
     "price": 9.99,
     "rate": 5.0,
@@ -37765,7 +38088,7 @@ const GAME = {
     ]
   },
   "C5CZ41LM1DLM": {
-    "antiquity": 2524,
+    "antiquity": 2525,
     "gamepass": false,
     "price": 0.0,
     "rate": 3.9,
@@ -37779,7 +38102,7 @@ const GAME = {
     ]
   },
   "C5D7449R6SDR": {
-    "antiquity": 3223,
+    "antiquity": 3224,
     "gamepass": false,
     "price": 19.99,
     "rate": 2.8,
@@ -37793,23 +38116,22 @@ const GAME = {
     ]
   },
   "C5DP7MGFR583": {
-    "antiquity": 2106,
+    "antiquity": 2107,
     "gamepass": false,
-    "price": 0.99,
+    "price": 4.99,
     "rate": 4.5,
     "reviews": 14,
     "trial": false,
-    "discount": 80.16032,
+    "discount": 0,
     "tags": [
       "Racing & flying",
       "Action",
       "Sports",
-      "SinglePlayer",
-      "Oferta"
+      "SinglePlayer"
     ]
   },
   "C5DZFZ6NC5SQ": {
-    "antiquity": 1965,
+    "antiquity": 1966,
     "gamepass": true,
     "price": 5.24,
     "rate": 4.6,
@@ -37826,7 +38148,7 @@ const GAME = {
     ]
   },
   "C5F2XDQPPJKZ": {
-    "antiquity": 2334,
+    "antiquity": 2335,
     "gamepass": true,
     "price": 29.99,
     "rate": 4.3,
@@ -37839,7 +38161,7 @@ const GAME = {
     ]
   },
   "C5FP8DQ3R1WF": {
-    "antiquity": 3387,
+    "antiquity": 3388,
     "gamepass": false,
     "price": 19.99,
     "rate": 3.9,
@@ -37852,10 +38174,10 @@ const GAME = {
     ]
   },
   "C5GDG0CQ99RJ": {
-    "antiquity": 3273,
+    "antiquity": 3274,
     "gamepass": false,
     "price": 0.0,
-    "rate": 3.7,
+    "rate": 3.8,
     "reviews": 68,
     "trial": false,
     "discount": 0,
@@ -37868,7 +38190,7 @@ const GAME = {
     ]
   },
   "C5HHPG1TXDNG": {
-    "antiquity": 6667,
+    "antiquity": 6668,
     "gamepass": true,
     "price": 3.49,
     "rate": 3.2,
@@ -37884,7 +38206,7 @@ const GAME = {
     ]
   },
   "C5K89TFLSV19": {
-    "antiquity": 4997,
+    "antiquity": 4998,
     "gamepass": true,
     "price": 14.99,
     "rate": 4.7,
@@ -37897,7 +38219,7 @@ const GAME = {
     ]
   },
   "C5KDXM27B23F": {
-    "antiquity": 4716,
+    "antiquity": 4717,
     "gamepass": false,
     "price": 14.39,
     "rate": 4.2,
@@ -37910,7 +38232,7 @@ const GAME = {
     ]
   },
   "C5KFH4XKWVKN": {
-    "antiquity": 2650,
+    "antiquity": 2651,
     "gamepass": false,
     "price": 9.99,
     "rate": 2.7,

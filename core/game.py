@@ -2,13 +2,14 @@ import inspect
 import re
 from os.path import isfile
 from functools import cached_property
-from typing import Union
+from typing import Union, Tuple
 from math import ceil
 from dataclasses import dataclass
 from datetime import date
 import json
 from math import floor
 from .thumbnail import mk_thumbnail
+from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
 
 MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
 YEAR = date.today().year+1
@@ -37,19 +38,25 @@ def iter_kv(obj, *breadcrumbs):
 
 
 class Game:
-    def __init__(self, i: Union[dict, str], collections: tuple[str]):
-        if isinstance(i, str):
-            i = read_json("rec/gm/"+i+".json")
-        self.i = i
+    def __init__(self, id: str, collections: Tuple[str] = None):
+        self.id = id
         self.collections = collections
-        jfile = self.i['ProductId']+".json"
-        self.productActions = read_json("rec/ac/"+jfile) or {"productActions": []}
-        self.preload_state = read_json("rec/ps/"+jfile)
-        self.reviewsInfo = read_json("rec/rw/"+jfile) or {}
 
     @cached_property
-    def id(self) -> str:
-        return self.i['ProductId']
+    def i(self):
+        return EndPointGame(self.id).json()
+
+    @cached_property
+    def productActions(self):
+        return EndPointActions(self.id).json() or {"productActions": []}
+
+    @cached_property
+    def preload_state(self):
+        return EndPointPreloadState(self.id).json()
+
+    @cached_property
+    def reviewsInfo(self):
+        return EndPointReviews(self.id).json() or {}
 
     @cached_property
     def price(self) -> float:
@@ -60,7 +67,7 @@ class Game:
         if self.preload_state is None:
             return 0
         obj = dict(self.preload_state)
-        for k in ('core2', 'products', 'productSummaries' , self.id, 'specificPrices', 'purchaseable'):
+        for k in ('core2', 'products', 'productSummaries', self.id, 'specificPrices', 'purchaseable'):
             obj = obj.get(k)
             if obj is None:
                 return 0
@@ -87,11 +94,7 @@ class Game:
 
     @cached_property
     def url(self) -> str:
-        return "https://www.xbox.com/es-es/games/store/a/"+self.i['ProductId']
-
-    @cached_property
-    def js(self) -> str:
-        return "https://displaycatalog.mp.microsoft.com/v7.0/products?"+MSCV+"&market=ES&languages=es-es&bigIds="+self.i['ProductId']
+        return "https://www.xbox.com/es-es/games/store/a/"+self.id
 
     @cached_property
     def imgs(self) -> tuple[str]:
@@ -164,7 +167,7 @@ class Game:
 
     @property
     def tragaperras(self) -> bool:
-        return len(self.compras)>0 and 'TopFree' in self.collections
+        return len(self.compras) > 0 and 'TopFree' in self.collections
 
     @property
     def requiresGame(self) -> bool:
@@ -181,9 +184,9 @@ class Game:
     @cached_property
     def langs(self) -> tuple[str]:
         def find_lang(lng: str, arr: list[str]):
-            for l in arr:
-                l = l.lower()
-                if l == lng or l.startswith(lng+'-'):
+            for ln in arr:
+                ln = ln.lower()
+                if ln == lng or ln.startswith(lng+'-'):
                     return True
             return False
         langs = set()
@@ -280,7 +283,7 @@ class Game:
         #    tags.append("GamePass")
         if self.discount > 0:
             tags.append("Oferta")
-        tags = sorted(set(tags), key=lambda x:tags.index(x))
+        tags = sorted(set(tags), key=lambda x: tags.index(x))
         return tuple(tags)
 
     def to_dict(self) -> dict:
@@ -291,7 +294,8 @@ class Game:
         return dt
 
     def to_js(self) -> dict:
-        ks = ('gamepass', 'id', 'price', 'rate', 'reviews', 'tags', 'trial', 'discount')
+        ks = ('gamepass', 'id', 'price', 'rate',
+              'reviews', 'tags', 'trial', 'discount')
         dt = {}
         for k, v in inspect.getmembers(self):
             if k in ks and isinstance(v, (str, int, float, tuple)):

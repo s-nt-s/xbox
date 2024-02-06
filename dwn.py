@@ -2,7 +2,7 @@ from core.api import Api, chunks
 import argparse
 import logging
 from core.bulkrequests import BulkRequests
-from core.bulkapi import BulkRequestsCollection, BulkRequestsGamepass, BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews
+from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews, BulkRequestsThumbnail
 
 parser = argparse.ArgumentParser(
     description='Descarga ficheros para la cache',
@@ -11,19 +11,19 @@ parser.add_argument(
     '--tcp-limit', type=int, default=50
 )
 parser.add_argument(
-    '--collection', action='store_true', help="Descarga las coleciones de juegos"
+    '--game', action='store_true', help="Descarga la ficha de los juegos"
 )
 parser.add_argument(
-    '--game', action='store_true', help="Descarga la ficha de los jeugos"
+    '--preload-state', action='store_true', help="Descarga el preload state de los juegos"
 )
 parser.add_argument(
-    '--preload-state', action='store_true', help="Descarga el preload state de los jeugos"
+    '--action', action='store_true', help="Descarga las acciones de los juegos"
 )
 parser.add_argument(
-    '--action', action='store_true', help="Descarga las acciones de los jeugos"
+    '--review', action='store_true', help="Descarga las review de los juegos"
 )
 parser.add_argument(
-    '--review', action='store_true', help="Descarga las review de los jeugos"
+    '--thumbnail', action='store_true', help="Descarga los thumbnail de los juegos"
 )
 
 
@@ -56,21 +56,6 @@ all_false_is_all_true(ARG)
 API = Api()
 
 
-def dwn_collection(tcp_limit: int = 10):
-    BulkRequests(
-        tcp_limit=tcp_limit,
-        tries=10
-    ).run(*(
-        BulkRequestsCollection(c) for c in API.COLS
-    ), label="collection")
-    BulkRequests(
-        tcp_limit=tcp_limit,
-        tries=10
-    ).run(*(
-        BulkRequestsGamepass(c) for c in API.GMPS.values()
-    ), label="gamepass")
-
-
 def dwn_game(tcp_limit: int = 10):
     BulkRequests(
         tcp_limit=tcp_limit,
@@ -83,29 +68,30 @@ def dwn_game(tcp_limit: int = 10):
 def dwn_preload_state(tcp_limit: int = 10):
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10,
-        sleep=60
+        tries=10
     ).run(*map(BulkRequestsPreloadState, API.get_ids()), label="preload_state")
 
 
 def dwn_action(tcp_limit: int = 10):
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10,
-        sleep=60
+        tries=10
     ).run(*map(BulkRequestsActions, API.get_ids()), label="action")
 
 
 def dwn_review(tcp_limit: int = 10):
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10,
-        sleep=60
+        tries=10
     ).run(*map(BulkRequestsReviews, API.get_ids()), label="review")
 
 
-if ARG.collection:
-    dwn_collection(tcp_limit=ARG.tcp_limit)
+def dwn_thumbnail(tcp_limit: int = 10):
+    BulkRequests(
+        tcp_limit=tcp_limit,
+        tries=10
+    ).run(*map(BulkRequestsThumbnail, API.get_ids()), label="thumbnail")
+
 
 if ARG.game:
     dwn_game(tcp_limit=ARG.tcp_limit)
@@ -118,3 +104,6 @@ if ARG.action:
 
 if ARG.review:
     dwn_review(tcp_limit=ARG.tcp_limit)
+
+if ARG.thumbnail:
+    dwn_thumbnail(tcp_limit=ARG.tcp_limit)

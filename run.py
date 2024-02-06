@@ -55,19 +55,9 @@ print("Aplicando 1º filtro", end="\r")
 items = list(filter(do_filter1, items))
 print("Aplicando 1º filtro:", len(items))
 
-print("Obteniendo preload state")
-for i in iter_progress(items):
-    i.preload_state = api.get_preload_state(i.id)
-
 print("Aplicando 2º filtro", end="\r")
 items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
-
-print("Obteniendo acciones y reviews")
-with ApiDriver(browser="wirefirefox") as f:
-    for i in iter_progress(items):
-        i.productActions = api.get_actions(f, i.id)
-        i.reviewsInfo = (api.get_reviews(f, i.id) or {})
 
 print("Aplicando 2º filtro", end="\r")
 items = list(filter(do_filter2, items))
