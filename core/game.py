@@ -117,13 +117,13 @@ class Game:
 
     @cached_property
     def imgs(self) -> tuple[str]:
-        return tuple(["http:"+x["Uri"] for x in self.i["LocalizedProperties"][0]["Images"]])
+        return tuple(["https:"+x["Uri"] for x in self.i["LocalizedProperties"][0]["Images"]])
 
     @cached_property
     def poster(self) -> str:
         for i in self.i["LocalizedProperties"][0]["Images"]:
             if i['ImagePurpose'] == 'Poster':
-                return "http:"+i["Uri"]
+                return "https:"+i["Uri"]
         return self.imgs[0]
 
     @cached_property
