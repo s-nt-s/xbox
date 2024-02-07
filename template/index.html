@@ -70,8 +70,8 @@
 			{% endif %}
 			{% if gl.antiques %}
 			<p>
-				<label for="antiguedad">Antigüedad:
-				<select id="antiguedad" data-type="number">
+				<label for="antiquity">Antigüedad:
+				<select id="antiquity" data-type="number">
 					{% for a in gl.antiques %}
 					<option value="{{a}}"{%if loop.last%} selected{%endif%}>{{a}} día{%if a>1%}s{%endif%}</option>
 					{% endfor %}
@@ -81,7 +81,7 @@
 			{% endif %}
 		</fieldset>
 		<fieldset class="chkhideshow">
-			<legend><select id="chkhideshow">
+			<legend><select id="mode">
 				<option value="HO" selected>Ocultar (OR)</option>
 				<option value="SO">Mostrar (OR)</option>
 				<option value="HA">Ocultar (AND)</option>
