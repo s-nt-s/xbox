@@ -250,11 +250,12 @@ function filtrar() {
     if (!fl) return false;
 
     const ok_rgs = Object.entries(form.range).map(([k, value]) => {
-      const vl = j[k];
+      let vl = j[k];
       if (vl == null) {
         console.log(i.id, "no tine", k);
         return true;
       }
+      if (k=="price") vl = Math.round(vl);
       return vl >= value["min"] && vl <= value["max"];
     });
     if (ok_rgs.includes(false)) return false;
