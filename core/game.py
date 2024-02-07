@@ -8,7 +8,6 @@ from dataclasses import dataclass
 from datetime import date
 import json
 from math import floor
-from .thumbnail import mk_thumbnail
 from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
 
 YEAR = date.today().year+1
@@ -96,6 +95,10 @@ class Game:
         return "https://www.xbox.com/es-es/games/store/a/"+self.id
 
     @cached_property
+    def productType(self) -> str:
+        return self.i["ProductType"]
+
+    @cached_property
     def imgs(self) -> tuple[str]:
         return tuple(["http:"+x["Uri"] for x in self.i["LocalizedProperties"][0]["Images"]])
 
@@ -108,10 +111,7 @@ class Game:
 
     @cached_property
     def thumbnail(self) -> str:
-        out = "out/img/"+self.id+".jpg"
-        if not isfile(out):
-            mk_thumbnail(self.poster, out)
-        return out.split("/", 1)[-1]
+        return self.poster+"?q=40&w=150&h=225"
 
     @cached_property
     def attributes(self) -> tuple[str]:
@@ -234,6 +234,8 @@ class Game:
     @property
     def tags(self) -> tuple[str]:
         tags = []
+        if self.productType != 'Game':
+            tags.append(self.productType)
         if self.onlyGamepass:
             tags.append("SoloGamePass")
         if self.tragaperras:

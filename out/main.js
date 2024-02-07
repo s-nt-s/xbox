@@ -1,15 +1,14 @@
 const isLocal = ["", "localhost"].includes(document.location.hostname);
-const $$ = (slc) => Array.from(document.querySelectorAll(slc))
-
+const $$ = (slc) => Array.from(document.querySelectorAll(slc));
 
 class FormQuery {
   static form() {
     const d = {
       tags: [],
-      range: {}
-    }
+      range: {},
+    };
     const minmax = /_(max|min)$/;
-    document.querySelectorAll("input[id], select[id]").forEach(n => {
+    document.querySelectorAll("input[id], select[id]").forEach((n) => {
       if (minmax.test(n.id)) return;
       const v = getVal(n.id);
       if (v === false || v === 0) return;
@@ -19,89 +18,123 @@ class FormQuery {
       }
       d[n.id] = v;
     });
-    d.range=getRanges(...(new Set(
-      $$("input[id$=_max],input[id$=_min]").map(n=>n.id.replace(minmax, ""))
-    )));
+    d.range = getRanges(
+      ...new Set(
+        $$("input[id$=_max],input[id$=_min]").map((n) =>
+          n.id.replace(minmax, "")
+        )
+      )
+    );
     return d;
   }
-  static form_to_query() {
-    const qr=[];
+  static __form_to_query() {
+    if (document.querySelectorAll('.game[style="display: none;"]').length==0) {
+      return "all";
+    }
+    const qr = [];
     const form = FormQuery.form();
     Object.entries(form).forEach(([k, v]) => {
       if (["mode", "range", "tags"].includes(k)) return;
       if (typeof v == "string") v = encodeURIComponent(v);
-      qr.push(k+"="+v);
-    })
+      qr.push(k + "=" + v);
+    });
     Object.entries(form.range).forEach(([k, v]) => {
-      qr.push(k+"="+v.min+'-'+v.max);
-    })
+      qr.push(k + "=" + v.min + "-" + v.max);
+    });
     if (form.tags.length)
-    qr.push(form.mode+'='+form.tags.map(t=>encodeURIComponent(t)).join("+"))
-    const query = '?'+qr.join("&");
+      qr.push(
+        form.mode + "=" + form.tags.map((t) => encodeURIComponent(t)).join("+")
+      );
+    return qr.join("&");
+  }
+  static form_to_query() {
+    const query = '?' + FormQuery.__form_to_query();
     if (document.location.search == query) return;
-    const url = document.location.href.replace(/\?.*$/,"");
-    history.pushState({}, "", url+query);
+    const url = document.location.href.replace(/\?.*$/, "");
+    history.pushState({}, "", url + query);
   }
   static query_to_form() {
     const query = FormQuery.query();
     if (query == null) return;
+    if (query == "all") {
+      setVal("list", "A");
+      setVal("mode", "HO");
+      setVal("discount", "0");
+      setVal("antiquity", $$("#antiquity option").pop().value);
+      $$('.chkhideshow input[type="checkbox"]').forEach((i) => setVal(i.id, false));
+      $$("input[id$=_min]").forEach((n) => setVal(n.id, n.getAttribute("min")));
+      $$("input[id$=_max]").forEach((n) => setVal(n.id, n.getAttribute("max")));
+      return;
+    }
     Object.entries(query).forEach(([k, v]) => {
       if (["range", "tags"].includes(k)) return;
       setVal(k, v);
-    })
-    if (query.range) Object.entries(query.range).forEach(([k, v]) => {
-      setVal(k+"_min", v['min']);
-      setVal(k+"_max", v['max']);
-    })
-    if (query.tags) document.querySelectorAll('.chkhideshow input[type="checkbox"]').forEach(i=>{
-      setVal(i.id, query.tags.includes(i.id));
-    })
+    });
+    if (query.range)
+      Object.entries(query.range).forEach(([k, v]) => {
+        setVal(k + "_min", v["min"]);
+        setVal(k + "_max", v["max"]);
+      });
+    if (query.tags)
+      document
+        .querySelectorAll('.chkhideshow input[type="checkbox"]')
+        .forEach((i) => {
+          setVal(i.id, query.tags.includes(i.id));
+        });
   }
   static query() {
-    const mode = Array.from(document.getElementById("mode").options).map(o=>o.value);
+    const mode = Array.from(document.getElementById("mode").options).map(
+      (o) => o.value
+    );
     const search = document.location.search.replace(/^\?/, "");
     if (search.length == 0) return null;
+    if (search == "all") return search;
     const d = {
       tags: [],
-      range: {}
+      range: {},
     };
-    search.split('&').forEach((i) => {
-        const [k, v] = FormQuery.__get_kv(i);
-        if (k == null) return;
-        if (typeof v == "object") {
-          d.range[k] = v;
-          return;
-        }
-        if (mode.includes(k)) {
-          d['mode'] = k;
-          d.tags = v.split("+").map(t=>decodeURIComponent(t));
-          return;
-        }
-        d[k] = v;
+    search.split("&").forEach((i) => {
+      const [k, v] = FormQuery.__get_kv(i);
+      if (k == null) return;
+      if (typeof v == "object") {
+        d.range[k] = v;
+        return;
+      }
+      if (mode.includes(k)) {
+        d["mode"] = k;
+        d.tags = v.split("+").map((t) => decodeURIComponent(t));
+        return;
+      }
+      d[k] = v;
     });
     return d;
   }
   static __get_kv(v) {
-    const tmp = v.split('=').flatMap(i=>{
+    const tmp = v.split("=").flatMap((i) => {
       i = i.trim();
-      return i.length==0?[]:i;
-    })
-    if (tmp.length>2 || tmp[0]==0) return [null, null];
+      return i.length == 0 ? [] : i;
+    });
+    if (tmp.length > 2 || tmp[0] == 0) return [null, null];
     const k = tmp[0];
     if (!isNaN(Number(k))) return [null, null];
-    if (tmp.length==2) {
+    if (tmp.length == 2) {
       const v = tmp[1];
       const n = Number(v);
       if (!isNaN(n)) return [k, n];
       if (v.match(/^\d+-\d+$/)) {
-        const [_min, _max] = v.split("-").map(i=>Number(i)).sort((a,b)=>a-b);
-        return [k, {min:_min, max:_max}]
+        const [_min, _max] = v
+          .split("-")
+          .map((i) => Number(i))
+          .sort((a, b) => a - b);
+        return [k, { min: _min, max: _max }];
       }
       return [k, v];
     }
-    const opt = document.querySelectorAll('select[id] option[value="'+k+'"]');
+    const opt = document.querySelectorAll(
+      'select[id] option[value="' + k + '"]'
+    );
     if (opt.length == 1) {
-      return [opt[0].closest("select[id]").id, k]
+      return [opt[0].closest("select[id]").id, k];
     }
     return [k, true];
   }
@@ -119,7 +152,8 @@ function getVal(id) {
     console.log("No se ha encontrado #" + id);
     return null;
   }
-  if (elm.tagName == "INPUT" && elm.getAttribute("type") == "checkbox") return elm.checked;
+  if (elm.tagName == "INPUT" && elm.getAttribute("type") == "checkbox")
+    return elm.checked;
   const val = (elm.value ?? "").trim();
   if (val.length == 0) return null;
   const tp = elm.getAttribute("data-type") || elm.getAttribute("type");
@@ -138,7 +172,7 @@ function setVal(id, v) {
     return null;
   }
   if (elm.tagName == "INPUT" && elm.getAttribute("type") == "checkbox") {
-    elm.checked = (v === true);
+    elm.checked = v === true;
     return;
   }
   elm.value = v;
@@ -178,8 +212,9 @@ function filtrar() {
     if (form.list == "G" && !j.gamepass) return false;
     if (form.list == "F" && !j.tags.includes("Free")) return false;
     if (form.list == "T" && !j.trial) return false;
-    if (j.antiquity != null && j.antiquity > (form.antiquity??j.antiquity)) return false;
-    if (j.discount != null && j.discount < (form.discount??0)) return false;
+    if (j.antiquity != null && j.antiquity > (form.antiquity ?? j.antiquity))
+      return false;
+    if (j.discount != null && j.discount < (form.discount ?? 0)) return false;
 
     const fl = (() => {
       if (form.tags.length == 0) {
@@ -259,6 +294,19 @@ function ifLocal() {
       <a href="../rec/${path}/${p.parentNode.id}.json">${path}</a>
     `)
       );
+    });
+  });
+}
+
+function fixImg() {
+  document.getElementsByTagName("img").forEach((i) => {
+    i.addEventListener("error", function () {
+      const n = Number(this.getAttribute("data-retry"));
+      if (n > 3) return;
+      setTimeout(() => {
+        this.src = this.src;
+        this.setAttribute("data-retry", n + 1);
+      }, 3000);
     });
   });
 }

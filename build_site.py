@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from core.api import Api, ApiDriver
+from core.api import Api
 from core.j2 import Jnj2
 from datetime import datetime
 from core.game import Game, GameList
@@ -62,10 +62,6 @@ print("Aplicando 2º filtro:", len(items))
 print("Aplicando 2º filtro", end="\r")
 items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
-
-print("Generando thumbnail")
-for i in iter_progress(items):
-    _ = str(i.thumbnail)
 
 print("Generando web")
 items = sorted(items, key=lambda x: x.releaseDate, reverse=True)#(-x.reviews, -x.rate, x.title))

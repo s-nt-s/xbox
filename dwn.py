@@ -2,7 +2,7 @@ from core.api import Api, chunks
 import argparse
 import logging
 from core.bulkrequests import BulkRequests
-from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews, BulkRequestsThumbnail
+from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews
 
 parser = argparse.ArgumentParser(
     description='Descarga ficheros para la cache',
@@ -21,9 +21,6 @@ parser.add_argument(
 )
 parser.add_argument(
     '--review', action='store_true', help="Descarga las review de los juegos"
-)
-parser.add_argument(
-    '--thumbnail', action='store_true', help="Descarga los thumbnail de los juegos"
 )
 
 
@@ -86,13 +83,6 @@ def dwn_review(tcp_limit: int = 10):
     ).run(*map(BulkRequestsReviews, API.get_ids()), label="review")
 
 
-def dwn_thumbnail(tcp_limit: int = 10):
-    BulkRequests(
-        tcp_limit=tcp_limit,
-        tries=10
-    ).run(*map(BulkRequestsThumbnail, API.get_ids()), label="thumbnail")
-
-
 if ARG.game:
     dwn_game(tcp_limit=ARG.tcp_limit)
 
@@ -104,6 +94,3 @@ if ARG.action:
 
 if ARG.review:
     dwn_review(tcp_limit=ARG.tcp_limit)
-
-if ARG.thumbnail:
-    dwn_thumbnail(tcp_limit=ARG.tcp_limit)

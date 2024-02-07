@@ -5,7 +5,6 @@ from os.path import isfile
 import time
 from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
 from .game import Game
-from .thumbnail import mk_thumbnail
 
 
 class BulkRequestsGame(BulkRequestsFileJob):
@@ -109,21 +108,3 @@ class BulkRequestsReviews(BulkRequestsFileJob):
             self.endpoint.save_in_cache(js)
             return True
 
-
-class BulkRequestsThumbnail(BulkRequestsFileJob):
-    def __init__(self, id: str):
-        self.id = id
-
-    @property
-    def url(self):
-        return Game(self.id).poster
-
-    @property
-    def file(self):
-        return "out/img/"+self.id+".jpg"
-
-    async def do(self, session: ClientSession) -> bool:
-        async with session.get(self.url) as response:
-            content = await response.content.read()
-            mk_thumbnail(self.url, self.file, content=content)
-            return True
