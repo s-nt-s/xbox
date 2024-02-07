@@ -319,7 +319,7 @@ function ifLocal() {
 }
 
 function fixImg() {
-  document.getElementsByTagName("img").forEach((i) => {
+  document.querySelectorAll("img").forEach((i) => {
     i.addEventListener("error", function () {
       const n = Number(this.getAttribute("data-retry"));
       if (n > 3) return;
@@ -335,6 +335,7 @@ document.addEventListener(
   "DOMContentLoaded",
   () => {
     ifLocal();
+    fixImg();
     fixAntiguedad();
     FormQuery.query_to_form();
     document.querySelectorAll("input, select").forEach((i) => {
