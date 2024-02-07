@@ -142,8 +142,17 @@ class Game:
     def actions(self) -> tuple[str]:
         act = set()
         for x in self.productActions["productActions"]:
+            if x['productId'] != self.id:
+                continue
             for a in x['productActions']:
+                if a['actionArguments'].get('ProductId') != self.id:
+                    continue
                 act.add(a['actionType'])
+            for aa in x['skuActionsBySkuId'].values():
+                for a in aa:
+                    if a['actionArguments'].get('ProductId') != self.id:
+                        continue
+                    act.add(a['actionType'])
         act = tuple(sorted(act))
         return act
 
@@ -192,6 +201,10 @@ class Game:
     @property
     def notSoldSeparately(self) -> bool:
         return 'NotSoldSeparately' in self.actions
+
+    @property
+    def notAvailable(self) -> bool:
+        return 'Acquisition' not in self.actions
 
     @property
     def onlyGamepass(self) -> bool:

@@ -82,3 +82,7 @@ code.ofertaTrue {
 a.title {
   text-decoration: none;
 }
+
+.game.off {
+  display: none;
+}

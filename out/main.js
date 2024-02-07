@@ -11,7 +11,9 @@ class FormQuery {
     document.querySelectorAll("input[id], select[id]").forEach((n) => {
       if (minmax.test(n.id)) return;
       const v = getVal(n.id);
-      if (v === false || v === 0) return;
+      if (v === false) return;
+      if (n.id == "discount" && v === 0) return;
+      if (n.id == "antiquity" && v === Number($$("#antiquity option").pop().value)) return;
       if (v === true) {
         d.tags.push(n.id);
         return;
@@ -28,7 +30,7 @@ class FormQuery {
     return d;
   }
   static __form_to_query() {
-    if (document.querySelectorAll('.game[style="display: none;"]').length==0) {
+    if (document.querySelectorAll(".game.off").length == 0) {
       return "all";
     }
     const qr = [];
@@ -39,6 +41,12 @@ class FormQuery {
       qr.push(k + "=" + v);
     });
     Object.entries(form.range).forEach(([k, v]) => {
+      const n = document.getElementById(k + "_max");
+      if (
+        Number(n.getAttribute("min")) == v.min &&
+        Number(n.getAttribute("max")) == v.max
+      )
+        return;
       qr.push(k + "=" + v.min + "-" + v.max);
     });
     if (form.tags.length)
@@ -48,7 +56,7 @@ class FormQuery {
     return qr.join("&");
   }
   static form_to_query() {
-    const query = '?' + FormQuery.__form_to_query();
+    const query = "?" + FormQuery.__form_to_query();
     if (document.location.search == query) return;
     const url = document.location.href.replace(/\?.*$/, "");
     history.pushState({}, "", url + query);
@@ -61,7 +69,9 @@ class FormQuery {
       setVal("mode", "HO");
       setVal("discount", "0");
       setVal("antiquity", $$("#antiquity option").pop().value);
-      $$('.chkhideshow input[type="checkbox"]').forEach((i) => setVal(i.id, false));
+      $$('.chkhideshow input[type="checkbox"]').forEach((i) =>
+        setVal(i.id, false)
+      );
       $$("input[id$=_min]").forEach((n) => setVal(n.id, n.getAttribute("min")));
       $$("input[id$=_max]").forEach((n) => setVal(n.id, n.getAttribute("max")));
       return;
@@ -70,6 +80,15 @@ class FormQuery {
       if (["range", "tags"].includes(k)) return;
       setVal(k, v);
     });
+    const _set_rank_val = (n) => {
+      const [id, k] = n.id.split("_");
+      if (query.range==null || query.range[id]==null || query.range[id][k] == null) {
+        n.value = n.getAttribute(k);
+        return;
+      }
+      n.value=query.range[id][k];
+    }
+    $$("input[id$=_min],input[id$=_max]").forEach(_set_rank_val);
     if (query.range)
       Object.entries(query.range).forEach(([k, v]) => {
         setVal(k + "_min", v["min"]);
@@ -242,8 +261,8 @@ function filtrar() {
 
     return true;
   });
-  ok.forEach((i) => (i.style.display = ""));
-  ko.forEach((i) => (i.style.display = "none"));
+  ok.forEach((i) => i.classList.remove("off"));
+  ko.forEach((i) => i.classList.add("off"));
   if (ko.length == 0) {
     document.title = `${ok.length} juegos`;
   } else {
