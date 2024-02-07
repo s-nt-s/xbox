@@ -25,6 +25,8 @@ def do_filter1(i: Game):
 
 
 def do_filter2(i: Game):
+    if i.notAvailable:
+        return False
     if i.gamepass:
         return True
     if i.requiresGame:
@@ -51,13 +53,10 @@ def iter_progress(arr: list[Game]):
 print("Obteniendo juegos", end="\r")
 items = list(map(Game, api.get_ids()))
 print("Obteniendo juegos:", len(items))
+
 print("Aplicando 1º filtro", end="\r")
 items = list(filter(do_filter1, items))
 print("Aplicando 1º filtro:", len(items))
-
-print("Aplicando 2º filtro", end="\r")
-items = list(filter(do_filter2, items))
-print("Aplicando 2º filtro:", len(items))
 
 print("Aplicando 2º filtro", end="\r")
 items = list(filter(do_filter2, items))
