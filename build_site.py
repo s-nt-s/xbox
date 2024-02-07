@@ -49,7 +49,7 @@ def iter_progress(arr: list[Game]):
 
 
 print("Obteniendo juegos", end="\r")
-items = api.get_items()
+items = list(map(Game, api.get_ids()))
 print("Obteniendo juegos:", len(items))
 print("Aplicando 1º filtro", end="\r")
 items = list(filter(do_filter1, items))

@@ -7,7 +7,6 @@ from .web import Driver
 import json
 from seleniumwire.webdriver.request import Request as WireRequest
 from typing import NamedTuple
-from core.game import Game
 
 '''
 https://www.reddit.com/r/XboxGamePass/comments/jt214y/public_api_for_fetching_the_list_of_game_pass/
@@ -183,17 +182,3 @@ class Api:
         ids = set(i['Id'] for i in self.get_all())
         ids = tuple(sorted(ids))
         return ids
-
-    def get_items(self, *ids) -> list[Game]:
-        if len(ids) == 0:
-            ids = [i['Id'] for i in self.get_all()]
-        ids = sorted(set(ids))
-        gm = []
-        for id in ids:
-            collections = set()
-            for k, v in self.get_catalog().items():
-                if id in v:
-                    collections.add(k)
-            i = Game(id, tuple(sorted(collections)))
-            gm.append(i)
-        return gm

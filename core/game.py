@@ -1,18 +1,32 @@
 import inspect
 import re
 from os.path import isfile
-from functools import cached_property
-from typing import Union, Tuple
+from functools import cached_property, cache
+from typing import Union, Tuple, Dict
 from math import ceil
 from dataclasses import dataclass
 from datetime import date
 import json
 from math import floor
 from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
+from .api import Api
 
 YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
 re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
+
+
+@cache
+def collection():
+    api = Api()
+    data: Dict[str, Tuple[str]] = {}
+    for id in api.get_ids():
+        collections = set()
+        for k, v in api.get_catalog().items():
+            if id in v:
+                collections.add(k)
+        data[id] = tuple(sorted(collections))
+    return data
 
 
 def read_json(file):
@@ -36,9 +50,12 @@ def iter_kv(obj, *breadcrumbs):
 
 
 class Game:
-    def __init__(self, id: str, collections: Tuple[str] = None):
+    def __init__(self, id: str):
         self.id = id
-        self.collections = collections
+
+    @cached_property
+    def collections(self):
+        return collection().get(self.id)
 
     @cached_property
     def i(self):
