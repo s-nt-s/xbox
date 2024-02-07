@@ -1,0 +1,84 @@
+body {
+  font-family: arial,sans serif;
+  font-size: 11pt;
+  margin: 0;
+}
+main {
+  margin: 8px;
+}
+header, footer {
+  padding: 1em;
+  clear: both;
+  margin: 0px;
+  color: #fff !important;
+  background-color: #3a3a3a !important;
+}
+footer {
+  margin-top: 16px !important;
+}
+footer p:first-child {
+  margin-top: 0;
+}
+footer p:last-child {
+  margin-bottom: 0;
+}
+header {
+  margin-bottom: 16px !important;
+}
+header p:first-child {
+  margin-top: 0;
+}
+header p:last-child {
+  margin-bottom: 0;
+}
+header a, footer a {
+  color: inherit;
+}
+
+div.game {
+  margin-bottom: 6px;
+  vertical-align: top;
+  display: inline-grid;
+  width: 400px;
+  grid-template-columns: 0.65fr 1fr;
+}
+div.game > img {
+  grid-column: 1;
+  width: 150px;
+}
+div.game > p {
+  grid-column: 2;
+  margin-top: 0;
+}
+sup a {
+  text-decoration: none;
+}
+span.tag {
+  white-space: nowrap;
+  font-size: 0.70em;
+}
+.chkhideshow > span {
+  min-width: 12em;
+  display: inline-block;
+}
+fieldset {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+input[type=number], select[data-type=number] option {
+  width: 5em;
+  text-align: right;
+}
+fieldset.rangos label span {
+  display: inline-block;
+  min-width: 5em;
+}
+code {
+  white-space: nowrap;
+}
+code.ofertaTrue {
+  color: green;
+}
+a.title {
+  text-decoration: none;
+}

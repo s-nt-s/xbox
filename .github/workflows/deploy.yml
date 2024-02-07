@@ -1,0 +1,44 @@
+name: deploy
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 5 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+jobs:
+  scrape_and_deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install pip packages
+        run: pip install -r requirements.txt
+      - name: RM
+        run: rm -rf ./rec/
+      - name: DWN
+        run: python dwn.py
+      - name: Build site
+        run: python build_site.py
+      - name: ZIP
+        run: cd ./rec/ && tar -cJf ../out/json.tar.xz * && cd ..
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './out'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
