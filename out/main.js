@@ -2,17 +2,6 @@ const isLocal = ["", "localhost"].includes(document.location.hostname);
 const $$ = (slc) => Array.from(document.querySelectorAll(slc));
 
 class FormQuery {
-  static getId(n) {
-    let id = n.getAttribute("data-id");
-    if (id!=null && id.length>0) return id;
-    if (/^t\d+$/.test(n.id)) {
-      n = document.querySelector('.chkhideshow label[for="'+n.id+'"]');
-      id = n.textContent.trim().substring(1);
-      n.setAttribute("data-id", id);
-      return id;
-    }
-    return n.id;
-  }
   static form() {
     const d = {
       tags: [],
@@ -25,8 +14,10 @@ class FormQuery {
       if (v === false) return;
       if (n.id == "discount" && v === 0) return;
       if (n.id == "antiquity" && v === Number($$("#antiquity option").pop().value)) return;
-      if (v === true) {
-        d.tags.push(FormQuery.getId(n));
+      const nm = n.getAttribute("name");
+      if (nm != null) {
+        if (!Array.isArray(d[nm])) d[nm] = [];
+        d[nm].push(v);
         return;
       }
       d[n.id] = v;
@@ -109,7 +100,7 @@ class FormQuery {
       document
         .querySelectorAll('.chkhideshow input[type="checkbox"]')
         .forEach((i) => {
-          setVal(i.id, query.tags.includes(FormQuery.getId(i)));
+          setVal(i.id, query.tags.includes(i.getAttribute("value")));
         });
   }
   static query() {
@@ -182,8 +173,12 @@ function getVal(id) {
     console.log("No se ha encontrado #" + id);
     return null;
   }
-  if (elm.tagName == "INPUT" && elm.getAttribute("type") == "checkbox")
+  if (elm.tagName == "INPUT" && elm.getAttribute("type") == "checkbox") {
+    if (elm.checked === false) return false;
+    const v = elm.getAttribute("value");
+    if (v!=null) return v;
     return elm.checked;
+  }
   const val = (elm.value ?? "").trim();
   if (val.length == 0) return null;
   const tp = elm.getAttribute("data-type") || elm.getAttribute("type");

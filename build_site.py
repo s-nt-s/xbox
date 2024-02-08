@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
 from core.api import Api
-from core.j2 import Jnj2
+from core.j2 import Jnj2, to_value
 from datetime import datetime
 from core.game import Game, GameList
 
 import argparse
 
-parser = argparse.ArgumentParser(description='Lista juegos de xbox del gamepass o de menos de X€')
+parser = argparse.ArgumentParser(
+    description='Lista juegos de xbox del gamepass o de menos de X€')
 parser.add_argument("--precio", type=float, help='Precio máximo', default=9999)
 
 args = parser.parse_args()
@@ -35,7 +36,7 @@ def do_filter2(i: Game):
         return False
     if i.preorder:
         return False
-    #if 'Trial' in i.actions:
+    # if 'Trial' in i.actions:
     #    return False
     return True
 
@@ -63,16 +64,27 @@ items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
 
 print("Generando web")
-items = sorted(items, key=lambda x: x.releaseDate, reverse=True)#(-x.reviews, -x.rate, x.title))
+# (-x.reviews, -x.rate, x.title))
+items = sorted(items, key=lambda x: x.releaseDate, reverse=True)
 
 glist = GameList(items)
 now = datetime.now()
+
+
+def game_info():
+    lst = dict(glist.info)
+    for k, g in lst.items():
+        g = dict(g)
+        g['tags'] = tuple(map(to_value, g['tags']))
+        lst[k] = g
+    return lst
+
 
 j = Jnj2("template/", "out/")
 j.create_script(
     "info.js",
     ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
-    GAME=glist.info,
+    GAME=game_info(),
     replace=True
 )
 j.save(

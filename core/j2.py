@@ -18,6 +18,10 @@ def to_attr(s: str):
     return s.replace('"', "'")
 
 
+def to_value(s: str):
+    return re.sub(r'[\s&\-\'"\+]+', '-', s).lower()
+
+
 def myconverter(o):
     if isinstance(o, (datetime, date)):
         return o.__str__()
@@ -74,6 +78,7 @@ class Jnj2():
         self.j2_env.filters['mb'] = mb
         self.j2_env.filters['quote_plus'] = jinja_quote_plus
         self.j2_env.filters['to_attr'] = to_attr
+        self.j2_env.filters['to_value'] = to_value
         self.destino = destino
         self.pre = pre
         self.post = post

@@ -89,9 +89,9 @@
 			{% for t in gl.tags %}
 			{% set iid = "t"+(loop.index|string) %}
             {% if t == "Tragaperras" %}
-			<span title="#Free + #Compras"><input type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
+			<span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
             {% else %}
-			<span><input type="checkbox" id="{{iid}}"> <label for="{{iid}}">#{{t}}</label></span>
+			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"> <label for="{{iid}}">#{{t}}</label></span>
             {% endif %}
 			{% endfor %}
 		</fieldset>
