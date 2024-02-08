@@ -32,11 +32,11 @@ class FormQuery {
     return d;
   }
   static __form_to_query() {
+    const form = FormQuery.form();
     if (document.querySelectorAll(".game.off").length == 0) {
-      return "all";
+      return "all&order=" + form.order;
     }
     const qr = [];
-    const form = FormQuery.form();
     Object.entries(form).forEach(([k, v]) => {
       if (["mode", "range", "tags"].includes(k)) return;
       if (typeof v == "string") v = encodeURIComponent(v);
@@ -66,7 +66,7 @@ class FormQuery {
   static query_to_form() {
     const query = FormQuery.query();
     if (query == null) return;
-    if (query == "all") {
+    if (query.all === true) {
       setVal("list", "A");
       setVal("mode", "HO");
       setVal("discount", "0");
@@ -76,6 +76,7 @@ class FormQuery {
       );
       $$("input[id$=_min]").forEach((n) => setVal(n.id, n.getAttribute("min")));
       $$("input[id$=_max]").forEach((n) => setVal(n.id, n.getAttribute("max")));
+      setVal("order", query.order ?? getVal("order"));
       return;
     }
     Object.entries(query).forEach(([k, v]) => {
@@ -84,11 +85,11 @@ class FormQuery {
     });
     const _set_rank_val = (n) => {
       const [id, k] = n.id.split("_");
-      if (query.range==null || query.range[id]==null || query.range[id][k] == null) {
+      if (query.range == null || query.range[id] == null || query.range[id][k] == null) {
         n.value = n.getAttribute(k);
         return;
       }
-      n.value=query.range[id][k];
+      n.value = query.range[id][k];
     }
     $$("input[id$=_min],input[id$=_max]").forEach(_set_rank_val);
     if (query.range)
@@ -109,7 +110,6 @@ class FormQuery {
     );
     const search = document.location.search.replace(/^\?/, "");
     if (search.length == 0) return null;
-    if (search == "all") return search;
     const d = {
       tags: [],
       range: {},
@@ -176,7 +176,7 @@ function getVal(id) {
   if (elm.tagName == "INPUT" && elm.getAttribute("type") == "checkbox") {
     if (elm.checked === false) return false;
     const v = elm.getAttribute("value");
-    if (v!=null) return v;
+    if (v != null) return v;
     return elm.checked;
   }
   const val = (elm.value ?? "").trim();
@@ -261,7 +261,7 @@ function filtrar() {
         console.log(i.id, "no tine", k);
         return true;
       }
-      if (k=="price") vl = Math.round(vl);
+      if (k == "price") vl = Math.round(vl);
       return vl >= value["min"] && vl <= value["max"];
     });
     if (ok_rgs.includes(false)) return false;
@@ -275,7 +275,14 @@ function filtrar() {
   } else {
     document.title = `${ok.length}/${ok.length + ko.length} juegos`;
   }
-  document.getElementById("games").classList.remove("hideIfJS");
+  const div = document.getElementById("games");
+  div.classList.remove("hideIfJS");
+  if (form.order != div.getAttribute("data-order")) {
+    console.log("order", div.getAttribute("data-order"), "->", form.order)
+    const _g = (x) => Number(x.getAttribute("data-order-" + form.order.toLocaleLowerCase()))
+    $$("div.game").sort((a, b) => _g(a) - _g(b)).forEach(i => div.append(i))
+    div.setAttribute("data-order", form.order);
+  }
   FormQuery.form_to_query();
 }
 
@@ -337,9 +344,30 @@ function fixImg() {
   });
 }
 
+function setOrder() {
+  const def_order = $$("#order option").filter(o => o.getAttribute("selected") != null)[0].value;
+  console.log("order=" + def_order)
+  const div = document.getElementById("games");
+  div.setAttribute("data-order", def_order);
+  div.querySelectorAll("div.game").forEach((d, index) => {
+    d.setAttribute("data-order-" + def_order.toLocaleLowerCase(), index);
+  })
+  document.querySelectorAll('#order option:not([value="' + def_order + '"])').forEach(o => {
+    ((v) => {
+      if (v == 'T') return $$("a.title").sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim())).map(t => t.closest("div.game"));
+      if (v == 'D') return Object.entries(GAME).map(([k, v]) => [k, v.antiquity]).sort((a, b) => a[1] - b[1]).map(i => document.getElementById("g" + i[0]));
+      return [];
+    })(o.value).forEach((d, index) => {
+      d.setAttribute("data-order-" + o.value.toLocaleLowerCase(), index);
+    });
+  })
+
+}
+
 document.addEventListener(
   "DOMContentLoaded",
   () => {
+    setOrder();
     ifLocal();
     fixImg();
     fixAntiguedad();
