@@ -10,12 +10,12 @@
 				.hideIfJS { display:none; }
 			</style>`);
 		</script>
-		<base target="_blank" />
+		<base target="_blank">
         <meta charset="utf-8">
-		<meta content="width=device-width, initial-scale=1" name="viewport"/>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
         <title>{{gl.items | length | millar}} juegos</title>
-		<meta http-equiv="Last-Modified" content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}">
-        <link rel="stylesheet" href="main.css" />
+		<meta name="Last-Modified" content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}">
+        <link rel="stylesheet" href="main.css">
 		<script src="info.js"></script>
 		<script src="main.js"></script>
 	    </head>
@@ -30,7 +30,6 @@
 				<option value="T">Prueba gratuita</option>
 			</select>
 		</p>
-		</fieldset>
 		<fieldset class="rangos" id="rangos">
 			<legend>Rangos</legend>
 			<p>
@@ -88,22 +87,23 @@
 				<option value="SA">Mostrar (AND)</option>
 			</select></legend>
 			{% for t in gl.tags %}
+			{% set iid = "t"+(loop.index|string) %}
             {% if t == "Tragaperras" %}
-			<span title="#Free + #Compras"><input type="checkbox" id="{{t}}" checked/> <label for="{{t}}">#{{t}}</label></span>
+			<span title="#Free + #Compras"><input type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
             {% else %}
-			<span><input type="checkbox" id="{{t}}"/> <label for="{{t}}">#{{t}}</label></span>
+			<span><input type="checkbox" id="{{iid}}"> <label for="{{iid}}">#{{t}}</label></span>
             {% endif %}
 			{% endfor %}
 		</fieldset>
 	</div>
 	<div id="games" class="hideIfJS">
 {% for j in gl.items %}
-<div class="game" id="{{j.id}}">
-<img src="{{j.thumbnail}}"/>
+<div class="game" id="g{{j.id}}">
+<img src="{{j.thumbnail}}" alt="Poster de {{j.id}}">
 <p>
 	<b><a href="{{j.url}}" class="title">{{j.title}}</a>{# <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b>
-	<br/>
-	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code{%if j.discount%} class="ofertaTrue" title="{{j.discount | round | int}}% de descuento"{%endif%}>{{j.price | round | int}} €</code><br/>
+	<br>
+	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code{%if j.discount%} class="ofertaTrue" title="{{j.discount | round | int}}% de descuento"{%endif%}>{{j.price | round | int}} €</code><br>
 	{#
 	{% if j.langs %}
 		[ {{" / ".join(j.langs) }} ]</br>
@@ -116,11 +116,11 @@
         {% else %}
         <span class="tag">#{{t}}</span> 
         {% endif %}
-    {% endfor %}<br/>
+    {% endfor %}<br>
 	{% endif %}
-	{{j.releaseDate}}<br/>
-	<a href="https://www.youtube.com/results?search_query=xbox {{j.title}}">videos</a> -
-	<a href="https://www.google.es/search?tbm=isch&q=xbox {{j.title}}">imágenes</a>
+	{{j.releaseDate}}<br>
+	<a href="https://www.youtube.com/results?search_query=xbox+{{j.title | quote_plus}}">videos</a> -
+	<a href="https://www.google.es/search?tbm=isch&q=xbox+{{j.title | quote_plus}}">imágenes</a>
 </p>
 </div>
 {% endfor %}

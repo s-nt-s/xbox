@@ -27,16 +27,6 @@ S = requests.Session()
 ss = None
 
 
-def myex(e, msg):
-    largs = list(e.args)
-    if len(largs) == 1 and isinstance(largs, str):
-        largs[0] = largs[0]+' '+msg
-    else:
-        largs.append(msg)
-    e.args = tuple(largs)
-    return e
-
-
 def chunks(lst, n):
     arr = []
     for i in lst:

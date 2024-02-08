@@ -2,6 +2,17 @@ const isLocal = ["", "localhost"].includes(document.location.hostname);
 const $$ = (slc) => Array.from(document.querySelectorAll(slc));
 
 class FormQuery {
+  static getId(n) {
+    let id = n.getAttribute("data-id");
+    if (id!=null && id.length>0) return id;
+    if (/^t\d+$/.test(n.id)) {
+      n = document.querySelector('.chkhideshow label[for="'+n.id+'"]');
+      id = n.textContent.trim().substring(1);
+      n.setAttribute("data-id", id);
+      return id;
+    }
+    return n.id;
+  }
   static form() {
     const d = {
       tags: [],
@@ -15,7 +26,7 @@ class FormQuery {
       if (n.id == "discount" && v === 0) return;
       if (n.id == "antiquity" && v === Number($$("#antiquity option").pop().value)) return;
       if (v === true) {
-        d.tags.push(n.id);
+        d.tags.push(FormQuery.getId(n));
         return;
       }
       d[n.id] = v;
@@ -98,7 +109,7 @@ class FormQuery {
       document
         .querySelectorAll('.chkhideshow input[type="checkbox"]')
         .forEach((i) => {
-          setVal(i.id, query.tags.includes(i.id));
+          setVal(i.id, query.tags.includes(FormQuery.getId(i)));
         });
   }
   static query() {
@@ -223,7 +234,7 @@ function getRanges() {
 function filtrar() {
   const form = FormQuery.form();
   const { ok, ko } = filter("div.game", (i) => {
-    const j = GAME[i.id];
+    const j = GAME[i.id.substring(1)];
     if (j == null) {
       console.log(i.id, "no encontrado", i);
       return true;

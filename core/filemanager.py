@@ -10,6 +10,16 @@ from bs4 import BeautifulSoup, Tag
 logger = logging.getLogger(__name__)
 
 
+def myex(e, msg):
+    largs = list(e.args)
+    if len(largs) == 1 and isinstance(largs, str):
+        largs[0] = largs[0]+' '+msg
+    else:
+        largs.append(msg)
+    e.args = tuple(largs)
+    return e
+
+
 class FileManager:
     """
     Da funcionalidad de lectura (load) y escritura (dump) de ficheros
@@ -124,7 +134,10 @@ class FileManager:
 
     def load_json(self, file, *args, **kargv):
         with open(file, "r") as f:
-            return json.load(f, *args, **kargv)
+            try:
+                return json.load(f, *args, **kargv)
+            except json.decoder.JSONDecodeError as e:
+                raise myex(e, file)
 
     def dump_json(self, file, obj, *args, indent=2, **kargv):
         with open(file, "w") as f:

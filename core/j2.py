@@ -2,11 +2,20 @@ import json
 import os
 import re
 from datetime import date, datetime
+from urllib.parse import quote_plus
 
 import bs4
 from jinja2 import Environment, FileSystemLoader
 
 re_br = re.compile(r"<br/>(\s*</)")
+
+
+def jinja_quote_plus(s: str):
+    return quote_plus(s)
+
+
+def to_attr(s: str):
+    return s.replace('"', "'")
 
 
 def myconverter(o):
@@ -63,6 +72,8 @@ class Jnj2():
         self.j2_env.filters['millar'] = millar
         self.j2_env.filters['decimal'] = decimal
         self.j2_env.filters['mb'] = mb
+        self.j2_env.filters['quote_plus'] = jinja_quote_plus
+        self.j2_env.filters['to_attr'] = to_attr
         self.destino = destino
         self.pre = pre
         self.post = post
@@ -102,7 +113,8 @@ class Jnj2():
                     f.write("\n")
                 f.write("const "+k+" = ")
                 if not isinstance(v, str):
-                    json.dump(v, f, indent=indent, separators=separators, default=myconverter)
+                    json.dump(v, f, indent=indent,
+                              separators=separators, default=myconverter)
                 else:
                     f.write(v)
                 f.write(";")
