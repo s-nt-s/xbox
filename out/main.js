@@ -235,11 +235,11 @@ function filtrar() {
       return true;
     }
     if (form.list == "G" && !j.gamepass) return false;
-    if (form.list == "F" && !j.tags.includes("Free")) return false;
+    if (form.list == "F" && !(j.tags.includes("free") || j.price==0)) return false;
     if (form.list == "T" && !j.trial) return false;
     if (j.antiquity != null && j.antiquity > (form.antiquity ?? j.antiquity))
       return false;
-    if (j.discount != null && j.discount < (form.discount ?? 0)) return false;
+    if (j.discount != null && j.discount < (form.discount ?? j.discount)) return false;
 
     const fl = (() => {
       if (form.tags.length == 0) {
@@ -324,7 +324,7 @@ function ifLocal() {
       if (i > 0) p.appendChild(document.createTextNode(" - "));
       p.appendChild(
         mkTag(`
-      <a href="../rec/${path}/${p.parentNode.id}.json">${path}</a>
+      <a href="../rec/${path}/${p.parentNode.id.substring(1)}.json">${path}</a>
     `)
       );
     });
