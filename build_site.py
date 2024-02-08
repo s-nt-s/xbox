@@ -26,6 +26,10 @@ def do_filter1(i: Game):
 
 
 def do_filter2(i: Game):
+    if 'XboxSeriesX' not in i.availableOn:
+        return False
+    if not i.isGame:
+        return False
     if i.notAvailable:
         return False
     if i.gamepass:
@@ -51,8 +55,21 @@ def iter_progress(arr: list[Game]):
     print("100% [{0}/{0}]".format(total))
 
 
+def get_games():
+    ids = list(api.get_ids())
+    items = list(map(Game, ids))
+    for i in items:
+        for b in i.get_bundle():
+            if b not in ids:
+                b = Game(b)
+                if b.isGame:
+                    items.append(b)
+                    ids.append(b.id)
+    return tuple(sorted(items, key=lambda g: g.id))
+
+
 print("Obteniendo juegos", end="\r")
-items = list(map(Game, api.get_ids()))
+items = get_games()
 print("Obteniendo juegos:", len(items))
 
 print("Aplicando 1º filtro", end="\r")

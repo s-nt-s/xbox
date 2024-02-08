@@ -27,6 +27,10 @@ jobs:
         run: pip install -r requirements.txt
       - name: RM
         run: rm -rf ./rec/
+      - name: SEARCH
+        run: python -m core.api
+      - name: DWN preload_state
+        run: python dwn.py --preload-state
       - name: DWN
         run: python dwn.py
       - name: Build site

@@ -1,13 +1,12 @@
-from typing import NamedTuple, Union, Dict
+from typing import Union, Dict
 from .cache import Cache
 from abc import ABC, abstractproperty, abstractmethod
 from functools import cached_property
 import requests
 import json
-from .web import Driver
-from seleniumwire.webdriver.request import Request as WireRequest
 from json.decoder import JSONDecodeError
 import logging
+from .findwireresponse import FindWireResponse
 
 logger = logging.getLogger(__name__)
 
@@ -95,66 +94,6 @@ class EndPointPreloadState(EndPoint):
         return self.parse(text)
 
 
-class WireResponse(NamedTuple):
-    id: str
-    requests: WireRequest
-    body: dict
-
-    def json(self, id) -> Dict:
-        path = self.requests.path.replace(self.id, id)
-        if path == self.requests.path:
-            return self.body
-        s = requests.Session()
-        s.headers = self.requests.headers
-        r = requests.request(
-            self.requests.method,
-            path,
-            headers=self.requests.headers
-        )
-        return r.json()
-
-
-class FindWireResponse:
-    WR: Dict[str, WireResponse] = {}
-
-    @staticmethod
-    def __find_response(id: str, path: str):
-        url = "https://www.xbox.com/es-es/games/store/a/"+id
-        with Driver(browser="wirefirefox") as web:
-            web.get(url)
-            while True:
-                if "Error response" in str(web.get_soup()):
-                    web.get(url)
-                r: WireRequest
-                for r in web._driver.requests:
-                    if (path+id) not in r.path:
-                        continue
-                    if r.response and r.response.body:
-                        bdy: bytes = r.response.body
-                        txt = bdy.decode('utf-8')
-                        txt = txt.strip()
-                        js = json.loads(txt)
-                        return WireResponse(
-                            id=id,
-                            requests=r,
-                            body=js
-                        )
-
-    @staticmethod
-    def find_response(id: str, path: str):
-        if FindWireResponse.WR.get(path) is None:
-            FindWireResponse.WR[path] = FindWireResponse.__find_response(
-                id, path)
-        return FindWireResponse.WR[path]
-
-    @staticmethod
-    def find_json(id: str, path: str):
-        wr = FindWireResponse.find_response(id, path)
-        if wr is None:
-            return None
-        return wr.json(id)
-
-
 class EndPointWire(EndPoint):
     @property
     def path(self) -> str:
@@ -165,7 +104,12 @@ class EndPointWire(EndPoint):
         return None
 
     def find_response(self):
-        return FindWireResponse.find_response(self.id, self.path)
+        return FindWireResponse.find_response(
+            "https://www.xbox.com/es-es/games/store/a/"+self.id,
+            self.path+self.id,
+            keypath=self.path,
+            keyarg=self.id
+        )
 
     def _json(self):
         r = self.find_response()

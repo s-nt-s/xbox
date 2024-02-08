@@ -261,7 +261,7 @@ function filtrar() {
         console.log(i.id, "no tine", k);
         return true;
       }
-      if (k == "price") vl = Math.round(vl);
+      if (k == "price" && vl>0) vl = vl<1?1:Math.round(vl);
       return vl >= value["min"] && vl <= value["max"];
     });
     if (ok_rgs.includes(false)) return false;

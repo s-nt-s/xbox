@@ -2,7 +2,7 @@ import inspect
 import re
 from os.path import isfile
 from functools import cached_property, cache
-from typing import Union, Tuple, Dict
+from typing import Union, Tuple, Dict, List, Set
 from math import ceil
 from dataclasses import dataclass
 from datetime import date
@@ -10,6 +10,7 @@ import json
 from math import floor
 from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
 from .api import Api
+from .util import dict_walk
 
 YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
@@ -22,7 +23,7 @@ def collection():
     data: Dict[str, Tuple[str]] = {}
     for id in api.get_ids():
         collections = set()
-        for k, v in api.get_catalog().items():
+        for k, v in api.get_dict_catalog().items():
             if id in v:
                 collections.add(k)
         data[id] = tuple(sorted(collections))
@@ -52,10 +53,11 @@ def iter_kv(obj, *breadcrumbs):
 class Game:
     def __init__(self, id: str):
         self.id = id
+        self.extra_tags: Set[str] = set()
 
     @cached_property
     def collections(self):
-        return collection().get(self.id)
+        return collection().get(self.id, tuple())
 
     @cached_property
     def i(self):
@@ -78,14 +80,17 @@ class Game:
         return self.i["DisplaySkuAvailabilities"][0]["Availabilities"][0]["OrderManagementData"]["Price"]["ListPrice"]
 
     @cached_property
+    def summary(self) -> dict:
+        obj = dict_walk(self.preload_state, 'core2', 'products', 'productSummaries', self.id)
+        if not isinstance(obj, dict):
+            return None
+        return obj
+
+    @cached_property
     def discount(self) -> float:
-        if self.preload_state is None:
+        obj = dict_walk(self.summary, 'specificPrices', 'purchaseable')
+        if obj is None:
             return 0
-        obj = dict(self.preload_state)
-        for k in ('core2', 'products', 'productSummaries', self.id, 'specificPrices', 'purchaseable'):
-            obj = obj.get(k)
-            if obj is None:
-                return 0
         if not isinstance(obj, list) or len(obj) == 0 or not isinstance(obj[0], dict):
             return 0
         d = obj[0].get('discountPercentage') or 0
@@ -112,8 +117,12 @@ class Game:
         return "https://www.xbox.com/es-es/games/store/a/"+self.id
 
     @cached_property
-    def productType(self) -> str:
+    def ProductType(self) -> str:
         return self.i["ProductType"]
+
+    @cached_property
+    def isGame(self) -> bool:
+        return self.ProductType == 'Game'
 
     @cached_property
     def imgs(self) -> tuple[str]:
@@ -158,26 +167,14 @@ class Game:
 
     @property
     def legalNotices(self) -> tuple[str]:
-        if self.preload_state is None:
-            return []
-        obj = dict(self.preload_state)
-        for k in ('core2', 'products', 'productSummaries', self.id, 'legalNotices'):
-            obj = obj.get(k)
-            if obj is None:
-                return tuple()
+        obj = dict_walk(self.summary, 'legalNotices')
         if obj is None:
             return tuple()
         return tuple(obj)
 
     @property
     def interactiveDescriptions(self) -> tuple[str]:
-        if self.preload_state is None:
-            return []
-        obj = dict(self.preload_state)
-        for k in ('core2', 'products', 'productSummaries', self.id, 'contentRating', 'interactiveDescriptions'):
-            obj = obj.get(k)
-            if obj is None:
-                return tuple()
+        obj = dict_walk(self.summary, 'contentRating', 'interactiveDescriptions')
         if obj is None:
             return tuple()
         return tuple(obj)
@@ -234,7 +231,9 @@ class Game:
 
     @property
     def gamepass(self) -> bool:
-        return 'GamePass' in self.collections or 'EAPlay' in self.collections
+        return len(set(self.collections).intersection(
+            ('GamePass', 'EAPlay', 'Ubisoft', 'Bethesda')
+        )) > 0
 
     @property
     def bundle(self) -> bool:
@@ -261,21 +260,26 @@ class Game:
             if dt.year > 1951 and dt.year < YEAR:
                 return dt
 
+    @cached_property
+    def availableOn(self):
+        obj = dict_walk(self.summary, 'availableOn')
+        if obj is None:
+            return tuple()
+        return tuple(obj)
+
     @property
     def tags(self) -> tuple[str]:
-        tags = []
-        if self.productType != 'Game':
-            tags.append(self.productType)
+        tags = set(self.extra_tags)
         if self.onlyGamepass:
-            tags.append("SoloGamePass")
+            tags.add("SoloGamePass")
         if self.tragaperras:
-            tags.append("Tragaperras")
+            tags.add("Tragaperras")
         if self.compras:
-            tags.append("Compras")
+            tags.add("Compras")
         if self.bundle:
-            tags.append("Bundle")
+            tags.add("Bundle")
         if self.preorder:
-            tags.append("PreOrder")
+            tags.add("PreOrder")
         for x in self.categories:
             if x in ('Other', 'Word', 'Tools'):
                 continue
@@ -289,7 +293,7 @@ class Game:
                 x = 'Family'
             if x == 'Puzzle & trivia':
                 x = 'Puzzle'
-            tags.append(x)
+            tags.add(x)
         for x in self.attributes:
             if x.endswith("fps"):
                 continue
@@ -303,19 +307,26 @@ class Game:
                 x = 'LocalMultiPlayer'
             # if x == 'SharedSplitScreen':
             #    x = 'SplitScreen'
-            tags.append(x)
+            tags.add(x)
         if 'TopFree' in self.collections:
-            tags.append("Free")
+            tags.add("Free")
         if 'GamePass' in self.collections:
-            tags.append("GamePass")
+            tags.add("GamePass")
         elif 'EAPlay' in self.collections:
-            tags.append("EAPlay")
+            tags.add("EAPlay")
         # if self.gamepass:
-        #    tags.append("GamePass")
+        #    tags.add("GamePass")
         if self.discount > 0:
-            tags.append("Oferta")
-        tags = sorted(set(tags), key=lambda x: tags.index(x))
+            tags.add("Oferta")
+        tags = sorted(tags)
         return tuple(tags)
+
+    @cache
+    def get_bundle(self):
+        obj = dict_walk(self.preload_state, 'core2', 'channels', 'channelsData', 'INTHISBUNDLE_'+self.id, 'data', 'products')
+        if obj is None:
+            return tuple()
+        return tuple([i['productId'] for i in obj])
 
     def to_dict(self) -> dict:
         dt = {}

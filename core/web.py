@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.chrome import ChromeType
-from webdriver_manager.core.utils import read_version_from_cmd 
+from webdriver_manager.core.utils import read_version_from_cmd
 from webdriver_manager.core.os_manager import PATTERN
 from selenium import webdriver
 from seleniumwire import webdriver as wirewebdriver
@@ -69,7 +69,7 @@ def iterhref(soup):
         val = n.attrs.get(attr)
         if val is None or re_emb.search(val):
             continue
-        if not(val.startswith("#") or val.startswith("javascript:")):
+        if not (val.startswith("#") or val.startswith("javascript:")):
             yield n, attr, val
 
 
@@ -360,10 +360,10 @@ class Driver:
         if isinstance(id, (int, float)):
             time.sleep(id)
             return
+        if seconds is None:
+            seconds = self._wait
         if by is None:
             by = By.ID
-            if seconds is None:
-                seconds = self._wait
             if id.startswith("//"):
                 by = By.XPATH
             if id.startswith("."):
@@ -425,7 +425,7 @@ class Driver:
             n = self.wait(n, **kvarg)
         if n.is_displayed():
             ActionChains(self._driver).move_to_element(n).click(n).perform()
-            #n.click()
+            # n.click()
         else:
             n.send_keys(Keys.RETURN)
         return True
@@ -447,7 +447,7 @@ class Driver:
                 StaleElementReferenceException,
                 ElementNotVisibleException,
                 WebDriverException
-                ):
+        ):
             return 0
         if after is not None:
             time.sleep(after)

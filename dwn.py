@@ -1,8 +1,11 @@
 from core.api import Api, chunks
+from core.game import Game
 import argparse
 import logging
 from core.bulkrequests import BulkRequests
 from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews
+from os.path import isfile
+from core.endpoint import EndPointGame
 
 parser = argparse.ArgumentParser(
     description='Descarga ficheros para la cache',
@@ -29,10 +32,12 @@ def all_false_is_all_true(nm: argparse.Namespace):
     for k, v in vars(ARG).items():
         if isinstance(v, bool):
             if v is True:
+                setattr(nm, 'all', False)
                 return
             ks.append(k)
     for k in ks:
         setattr(nm, k, True)
+    setattr(nm, 'all', True)
 
 
 open("dwn.log", "w").close()
@@ -48,39 +53,51 @@ logging.basicConfig(
 for name in ('seleniumwire.proxy.handler', 'seleniumwire.proxy.client'):
     logging.getLogger(name).setLevel(logging.CRITICAL)
 
+logger = logging.getLogger(__name__)
+
 ARG = parser.parse_args()
 all_false_is_all_true(ARG)
 API = Api()
+IDS = API.get_ids()
 
 
-def dwn_game(tcp_limit: int = 10):
+def dwn_game(tcp_limit: int = 10, ids=None):
+    if ids is None:
+        ids = IDS
+    ids = [i for i in ids if not isfile(EndPointGame(i).file)]
     BulkRequests(
         tcp_limit=tcp_limit,
         tries=10
     ).run(*(
-        BulkRequestsGame(tuple(c)) for c in chunks(API.get_ids(), 100)
+        BulkRequestsGame(tuple(c)) for c in chunks(ids, 100)
     ), label="x100 game")
 
 
-def dwn_preload_state(tcp_limit: int = 10):
+def dwn_preload_state(tcp_limit: int = 10, ids=None):
+    if ids is None:
+        ids = IDS
+    BulkRequests(
+        tcp_limit=tcp_limit,
+        tries=100
+    ).run(*map(BulkRequestsPreloadState, ids), label="preload_state")
+
+
+def dwn_action(tcp_limit: int = 10, ids=None):
+    if ids is None:
+        ids = IDS
     BulkRequests(
         tcp_limit=tcp_limit,
         tries=10
-    ).run(*map(BulkRequestsPreloadState, API.get_ids()), label="preload_state")
+    ).run(*map(BulkRequestsActions, ids), label="action")
 
 
-def dwn_action(tcp_limit: int = 10):
+def dwn_review(tcp_limit: int = 10, ids=None):
+    if ids is None:
+        ids = IDS
     BulkRequests(
         tcp_limit=tcp_limit,
         tries=10
-    ).run(*map(BulkRequestsActions, API.get_ids()), label="action")
-
-
-def dwn_review(tcp_limit: int = 10):
-    BulkRequests(
-        tcp_limit=tcp_limit,
-        tries=10
-    ).run(*map(BulkRequestsReviews, API.get_ids()), label="review")
+    ).run(*map(BulkRequestsReviews, ids), label="review")
 
 
 if ARG.game:
@@ -94,3 +111,19 @@ if ARG.action:
 
 if ARG.review:
     dwn_review(tcp_limit=ARG.tcp_limit)
+
+if ARG.all:
+    logger.info("Obteniendo juegos extra de los bundle")
+    ids = set()
+    for g in map(Game, IDS):
+        for b in g.get_bundle():
+            if b not in IDS:
+                ids.add(b)
+    ids = tuple(sorted(ids))
+    logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
+    dwn_game(tcp_limit=ARG.tcp_limit, ids=ids)
+    ids = tuple(sorted(set((i.id for i in map(Game, ids) if i.isGame))))
+    if len(ids):
+        dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids)
+        dwn_action(tcp_limit=ARG.tcp_limit, ids=ids)
+        dwn_review(tcp_limit=ARG.tcp_limit, ids=ids)

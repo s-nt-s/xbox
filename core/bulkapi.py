@@ -4,7 +4,6 @@ from typing import Tuple
 from os.path import isfile
 import time
 from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
-from .game import Game
 
 
 class BulkRequestsGame(BulkRequestsFileJob):
@@ -73,9 +72,8 @@ class BulkRequestsActions(BulkRequestsFileJob):
             return False
         async with session.request(
             wr.requests.method,
-            wr.requests.path.replace(wr.id, self.endpoint.id),
+            wr.requests.path.replace(wr.key, self.endpoint.id),
             headers=wr.requests.headers
-
         ) as response:
             js = await response.json()
             self.endpoint.save_in_cache(js)
@@ -100,11 +98,9 @@ class BulkRequestsReviews(BulkRequestsFileJob):
             return False
         async with session.request(
             wr.requests.method,
-            wr.requests.path.replace(wr.id, self.endpoint.id),
+            wr.requests.path.replace(wr.key, self.endpoint.id),
             headers=wr.requests.headers
-
         ) as response:
             js = await response.json()
             self.endpoint.save_in_cache(js)
             return True
-

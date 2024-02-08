@@ -61,6 +61,16 @@ def mb(value):
     return str(v)+" B"
 
 
+def round1(v):
+    if v == 0:
+        return 0
+    if v > 0 and v < 1:
+        return 1
+    if v > -1 and v < 0:
+        return -1
+    return int(round(v))
+
+
 def toTag(html, *args):
     if len(args) > 0:
         html = html.format(*args)
@@ -79,6 +89,7 @@ class Jnj2():
         self.j2_env.filters['quote_plus'] = jinja_quote_plus
         self.j2_env.filters['to_attr'] = to_attr
         self.j2_env.filters['to_value'] = to_value
+        self.j2_env.filters['round1'] = round1
         self.destino = destino
         self.pre = pre
         self.post = post
