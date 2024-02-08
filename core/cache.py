@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 class Cache:
-    def __init__(self, file: str, *args, kwself=None, reload: bool =False, skip: bool = False, maxOld=1, loglevel=logging.DEBUG, **kwargs):
+    def __init__(self, file: str, *args, kwself=None, reload: bool = False, skip: bool = False, maxOld=1, loglevel=logging.DEBUG, **kwargs):
         self.file = file
         self.func = None
         self.reload = reload
@@ -51,7 +51,8 @@ class Cache:
         if not self.tooOld(fl):
             logger.log(self.loglevel, f"Cache.read({fl})")
             data = self.read(fl, *args, **kwargs)
-            return data
+            if data is not None:
+                return data
         data = self.func(slf, *args, **kwargs)
         if data is not None:
             logger.log(self.loglevel, f"Cache.save({fl})")

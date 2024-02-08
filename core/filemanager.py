@@ -6,6 +6,7 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup, Tag
+from json.decoder import JSONDecodeError
 
 logger = logging.getLogger(__name__)
 
@@ -136,8 +137,8 @@ class FileManager:
         with open(file, "r") as f:
             try:
                 return json.load(f, *args, **kargv)
-            except json.decoder.JSONDecodeError as e:
-                raise myex(e, file)
+            except JSONDecodeError as e:
+                raise myex(e, str(file))
 
     def dump_json(self, file, obj, *args, indent=2, **kargv):
         with open(file, "w") as f:

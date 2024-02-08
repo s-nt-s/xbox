@@ -6,6 +6,10 @@ import requests
 import json
 from .web import Driver
 from seleniumwire.webdriver.request import Request as WireRequest
+from json.decoder import JSONDecodeError
+import logging
+
+logger = logging.getLogger(__name__)
 
 S = requests.Session()
 
@@ -16,6 +20,13 @@ class EndPointCache(Cache):
 
     def parse_file_name(self, *args, slf: "EndPoint", **kargv):
         return self.file.format(id=slf.id)
+
+    def read(self, file, *args, **kwargs):
+        try:
+            return super().read(file, *args, **kwargs)
+        except JSONDecodeError:
+            logger.critical("NOT JSON "+file)
+            return None
 
 
 class EndPoint(ABC):
@@ -132,7 +143,8 @@ class FindWireResponse:
     @staticmethod
     def find_response(id: str, path: str):
         if FindWireResponse.WR.get(path) is None:
-            FindWireResponse.WR[path] = FindWireResponse.__find_response(id, path)
+            FindWireResponse.WR[path] = FindWireResponse.__find_response(
+                id, path)
         return FindWireResponse.WR[path]
 
     @staticmethod
