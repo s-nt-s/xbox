@@ -162,7 +162,7 @@ class SearchWire(Driver):
             )
         ))
         p_ids = self.get_preload_state_ids(url)
-        if len(p_ids) < (SearchWire.PAGE_SIZE*2):
+        if len(p_ids) != SearchWire.PAGE_SIZE and (len(p_ids) < (SearchWire.PAGE_SIZE*2)):
             logger.info(f"{query} {len(p_ids)}")
             return p_ids
 
