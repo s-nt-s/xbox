@@ -1,5 +1,6 @@
 from .web import Driver
 from seleniumwire.webdriver.request import Request as WireRequest
+from seleniumwire.proxy.client import ProxyException
 import requests
 import json
 from typing import Set
@@ -10,10 +11,17 @@ from urllib.parse import quote_plus, unquote_plus
 from functools import cache
 import time
 import logging
+from .cache import Cache
 
 logger = logging.getLogger(__name__)
 
 S = requests.Session()
+
+
+class UrlCache(Cache):
+    def parse_file_name(self, url: str, **kargv):
+        h = "".join(c for c in url if c.isalpha() or c.isdigit() or c==' ').rstrip()
+        return f"{self.file}/{h}.json"
 
 
 class SearchWire(Driver):
@@ -39,9 +47,14 @@ class SearchWire(Driver):
         super().__init__(browser="wirefirefox", wait=10)
 
     def get_preload_state_ids(self, url: str):
-        obj = SearchWire.get_preload_state(url)
-        obj = dict_walk(obj, 'core2', 'products', 'productSummaries')
-        ids = tuple(sorted(set(obj.keys())))
+        def __get(url: str):
+            obj = SearchWire.get_preload_state(url)
+            obj = dict_walk(obj, 'core2', 'products', 'productSummaries')
+            return set(obj.keys())
+        ids = __get(url+'&orderby=Title+Asc')
+        if len(ids) >= SearchWire.PAGE_SIZE:
+            ids = ids.union(__get(url+'&orderby=Title+Desc'))
+        ids = tuple(sorted(ids))
         return ids
 
     def __find_ids(self, done: Set[str]):
@@ -126,6 +139,20 @@ class SearchWire(Driver):
             ids = ids.union(self.__query(url))
         return tuple(sorted(ids))
 
+    def getProductSummaries(self, url):
+        while True:
+            try:
+                self.get(url)
+                obj = SearchWire.__get_preload_state(self.source)
+                obj = dict_walk(obj, 'core2', 'products', 'productSummaries')
+                if obj is not None:
+                    return obj
+            except ProxyException:
+                pass
+            self.close()
+            time.sleep(10)
+
+    @UrlCache("rec/br/tmp/")
     def __query(self, url: str):
         query = " ".join(map(
             lambda kv: kv[0]+'='+unquote_plus(kv[1]),
@@ -135,28 +162,19 @@ class SearchWire(Driver):
             )
         ))
         p_ids = self.get_preload_state_ids(url)
-        if len(p_ids) < SearchWire.PAGE_SIZE:
-            logger.info(f"{query}", len(p_ids))
+        if len(p_ids) < (SearchWire.PAGE_SIZE*2):
+            logger.info(f"{query} {len(p_ids)}")
             return p_ids
 
-        def get_ps():
-            while True:
-                self.get(url)
-                self.run_script('js/ol.js')
-                obj = SearchWire.__get_preload_state(self.source)
-                obj = dict_walk(obj, 'core2', 'products', 'productSummaries')
-                if obj is not None:
-                    return obj
-                self.close()
-                time.sleep(10)
-        obj = get_ps()
+        obj = self.getProductSummaries(url)
         ids = set(obj.keys())
         if len(ids) == 0:
-            logger.info(f"{query}", 0)
+            logger.info(f"{query} 0")
             return tuple()
+        self.run_script('js/ol.js')
         while True:
             if 1 != self.safe_click('//button[@aria-label="Cargar más"]', by=By.XPATH):
-                logger.info(f"{query}", len(ids))
+                logger.info(f"{query}, {len(ids)}")
                 return tuple(sorted(ids))
             new_ids = self.__find_ids(ids)
             if len(new_ids):

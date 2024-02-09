@@ -14,6 +14,9 @@ parser.add_argument(
     '--tcp-limit', type=int, default=50
 )
 parser.add_argument(
+    '--browse', action='store_true', help="Recorre los resultados de www.xbox.com/es-ES/games/browse"
+)
+parser.add_argument(
     '--game', action='store_true', help="Descarga la ficha de los juegos"
 )
 parser.add_argument(
@@ -99,6 +102,9 @@ def dwn_review(tcp_limit: int = 10, ids=None):
         tries=10
     ).run(*map(BulkRequestsReviews, ids), label="review")
 
+
+if ARG.browse:
+    API.do_games_browse_search()
 
 if ARG.game:
     dwn_game(tcp_limit=ARG.tcp_limit)

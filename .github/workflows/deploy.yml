@@ -27,12 +27,30 @@ jobs:
         run: pip install -r requirements.txt
       - name: RM
         run: rm -rf ./rec/
-      - name: SEARCH
-        run: python -m core.api
+      - name: BROWSE
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 60
+          retry_wait_seconds: 15
+          max_attempts: 3
+          retry_on: error
+          command: python dwn.py --browse
       - name: DWN preload_state
-        run: python dwn.py --preload-state
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 60
+          retry_wait_seconds: 15
+          max_attempts: 3
+          retry_on: error
+          command: python dwn.py --preload-state
       - name: DWN
-        run: python dwn.py
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 60
+          retry_wait_seconds: 15
+          max_attempts: 3
+          retry_on: error
+          command: python dwn.py
       - name: Build site
         run: python build_site.py
       - name: ZIP
