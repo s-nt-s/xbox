@@ -14,6 +14,10 @@ parser.add_argument(
     '--tcp-limit', type=int, default=50
 )
 parser.add_argument(
+    '--tolerance', type=int, default=0, help="Porcentaje de tolerancia"
+)
+
+parser.add_argument(
     '--browse', action='store_true', help="Recorre los resultados de www.xbox.com/es-ES/games/browse"
 )
 parser.add_argument(
@@ -64,42 +68,46 @@ API = Api()
 IDS = API.get_ids()
 
 
-def dwn_game(tcp_limit: int = 10, ids=None):
+def dwn_game(tcp_limit: int = 10, tolerance: int = 0, ids=None):
     if ids is None:
         ids = IDS
     ids = [i for i in ids if not isfile(EndPointGame(i).file)]
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10
+        tries=10,
+        tolerance=tolerance
     ).run(*(
         BulkRequestsGame(tuple(c)) for c in chunks(ids, 100)
     ), label="x100 game")
 
 
-def dwn_preload_state(tcp_limit: int = 10, ids=None):
+def dwn_preload_state(tcp_limit: int = 10, tolerance: int = 0, ids=None):
     if ids is None:
         ids = IDS
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=100
+        tries=100,
+        tolerance=tolerance
     ).run(*map(BulkRequestsPreloadState, ids), label="preload_state")
 
 
-def dwn_action(tcp_limit: int = 10, ids=None):
+def dwn_action(tcp_limit: int = 10, tolerance: int = 0, ids=None):
     if ids is None:
         ids = IDS
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10
+        tries=10,
+        tolerance=tolerance
     ).run(*map(BulkRequestsActions, ids), label="action")
 
 
-def dwn_review(tcp_limit: int = 10, ids=None):
+def dwn_review(tcp_limit: int = 10, tolerance: int = 0, ids=None):
     if ids is None:
         ids = IDS
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10
+        tries=10,
+        tolerance=tolerance
     ).run(*map(BulkRequestsReviews, ids), label="review")
 
 
@@ -107,16 +115,16 @@ if ARG.browse:
     API.do_games_browse_search()
 
 if ARG.game:
-    dwn_game(tcp_limit=ARG.tcp_limit)
+    dwn_game(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
 if ARG.preload_state:
-    dwn_preload_state(tcp_limit=ARG.tcp_limit)
+    dwn_preload_state(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
 if ARG.action:
-    dwn_action(tcp_limit=ARG.tcp_limit)
+    dwn_action(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
 if ARG.review:
-    dwn_review(tcp_limit=ARG.tcp_limit)
+    dwn_review(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
 if ARG.all:
     logger.info("Obteniendo juegos extra de los bundle")
@@ -127,9 +135,9 @@ if ARG.all:
                 ids.add(b)
     ids = tuple(sorted(ids))
     logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
-    dwn_game(tcp_limit=ARG.tcp_limit, ids=ids)
+    dwn_game(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
     ids = tuple(sorted(set((i.id for i in map(Game, ids) if i.isGame))))
     if len(ids):
-        dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids)
-        dwn_action(tcp_limit=ARG.tcp_limit, ids=ids)
-        dwn_review(tcp_limit=ARG.tcp_limit, ids=ids)
+        dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
+        dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
+        dwn_review(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)

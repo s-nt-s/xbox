@@ -35,7 +35,23 @@ jobs:
           max_attempts: 3
           retry_on: error
           command: python dwn.py --browse
-      - name: DWN preload_state
+      - name: DWN preload_state 1
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 60
+          retry_wait_seconds: 15
+          max_attempts: 3
+          retry_on: error
+          command: python dwn.py --preload-state --tolerance 4000
+      - name: DWN preload_state 2
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 60
+          retry_wait_seconds: 15
+          max_attempts: 3
+          retry_on: error
+          command: python dwn.py --preload-state --tolerance 2000
+      - name: DWN preload_state 3
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 60
