@@ -189,7 +189,7 @@ class Game:
 
     @property
     def tragaperras(self) -> bool:
-        return len(self.compras) > 0 and 'TopFree' in self.collections
+        return len(self.compras) > 0 and self.price == 0
 
     @property
     def requiresGame(self) -> bool:
@@ -308,7 +308,7 @@ class Game:
             # if x == 'SharedSplitScreen':
             #    x = 'SplitScreen'
             tags.add(x)
-        if 'TopFree' in self.collections:
+        if self.price == 0:
             tags.add("Free")
         if 'GamePass' in self.collections:
             tags.add("GamePass")

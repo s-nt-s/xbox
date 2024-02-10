@@ -19,10 +19,9 @@ api = Api()
 def do_filter1(i: Game):
     if i.gamepass:
         return True
-    if (i.price is None or i.price <= args.precio):
+    if (i.price <= args.precio):
         return True
-    return 'TopFree' in i.collections
-    # return 'TopFree' not in i.collections and i.price == 0
+    return False
 
 
 def do_filter2(i: Game):
