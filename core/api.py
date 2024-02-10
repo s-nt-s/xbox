@@ -7,7 +7,7 @@ from .web import Driver
 from .util import dict_walk
 import json
 from seleniumwire.webdriver.request import Request as WireRequest
-from typing import NamedTuple, Dict, Set, Tuple
+from typing import NamedTuple, Dict, Set, Tuple, List
 import re
 import logging
 from .searchwire import SearchWire
@@ -183,17 +183,21 @@ class Api:
     def get_dict_catalog(self):
         rt: Dict[str, Set[str]] = {}
 
-        def __add(k, id, gen):
+        def __add(k, gen: List[Dict]):
             if k not in rt:
                 rt[k] = set()
+            gen = list(gen)
+            if len(gen):
+                return
+            id = {'id', 'Id'}.intersection(gen[0].keys()).pop()
             rt[k] = rt[k].union((i[id] for i in gen))
 
         self.search_catalog()
         for k, cats in Api.CATALOG.items():
             for cat in cats:
-                __add(k, 'id', self.get_catalog(cat)[1:])
+                __add(k, self.get_catalog(cat)[1:])
         for k in Api.COLS:
-            __add(k, 'Id', self.get_collection(k))
+            __add(k, self.get_collection(k))
         for k, ids in self.do_games_browse_search().items():
             if k not in rt:
                 rt[k] = set()
