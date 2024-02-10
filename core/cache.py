@@ -27,12 +27,18 @@ class Cache:
         return self.file
 
     def read(self, file, *args, **kwargs):
+        if file is None:
+            return
         return FM.load(file, **self._kwargs)
 
     def save(self, file, data, *args, **kwargs):
+        if file is None:
+            return
         FM.dump(file, data, **self._kwargs)
 
     def tooOld(self, fl):
+        if fl is None:
+            return True
         if not os.path.isfile(fl):
             return True
         if self.reload:

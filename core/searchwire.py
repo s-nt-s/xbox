@@ -4,7 +4,7 @@ from seleniumwire.proxy.client import ProxyException
 import requests
 import json
 from typing import Set
-from .util import dict_walk
+from .util import dict_walk as util_dict_walk
 from selenium.webdriver.common.by import By
 from json.decoder import JSONDecodeError
 from urllib.parse import quote_plus, unquote_plus
@@ -18,10 +18,27 @@ logger = logging.getLogger(__name__)
 S = requests.Session()
 
 
-class UrlCache(Cache):
+class RetryException(Exception):
+    pass
+
+
+def dict_walk(obj, path: str):
+    data = util_dict_walk(obj, *path.split("/"))
+    if data is None:
+        raise RetryException(path+" no encontrado")
+    return data
+
+
+class SafeCache(Cache):
     def parse_file_name(self, url: str, **kargv):
         h = "".join(c for c in url if c.isalpha() or c.isdigit() or c==' ').rstrip()
         return f"{self.file}/{h}.json"
+
+
+class DefaultBrowkserCache(Cache):
+    def parse_file_name(self, url: str):
+        if url in (None, SearchWire.URL):
+            return "rec/games_browse.json"
 
 
 class SearchWire(Driver):
@@ -29,14 +46,37 @@ class SearchWire(Driver):
     PAGE_SIZE = 25
 
     @staticmethod
-    def get_preload_state(url=None):
+    @Cache("rec/br/{0}={1}.json")
+    def do_games_browse_search(self, filter, value):
+        while True:
+            try:
+                with SearchWire() as web:
+                    return web.query(filter, value)
+            except (ProxyException, JSONDecodeError, RetryException) as e:
+                logger.critical(str(e))
+                time.sleep(60)
+
+    @staticmethod
+    @Cache("rec/br/filter.json")
+    def get_filters():
+        while True:
+            try:
+                obj = SearchWire.get_preload_state()
+                return dict_walk(obj, 'core2/filter/Browse/data')
+            except (ProxyException, JSONDecodeError, RetryException) as e:
+                logger.critical(str(e))
+                time.sleep(60)
+
+    @staticmethod
+    @DefaultBrowkserCache("rec/games_browse.json")
+    def get_preload_state(url: str = None):
         if url is None:
             url = SearchWire.URL
         text = S.get(url).text
         return SearchWire.__get_preload_state(text)
 
     @staticmethod
-    def __get_preload_state(text):
+    def __get_preload_state(text: str):
         for ln in text.split("\n"):
             ln = ln.strip()
             if ln.startswith("window.__PRELOADED_STATE__"):
@@ -49,7 +89,7 @@ class SearchWire(Driver):
     def get_preload_state_ids(self, url: str):
         def __get(url: str):
             obj = SearchWire.get_preload_state(url)
-            obj = dict_walk(obj, 'core2', 'products', 'productSummaries')
+            obj = dict_walk(obj, 'core2/products/productSummaries')
             return set(obj.keys())
         ids = __get(url+'&orderby=Title+Asc')
         if len(ids) >= SearchWire.PAGE_SIZE:
@@ -80,58 +120,49 @@ class SearchWire(Driver):
             try:
                 yield json.loads(txt)
             except JSONDecodeError:
+                logger.critical("NOT JSON: "+r.path)
                 continue
-
-    def run_script(self, file: str):
-        with open(file, "r") as f:
-            js = f.read()
-        return self.execute_script(js)
 
     @cache
     def get_choices(self, filter):
-        obj = dict_walk(self.get_preload_state(), 'core2',
-                        'filters', 'Browse', 'data')
-        if not isinstance(obj, dict):
-            return None
-        if filter not in obj:
-            return None
-        return tuple([c['id'] for c in obj[filter]['choices']])
+        obj = dict_walk(self.get_filters(), f'{filter}/choices')
+        return tuple([c['id'] for c in obj])
 
     def query(self, filter: str, value: str):
         url = SearchWire.URL+'&'+filter+"="+quote_plus(value)
         if (filter, value) != ("PlayWith", "XboxSeriesX|S"):
             return self.__query(url)
-        choices = {
-            k: list(self.get_choices(k)) for k in ('MaturityRating', 'Price') if self.get_choices(k)
-        }
-        if len(choices) == 0:
-            return self.__query(url)
 
         root = SearchWire.URL + f'&{filter}={quote_plus(value)}&'
+        choices = {
+            k: list(self.get_choices(k)) for k in ('MaturityRating', 'Price')
+        }
+        main_choices = {
+            'Price': ("0", "70To"),
+            'MaturityRating': ("PEGI:!", ) + tuple(
+                    (i for i in (choices.get('MaturityRating') or []) if not i[-1].isdigit())
+                )
+        }
 
         def yield_urls():
-            ksy = tuple(choices.keys())
-            if 'Price' in ksy:
-                for c in ("0", "70To"):
-                    if c in choices['Price']:
-                        yield root + 'Price='+c
-                        choices['Price'].remove(c)
-            if 'MaturityRating' in ksy:
-                provisional = tuple(
-                    (i for i in choices['MaturityRating'] if not i[-1].isdigit()))
-                for c in (("PEGI:!",)+provisional):
-                    if c in choices['MaturityRating']:
-                        yield root + 'MaturityRating='+c
-                        choices['MaturityRating'].remove(c)
+            for k, chs in main_choices.items():
+                if k in choices:
+                    for c in chs:
+                        if c in choices[k]:
+                            yield root + k+'='+c
+                            choices[k].remove(c)
 
             ksy = tuple([k for k, v in choices.items() if len(v) > 0])
-            for c0 in choices[ksy[0]]:
-                url = root + f'{ksy[0]}={quote_plus(c0)}'
-                if len(ksy) == 1:
-                    yield url
-                else:
-                    for c1 in choices[ksy[1]]:
-                        yield url + f'&{ksy[1]}={quote_plus(c1)}'
+            if len(ksy) == 0:
+                yield root[:-1]
+            else:
+                for c0 in choices[ksy[0]]:
+                    url = root + f'{ksy[0]}={quote_plus(c0)}'
+                    if len(ksy) == 1:
+                        yield url
+                    else:
+                        for c1 in choices[ksy[1]]:
+                            yield url + f'&{ksy[1]}={quote_plus(c1)}'
 
         ids = set()
         for url in yield_urls():
@@ -140,19 +171,12 @@ class SearchWire(Driver):
         return tuple(sorted(ids))
 
     def getProductSummaries(self, url):
-        while True:
-            try:
-                self.get(url)
-                obj = SearchWire.__get_preload_state(self.source)
-                obj = dict_walk(obj, 'core2', 'products', 'productSummaries')
-                if obj is not None:
-                    return obj
-            except ProxyException:
-                pass
-            self.close()
-            time.sleep(10)
+        self.get(url)
+        obj = SearchWire.__get_preload_state(self.source)
+        obj = dict_walk(obj, 'core2/products/productSummaries')
+        return set(obj.keys())
 
-    @UrlCache("rec/br/tmp/")
+    @SafeCache("rec/br/tmp/")
     def __query(self, url: str):
         query = " ".join(map(
             lambda kv: kv[0]+'='+unquote_plus(kv[1]),
@@ -161,16 +185,16 @@ class SearchWire(Driver):
                 url[len(SearchWire.URL)+1:].split("&")
             )
         ))
-        p_ids = self.get_preload_state_ids(url)
-        if len(p_ids) != SearchWire.PAGE_SIZE and (len(p_ids) < (SearchWire.PAGE_SIZE*2)):
-            logger.info(f"{query} {len(p_ids)}")
-            return p_ids
+        ids = self.get_preload_state_ids(url)
+        if len(ids) != SearchWire.PAGE_SIZE and (len(ids) < (SearchWire.PAGE_SIZE*2)):
+            logger.info(f"{query} {len(ids)}")
+            return ids
 
-        obj = self.getProductSummaries(url)
-        ids = set(obj.keys())
+        ids = self.getProductSummaries(url)
         if len(ids) == 0:
             logger.info(f"{query} 0")
             return tuple()
+
         self.run_script('js/ol.js')
         while True:
             if 1 != self.safe_click('//button[@aria-label="Cargar más"]', by=By.XPATH):

@@ -469,3 +469,8 @@ class Driver:
         w = Web()
         self.pass_cookies(w.s)
         return w
+
+    def run_script(self, file: str):
+        with open(file, "r") as f:
+            js = f.read()
+        return self.execute_script(js)

@@ -211,12 +211,8 @@ class Api:
         ids = tuple(ids)
         return ids
 
-    @Cache("rec/games_browse.json")
-    def get_games_browse(self):
-        return SearchWire.get_preload_state()
-
     def do_games_browse_search(self):
-        def _key(filter: str, choice: dict):
+        def _key(filter: str, choice: Dict):
             t = re_sp.sub(" ", choice['title'])
             if filter == "PlayWith" and re.search(r"Xbox ?Series", t):
                 return "XboxSeries"
@@ -233,23 +229,15 @@ class Api:
             logger.info("Nueva susbscripción %s", choice)
             return "IncludedInSubscription="+choice['id']
 
-        obj = self.get_games_browse()
-        obj = dict_walk(obj, 'core2', 'filters', 'Browse', 'data')
-        if not isinstance(obj, dict):
-            return {}
+        obj = SearchWire.get_filters()
         data = {}
         for filter, v in obj.items():
             for c in v['choices']:
                 k = _key(filter, c)
                 if k is None:
                     continue
-                data[k] = self.__do_games_browse_search(v['id'], c['id'])
+                data[k] = SearchWire.do_games_browse_search(v['id'], c['id'])
         return data
-
-    @Cache("rec/br/{0}={1}.json")
-    def __do_games_browse_search(self, filter, value):
-        with SearchWire() as web:
-            return web.query(filter, value)
 
 
 if __name__ == "__main__":
