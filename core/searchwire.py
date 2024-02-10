@@ -11,11 +11,13 @@ from urllib.parse import quote_plus, unquote_plus
 from functools import cache
 import time
 import logging
-from .cache import Cache
+from .cache import Cache, StaticCache
+import re
 
 logger = logging.getLogger(__name__)
 
 S = requests.Session()
+re_sp = re.compile(r"\s+")
 
 
 class RetryException(Exception):
@@ -31,12 +33,13 @@ def dict_walk(obj, path: str):
 
 class SafeCache(Cache):
     def parse_file_name(self, url: str, **kargv):
-        h = "".join(c for c in url if c.isalpha() or c.isdigit() or c==' ').rstrip()
+        url = re_sp.sub("", url)
+        h = "".join(c for c in url if c.isalpha() or c.isdigit())
         return f"{self.file}/{h}.json"
 
 
-class DefaultBrowkserCache(Cache):
-    def parse_file_name(self, url: str):
+class DefaultBrowkserCache(StaticCache):
+    def parse_file_name(self, url: str = None):
         if url in (None, SearchWire.URL):
             return "rec/games_browse.json"
 
@@ -46,8 +49,8 @@ class SearchWire(Driver):
     PAGE_SIZE = 25
 
     @staticmethod
-    @Cache("rec/br/{0}={1}.json")
-    def do_games_browse_search(self, filter, value):
+    @StaticCache("rec/br/{0}={1}.json")
+    def do_games_browse_search(filter, value):
         while True:
             try:
                 with SearchWire() as web:
@@ -57,12 +60,12 @@ class SearchWire(Driver):
                 time.sleep(60)
 
     @staticmethod
-    @Cache("rec/br/filter.json")
+    @StaticCache("rec/br/filter.json")
     def get_filters():
         while True:
             try:
                 obj = SearchWire.get_preload_state()
-                return dict_walk(obj, 'core2/filter/Browse/data')
+                return dict_walk(obj, 'core2/filters/Browse/data')
             except (ProxyException, JSONDecodeError, RetryException) as e:
                 logger.critical(str(e))
                 time.sleep(60)

@@ -27,8 +27,6 @@ class Cache:
         return self.file
 
     def read(self, file, *args, **kwargs):
-        if file is None:
-            return
         return FM.load(file, **self._kwargs)
 
     def save(self, file, data, *args, **kwargs):
@@ -75,3 +73,24 @@ class Cache:
         self.func = func
         setattr(callCache, "__cache_obj__", self)
         return callCache
+
+
+class StaticCache(Cache):
+    def callCache(self, *args, **kwargs):
+        flkwargs = dict(kwargs)
+        fl = self.parse_file_name(*args, **flkwargs)
+        if not self.tooOld(fl):
+            logger.log(self.loglevel, f"Cache.read({fl})")
+            data = self.read(fl, *args, **kwargs)
+            if data is not None:
+                return data
+        data = self.func(*args, **kwargs)
+        if data is not None:
+            logger.log(self.loglevel, f"Cache.save({fl})")
+            self.save(fl, data, *args, **kwargs)
+        return data
+
+    def parse_file_name(self, *args, **kargv):
+        if args or kargv:
+            return self.file.format(*args, **kargv)
+        return self.file
