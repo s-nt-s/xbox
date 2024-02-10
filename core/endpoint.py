@@ -143,10 +143,13 @@ class EndPointReviews(EndPointWire):
     def parse(self, js: Dict):
         if js is None:
             return None
-        if 'ratingsSummary' not in js and js.get('totalReviews') == 0:
-            return {
-                "totalRatingsCount": 0
-            }
+        if 'ratingsSummary' not in js:
+            if js.get('totalReviews') == 0:
+                return {
+                    "totalRatingsCount": 0
+                }
+            logger.critical(self.id+" revies bad format "+str(js))
+            return None
         return js['ratingsSummary']
 
     @EndPointCache("rec/rw/{id}.json")
