@@ -1,9 +1,10 @@
 from typing import Union, Dict, List
 
 
-def dict_walk(d: Union[Dict, List, None], *args):
+def dict_walk(d: Union[Dict, List, None], path: str):
     if d is None:
         return None
+    args = tuple(map(lambda x: int(x) if x.isdigit() else x, path.split("/")))
     for k in args:
         if isinstance(k, int):
             if not isinstance(d, list):

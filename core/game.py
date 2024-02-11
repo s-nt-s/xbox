@@ -102,14 +102,14 @@ class Game:
 
     @cached_property
     def summary(self) -> dict:
-        obj = dict_walk(self.preload_state, 'core2', 'products', 'productSummaries', self.id)
+        obj = dict_walk(self.preload_state, 'core2/products/productSummaries/' + self.id)
         if not isinstance(obj, dict):
             return None
         return obj
 
     @cached_property
     def discount(self) -> float:
-        obj = dict_walk(self.summary, 'specificPrices', 'purchaseable')
+        obj = dict_walk(self.summary, 'specificPrices/purchaseable')
         if obj is None:
             return 0
         if not isinstance(obj, list) or len(obj) == 0 or not isinstance(obj[0], dict):
@@ -194,7 +194,7 @@ class Game:
 
     @property
     def interactiveDescriptions(self) -> tuple[str]:
-        obj = dict_walk(self.summary, 'contentRating', 'interactiveDescriptions')
+        obj = dict_walk(self.summary, 'contentRating/interactiveDescriptions')
         if obj is None:
             return tuple()
         return tuple(obj)
@@ -343,7 +343,7 @@ class Game:
 
     @cache
     def get_bundle(self):
-        obj = dict_walk(self.preload_state, 'core2', 'channels', 'channelsData', 'INTHISBUNDLE_'+self.id, 'data', 'products')
+        obj = dict_walk(self.preload_state, f'core2/channels/channelsData/INTHISBUNDLE_{self.id}/data/products')
         if obj is None:
             return tuple()
         return tuple([i['productId'] for i in obj])

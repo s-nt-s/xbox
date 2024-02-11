@@ -25,7 +25,7 @@ class RetryException(Exception):
 
 
 def dict_walk(obj, path: str):
-    data = util_dict_walk(obj, *path.split("/"))
+    data = util_dict_walk(obj, path)
     if data is None:
         raise RetryException(path+" no encontrado")
     return data
