@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from datetime import date
 import json
 from math import floor
-from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
+from .endpoint import EndPointProduct, EndPointProductPreloadState, EndPointActions, EndPointReviews
 from .api import Api
 from .util import dict_walk
 import logging
@@ -64,7 +64,7 @@ class Game:
 
     @cached_property
     def i(self):
-        return EndPointGame(self.id).json()
+        return EndPointProduct(self.id).json()
 
     @cached_property
     def productActions(self):
@@ -72,7 +72,7 @@ class Game:
 
     @cached_property
     def preload_state(self):
-        return EndPointPreloadState(self.id).json()
+        return EndPointProductPreloadState(self.id).json()
 
     @cached_property
     def reviewsInfo(self):

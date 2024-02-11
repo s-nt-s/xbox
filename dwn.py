@@ -6,7 +6,7 @@ import logging
 from core.bulkrequests import BulkRequests
 from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews
 from os.path import isfile
-from core.endpoint import EndPointGame
+from core.endpoint import EndPointProduct
 
 parser = argparse.ArgumentParser(
     description='Descarga ficheros para la cache',
@@ -72,7 +72,7 @@ IDS = API.get_ids()
 def dwn_game(tcp_limit: int = 10, tolerance: int = 0, ids=None):
     if ids is None:
         ids = IDS
-    ids = [i for i in ids if not isfile(EndPointGame(i).file)]
+    ids = [i for i in ids if not isfile(EndPointProduct(i).file)]
     BulkRequests(
         tcp_limit=tcp_limit,
         tries=10,

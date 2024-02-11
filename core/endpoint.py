@@ -1,7 +1,7 @@
 from typing import Union, Dict, Tuple
 from .cache import Cache
 from abc import ABC, abstractproperty
-from functools import cached_property
+from functools import cached_property, cache
 import requests
 import json
 from json.decoder import JSONDecodeError
@@ -13,6 +13,14 @@ logger = logging.getLogger(__name__)
 
 S = requests.Session()
 re_sp = re.compile(r"\s+")
+
+
+def _get_preload_state(text: str):
+    for ln in text.split("\n"):
+        ln = ln.strip()
+        if ln.startswith("window.__PRELOADED_STATE__"):
+            ln = ln.split("=", 1)[-1].strip().rstrip(";")
+            return json.loads(ln)
 
 
 class EndPointCache(Cache):
@@ -56,7 +64,7 @@ class EndPoint(ABC):
         self.cache.save(self.file, self.parse(obj))
 
 
-class EndPointColection(EndPoint):
+class EndPointCollection(EndPoint):
     COLS = ("XboxIndieGames", "TopFree", "TopPaid", "New", "BestRated", "ComingSoon", "Deal", "MostPlayed")
 
     @property
@@ -76,12 +84,12 @@ class EndPointColection(EndPoint):
         rt = sorted(rt.values(), key=lambda x: x['Id'])
         return rt
 
-    @EndPointCache("rec/cl/{id}.json")
+    @EndPointCache("rec/collection/{id}.json")
     def json(self) -> Union[Dict, None]:
         js = self.get_list(self.url)
         return js
 
-    @cached_property
+    @cache
     def ids(self) -> Tuple[str]:
         obj = self.json()
         gen = map(lambda x: x['Id'], (i for i in obj))
@@ -92,7 +100,7 @@ class EndPointCatalogList(EndPoint):
     UUID = r'"(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})"'
 
     def __init__(self):
-        self.id = "catalogs"
+        self.id = "index"
 
     @property
     def url(self):
@@ -113,7 +121,7 @@ class EndPointCatalogList(EndPoint):
         if "Xbox Series X|S" in t:
             return "XboxSeries"
 
-    @EndPointCache("rec/ct/{id}.json")
+    @EndPointCache("rec/catalog/{id}.json")
     def json(self) -> Union[Dict, None]:
         obj = dict(
             GamePass=["f6f1f99f-9b49-4ccd-b3bf-4d9767a77f5e"],
@@ -138,19 +146,19 @@ class EndPointCatalog(EndPoint):
     def url(self):
         return "https://catalog.gamepass.com/sigls/v2?language=es-es&market=ES&id="+self.id
 
-    @EndPointCache("rec/ct/{id}.json")
+    @EndPointCache("rec/catalog/{id}.json")
     def json(self) -> Union[Dict, None]:
         js = S.get(self.url).json()
         return js
 
-    @cached_property
+    @cache
     def ids(self) -> Tuple[str]:
         obj = self.json()
         gen = map(lambda x: x['id'], obj[1:])
         return tuple(sorted(gen))
 
 
-class EndPointGame(EndPoint):
+class EndPointProduct(EndPoint):
     @property
     def url(self):
         MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
@@ -161,26 +169,22 @@ class EndPointGame(EndPoint):
             if i['ProductId'] == self.id:
                 return i
 
-    @EndPointCache("rec/gm/{id}.json")
+    @EndPointCache("rec/product/{id}.json")
     def json(self) -> Union[Dict, None]:
         js = S.get(self.url).json()
         return self.parse(js)
 
 
-class EndPointPreloadState(EndPoint):
+class EndPointProductPreloadState(EndPoint):
     @property
     def url(self):
         return "https://www.xbox.com/es-es/games/store/a/"+self.id
 
     def parse(self, text: str):
-        for ln in text.split("\n"):
-            ln = ln.strip()
-            if ln.startswith("window.__PRELOADED_STATE__"):
-                ln = ln.split("=", 1)[-1].strip().rstrip(";")
-                return json.loads(ln)
+        return _get_preload_state(text)
 
-    @EndPointCache("rec/ps/{id}.json")
-    def json(self, text: Union[None, str] = None) -> Union[Dict, None]:
+    @EndPointCache("rec/preload/{id}.json")
+    def json(self) -> Union[Dict, None]:
         text = S.get(self.url).text
         return self.parse(text)
 
@@ -214,7 +218,7 @@ class EndPointActions(EndPointWire):
     def path(self):
         return "://emerald.xboxservices.com/xboxcomfd/productActions/"
 
-    @EndPointCache("rec/ac/{id}.json")
+    @EndPointCache("rec/action/{id}.json")
     def json(self) -> Union[Dict, None]:
         return self._json()
 
@@ -224,6 +228,6 @@ class EndPointReviews(EndPointWire):
     def path(self):
         return "://emerald.xboxservices.com/xboxcomfd/ratingsandreviews/summaryandreviews/"
 
-    @EndPointCache("rec/rw/{id}.json")
+    @EndPointCache("rec/review/{id}.json")
     def json(self) -> Union[Dict, None]:
         return self._json()

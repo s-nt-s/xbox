@@ -3,7 +3,7 @@ from aiohttp import ClientSession
 from typing import Tuple
 from os.path import isfile
 import time
-from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
+from .endpoint import EndPointProduct, EndPointProductPreloadState, EndPointActions, EndPointReviews
 
 
 class BulkRequestsGame(BulkRequestsFileJob):
@@ -12,7 +12,7 @@ class BulkRequestsGame(BulkRequestsFileJob):
 
     @property
     def url(self):
-        return EndPointGame(",".join(self.ids)).url
+        return EndPointProduct(",".join(self.ids)).url
 
     @property
     def file(self):
@@ -20,7 +20,7 @@ class BulkRequestsGame(BulkRequestsFileJob):
 
     def done(self) -> bool:
         for id in self.ids:
-            file = EndPointGame(id).file
+            file = EndPointProduct(id).file
             if not isfile(file):
                 return False
         return True
@@ -29,14 +29,14 @@ class BulkRequestsGame(BulkRequestsFileJob):
         async with session.get(self.url) as response:
             js = await response.json()
             for i in js['Products']:
-                endpoint = EndPointGame(i['ProductId'])
+                endpoint = EndPointProduct(i['ProductId'])
                 endpoint.save_in_cache(js)
             return True
 
 
 class BulkRequestsPreloadState(BulkRequestsFileJob):
     def __init__(self, id: str):
-        self.endpoint = EndPointPreloadState(id)
+        self.endpoint = EndPointProductPreloadState(id)
 
     @property
     def url(self):

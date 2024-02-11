@@ -6,7 +6,7 @@ from typing import Dict, Set, Tuple
 import re
 import logging
 from .searchwire import SearchWire
-from core.endpoint import EndPointColection, EndPointCatalogList, EndPointCatalog
+from core.endpoint import EndPointCollection, EndPointCatalogList, EndPointCatalog
 
 
 logger = logging.getLogger(__name__)
@@ -43,9 +43,9 @@ class Api:
 
         for k, cats in EndPointCatalogList().json().items():
             for cat in cats:
-                __add(k, EndPointCatalog(cat).ids)
-        for k in EndPointColection.COLS:
-            __add(k, EndPointColection(k).ids)
+                __add(k, EndPointCatalog(cat).ids())
+        for k in EndPointCollection.COLS:
+            __add(k, EndPointCollection(k).ids())
         for k, ids in self.do_games_browse_search().items():
             if k not in rt:
                 rt[k] = set()

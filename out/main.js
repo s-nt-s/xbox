@@ -320,7 +320,7 @@ function ifLocal() {
   if (!isLocal) return;
   document.querySelectorAll("div.game[id]:not([id='']) > p").forEach((p) => {
     p.appendChild(document.createElement("br"));
-    ["ac", "gm", "ps", "rw"].forEach((path, i) => {
+    ["action", "product", "preload", "review"].forEach((path, i) => {
       if (i > 0) p.appendChild(document.createTextNode(" - "));
       p.appendChild(
         mkTag(`
