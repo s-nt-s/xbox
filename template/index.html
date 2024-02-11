@@ -112,7 +112,7 @@
 <p>
 	<b><a href="{{j.url}}" class="title">{{j.title}}</a>{# <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b>
 	<br>
-	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code{%if j.discount%} class="ofertaTrue" title="{{j.discount | round | int}}% de descuento"{%endif%}>{{j.price | round1 | int}} €</code><br>
+	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code{%if j.discount%} class="ofertaTrue" title="{{j.discount | round | int}}% de descuento"{%endif%}>{{j.int_price}} €</code><br>
 	{#
 	{% if j.langs %}
 		[ {{" / ".join(j.langs) }} ]</br>

@@ -1,5 +1,6 @@
-from core.api import Api, chunks
+from core.api import Api
 from core.game import Game
+from core.util import chunks
 import argparse
 import logging
 from core.bulkrequests import BulkRequests

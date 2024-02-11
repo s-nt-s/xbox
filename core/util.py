@@ -18,3 +18,14 @@ def dict_walk(d: Union[Dict, List, None], *args):
         if d is None:
             return None
     return d
+
+
+def chunks(lst, n):
+    arr = []
+    for i in lst:
+        arr.append(i)
+        if len(arr) == n:
+            yield arr
+            arr = []
+    if arr:
+        yield arr

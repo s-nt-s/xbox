@@ -2,7 +2,7 @@ import inspect
 import re
 from os.path import isfile
 from functools import cached_property, cache
-from typing import Union, Tuple, Dict, List, Set
+from typing import Union, Tuple, Dict, Set
 from math import ceil
 from dataclasses import dataclass
 from datetime import date
@@ -11,6 +11,9 @@ from math import floor
 from .endpoint import EndPointGame, EndPointPreloadState, EndPointActions, EndPointReviews
 from .api import Api
 from .util import dict_walk
+import logging
+
+logger = logging.getLogger(__name__)
 
 YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
@@ -73,11 +76,29 @@ class Game:
 
     @cached_property
     def reviewsInfo(self):
-        return EndPointReviews(self.id).json() or {}
+        js = EndPointReviews(self.id).json()
+        if js is None:
+            return None
+        if 'ratingsSummary' in js:
+            return js['ratingsSummary']
+        if js.get('totalReviews') == 0:
+            return {
+                "totalRatingsCount": 0
+            }
+        logger.critical(self.id+" revies bad format "+str(js))
+        return None
 
     @cached_property
     def price(self) -> float:
         return self.i["DisplaySkuAvailabilities"][0]["Availabilities"][0]["OrderManagementData"]["Price"]["ListPrice"]
+
+    @cached_property
+    def int_price(self) -> int:
+        if self.price > 0 and self.price < 1:
+            return 1
+        if self.price < 0 and self.price > -1:
+            return -1
+        return int(round(self.price))
 
     @cached_property
     def summary(self) -> dict:
@@ -98,11 +119,10 @@ class Game:
 
     @property
     def rate(self) -> float:
-        averageRating = self.reviewsInfo.get('averageRating')
-        if averageRating is not None:
-            return averageRating
-        AverageRating = self.i["MarketProperties"][0]["UsageData"][-1]["AverageRating"]
-        return AverageRating
+        averageRating = (self.reviewsInfo or {}).get('averageRating')
+        if averageRating is None:
+            averageRating = self.i["MarketProperties"][0]["UsageData"][-1]["AverageRating"]
+        return averageRating
 
     @property
     def reviews(self) -> int:
@@ -117,12 +137,12 @@ class Game:
         return "https://www.xbox.com/es-es/games/store/a/"+self.id
 
     @cached_property
-    def ProductType(self) -> str:
+    def productType(self) -> str:
         return self.i["ProductType"]
 
     @cached_property
     def isGame(self) -> bool:
-        return self.ProductType == 'Game'
+        return self.productType == 'Game'
 
     @cached_property
     def imgs(self) -> tuple[str]:

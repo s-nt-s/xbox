@@ -1,16 +1,18 @@
-from typing import Union, Dict
+from typing import Union, Dict, Tuple
 from .cache import Cache
-from abc import ABC, abstractproperty, abstractmethod
+from abc import ABC, abstractproperty
 from functools import cached_property
 import requests
 import json
 from json.decoder import JSONDecodeError
 import logging
 from .findwireresponse import FindWireResponse
+import re
 
 logger = logging.getLogger(__name__)
 
 S = requests.Session()
+re_sp = re.compile(r"\s+")
 
 
 class EndPointCache(Cache):
@@ -36,13 +38,8 @@ class EndPoint(ABC):
     def url(self) -> str:
         pass
 
-    @abstractproperty
-    def parse(self, obj: Union[str, Dict]) -> Dict:
-        pass
-
-    @abstractmethod
-    def json(self):
-        pass
+    def parse(self, obj: Union[str, Dict, None]) -> Union[str, Dict, None]:
+        return obj
 
     @cached_property
     def cache(self) -> EndPointCache:
@@ -57,6 +54,100 @@ class EndPoint(ABC):
 
     def save_in_cache(self, obj):
         self.cache.save(self.file, self.parse(obj))
+
+
+class EndPointColection(EndPoint):
+    COLS = ("XboxIndieGames", "TopFree", "TopPaid", "New", "BestRated", "ComingSoon", "Deal", "MostPlayed")
+
+    @property
+    def url(self):
+        if self.id == "XboxIndieGames":
+            return "https://reco-public.rec.mp.microsoft.com/channels/Reco/v8.0/lists/collection/XboxIndieGames?itemTypes=Game&DeviceFamily=Windows.Xbox&market=es&count=2000"
+        return "https://reco-public.rec.mp.microsoft.com/channels/Reco/V8.0/Lists/Computed/"+self.id+"?Market=es&Language=es&ItemTypes=Game&deviceFamily=Windows.Xbox&count=2000"
+
+    def get_list(self, url):
+        js = S.get(url).json()
+        rt = {i['Id']: i for i in js['Items']}
+        tt = js['PagingInfo']['TotalItems']
+        while len(rt) < tt:
+            js = S.get(url+"&skipitems="+str(len(rt))).json()
+            for i in js['Items']:
+                rt[i['Id']] = i
+        rt = sorted(rt.values(), key=lambda x: x['Id'])
+        return rt
+
+    @EndPointCache("rec/cl/{id}.json")
+    def json(self) -> Union[Dict, None]:
+        js = self.get_list(self.url)
+        return js
+
+    @cached_property
+    def ids(self) -> Tuple[str]:
+        obj = self.json()
+        gen = map(lambda x: x['Id'], (i for i in obj))
+        return tuple(sorted(gen))
+
+
+class EndPointCatalogList(EndPoint):
+    UUID = r'"(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})"'
+
+    def __init__(self):
+        self.id = "catalogs"
+
+    @property
+    def url(self):
+        return "https://www.xbox.com/en-US/xbox-game-pass/games/js/xgpcatPopulate-MWF2.js"
+
+    def __get_key(self, d):
+        t = re_sp.sub(" ", d[0]['title'])
+        if re.search(r"EA ?Play", t):
+            return "EAPlay"
+        if t == "Juegos independientes":
+            return "XboxIndieGames"
+        if re.search(r"Game ?Pass", t) and "Próximamente" not in t:
+            return "GamePass"
+        if re.search(r"Ubisoft", t):
+            return "Ubisoft"
+        if t == "Bethesda Softworks":
+            return "Bethesda"
+        if "Xbox Series X|S" in t:
+            return "XboxSeries"
+
+    @EndPointCache("rec/ct/{id}.json")
+    def json(self) -> Union[Dict, None]:
+        obj = dict(
+            GamePass=["f6f1f99f-9b49-4ccd-b3bf-4d9767a77f5e"],
+            EAPlay=["b8900d09-a491-44cc-916e-32b5acae621b"],
+            Ubisoft=["aed03b50-b954-4ee4-a426-fe1686b64f85"],
+            Bethesda=[]
+        )
+        text = S.get(self.url).text
+        for w in sorted(set(re.findall(EndPointCatalogList.UUID, text))):
+            d = EndPointCatalog(w).json()
+            k = self.__get_key(d) or w
+            if k not in obj:
+                obj[k] = []
+            if w not in obj[k]:
+                obj[k].append(w)
+        catalogs: Dict[str, Tuple[str]] = {k: tuple(sorted(v)) for k,v in obj.items()}
+        return catalogs
+
+
+class EndPointCatalog(EndPoint):
+    @property
+    def url(self):
+        return "https://catalog.gamepass.com/sigls/v2?language=es-es&market=ES&id="+self.id
+
+    @EndPointCache("rec/ct/{id}.json")
+    def json(self) -> Union[Dict, None]:
+        js = S.get(self.url).json()
+        return js
+
+    @cached_property
+    def ids(self) -> Tuple[str]:
+        obj = self.json()
+        gen = map(lambda x: x['id'], obj[1:])
+        return tuple(sorted(gen))
 
 
 class EndPointGame(EndPoint):
@@ -123,9 +214,6 @@ class EndPointActions(EndPointWire):
     def path(self):
         return "://emerald.xboxservices.com/xboxcomfd/productActions/"
 
-    def parse(self, js: Dict):
-        return js
-
     @EndPointCache("rec/ac/{id}.json")
     def json(self) -> Union[Dict, None]:
         return self._json()
@@ -136,22 +224,6 @@ class EndPointReviews(EndPointWire):
     def path(self):
         return "://emerald.xboxservices.com/xboxcomfd/ratingsandreviews/summaryandreviews/"
 
-    @property
-    def url(self):
-        return None
-
-    def parse(self, js: Dict):
-        if js is None:
-            return None
-        if 'ratingsSummary' not in js:
-            if js.get('totalReviews') == 0:
-                return {
-                    "totalRatingsCount": 0
-                }
-            logger.critical(self.id+" revies bad format "+str(js))
-            return None
-        return js['ratingsSummary']
-
     @EndPointCache("rec/rw/{id}.json")
-    def json(self, js: Union[None, Dict] = None) -> Union[Dict, None]:
+    def json(self) -> Union[Dict, None]:
         return self._json()
