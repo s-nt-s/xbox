@@ -5,7 +5,7 @@ import requests
 from typing import Dict, Set, Tuple
 import re
 import logging
-from .searchwire import SearchWire
+from .search import SearchWire, EndPointSearchPreloadState, EndPointSearchXboxSeries
 from core.endpoint import EndPointCollection, EndPointCatalogList, EndPointCatalog
 
 
@@ -81,14 +81,15 @@ class Api:
             logger.info("Nueva susbscripción %s", choice)
             return "IncludedInSubscription="+choice['id']
 
-        obj = SearchWire.get_filters()
+        obj = EndPointSearchPreloadState().filters()
         data = {}
         for filter, v in obj.items():
             for c in v['choices']:
                 k = _key(filter, c)
                 if k is None:
                     continue
-                data[k] = SearchWire.do_games_browse_search(v['id'], c['id'])
+                data[k] = EndPointSearchXboxSeries({v['id']: c['id']}).ids()
+                logger.info(f"{v['id']}={c['id']} {len(data[k])}")
         return data
 
 
