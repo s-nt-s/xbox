@@ -50,7 +50,6 @@ class BulkRequestsPreloadState(BulkRequestsFileJob):
         async with session.get(self.url) as response:
             text = await response.text()
             self.endpoint.save_in_cache(text)
-            time.sleep(0.5)  # Evitar baneo
             return True
 
 

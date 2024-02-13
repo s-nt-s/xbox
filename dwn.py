@@ -88,7 +88,8 @@ def dwn_preload_state(tcp_limit: int = 10, tolerance: int = 0, ids=None):
     BulkRequests(
         tcp_limit=tcp_limit,
         tries=100,
-        tolerance=tolerance
+        tolerance=tolerance,
+        sleep=60
     ).run(*map(BulkRequestsPreloadState, ids), label="preload_state")
 
 
