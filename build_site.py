@@ -66,7 +66,6 @@ def get_games():
                     ids.append(b.id)
     return tuple(sorted(items, key=lambda g: g.id))
 
-
 print("Obteniendo juegos", end="\r")
 items = get_games()
 print("Obteniendo juegos:", len(items))

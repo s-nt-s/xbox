@@ -228,22 +228,27 @@ class Game:
         return self.gamepass and self.notSoldSeparately
 
     @cached_property
-    def langs(self) -> tuple[str]:
-        def find_lang(lng: str, arr: list[str]):
-            for ln in arr:
-                ln = ln.lower()
-                if ln == lng or ln.startswith(lng+'-'):
-                    return True
-            return False
-        langs = set()
-        for x in (self.i['DisplaySkuAvailabilities'] or []):
-            for m in (x['Sku']['MarketProperties'] or []):
-                if find_lang('es', m['SupportedLanguages']):
-                    langs.add('ES')
-                elif find_lang('en', m['SupportedLanguages']):
-                    langs.add('EN')
-        langs = sorted(langs)
-        return tuple(langs)
+    def spanish(self) -> tuple[str]:
+        spa = {
+            'audio': None,
+            'subtitles': None,
+        }
+        obj = dict_walk(self.summary, 'languagesSupported')
+        if not isinstance(obj, dict) or len(obj) == 0:
+            return spa
+        hasAudio = False
+        hasSubti = False
+        es = {}
+        for k, v in obj.items():
+            hasAudio = hasAudio or v['isAudioSupported']
+            hasSubti = hasSubti or v['areSubtitlesSupported']
+            if k.startswith("es-"):
+                es = {**es, **{a: b for a, b in v.items() if b is True}}
+        if hasAudio:
+            spa['audio'] = es.get('isAudioSupported') is True
+        if hasSubti:
+            spa['subtitles'] = es.get('areSubtitlesSupported') is True
+        return spa
 
     @cached_property
     def categories(self) -> tuple[str]:
@@ -287,9 +292,26 @@ class Game:
             return tuple()
         return tuple(obj)
 
+    @cached_property
+    def primary(self):
+        obj = dict_walk(self.i, 'DisplaySkuAvailabilities/0/Sku/Properties/BundledSkus')
+        if not isinstance(obj, list):
+            return None
+        for i in obj:
+            if i.get('IsPrimary') is True:
+                return i['BigId']
+
     @property
     def tags(self) -> tuple[str]:
         tags = set(self.extra_tags)
+        if self.spanish['audio'] is True:
+            tags.add("Doblado")
+        if self.spanish['subtitles'] is True:
+            tags.add("Subtitulado")
+        if self.spanish['audio'] is False:
+            tags.add("FaltaDoblaje")
+        if self.spanish['subtitles'] is False:
+            tags.add("FaltanSubtitulos")
         if self.onlyGamepass:
             tags.add("SoloGamePass")
         if self.tragaperras:
