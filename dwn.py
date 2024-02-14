@@ -136,9 +136,9 @@ if ARG.all:
             if b not in IDS:
                 ids.add(b)
     ids = tuple(sorted(ids))
-    logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
     dwn_game(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
     ids = tuple(sorted(set((i.id for i in map(Game, ids) if i.isGame))))
+    logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
     if len(ids):
         dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
         dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)

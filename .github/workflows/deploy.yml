@@ -45,15 +45,6 @@ jobs:
           max_attempts: 3
           retry_on: error
           command: python dwn.py --browse
-      - name: BROWSE 3
-        continue-on-error: true
-        uses: nick-fields/retry@v2
-        with:
-          timeout_minutes: 60
-          retry_wait_seconds: 60
-          max_attempts: 3
-          retry_on: error
-          command: python dwn.py --browse
       - name: DWN 1
         continue-on-error: true
         uses: nick-fields/retry@v2
@@ -77,11 +68,20 @@ jobs:
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 60
+          retry_wait_seconds: 60
+          max_attempts: 3
+          retry_on: error
+          command: python dwn.py
+      - name: DWN 4
+        continue-on-error: true
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 60
           retry_wait_seconds: 15
           max_attempts: 3
           retry_on: error
-          command: python dwn.py 
-      - name: DWN 4
+          command: python dwn.py
+      - name: DWN 5
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 60

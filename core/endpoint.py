@@ -87,6 +87,10 @@ class EndPointCollection(EndPoint):
     @EndPointCache("rec/collection/{id}.json")
     def json(self) -> Union[Dict, None]:
         js = self.get_list(self.url)
+        if js is None:
+            logger.info(self.id+" None")
+        else:
+            logger.info(self.id+" "+len(js))
         return js
 
     @cache
@@ -138,6 +142,7 @@ class EndPointCatalogList(EndPoint):
             if w not in obj[k]:
                 obj[k].append(w)
         catalogs: Dict[str, Tuple[str]] = {k: tuple(sorted(v)) for k,v in obj.items()}
+        logger.info("catalogs "+len(catalogs))
         return catalogs
 
 
@@ -149,6 +154,10 @@ class EndPointCatalog(EndPoint):
     @EndPointCache("rec/catalog/{id}.json")
     def json(self) -> Union[Dict, None]:
         js = S.get(self.url).json()
+        if js is None:
+            logger.info(self.id+" None")
+        else:
+            logger.info(self.id+" "+len(js))
         return js
 
     @cache
@@ -172,7 +181,8 @@ class EndPointProduct(EndPoint):
     @EndPointCache("rec/product/{id}.json")
     def json(self) -> Union[Dict, None]:
         js = S.get(self.url).json()
-        return self.parse(js)
+        js = self.parse(js)
+        return js
 
 
 class EndPointProductPreloadState(EndPoint):

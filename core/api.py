@@ -5,7 +5,7 @@ import requests
 from typing import Dict, Set, Tuple
 import re
 import logging
-from .search import SearchWire, EndPointSearchPreloadState, EndPointSearchXboxSeries
+from .search import EndPointSearchPreloadState, EndPointSearchXboxSeries
 from core.endpoint import EndPointCollection, EndPointCatalogList, EndPointCatalog
 
 
@@ -89,7 +89,6 @@ class Api:
                 if k is None:
                     continue
                 data[k] = EndPointSearchXboxSeries({v['id']: c['id']}).ids()
-                logger.info(f"{v['id']}={c['id']} {len(data[k])}")
         return data
 
 

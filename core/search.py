@@ -113,6 +113,10 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
             if len(ps) >= PAGE_SIZE:
                 ps = SearchWire.do_games_browse_search(query)
             obj = {**obj, **ps}
+            squery = " ".join(f"{k}={v}" for k, v in query.items())
+            logger.info(f"{squery} {len(ps)}")
+        squery = " ".join(f"{k}={v}" for k, v in query.items())
+        logger.info(f"{squery} {len(obj)}")
         return obj
 
     @EndPointSearchCache("rec/search/")
@@ -133,7 +137,7 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
                 choices['MaturityRating'].remove(c)
 
         main_choices = {
-            'Price': ("0", "70To"),
+            #'Price': ("0", "70To"),
             'MaturityRating': tuple(
                 (i for i in choices['MaturityRating'] if not i[-1].isdigit())
             )
@@ -182,12 +186,10 @@ class SearchWire(Driver):
         super().__init__(browser="wirefirefox", wait=10)
 
     def query(self, query: Dict[str, str]):
-        squery = " ".join(f"{k}={v}" for k, v in query.items())
         url = URL_GAMES_BROWSER + '&' + \
             '&'.join(map(lambda kv: kv[0]+'=' +
                      quote_plus(kv[1]), query.items()))
         ids = self.__query_from_url(url)
-        logger.info(f"{squery} {len(ids)}")
         return ids
 
     @SafeCache("rec/search/url/")

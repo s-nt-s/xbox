@@ -142,6 +142,8 @@ class Game:
 
     @cached_property
     def isGame(self) -> bool:
+        if self.i is None:
+            return False
         return self.productType == 'Game'
 
     @cached_property
