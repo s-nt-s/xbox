@@ -30,6 +30,10 @@ class EndPointCache(Cache):
     def parse_file_name(self, *args, slf: "EndPoint", **kargv):
         return self.file.format(id=slf.id)
 
+    def save(self, file, data, *args, **kwargs):
+        if data is not None:
+            return super().save(file, data, *args, **kwargs)
+
     def read(self, file, *args, **kwargs):
         try:
             return super().read(file, *args, **kwargs)
