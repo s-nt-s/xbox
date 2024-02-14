@@ -54,7 +54,7 @@ jobs:
           max_attempts: 3
           retry_on: error
           command: python dwn.py --browse
-      - name: DWN preload_state 1
+      - name: DWN 1
         continue-on-error: true
         uses: nick-fields/retry@v2
         with:
@@ -62,8 +62,8 @@ jobs:
           retry_wait_seconds: 60
           max_attempts: 3
           retry_on: error
-          command: python dwn.py --preload-state
-      - name: DWN preload_state 2
+          command: python dwn.py
+      - name: DWN 2
         continue-on-error: true
         uses: nick-fields/retry@v2
         with:
@@ -71,8 +71,8 @@ jobs:
           retry_wait_seconds: 60
           max_attempts: 3
           retry_on: error
-          command: python dwn.py --preload-state
-      - name: DWN preload_state 3
+          command: python dwn.py
+      - name: DWN 3
         continue-on-error: true
         uses: nick-fields/retry@v2
         with:
@@ -80,8 +80,8 @@ jobs:
           retry_wait_seconds: 15
           max_attempts: 3
           retry_on: error
-          command: python dwn.py --preload-state
-      - name: DWN
+          command: python dwn.py 
+      - name: DWN 4
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 60
