@@ -306,10 +306,13 @@ class Game:
     @property
     def tags(self) -> tuple[str]:
         tags = set(self.extra_tags)
+        isEs = (self.spanish['audio'], self.spanish['subtitles'])
         if self.spanish['audio'] is True:
             tags.add("Doblado")
         if self.spanish['subtitles'] is True:
             tags.add("Subtitulado")
+        if False in isEs and True not in isEs:
+            tags.add("FaltaEspañol")
         if self.spanish['audio'] is False:
             tags.add("FaltaDoblaje")
         if self.spanish['subtitles'] is False:

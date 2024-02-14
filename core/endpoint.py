@@ -90,7 +90,7 @@ class EndPointCollection(EndPoint):
         if js is None:
             logger.info(self.id+" None")
         else:
-            logger.info(self.id+" "+len(js))
+            logger.info(self.id+" "+str(len(js)))
         return js
 
     @cache
@@ -142,7 +142,7 @@ class EndPointCatalogList(EndPoint):
             if w not in obj[k]:
                 obj[k].append(w)
         catalogs: Dict[str, Tuple[str]] = {k: tuple(sorted(v)) for k,v in obj.items()}
-        logger.info("catalogs "+len(catalogs))
+        logger.info("catalogs "+str(len(catalogs)))
         return catalogs
 
 
@@ -157,7 +157,7 @@ class EndPointCatalog(EndPoint):
         if js is None:
             logger.info(self.id+" None")
         else:
-            logger.info(self.id+" "+len(js))
+            logger.info(self.id+" "+str(len(js)))
         return js
 
     @cache
