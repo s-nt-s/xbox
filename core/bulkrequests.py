@@ -6,6 +6,7 @@ from os import remove
 from abc import ABC, abstractproperty, abstractmethod
 from aiohttp.client_exceptions import ClientError
 from asyncio.exceptions import TimeoutError
+from core.endpoint import AccessDenied
 import time
 
 logger = logging.getLogger(__name__)
@@ -92,7 +93,7 @@ class BulkRequests:
     async def __requests(self, session: ClientSession, job: BulkRequestsJob):
         try:
             return await job.do(session)
-        except (ClientError, TimeoutError):
+        except (ClientError, TimeoutError, AccessDenied):
             raise
         except Exception as e:
             logger.critical(str(e), exc_info=e)

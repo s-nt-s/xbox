@@ -6,7 +6,8 @@ import logging
 from core.bulkrequests import BulkRequests
 from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews
 from os.path import isfile
-from core.endpoint import EndPointProduct
+from core.endpoint import EndPointProduct, AccessDenied
+import time
 
 parser = argparse.ArgumentParser(
     description='Descarga ficheros para la cache',
@@ -85,12 +86,16 @@ def dwn_game(tcp_limit: int = 10, tolerance: int = 0, ids=None):
 def dwn_preload_state(tcp_limit: int = 10, tolerance: int = 0, ids=None):
     if ids is None:
         ids = IDS
-    BulkRequests(
-        tcp_limit=tcp_limit,
-        tries=100,
-        tolerance=tolerance,
-        sleep=60
-    ).run(*map(BulkRequestsPreloadState, ids), label="preload_state")
+    try:
+        BulkRequests(
+            tcp_limit=tcp_limit,
+            tries=100,
+            tolerance=tolerance,
+            sleep=100
+        ).run(*map(BulkRequestsPreloadState, ids), label="preload_state")
+    except AccessDenied:
+        time.sleep(600)
+        return dwn_preload_state(tcp_limit=tcp_limit, tolerance=tolerance, ids=ids)
 
 
 def dwn_action(tcp_limit: int = 10, tolerance: int = 0, ids=None):

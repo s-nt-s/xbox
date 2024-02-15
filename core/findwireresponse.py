@@ -33,7 +33,7 @@ class FindWireResponse:
         with Driver(browser="wirefirefox") as web:
             web.get(url)
             while True:
-                if "Error response" in str(web.get_soup()):
+                if "Access Denied" in str(web.get_soup()):
                     web.get(url)
                 r: WireRequest
                 for r in web._driver.requests:

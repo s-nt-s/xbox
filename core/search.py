@@ -14,6 +14,7 @@ from .cache import Cache
 import re
 from typing import Union, Dict
 from .endpoint import EndPoint, _get_preload_state, EndPointCache
+from .timeout import timeout
 
 logger = logging.getLogger(__name__)
 
@@ -101,9 +102,7 @@ class EndPointSearchPreloadState(EndPoint):
 
 class EndPointSearchXboxSeries(EndPointSearchPreloadState):
     def __init__(self, id: Dict[str, str] = None):
-        super().__init__(id)
-        if "PlayWith" not in self.id:
-            self.id["PlayWith"] = "XboxSeriesX|S"
+        super().__init__({**{"PlayWith": "XboxSeriesX|S"}, **id})
 
     @EndPointSearchCache("rec/search/full/")
     def productSummaries(self) -> Union[Dict, None]:
@@ -176,9 +175,10 @@ class SearchWire(Driver):
     def do_games_browse_search(query: Dict[str, str]):
         while True:
             try:
-                with SearchWire() as web:
-                    return web.query(query)
-            except (ProxyException, JSONDecodeError, KeyNotFound) as e:
+                with timeout(seconds=60*10):
+                    with SearchWire() as web:
+                        return web.query(query)
+            except (ProxyException, JSONDecodeError, KeyNotFound, TimeoutError) as e:
                 logger.critical(str(e))
                 time.sleep(60)
 

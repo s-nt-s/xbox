@@ -2,7 +2,6 @@ from .bulkrequests import BulkRequestsFileJob
 from aiohttp import ClientSession
 from typing import Tuple
 from os.path import isfile
-import time
 from .endpoint import EndPointProduct, EndPointProductPreloadState, EndPointActions, EndPointReviews
 
 
@@ -50,7 +49,7 @@ class BulkRequestsPreloadState(BulkRequestsFileJob):
         async with session.get(self.url) as response:
             text = await response.text()
             self.endpoint.save_in_cache(text)
-            return True
+            return self.done()
 
 
 class BulkRequestsActions(BulkRequestsFileJob):

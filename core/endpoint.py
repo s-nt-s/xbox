@@ -15,12 +15,18 @@ S = requests.Session()
 re_sp = re.compile(r"\s+")
 
 
+class AccessDenied(Exception):
+    pass
+
+
 def _get_preload_state(text: str):
     for ln in text.split("\n"):
         ln = ln.strip()
         if ln.startswith("window.__PRELOADED_STATE__"):
             ln = ln.split("=", 1)[-1].strip().rstrip(";")
             return json.loads(ln)
+    if "Access Denied" in text:
+        raise AccessDenied()
 
 
 class EndPointCache(Cache):
