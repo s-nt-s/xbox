@@ -103,7 +103,7 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
     def __init__(self, id: Dict[str, str] = None):
         super().__init__(id)
         if "PlayWith" not in self.id:
-            id["PlayWith"] = "XboxSeriesX|S"
+            self.id["PlayWith"] = "XboxSeriesX|S"
 
     @EndPointSearchCache("rec/search/full/")
     def productSummaries(self) -> Union[Dict, None]:
