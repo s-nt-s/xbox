@@ -119,14 +119,14 @@ if ARG.browse:
 if ARG.game:
     dwn_game(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
-if ARG.preload_state:
-    dwn_preload_state(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
-
 if ARG.action:
     dwn_action(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
 if ARG.review:
     dwn_review(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
+
+if ARG.preload_state:
+    dwn_preload_state(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
 if ARG.all:
     logger.info("Obteniendo juegos extra de los bundle")
@@ -140,6 +140,6 @@ if ARG.all:
     ids = tuple(sorted(set((i.id for i in map(Game, ids) if i.isGame))))
     logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
     if len(ids):
-        dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
         dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
         dwn_review(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
+        dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
