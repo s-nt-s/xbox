@@ -202,7 +202,7 @@ class SearchWire(Driver):
         obj = _get_preload_state(self.source)
         obj = dict_walk(obj, 'core2/products/productSummaries')
         if len(obj) == 0:
-            return list(obj.values())
+            return obj
 
         self.run_script('js/ol.js')
         while True:
