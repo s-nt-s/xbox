@@ -32,6 +32,13 @@ def dict_walk(obj, path: str):
     return data
 
 
+class AuxCache(Cache):
+    def parse_file_name(self, obj, **kargv):
+        name = re_sp.sub("", str(obj))
+        name = "".join(c for c in name if c.isalpha() or c.isdigit())
+        return f"{self.file}/{name}.json"
+
+
 class KeyNotFound(ValueError):
     pass
 
@@ -76,7 +83,7 @@ class EndPointSearchPreloadState(EndPoint):
         must = {
             'orderby': ("Title Asc", "Title Desc"),
             'PlayWith': ("XboxSeriesX|S",),
-            "Price": ("0", "70To"),
+            "Price": ("0", "40To70", "70To"),
             'MaturityRating':  tuple(),
             'IncludedInSubscription': tuple()
         }
@@ -109,15 +116,20 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
     def productSummaries(self) -> Union[Dict, None]:
         obj = {}
         for query in self.yield_queries():
-            ps = EndPointSearchPreloadState(query).productSummaries()
-            if len(ps) >= PAGE_SIZE:
-                ps = SearchWire.do_games_browse_search(query)
+            ps = self.__productSummariesPage(query)
             obj = {**obj, **ps}
-            squery = " ".join(f"{k}={v}" for k, v in query.items())
-            logger.info(f"{squery} {len(ps)}")
-        squery = " ".join(f"{k}={v}" for k, v in query.items())
+        squery = " ".join(f"{k}={v}" for k, v in self.id.items())
         logger.info(f"{squery} {len(obj)}")
         return obj
+
+    @AuxCache("rec/search/aux/")
+    def __productSummariesPage(self, query: Dict[str, str]):
+        ps = EndPointSearchPreloadState(query).productSummaries()
+        if len(ps) >= PAGE_SIZE:
+            ps = SearchWire.do_games_browse_search(query)
+        squery = " ".join(f"{k}={v}" for k, v in query.items())
+        logger.info(f"{squery} {len(ps)}")
+        return ps
 
     @EndPointSearchCache("rec/search/ids/")
     def ids(self):
@@ -167,13 +179,6 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
                     yield {**qr, **{ksy[1]: c1}}
 
 
-class SafeCache(Cache):
-    def parse_file_name(self, url: str, **kargv):
-        url = re_sp.sub("", url)
-        h = "".join(c for c in url if c.isalpha() or c.isdigit())
-        return f"{self.file}/{h}.json"
-
-
 class SearchWire(Driver):
     @staticmethod
     def do_games_browse_search(query: Dict[str, str]):
@@ -196,7 +201,6 @@ class SearchWire(Driver):
         ids = self.__query_from_url(url)
         return ids
 
-    @SafeCache("rec/search/url/")
     def __query_from_url(self, url: str):
         self.get(url)
         obj = _get_preload_state(self.source)
