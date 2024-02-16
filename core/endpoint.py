@@ -201,7 +201,9 @@ class EndPointProductPreloadState(EndPoint):
         return "https://www.xbox.com/es-es/games/store/a/"+self.id
 
     def parse(self, text: str):
-        return _get_preload_state(text)
+        data = _get_preload_state(text)
+        if data is not None:
+            return data['core2']
 
     @EndPointCache("rec/preload/{id}.json")
     def json(self) -> Union[Dict, None]:
