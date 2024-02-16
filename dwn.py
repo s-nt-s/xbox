@@ -63,6 +63,7 @@ for name in ('seleniumwire.proxy.handler', 'seleniumwire.proxy.client'):
     logging.getLogger(name).setLevel(logging.CRITICAL)
 
 logger = logging.getLogger(__name__)
+logger.info("START")
 
 ARG = parser.parse_args()
 all_false_is_all_true(ARG)
