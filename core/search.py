@@ -152,7 +152,7 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
                 choices['MaturityRating'].remove(c)
 
         main_choices = {
-            'Price': ("0", "70To"),
+            'Price': ("0", "40To70", "70To"),
             'MaturityRating': tuple(
                 (i for i in choices['MaturityRating'] if not i[-1].isdigit())
             )
