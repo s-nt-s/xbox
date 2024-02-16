@@ -4,6 +4,10 @@ import json
 from .web import Driver
 from seleniumwire.webdriver.request import Request as WireRequest
 from json.decoder import JSONDecodeError
+import time
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class WireResponse(NamedTuple):
@@ -34,6 +38,9 @@ class FindWireResponse:
             web.get(url)
             while True:
                 if "Access Denied" in str(web.get_soup()):
+                    web.close()
+                    logger.critical("AccessDenied when find_response")
+                    time.sleep(600)
                     web.get(url)
                 r: WireRequest
                 for r in web._driver.requests:

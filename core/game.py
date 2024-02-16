@@ -357,12 +357,8 @@ class Game:
             tags.add(x)
         if self.price == 0:
             tags.add("Free")
-        if 'GamePass' in self.collections:
+        if self.gamepass:
             tags.add("GamePass")
-        elif 'EAPlay' in self.collections:
-            tags.add("EAPlay")
-        # if self.gamepass:
-        #    tags.add("GamePass")
         if self.discount > 0:
             tags.add("Oferta")
         tags = sorted(tags)
