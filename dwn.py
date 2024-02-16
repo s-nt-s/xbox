@@ -26,13 +26,13 @@ parser.add_argument(
     '--game', action='store_true', help="Descarga la ficha de los juegos"
 )
 parser.add_argument(
-    '--preload-state', action='store_true', help="Descarga el preload state de los juegos"
-)
-parser.add_argument(
     '--action', action='store_true', help="Descarga las acciones de los juegos"
 )
 parser.add_argument(
     '--review', action='store_true', help="Descarga las review de los juegos"
+)
+parser.add_argument(
+    '--preload-state', action='store_true', help="Descarga el preload state de los juegos"
 )
 
 
@@ -94,6 +94,7 @@ def dwn_preload_state(tcp_limit: int = 10, tolerance: int = 0, ids=None):
             sleep=100
         ).run(*map(BulkRequestsPreloadState, ids), label="preload_state")
     except AccessDenied:
+        logger.critical("AccessDenied when dwn_preload_state")
         time.sleep(600)
         return dwn_preload_state(tcp_limit=tcp_limit, tolerance=tolerance, ids=ids)
 

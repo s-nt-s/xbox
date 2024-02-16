@@ -102,9 +102,10 @@ class EndPointSearchPreloadState(EndPoint):
 
 class EndPointSearchXboxSeries(EndPointSearchPreloadState):
     def __init__(self, id: Dict[str, str] = None):
+        self.__keys = tuple(sorted(id.keys()))
         super().__init__({**{"PlayWith": "XboxSeriesX|S"}, **id})
 
-    @EndPointSearchCache("rec/search/full/")
+    @EndPointSearchCache("rec/search/")
     def productSummaries(self) -> Union[Dict, None]:
         obj = {}
         for query in self.yield_queries():
@@ -118,11 +119,14 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
         logger.info(f"{squery} {len(obj)}")
         return obj
 
-    @EndPointSearchCache("rec/search/")
+    @EndPointSearchCache("rec/search/ids/")
     def ids(self):
         return tuple(sorted(self.productSummaries().keys()))
 
     def yield_queries(self):
+        if self.__keys == ('IncludedInSubscription', ):
+            yield dict(self.id)
+            return
         filters = dict(self.filters())
         query = dict(self.id)
         choices = {
@@ -153,14 +157,14 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
         ksy = tuple([k for k, v in choices.items() if len(v) > 0])
         if len(ksy) == 0:
             yield dict(query)
-        else:
-            for c0 in choices[ksy[0]]:
-                qr = {**query, **{ksy[0]: c0}}
-                if len(ksy) == 1:
-                    yield qr
-                else:
-                    for c1 in choices[ksy[1]]:
-                        yield {**qr, **{ksy[1]: c1}}
+            return
+        for c0 in choices[ksy[0]]:
+            qr = {**query, **{ksy[0]: c0}}
+            if len(ksy) == 1:
+                yield qr
+            else:
+                for c1 in choices[ksy[1]]:
+                    yield {**qr, **{ksy[1]: c1}}
 
 
 class SafeCache(Cache):

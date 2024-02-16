@@ -3,6 +3,7 @@ from aiohttp import ClientSession
 from typing import Tuple
 from os.path import isfile
 from .endpoint import EndPointProduct, EndPointProductPreloadState, EndPointActions, EndPointReviews
+import time
 
 
 class BulkRequestsGame(BulkRequestsFileJob):
@@ -49,6 +50,7 @@ class BulkRequestsPreloadState(BulkRequestsFileJob):
         async with session.get(self.url) as response:
             text = await response.text()
             self.endpoint.save_in_cache(text)
+            time.sleep(0.5)  # Evitar baneo
             return self.done()
 
 

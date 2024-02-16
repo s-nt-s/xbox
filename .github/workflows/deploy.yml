@@ -31,28 +31,37 @@ jobs:
         continue-on-error: true
         uses: nick-fields/retry@v2
         with:
-          timeout_minutes: 60
+          timeout_minutes: 25
           retry_wait_seconds: 60
-          max_attempts: 3
-          retry_on: error
+          max_attempts: 6
+          retry_on: any
           command: python dwn.py --browse
       - name: BROWSE 2
         continue-on-error: true
         uses: nick-fields/retry@v2
         with:
-          timeout_minutes: 60
+          timeout_minutes: 25
           retry_wait_seconds: 60
-          max_attempts: 3
-          retry_on: error
+          max_attempts: 6
+          retry_on: any
           command: python dwn.py --browse
+      - name: GAME+ACTION+REVIEW
+        continue-on-error: true
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 60
+          max_attempts: 6
+          retry_on: any
+          command: python dwn.py --browse --game --action --review
       - name: DWN 1
         continue-on-error: true
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 60
           retry_wait_seconds: 60
-          max_attempts: 3
-          retry_on: error
+          max_attempts: 6
+          retry_on: any
           command: python dwn.py
       - name: DWN 2
         continue-on-error: true
@@ -60,8 +69,8 @@ jobs:
         with:
           timeout_minutes: 60
           retry_wait_seconds: 60
-          max_attempts: 3
-          retry_on: error
+          max_attempts: 6
+          retry_on: any
           command: python dwn.py
       - name: DWN 3
         continue-on-error: true
@@ -69,8 +78,8 @@ jobs:
         with:
           timeout_minutes: 60
           retry_wait_seconds: 60
-          max_attempts: 3
-          retry_on: error
+          max_attempts: 6
+          retry_on: any
           command: python dwn.py
       - name: DWN 4
         continue-on-error: true
@@ -78,21 +87,21 @@ jobs:
         with:
           timeout_minutes: 60
           retry_wait_seconds: 15
-          max_attempts: 3
-          retry_on: error
+          max_attempts: 6
+          retry_on: any
           command: python dwn.py
       - name: DWN 5
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 60
           retry_wait_seconds: 15
-          max_attempts: 3
-          retry_on: error
+          max_attempts: 6
+          retry_on: any
           command: python dwn.py
       - name: Build site
         run: python build_site.py
       - name: ZIP
-        run: cd ./rec/ && tar -cJf ../out/json.tar.xz * && cd ..
+        run: cd ./rec/ && rm -rf search/*/ && tar -cJf ../out/json.tar.xz * && cd ..
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
