@@ -258,9 +258,12 @@ class Game:
 
     @property
     def gamepass(self) -> bool:
-        return len(set(self.collections).intersection(
-            ('GamePass', 'EAPlay', 'Ubisoft', 'Bethesda')
-        )) > 0
+        for c in self.collections:
+            if c in ('GamePass', 'EAPlay', 'Ubisoft', 'Bethesda'):
+                return True
+            if c.startswith("IncludedInSubscription"):
+                return True
+        return False
 
     @property
     def bundle(self) -> bool:
