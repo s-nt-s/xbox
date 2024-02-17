@@ -98,9 +98,9 @@ class EndPointCollection(EndPoint):
     def json(self) -> Union[Dict, None]:
         js = self.get_list(self.url)
         if js is None:
-            logger.info(self.id+" None")
+            logger.info("NON "+self.id)
         else:
-            logger.info(self.id+" "+str(len(js)))
+            logger.info(f"{len(js):>3} {self.id}")
         return js
 
     @cache
@@ -152,7 +152,7 @@ class EndPointCatalogList(EndPoint):
             if w not in obj[k]:
                 obj[k].append(w)
         catalogs: Dict[str, Tuple[str]] = {k: tuple(sorted(v)) for k,v in obj.items()}
-        logger.info("catalogs "+str(len(catalogs)))
+        logger.info(f"{len(catalogs):>3} catalogs")
         return catalogs
 
 
@@ -165,9 +165,9 @@ class EndPointCatalog(EndPoint):
     def json(self) -> Union[Dict, None]:
         js = S.get(self.url).json()
         if js is None:
-            logger.info(self.id+" None")
+            logger.info("NON "+self.id)
         else:
-            logger.info(self.id+" "+str(len(js)))
+            logger.info(f"{len(js):>3} {self.id}")
         return js
 
     @cache

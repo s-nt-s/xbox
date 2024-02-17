@@ -119,7 +119,7 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
             ps = self.__productSummariesPage(query)
             obj = {**obj, **ps}
         squery = " ".join(f"{k}={v}" for k, v in self.id.items())
-        logger.info(f"{squery} {len(obj)}")
+        logger.info(f"{len(obj):>3} {squery}")
         return obj
 
     @AuxCache("rec/search/aux/")
@@ -128,7 +128,7 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
         if len(ps) >= PAGE_SIZE:
             ps = SearchWire.do_games_browse_search(query)
         squery = " ".join(f"{k}={v}" for k, v in query.items())
-        logger.info(f"{squery} {len(ps)}")
+        logger.info(f"{len(ps):>3} {squery}")
         return ps
 
     @EndPointSearchCache("rec/search/ids/")
