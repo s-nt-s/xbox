@@ -46,12 +46,12 @@
 				<input type="number" step="1" required id="price_min" min="0" max="{{gl.mx.precio}}" value="{{[1, gl.mx.precio] | min}}">
 			</label>
 			<label for="price_max"> - 
-				<input type="number" step="1" required id="price_max" min="0" max="{{gl.mx.precio}}" value="{{[20, gl.mx.precio] | min}}" title="max: {{gl.mx.precio}}"> €
+				<input type="number" step="1" required id="price_max" min="0" max="{{gl.mx.precio}}" value="{{[10, gl.mx.precio] | min}}" title="max: {{gl.mx.precio}}"> €
 			</label>
 			</p>
 			<p>
 			<label for="reviews_min"><span>Reviews:</span>
-				<input type="number" step="1" required id="reviews_min" min="0" max="{{gl.mx.reviews}}" value="{{[7, gl.mx.reviews] | min}}">
+				<input type="number" step="1" required id="reviews_min" min="0" max="{{gl.mx.reviews}}" value="{{[10, gl.mx.reviews] | min}}">
 			</label>
 			<label for="reviews_max"> - 
 				<input type="number" step="1" required id="reviews_max" min="0" max="{{gl.mx.reviews}}" value="{{gl.mx.reviews}}" title="max: {{gl.mx.reviews}}"> 🗳
@@ -101,6 +101,8 @@
 			<span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
             {% elif t == "FaltaEspañol" %}
 			<span title="#FaltaDoblaje + #FaltanSubtitulos "><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
+            {% elif t == "MOBA" %}
+			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
             {% else %}
 			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"> <label for="{{iid}}">#{{t}}</label></span>
             {% endif %}
