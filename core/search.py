@@ -182,24 +182,31 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
 class SearchWire(Driver):
     @staticmethod
     def do_games_browse_search(query: Dict[str, str]):
+        url = None
         while True:
             try:
-                with timeout(seconds=60*10):
+                with timeout(seconds=60*40):
                     with SearchWire() as web:
+                        url = web.query_to_url(query)
                         return web.query(query)
             except (ProxyException, JSONDecodeError, KeyNotFound, TimeoutError) as e:
-                logger.critical(str(e))
+                logger.critical(f"do_games_browse_search({url}) " + str(e))
                 time.sleep(60)
 
     def __init__(self):
         super().__init__(browser="wirefirefox", wait=10)
+        self.button = '//button[@aria-label="Cargar más"]'
 
     def query(self, query: Dict[str, str]):
+        url = self.query_to_url(query)
+        ids = self.__query_from_url(url)
+        return ids
+
+    def query_to_url(self, query: Dict[str, str]):
         url = URL_GAMES_BROWSER + '&' + \
             '&'.join(map(lambda kv: kv[0]+'=' +
                      quote_plus(kv[1]), query.items()))
-        ids = self.__query_from_url(url)
-        return ids
+        return url
 
     def __query_from_url(self, url: str):
         self.get(url)
@@ -210,7 +217,7 @@ class SearchWire(Driver):
 
         self.run_script('js/ol.js')
         while True:
-            if 1 != self.safe_click('//button[@aria-label="Cargar más"]', by=By.XPATH):
+            if 1 != self.safe_click(self.button, by=By.XPATH):
                 return obj
             new_obj = self.__find_ids(set(obj.keys()))
             if len(new_obj):
@@ -219,12 +226,17 @@ class SearchWire(Driver):
     def __find_ids(self, done: Set[str]):
         path = "://emerald.xboxservices.com/xboxcomfd/browse"
         new_obj = {}
-        while True:
-            for js in self.__iter_requests_json(path):
-                aux = {v['productId']: v for v in js['productSummaries'] if v['productId'] not in done}
-                new_obj = {**new_obj, **aux}
-            if len(new_obj) > 0:
-                return new_obj
+        try:
+            with timeout(seconds=60):
+                while True:
+                    for js in self.__iter_requests_json(path):
+                        aux = {v['productId']: v for v in js['productSummaries'] if v['productId'] not in done}
+                        new_obj = {**new_obj, **aux}
+                    if len(new_obj) > 0:
+                        return new_obj
+        except TimeoutError:
+            if self.safe_wait(self.button) is None:
+                return {}
 
     def __iter_requests_json(self, path: str):
         r: WireRequest
