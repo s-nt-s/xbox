@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <base target="_blank" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta
+      name="Last-Modified"
+      content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}"
+    />
+    <link rel="stylesheet" href="../main.css" />
+  </head>
+  <body>
+    <header>[<a href="../" target="_self">HOME</a>] - [FAQ]</header>
+    <main>
+      <h1>¿Qué juegos aparecen en la web?</h1>
+      <p>
+        Esta web solo recoge juegos disponibles para
+        <strong>Xbox Series S|X</strong>.
+      </p>
+
+      <h1>
+        ¿Por qué usar esto en vez del
+        <a href="{{browser}}">buscador oficial</a>?
+      </h1>
+      <p>Esta web añade facilidades para:</p>
+      <ul>
+        <li>filtrar por reviews, estrellas y porcentaje de descuento</li>
+        <li>evitar "juegos" que realmente son tragaperras</li>
+        <li>
+          evitar "juegos" que realmente son paquetes de cosméticos y/o monedas
+          virtuales
+        </li>
+        <li>
+          evitar versiones Xbox One cuando hay disponible una versión Xbox
+          Series S|X del mismo juego
+        </li>
+        <li>
+          diferenciar juegos gratuitos reales de lo que realmente es una demo de
+          un juego de pago (ej: el episodio 1 de una temporada de 5 episodios)
+        </li>
+        <li>buscar pruebas gratuitas</li>
+        <li>
+          filtrar juegos con diálogos según estén traducidos al español o no
+        </li>
+        <li>
+          encontrar juegos que no aparecen en el
+          <a href="{{browser}}">buscador oficial</a>
+        </li>
+        <li>
+          evitar perder el tiempo con páginas de resultados, aquí se muestran
+          todos los resultados de golpe
+        </li>
+      </ul>
+
+      <h1>¿De donde se obtiene el listado de juegos disponibles?</h1>
+      <p>Para confeccionar el listado se usa como fuente:</p>
+      <ol>
+        <li><a href="{{browser}}">El buscador de juegos,</a></li>
+        <li>
+          las colecciones
+          <ul>
+            {% for c in collections|sort(attribute='title,id') %}
+            <li><a href="{{c.url}}">{{c.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li>
+          y los catálogos
+          <ul>
+            {% for c in catalogs|sort(attribute='title,id') %}
+            <li>
+              <a href="{{c.url}}"><code>{{c.id}}</code> {{c.title}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ol>
+      <p>
+        <strong>¡IMPORTANTE!</strong>: Si conoces más catálogos y/o colecciones,
+        por favor, por un
+        <a href="https://github.com/s-nt-s/xbox/issues" target="_blank"
+          >issue</a
+        >
+      </p>
+      
+      <h1>¿De donde se obtiene la información de cada juego?</h1>
+      <p>
+        La información se obtiene de diversos <code>json</code> obtenidos via
+        scraping. Puedes consultar una copia de ellos en
+        <a href="../json.tar.xz"><code>json.tar.xz</code></a>
+      </p>
+
+      <h1>¿Qué versión de los juegos intergeneracionales se muestra?</h1>
+      <p>
+        Algunos juegos están disponibles por separado en una versión para Xbox
+        One y en otra Xbox Series X|S. Cuando se da este caso solo se mantiene
+        la versión Xbox Series X|S y se descarta la otra.
+      </p>
+      <p>
+        A continuación se listan los descartes en forma de árbol, siendo el
+        <i>padre</i> el juego que si aparece en el listado y los
+        <i>hijos</i> los juegos descargados
+      </p>
+      <ul>
+        {% for g, cm in older %}
+        <li>
+          <a href="{{g.url}}">{{g.title}}</a>
+          <ul>
+            {% for c in cm %}
+            <li><a href="{{c.url}}">{{c.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h1>¿Qué juegos se han descartado?</h1>
+      <p>
+        Algunos juegos en realidad son paquetes que incluyen el juego verdadero
+        (normalmente un juego gratuito) y complementos (normalmente monedas,
+        pases de batalla, skins). En esos casos se ha optado por incluir solo al
+        juego verdadero y descartar los otros juegos que realmente son
+        complementos.
+      </p>
+      <p>
+        A continuación se listan los descartes en forma de árbol, siendo el
+        <i>padre</i> el juego que si aparece en el listado y los
+        <i>hijos</i> los juegos descargados
+      </p>
+      <ul>
+        {% for g, cm in complements %}
+        <li>
+          <a href="{{g.url}}">{{g.title}}</a>
+          <ul>
+            {% for c in cm %}
+            <li><a href="{{c.url}}">{{c.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </main>
+    <footer>
+      <p>
+        Código fuente en
+        <a href="https://github.com/s-nt-s/xbox" target="_blank">GitHub</a>. Si
+        falla o tienes alguna sugerencia pon un
+        <a href="https://github.com/s-nt-s/xbox/issues" target="_blank">issue</a
+        >.
+      </p>
+      <p>Última actualización: {{now.strftime('%Y-%m-%d')}}</p>
+    </footer>
+  </body>
+</html>

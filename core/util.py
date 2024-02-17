@@ -1,4 +1,4 @@
-from typing import Union, Dict, List
+from typing import Union, Dict, List, Set, Tuple
 
 
 def dict_walk(d: Union[Dict, List, None], path: str):
@@ -30,3 +30,13 @@ def chunks(lst, n):
             arr = []
     if arr:
         yield arr
+
+
+def dict_add(obj: Dict[str, Set], a: str, b: str):
+    if a not in obj:
+        obj[a] = set()
+    obj[a].add(b)
+
+
+def dict_tuple(obj: Dict[str, Union[Set, List, Tuple]]):
+    return {k: tuple(sorted(set(v))) for k, v in obj.items()}

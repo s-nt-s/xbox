@@ -22,7 +22,7 @@
 	<body>
 		<header>
 			<p>
-				Ultima actualización: {{now.strftime('%Y-%m-%d')}}
+				[HOME] - [<a href="faq/" target="_self">FAQ</a>]
 			</p>
 		</header>
 <main>
@@ -32,7 +32,7 @@
 				<option value="A" selected>Todo</option>
 				<option value="G">GamePass</option>
 				<option value="F">Gratis</option>
-				<option value="T">Prueba gratuita</option>
+				<option value="T">Demo o prueba gratuita</option>
 			</select>
 			<label for="order">Ordenar por</label> <select id="order">
 				<option value="D" selected>fecha</option>
@@ -98,13 +98,11 @@
 			{% for t in gl.tags %}
 			{% set iid = "t"+(loop.index|string) %}
             {% if t == "Tragaperras" %}
-			<span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
+			<span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%}checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
             {% elif t == "FaltaEspañol" %}
-			<span title="#FaltaDoblaje + #FaltanSubtitulos "><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
-            {% elif t == "MOBA" %}
-			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" checked> <label for="{{iid}}">#{{t}}</label></span>
+			<span title="#FaltaDoblaje + #FaltanSubtitulos "><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%}checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
             {% else %}
-			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"> <label for="{{iid}}">#{{t}}</label></span>
+			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%}checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
             {% endif %}
 			{% endfor %}
 		</fieldset>
@@ -144,6 +142,7 @@
 		Código fuente en <a href="https://github.com/s-nt-s/xbox" target="_blank">GitHub</a>.
     Si falla o tienes alguna sugerencia pon un <a href="https://github.com/s-nt-s/xbox/issues" target="_blank">issue</a>.
 		</p>
+		<p>Última actualización: {{now.strftime('%Y-%m-%d')}}</p>
 </footer>
 </body>
 </html>

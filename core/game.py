@@ -18,6 +18,7 @@ logger = logging.getLogger(__name__)
 YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
 re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
+re_sp = re.compile(r"\s+")
 
 
 @cache
@@ -94,9 +95,9 @@ class Game:
 
     @cached_property
     def int_price(self) -> int:
-        if self.price > 0 and self.price < 1:
+        if self.price > 0 and self.price <= 1:
             return 1
-        if self.price < 0 and self.price > -1:
+        if self.price < 0 and self.price >= -1:
             return -1
         return int(round(self.price))
 
@@ -130,7 +131,24 @@ class Game:
 
     @cached_property
     def title(self) -> str:
-        return self.i["LocalizedProperties"][0]["ProductTitle"]
+        title: str = self.i["LocalizedProperties"][0]["ProductTitle"]
+        title = re_sp.sub(" ", title).strip()
+        title = title.replace("—", "-")
+        title = title.replace(" ®", "®")
+        return title
+    
+    @cached_property
+    def relatedProducts(self):
+        relatedProducts = self.i["LocalizedProperties"][0]["RelatedProducts"]
+        
+
+    @cached_property
+    def shortTitle(self) -> str:
+        return self.i["LocalizedProperties"][0]["ShortTitle"]
+
+    @cached_property
+    def productDescription(self) -> str:
+        return self.i["LocalizedProperties"][0]["ProductDescription"]
 
     @cached_property
     def url(self) -> str:
@@ -276,8 +294,16 @@ class Game:
         return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsPreOrder']
 
     @property
+    def demo(self) -> bool:
+        return self.i['Properties'].get('IsDemo') is True
+
+    @property
     def trial(self) -> bool:
-        return 'Trial' in self.actions
+        if (self.price == 0 and self.demo):
+            return True
+        if (self.price > 0 and 'Trial' in self.actions):
+            return True
+        return False
 
     @cached_property
     def releaseDate(self) -> Union[date, None]:
@@ -310,6 +336,8 @@ class Game:
     def tags(self) -> tuple[str]:
         tags = set(self.extra_tags)
         isEs = (self.spanish['audio'], self.spanish['subtitles'])
+        if self.demo:
+            tags.add("Demo")
         if self.spanish['audio'] is True:
             tags.add("Doblado")
         if self.spanish['subtitles'] is True:
@@ -352,7 +380,7 @@ class Game:
             if x in ('XblCrossPlatformCoop', 'XblCrossPlatformMultiPlayer', 'XboxLiveCrossGenMP'):
                 x = 'CrossPlatform'
             if x in ('XblOnlineMultiPlayer', 'XblOnlineCoop'):
-                x = 'MultiPlayer'
+                x = 'OnlineMultiPlayer'
             if x in ('XblLocalMultiPlayer', 'XblLocalCoop', 'SharedSplitScreen'):
                 x = 'LocalMultiPlayer'
             # if x == 'SharedSplitScreen':
@@ -368,27 +396,11 @@ class Game:
         return tuple(tags)
 
     @cache
-    def get_bundle(self):
+    def get_bundle(self) -> Tuple[str]:
         obj = dict_walk(self.preload_state, f'channels/channelsData/INTHISBUNDLE_{self.id}/data/products')
         if obj is None:
             return tuple()
         return tuple([i['productId'] for i in obj])
-
-    def to_dict(self) -> dict:
-        dt = {}
-        for k, v in inspect.getmembers(self):
-            if k[0] != '_' and isinstance(v, (str, int, float, tuple)):
-                dt[k] = v
-        return dt
-
-    def to_js(self) -> dict:
-        ks = ('gamepass', 'id', 'price', 'rate',
-              'reviews', 'tags', 'trial', 'discount')
-        dt = {}
-        for k, v in inspect.getmembers(self):
-            if k in ks and isinstance(v, (str, int, float, tuple)):
-                dt[k] = v
-        return dt
 
 
 @dataclass(frozen=True)
@@ -407,7 +419,7 @@ class GameList:
             info[i.id] = dict(
                 antiquity=(today - i.releaseDate).days,
                 gamepass=i.gamepass,
-                price=i.price,
+                price=i.int_price,
                 rate=i.rate,
                 reviews=i.reviews,
                 trial=i.trial,

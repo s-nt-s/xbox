@@ -2,7 +2,7 @@ from functools import cache
 
 import requests
 
-from typing import Dict, Set, Tuple
+from typing import Dict, Set, Tuple, NamedTuple
 import re
 import logging
 from .search import EndPointSearchPreloadState, EndPointSearchXboxSeries
@@ -28,9 +28,42 @@ https://reco-public.rec.mp.microsoft.com/channels/Reco/V8.0/Lists/Computed/MostP
 S = requests.Session()
 
 
+class UrlTitle(NamedTuple):
+    id: str
+    url: str
+    title: str
+
+
 class Api:
     def __init__(self):
         pass
+
+    def get_catalog_list(self):
+        arr = set()
+        for k, cats in EndPointCatalogList().json().items():
+            for c in cats:
+                endpoint = EndPointCatalog(c)
+                if endpoint.json() is None:
+                    continue
+                arr.add(UrlTitle(
+                    id=endpoint.id,
+                    url=endpoint.url,
+                    title=endpoint.json()[0]['title']
+                ))
+        return tuple(sorted(arr))
+
+    def get_collection_list(self):
+        arr = set()
+        for c in EndPointCollection.COLS:
+            endpoint = EndPointCollection(c)
+            if endpoint.json() is None:
+                continue
+            arr.add(UrlTitle(
+                id=endpoint.id,
+                url=endpoint.url,
+                title=c
+            ))
+        return tuple(sorted(arr))
 
     @cache
     def get_dict_catalog(self):

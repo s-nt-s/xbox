@@ -1,4 +1,4 @@
-from typing import Union, Dict, Tuple
+from typing import Union, Dict, Tuple, List
 from .cache import Cache
 from abc import ABC, abstractproperty
 from functools import cached_property, cache
@@ -151,7 +151,7 @@ class EndPointCatalogList(EndPoint):
                 obj[k] = []
             if w not in obj[k]:
                 obj[k].append(w)
-        catalogs: Dict[str, Tuple[str]] = {k: tuple(sorted(v)) for k,v in obj.items()}
+        catalogs: Dict[str, Tuple[str]] = {k: tuple(sorted(v)) for k, v in obj.items()}
         logger.info(f"{len(catalogs):>3} catalogs")
         return catalogs
 
@@ -202,8 +202,29 @@ class EndPointProductPreloadState(EndPoint):
 
     def parse(self, text: str):
         data = _get_preload_state(text)
-        if data is not None:
-            return data['core2']
+        if data is None:
+            return None
+
+        def rm_other_games(obj: Union[Dict, List]):
+            if isinstance(obj, list):
+                for i in obj:
+                    rm_other_games(i)
+                return
+            if isinstance(obj, dict):
+                if self.id not in obj:
+                    for i in obj.values():
+                        return rm_other_games(i)
+                    return
+                for k in list(obj.keys()):
+                    if k != self.id and len(k) == 12 and k.upper() == k:
+                        del obj[k]
+
+        data = data['core2']
+        for k in ('wishlist', 'cart', 'accountLink', 'contextualStore', 'search', 'filters', 'support', 'serviceErrorMessages'):
+            if k in data:
+                del data[k]
+        rm_other_games(data)
+        return data
 
     @EndPointCache("rec/preload/{id}.json")
     def json(self) -> Union[Dict, None]:

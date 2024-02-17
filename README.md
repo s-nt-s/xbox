@@ -1,1 +1,1 @@
-Listado de juegos XBOX
+Listado de juegos Xbox Series X|S

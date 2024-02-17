@@ -131,8 +131,6 @@ class FileManager:
             with open(file, "wb") as f:
                 f.write(r.content)
 
-        ext = self.normalize_ext(file.suffix)
-
     def load_json(self, file, *args, **kargv):
         with open(file, "r") as f:
             try:
