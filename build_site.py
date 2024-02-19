@@ -4,8 +4,6 @@ from core.api import Api
 from core.j2 import Jnj2, to_value
 from datetime import datetime
 from core.game import Game, GameList
-from typing import Dict, Set
-import re
 import filter.filter as gfilter
 from core.search import URL_GAMES_BROWSER
 from core.endpoint import EndPointCollection, EndPointProduct
@@ -25,7 +23,7 @@ api = Api()
 def do_filter1(i: Game):
     if i.gamepass:
         return True
-    if (i.price <= args.precio):
+    if i.price <= args.precio:
         return True
     return False
 
@@ -50,27 +48,17 @@ def do_filter2(i: Game):
     return True
 
 
-def iter_progress(arr: list[Game]):
-    total = len(arr)
-    for i, a in enumerate(arr):
-        i = i+1
-        prc = (i/total)*100
-        print("{0:3.0f}% [{1}/{2}]".format(prc, i, total), end="\r")
-        yield a
-    print("100% [{0}/{0}]".format(total))
-
-
 def get_games():
     ids = list(api.get_ids())
-    items = list(map(Game, ids))
-    for i in items:
+    games = list(map(Game, ids))
+    for i in games:
         for b in i.get_bundle():
             if b not in ids:
                 b = Game(b)
                 if b.isGame:
-                    items.append(b)
+                    games.append(b)
                     ids.append(b.id)
-    return tuple(sorted(items, key=lambda g: g.id))
+    return tuple(sorted(games, key=lambda g: g.id))
 
 
 print("Obteniendo juegos", end="\r")
@@ -86,15 +74,6 @@ items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
 
 print("Descartando complementos o bundle redundantes")
-
-RMV: Dict[str, Set[str]] = {}
-
-
-def add_to_rm(a: str, b: str):
-    if a not in RMV:
-        RMV[a] = set()
-    RMV[a].add(b)
-
 
 items = {i.id: i for i in items}
 

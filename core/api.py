@@ -40,16 +40,15 @@ class Api:
 
     def get_catalog_list(self):
         arr = set()
-        for k, cats in EndPointCatalogList().json().items():
-            for c in cats:
-                endpoint = EndPointCatalog(c)
-                if endpoint.json() is None:
-                    continue
-                arr.add(UrlTitle(
-                    id=endpoint.id,
-                    url=endpoint.url,
-                    title=endpoint.json()[0]['title']
-                ))
+        for c in EndPointCatalogList().json():
+            endpoint = EndPointCatalog(c)
+            if endpoint.json() is None:
+                continue
+            arr.add(UrlTitle(
+                id=endpoint.id,
+                url=endpoint.url,
+                title=endpoint.title
+            ))
         return tuple(sorted(arr))
 
     def get_collection_list(self):
@@ -74,9 +73,9 @@ class Api:
                 rt[k] = set()
             rt[k] = rt[k].union(ids)
 
-        for k, cats in EndPointCatalogList().json().items():
-            for cat in cats:
-                __add(k, EndPointCatalog(cat).ids())
+        for cat in EndPointCatalogList().json():
+            ecat = EndPointCatalog(cat)
+            __add(ecat.tag or ecat.id, ecat.ids())
         for k in EndPointCollection.COLS:
             __add(k, EndPointCollection(k).ids())
         for k, ids in self.do_games_browse_search().items():

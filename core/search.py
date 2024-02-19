@@ -49,7 +49,7 @@ class EndPointSearchCache(EndPointCache):
             name = "&".join((f"{k}={v}" for k, v in slf.id.items()))
         else:
             name = "games_browse"
-        return f"{self.file}/{name}.json"
+        return self.file.format(name)
 
 
 class EndPointSearchPreloadState(EndPoint):
@@ -72,7 +72,7 @@ class EndPointSearchPreloadState(EndPoint):
             raise KeyNotFound("__PRELOADED_STATE__ NOT FOUND")
         return ps
 
-    @EndPointSearchCache(f"rec/search/max{PAGE_SIZE}/")
+    @EndPointSearchCache(f"rec/search/max{PAGE_SIZE}/{{}}.json")
     def json(self) -> Union[Dict, None]:
         text = S.get(self.url).text
         return self.parse(text)
@@ -112,7 +112,7 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
         self.__keys = tuple(sorted(id.keys()))
         super().__init__({**{"PlayWith": "XboxSeriesX|S"}, **id})
 
-    @EndPointSearchCache("rec/search/")
+    @EndPointSearchCache("rec/search/full/{}.json")
     def productSummaries(self) -> Union[Dict, None]:
         obj = {}
         for query in self.yield_queries():
@@ -131,7 +131,7 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
         logger.info(f"{len(ps):>3} {squery}")
         return ps
 
-    @EndPointSearchCache("rec/search/ids/")
+    @EndPointSearchCache("rec/search/{}.txt")
     def ids(self):
         return tuple(sorted(self.productSummaries().keys()))
 
@@ -230,7 +230,8 @@ class SearchWire(Driver):
             with timeout(seconds=60):
                 while True:
                     for js in self.__iter_requests_json(path):
-                        aux = {v['productId']: v for v in js['productSummaries'] if v['productId'] not in done}
+                        aux = {
+                            v['productId']: v for v in js['productSummaries'] if v['productId'] not in done}
                         new_obj = {**new_obj, **aux}
                     if len(new_obj) > 0:
                         return new_obj

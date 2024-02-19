@@ -37,12 +37,25 @@ class EndPointCache(Cache):
         return self.file.format(id=slf.id)
 
     def save(self, file, data, *args, **kwargs):
-        if data is not None:
-            return super().save(file, data, *args, **kwargs)
+        if data is None:
+            return
+        if file.endswith(".txt"):
+            if not isinstance(data, (set, list, tuple)):
+                raise ValueError(
+                    "Para guardar como txt el objeto debe ser una lista de strings")
+            ldata = list(data)
+            if len(ldata) > 0 and not isinstance(ldata[0], str):
+                raise ValueError(
+                    "Para guardar como txt el objeto debe ser una lista de strings")
+            data = "\n".join(sorted(set(ldata)))
+        return super().save(file, data, *args, **kwargs)
 
     def read(self, file, *args, **kwargs):
         try:
-            return super().read(file, *args, **kwargs)
+            obj = super().read(file, *args, **kwargs)
+            if isinstance(obj, str):
+                return tuple(sorted(set(re.split(r"\s+", obj))))
+            return obj
         except JSONDecodeError:
             logger.critical("NOT JSON "+file)
             return None
@@ -75,7 +88,8 @@ class EndPoint(ABC):
 
 
 class EndPointCollection(EndPoint):
-    COLS = ("XboxIndieGames", "TopFree", "TopPaid", "New", "BestRated", "ComingSoon", "Deal", "MostPlayed")
+    COLS = ("XboxIndieGames", "TopFree", "TopPaid", "New",
+            "BestRated", "ComingSoon", "Deal", "MostPlayed")
 
     @property
     def url(self):
@@ -103,7 +117,7 @@ class EndPointCollection(EndPoint):
             logger.info(f"{len(js):>3} {self.id}")
         return js
 
-    @cache
+    @EndPointCache("rec/collection/{id}.txt")
     def ids(self) -> Tuple[str]:
         obj = self.json()
         gen = map(lambda x: x['Id'], (i for i in obj))
@@ -135,25 +149,21 @@ class EndPointCatalogList(EndPoint):
         if "Xbox Series X|S" in t:
             return "XboxSeries"
 
-    @EndPointCache("rec/catalog/{id}.json")
-    def json(self) -> Union[Dict, None]:
-        obj = dict(
-            GamePass=["f6f1f99f-9b49-4ccd-b3bf-4d9767a77f5e"],
-            EAPlay=["b8900d09-a491-44cc-916e-32b5acae621b"],
-            Ubisoft=["aed03b50-b954-4ee4-a426-fe1686b64f85"],
-            Bethesda=[]
-        )
+    @EndPointCache("rec/catalog/{id}.txt")
+    def json(self) -> Tuple[str]:
+        catalogs = set()
+        ids = [
+            "f6f1f99f-9b49-4ccd-b3bf-4d9767a77f5e",
+            "b8900d09-a491-44cc-916e-32b5acae621b",
+            "aed03b50-b954-4ee4-a426-fe1686b64f85"
+        ]
         text = S.get(self.url).text
-        for w in sorted(set(re.findall(EndPointCatalogList.UUID, text))):
+        for w in sorted(set(ids+re.findall(EndPointCatalogList.UUID, text))):
             d = EndPointCatalog(w).json()
-            k = self.__get_key(d) or w
-            if k not in obj:
-                obj[k] = []
-            if w not in obj[k]:
-                obj[k].append(w)
-        catalogs: Dict[str, Tuple[str]] = {k: tuple(sorted(v)) for k, v in obj.items()}
+            if len(d):
+                catalogs.add(w)
         logger.info(f"{len(catalogs):>3} catalogs")
-        return catalogs
+        return tuple(sorted(catalogs))
 
 
 class EndPointCatalog(EndPoint):
@@ -170,7 +180,26 @@ class EndPointCatalog(EndPoint):
             logger.info(f"{len(js):>3} {self.id}")
         return js
 
-    @cache
+    @cached_property
+    def title(self):
+        return re_sp.sub(" ", self.json()[0]['title'])
+
+    @cached_property
+    def tag(self):
+        if re.search(r"EA ?Play", self.title):
+            return "EAPlay"
+        if self.title == "Juegos independientes":
+            return "XboxIndieGames"
+        if re.search(r"Game ?Pass", self.title) and "Próximamente" not in self.title:
+            return "GamePass"
+        if re.search(r"Ubisoft", self.title):
+            return "Ubisoft"
+        if self.title == "Bethesda Softworks":
+            return "Bethesda"
+        if "Xbox Series X|S" in self.title:
+            return "XboxSeries"
+
+    @EndPointCache("rec/catalog/{id}.txt")
     def ids(self) -> Tuple[str]:
         obj = self.json()
         gen = map(lambda x: x['id'], obj[1:])
