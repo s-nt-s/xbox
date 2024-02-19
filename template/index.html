@@ -98,11 +98,11 @@
 			{% for t in gl.tags %}
 			{% set iid = "t"+(loop.index|string) %}
             {% if t == "Tragaperras" %}
-			<span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%}checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
+			<span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%} checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
             {% elif t == "FaltaEspañol" %}
-			<span title="#FaltaDoblaje + #FaltanSubtitulos "><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%}checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
+			<span title="#FaltaDoblaje + #FaltanSubtitulos "><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%} checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
             {% else %}
-			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%}checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
+			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%} checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
             {% endif %}
 			{% endfor %}
 		</fieldset>
