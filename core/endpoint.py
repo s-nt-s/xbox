@@ -8,6 +8,7 @@ from json.decoder import JSONDecodeError
 import logging
 from .findwireresponse import FindWireResponse
 import re
+from .util import dict_del
 
 logger = logging.getLogger(__name__)
 
@@ -74,10 +75,10 @@ class EndPoint(ABC):
 
     @cached_property
     def cache(self) -> EndPointCache:
-        cache = getattr(self.json, "__cache_obj__", None)
-        if not isinstance(cache, EndPointCache):
+        cch = getattr(self.json, "__cache_obj__", None)
+        if not isinstance(cch, EndPointCache):
             raise NotImplementedError("needed EndPointCache in json method")
-        return cache
+        return cch
 
     @cached_property
     def file(self) -> str:
@@ -114,7 +115,7 @@ class EndPointCollection(EndPoint):
         if js is None:
             logger.info("NON "+self.id)
         else:
-            logger.info(f"{len(js):>3} {self.id}")
+            logger.info(f"{len(js):>4} {self.id}")
         return js
 
     @EndPointCache("rec/collection/{id}.txt")
@@ -134,21 +135,6 @@ class EndPointCatalogList(EndPoint):
     def url(self):
         return "https://www.xbox.com/en-US/xbox-game-pass/games/js/xgpcatPopulate-MWF2.js"
 
-    def __get_key(self, d):
-        t = re_sp.sub(" ", d[0]['title'])
-        if re.search(r"EA ?Play", t):
-            return "EAPlay"
-        if t == "Juegos independientes":
-            return "XboxIndieGames"
-        if re.search(r"Game ?Pass", t) and "Próximamente" not in t:
-            return "GamePass"
-        if re.search(r"Ubisoft", t):
-            return "Ubisoft"
-        if t == "Bethesda Softworks":
-            return "Bethesda"
-        if "Xbox Series X|S" in t:
-            return "XboxSeries"
-
     @EndPointCache("rec/catalog/{id}.txt")
     def json(self) -> Tuple[str]:
         catalogs = set()
@@ -162,7 +148,7 @@ class EndPointCatalogList(EndPoint):
             d = EndPointCatalog(w).json()
             if len(d):
                 catalogs.add(w)
-        logger.info(f"{len(catalogs):>3} catalogs")
+        logger.info(f"{len(catalogs):>4} catalogs")
         return tuple(sorted(catalogs))
 
 
@@ -177,7 +163,7 @@ class EndPointCatalog(EndPoint):
         if js is None:
             logger.info("NON "+self.id)
         else:
-            logger.info(f"{len(js):>3} {self.id}")
+            logger.info(f"{len(js):>4} {self.id}")
         return js
 
     @cached_property
@@ -239,19 +225,30 @@ class EndPointProductPreloadState(EndPoint):
                 for i in obj:
                     rm_other_games(i)
                 return
-            if isinstance(obj, dict):
-                if self.id not in obj:
-                    for i in obj.values():
-                        return rm_other_games(i)
-                    return
-                for k in list(obj.keys()):
-                    if k != self.id and len(k) == 12 and k.upper() == k:
-                        del obj[k]
+            if not isinstance(obj, dict):
+                return
+            if self.id not in obj:
+                for i in obj.values():
+                    rm_other_games(i)
+                return
+            for k in list(obj.keys()):
+                if k != self.id and len(k) == 12 and k.upper() == k:
+                    del obj[k]
 
         data = data['core2']
-        for k in ('wishlist', 'cart', 'accountLink', 'contextualStore', 'search', 'filters', 'support', 'serviceErrorMessages'):
-            if k in data:
-                del data[k]
+        for k in (
+            'wishlist',
+            'cart',
+            'accountLink',
+            'contextualStore',
+            'search',
+            'filters',
+            'support',
+            'serviceErrorMessages',
+            'channels/channelsData/PAL_' + self.id, # 'A los usuarios también les gusta esto'
+            'products/layouts'
+        ):
+            dict_del(data, k)
         rm_other_games(data)
         return data
 

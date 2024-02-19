@@ -21,6 +21,23 @@ def dict_walk(d: Union[Dict, List, None], path: str):
     return d
 
 
+def dict_del(obj: Union[Dict, List, None], path: str):
+    if "/" not in path:
+        if not isinstance(obj, dict):
+            raise ValueError(f"{obj} must be a dict")
+        if path in obj:
+            del obj[path]
+        return
+    root, field = path.rsplit("/", 1)
+    dct = dict_walk(obj, root)
+    if dct is None:
+        return
+    if not isinstance(dct, dict):
+        raise ValueError(f"{dct} must be a dict")
+    if field in dct:
+        del dct[field]
+
+
 def chunks(lst, n):
     arr = []
     for i in lst:
