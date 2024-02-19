@@ -238,6 +238,7 @@ class SearchWire(Driver):
         except TimeoutError:
             if self.safe_wait(self.button) is None:
                 return {}
+            return self.__find_ids(done)
 
     def __iter_requests_json(self, path: str):
         r: WireRequest
