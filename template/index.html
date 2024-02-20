@@ -1,148 +1,256 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<style id="removeIfJS">
-			.displayIfJS { display:none; }
-		</style>
-		<script>
-			document.getElementById("removeIfJS").remove();
-			document.write(`<style>
+  <head>
+    <style id="removeIfJS">
+      .displayIfJS {
+        display: none;
+      }
+    </style>
+    <script>
+      document.getElementById("removeIfJS").remove();
+      document.write(`<style>
 				.hideIfJS { display:none; }
 			</style>`);
-		</script>
-		<base target="_blank">
-        <meta charset="utf-8">
-		<meta content="width=device-width, initial-scale=1" name="viewport">
-        <title>{{gl.items | length | millar}} juegos</title>
-		<meta name="Last-Modified" content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}">
-        <link rel="stylesheet" href="main.css">
-		<script src="info.js"></script>
-		<script src="main.js"></script>
-	    </head>
-	<body>
-		<header>
-			<p>
-				[HOME] - [<a href="faq/" target="_self">FAQ</a>]
-			</p>
-		</header>
-<main>
-	<div class="displayIfJS">
-		<p>
-			<label for="list">Listar</label> <select id="list">
-				<option value="A" selected>Todo</option>
-				<option value="G">GamePass</option>
-				<option value="F">Gratis</option>
-				<option value="T">Demo o prueba gratuita</option>
-			</select>
-			<label for="order">Ordenar por</label> <select id="order">
-				<option value="D" selected>fecha</option>
-				<option value="T">titulo</option>
-			</select>
-		</p>
-		<fieldset class="rangos" id="rangos">
-			<legend>Rangos</legend>
-			<p>
-			<label for="price_min"><span>Precio:</span>
-				<input type="number" step="1" required id="price_min" min="0" max="{{gl.mx.precio}}" value="{{[1, gl.mx.precio] | min}}">
-			</label>
-			<label for="price_max"> - 
-				<input type="number" step="1" required id="price_max" min="0" max="{{gl.mx.precio}}" value="{{[10, gl.mx.precio] | min}}" title="max: {{gl.mx.precio}}"> €
-			</label>
-			</p>
-			<p>
-			<label for="reviews_min"><span>Reviews:</span>
-				<input type="number" step="1" required id="reviews_min" min="0" max="{{gl.mx.reviews}}" value="{{[10, gl.mx.reviews] | min}}">
-			</label>
-			<label for="reviews_max"> - 
-				<input type="number" step="1" required id="reviews_max" min="0" max="{{gl.mx.reviews}}" value="{{gl.mx.reviews}}" title="max: {{gl.mx.reviews}}"> 🗳
-			</label>
-			</p>
-			<p>
-			<label for="rate_min"><span>Estrellas:</span>
-				<input type="number" step="1" required id="rate_min" min="0" max="{{gl.mx.rate}}" value="{{[4, gl.mx.rate] | min}}">
-			</label>
-			<label for="rate_max"> - 
-				<input type="number" step="1" required id="rate_max" min="0" max="{{gl.mx.rate}}" value="{{gl.mx.rate}}" title="max: {{gl.mx.rate}}"> ★
-			</label>
-			</p>
-			{% if gl.discounts %}
-			<p>
-				<label for="discount">Descuento:
-				<select id="discount" data-type="number">
-					{% for a in gl.discounts %}
-					<option value="{{a}}">{{a}}</option>
-					{% endfor %}
-				</select> % o más
-				</label>
-			  </p>
-			{% endif %}
-			{% if gl.antiques %}
-			<p>
-				<label for="antiquity">Antigüedad:
-				<select id="antiquity" data-type="number">
-					{% for a in gl.antiques %}
-					<option value="{{a}}"{%if loop.last%} selected{%endif%}>{{a}} día{%if a>1%}s{%endif%}</option>
-					{% endfor %}
-				</select> o menos
-				</label>
-			  </p>
-			{% endif %}
-		</fieldset>
-		<fieldset class="chkhideshow">
-			<legend><select id="mode">
-				<option value="HO" selected>Ocultar (OR)</option>
-				<option value="SO">Mostrar (OR)</option>
-				<option value="HA">Ocultar (AND)</option>
-				<option value="SA">Mostrar (AND)</option>
-			</select></legend>
-			{% for t in gl.tags %}
-			{% set iid = "t"+(loop.index|string) %}
-            {% if t == "Tragaperras" %}
-			<span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%} checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
-            {% elif t == "FaltaEspañol" %}
-			<span title="#FaltaDoblaje + #FaltanSubtitulos "><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%} checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
+    </script>
+    <base target="_blank" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Juegos Xbox</title>
+    <meta
+      name="Last-Modified"
+      content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="info.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <p>[HOME] - [<a href="faq/" target="_self">FAQ</a>]</p>
+    </header>
+    <main>
+      <div class="displayIfJS">
+        <p>
+          <label for="list">Listar:</label>
+          <select id="list">
+            <option value="A" selected>Juegos</option>
+            <option value="G">GamePass</option>
+            <option value="T">Demos</option>
+          </select>
+        </p>
+        <fieldset class="rangos" id="rangos">
+          <legend>Búsqueda</legend>
+          <p>
+            <label for="price_min"
+              ><span>Precio:</span>
+              <input
+                type="number"
+                step="1"
+                required
+                id="price_min"
+                min="0"
+                max="{{gl.mx.precio}}"
+                value="0"
+              />
+            </label>
+            <label for="price_max">
+              -
+              <input
+                type="number"
+                step="1"
+                required
+                id="price_max"
+                min="0"
+                max="{{gl.mx.precio}}"
+                value="{{gl.mx.precio}}"
+                title="max: {{gl.mx.precio}}"
+              />
+              €
+            </label>
+          </p>
+          <p>
+            <label for="reviews_min"
+              ><span>Reviews:</span>
+              <input
+                type="number"
+                step="1"
+                required
+                id="reviews_min"
+                min="0"
+                max="{{gl.mx.reviews}}"
+                value="0"
+              />
+            </label>
+            <label for="reviews_max">
+              -
+              <input
+                type="number"
+                step="1"
+                required
+                id="reviews_max"
+                min="0"
+                max="{{gl.mx.reviews}}"
+                value="{{gl.mx.reviews}}"
+                title="max: {{gl.mx.reviews}}"
+              />
+              🗳
+            </label>
+          </p>
+          <p>
+            <label for="rate_min"
+              ><span>Estrellas:</span>
+              <input
+                type="number"
+                step="1"
+                required
+                id="rate_min"
+                min="0"
+                max="{{gl.mx.rate}}"
+                value="0"
+              />
+            </label>
+            <label for="rate_max">
+              -
+              <input
+                type="number"
+                step="1"
+                required
+                id="rate_max"
+                min="0"
+                max="{{gl.mx.rate}}"
+                value="{{gl.mx.rate}}"
+                title="max: {{gl.mx.rate}}"
+              />
+              ★
+            </label>
+          </p>
+          {% if gl.discounts %}
+          <p>
+            <label for="discount"
+              >Descuento:
+              <select id="discount" data-type="number">
+                {% for a in gl.discounts %}
+                <option value="{{a}}">{{a}}</option>
+                {% endfor %}
+              </select>
+              % o más
+            </label>
+          </p>
+          {% endif %} {% if gl.antiques %}
+          <p>
+            <label for="antiquity"
+              >Antigüedad:
+              <select id="antiquity" data-type="number">
+                {% for a in gl.antiques %}
+                <option value="{{a}}" {%if loop.last%} selected{%endif%}>
+                  {{a}} día{%if a>1%}s{%endif%}
+                </option>
+                {% endfor %}
+              </select>
+              o menos
+            </label>
+          </p>
+          {% endif %}
+          <label for="order"
+            >Orden:
+            <select id="order">
+              <option value="D" selected>fecha</option>
+              <option value="T">titulo</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset class="chkhideshow">
+          <legend>
+            <select id="mode">
+              <option value="HO" selected>Ocultar (OR)</option>
+              <option value="SO">Mostrar (OR)</option>
+              <option value="HA">Ocultar (AND)</option>
+              <option value="SA">Mostrar (AND)</option>
+            </select>
+          </legend>
+          {% for t in gl.tags %} {% set iid = "t"+(loop.index|string) %} {% if t
+          == "Tragaperras" %}
+          <span title="#Free + #Compras"
+            ><input
+              name="tags"
+              value="{{t | to_value}}"
+              type="checkbox"
+              id="{{iid}}"
+            />
+            <label for="{{iid}}">#{{t}}</label></span
+          >
+          {% elif t == "FaltaEspañol" %}
+          <span title="#FaltaDoblaje + #FaltanSubtitulos "
+            ><input
+              name="tags"
+              value="{{t | to_value}}"
+              type="checkbox"
+              id="{{iid}}"
+            />
+            <label for="{{iid}}">#{{t}}</label></span
+          >
+          {% else %}
+          <span
+            ><input
+              name="tags"
+              value="{{t | to_value}}"
+              type="checkbox"
+              id="{{iid}}"
+            />
+            <label for="{{iid}}">#{{t}}</label></span
+          >
+          {% endif %} {% endfor %}
+        </fieldset>
+      </div>
+      <div id="games" class="hideIfJS">
+        {% for j in gl.items %}
+        <div class="game" id="g{{j.id}}">
+          <img src="{{j.thumbnail}}" alt="Poster de {{j.id}}" loading="lazy" />
+          <p>
+            <b
+              ><a href="{{j.url}}" class="title">{{j.title}}</a>{#
+              <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b
+            >
+            <br />
+            <code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 ||
+            <code
+              {%if
+              j.discount%}
+              class="ofertaTrue"
+              title="{{j.discount | round | int}}% de descuento"
+              {%endif%}
+              >{{j.int_price}} €</code
+            ><br />
+            {# {% if j.langs %} [ {{" / ".join(j.langs) }} ] {% endif %} #} {%
+            if j.tags %} {% for t in j.tags %} {% if t == "Compras" %}
+            <span class="tag" title="{{j.compras|join(' - ')}}">#{{t}}</span>
             {% else %}
-			<span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}"{%if t in tag_checked%} checked{%endif%}> <label for="{{iid}}">#{{t}}</label></span>
-            {% endif %}
-			{% endfor %}
-		</fieldset>
-	</div>
-	<div id="games" class="hideIfJS">
-{% for j in gl.items %}
-<div class="game" id="g{{j.id}}">
-<img src="{{j.thumbnail}}" alt="Poster de {{j.id}}" loading="lazy">
-<p>
-	<b><a href="{{j.url}}" class="title">{{j.title}}</a>{# <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b>
-	<br>
-	<code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 || <code{%if j.discount%} class="ofertaTrue" title="{{j.discount | round | int}}% de descuento"{%endif%}>{{j.int_price}} €</code><br>
-	{#
-	{% if j.langs %}
-		[ {{" / ".join(j.langs) }} ]</br>
-	{% endif %}
-	#}
-	{% if j.tags %}
-	{% for t in j.tags %}
-        {% if t == "Compras" %}
-        <span class="tag" title="{{j.compras|join(' - ')}}">#{{t}}</span> 
-        {% else %}
-        <span class="tag">#{{t}}</span> 
-        {% endif %}
-    {% endfor %}<br>
-	{% endif %}
-	{{j.releaseDate}}<br>
-	<a href="https://www.youtube.com/results?search_query=xbox+{{j.title | quote_plus}}">videos</a> -
-	<a href="https://www.google.es/search?tbm=isch&q=xbox+{{j.title | quote_plus}}">imágenes</a>
-</p>
-</div>
-{% endfor %}
-	</div>
-</main>
-<footer>
-<p>
-		Código fuente en <a href="https://github.com/s-nt-s/xbox" target="_blank">GitHub</a>.
-    Si falla o tienes alguna sugerencia pon un <a href="https://github.com/s-nt-s/xbox/issues" target="_blank">issue</a>.
-		</p>
-		<p>Última actualización: {{now.strftime('%Y-%m-%d')}}</p>
-</footer>
-</body>
+            <span class="tag">#{{t}}</span>
+            {% endif %} {% endfor %}<br />
+            {% endif %} {{j.releaseDate}}<br />
+            <a
+              href="https://www.youtube.com/results?search_query=xbox+{{j.title | quote_plus}}"
+              >videos</a
+            >
+            -
+            <a
+              href="https://www.google.es/search?tbm=isch&q=xbox+{{j.title | quote_plus}}"
+              >imágenes</a
+            >
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </main>
+    <footer>
+      <p>
+        Código fuente en
+        <a href="https://github.com/s-nt-s/xbox" target="_blank">GitHub</a>. Si
+        falla o tienes alguna sugerencia pon un
+        <a href="https://github.com/s-nt-s/xbox/issues" target="_blank">issue</a
+        >.
+      </p>
+      <p>Última actualización: {{now.strftime('%Y-%m-%d')}}</p>
+    </footer>
+  </body>
 </html>

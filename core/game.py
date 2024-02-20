@@ -58,6 +58,7 @@ class Game:
     def __init__(self, id: str):
         self.id = id
         self.extra_tags: Set[str] = set()
+        self.demo_of = None
 
     @cached_property
     def collections(self):
@@ -136,11 +137,11 @@ class Game:
         title = title.replace("—", "-")
         title = title.replace(" ®", "®")
         return title
-    
+
     @cached_property
     def relatedProducts(self):
         relatedProducts = self.i["LocalizedProperties"][0]["RelatedProducts"]
-        
+        return relatedProducts
 
     @cached_property
     def shortTitle(self) -> str:
@@ -295,15 +296,15 @@ class Game:
 
     @property
     def demo(self) -> bool:
+        if self.price == 0 and "Demo Version" in self.title:
+            return True
+        if self.demo_of is not None:
+            return True
         return self.i['Properties'].get('IsDemo') is True
 
     @property
     def trial(self) -> bool:
-        if (self.price == 0 and self.demo):
-            return True
-        if (self.price > 0 and 'Trial' in self.actions):
-            return True
-        return False
+        return 'Trial' in self.actions
 
     @cached_property
     def releaseDate(self) -> Union[date, None]:
@@ -336,8 +337,6 @@ class Game:
     def tags(self) -> tuple[str]:
         tags = set(self.extra_tags)
         isEs = (self.spanish['audio'], self.spanish['subtitles'])
-        if self.demo:
-            tags.add("Demo")
         if self.spanish['audio'] is True:
             tags.add("Doblado")
         if self.spanish['subtitles'] is True:
@@ -348,8 +347,6 @@ class Game:
             tags.add("FaltaDoblaje")
         if self.spanish['subtitles'] is False:
             tags.add("FaltanSubtitulos")
-        if self.onlyGamepass:
-            tags.add("SoloGamePass")
         if self.tragaperras:
             tags.add("Tragaperras")
         if self.compras:
@@ -386,12 +383,6 @@ class Game:
             # if x == 'SharedSplitScreen':
             #    x = 'SplitScreen'
             tags.add(x)
-        if self.price == 0:
-            tags.add("Free")
-        if self.gamepass:
-            tags.add("GamePass")
-        if self.discount > 0:
-            tags.add("Oferta")
         tags = sorted(tags)
         return tuple(tags)
 
@@ -418,11 +409,9 @@ class GameList:
         for i in sorted(self.items, key=lambda x: x.id):
             info[i.id] = dict(
                 antiquity=(today - i.releaseDate).days,
-                gamepass=i.gamepass,
                 price=i.int_price,
                 rate=i.rate,
                 reviews=i.reviews,
-                trial=i.trial,
                 discount=i.discount,
                 tags=i.tags
             )

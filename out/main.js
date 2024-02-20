@@ -1,14 +1,18 @@
 const isLocal = ["", "localhost"].includes(document.location.hostname);
 const $$ = (slc) => Array.from(document.querySelectorAll(slc));
+const TRIAL_AND_DEMO = Array.from((new Set(TRIAL.concat(DEMO))));
+const REAL_GAMES = Array.from(Object.keys(GAME).filter(g=>!DEMO.includes(g)));
 
 class FormQuery {
   static form() {
     const d = {
       tags: [],
       range: {},
+      gamelist: [],
     };
     const minmax = /_(max|min)$/;
     document.querySelectorAll("input[id], select[id]").forEach((n) => {
+      if (n.disabled) return;
       if (minmax.test(n.id)) return;
       const v = getVal(n.id);
       if (v === false) return;
@@ -24,21 +28,24 @@ class FormQuery {
     });
     d.range = getRanges(
       ...new Set(
-        $$("input[id$=_max],input[id$=_min]").map((n) =>
+        $$("input[id$=_max],input[id$=_min]").filter(n=>!n.disabled).map((n) =>
           n.id.replace(minmax, "")
         )
       )
     );
+    if (d.list == "G") d.gamelist = GAMEPASS;
+    if (d.list == "T") d.gamelist = TRIAL_AND_DEMO;
+    if (d.list == "A") d.gamelist = REAL_GAMES;
     return d;
   }
   static __form_to_query() {
     const form = FormQuery.form();
-    if (document.querySelectorAll(".game.off").length == 0) {
-      return "all&order=" + form.order;
-    }
     const qr = [];
+    if (form.list == "G") qr.push('gamepass');
+    if (form.list == "T") qr.push('demo');
     Object.entries(form).forEach(([k, v]) => {
-      if (["mode", "range", "tags"].includes(k)) return;
+      if (["mode", "range", "tags", "gamelist", "list"].includes(k)) return;
+      if (k=="order" && v=="D") return;
       if (typeof v == "string") v = encodeURIComponent(v);
       qr.push(k + "=" + v);
     });
@@ -58,7 +65,8 @@ class FormQuery {
     return qr.join("&");
   }
   static form_to_query() {
-    const query = "?" + FormQuery.__form_to_query();
+    let query = "?" + FormQuery.__form_to_query();
+    if (query == "?") query="";
     if (document.location.search == query) return;
     const url = document.location.href.replace(/\?.*$/, "");
     history.pushState({}, "", url + query);
@@ -66,7 +74,7 @@ class FormQuery {
   static query_to_form() {
     const query = FormQuery.query();
     if (query == null) return;
-    if (query.all === true) {
+    if (query.bbb === true) {
       setVal("list", "A");
       setVal("mode", "HO");
       setVal("discount", "0");
@@ -76,11 +84,19 @@ class FormQuery {
       );
       $$("input[id$=_min]").forEach((n) => setVal(n.id, n.getAttribute("min")));
       $$("input[id$=_max]").forEach((n) => setVal(n.id, n.getAttribute("max")));
+      setVal("price_min", 1);
+      setVal("price_max", 10);
+      setVal("reviews_min", 10);
+      setVal("rate_min", 4);
       setVal("order", query.order ?? getVal("order"));
       return;
     }
+    if (query.gamepass) setVal("list", "G");
+    else if (query.demo) setVal("list", "T");
+    else setVal("list", "A");
     Object.entries(query).forEach(([k, v]) => {
       if (["range", "tags"].includes(k)) return;
+      if (document.getElementById(k)==null) return;
       setVal(k, v);
     });
     const _set_rank_val = (n) => {
@@ -226,17 +242,20 @@ function getRanges() {
   return rgs;
 }
 
+function get_game_list() {
+  const form = FormQuery.form();
+}
+
 function filtrar() {
   const form = FormQuery.form();
   const { ok, ko } = filter("div.game", (i) => {
+    const id = i.id.substring(1);
     const j = GAME[i.id.substring(1)];
     if (j == null) {
       console.log(i.id, "no encontrado", i);
       return true;
     }
-    if (form.list == "G" && !j.gamepass) return false;
-    if (form.list == "F" && !(j.price==0)) return false;
-    if (form.list == "T" && !(j.trial || j.tags.includes("demo"))) return false;
+    if (!form.gamelist.includes(id)) return false;
     if (j.antiquity != null && j.antiquity > (form.antiquity ?? j.antiquity))
       return false;
     if (j.discount != null && j.discount < (form.discount ?? j.discount)) return false;
@@ -269,10 +288,10 @@ function filtrar() {
   });
   ok.forEach((i) => i.classList.remove("off"));
   ko.forEach((i) => i.classList.add("off"));
-  if (ko.length == 0) {
+  if (ok.length == form.gamelist.length) {
     document.title = `${ok.length} juegos`;
   } else {
-    document.title = `${ok.length}/${ok.length + ko.length} juegos`;
+    document.title = `${ok.length}/${form.gamelist.length} juegos`;
   }
   const div = document.getElementById("games");
   div.classList.remove("hideIfJS");

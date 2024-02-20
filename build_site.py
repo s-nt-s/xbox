@@ -7,7 +7,8 @@ from core.game import Game, GameList
 import filter.filter as gfilter
 from core.search import URL_GAMES_BROWSER
 from core.endpoint import EndPointCollection, EndPointProduct
-from typing import List, Tuple
+from core.util import dict_add
+from typing import List, Tuple, Dict, Set
 
 import argparse
 
@@ -62,11 +63,11 @@ def get_games():
 
 
 print("Obteniendo juegos", end="\r")
-ALL_GAMES = get_games()
+ALL_GAMES = {i.id: i for i in get_games()}
 print("Obteniendo juegos:", len(ALL_GAMES))
 
 print("Aplicando 1º filtro", end="\r")
-items = list(filter(do_filter1, ALL_GAMES))
+items = list(filter(do_filter1, ALL_GAMES.values()))
 print("Aplicando 1º filtro:", len(items))
 
 print("Aplicando 2º filtro", end="\r")
@@ -75,6 +76,8 @@ print("Aplicando 2º filtro:", len(items))
 
 print("Descartando complementos o bundle redundantes")
 
+COMP: Dict[str, Set[str]] = {}
+OLDR: Dict[str, Set[str]] = {}
 items = {i.id: i for i in items}
 
 for pid, cids in gfilter.is_chunk_of(items).items():
@@ -82,26 +85,24 @@ for pid, cids in gfilter.is_chunk_of(items).items():
     if cids and pid in items:
         for cid in cids:
             gm = items[cid]
-            gm.extra_tags.add("Incompleto")
             if gm.price == 0:
-                gm.extra_tags.add("Demo")
+                gm.demo_of = pid
+            else:
+                dict_add(COMP, pid, cid)
+                del items[cid]
 
-COMP: List[Tuple[Game, List[Game]]] = []
 for pid, cids in gfilter.is_comp_of(items).items():
     cids = tuple([c for c in cids if c in items])
     if cids and pid in items:
-        COMP.append((items[pid], []))
         for cid in cids:
-            COMP[-1][-1].append(items[cid])
+            dict_add(COMP, pid, cid)
             del items[cid]
 
-OLDR: List[Tuple[Game, List[Game]]] = []
-for pid, cids in gfilter.is_older_version_of(items, all_games=ALL_GAMES).items():
+for pid, cids in gfilter.is_older_version_of(items, all_games=ALL_GAMES.values()).items():
     cids = tuple([c for c in cids if c in items])
     if cids and pid in items:
-        OLDR.append((items[pid], []))
         for cid in cids:
-            OLDR[-1][-1].append(items[cid])
+            dict_add(OLDR, pid, cid)
             del items[cid]
 
 items = sorted(items.values(), key=lambda x: x.releaseDate, reverse=True)
@@ -126,15 +127,26 @@ j.create_script(
     "info.js",
     ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
     GAME=game_info(glist),
-    replace=True
+    DEMO=sorted((i.id for i in glist.items if i.demo)),
+    TRIAL=sorted((i.id for i in glist.items if i.trial)),
+    GAMEPASS=sorted((i.id for i in glist.items if i.gamepass)),
+    replace=True,
 )
 j.save(
     "index.html",
     gl=glist,
-    now=now,
-    tag_checked=("Demo", "Incompleto", "Tragaperras", "MOBA")
+    now=now
 )
 top_paid = EndPointCollection("TopPaid").json()[1]['Id']
+
+
+def dict_to_game_list(obj: Dict[str, Set[str]]):
+    arr: List[Tuple[Game, Tuple[Game]]] = []
+    for pid, cids in obj.items():
+        cids = sorted(cids)
+        arr.append((ALL_GAMES[pid], tuple(map(lambda i: ALL_GAMES[i], cids))))
+    return arr
+
 
 j.save(
     "faq.html",
@@ -143,8 +155,8 @@ j.save(
     catalogs=api.get_catalog_list(),
     collections=api.get_collection_list(),
     product=EndPointProduct(top_paid),
-    complements=COMP,
-    older=OLDR,
+    complements=dict_to_game_list(COMP),
+    older=dict_to_game_list(OLDR),
     now=now
 )
 print("Fin")
