@@ -1,4 +1,3 @@
-import inspect
 import re
 from os.path import isfile
 from functools import cached_property, cache
@@ -20,6 +19,14 @@ re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
 re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
 re_sp = re.compile(r"\s+")
 
+
+def _trim(s: str):
+    if s is None:
+        return None
+    s = s.strip()
+    if len(s) == 0:
+        return None
+    return s
 
 @cache
 def collection():
@@ -145,11 +152,11 @@ class Game:
 
     @cached_property
     def shortTitle(self) -> str:
-        return self.i["LocalizedProperties"][0]["ShortTitle"]
+        return _trim(self.i["LocalizedProperties"][0]["ShortTitle"])
 
     @cached_property
     def productDescription(self) -> str:
-        return self.i["LocalizedProperties"][0]["ProductDescription"]
+        return _trim(self.i["LocalizedProperties"][0]["ProductDescription"])
 
     @cached_property
     def url(self) -> str:

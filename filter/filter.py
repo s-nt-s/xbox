@@ -1,7 +1,10 @@
 from core.game import Game
-from typing import Dict, List, Tuple
+from typing import Dict, List
 from core.util import dict_add, dict_tuple
 import re
+from functools import cache
+
+re_sp = re.compile(r"\s+")
 
 
 def is_chunk_of(items: Dict[str, Game]):
@@ -52,6 +55,18 @@ def is_comp_of(items: Dict[str, Game]):
 
 
 def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
+    @cache
+    def trim(s: str):
+        return re_sp.sub(" ", s).strip()
+
+    def trim_eq(a: str, b: str):
+        if None in (a, b) or '' in (a, b):
+            return False
+        a = trim(a)
+        if len(a) == 0:
+            return False
+        return a == trim(b)
+
     older_ver = dict()
     xbox_series: List[Game] = []
     xbox_one: List[Game] = []
@@ -66,8 +81,8 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
     xbox_one = [o for o in xbox_one if not ids_xbox_series.intersection(o.get_bundle())]
     for x in xbox_series:
         for o in xbox_one:
-            if len(x.productDescription) > 0 and x.productDescription == o.productDescription:
+            if trim_eq(x.productDescription, o.productDescription):
                 dict_add(older_ver, x.id, o.id)
-            elif len(x.shortTitle) > 0 and x.shortTitle == o.shortTitle and o.id in x.get_bundle():
+            elif o.id in x.get_bundle() and trim_eq(x.shortTitle, o.shortTitle):
                 dict_add(older_ver, x.id, o.id)
     return dict_tuple(older_ver)
