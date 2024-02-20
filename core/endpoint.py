@@ -198,10 +198,14 @@ class EndPointProduct(EndPoint):
         MSCV = 'MS-CV=DGU1mcuYo0WMMp+F.1'
         return "https://displaycatalog.mp.microsoft.com/v7.0/products?" + MSCV + "&market=ES&languages=es-es&bigIds="+self.id
 
+    def __parse(self, obj: Dict):
+        dict_del(obj, 'LocalizedProperties/0/SearchTitles')
+        return obj
+
     def parse(self, js: Dict) -> Union[Dict, None]:
         for i in js['Products']:
             if i['ProductId'] == self.id:
-                return i
+                return self.__parse(i)
 
     @EndPointCache("rec/product/{id}.json")
     def json(self) -> Union[Dict, None]:
