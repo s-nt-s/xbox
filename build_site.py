@@ -9,6 +9,7 @@ from core.search import URL_GAMES_BROWSER
 from core.endpoint import EndPointCollection, EndPointProduct
 from core.util import dict_add
 from typing import List, Tuple, Dict, Set
+from core.log import config_log
 
 import argparse
 
@@ -17,6 +18,8 @@ parser = argparse.ArgumentParser(
 parser.add_argument("--precio", type=float, help='Precio máximo', default=9999)
 
 args = parser.parse_args()
+
+config_log("log/build_site.log")
 
 api = Api()
 

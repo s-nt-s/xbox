@@ -2,6 +2,7 @@ from core.api import Api
 from core.game import Game
 from core.util import chunks
 import argparse
+from core.log import config_log
 import logging
 from core.bulkrequests import BulkRequests
 from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews
@@ -35,6 +36,8 @@ parser.add_argument(
     '--preload-state', action='store_true', help="Descarga el preload state de los juegos"
 )
 
+config_log("log/dwn.log")
+
 
 def all_false_is_all_true(nm: argparse.Namespace):
     ks = []
@@ -48,19 +51,6 @@ def all_false_is_all_true(nm: argparse.Namespace):
         setattr(nm, k, True)
     setattr(nm, 'all', True)
 
-
-open("dwn.log", "w").close()
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s %(name)s - %(levelname)s - %(message)s',
-    datefmt='%d-%m-%Y %H:%M:%S',
-    handlers=[
-        logging.FileHandler("dwn.log"),
-        logging.StreamHandler()
-    ]
-)
-for name in ('seleniumwire.proxy.handler', 'seleniumwire.proxy.client'):
-    logging.getLogger(name).setLevel(logging.CRITICAL)
 
 logger = logging.getLogger(__name__)
 logger.info("START")
@@ -149,4 +139,5 @@ if ARG.all:
     if len(ids):
         dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
         dwn_review(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
-        dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
+        dwn_preload_state(tcp_limit=ARG.tcp_limit,
+                          ids=ids, tolerance=ARG.tolerance)
