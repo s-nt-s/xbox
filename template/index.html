@@ -40,7 +40,7 @@
         </p>
         <fieldset class="rangos" id="rangos">
           <legend>Búsqueda</legend>
-          <p>
+          <p id="price">
             <label for="price_min"
               ><span>Precio:</span>
               <input
@@ -213,7 +213,7 @@
             >
             <br />
             <code>{{j.rate | decimal}}</code> ★ || {{j.reviews | millar}} 🗳 ||
-            <code
+            <code class="price"
               {%if
               j.discount%}
               class="ofertaTrue"

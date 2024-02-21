@@ -18,7 +18,26 @@ function firsOptionValue(id) {
 }
 
 class FormQuery {
+  static ALIAS = Object.freeze({
+    "bbb": "price=1-10&reviews=10-38431&rate=4-5"
+  })
   static form() {
+    const lst = getVal("list");
+    if (["G", "T"].includes(lst)) {
+      document.body.classList.add("noprice");
+      $$("#price input").forEach(i=>{
+        if (i.disabled) return;
+        i.setAttribute("old-value", i.value);
+        i.disabled=true;
+      })
+    } else {
+      document.body.classList.remove("noprice");
+      $$("#price input").forEach(i=>{
+        if (!i.disabled) return;
+        setVal(i.id, i.getAttribute("old-value"));
+        i.disabled=false;
+      })
+    }
     const d = {
       tags: [],
       range: {},
@@ -76,7 +95,8 @@ class FormQuery {
       qr.push(
         form.mode + "=" + form.tags.map((t) => encodeURIComponent(t)).join("+")
       );
-    return qr.join("&");
+    const query = qr.join("&");
+    return FormQuery.REV_QUERY[query]??query;
   }
   static form_to_query() {
     let query = "?" + FormQuery.__form_to_query();
@@ -88,23 +108,6 @@ class FormQuery {
   static query_to_form() {
     const query = FormQuery.query();
     if (query == null) return;
-    if (query.bbb === true) {
-      setVal("list", "A");
-      setVal("mode", "HO");
-      setVal("discount", "0");
-      setVal("antiquity", firsOptionValue("antiquity"));
-      $$('.chkhideshow input[type="checkbox"]').forEach((i) =>
-        setVal(i.id, false)
-      );
-      $$("input[id$=_min]").forEach((n) => setVal(n.id, n.getAttribute("min")));
-      $$("input[id$=_max]").forEach((n) => setVal(n.id, n.getAttribute("max")));
-      setVal("price_min", 1);
-      setVal("price_max", 10);
-      setVal("reviews_min", 10);
-      setVal("rate_min", 4);
-      setVal("order", query.order ?? getVal("order"));
-      return;
-    }
     if (query.gamepass) setVal("list", "G");
     else if (query.demo) setVal("list", "T");
     else setVal("list", "A");
@@ -138,8 +141,12 @@ class FormQuery {
     const mode = Array.from(document.getElementById("mode").options).map(
       (o) => o.value
     );
-    const search = document.location.search.replace(/^\?/, "");
-    if (search.length == 0) return null;
+    const search = (()=>{
+      const q = document.location.search.replace(/^\?/, "")
+      if (q.length==0) return null;
+      return FormQuery.ALIAS[q]??q;
+    })();
+    if (search == null) return null;
     const d = {
       tags: [],
       range: {},
@@ -190,6 +197,8 @@ class FormQuery {
     return [k, true];
   }
 }
+FormQuery.REV_QUERY = Object.freeze(Object.fromEntries(Object.entries(FormQuery.ALIAS).map(([k,v])=>[v, k])))
+
 
 function mkTag(s) {
   const div = document.createElement("div");
@@ -258,10 +267,6 @@ function getRanges() {
     rgs[k] = { min: mn, max: mx };
   });
   return rgs;
-}
-
-function get_game_list() {
-  const form = FormQuery.form();
 }
 
 function filtrar() {

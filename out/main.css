@@ -86,3 +86,6 @@ a.title {
 .game.off {
   display: none;
 }
+body.noprice #price {/*, body.noprice code.price {*/
+  display: none;
+}
