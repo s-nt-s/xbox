@@ -25,17 +25,17 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <header>
-      <p>[HOME] - [<a href="faq/" target="_self">FAQ</a>]</p>
-    </header>
+    {% with root="." %}
+      {% include "header.html" %}
+    {% endwith %}
     <main>
       <div class="displayIfJS">
-        <p>
+        <p style="display:none">
           <label for="list">Listar:</label>
           <select id="list">
-            <option value="A" selected>Juegos</option>
-            <option value="G">GamePass</option>
-            <option value="T">Demos</option>
+            <option value="" selected>Juegos</option>
+            <option value="gamepass">GamePass</option>
+            <option value="demos">Demos</option>
           </select>
         </p>
         <fieldset class="rangos" id="rangos">

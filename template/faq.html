@@ -11,7 +11,9 @@
     <title>FAQ</title>
   </head>
   <body>
-    <header>[<a href="../" target="_self">HOME</a>] - [FAQ]</header>
+    {% with root=".." %}
+      {% include "header.html" %}
+    {% endwith %}
     <main>
       <h1>¿Qué juegos aparecen en la web?</h1>
       <p>

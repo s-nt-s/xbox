@@ -23,7 +23,7 @@ class FormQuery {
   })
   static form() {
     const lst = getVal("list");
-    if (["G", "T"].includes(lst)) {
+    if (["gamepass", "demos"].includes(lst)) {
       document.body.classList.add("noprice");
       $$("#price input").forEach(i=>{
         if (i.disabled) return;
@@ -49,6 +49,11 @@ class FormQuery {
       if (minmax.test(n.id)) return;
       const v = getVal(n.id);
       if (v === false) return;
+      if (n.id == "list") {
+        if (v == null) return;
+        d[v] = true;
+        return;
+      }
       if (n.id == "discount" && v === 0) return;
       if (n.id == "antiquity" && v === firsOptionValue("antiquity")) return;
       const nm = n.getAttribute("name");
@@ -66,20 +71,24 @@ class FormQuery {
         )
       )
     );
-    if (d.list == "G") d.gamelist = GAMEPASS;
-    if (d.list == "T") d.gamelist = TRIAL_AND_DEMO;
-    if (d.list == "A") d.gamelist = REAL_GAMES;
+    d.gamelist = (()=>{
+      if (d.gamepass) return GAMEPASS;
+      if (d.demos) return TRIAL_AND_DEMO;
+      return REAL_GAMES;
+    })();
     return d;
   }
   static __form_to_query() {
     const form = FormQuery.form();
     const qr = [];
-    if (form.list == "G") qr.push('gamepass');
-    if (form.list == "T") qr.push('demo');
     Object.entries(form).forEach(([k, v]) => {
-      if (["mode", "range", "tags", "gamelist", "list"].includes(k)) return;
+      if (["mode", "range", "tags", "gamelist"].includes(k)) return;
       if (k == "order" && v == "D") return;
       if (typeof v == "string") v = encodeURIComponent(v);
+      if (v === true) {
+        qr.push(k);
+        return;
+      }
       qr.push(k + "=" + v);
     });
     Object.entries(form.range).forEach(([k, v]) => {
@@ -108,11 +117,13 @@ class FormQuery {
   static query_to_form() {
     const query = FormQuery.query();
     if (query == null) return;
-    if (query.gamepass) setVal("list", "G");
-    else if (query.demo) setVal("list", "T");
-    else setVal("list", "A");
+    setVal("list", (()=>{
+      if (query.gamepass) return "gamepass"
+      if (query.demos) return "demos"
+      return "";
+    })())
     Object.entries(query).forEach(([k, v]) => {
-      if (["range", "tags"].includes(k)) return;
+      if (["range", "tags", "list"].includes(k)) return;
       if (document.getElementById(k) == null) return;
       setVal(k, v);
     });
@@ -172,7 +183,7 @@ class FormQuery {
       i = i.trim();
       return i.length == 0 ? [] : i;
     });
-    if (tmp.length > 2 || tmp[0] == 0) return [null, null];
+    if (tmp.length > 2 || tmp[0].length == 0) return [null, null];
     const k = tmp[0];
     if (!isNaN(Number(k))) return [null, null];
     if (tmp.length == 2) {
@@ -189,7 +200,7 @@ class FormQuery {
       return [k, v];
     }
     const opt = document.querySelectorAll(
-      'select[id] option[value="' + k + '"]'
+      'select:not([id="list"]) option[value="' + k + '"]'
     );
     if (opt.length == 1) {
       return [opt[0].closest("select[id]").id, k];
@@ -414,6 +425,16 @@ document.addEventListener(
     ifLocal();
     fixImg();
     fixAntiguedad();
+    document.querySelectorAll("a.alist").forEach(i=>{
+      i.addEventListener("click", (e)=>{
+        const q = i.search.substring(1);
+        setVal("list", q);
+        filtrar();
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+      });
+    })
     FormQuery.query_to_form();
     document.querySelectorAll("input, select").forEach((i) => {
       i.addEventListener("change", filtrar);
