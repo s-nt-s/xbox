@@ -21,8 +21,13 @@ class FormQuery {
   static ALIAS = Object.freeze({
     "bbb": "price=1-10&reviews=10-38431&rate=4-5"
   })
-  static form() {
-    const lst = getVal("list");
+  static getListType() {
+    const m = document.location.search.match(/^\?(gamepass|demos)(&|$)/);
+    if (m==null) return null;
+    return m[1];
+  }
+  static form(new_type) {
+    const lst = new_type??FormQuery.getListType();
     if (["gamepass", "demos"].includes(lst)) {
       document.body.classList.add("noprice");
       $$("#price input").forEach(i=>{
@@ -43,19 +48,14 @@ class FormQuery {
       range: {},
       gamelist: [],
     };
+    if (lst!=null && lst.length>0) d[lst]=true;
     const minmax = /_(max|min)$/;
     document.querySelectorAll("input[id], select[id]").forEach((n) => {
       if (n.disabled) return;
       if (minmax.test(n.id)) return;
       const v = getVal(n.id);
       if (v === false) return;
-      if (n.id == "list") {
-        if (v == null) return;
-        d[v] = true;
-        return;
-      }
       if (n.id == "discount" && v === 0) return;
-      if (n.id == "antiquity" && v === firsOptionValue("antiquity")) return;
       const nm = n.getAttribute("name");
       if (nm != null) {
         if (!Array.isArray(d[nm])) d[nm] = [];
@@ -78,8 +78,8 @@ class FormQuery {
     })();
     return d;
   }
-  static __form_to_query() {
-    const form = FormQuery.form();
+  static __form_to_query(new_type) {
+    const form = FormQuery.form(new_type);
     const qr = [];
     Object.entries(form).forEach(([k, v]) => {
       if (["mode", "range", "tags", "gamelist"].includes(k)) return;
@@ -104,11 +104,11 @@ class FormQuery {
       qr.push(
         form.mode + "=" + form.tags.map((t) => encodeURIComponent(t)).join("+")
       );
-    const query = qr.join("&");
+    const query = qr.join("&")
     return FormQuery.REV_QUERY[query]??query;
   }
-  static form_to_query() {
-    let query = "?" + FormQuery.__form_to_query();
+  static form_to_query(new_type) {
+    let query = "?" + FormQuery.__form_to_query(new_type);
     if (query == "?") query = "";
     if (document.location.search == query) return;
     const url = document.location.href.replace(/\?.*$/, "");
@@ -117,13 +117,8 @@ class FormQuery {
   static query_to_form() {
     const query = FormQuery.query();
     if (query == null) return;
-    setVal("list", (()=>{
-      if (query.gamepass) return "gamepass"
-      if (query.demos) return "demos"
-      return "";
-    })())
     Object.entries(query).forEach(([k, v]) => {
-      if (["range", "tags", "list"].includes(k)) return;
+      if (["range", "tags"].includes(k)) return;
       if (document.getElementById(k) == null) return;
       setVal(k, v);
     });
@@ -183,6 +178,7 @@ class FormQuery {
       i = i.trim();
       return i.length == 0 ? [] : i;
     });
+    if (tmp.length == 0) return [null, null];
     if (tmp.length > 2 || tmp[0].length == 0) return [null, null];
     const k = tmp[0];
     if (!isNaN(Number(k))) return [null, null];
@@ -200,7 +196,7 @@ class FormQuery {
       return [k, v];
     }
     const opt = document.querySelectorAll(
-      'select:not([id="list"]) option[value="' + k + '"]'
+      'select option[value="' + k + '"]'
     );
     if (opt.length == 1) {
       return [opt[0].closest("select[id]").id, k];
@@ -280,52 +276,57 @@ function getRanges() {
   return rgs;
 }
 
-function filtrar() {
-  const form = FormQuery.form();
-  const { ok, ko } = filter("div.game", (i) => {
-    const id = i.id.substring(1);
-    const j = GAME[i.id.substring(1)];
-    if (j == null) {
-      console.log(i.id, "no encontrado", i);
+function _filter (form, id) {
+  const j = GAME[id];
+  if (j == null) {
+    console.log(i.id, "no encontrado", i);
+    return false;
+  }
+  if (j.discount != null && j.discount < (form.discount ?? j.discount)) return false;
+
+  const fl = (() => {
+    if (form.tags.length == 0) {
+      if (form.mode[0] == "S") return false;
+      if (form.mode[0] == "H") return true;
+    }
+    const hs = form.tags.filter((v) => j.tags.includes(v));
+    if (form.mode == "SO") return hs.length > 0;
+    if (form.mode == "HO") return hs.length == 0;
+    if (form.mode == "SA") return hs.length == form.tags.length;
+    if (form.mode == "HA") return hs.length != form.tags.length;
+    console.log(form.mode, form.tags, j.tags, hs);
+  })();
+  if (!fl) return false;
+
+  const ok_rgs = Object.entries(form.range).map(([k, value]) => {
+    let vl = j[k];
+    if (vl == null) {
+      console.log(i.id, "no tine", k);
       return true;
     }
-    if (!form.gamelist.includes(id)) return false;
-    if (j.antiquity != null && j.antiquity > (form.antiquity ?? j.antiquity))
-      return false;
-    if (j.discount != null && j.discount < (form.discount ?? j.discount)) return false;
-
-    const fl = (() => {
-      if (form.tags.length == 0) {
-        if (form.mode[0] == "S") return false;
-        if (form.mode[0] == "H") return true;
-      }
-      const hs = form.tags.filter((v) => j.tags.includes(v));
-      if (form.mode == "SO") return hs.length > 0;
-      if (form.mode == "HO") return hs.length == 0;
-      if (form.mode == "SA") return hs.length == form.tags.length;
-      if (form.mode == "HA") return hs.length != form.tags.length;
-      console.log(form.mode, form.tags, j.tags, hs);
-    })();
-    if (!fl) return false;
-
-    const ok_rgs = Object.entries(form.range).map(([k, value]) => {
-      let vl = j[k];
-      if (vl == null) {
-        console.log(i.id, "no tine", k);
-        return true;
-      }
-      return vl >= value["min"] && vl <= value["max"];
-    });
-    if (ok_rgs.includes(false)) return false;
-
-    return true;
+    return vl >= value["min"] && vl <= value["max"];
   });
-  ok.forEach((i) => i.classList.remove("off"));
-  ko.forEach((i) => i.classList.add("off"));
-  if (ok.length == form.gamelist.length) {
-    document.title = `${ok.length} juegos`;
+  if (ok_rgs.includes(false)) return false;
+
+  return true;
+}
+
+function filtrar(new_type) {
+  if ((typeof new_type != "string")) new_type=null;
+  const form = FormQuery.form(new_type);
+  let ok = 0;
+  document.querySelectorAll("div.game").forEach(g=>g.classList.add("off"));
+  form.gamelist.forEach((id) => {
+    if (!_filter(form, id)) return;
+    const n = document.getElementById('g'+id);
+    if (n == null) return;
+    n.classList.remove("off");
+    ok++;
+  });
+  if (ok == form.gamelist.length) {
+    document.title = `${ok} juegos`;
   } else {
-    document.title = `${ok.length}/${form.gamelist.length} juegos`;
+    document.title = `${ok}/${form.gamelist.length} juegos`;
   }
   const div = document.getElementById("games");
   div.classList.remove("hideIfJS");
@@ -335,39 +336,7 @@ function filtrar() {
     $$("div.game").sort((a, b) => _g(a) - _g(b)).forEach(i => div.append(i))
     div.setAttribute("data-order", form.order);
   }
-  FormQuery.form_to_query();
-}
-
-function fixAntiguedad() {
-  const node = document.getElementById("antiquity");
-  if (node == null) return;
-  const opts = node.options;
-  const head = opts.length - 1;
-  const done = [];
-  const days_to_lab = (ant) => {
-    if (ant < 30) return { txt: "día", num: ant };
-    if (ant < 365) return { txt: "mes", num: Math.ceil(ant / 30), s: "es" };
-    return { txt: "año", num: Math.ceil(ant / 365) };
-  };
-  Array.from(opts)
-    .reverse()
-    .forEach((o, i) => {
-      const ant = Number(o.value) + ANTIQUITY;
-      const lab = days_to_lab(ant);
-      if (done.includes(lab.txt + lab.num)) {
-        o.remove();
-        return;
-      } /*
-    if (i>0 && i<head && (lab.num>1 && (lab.num%2)==1)) {
-      o.remove();
-      return;
-    }*/
-      done.push(lab.txt + lab.num);
-      if (lab.txt != "día" || ANTIQUITY > 0) {
-        o.textContent =
-          lab.num + " " + lab.txt + (lab.num != 1 ? lab.s ?? "s" : "");
-      }
-    });
+  FormQuery.form_to_query(new_type);
 }
 
 function ifLocal() {
@@ -424,12 +393,19 @@ document.addEventListener(
     setOrder();
     ifLocal();
     fixImg();
-    fixAntiguedad();
     document.querySelectorAll("a.alist").forEach(i=>{
       i.addEventListener("click", (e)=>{
-        const q = i.search.substring(1);
-        setVal("list", q);
-        filtrar();
+        filtrar(i.search.substring(1));
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+      });
+    })
+    document.querySelectorAll("a.aalias").forEach(i=>{
+      i.addEventListener("click", (e)=>{
+        history.pushState({}, "", e.target.href);
+        FormQuery.query_to_form();
+        filtrar()
         e.preventDefault();
         e.stopPropagation();
         return false;

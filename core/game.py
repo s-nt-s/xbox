@@ -425,24 +425,6 @@ class GameList:
         return info
 
     @cached_property
-    def antiques(self):
-        ants = set(x['antiquity'] for x in self.info.values())
-        ants = tuple(sorted(ants))
-        arr = set({
-            ants[0],
-            ants[-1],
-            31,
-            31*5,
-            365
-        })
-        i = 1
-        while i < len(ants):
-            arr.add(ants[i])
-            i = i * 2
-        arr = sorted(arr)
-        return tuple(arr)
-
-    @cached_property
     def discounts(self):
         arr = set(floor(x['discount']) for x in self.info.values())
         arr = tuple(sorted(arr))
