@@ -1,7 +1,21 @@
 const isLocal = ["", "localhost"].includes(document.location.hostname);
 const $$ = (slc) => Array.from(document.querySelectorAll(slc));
 const TRIAL_AND_DEMO = Array.from((new Set(TRIAL.concat(DEMO))));
-const REAL_GAMES = Array.from(Object.keys(GAME).filter(g=>!DEMO.includes(g)));
+const REAL_GAMES = Array.from(Object.keys(GAME).filter(g => !DEMO.includes(g)));
+
+function firsOptionValue(id) {
+  const elm = document.getElementById(id);
+  if (elm == null || elm.options.length == 0) return null;
+  const val = (elm.options[0].value ?? "").trim();
+  if (val.length == 0) return null;
+  const tp = elm.getAttribute("data-type");
+  if (tp == "number") {
+    const num = Number(val);
+    if (isNaN(num)) return null;
+    return num;
+  }
+  return val;
+}
 
 class FormQuery {
   static form() {
@@ -17,7 +31,7 @@ class FormQuery {
       const v = getVal(n.id);
       if (v === false) return;
       if (n.id == "discount" && v === 0) return;
-      if (n.id == "antiquity" && v === Number($$("#antiquity option").pop().value)) return;
+      if (n.id == "antiquity" && v === firsOptionValue("antiquity")) return;
       const nm = n.getAttribute("name");
       if (nm != null) {
         if (!Array.isArray(d[nm])) d[nm] = [];
@@ -28,7 +42,7 @@ class FormQuery {
     });
     d.range = getRanges(
       ...new Set(
-        $$("input[id$=_max],input[id$=_min]").filter(n=>!n.disabled).map((n) =>
+        $$("input[id$=_max],input[id$=_min]").filter(n => !n.disabled).map((n) =>
           n.id.replace(minmax, "")
         )
       )
@@ -45,7 +59,7 @@ class FormQuery {
     if (form.list == "T") qr.push('demo');
     Object.entries(form).forEach(([k, v]) => {
       if (["mode", "range", "tags", "gamelist", "list"].includes(k)) return;
-      if (k=="order" && v=="D") return;
+      if (k == "order" && v == "D") return;
       if (typeof v == "string") v = encodeURIComponent(v);
       qr.push(k + "=" + v);
     });
@@ -66,7 +80,7 @@ class FormQuery {
   }
   static form_to_query() {
     let query = "?" + FormQuery.__form_to_query();
-    if (query == "?") query="";
+    if (query == "?") query = "";
     if (document.location.search == query) return;
     const url = document.location.href.replace(/\?.*$/, "");
     history.pushState({}, "", url + query);
@@ -78,7 +92,7 @@ class FormQuery {
       setVal("list", "A");
       setVal("mode", "HO");
       setVal("discount", "0");
-      setVal("antiquity", $$("#antiquity option").pop().value);
+      setVal("antiquity", firsOptionValue("antiquity"));
       $$('.chkhideshow input[type="checkbox"]').forEach((i) =>
         setVal(i.id, false)
       );
@@ -96,7 +110,7 @@ class FormQuery {
     else setVal("list", "A");
     Object.entries(query).forEach(([k, v]) => {
       if (["range", "tags"].includes(k)) return;
-      if (document.getElementById(k)==null) return;
+      if (document.getElementById(k) == null) return;
       setVal(k, v);
     });
     const _set_rank_val = (n) => {
@@ -213,8 +227,12 @@ function setVal(id, v) {
     return null;
   }
   if (elm.tagName == "INPUT" && elm.getAttribute("type") == "checkbox") {
+    if (arguments.length == 1) v = elm.defaultChecked;
     elm.checked = v === true;
     return;
+  }
+  if (arguments.length == 1) {
+    v = elm.defaultValue;
   }
   elm.value = v;
 }
@@ -305,7 +323,9 @@ function filtrar() {
 }
 
 function fixAntiguedad() {
-  const opts = document.getElementById("antiquity").options;
+  const node = document.getElementById("antiquity");
+  if (node == null) return;
+  const opts = node.options;
   const head = opts.length - 1;
   const done = [];
   const days_to_lab = (ant) => {
