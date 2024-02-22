@@ -109,6 +109,7 @@ class FormQuery {
   static query_to_form() {
     const query = FormQuery.query();
     if (query == null) return;
+    if (query.mode == null) query.mode = firsOptionValue("mode");
     Object.entries(query).forEach(([k, v]) => {
       if (["range", "tags"].includes(k)) return;
       if (document.getElementById(k) == null) return;
@@ -144,11 +145,11 @@ class FormQuery {
       if (q.length == 0) return null;
       return FormQuery.ALIAS[q] ?? q;
     })();
-    if (search == null) return null;
     const d = {
       tags: [],
       range: {},
     };
+    if (search == null) return d;
     search.split("&").forEach((i) => {
       const [k, v] = FormQuery.__get_kv(i);
       if (k == null) return;
@@ -361,7 +362,6 @@ function fixImg() {
 
 function setOrder() {
   const def_order = $$("#order option").filter(o => o.getAttribute("selected") != null)[0].value;
-  console.log("order=" + def_order)
   const div = document.getElementById("games");
   div.setAttribute("data-order", def_order);
   div.querySelectorAll("div.game").forEach((d, index) => {
@@ -387,7 +387,10 @@ document.addEventListener(
     fixImg();
     document.querySelectorAll("a.alist").forEach(i => {
       i.addEventListener("click", (e) => {
-        filtrar(i.search.substring(1));
+        history.pushState({}, "", e.target.href);
+        FormQuery.query_to_form();
+        filtrar();
+        //filtrar(i.search.substring(1));
         e.preventDefault();
         e.stopPropagation();
         return false;
