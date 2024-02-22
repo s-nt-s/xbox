@@ -9,7 +9,8 @@ re_sp = re.compile(r"\s+")
 
 def is_chunk_of(items: Dict[str, Game]):
     game_dem = dict()
-    re_title = re.compile(r"Complete Season|Juego completo|Temporada completa|Complete Season")
+    re_title = re.compile(
+        r"Complete Season|Juego completo|Temporada completa|Complete Season")
     for gid in {**{
         "9NB2KCX4G29S": "Capcom Arcade Stadium Bundle",
         "9NQMLX3Z30DR": "Capcom Arcade 2nd Stadium Bundle",
@@ -18,7 +19,7 @@ def is_chunk_of(items: Dict[str, Game]):
             for bid in items[gid].get_bundle():
                 if gid != bid and bid in items:
                     dict_add(game_dem, gid, bid)
-    return dict_tuple(game_dem)
+    return dict_tuple(game_dem).items()
 
 
 def is_comp_of(items: Dict[str, Game]):
@@ -51,7 +52,7 @@ def is_comp_of(items: Dict[str, Game]):
             for g in list(items.values()):
                 if g.id != gid and gid in g.get_bundle():
                     dict_add(game_comp, gid, g.id)
-    return dict_tuple(game_comp)
+    return dict_tuple(game_comp).items()
 
 
 def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
@@ -71,18 +72,20 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
     xbox_series: List[Game] = []
     xbox_one: List[Game] = []
 
-    ids_xbox_series = set((i.id for i in all_games if i.availableOn and "XboxOne" not in i.availableOn))
+    ids_xbox_series = set(
+        (i.id for i in all_games if i.availableOn and "XboxOne" not in i.availableOn))
     for i in list(items.values()):
         if i.id in ids_xbox_series or ids_xbox_series.intersection(i.get_bundle()):
             xbox_series.append(i)
         else:
             xbox_one.append(i)
     ids_xbox_series = set((i.id for i in xbox_series))
-    xbox_one = [o for o in xbox_one if not ids_xbox_series.intersection(o.get_bundle())]
+    xbox_one = [
+        o for o in xbox_one if not ids_xbox_series.intersection(o.get_bundle())]
     for x in xbox_series:
         for o in xbox_one:
             if trim_eq(x.productDescription, o.productDescription):
                 dict_add(older_ver, x.id, o.id)
             elif o.id in x.get_bundle() and trim_eq(x.shortTitle, o.shortTitle):
                 dict_add(older_ver, x.id, o.id)
-    return dict_tuple(older_ver)
+    return dict_tuple(older_ver).items()

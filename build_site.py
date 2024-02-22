@@ -83,7 +83,7 @@ COMP: Dict[str, Set[str]] = {}
 OLDR: Dict[str, Set[str]] = {}
 items = {i.id: i for i in items}
 
-for pid, cids in gfilter.is_chunk_of(items).items():
+for pid, cids in gfilter.is_chunk_of(items):
     cids = tuple([c for c in cids if c in items])
     if cids and pid in items:
         for cid in cids:
@@ -94,14 +94,14 @@ for pid, cids in gfilter.is_chunk_of(items).items():
                 dict_add(COMP, pid, cid)
                 del items[cid]
 
-for pid, cids in gfilter.is_comp_of(items).items():
+for pid, cids in gfilter.is_comp_of(items):
     cids = tuple([c for c in cids if c in items])
     if cids and pid in items:
         for cid in cids:
             dict_add(COMP, pid, cid)
             del items[cid]
 
-for pid, cids in gfilter.is_older_version_of(items, all_games=ALL_GAMES.values()).items():
+for pid, cids in gfilter.is_older_version_of(items, all_games=ALL_GAMES.values()):
     cids = tuple([c for c in cids if c in items])
     if cids and pid in items:
         for cid in cids:
