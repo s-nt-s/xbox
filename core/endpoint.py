@@ -145,8 +145,10 @@ class EndPointCatalogList(EndPoint):
         ]
         text = S.get(self.url).text
         for w in sorted(set(ids+re.findall(EndPointCatalogList.UUID, text))):
-            d = EndPointCatalog(w).json()
-            if len(d):
+            e = EndPointCatalog(w)
+            if set(e.title.split()).intersection({"PC", "Próximamente"}):
+                continue
+            if len(e.json()):
                 catalogs.add(w)
         logger.info(f"{len(catalogs):>4} catalogs")
         return tuple(sorted(catalogs))
@@ -176,7 +178,7 @@ class EndPointCatalog(EndPoint):
             return "EAPlay"
         if self.title == "Juegos independientes":
             return "XboxIndieGames"
-        if re.search(r"Game ?Pass", self.title) and "Próximamente" not in self.title:
+        if re.search(r"Game ?Pass", self.title):
             return "GamePass"
         if re.search(r"Ubisoft", self.title):
             return "Ubisoft"
@@ -249,7 +251,8 @@ class EndPointProductPreloadState(EndPoint):
             'filters',
             'support',
             'serviceErrorMessages',
-            'channels/channelsData/PAL_' + self.id, # 'A los usuarios también les gusta esto'
+            # 'A los usuarios también les gusta esto'
+            'channels/channelsData/PAL_' + self.id,
             'products/layouts'
         ):
             dict_del(data, k)
