@@ -28,6 +28,7 @@ def _trim(s: str):
         return None
     return s
 
+
 @cache
 def collection():
     api = Api()
@@ -94,7 +95,7 @@ class Game:
             return {
                 "totalRatingsCount": 0
             }
-        logger.critical(self.id+" revies bad format "+str(js))
+        logger.critical(self.id+" reviews bad format "+str(js))
         return None
 
     @cached_property
@@ -111,7 +112,8 @@ class Game:
 
     @cached_property
     def summary(self) -> dict:
-        obj = dict_walk(self.preload_state, 'products/productSummaries/' + self.id)
+        obj = dict_walk(self.preload_state,
+                        'products/productSummaries/' + self.id)
         if not isinstance(obj, dict):
             return None
         return obj
@@ -336,7 +338,8 @@ class Game:
 
     @cached_property
     def primary(self):
-        obj = dict_walk(self.i, 'DisplaySkuAvailabilities/0/Sku/Properties/BundledSkus')
+        obj = dict_walk(
+            self.i, 'DisplaySkuAvailabilities/0/Sku/Properties/BundledSkus')
         if not isinstance(obj, list):
             return None
         for i in obj:
@@ -398,7 +401,8 @@ class Game:
 
     @cache
     def get_bundle(self) -> Tuple[str]:
-        obj = dict_walk(self.preload_state, f'channels/channelsData/INTHISBUNDLE_{self.id}/data/products')
+        obj = dict_walk(
+            self.preload_state, f'channels/channelsData/INTHISBUNDLE_{self.id}/data/products')
         if obj is None:
             return tuple()
         return tuple([i['productId'] for i in obj])
