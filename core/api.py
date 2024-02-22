@@ -7,7 +7,7 @@ import re
 import logging
 from .search import EndPointSearchPreloadState, EndPointSearchXboxSeries
 from core.endpoint import EndPointCollection, EndPointCatalogList, EndPointCatalog
-
+from core.util import dict_tuple, dict_add
 
 logger = logging.getLogger(__name__)
 re_sp = re.compile(r"\s+")
@@ -67,26 +67,15 @@ class Api:
     @cache
     def get_dict_catalog(self):
         rt: Dict[str, Set[str]] = {}
-
-        def __add(k, ids: Tuple[str]):
-            if k not in rt:
-                rt[k] = set()
-            rt[k] = rt[k].union(ids)
-
         for cat in EndPointCatalogList().json():
             ecat = EndPointCatalog(cat)
-            __add(ecat.tag or ecat.id, ecat.ids())
+            dict_add(rt, ecat.tag or ecat.id, ecat.ids())
         for k in EndPointCollection.COLS:
-            __add(k, EndPointCollection(k).ids())
+            dict_add(rt, k, EndPointCollection(k).ids())
         for k, ids in self.do_games_browse_search().items():
-            if k not in rt:
-                rt[k] = set()
-            rt[k] = rt[k].union(ids)
+            dict_add(rt, k, ids)
 
-        data: Dict[str, Tuple[str]] = {}
-        for k, ids in rt.items():
-            data[k] = tuple(sorted(ids))
-        return data
+        return dict_tuple(rt)
 
     def get_ids(self):
         ids = set()
@@ -114,14 +103,15 @@ class Api:
             return "IncludedInSubscription="+choice['id']
 
         obj = EndPointSearchPreloadState().filters()
-        data = {}
+        data: Dict[str, Set[str]] = {}
         for filter, v in obj.items():
             for c in v['choices']:
                 k = _key(filter, c)
                 if k is None:
                     continue
-                data[k] = EndPointSearchXboxSeries({v['id']: c['id']}).ids()
-        return data
+                dict_add(data, k, EndPointSearchXboxSeries(
+                    {v['id']: c['id']}).ids())
+        return dict_tuple(data)
 
 
 if __name__ == "__main__":

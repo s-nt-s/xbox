@@ -49,10 +49,13 @@ def chunks(lst, n):
         yield arr
 
 
-def dict_add(obj: Dict[str, Set], a: str, b: str):
+def dict_add(obj: Dict[str, Set], a: str, b: Union[str, List[str], Set[str], Tuple[str]]):
     if a not in obj:
         obj[a] = set()
-    obj[a].add(b)
+    if isinstance(b, str):
+        obj[a].add(b)
+    else:
+        obj[a] = obj[a].union(b)
 
 
 def dict_tuple(obj: Dict[str, Union[Set, List, Tuple]]):
