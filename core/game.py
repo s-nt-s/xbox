@@ -303,8 +303,11 @@ class Game:
 
     @property
     def demo(self) -> bool:
-        if self.price == 0 and "Demo Version" in self.title:
-            return True
+        if self.price == 0:
+            if "Demo Version" in self.title:
+                return True
+            if "Free Trial" in self.title:
+                return True
         if self.demo_of is not None:
             return True
         return self.i['Properties'].get('IsDemo') is True
