@@ -52,6 +52,13 @@ def do_filter2(i: Game):
     return True
 
 
+def do_filter3(i: Game):
+    for g in i.get_bundle():
+        if ALL_GAMES.get(g, Game(g)).preorder:
+            return False
+    return True
+
+
 def get_games():
     ids = list(api.get_ids())
     games = list(map(Game, ids))
@@ -76,6 +83,10 @@ print("Aplicando 1º filtro:", len(items))
 print("Aplicando 2º filtro", end="\r")
 items = list(filter(do_filter2, items))
 print("Aplicando 2º filtro:", len(items))
+
+print("Aplicando 3º filtro", end="\r")
+items = list(filter(do_filter3, items))
+print("Aplicando 3º filtro:", len(items))
 
 print("Descartando complementos o bundle redundantes")
 
