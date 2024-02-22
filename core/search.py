@@ -114,8 +114,13 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
 
     @EndPointSearchCache("rec/search/full/{}.json")
     def productSummaries(self) -> Union[Dict, None]:
+        qrs = list(self.yield_queries())
+        if len(qrs) == 0:
+            return {}
+        if len(qrs) == 1:
+            return self.__productSummariesPage(qrs[0])
         obj = {}
-        for query in self.yield_queries():
+        for query in qrs:
             ps = self.__productSummariesPage(query)
             obj = {**obj, **ps}
         squery = " ".join(f"{k}={v}" for k, v in self.id.items())
