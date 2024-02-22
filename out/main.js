@@ -23,32 +23,24 @@ class FormQuery {
   })
   static getListType() {
     const m = document.location.search.match(/^\?(gamepass|demos)(&|$)/);
-    if (m==null) return null;
+    if (m == null) return null;
     return m[1];
   }
   static form(new_type) {
-    const lst = new_type??FormQuery.getListType();
+    const lst = new_type ?? FormQuery.getListType();
     if (["gamepass", "demos"].includes(lst)) {
       document.body.classList.add("noprice");
-      $$("#price input").forEach(i=>{
-        if (i.disabled) return;
-        i.setAttribute("old-value", i.value);
-        i.disabled=true;
-      })
+      $$("#price input").forEach(i => i.disabled = true)
     } else {
       document.body.classList.remove("noprice");
-      $$("#price input").forEach(i=>{
-        if (!i.disabled) return;
-        setVal(i.id, i.getAttribute("old-value"));
-        i.disabled=false;
-      })
+      $$("#price input").forEach(i => i.disabled = false)
     }
     const d = {
       tags: [],
       range: {},
       gamelist: [],
     };
-    if (lst!=null && lst.length>0) d[lst]=true;
+    if (lst != null && lst.length > 0) d[lst] = true;
     const minmax = /_(max|min)$/;
     document.querySelectorAll("input[id], select[id]").forEach((n) => {
       if (n.disabled) return;
@@ -71,7 +63,7 @@ class FormQuery {
         )
       )
     );
-    d.gamelist = (()=>{
+    d.gamelist = (() => {
       if (d.gamepass) return GAMEPASS;
       if (d.demos) return TRIAL_AND_DEMO;
       return REAL_GAMES;
@@ -105,7 +97,7 @@ class FormQuery {
         form.mode + "=" + form.tags.map((t) => encodeURIComponent(t)).join("+")
       );
     const query = qr.join("&")
-    return FormQuery.REV_QUERY[query]??query;
+    return FormQuery.REV_QUERY[query] ?? query;
   }
   static form_to_query(new_type) {
     let query = "?" + FormQuery.__form_to_query(new_type);
@@ -147,10 +139,10 @@ class FormQuery {
     const mode = Array.from(document.getElementById("mode").options).map(
       (o) => o.value
     );
-    const search = (()=>{
+    const search = (() => {
       const q = document.location.search.replace(/^\?/, "")
-      if (q.length==0) return null;
-      return FormQuery.ALIAS[q]??q;
+      if (q.length == 0) return null;
+      return FormQuery.ALIAS[q] ?? q;
     })();
     if (search == null) return null;
     const d = {
@@ -204,7 +196,7 @@ class FormQuery {
     return [k, true];
   }
 }
-FormQuery.REV_QUERY = Object.freeze(Object.fromEntries(Object.entries(FormQuery.ALIAS).map(([k,v])=>[v, k])))
+FormQuery.REV_QUERY = Object.freeze(Object.fromEntries(Object.entries(FormQuery.ALIAS).map(([k, v]) => [v, k])))
 
 
 function mkTag(s) {
@@ -276,7 +268,7 @@ function getRanges() {
   return rgs;
 }
 
-function _filter (form, id) {
+function _filter(form, id) {
   const j = GAME[id];
   if (j == null) {
     console.log(i.id, "no encontrado", i);
@@ -312,13 +304,13 @@ function _filter (form, id) {
 }
 
 function filtrar(new_type) {
-  if ((typeof new_type != "string")) new_type=null;
+  if ((typeof new_type != "string")) new_type = null;
   const form = FormQuery.form(new_type);
   let ok = 0;
-  document.querySelectorAll("div.game").forEach(g=>g.classList.add("off"));
+  document.querySelectorAll("div.game").forEach(g => g.classList.add("off"));
   form.gamelist.forEach((id) => {
     if (!_filter(form, id)) return;
-    const n = document.getElementById('g'+id);
+    const n = document.getElementById('g' + id);
     if (n == null) return;
     n.classList.remove("off");
     ok++;
@@ -393,16 +385,16 @@ document.addEventListener(
     setOrder();
     ifLocal();
     fixImg();
-    document.querySelectorAll("a.alist").forEach(i=>{
-      i.addEventListener("click", (e)=>{
+    document.querySelectorAll("a.alist").forEach(i => {
+      i.addEventListener("click", (e) => {
         filtrar(i.search.substring(1));
         e.preventDefault();
         e.stopPropagation();
         return false;
       });
     })
-    document.querySelectorAll("a.aalias").forEach(i=>{
-      i.addEventListener("click", (e)=>{
+    document.querySelectorAll("a.aalias").forEach(i => {
+      i.addEventListener("click", (e) => {
         history.pushState({}, "", e.target.href);
         FormQuery.query_to_form();
         filtrar()
