@@ -272,26 +272,28 @@ class Game:
 
     @cached_property
     def spanish(self) -> tuple[str]:
-        spa = {
-            'audio': None,
-            'subtitles': None,
-        }
         obj = dict_walk(self.summary, 'languagesSupported')
         if not isinstance(obj, dict) or len(obj) == 0:
-            return spa
-        hasAudio = False
-        hasSubti = False
-        es = {}
-        for k, v in obj.items():
-            hasAudio = hasAudio or v['isAudioSupported']
-            hasSubti = hasSubti or v['areSubtitlesSupported']
-            if k.startswith("es-"):
-                es = {**es, **{a: b for a, b in v.items() if b is True}}
-        if hasAudio:
-            spa['audio'] = es.get('isAudioSupported') is True
-        if hasSubti:
-            spa['subtitles'] = es.get('areSubtitlesSupported') is True
-        return spa
+            return None
+        has = set()
+        spa = set()
+        for lang, v in obj.items():
+            for field, value in v.items():
+                if value is True:
+                    has.add(field)
+                    if lang.startswith("es-"):
+                        spa.add(field)
+
+        def isSpa(f: str):
+            if f not in has:
+                return None
+            return f in spa
+
+        return dict(
+            audio=isSpa('isAudioSupported'),
+            subtitles=isSpa('areSubtitlesSupported'),
+            interface=isSpa('isInterfaceSupported')
+        )
 
     @cached_property
     def categories(self) -> tuple[str]:
@@ -362,17 +364,18 @@ class Game:
     @property
     def tags(self) -> tuple[str]:
         tags = set(self.extra_tags)
-        isEs = (self.spanish['audio'], self.spanish['subtitles'])
-        if self.spanish['audio'] is True:
-            tags.add("Doblado")
-        if self.spanish['subtitles'] is True:
-            tags.add("Subtitulado")
-        if False in isEs and True not in isEs:
-            tags.add("FaltaEspañol")
-        if self.spanish['audio'] is False:
-            tags.add("FaltaDoblaje")
-        if self.spanish['subtitles'] is False:
-            tags.add("FaltanSubtitulos")
+        if self.spanish is not None:
+            isEs = (self.spanish['audio'], self.spanish['subtitles'])
+            if self.spanish['audio'] is True:
+                tags.add("Doblado")
+            if self.spanish['subtitles'] is True:
+                tags.add("Subtitulado")
+            if False in isEs and True not in isEs:
+                tags.add("FaltaEspañol")
+            if self.spanish['audio'] is False:
+                tags.add("FaltaDoblaje")
+            if self.spanish['subtitles'] is False:
+                tags.add("FaltanSubtitulos")
         if self.tragaperras:
             tags.add("Tragaperras")
         if self.compras:
