@@ -142,10 +142,31 @@ class Game:
     @cached_property
     def title(self) -> str:
         title: str = self.i["LocalizedProperties"][0]["ProductTitle"]
-        title = re_sp.sub(" ", title).strip()
         title = title.replace("—", "-")
         title = title.replace(" ®", "®")
+        title = title.replace("™", "")
+        title = re_sp.sub(" ", title).strip()
         return title
+
+    @cached_property
+    def productGroup(self) -> str:
+        b = dict_walk(self.i, 'Properties/ProductGroupName')
+        if b is None:
+            return None
+        b = b.strip()
+        if b in ("", "Bundles", "Racing", "Handygames Xbox One"):
+            return None
+        return b
+
+    @cached_property
+    def developer(self) -> str:
+        b = dict_walk(self.i, 'LocalizedProperties/0/DeveloperName')
+        if b is None:
+            return None
+        b = b.strip()
+        if len(b) == 0:
+            return None
+        return b
 
     @cached_property
     def relatedProducts(self):

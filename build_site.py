@@ -61,12 +61,15 @@ def do_filter3(i: Game):
 
 def get_games():
     ids = list(api.get_ids())
-    games = list(map(Game, ids))
-    for i in games:
+    games = []
+    for i in list(map(Game, ids)):
+        if "XboxSeriesX" not in i.availableOn:
+            continue
+        games.append(i)
         for b in i.get_bundle():
             if b not in ids:
                 b = Game(b)
-                if b.isGame:
+                if b.isGame and "XboxSeriesX" in b.availableOn:
                     games.append(b)
                     ids.append(b.id)
     return tuple(sorted(games, key=lambda g: g.id))

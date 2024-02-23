@@ -68,12 +68,23 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
             return False
         return a == trim(b)
 
+    def glines(txt: str):
+        lns = set()
+        for ln in txt.split("\n"):
+            ln = re_sp.sub(" ", ln).strip()
+            if len(ln) > 10:
+                lns.add(ln)
+        return lns
+
+    def common_lines(a: str, b:str):
+        return len(glines(a).intersection(glines(b)))
+
     older_ver = dict()
     xbox_series: List[Game] = []
     xbox_one: List[Game] = []
 
     ids_xbox_series = set(
-        (i.id for i in all_games if i.availableOn and "XboxOne" not in i.availableOn))
+        (i.id for i in all_games if i.availableOn and "XboxOne" not in i.availableOn and "XboxSeriesX" in i.availableOn))
     for i in list(items.values()):
         if i.id in ids_xbox_series or ids_xbox_series.intersection(i.get_bundle()):
             xbox_series.append(i)
@@ -82,10 +93,20 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
     ids_xbox_series = set((i.id for i in xbox_series))
     xbox_one = [
         o for o in xbox_one if not ids_xbox_series.intersection(o.get_bundle())]
+
     for x in xbox_series:
         for o in xbox_one:
+            if o.developer != x.developer:
+                continue
             if trim_eq(x.productDescription, o.productDescription):
                 dict_add(older_ver, x.id, o.id)
-            elif o.id in x.get_bundle() and trim_eq(x.shortTitle, o.shortTitle):
+                continue
+            if o.id in x.get_bundle() and trim_eq(x.shortTitle, o.shortTitle):
                 dict_add(older_ver, x.id, o.id)
+                continue
+            if o.productGroup is None or o.productGroup == x.productGroup:
+                continue
+            if common_lines(x.productDescription, o.productDescription) > 5:
+                dict_add(older_ver, x.id, o.id)
+                continue
     return dict_tuple(older_ver).items()
