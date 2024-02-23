@@ -109,7 +109,7 @@
     <div id="games" class="hideIfJS">
       {% for j in gl.items %}
       <div class="game" id="g{{j.id}}">
-        <img src="{{j.thumbnail}}" alt="Poster de {{j.id}}" loading="lazy" />
+        <img src="{{j.thumbnail}}" alt="Poster de {{j.id}}" loading="lazy" width="150" height="225"/>
         <p>
           <b><a href="{{j.url}}" class="title">{{j.title}}</a>{#
             <sup>[<a href="{{j.js}}">js</a>]</sup>#}</b>

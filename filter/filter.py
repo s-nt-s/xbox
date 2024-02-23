@@ -56,17 +56,10 @@ def is_comp_of(items: Dict[str, Game]):
 
 
 def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
-    @cache
-    def trim(s: str):
-        return re_sp.sub(" ", s).strip()
-
-    def trim_eq(a: str, b: str):
-        if None in (a, b) or '' in (a, b):
+    def eq(a: str, b: str):
+        if None in (a, b):
             return False
-        a = trim(a)
-        if len(a) == 0:
-            return False
-        return a == trim(b)
+        return a == b
 
     def glines(txt: str):
         lns = set()
@@ -76,8 +69,31 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
                 lns.add(ln)
         return lns
 
-    def common_lines(a: str, b:str):
+    @cache
+    def trim(s: str):
+        s = s.strip()
+        if len(s) > 600 and s.count("\n") > 2 and s.index("\n") < 200:
+            s = "\n".join(s.split("\n")[1:])
+        s = re.sub(r"Xbox\s*(One|Series\s*X\|S)", "", s, flags=re.IGNORECASE)
+        s = re.sub(r"\(\)", "", s)
+        s = re_sp.sub(" ", s)
+        return s.strip()
+
+    def trim_eq(a: str, b: str):
+        if None in (a, b) or '' in (a, b):
+            return False
+        a = trim(a).lower()
+        if len(a) == 0:
+            return False
+        return a == trim(b).lower()
+
+    def common_lines(a: str, b: str):
         return len(glines(a).intersection(glines(b)))
+
+    def is_common_developer(a: Game, b: Game):
+        if (a.developer, b.developer) == (None, None):
+            return eq(a.publisher, b.publisher)
+        return eq(a.developer, b.developer)
 
     older_ver = dict()
     xbox_series: List[Game] = []
@@ -96,7 +112,10 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
 
     for x in xbox_series:
         for o in xbox_one:
-            if o.developer != x.developer:
+            if trim_eq(x.productDescription, o.productDescription) and trim_eq(x.title, o.title):
+                dict_add(older_ver, x.id, o.id)
+                continue
+            if not is_common_developer(x, o):
                 continue
             if trim_eq(x.productDescription, o.productDescription):
                 dict_add(older_ver, x.id, o.id)
@@ -104,7 +123,10 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
             if o.id in x.get_bundle() and trim_eq(x.shortTitle, o.shortTitle):
                 dict_add(older_ver, x.id, o.id)
                 continue
-            if o.productGroup is None or o.productGroup == x.productGroup:
+            if trim_eq(x.title, o.title):
+                dict_add(older_ver, x.id, o.id)
+                continue
+            if not eq(o.productGroup, x.productGroup):
                 continue
             if common_lines(x.productDescription, o.productDescription) > 5:
                 dict_add(older_ver, x.id, o.id)
