@@ -54,7 +54,7 @@ def do_filter2(i: Game):
 
 def do_filter3(i: Game):
     for g in i.get_bundle():
-        if ALL_GAMES.get(g, Game(g)).preorder:
+        if Game.get(g).preorder:
             return False
     return True
 
@@ -68,7 +68,7 @@ def get_games():
         games.append(i)
         for b in i.get_bundle():
             if b not in ids:
-                b = Game(b)
+                b = Game.get(b)
                 if b.isGame and "XboxSeriesX" in b.availableOn:
                     games.append(b)
                     ids.append(b.id)

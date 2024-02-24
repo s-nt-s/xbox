@@ -1,4 +1,3 @@
-from logging import DEBUG
 import re
 from os.path import isfile
 from functools import cached_property, cache
@@ -81,6 +80,11 @@ class Game:
         self.extra_tags: Set[str] = set()
         self.demo_of = None
 
+    @staticmethod
+    @cache
+    def get(id: str):
+        return Game(id)
+
     @cached_property
     def collections(self):
         return collection().get(self.id, tuple())
@@ -156,6 +160,7 @@ class Game:
     def title(self) -> str:
         title: str = self.i["LocalizedProperties"][0]["ProductTitle"]
         title = title.replace("—", "-")
+        title = title.replace("–", "-")
         title = title.replace(" ®", "®")
         title = title.replace("™", "")
         title = re_sp.sub(" ", title).strip()
@@ -288,7 +293,7 @@ class Game:
     def spanish(self) -> tuple[str]:
         obj = dict_walk(self.summary, 'languagesSupported')
         if not isinstance(obj, dict) or len(obj) == 0:
-            return None
+            return self.__find_spanish()
         has = set()
         spa = set()
         for lang, v in obj.items():
@@ -308,6 +313,40 @@ class Game:
             subtitles=isSpa('areSubtitlesSupported'),
             interface=isSpa('isInterfaceSupported')
         )
+
+    def __find_spanish(self):
+        if (self.developer or "").startswith("Rockstar"):
+            return dict(
+                audio=False,
+                subtitles=True,
+                interface=True
+            )
+        alt = {}
+        for b in self.get_bundle():
+            g = Game.get(b)
+            if g.id != self.id and len(g.get_bundle()) == 0 and g.isGame and g.spanish is not None:
+                k = tuple(g.spanish.items())
+                alt[k] = alt.get(k, 0) + 1
+        if len(alt) == 0:
+            return None
+
+        def _key(kvc):
+            (kv, c) = kvc
+            arr = [-c]
+            for k, v in kv:
+                arr.append(k)
+                if v is None:
+                    arr.append(1)
+                else:
+                    arr.append(-int(v))
+            return tuple(arr)
+        alt = sorted(
+            alt.items(),
+            key=_key
+        )
+        spa = dict(alt[0][0])
+        return spa
+
 
     @cached_property
     def categories(self) -> tuple[str]:
