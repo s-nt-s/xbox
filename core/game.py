@@ -1,3 +1,4 @@
+from logging import DEBUG
 import re
 from os.path import isfile
 from functools import cached_property, cache
@@ -11,6 +12,7 @@ from .endpoint import EndPointProduct, EndPointProductPreloadState, EndPointActi
 from .api import Api
 from .util import dict_walk
 import logging
+from .cache import Cache
 
 logger = logging.getLogger(__name__)
 
@@ -18,6 +20,17 @@ YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
 re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
 re_sp = re.compile(r"\s+")
+
+
+class OverwriteWith(Cache):
+    def __init__(self, file: str, *args, **kwargs):
+        super().__init__(file, *args, kwself="slf", **kwargs)
+
+    def parse_file_name(self, *args, slf: "Game" = None, **kargv):
+        return self.file.format(id=slf.id)
+
+    def save(self, *args, **kwargs):
+        return None
 
 
 def _trim(s: str):
@@ -271,6 +284,7 @@ class Game:
         return self.gamepass and self.notSoldSeparately
 
     @cached_property
+    @OverwriteWith("fix/spanish/{id}.json")
     def spanish(self) -> tuple[str]:
         obj = dict_walk(self.summary, 'languagesSupported')
         if not isinstance(obj, dict) or len(obj) == 0:
