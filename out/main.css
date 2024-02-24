@@ -61,6 +61,10 @@ span.tag {
   min-width: 12em;
   display: inline-block;
 }
+.lang > span {
+  min-width: 20em;
+  display: inline-block;
+}
 fieldset {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -88,4 +92,10 @@ a.title {
 }
 body.noprice #price {/*, body.noprice code.price {*/
   display: none;
+}
+a.warn {
+  color: red !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  font-size: 1.3em !important;
 }

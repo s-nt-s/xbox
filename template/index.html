@@ -83,6 +83,39 @@
           </select>
         </label>
       </fieldset>
+      <fieldset class="lang">
+        <legend title="Función BETA, datos no fiables">Idioma <a class="warn" href="https://github.com/s-nt-s/xbox/issues/1" target="_blank">⚠</a></legend>
+        {% with id="vdse", txt="Audio español, subtítulos en español" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="vds", txt="Audio español, subtítulos extranjeros" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="vd", txt="Audio español (no hay subtítulos)" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="vose", txt="Audio extranjero, subtítulos en español" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="vos", txt="Audio extranjero, subtítulos extranjeros" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="vo", txt="Audio extranjero (no hay subtítulos)" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="se", txt="Subtítulos en español (no hay audio)" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="s", txt="Subtítulos extranjeros (no hay audio)" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="mute", txt="No hay audio ni subtítulos" %}
+        {% include "lang.html" %}
+        {% endwith %}
+        {% with id="null", txt="Sin información disponible sobre idioma" %}
+        {% include "lang.html" %}
+        {% endwith %}
+      </fieldset>
       <fieldset class="chkhideshow">
         <legend>
           <select id="mode">

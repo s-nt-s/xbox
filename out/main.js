@@ -19,7 +19,10 @@ function firsOptionValue(id) {
 
 class FormQuery {
   static ALIAS = Object.freeze({
-    "bbb": "price=1-10&reviews=10-38431&rate=4-5"
+    "bbb": "price=1-10&reviews=10-38431&rate=4-5",
+    "doblado": "lang=vdse+vds+vd",
+    "subtitulado": "lang=vdse+vose+se",
+    "traducido": "lang=vdse+vds+vd+vose+se+mute"
   })
   static getListType() {
     const m = document.location.search.match(/^\?(gamepass|demos)(&|$)/);
@@ -37,6 +40,7 @@ class FormQuery {
     }
     const d = {
       tags: [],
+      lang: [],
       range: {},
       gamelist: [],
     };
@@ -74,7 +78,7 @@ class FormQuery {
     const form = FormQuery.form(new_type);
     const qr = [];
     Object.entries(form).forEach(([k, v]) => {
-      if (["mode", "range", "tags", "gamelist"].includes(k)) return;
+      if (["mode", "range", "tags", "gamelist", "lang"].includes(k)) return;
       if (k == "order" && v == "D") return;
       if (typeof v == "string") v = encodeURIComponent(v);
       if (v === true) {
@@ -96,6 +100,10 @@ class FormQuery {
       qr.push(
         form.mode + "=" + form.tags.map((t) => encodeURIComponent(t)).join("+")
       );
+    if (form.lang.length)
+      qr.push(
+        "lang=" + form.lang.map((t) => encodeURIComponent(t)).join("+")
+      );
     const query = qr.join("&")
     return FormQuery.REV_QUERY[query] ?? query;
   }
@@ -111,7 +119,7 @@ class FormQuery {
     if (query == null) return;
     if (query.mode == null) query.mode = firsOptionValue("mode");
     Object.entries(query).forEach(([k, v]) => {
-      if (["range", "tags"].includes(k)) return;
+      if (["range", "tags", "lang"].includes(k)) return;
       if (document.getElementById(k) == null) return;
       setVal(k, v);
     });
@@ -135,6 +143,12 @@ class FormQuery {
         .forEach((i) => {
           setVal(i.id, query.tags.includes(i.getAttribute("value")));
         });
+    if (query.lang)
+      document
+        .querySelectorAll('.lang input[type="checkbox"]')
+        .forEach((i) => {
+          setVal(i.id, query.lang.includes(i.getAttribute("value")));
+        });
   }
   static query() {
     const mode = Array.from(document.getElementById("mode").options).map(
@@ -147,6 +161,7 @@ class FormQuery {
     })();
     const d = {
       tags: [],
+      lang: [],
       range: {},
     };
     if (search == null) return d;
@@ -162,7 +177,8 @@ class FormQuery {
         d.tags = v.split("+").map((t) => decodeURIComponent(t));
         return;
       }
-      d[k] = v;
+      if (Array.isArray(d[k])) d[k] = v.split("+").map((t) => decodeURIComponent(t));
+      else d[k] = v;
     });
     return d;
   }
@@ -246,18 +262,6 @@ function setVal(id, v) {
   elm.value = v;
 }
 
-function filter(slc, fnc) {
-  const ok = [];
-  const ko = [];
-  document.querySelectorAll(slc).forEach((i) => {
-    (fnc(i) ? ok : ko).push(i);
-  });
-  return {
-    ok,
-    ko,
-  };
-}
-
 function getRanges() {
   const rgs = {};
   Array.from(arguments).forEach((k) => {
@@ -300,6 +304,26 @@ function _filter(form, id) {
     return vl >= value["min"] && vl <= value["max"];
   });
   if (ok_rgs.includes(false)) return false;
+
+  const lang = (()=> {
+    const lang = form.lang;
+    if (lang == null || lang.length == 0) return true;
+    if (j.spa == null) return lang.includes("null");
+    let {audio, subtitles, interface} = j.spa;
+    if (audio!== null && subtitles === null) subtitles = interface;
+    if (lang.includes("mute") && (audio === null  && subtitles === null))  return true;
+    if (lang.includes("vdse") && (audio === true  && subtitles === true))  return true;
+    if (lang.includes("vds")  && (audio === true  && subtitles === false)) return true;
+    if (lang.includes("vd")   && (audio === true  && subtitles === null))  return true;
+    if (lang.includes("vose") && (audio === false && subtitles === true))  return true;
+    if (lang.includes("vos")  && (audio === false && subtitles === false)) return true;
+    if (lang.includes("vo")   && (audio === false && subtitles === null))  return true;
+    if (lang.includes("se")   && (audio === null  && subtitles === true))  return true;
+    if (lang.includes("s")    && (audio === null  && subtitles === false)) return true;
+    return false;
+  })();
+
+  if (!lang) return false;
 
   return true;
 }

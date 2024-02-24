@@ -364,18 +364,6 @@ class Game:
     @property
     def tags(self) -> tuple[str]:
         tags = set(self.extra_tags)
-        if self.spanish is not None:
-            isEs = (self.spanish['audio'], self.spanish['subtitles'])
-            if self.spanish['audio'] is True:
-                tags.add("Doblado")
-            if self.spanish['subtitles'] is True:
-                tags.add("Subtitulado")
-            if False in isEs and True not in isEs:
-                tags.add("FaltaEspañol")
-            if self.spanish['audio'] is False:
-                tags.add("FaltaDoblaje")
-            if self.spanish['subtitles'] is False:
-                tags.add("FaltanSubtitulos")
         if self.tragaperras:
             tags.add("Tragaperras")
         if self.compras:
@@ -443,7 +431,8 @@ class GameList:
                 rate=i.rate,
                 reviews=i.reviews,
                 discount=i.discount,
-                tags=i.tags
+                tags=i.tags,
+                spa=i.spanish
             )
         return info
 
