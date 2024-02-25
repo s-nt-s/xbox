@@ -10,6 +10,8 @@ permissions:
 concurrency:
   group: 'pages'
   cancel-in-progress: true
+env:
+  LOG_FORMAT: '%(name)s - %(levelname)s - %(message)s'
 jobs:
   scrape_and_deploy:
     runs-on: ubuntu-latest

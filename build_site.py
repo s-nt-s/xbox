@@ -10,6 +10,7 @@ from core.endpoint import EndPointCollection, EndPointProduct
 from core.util import dict_add
 from typing import List, Tuple, Dict, Set
 from core.log import config_log
+import logging
 
 import argparse
 
@@ -20,6 +21,7 @@ parser.add_argument("--precio", type=float, help='Precio máximo', default=9999)
 args = parser.parse_args()
 
 config_log("log/build_site.log")
+logger = logging.getLogger(__name__)
 
 api = Api()
 
@@ -29,23 +31,33 @@ def do_filter1(i: Game):
         return True
     if i.price <= args.precio:
         return True
+    logger.debug(i.id+f" por precio {i.price}")
     return False
 
 
 def do_filter2(i: Game):
-    if 'XboxSeriesX' not in i.availableOn:
+    if not i.isXboxSeries:
+        logger.debug(i.id+" descartado por !isXboxSeries")
         return False
-    if not i.isGame:
+    if i.summary is None:
+        logger.debug(i.id+" descartado por summary=None")
         return False
+    #if not i.isGame:
+    #    logger.debug(i.id+" descartado por !isGame")
+    #    return False
     if i.notAvailable:
+        logger.debug(i.id+" descartado por notAvailable")
         return False
     if i.gamepass:
         return True
     if i.requiresGame:
+        logger.debug(i.id+" descartado por requiresGame")
         return False
     if i.notSoldSeparately:
+        logger.debug(i.id+" descartado por notSoldSeparately")
         return False
     if i.preorder:
+        logger.debug(i.id+" descartado por preorder")
         return False
     # if 'Trial' in i.actions:
     #    return False
@@ -53,26 +65,46 @@ def do_filter2(i: Game):
 
 
 def do_filter3(i: Game):
-    for g in i.get_bundle():
-        if Game.get(g).preorder:
+    bundle = tuple(map(Game.get, i.get_bundle()))
+    if len(bundle) == 0:
+        return True
+    isNotGame = 0
+    isNotXbox = 0
+    for g in bundle:
+        if not g.isGame:
+            isNotGame = isNotGame + 1
+        if not g.isXboxSeries:
+            isNotXbox = isNotXbox + 1
+        if g.summary and g.preorder:
+            logger.debug(i.id+" descartado por incluir preorder: "+g.id)
             return False
+    if isNotGame == len(bundle):
+        logger.debug(i.id+" descartado por no incluir juegos")
+        return False
+    if isNotXbox == len(bundle):
+        logger.debug(i.id+" descartado por no incluir XboxSeriesX")
+        return False
     return True
 
 
 def get_games():
     ids = list(api.get_ids())
     games = []
-    for i in list(map(Game, ids)):
-        if "XboxSeriesX" not in i.availableOn:
+    for i in list(map(Game.get, ids)):
+        if not i.isXboxSeries:
+            logger.debug(i.id+" descartado por !isXboxSeries")
             continue
         games.append(i)
-        for b in i.get_bundle():
-            if b not in ids:
-                b = Game.get(b)
-                if b.isGame and "XboxSeriesX" in b.availableOn:
-                    games.append(b)
-                    ids.append(b.id)
-    return tuple(sorted(games, key=lambda g: g.id))
+        for b in map(Game.get, i.get_bundle()):
+            if b.id not in ids:
+                ids.append(b.id)
+                if not b.isXboxGame:
+                    logger.debug(b.id+" descartado por !isXboxGame")
+                    continue
+                games.append(b)
+    games = tuple(sorted(games, key=lambda g: g.id))
+    logger.debug(f"GAMES ({len(games)}) = " + " ".join(map(lambda g: g.id, games)))
+    return games
 
 
 print("Obteniendo juegos", end="\r")
@@ -95,6 +127,8 @@ print("Descartando complementos o bundle redundantes")
 
 COMP: Dict[str, Set[str]] = {}
 OLDR: Dict[str, Set[str]] = {}
+BADD: List[Game] = []
+BETD: List[Game] = []
 items = {i.id: i for i in items}
 
 for pid, cids in gfilter.is_chunk_of(items):
@@ -105,6 +139,7 @@ for pid, cids in gfilter.is_chunk_of(items):
             if gm.price == 0:
                 gm.demo_of = pid
             else:
+                logger.debug(cid+" descartado por incompleto")
                 dict_add(COMP, pid, cid)
                 del items[cid]
 
@@ -112,6 +147,7 @@ for pid, cids in gfilter.is_comp_of(items):
     cids = tuple([c for c in cids if c in items])
     if cids and pid in items:
         for cid in cids:
+            logger.debug(cid+" descartado por ser complemento")
             dict_add(COMP, pid, cid)
             del items[cid]
 
@@ -119,8 +155,23 @@ for pid, cids in gfilter.is_older_version_of(items, all_games=ALL_GAMES.values()
     cids = tuple([c for c in cids if c in items])
     if cids and pid in items:
         for cid in cids:
+            logger.debug(cid+" descartado por ser versión antigua")
             dict_add(OLDR, pid, cid)
             del items[cid]
+
+for g in gfilter.is_bad_deal(items):
+    if len(set(g.get_bundle()).difference(items.keys())) == 0:
+        logger.debug(cid+" descartado por ser mal negocio (1)")
+        BADD.append(g)
+        del items[g.id]
+
+for pid, cids in gfilter.is_in_better_deal(items):
+    cids = tuple([c for c in cids if c in items])
+    if len(cids) > 0:
+        logger.debug(cid+" descartado por ser mal negocio (2)")
+        BETD.append(Game.get(pid))
+        del items[pid]
+
 
 items = sorted(items.values(), key=lambda x: x.releaseDate, reverse=True)
 print("Resultado final:", len(items))
@@ -174,6 +225,8 @@ j.save(
     product=EndPointProduct(top_paid),
     complements=dict_to_game_list(COMP),
     older=dict_to_game_list(OLDR),
+    bad_deal=BADD,
+    better_deal=BETD,
     now=now
 )
 print("Fin")

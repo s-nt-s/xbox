@@ -200,10 +200,24 @@ class Game:
         return self.i["ProductType"]
 
     @cached_property
+    def hasProductInfo(self) -> bool:
+        return self.i is not None
+
+    @cached_property
     def isGame(self) -> bool:
         if self.i is None:
             return False
-        return self.productType == 'Game'
+        if self.productType != 'Game':
+            return False
+        return True
+
+    @cached_property
+    def isXboxSeries(self) -> bool:
+        return 'XboxSeriesX' in self.availableOn
+
+    @cached_property
+    def isXboxGame(self) -> bool:
+        return self.isGame and self.isXboxSeries and self.summary is not None
 
     @cached_property
     def imgs(self) -> tuple[str]:
@@ -228,39 +242,39 @@ class Game:
                 att.add(a['Name'])
         return tuple(sorted(att))
 
-    @property
+    @cached_property
     def actions(self) -> tuple[str]:
         act = set()
         for x in self.productActions["productActions"]:
             if x['productId'] != self.id:
                 continue
             for a in x['productActions']:
-                if a['actionArguments'].get('ProductId') != self.id:
+                if a['actionArguments'].get('ProductId', self.id) != self.id:
                     continue
                 act.add(a['actionType'])
             for aa in x['skuActionsBySkuId'].values():
                 for a in aa:
-                    if a['actionArguments'].get('ProductId') != self.id:
+                    if a['actionArguments'].get('ProductId', self.id) != self.id:
                         continue
                     act.add(a['actionType'])
         act = tuple(sorted(act))
         return act
 
-    @property
+    @cached_property
     def legalNotices(self) -> tuple[str]:
         obj = dict_walk(self.summary, 'legalNotices')
         if obj is None:
             return tuple()
         return tuple(obj)
 
-    @property
+    @cached_property
     def interactiveDescriptions(self) -> tuple[str]:
         obj = dict_walk(self.summary, 'contentRating/interactiveDescriptions')
         if obj is None:
             return tuple()
         return tuple(obj)
 
-    @property
+    @cached_property
     def compras(self) -> tuple[str]:
         cmp = set()
         for x in self.interactiveDescriptions:
@@ -369,6 +383,8 @@ class Game:
     def preorder(self) -> bool:
         if self.onlyGamepass:
             return False
+        if self.notSoldSeparately:
+            return False
         return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsPreOrder']
 
     @property
@@ -462,8 +478,24 @@ class Game:
             self.preload_state, f'channels/channelsData/INTHISBUNDLE_{self.id}/data/products')
         if obj is None:
             return tuple()
-        return tuple([i['productId'] for i in obj])
+        return tuple(sorted(set([i['productId'] for i in obj])))
 
+    @cache
+    def get_partent_bundle(self) -> Tuple[str]:
+        def _find(path: str):
+            return dict_walk(self.preload_state, path) or []
+        aux = set()
+        for o in _find(f'channels/channelsData/BUNDLESBYSEED_{self.id}/data/products'):
+            aux.add(o['productId'])
+        for o in _find(f'channels/channelsData/COMPAREEDITIONS_{self.id}/data/products'):
+            aux.add(o['productId'])
+        for o in _find(f'products/productSummaries/{self.id}/bundlesBySeed'):
+            aux.add(o)
+        ids = set()
+        for i in map(Game.get, aux):
+            if self.id in i.get_bundle():
+                ids.add(i.id)
+        return tuple(sorted(ids))
 
 @dataclass(frozen=True)
 class GameList:

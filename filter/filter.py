@@ -11,10 +11,11 @@ def is_chunk_of(items: Dict[str, Game]):
     game_dem = dict()
     re_title = re.compile(
         r"Complete Season|Juego completo|Temporada completa|Complete Season")
-    for gid in {**{
+    obj = {**{
         "9NB2KCX4G29S": "Capcom Arcade Stadium Bundle",
         "9NQMLX3Z30DR": "Capcom Arcade 2nd Stadium Bundle",
-    }, **{i.id: i.title for i in items.values() if re_title.search(i.title)}}.keys():
+    }, **{i.id: i.title for i in items.values() if re_title.search(i.title)}}
+    for gid in obj.keys():
         if gid in items:
             for bid in items[gid].get_bundle():
                 if gid != bid and bid in items:
@@ -24,8 +25,10 @@ def is_chunk_of(items: Dict[str, Game]):
 
 def is_comp_of(items: Dict[str, Game]):
     game_comp = dict()
-    for gid in {
+    for gid in sorted({
         "C0FZNGPNQQRQ": "Crossout",
+        "9PLTP0XJ75GS": "Pinball FX",
+        "9PCKBVF3P67H": "Pinball FX3",
         "9NHKL695M9F2": "Enlisted",
         "9PF432CVQBXT": "Enlisted Xbox One",
         "C1ZT6N30L1WH": "World of Warships: Legends",
@@ -47,7 +50,7 @@ def is_comp_of(items: Dict[str, Game]):
         "9NT1ZBBV6WH6": "eFootball",
         "BVM002M8HH0S": "Fishing Planet",
         "C59QBPB8P1XJ": "DC Universe Online"
-    }.keys():
+    }.keys()):
         if gid in items:
             for g in list(items.values()):
                 if g.id != gid and gid in g.get_bundle():
@@ -96,11 +99,25 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
         return eq(a.developer, b.developer)
 
     older_ver = dict()
+
+    # Control
+    dict_add(older_ver, "9P4D0K92BM7V", "BZ6W9LRPC26W")
+    # Cities: Skylines
+    dict_add(older_ver, "9MZ4GBWX9GND", "C4GH8N6ZXG5L")
+    # GTAV
+    new_gtav = "9NXMBTB02ZSF"
+    old_gtav = "BPJ686W6S0NH"
+    dict_add(older_ver, new_gtav, old_gtav)
+    for g in items.values():
+        gms = [i for i in map(Game.get, g.get_bundle()) if i.isXboxGame]
+        if len(gms) == 1 and gms[0].id == old_gtav:
+            dict_add(older_ver, new_gtav, g.id)
+
     xbox_series: List[Game] = []
     xbox_one: List[Game] = []
 
     ids_xbox_series = set(
-        (i.id for i in all_games if i.availableOn and "XboxOne" not in i.availableOn and "XboxSeriesX" in i.availableOn))
+        (i.id for i in all_games if i.availableOn and "XboxOne" not in i.availableOn and i.isXboxSeries))
     for i in list(items.values()):
         if i.id in ids_xbox_series or ids_xbox_series.intersection(i.get_bundle()):
             xbox_series.append(i)
@@ -132,3 +149,23 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
                 dict_add(older_ver, x.id, o.id)
                 continue
     return dict_tuple(older_ver).items()
+
+
+def is_bad_deal(items: Dict[str, Game]):
+    for g in list(items.values()):
+        if not g.get_bundle():
+            continue
+        price = 0
+        for b in map(Game.get, g.get_bundle()):
+            price = price + b.price
+        if price <= g.price:
+            yield g
+
+
+def is_in_better_deal(items: Dict[str, Game]):
+    in_better = dict()
+    for g in list(items.values()):
+        for b in map(Game.get, g.get_partent_bundle()):
+            if b.id != g.id and g.price > b.price:
+                dict_add(in_better, g.id, b.id)
+    return dict_tuple(in_better).items()

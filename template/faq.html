@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <base target="_blank" />
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta
       name="Last-Modified"
       content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}"
-    >
-    <link rel="stylesheet" href="../main.css">
+    />
+    <link rel="stylesheet" href="../main.css" />
     <title>FAQ</title>
   </head>
   <body>
-    {% with root=".." %}
-      {% include "header.html" %}
-    {% endwith %}
+    {% with root=".." %} {% include "header.html" %} {% endwith %}
     <main>
       <h1>¿Qué juegos aparecen en la web?</h1>
       <p>
@@ -35,14 +33,14 @@
           virtuales
         </li>
         <li>
-          evitar "juegos" que realmente son demos (ej: el episodio 1 gratiuito de una temporada de 5 episodios)
+          evitar "juegos" que realmente son demos (ej: el episodio 1 gratiuito
+          de una temporada de 5 episodios)
         </li>
         <li>
-          evitar "juegos" incompletos (ej: el episodio 1 de pago de una temporada de 5 episodios que se puede comprar completa)
+          evitar "juegos" incompletos (ej: el episodio 1 de pago de una
+          temporada de 5 episodios que se puede comprar completa)
         </li>
-        <li>
-          evitar juegos en preorder
-        </li>
+        <li>evitar juegos en preorder</li>
         <li>
           evitar versiones Xbox One cuando hay disponible una versión Xbox
           Series S|X del mismo juego
@@ -55,8 +53,8 @@
           <a href="{{browser}}">buscador oficial</a>
         </li>
         <li>
-          evitar perder el tiempo con páginas paginando (aquí se muestran
-          todos los resultados de golpe)
+          evitar perder el tiempo con páginas paginando (aquí se muestran todos
+          los resultados de golpe)
         </li>
       </ul>
 
@@ -90,7 +88,7 @@
           >issue</a
         >
       </p>
-      
+
       <h1>¿De donde se obtiene la información de cada juego?</h1>
       <p>
         La información se obtiene de diversos <code>json</code> obtenidos via
@@ -147,6 +145,29 @@
         </li>
         {% endfor %}
       </ul>
+      {% if bad_deal %}
+      <p>
+        También se han descartado los siguientes paquetes de juegos porque no
+        representaba ninguna mejora de precio con respecto a comprar su
+        contenido por separado:
+      </p>
+      <ul>
+        {% for c in bad_deal %}
+        <li><a href="{{c.url}}">{{c.title}}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if better_deal %}
+      <p>
+        También se han descartado los siguientes juegos porque estan
+        incluidos en paquetes con mejor precio:
+      </p>
+      <ul>
+        {% for c in better_deal %}
+        <li><a href="{{c.url}}">{{c.title}}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </main>
     <footer>
       <p>

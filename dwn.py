@@ -128,13 +128,13 @@ if ARG.preload_state:
 if ARG.all:
     logger.info("Obteniendo juegos extra de los bundle")
     ids = set()
-    for g in map(Game, IDS):
+    for g in map(Game.get, IDS):
         for b in g.get_bundle():
             if b not in IDS:
                 ids.add(b)
     ids = tuple(sorted(ids))
     dwn_game(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
-    ids = tuple(sorted(set((i.id for i in map(Game, ids) if i.isGame))))
+    ids = tuple(sorted(set((i.id for i in map(Game.get, ids) if i.hasProductInfo))))
     logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
     if len(ids):
         dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
