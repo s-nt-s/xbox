@@ -161,17 +161,25 @@ for pid, cids in gfilter.is_older_version_of(items, all_games=ALL_GAMES.values()
 
 for g in gfilter.is_bad_deal(items):
     if len(set(g.get_bundle()).difference(items.keys())) == 0:
-        logger.debug(cid+" descartado por ser mal negocio (1)")
+        logger.debug(g.id+" descartado por ser mal negocio (más barato por separado 1/1)")
         BADD.append(g)
         del items[g.id]
 
 for pid, cids in gfilter.is_in_better_deal(items):
     cids = tuple([c for c in cids if c in items])
     if len(cids) > 0:
-        logger.debug(cid+" descartado por ser mal negocio (2)")
+        logger.debug(pid+" descartado por ser mal negocio (más barato en un bundle)")
         BETD.append(Game.get(pid))
         del items[pid]
 
+for g in gfilter.is_bad_deal(items):
+    bdl = tuple(map(Game.get, g.get_bundle()))
+    bdlGame = set((i.id for i in bdl if i.isGame))
+    bdlntSl = tuple((i.id for i in bdl if not isinstance(i.productActions, dict) or i.notSoldSeparately or i.notAvailable))
+    if len(bdlntSl) == 0 and len(bdlGame.difference(items.keys())) == 0:
+        logger.debug(g.id+" descartado por ser mal negocio (más barato por separado 2/2)")
+        BADD.append(g)
+        del items[g.id]
 
 items = sorted(items.values(), key=lambda x: x.releaseDate, reverse=True)
 print("Resultado final:", len(items))
