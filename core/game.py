@@ -159,10 +159,8 @@ class Game:
     @cached_property
     def title(self) -> str:
         title: str = self.i["LocalizedProperties"][0]["ProductTitle"]
-        title = title.replace("—", "-")
-        title = title.replace("–", "-")
-        title = title.replace(" ®", "®")
-        title = title.replace("™", "")
+        title = re.sub(r"—|–™", "-", title)
+        title = re.sub(r"®|™", "", title)
         title = re_sp.sub(" ", title).strip()
         return title
 
