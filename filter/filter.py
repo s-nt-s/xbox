@@ -166,6 +166,8 @@ def is_in_better_deal(items: Dict[str, Game]):
     in_better = dict()
     for g in list(items.values()):
         for b in map(Game.get, g.get_partent_bundle()):
-            if b.id != g.id and g.price > b.price:
+            if b.id == g.id:
+                continue
+            if g.price > b.price or (g.price == b.price and len(b.get_bundle())>1):
                 dict_add(in_better, g.id, b.id)
     return dict_tuple(in_better).items()
