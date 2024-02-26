@@ -104,6 +104,10 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
     dict_add(older_ver, "9P4D0K92BM7V", "BZ6W9LRPC26W")
     # Cities: Skylines
     dict_add(older_ver, "9MZ4GBWX9GND", "C4GH8N6ZXG5L")
+    # MLB® The Show™ 21
+    dict_add(older_ver, "9NC8F83CQB76", "9PNF5J31C36N")
+    # Music Racer
+    dict_add(older_ver, "9MT9CDBGNJXP", "9N713D9S9VMG")
     # GTAV
     new_gtav = "9NXMBTB02ZSF"
     old_gtav = "BPJ686W6S0NH"
