@@ -123,7 +123,10 @@ if ARG.review:
     dwn_review(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
 
 if ARG.preload_state:
-    dwn_preload_state(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance)
+    ids = IDS
+    if ARG.all:
+        ids = tuple(sorted(set((i.id for i in map(Game.get, ids) if i.hasProductInfo and i.productActions is not None))))
+    dwn_preload_state(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance, ids=ids)
 
 if ARG.all:
     logger.info("Obteniendo juegos extra de los bundle")

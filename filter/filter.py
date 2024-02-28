@@ -18,7 +18,7 @@ def is_chunk_of(items: Dict[str, Game]):
     for gid in obj.keys():
         if gid in items:
             for bid in items[gid].get_bundle():
-                if gid != bid and bid in items:
+                if bid in items:
                     dict_add(game_dem, gid, bid)
     return dict_tuple(game_dem).items()
 

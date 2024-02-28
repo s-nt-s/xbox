@@ -107,12 +107,14 @@ class Game:
     @cached_property
     def reviewsInfo(self):
         js = EndPointReviews(self.id).json()
-        if js is None:
+        if not isinstance(js, dict):
+            logger.critical(self.id+" reviews empty")
             return None
         if 'ratingsSummary' in js:
             return js['ratingsSummary']
         if js.get('totalReviews') == 0:
             return {
+                'averageRating': 0,
                 "totalRatingsCount": 0
             }
         logger.critical(self.id+" reviews bad format "+str(js))
@@ -148,16 +150,23 @@ class Game:
         d = obj[0].get('discountPercentage') or 0
         return d
 
+    def __rate__review(self):
+        averageRating = (self.reviewsInfo or {}).get('averageRating')
+        if averageRating is not None:
+            return dict(rate=averageRating, reviews=self.reviewsInfo['totalRatingsCount'])
+        usage = self.i["MarketProperties"][0]["UsageData"][-1]
+        return dict(
+            rate=usage["AverageRating"],
+            reviews=usage["RatingCount"]
+        )
+
     @property
     def rate(self) -> float:
-        averageRating = (self.reviewsInfo or {}).get('averageRating')
-        if averageRating is None:
-            averageRating = self.i["MarketProperties"][0]["UsageData"][-1]["AverageRating"]
-        return averageRating
+        return self.__rate__review()['rate']
 
     @property
     def reviews(self) -> int:
-        return self.reviewsInfo.get('totalRatingsCount')
+        return self.__rate__review()['reviews']
 
     @cached_property
     def title(self) -> str:
@@ -337,8 +346,7 @@ class Game:
                 interface=True
             )
         alt = {}
-        for b in self.get_bundle():
-            g = Game.get(b)
+        for g in map(Game.get, self.get_bundle()):
             if g.id != self.id and len(g.get_bundle()) == 0 and g.isGame and g.spanish is not None:
                 k = tuple(g.spanish.items())
                 alt[k] = alt.get(k, 0) + 1
@@ -479,7 +487,10 @@ class Game:
             self.preload_state, f'channels/channelsData/INTHISBUNDLE_{self.id}/data/products')
         if obj is None:
             return tuple()
-        return tuple(sorted(set([i['productId'] for i in obj])))
+        ids = set([i['productId'] for i in obj])
+        if self.id in ids:
+            ids.remove(self.id)
+        return tuple(sorted(ids))
 
     @cache
     def get_partent_bundle(self) -> Tuple[str]:
@@ -492,6 +503,8 @@ class Game:
             aux.add(o['productId'])
         for o in _find(f'products/productSummaries/{self.id}/bundlesBySeed'):
             aux.add(o)
+        if self.id in aux:
+            aux.remove(self.id)
         ids = set()
         for i in map(Game.get, aux):
             if self.id in i.get_bundle():
