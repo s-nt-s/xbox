@@ -73,8 +73,8 @@ class EndPoint(ABC):
     def parse(self, obj: Union[str, Dict, None]) -> Union[str, Dict, None]:
         return obj
 
-    @cached_property
-    def cache(self) -> EndPointCache:
+    @cache
+    def get_cache(self) -> EndPointCache:
         cch = getattr(self.json, "__cache_obj__", None)
         if not isinstance(cch, EndPointCache):
             raise NotImplementedError("needed EndPointCache in json method")
@@ -82,10 +82,10 @@ class EndPoint(ABC):
 
     @cached_property
     def file(self) -> str:
-        return self.cache.parse_file_name(slf=self)
+        return self.get_cache().parse_file_name(slf=self)
 
     def save_in_cache(self, obj):
-        self.cache.save(self.file, self.parse(obj))
+        self.get_cache().save(self.file, self.parse(obj))
 
 
 class EndPointCollection(EndPoint):
