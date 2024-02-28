@@ -138,6 +138,8 @@ if ARG.all:
     logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
     if len(ids):
         dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
-        dwn_review(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
-        dwn_preload_state(tcp_limit=ARG.tcp_limit,
-                          ids=ids, tolerance=ARG.tolerance)
+        ids = tuple(sorted(set((i.id for i in map(Game.get, ids) if i.productActions is not None))))
+        logger.info(f"Obtenido {len(ids)} juegos extra de los bundle con actions")
+        if len(ids):
+            dwn_review(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
+            dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)

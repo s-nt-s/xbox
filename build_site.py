@@ -175,7 +175,7 @@ for pid, cids in gfilter.is_in_better_deal(items):
 for g in gfilter.is_bad_deal(items):
     bdl = tuple(map(Game.get, g.get_bundle()))
     bdlGame = set((i.id for i in bdl if i.isGame))
-    bdlntSl = tuple((i.id for i in bdl if not isinstance(i.productActions, dict) or i.notSoldSeparately or i.notAvailable))
+    bdlntSl = tuple((i.id for i in bdl if i.productActions is None or i.notSoldSeparately or i.notAvailable))
     if len(bdlntSl) == 0 and len(bdlGame.difference(items.keys())) == 0:
         logger.debug(g.id+" descartado por ser mal negocio (más barato por separado 2/2)")
         BADD.append(g)

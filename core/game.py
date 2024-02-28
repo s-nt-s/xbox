@@ -95,7 +95,10 @@ class Game:
 
     @cached_property
     def productActions(self):
-        return EndPointActions(self.id).json() or {"productActions": []}
+        act = EndPointActions(self.id).json()
+        if not isinstance(act, dict):
+            return None
+        return act
 
     @cached_property
     def preload_state(self):
