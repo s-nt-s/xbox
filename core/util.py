@@ -1,23 +1,38 @@
 from typing import Union, Dict, List, Set, Tuple
 
 
-def dict_walk(d: Union[Dict, List, None], path: str):
+def dict_walk(d: Union[Dict, List, None], path: str, raise_if_not_found=False):
     if d is None:
+        if raise_if_not_found:
+            raise ValueError(f"{d} must be a list or dict")
         return None
     args = tuple(map(lambda x: int(x) if x.isdigit() else x, path.split("/")))
+    not_found = False
+    walk = []
     for k in args:
+        if d is None or not_found:
+            break
+        walk.append(str(k))
         if isinstance(k, int):
             if not isinstance(d, list):
-                raise ValueError(f"{k}: {d} must be a list")
-            d = d[k]
+                raise ValueError(f"{'/'.join(walk)}: {d} must be a list")
+            if k < len(d):
+                d = d[k]
+            else:
+                not_found = True
         elif isinstance(k, str):
             if not isinstance(d, dict):
-                raise ValueError(f"{k}: {d} must be a dict")
-            d = d.get(k)
+                raise ValueError(f"{'/'.join(walk)}: {d} must be a dict")
+            if k in d:
+                d = d[k]
+            else:
+                not_found = True
         else:
-            raise ValueError(f"{k}: {d} must be a dict or list")
-        if d is None:
-            return None
+            raise ValueError(f"{'/'.join(walk)}: {d} must be a dict or list")
+    if not_found:
+        if raise_if_not_found:
+            raise ValueError(f"{'/'.join(walk)} NOT FOUND")
+        return None
     return d
 
 

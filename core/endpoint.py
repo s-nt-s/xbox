@@ -6,7 +6,7 @@ import requests
 import json
 from json.decoder import JSONDecodeError
 import logging
-from .findwireresponse import FindWireResponse
+from .findwireresponse import FindWireResponse, WireResponse
 import re
 from .util import dict_del
 
@@ -227,19 +227,19 @@ class EndPointProductPreloadState(EndPoint):
             return None
 
         def rm_other_games(obj: Union[Dict, List]):
+            if not isinstance(obj, (dict, list)):
+                return False
+            if isinstance(obj, dict) and self.id not in obj:
+                obj = list(obj.values())
             if isinstance(obj, list):
+                rt_arr = []
                 for i in obj:
-                    rm_other_games(i)
-                return
-            if not isinstance(obj, dict):
-                return
-            if self.id not in obj:
-                for i in obj.values():
-                    rm_other_games(i)
-                return
+                    rt_arr.append(rm_other_games(i))
+                return any(rt_arr)
             for k in list(obj.keys()):
                 if k != self.id and len(k) == 12 and k.upper() == k:
                     del obj[k]
+            return True
 
         data = data['core2']
         for k in (
@@ -256,7 +256,8 @@ class EndPointProductPreloadState(EndPoint):
             'products/layouts'
         ):
             dict_del(data, k)
-        rm_other_games(data)
+        if rm_other_games(data) is False:
+            return 404
         return data
 
     @EndPointCache("rec/preload/{id}.json")
@@ -284,8 +285,8 @@ class EndPointWire(EndPoint):
 
     def _json(self):
         r = self.find_response()
-        if r is None:
-            return self.parse(None)
+        if not isinstance(r, WireResponse):
+            return self.parse(r)
         return self.parse(r.json(self.id))
 
 

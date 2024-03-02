@@ -7,8 +7,11 @@ import logging
 from core.bulkrequests import BulkRequests
 from core.bulkapi import BulkRequestsGame, BulkRequestsPreloadState, BulkRequestsActions, BulkRequestsReviews
 from os.path import isfile
+from os import remove
 from core.endpoint import EndPointProduct, AccessDenied
 import time
+from typing import Tuple, Union, Set
+from core.findwireresponse import FindWireResponse
 
 parser = argparse.ArgumentParser(
     description='Descarga ficheros para la cache',
@@ -39,6 +42,10 @@ parser.add_argument(
 config_log("log/dwn.log")
 
 
+def get_games(ids: Union[Set[str], Tuple[str]]):
+    return map(Game.get, list(ids))
+
+
 def all_false_is_all_true(nm: argparse.Namespace):
     ks = []
     for k, v in vars(ARG).items():
@@ -61,53 +68,59 @@ API = Api()
 IDS = API.get_ids()
 
 
-def dwn_game(tcp_limit: int = 10, tolerance: int = 0, ids=None):
+def dwn_game(tcp_limit: int = 10, tolerance: int = 0, tries=10, ids=None, overwrite=False):
     if ids is None:
         ids = IDS
-    ids = [i for i in ids if not isfile(EndPointProduct(i).file)]
+    if overwrite:
+        for i in ids:
+            file = EndPointProduct(i).file
+            if isfile(file):
+                remove(file)
+    else:
+        ids = [i for i in ids if not isfile(EndPointProduct(i).file)]
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10,
+        tries=tries,
         tolerance=tolerance
     ).run(*(
         BulkRequestsGame(tuple(c)) for c in chunks(ids, 100)
     ), label="x100 game")
 
 
-def dwn_preload_state(tcp_limit: int = 10, tolerance: int = 0, ids=None):
+def dwn_preload_state(tcp_limit: int = 10, tolerance: int = 0, tries=100, ids=None, overwrite=False):
     if ids is None:
         ids = IDS
     try:
         BulkRequests(
             tcp_limit=tcp_limit,
-            tries=100,
+            tries=tries,
             tolerance=tolerance,
             sleep=100
-        ).run(*map(BulkRequestsPreloadState, ids), label="preload_state")
+        ).run(*map(BulkRequestsPreloadState, ids), label="preload_state", overwrite=overwrite)
     except AccessDenied:
         logger.critical("AccessDenied when dwn_preload_state")
         time.sleep(600)
         return dwn_preload_state(tcp_limit=tcp_limit, tolerance=tolerance, ids=ids)
 
 
-def dwn_action(tcp_limit: int = 10, tolerance: int = 0, ids=None):
+def dwn_action(tcp_limit: int = 10, tolerance: int = 0, tries=10, ids=None, overwrite=False):
     if ids is None:
         ids = IDS
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10,
+        tries=tries,
         tolerance=tolerance
-    ).run(*map(BulkRequestsActions, ids), label="action")
+    ).run(*map(BulkRequestsActions, ids), label="action", overwrite=overwrite)
 
 
-def dwn_review(tcp_limit: int = 10, tolerance: int = 0, ids=None):
+def dwn_review(tcp_limit: int = 10, tolerance: int = 0, tries=10, ids=None, overwrite=False):
     if ids is None:
         ids = IDS
     BulkRequests(
         tcp_limit=tcp_limit,
-        tries=10,
+        tries=tries,
         tolerance=tolerance
-    ).run(*map(BulkRequestsReviews, ids), label="review")
+    ).run(*map(BulkRequestsReviews, ids), label="review", overwrite=overwrite)
 
 
 if ARG.browse:
@@ -125,24 +138,54 @@ if ARG.review:
 if ARG.preload_state:
     ids = IDS
     if ARG.all:
-        ids = tuple(sorted(set((i.id for i in map(Game.get, ids) if i.hasProductInfo and i.productActions is not None))))
+        ids = tuple(sorted(set((i.id for i in map(Game.get, ids) if not i._isUseless))))
     dwn_preload_state(tcp_limit=ARG.tcp_limit, tolerance=ARG.tolerance, ids=ids)
 
-if ARG.all:
-    logger.info("Obteniendo juegos extra de los bundle")
-    ids = set()
-    for g in map(Game.get, IDS):
-        for b in g.get_bundle():
-            if b not in IDS:
-                ids.add(b)
+
+def is_missing_preload(g: Union[str, Game]):
+    if isinstance(g, Game):
+        if g._isUseless:
+            return False
+        if g.productActions is None:
+            return False
+        if g.summary is None:
+            return True
+        return False
+    if is_missing_preload(Game.get(g)) is False:
+        return False
+    return is_missing_preload(Game(g))
+
+
+def extra_dwn(ids: Tuple[str], tolerance, overwrite=False):
     ids = tuple(sorted(ids))
-    dwn_game(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
-    ids = tuple(sorted(set((i.id for i in map(Game.get, ids) if i.hasProductInfo))))
-    logger.info(f"Obtenido {len(ids)} juegos extra de los bundle")
+    dwn_game(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=tolerance, overwrite=overwrite)
+    ids = tuple(sorted(set((i.id for i in get_games(ids) if not i._isUseless))))
     if len(ids):
-        dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
-        ids = tuple(sorted(set((i.id for i in map(Game.get, ids) if i.productActions is not None))))
-        logger.info(f"Obtenido {len(ids)} juegos extra de los bundle con actions")
-        if len(ids):
-            dwn_review(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
-            dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=ARG.tolerance)
+        dwn_action(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=tolerance, overwrite=overwrite)
+        ids = tuple(sorted(set((i.id for i in get_games(ids) if i.productActions is not None))))
+        dwn_review(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=tolerance, overwrite=overwrite)
+        dwn_preload_state(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=tolerance, overwrite=overwrite)
+
+
+if ARG.all:
+    tries = set()
+    done = set(IDS)
+    logger.info("Obteniendo juegos extra de los bundle")
+    while True:
+        ids = set()
+        for g in get_games(done):
+            for b in g.bundle:
+                if b not in done:
+                    ids.add(b)
+                    done.add(b)
+        if len(ids) > 0:
+            extra_dwn(ids, ARG.tolerance, overwrite=False)
+            continue
+        ids = tuple(sorted((i for i in done if is_missing_preload(i))))
+        if len(ids) == 0 or ids in tries:
+            break
+        tries.add(ids)
+        logger.info("Revisando consistencia")
+        FindWireResponse.WR.clear()
+        Game.get.cache_clear()
+        extra_dwn(ids, len(ids), overwrite=True)

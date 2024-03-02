@@ -95,34 +95,39 @@ class Game:
 
     @cached_property
     def productActions(self):
-        act = EndPointActions(self.id).json()
-        if not isinstance(act, dict):
-            return None
-        return act
+        obj = EndPointActions(self.id).json()
+        if isinstance(obj, dict):
+            return obj
 
     @cached_property
     def preload_state(self):
-        return EndPointProductPreloadState(self.id).json()
+        obj = EndPointProductPreloadState(self.id).json()
+        if isinstance(obj, dict):
+            return obj
 
     @cached_property
     def reviewsInfo(self):
-        js = EndPointReviews(self.id).json()
-        if not isinstance(js, dict):
-            logger.critical(self.id+" reviews empty")
+        obj = EndPointReviews(self.id).json()
+        if not isinstance(obj, dict):
+            logger.critical(self.id+" reviews empty "+str(obj))
             return None
-        if 'ratingsSummary' in js:
-            return js['ratingsSummary']
-        if js.get('totalReviews') == 0:
+        if 'ratingsSummary' in obj:
+            return obj['ratingsSummary']
+        if obj.get('totalReviews') == 0:
             return {
                 'averageRating': 0,
                 "totalRatingsCount": 0
             }
-        logger.critical(self.id+" reviews bad format "+str(js))
+        logger.critical(self.id+" reviews bad format "+str(obj))
         return None
 
     @cached_property
     def price(self) -> float:
-        return self.i["DisplaySkuAvailabilities"][0]["Availabilities"][0]["OrderManagementData"]["Price"]["ListPrice"]
+        return dict_walk(
+            self.i,
+            'DisplaySkuAvailabilities/0/Availabilities/0/OrderManagementData/Price/ListPrice',
+            raise_if_not_found=True
+        )
 
     @cached_property
     def int_price(self) -> int:
@@ -134,11 +139,10 @@ class Game:
 
     @cached_property
     def summary(self) -> dict:
-        obj = dict_walk(self.preload_state,
-                        'products/productSummaries/' + self.id)
-        if not isinstance(obj, dict):
-            return None
-        return obj
+        return dict_walk(
+            self.preload_state,
+            'products/productSummaries/' + self.id
+        )
 
     @cached_property
     def discount(self) -> float:
@@ -160,26 +164,25 @@ class Game:
             reviews=usage["RatingCount"]
         )
 
-    @property
+    @cached_property
     def rate(self) -> float:
         return self.__rate__review()['rate']
 
-    @property
+    @cached_property
     def reviews(self) -> int:
         return self.__rate__review()['reviews']
 
     @cached_property
     def title(self) -> str:
-        title: str = self.i["LocalizedProperties"][0]["ProductTitle"]
+        title: str = dict_walk(
+            self.i,
+            'LocalizedProperties/0/ProductTitle',
+            raise_if_not_found=True
+        )
         title = re.sub(r"—|–™", "-", title)
         title = re.sub(r"®|™", "", title)
         title = re_sp.sub(" ", title).strip()
         return title
-
-    @cached_property
-    def relatedProducts(self):
-        relatedProducts = self.i["LocalizedProperties"][0]["RelatedProducts"]
-        return relatedProducts
 
     @cached_property
     def productGroup(self) -> str:
@@ -195,11 +198,11 @@ class Game:
 
     @cached_property
     def shortTitle(self) -> str:
-        return _trim(self.i["LocalizedProperties"][0]["ShortTitle"])
+        return _trim(dict_walk(self.i, 'LocalizedProperties/0/ShortTitle'))
 
     @cached_property
     def productDescription(self) -> str:
-        return _trim(self.i["LocalizedProperties"][0]["ProductDescription"])
+        return _trim(dict_walk(self.i, 'LocalizedProperties/0/ProductDescription'))
 
     @cached_property
     def url(self) -> str:
@@ -210,10 +213,6 @@ class Game:
         return self.i["ProductType"]
 
     @cached_property
-    def hasProductInfo(self) -> bool:
-        return self.i is not None
-
-    @cached_property
     def isGame(self) -> bool:
         if self.i is None:
             return False
@@ -222,23 +221,55 @@ class Game:
         return True
 
     @cached_property
+    def _isUseless(self) -> bool:
+        if self.i is None:
+            return True
+        if self.productType in ("AvatarItem", "Application"):
+            return True
+        return False
+
+    @cached_property
+    def isUseless(self) -> bool:
+        if self._isUseless:
+            return True
+        if self.summary is None:
+            return True
+        if self.productActions is None:
+            return True
+        if not self.isXboxSeries:
+            return True
+        return False
+
+    @cached_property
     def isXboxSeries(self) -> bool:
         return 'XboxSeriesX' in self.availableOn
 
     @cached_property
     def isXboxGame(self) -> bool:
-        return self.isGame and self.isXboxSeries and self.summary is not None
+        return self.isGame and self.isXboxSeries
+
+    @cached_property
+    def media(self) -> tuple[Dict]:
+        def _uri(i: Dict):
+            i['Uri'] = "https:"+i['Uri']
+            return i
+        imgs = dict_walk(self.i, 'LocalizedProperties/0/Images')
+        if not imgs:
+            return tuple()
+        return tuple(map(_uri, imgs))
 
     @cached_property
     def imgs(self) -> tuple[str]:
-        return tuple(["https:"+x["Uri"] for x in self.i["LocalizedProperties"][0]["Images"]])
+        return tuple([x["Uri"] for x in self.media])
 
     @cached_property
     def poster(self) -> str:
-        for i in self.i["LocalizedProperties"][0]["Images"]:
+        if len(self.media) == 0:
+            return None
+        for i in self.media:
             if i['ImagePurpose'] == 'Poster':
-                return "https:"+i["Uri"]
-        return self.imgs[0]
+                return i["Uri"]
+        return self.media[0]["Uri"]
 
     @cached_property
     def thumbnail(self) -> str:
@@ -292,25 +323,25 @@ class Game:
                 cmp.add(x)
         return tuple(sorted(cmp))
 
-    @property
-    def tragaperras(self) -> bool:
+    @cached_property
+    def isSlotMachine(self) -> bool:
         return len(self.compras) > 0 and self.price == 0
 
-    @property
+    @cached_property
     def requiresGame(self) -> bool:
         return 'DlcRequiresGame' in self.legalNotices
 
-    @property
+    @cached_property
     def notSoldSeparately(self) -> bool:
         return 'NotSoldSeparately' in self.actions
 
-    @property
+    @cached_property
     def notAvailable(self) -> bool:
         return 'Acquisition' not in self.actions
 
-    @property
+    @cached_property
     def onlyGamepass(self) -> bool:
-        return self.gamepass and self.notSoldSeparately
+        return self.isInGamepass and self.notSoldSeparately
 
     @cached_property
     @OverwriteWith("fix/spanish/{id}.json")
@@ -346,8 +377,8 @@ class Game:
                 interface=True
             )
         alt = {}
-        for g in map(Game.get, self.get_bundle()):
-            if g.id != self.id and len(g.get_bundle()) == 0 and g.isGame and g.spanish is not None:
+        for g in map(Game.get, self.bundle):
+            if g.id != self.id and len(g.bundle) == 0 and g.isGame and g.spanish is not None:
                 k = tuple(g.spanish.items())
                 alt[k] = alt.get(k, 0) + 1
         if len(alt) == 0:
@@ -370,13 +401,12 @@ class Game:
         spa = dict(alt[0][0])
         return spa
 
-
     @cached_property
     def categories(self) -> tuple[str]:
         return tuple(self.i['Properties']['Categories'] or [])
 
-    @property
-    def gamepass(self) -> bool:
+    @cached_property
+    def isInGamepass(self) -> bool:
         for c in self.collections:
             if c in ('GamePass', 'EAPlay', 'Ubisoft', 'Bethesda'):
                 return True
@@ -384,31 +414,58 @@ class Game:
                 return True
         return False
 
-    @property
-    def bundle(self) -> bool:
-        return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsBundle']
+    @cached_property
+    def isBundle(self) -> bool:
+        return dict_walk(
+            self.i,
+            'DisplaySkuAvailabilities/0/Sku/Properties/IsBundle',
+            raise_if_not_found=True
+        )
 
-    @property
-    def preorder(self) -> bool:
+    @cached_property
+    def isPreorder(self) -> bool:
         if self.onlyGamepass:
             return False
         if self.notSoldSeparately:
             return False
-        return self.i["DisplaySkuAvailabilities"][0]["Sku"]['Properties']['IsPreOrder']
+        return dict_walk(
+            self.i,
+            'DisplaySkuAvailabilities/0/Sku/Properties/IsPreOrder',
+            raise_if_not_found=True
+        )
 
-    @property
-    def demo(self) -> bool:
+    @cached_property
+    def isDemo(self) -> bool:
         if self.price == 0:
             if "Demo Version" in self.title:
                 return True
             if "Free Trial" in self.title:
                 return True
+            if self.isPreview:
+                return True
+        if self.isPreview and self.isTrial:
+            return True
         if self.demo_of is not None:
             return True
         return self.i['Properties'].get('IsDemo') is True
 
-    @property
-    def trial(self) -> bool:
+    @cached_property
+    def isPreview(self) -> bool:
+        for w in (
+            "Este juego está en construcción",
+            "Este juego es un trabajo en curso",
+            "Puede o no, cambiar con el tiempo o lanzarse como producto final"
+        ):
+            if w in self.productDescription:
+                return True
+
+        for w in ("(Versión preliminar del juego)", "(Game Preview)"):
+            if w in self.title:
+                return True
+        return False
+
+    @cached_property
+    def isTrial(self) -> bool:
         return 'Trial' in self.actions
 
     @cached_property
@@ -430,25 +487,18 @@ class Game:
         return tuple(obj)
 
     @cached_property
-    def primary(self):
-        obj = dict_walk(
-            self.i, 'DisplaySkuAvailabilities/0/Sku/Properties/BundledSkus')
-        if not isinstance(obj, list):
-            return None
-        for i in obj:
-            if i.get('IsPrimary') is True:
-                return i['BigId']
-
-    @property
     def tags(self) -> tuple[str]:
         tags = set(self.extra_tags)
-        if self.tragaperras:
+        for g in map(Game.get, self.content_id):
+            if g.id != self.id:
+                tags = tags.union(g.tags)
+        if self.isSlotMachine:
             tags.add("Tragaperras")
         if self.compras:
             tags.add("Compras")
-        if self.bundle:
+        if self.isBundle:
             tags.add("Bundle")
-        if self.preorder:
+        if self.isPreorder:
             tags.add("PreOrder")
         for x in self.categories:
             if x in ('Other', 'Word', 'Tools'):
@@ -481,10 +531,25 @@ class Game:
         tags = sorted(tags)
         return tuple(tags)
 
-    @cache
-    def get_bundle(self) -> Tuple[str]:
+    @cached_property
+    def content_id(self):
+        if self.isUseless:
+            return tuple()
+        if len(self.bundle) == 0:
+            return (self.id, )
+        ids = set()
+        for i in map(Game.get, self.bundle):
+            ids = ids.union(i.content_id)
+        if self.id in ids:
+            ids.remove(self.id)
+        return tuple(sorted(ids))
+
+    @cached_property
+    def bundle(self) -> Tuple[str]:
         obj = dict_walk(
-            self.preload_state, f'channels/channelsData/INTHISBUNDLE_{self.id}/data/products')
+            self.preload_state,
+            f'channels/channelsData/INTHISBUNDLE_{self.id}/data/products'
+        )
         if obj is None:
             return tuple()
         ids = set([i['productId'] for i in obj])
@@ -492,8 +557,8 @@ class Game:
             ids.remove(self.id)
         return tuple(sorted(ids))
 
-    @cache
-    def get_partent_bundle(self) -> Tuple[str]:
+    @cached_property
+    def bundled_in(self) -> Tuple[str]:
         def _find(path: str):
             return dict_walk(self.preload_state, path) or []
         aux = set()
@@ -507,9 +572,10 @@ class Game:
             aux.remove(self.id)
         ids = set()
         for i in map(Game.get, aux):
-            if self.id in i.get_bundle():
+            if self.id in i.bundle:
                 ids.add(i.id)
         return tuple(sorted(ids))
+
 
 @dataclass(frozen=True)
 class GameList:

@@ -3,6 +3,7 @@ from aiohttp import ClientSession
 from typing import Tuple
 from os.path import isfile
 from .endpoint import EndPointProduct, EndPointProductPreloadState, EndPointActions, EndPointReviews
+from .findwireresponse import WireResponse
 import time
 
 
@@ -70,6 +71,9 @@ class BulkRequestsActions(BulkRequestsFileJob):
         wr = self.endpoint.find_response()
         if wr is None:
             return False
+        if not isinstance(wr, WireResponse):
+            self.endpoint.save_in_cache(wr)
+            return True
         async with session.request(
             wr.requests.method,
             wr.requests.path.replace(wr.key, self.endpoint.id),
@@ -96,6 +100,9 @@ class BulkRequestsReviews(BulkRequestsFileJob):
         wr = self.endpoint.find_response()
         if wr is None:
             return False
+        if not isinstance(wr, WireResponse):
+            self.endpoint.save_in_cache(wr)
+            return True
         async with session.request(
             wr.requests.method,
             wr.requests.path.replace(wr.key, self.endpoint.id),

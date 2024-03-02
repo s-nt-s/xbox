@@ -122,11 +122,20 @@
 
       <h1>¿Qué juegos se han descartado?</h1>
       <p>
-        Algunos juegos en realidad son paquetes que incluyen el juego verdadero
-        (normalmente un juego gratuito) y complementos (normalmente monedas,
-        pases de batalla, skins). En esos casos se ha optado por incluir solo al
-        juego verdadero y descartar los otros juegos que realmente son
-        complementos.
+        Se han descartado:
+      </p>
+      <ul>
+        <li>Paquetes que solo aportan paja (monedas, pases de batalla, skins...) respecto al juego base</li>
+        <li>Paquetes que solo aportan paja (monedas, pases de batalla, skins...) respecto al otro paquete más barato</li>
+        <li>Paquetes que no suponen una mejora de precio sobre comprar su contenido por separado</li>
+        <li>Juegos que están incluidos en paquetes que tienen menor precio que el propio juego</li>
+      </ul>
+      <h2>Paquetes que solo aportan paja respecto al juego base</h2>
+      <p>
+        Algunos paquetes solo incluyen el juego base (normalmente un juego gratuito)
+        y complementos (normalmente monedas, pases de batalla, skins).
+        En esos casos se ha optado por incluir solo al
+        juego base y descartar los paquetes.
       </p>
       <p>
         A continuación se listan los descartes en forma de árbol, siendo el
@@ -146,10 +155,9 @@
         {% endfor %}
       </ul>
       {% if bad_deal %}
-      <p>
-        También se han descartado los siguientes paquetes de juegos porque no
-        representaba ninguna mejora de precio con respecto a comprar su
-        contenido por separado:
+      <h2>Paquetes que no suponen una mejora de precio</h2>
+      <p>Los siguientes paquetes cuestan más que comprar su contenido por separado,
+        o comprar otro paquete con menos paja.
       </p>
       <ul>
         {% for c in bad_deal %}
@@ -158,10 +166,7 @@
       </ul>
       {% endif %}
       {% if better_deal %}
-      <p>
-        También se han descartado los siguientes juegos porque estan
-        incluidos en paquetes con mejor precio:
-      </p>
+      <h2>Juegos que están a mejor paquetes en otro paquete</h2>
       <ul>
         {% for c in better_deal %}
         <li><a href="{{c.url}}">{{c.title}}</a></li>

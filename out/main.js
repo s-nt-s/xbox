@@ -1,7 +1,8 @@
 const isLocal = ["", "localhost"].includes(document.location.hostname);
 const $$ = (slc) => Array.from(document.querySelectorAll(slc));
-const TRIAL_AND_DEMO = Array.from((new Set(TRIAL.concat(DEMO))));
-const REAL_GAMES = Array.from(Object.keys(GAME).filter(g => !DEMO.includes(g)));
+const DEMO_AND_TRIAL = Array.from((new Set(DEMO.concat(TRIAL))));
+const DEMO_AND_PREVIEW = Array.from((new Set(DEMO.concat(PREVIEW))));
+const REAL_GAMES = Array.from(Object.keys(GAME).filter(g => !DEMO_AND_PREVIEW.includes(g)));
 
 function firsOptionValue(id) {
   const elm = document.getElementById(id);
@@ -69,7 +70,7 @@ class FormQuery {
     );
     d.gamelist = (() => {
       if (d.gamepass) return GAMEPASS;
-      if (d.demos) return TRIAL_AND_DEMO;
+      if (d.demos) return DEMO_AND_TRIAL;
       return REAL_GAMES;
     })();
     return d;

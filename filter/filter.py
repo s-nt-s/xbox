@@ -1,5 +1,5 @@
 from core.game import Game
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from core.util import dict_add, dict_tuple
 import re
 from functools import cache
@@ -17,7 +17,7 @@ def is_chunk_of(items: Dict[str, Game]):
     }, **{i.id: i.title for i in items.values() if re_title.search(i.title)}}
     for gid in obj.keys():
         if gid in items:
-            for bid in items[gid].get_bundle():
+            for bid in items[gid].bundle:
                 if bid in items:
                     dict_add(game_dem, gid, bid)
     return dict_tuple(game_dem).items()
@@ -53,7 +53,7 @@ def is_comp_of(items: Dict[str, Game]):
     }.keys()):
         if gid in items:
             for g in list(items.values()):
-                if g.id != gid and gid in g.get_bundle():
+                if g.id != gid and gid in g.bundle:
                     dict_add(game_comp, gid, g.id)
     return dict_tuple(game_comp).items()
 
@@ -113,7 +113,7 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
     old_gtav = "BPJ686W6S0NH"
     dict_add(older_ver, new_gtav, old_gtav)
     for g in items.values():
-        gms = [i for i in map(Game.get, g.get_bundle()) if i.isXboxGame]
+        gms = [i for i in map(Game.get, g.bundle) if i.isXboxGame]
         if len(gms) == 1 and gms[0].id == old_gtav:
             dict_add(older_ver, new_gtav, g.id)
 
@@ -123,13 +123,13 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
     ids_xbox_series = set(
         (i.id for i in all_games if i.availableOn and "XboxOne" not in i.availableOn and i.isXboxSeries))
     for i in list(items.values()):
-        if i.id in ids_xbox_series or ids_xbox_series.intersection(i.get_bundle()):
+        if i.id in ids_xbox_series or ids_xbox_series.intersection(i.bundle):
             xbox_series.append(i)
         else:
             xbox_one.append(i)
     ids_xbox_series = set((i.id for i in xbox_series))
     xbox_one = [
-        o for o in xbox_one if not ids_xbox_series.intersection(o.get_bundle())]
+        o for o in xbox_one if not ids_xbox_series.intersection(o.bundle)]
 
     for x in xbox_series:
         for o in xbox_one:
@@ -141,7 +141,7 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
             if trim_eq(x.productDescription, o.productDescription):
                 dict_add(older_ver, x.id, o.id)
                 continue
-            if o.id in x.get_bundle() and trim_eq(x.shortTitle, o.shortTitle):
+            if o.id in x.bundle and trim_eq(x.shortTitle, o.shortTitle):
                 dict_add(older_ver, x.id, o.id)
                 continue
             if trim_eq(x.title, o.title):
@@ -157,21 +157,41 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
 
 def is_bad_deal(items: Dict[str, Game]):
     for g in list(items.values()):
-        if not g.get_bundle():
+        if not g.bundle:
             continue
         price = 0
-        for b in map(Game.get, g.get_bundle()):
-            price = price + b.price
+        for b in map(Game.get, g.bundle):
+            if not b.isUseless:
+                price = price + b.price
         if price <= g.price:
             yield g
+
+
+def is_useless_bundle(items: Dict[str, Game]):
+    data: Dict[Tuple[str], List[Game]] = {}
+    itms = [g for g in items.values() if g.isBundle and g.bundle and len(g.content_id)>0]
+    for g in itms:
+        if g.content_id not in data:
+            data[g.content_id] = []
+        data[g.content_id].append(g)
+
+    for cid, gms in data.items():
+        price = min(map(lambda g: g.price, gms))
+        for g in itms:
+            if g.price <= price and g.content_id != cid and len(set(cid).difference(g.content_id)) == 0:
+                gms.append(g)
+
+    for gms in data.values():
+        if len(gms) < 2:
+            continue
+        gms = sorted(gms, key=lambda g: (g.price, -len(g.bundle)))
+        yield gms[0], gms[1:]
 
 
 def is_in_better_deal(items: Dict[str, Game]):
     in_better = dict()
     for g in list(items.values()):
-        for b in map(Game.get, g.get_partent_bundle()):
-            if b.id == g.id:
-                continue
-            if (g.price > b.price) or (g.price == b.price and len(set(b.get_bundle()).difference((g.id,)))>0):
+        for b in map(Game.get, g.bundled_in):
+            if (g.price > b.price) or (g.price == b.price and len(set(b.bundle).difference((g.id,)))>0):
                 dict_add(in_better, g.id, b.id)
     return dict_tuple(in_better).items()

@@ -37,6 +37,8 @@ class FindWireResponse:
         with Driver(browser="wirefirefox") as web:
             web.get(url)
             while True:
+                if "No se encuentra la página solicitada" in str(web.get_soup()):
+                    return 404
                 if "Access Denied" in str(web.get_soup()):
                     web.close()
                     logger.critical("AccessDenied when find_response")
@@ -65,5 +67,8 @@ class FindWireResponse:
         if keypath is None:
             keypath = path
         if FindWireResponse.WR.get(keypath) is None:
-            FindWireResponse.WR[keypath] = FindWireResponse.__find_response(url, path, keyarg)
+            r = FindWireResponse.__find_response(url, path, keyarg)
+            if isinstance(r, int):
+                return r
+            FindWireResponse.WR[keypath] = r
         return FindWireResponse.WR[keypath]
