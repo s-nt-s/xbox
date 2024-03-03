@@ -108,6 +108,8 @@ def is_older_version_of(items: Dict[str, Game], all_games: List[Game]):
     dict_add(older_ver, "9NC8F83CQB76", "9PNF5J31C36N")
     # Music Racer
     dict_add(older_ver, "9MT9CDBGNJXP", "9N713D9S9VMG")
+    # The Walking Dead: Michonne - Ep. 1, In Too Deep
+    dict_add(older_ver, "BXGSG9J32FLJ", "BQ2P6VJLR16D")
     # GTAV
     new_gtav = "9NXMBTB02ZSF"
     old_gtav = "BPJ686W6S0NH"
