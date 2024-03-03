@@ -90,26 +90,20 @@ def do_filter3(i: Game):
     return True
 
 
-def get_games():
+def get_games() -> Tuple[Game]:
     ids = list(api.get_ids())
-    count = -1
     done = set()
-    games = []
-    while len(done) != count:
-        for i in list(map(Game.get, ids)):
-            done.add(i.id)
-            if i.isUseless:
-                logger.debug(i.id+" descartado por isUseless")
-                continue
-            games.append(i)
-            for b in map(Game.get, i.bundle):
-                if b.id not in done:
-                    done.add(b.id)
-                    if b.isUseless:
-                        logger.debug(b.id+" descartado por isUseless")
-                        continue
-                    games.append(b)
-        count = len(done)
+    games: List[Game] = []
+    for i in list(map(Game.get, ids)):
+        done.add(i.id)
+        if i.isUseless:
+            logger.debug(i.id+" descartado por isUseless")
+            continue
+        games.append(i)
+        for b in map(Game.get, i.content_id):
+            if b.id not in done:
+                done.add(b.id)
+                games.append(b)
     games = tuple(sorted(games, key=lambda g: g.id))
     logger.debug(f"GAMES ({len(games)}) = " + " ".join(map(lambda g: g.id, games)))
     return games
