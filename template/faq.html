@@ -174,15 +174,8 @@
       </ul>
       {% endif %}
     </main>
-    <footer>
-      <p>
-        Código fuente en
-        <a href="https://github.com/s-nt-s/xbox" target="_blank">GitHub</a>. Si
-        falla o tienes alguna sugerencia pon un
-        <a href="https://github.com/s-nt-s/xbox/issues" target="_blank">issue</a
-        >.
-      </p>
-      <p>Última actualización: {{now.strftime('%Y-%m-%d')}}</p>
-    </footer>
+    {% with root="." %}
+    {% include "footer.html" %}
+    {% endwith %}
   </body>
 </html>

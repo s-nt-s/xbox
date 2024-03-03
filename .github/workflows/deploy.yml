@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: true
 env:
   LOG_FORMAT: '%(name)s - %(levelname)s - %(message)s'
+  LOG_MODE: 'a'
 jobs:
   scrape_and_deploy:
     runs-on: ubuntu-latest
@@ -57,9 +58,13 @@ jobs:
           retry_on: any
           command: python dwn.py
       - name: Build site
-        run: python build_site.py
+        run: |
+          python build_site.py
+          echo "$(date +'%Y-%m-%d')" > ./out/execution.log
+          cat ./log/dwn.log ./log/build_site.log >> ./out/execution.log
       - name: ZIP
         run: |
+          cp ./out/execution.log "./rec/$(date +'%Y-%m-%d').log"
           cd ./rec/
           rm -rf search/*/
           rm -rf collection/*.json

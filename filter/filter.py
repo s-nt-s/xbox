@@ -9,6 +9,8 @@ re_sp = re.compile(r"\s+")
 
 def is_chunk_of(items: Dict[str, Game]):
     game_dem = dict()
+    # The Walking Dead: Michonne - Ep. 1, In Too Deep
+    dict_add(game_dem, "C2XNJC9WK15X", "BQ2P6VJLR16D")
     re_title = re.compile(
         r"Complete Season|Juego completo|Temporada completa|Complete Season")
     obj = {**{

@@ -194,7 +194,7 @@ class SearchWire(Driver):
                     with SearchWire() as web:
                         url = web.query_to_url(query)
                         return web.query(query)
-            except (ProxyException, JSONDecodeError, KeyNotFound, TimeoutError) as e:
+            except (ProxyException, JSONDecodeError, KeyNotFound, TimeoutError, EOFError) as e:
                 logger.critical(f"do_games_browse_search({url}) " + str(e))
                 time.sleep(60)
 
