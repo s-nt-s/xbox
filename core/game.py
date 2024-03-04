@@ -80,6 +80,12 @@ class Game:
         self.extra_tags: Set[str] = set()
         self.demo_of = None
 
+    def __eq__(self, other):
+        return isinstance(other, Game) and self.id == other.id
+
+    def __hash__(self):
+        return hash(self.id)
+
     @staticmethod
     @cache
     def get(id: str):
