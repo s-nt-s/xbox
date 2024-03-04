@@ -22,7 +22,7 @@ def config_log(file: str):
             file_handler
         ]
     )
-    for name in ('seleniumwire.proxy.handler', 'seleniumwire.proxy.client', 'urllib3.connectionpool', 'seleniumwire.proxy.storage', 'selenium.webdriver.remote.remote_connection'):
+    for name in ('seleniumwire.proxy.handler', 'seleniumwire.proxy.client', 'urllib3.connectionpool', 'seleniumwire.proxy.storage', 'selenium.webdriver.remote.remote_connection', 'asyncio'):
         logging.getLogger(name).setLevel(logging.CRITICAL)
 
     if log_level != logging.DEBUG:
