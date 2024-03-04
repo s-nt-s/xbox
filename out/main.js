@@ -20,7 +20,7 @@ function firsOptionValue(id) {
 
 class FormQuery {
   static ALIAS = Object.freeze({
-    "bbb": "price=1-10&reviews=10-"+MX.reviews+"&rate=4-5",
+    "bbb": "price=1-10&reviews=1000&rate=4",
     "doblado": "lang=vdse+vds+vd",
     "subtitulado": "lang=vdse+vose+se",
     "traducido": "lang=vdse+vds+vd+vose+se+mute"
@@ -46,10 +46,9 @@ class FormQuery {
       gamelist: [],
     };
     if (lst != null && lst.length > 0) d[lst] = true;
-    const minmax = /_(max|min)$/;
     document.querySelectorAll("input[id], select[id]").forEach((n) => {
       if (n.disabled) return;
-      if (minmax.test(n.id)) return;
+      if (/_(max|min)$/.test(n.id)) return;
       const v = getVal(n.id);
       if (v === false) return;
       if (n.id == "discount" && v === 0) return;
@@ -61,13 +60,7 @@ class FormQuery {
       }
       d[n.id] = v;
     });
-    d.range = getRanges(
-      ...new Set(
-        $$("input[id$=_max],input[id$=_min]").filter(n => !n.disabled).map((n) =>
-          n.id.replace(minmax, "")
-        )
-      )
-    );
+    d.range = getRanges(...FormQuery.RANGE.filter(r=>(document.getElementById(r+'_min')?.disabled) === false));
     d.gamelist = (() => {
       if (d.gamepass) return GAMEPASS;
       if (d.demos) return DEMO_AND_TRIAL;
@@ -95,10 +88,10 @@ class FormQuery {
         Number(n.getAttribute("max")) == v.max
       )
         return;
-      /*if (MX[k] != null && v.max == MX[k]) {
-        qr.push(k + "=" + v.min + '-');
-        return;
-      }*/
+      if (FormQuery.RANGE.includes(k) && MX[k] != null) {
+        if (k == "price" && v.min == 0) return qr.push(k + "=" + v.max);
+        if (v.max == MX[k]) return qr.push(k + "=" + v.min);
+      }
       qr.push(k + "=" + v.min + "-" + v.max);
     });
     if (form.tags.length)
@@ -187,8 +180,8 @@ class FormQuery {
     });
     return d;
   }
-  static __get_kv(v) {
-    const tmp = v.split("=").flatMap((i) => {
+  static __get_kv(kv) {
+    const tmp = kv.split("=").flatMap((i) => {
       i = i.trim();
       return i.length == 0 ? [] : i;
     });
@@ -196,27 +189,30 @@ class FormQuery {
     if (tmp.length > 2 || tmp[0].length == 0) return [null, null];
     const k = tmp[0];
     if (!isNaN(Number(k))) return [null, null];
-    if (tmp.length == 2) {
-      let v = tmp[1];
-      const n = Number(v);
-      if (!isNaN(n)) return [k, n];
-      if (MX[k]!=null && v.match(/^\d+-$/)) v = v+MX[k];
-      if (v.match(/^\d+-\d+$/)) {
-        const [_min, _max] = v
-          .split("-")
-          .map((i) => Number(i))
-          .sort((a, b) => a - b);
-        return [k, { min: _min, max: _max }];
+    if (tmp.length == 1) {
+      const opt = document.querySelectorAll(
+        'select option[value="' + k + '"]'
+      );
+      if (opt.length == 1) {
+        return [opt[0].closest("select[id]").id, k];
       }
-      return [k, v];
+      return [k, true];
     }
-    const opt = document.querySelectorAll(
-      'select option[value="' + k + '"]'
-    );
-    if (opt.length == 1) {
-      return [opt[0].closest("select[id]").id, k];
+    let v = tmp[1];
+    if (FormQuery.RANGE.includes(k) && v.match(/^\d+$/) && MX[k]!=null) {
+      if (k == "price") v='0-'+v;
+      else v=v+'-'+MX[k];
     }
-    return [k, true];
+    const n = Number(v);
+    if (!isNaN(n)) return [k, n];
+    if (v.match(/^\d+-\d+$/)) {
+      const [_min, _max] = v
+        .split("-")
+        .map((i) => Number(i))
+        .sort((a, b) => a - b);
+      return [k, { min: _min, max: _max }];
+    }
+    return [k, v];
   }
 }
 FormQuery.REV_QUERY = Object.freeze(Object.fromEntries(Object.entries(FormQuery.ALIAS).map(([k, v]) => [v, k])))
@@ -412,6 +408,10 @@ function setOrder() {
 document.addEventListener(
   "DOMContentLoaded",
   () => {
+    FormQuery.RANGE = Object.freeze(Array.from(new Set(
+      $$("input[id$=_max],input[id$=_min]").filter(n => !n.disabled).map((n) =>
+        n.id.replace(/_(max|min)$/, "")
+    ))));
     setOrder();
     ifLocal();
     fixImg();
