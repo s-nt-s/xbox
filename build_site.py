@@ -217,6 +217,7 @@ j.create_script(
     PREVIEW=sorted((i.id for i in glist.items if i.isPreview)),
     TRIAL=sorted((i.id for i in glist.items if i.isTrial)),
     GAMEPASS=sorted((i.id for i in glist.items if i.isInGamepass)),
+    MX=glist.mx,
     replace=True,
 )
 j.save(

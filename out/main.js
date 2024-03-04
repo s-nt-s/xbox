@@ -20,7 +20,7 @@ function firsOptionValue(id) {
 
 class FormQuery {
   static ALIAS = Object.freeze({
-    "bbb": "price=1-10&reviews=10-38431&rate=4-5",
+    "bbb": "price=1-10&reviews=10-"+MX.reviews+"&rate=4-5",
     "doblado": "lang=vdse+vds+vd",
     "subtitulado": "lang=vdse+vose+se",
     "traducido": "lang=vdse+vds+vd+vose+se+mute"
@@ -95,6 +95,10 @@ class FormQuery {
         Number(n.getAttribute("max")) == v.max
       )
         return;
+      /*if (MX[k] != null && v.max == MX[k]) {
+        qr.push(k + "=" + v.min + '-');
+        return;
+      }*/
       qr.push(k + "=" + v.min + "-" + v.max);
     });
     if (form.tags.length)
@@ -193,9 +197,10 @@ class FormQuery {
     const k = tmp[0];
     if (!isNaN(Number(k))) return [null, null];
     if (tmp.length == 2) {
-      const v = tmp[1];
+      let v = tmp[1];
       const n = Number(v);
       if (!isNaN(n)) return [k, n];
+      if (MX[k]!=null && v.match(/^\d+-$/)) v = v+MX[k];
       if (v.match(/^\d+-\d+$/)) {
         const [_min, _max] = v
           .split("-")

@@ -155,6 +155,25 @@ class Game:
         return d
 
     def __rate__review(self):
+        rAverageRating = self.reviewsInfo['averageRating']
+        rTotalRatingsCount = self.reviewsInfo['totalRatingsCount']
+        UsageData = self.i["MarketProperties"][0]["UsageData"][-1]
+        uAverageRating = UsageData["AverageRating"]
+        uRatingCount = UsageData["RatingCount"]
+        if uRatingCount == rTotalRatingsCount:
+            return dict(
+                rate=max(uAverageRating, rAverageRating),
+                reviews=uRatingCount
+            )
+        if uRatingCount > rTotalRatingsCount:
+            return dict(
+                rate=uAverageRating,
+                reviews=uRatingCount
+            )
+        return dict(
+            rate=rAverageRating,
+            reviews=rTotalRatingsCount
+        )
         averageRating = (self.reviewsInfo or {}).get('averageRating')
         if averageRating is not None:
             return dict(rate=averageRating, reviews=self.reviewsInfo['totalRatingsCount'])
@@ -618,7 +637,7 @@ class GameList:
     @cached_property
     def mx(self):
         return dict(
-            precio=ceil(max([i.price for i in self.items])),
+            price=ceil(max([i.price for i in self.items])),
             reviews=ceil(max([i.reviews for i in self.items])),
             rate=ceil(max([i.rate for i in self.items])),
             discount=ceil(max([i.discount for i in self.items]))
