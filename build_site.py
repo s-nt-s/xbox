@@ -97,7 +97,7 @@ def get_games() -> Tuple[Game]:
             logger.debug(i.id+" descartado por isUseless")
             continue
         games.add(i)
-        for b in map(Game.get, i.content_id):
+        for b in map(Game.get, i.decendents_id):
             games.add(b)
     games = tuple(sorted(games, key=lambda g: g.id))
     logger.debug(f"GAMES ({len(games)}) = " + " ".join(map(lambda g: g.id, games)))

@@ -175,12 +175,22 @@ class Game:
         d = obj[0].get('discountPercentage') or 0
         return d
 
+    @cached_property
+    def usage_data(self):
+        ud = self.i["MarketProperties"][0]["UsageData"][-1]
+        for g in map(Game.get, self.decendents_id):
+            if g.isGame and g.usage_data['RatingCount'] > ud["RatingCount"]:
+                ud = g.usage_data
+        ud['RatingCount'] = int(ud['RatingCount'])
+        if int(ud['AverageRating']) == ud['AverageRating']:
+            ud['AverageRating'] = int(ud['AverageRating'])
+        return ud
+
     def __rate__review(self):
         rAverageRating = self.reviewsInfo['averageRating']
         rTotalRatingsCount = self.reviewsInfo['totalRatingsCount']
-        UsageData = self.i["MarketProperties"][0]["UsageData"][-1]
-        uAverageRating = UsageData["AverageRating"]
-        uRatingCount = UsageData["RatingCount"]
+        uAverageRating = self.usage_data["AverageRating"]
+        uRatingCount = self.usage_data["RatingCount"]
         if uRatingCount == rTotalRatingsCount:
             return dict(
                 rate=max(uAverageRating, rAverageRating),
@@ -191,6 +201,7 @@ class Game:
                 rate=uAverageRating,
                 reviews=uRatingCount
             )
+        logger.warning(f"{self.id} {rTotalRatingsCount} reviews vs {uRatingCount} reviews decendents_id={self.decendents_id}")
         return dict(
             rate=rAverageRating,
             reviews=rTotalRatingsCount
@@ -585,6 +596,13 @@ class Game:
         if self.id in ids:
             ids.remove(self.id)
         return tuple(sorted(ids))
+
+    @cached_property
+    def decendents_id(self):
+        ids = list(self.content_id)
+        if self.id in ids:
+            ids.remove(self.id)
+        return tuple(ids)
 
     @cached_property
     def bundle(self) -> Tuple[str]:
