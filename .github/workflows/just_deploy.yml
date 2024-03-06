@@ -1,8 +1,6 @@
-name: deploy
+name: just_deploy
 on:
   workflow_dispatch:
-  schedule:
-  - cron: '0 5 * * *'
 permissions:
   contents: read
   pages: write
@@ -16,7 +14,7 @@ env:
   IGDB_ID: ${{ secrets.IGDB_ID }}
   IGDB_SECRET: ${{ secrets.IGDB_SECRET }}
 jobs:
-  scrape_and_deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -30,43 +28,16 @@ jobs:
           python-version: '3.10'
       - name: Install pip packages
         run: pip install -r requirements.txt
-      - name: RM
-        run: rm -rf ./rec/
-      - name: BROWSE
-        continue-on-error: true
-        uses: nick-fields/retry@v2
-        with:
-          timeout_minutes: 25
-          retry_wait_seconds: 60
-          max_attempts: 6
-          retry_on: any
-          command: python dwn.py --browse
-      - name: GAME+ACTION+REVIEW
-        continue-on-error: true
-        uses: nick-fields/retry@v2
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 60
-          max_attempts: 6
-          retry_on: any
-          command: python dwn.py --browse --game --action --review
-      - name: DWN
-        continue-on-error: true
-        uses: nick-fields/retry@v2
-        with:
-          timeout_minutes: 55
-          retry_wait_seconds: 60
-          max_attempts: 6
-          retry_on: any
-          command: python dwn.py
+      - name: REC
+        run: |
+          ./rec.sh
+          mv ./rec/*.log ./out/execution.log
+          sed -i '/=== BUILD ===/,$d' -i ./out/execution.log
       - name: Build site
         run: |
           python build_site.py
-          echo "=== DWN ===" > ./out/execution.log
-          echo "$(date +'%Y-%m-%d')" > ./out/execution.log
-          cat ./log/dwn.log >> ./out/execution.log
           echo "=== BUILD ===" >> ./out/execution.log
-          echo "$(date +'%Y-%m-%d')" > ./out/execution.log
+          echo "$(date +'%Y-%m-%d')" >> ./out/execution.log
           cat ./log/build_site.log >> ./out/execution.log
       - name: ZIP
         run: |
