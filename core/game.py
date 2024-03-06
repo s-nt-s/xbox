@@ -582,7 +582,7 @@ class Game:
             # if x == 'SharedSplitScreen':
             #    x = 'SplitScreen'
             tags.add(x)
-        if self.spanish is not None:
+        if self.audio_subtitles is not None:
             if self.audio_subtitles['subtitles']:
                 tags.add("Subtitulado")
             if self.audio_subtitles['audio']:
@@ -597,7 +597,7 @@ class Game:
         if self.spanish is None:
             return None
         spa = dict(self.spanish)
-        if spa['audio'] is True and spa['subtitles'] is None:
+        if spa['audio'] is not None and spa['subtitles'] is None:
             spa['subtitles'] = spa['interface']
         del spa['interface']
         return spa
