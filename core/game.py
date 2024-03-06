@@ -186,6 +186,7 @@ class Game:
             ud['AverageRating'] = int(ud['AverageRating'])
         return ud
 
+    @cache
     def __rate__review(self):
         rAverageRating = self.reviewsInfo['averageRating']
         rTotalRatingsCount = self.reviewsInfo['totalRatingsCount']
