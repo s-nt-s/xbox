@@ -13,6 +13,8 @@ concurrency:
 env:
   LOG_FORMAT: '%(name)s - %(levelname)s - %(message)s'
   LOG_MODE: 'a'
+  IGDB_ID: ${{ secrets.IGDB_ID }}
+  IGDB_SECRET: ${{ secrets.IGDB_SECRET }}
 jobs:
   scrape_and_deploy:
     runs-on: ubuntu-latest
