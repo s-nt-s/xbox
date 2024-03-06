@@ -129,10 +129,6 @@
         == "Tragaperras" %}
         <span title="#Free + #Compras"><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" />
           <label for="{{iid}}">#{{t}}</label></span>
-        {% elif t == "FaltaEspañol" %}
-        <span title="#FaltaDoblaje + #FaltanSubtitulos "><input name="tags" value="{{t | to_value}}" type="checkbox"
-            id="{{iid}}" />
-          <label for="{{iid}}">#{{t}}</label></span>
         {% else %}
         <span><input name="tags" value="{{t | to_value}}" type="checkbox" id="{{iid}}" />
           <label for="{{iid}}">#{{t}}</label></span>
@@ -153,6 +149,8 @@
           {# {% if j.langs %} [ {{" / ".join(j.langs) }} ] {% endif %} #} {%
           if j.tags %} {% for t in j.tags %} {% if t == "Compras" %}
           <span class="tag" title="{{j.compras|join(' - ')}}">#{{t}}</span>
+          {% elif t in ("Subtitulado", "Doblado", "Mudo") %}
+          <span class="tag"><strong>#{{t}}</strong></span>
           {% else %}
           <span class="tag">#{{t}}</span>
           {% endif %} {% endfor %}<br />

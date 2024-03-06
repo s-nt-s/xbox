@@ -398,6 +398,19 @@ class Game:
     @cached_property
     @OverwriteWith("fix/spanish/{id}.json")
     def spanish(self) -> tuple[str]:
+        spa = self.__get_spanish()
+        if IGDB is None:
+            return spa
+        if spa is not None and (spa['interface'], spa['subtitles']) != (None, None):
+            return spa
+        spa2 = IGDB.get_spanish(self.id)
+        if None in (spa, spa2):
+            return (spa or spa2)
+        if spa['audio'] is not None:
+            spa2['audio'] = spa['audio']
+        return spa2
+
+    def __get_spanish(self) -> tuple[str]:
         obj = dict_walk(self.summary, 'languagesSupported')
         if not isinstance(obj, dict) or len(obj) == 0:
             return self.__find_spanish()
@@ -434,8 +447,6 @@ class Game:
                 k = tuple(g.spanish.items())
                 alt[k] = alt.get(k, 0) + 1
         if len(alt) == 0:
-            if IGDB:
-                return IGDB.get_spanish(self.id)
             return None
 
         def _key(kvc):
@@ -582,14 +593,14 @@ class Game:
             # if x == 'SharedSplitScreen':
             #    x = 'SplitScreen'
             tags.add(x)
+        tags = sorted(tags.difference({'Subtitulado', 'Doblado', 'Mudo'}))
         if self.audio_subtitles is not None:
             if self.audio_subtitles['subtitles']:
-                tags.add("Subtitulado")
+                tags.insert(0, "Subtitulado")
             if self.audio_subtitles['audio']:
-                tags.add("Doblado")
+                tags.insert(0, "Doblado")
             if (self.audio_subtitles['subtitles'], self.audio_subtitles['audio']) == (None, None):
-                tags.add("Mudo")
-        tags = sorted(tags)
+                tags.insert(0, "Mudo")
         return tuple(tags)
 
     @cached_property
@@ -597,7 +608,7 @@ class Game:
         if self.spanish is None:
             return None
         spa = dict(self.spanish)
-        if spa['audio'] is not None and spa['subtitles'] is None:
+        if spa['subtitles'] is None:
             spa['subtitles'] = spa['interface']
         del spa['interface']
         return spa
