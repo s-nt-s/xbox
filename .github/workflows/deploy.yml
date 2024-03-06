@@ -62,8 +62,12 @@ jobs:
       - name: Build site
         run: |
           python build_site.py
+          echo "=== DWN ===" > ./out/execution.log
           echo "$(date +'%Y-%m-%d')" > ./out/execution.log
-          cat ./log/dwn.log ./log/build_site.log >> ./out/execution.log
+          cat ./log/dwn.log >> ./out/execution.log
+          echo "=== BUILD ===" >> ./out/execution.log
+          echo "$(date +'%Y-%m-%d')" > ./out/execution.log
+          cat ./log/build_site.log >> ./out/execution.log
       - name: ZIP
         run: |
           cp ./out/execution.log "./rec/$(date +'%Y-%m-%d').log"
