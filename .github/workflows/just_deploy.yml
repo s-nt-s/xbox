@@ -1,0 +1,58 @@
+name: just_deploy
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+env:
+  LOG_FORMAT: '%(name)s - %(levelname)s - %(message)s'
+  LOG_MODE: 'a'
+  IGDB_ID: ${{ secrets.IGDB_ID }}
+  IGDB_SECRET: ${{ secrets.IGDB_SECRET }}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install pip packages
+        run: pip install -r requirements.txt
+      - name: REC
+        run: |
+          ./rec.sh
+          mv ./rec/*.log ./out/execution.log
+          sed -i '/descartado por isUseless/,$d' -i ./out/execution.log
+      - name: Build site
+        run: |
+          python build_site.py
+          echo "$(date +'%Y-%m-%d')" >> ./out/execution.log
+          cat ./log/build_site.log >> ./out/execution.log
+      - name: ZIP
+        run: |
+          cp ./out/execution.log "./rec/$(date +'%Y-%m-%d').log"
+          cd ./rec/
+          rm -rf search/*/
+          rm -rf collection/*.json
+          rm -rf catalog/*.json
+          tar -cJf ../out/json.tar.xz *
+          cd ..
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './out'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

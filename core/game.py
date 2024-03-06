@@ -423,10 +423,7 @@ class Game:
                 alt[k] = alt.get(k, 0) + 1
         if len(alt) == 0:
             if IGDB:
-                spa = IGDB.get_spanish(self.id)
-                if spa is not None:
-                    logger.debug(f"IGDB: {self.id} {IGDB.xbox_to_id[self.id]} {str(spa)}")
-                    return spa
+                return IGDB.get_spanish(self.id)
             return None
 
         def _key(kvc):
