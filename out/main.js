@@ -311,8 +311,7 @@ function _filter(form, id) {
     const lang = form.lang;
     if (lang == null || lang.length == 0) return true;
     if (j.spa == null) return lang.includes("null");
-    let {audio, subtitles, interface} = j.spa;
-    if (audio!== null && subtitles === null) subtitles = interface;
+    const {audio, subtitles} = j.spa;
     if (lang.includes("mute") && (audio === null  && subtitles === null))  return true;
     if (lang.includes("vdse") && (audio === true  && subtitles === true))  return true;
     if (lang.includes("vds")  && (audio === true  && subtitles === false)) return true;

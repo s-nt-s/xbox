@@ -581,8 +581,25 @@ class Game:
             # if x == 'SharedSplitScreen':
             #    x = 'SplitScreen'
             tags.add(x)
+        if self.spanish is not None:
+            if self.audio_subtitles['subtitles']:
+                tags.add("Subtitulado")
+            if self.audio_subtitles['audio']:
+                tags.add("Doblado")
+            if (self.audio_subtitles['subtitles'], self.audio_subtitles['audio']) == (None, None):
+                tags.add("Mudo")
         tags = sorted(tags)
         return tuple(tags)
+
+    @cached_property
+    def audio_subtitles(self):
+        if self.spanish is None:
+            return None
+        spa = dict(self.spanish)
+        if spa['audio'] is True and spa['subtitles'] is None:
+            spa['subtitles'] = spa['interface']
+        del spa['interface']
+        return spa
 
     @cached_property
     def content_id(self):
@@ -657,7 +674,7 @@ class GameList:
                 reviews=i.reviews,
                 discount=i.discount,
                 tags=i.tags,
-                spa=i.spanish
+                spa=i.audio_subtitles
             )
         return info
 
@@ -672,7 +689,7 @@ class GameList:
         tags = set()
         for i in self.items:
             tags = tags.union(i.tags)
-        tags = sorted(tags - set({'GamePass', 'Free'}))
+        tags = sorted(tags - set({'GamePass', 'Free', 'Doblado', 'Subtitulado', 'Mudo'}))
         return tuple(tags)
 
     @cached_property
