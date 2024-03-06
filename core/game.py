@@ -12,6 +12,8 @@ from .api import Api
 from .util import dict_walk
 import logging
 from .cache import Cache
+from .igdb import IGDB as IGDBase
+from os import environ
 
 logger = logging.getLogger(__name__)
 
@@ -19,6 +21,19 @@ YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
 re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
 re_sp = re.compile(r"\s+")
+
+
+def get_igdb():
+    IGDB_ID = environ.get('IGDB_ID')
+    IGDB_SECRET = environ.get('IGDB_SECRET')
+    if None in (IGDB_ID, IGDB_SECRET):
+        return None
+    db = IGDBase()
+    db.login(environ['IGDB_ID'], environ['IGDB_SECRET'])
+    return db
+
+
+IGDB = get_igdb()
 
 
 class OverwriteWith(Cache):
@@ -407,6 +422,11 @@ class Game:
                 k = tuple(g.spanish.items())
                 alt[k] = alt.get(k, 0) + 1
         if len(alt) == 0:
+            if IGDB:
+                spa = IGDB.get_spanish(self.id)
+                if spa is not None:
+                    logger.debug(f"IGDB: {self.id} {IGDB.xbox_to_id[self.id]} {str(spa)}")
+                    return spa
             return None
 
         def _key(kvc):
