@@ -7,6 +7,8 @@ rec/
 *.log
 notas.txt
 aux.py
+node_modules
+package*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

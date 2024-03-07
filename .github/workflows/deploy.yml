@@ -15,6 +15,7 @@ env:
   LOG_MODE: 'a'
   IGDB_ID: ${{ secrets.IGDB_ID }}
   IGDB_SECRET: ${{ secrets.IGDB_SECRET }}
+  MINIFY: "1"
 jobs:
   scrape_and_deploy:
     runs-on: ubuntu-latest

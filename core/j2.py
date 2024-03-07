@@ -3,7 +3,7 @@ import os
 import re
 from datetime import date, datetime
 from urllib.parse import quote_plus
-from typing import List, Tuple
+from minify_html import minify
 
 import bs4
 from jinja2 import Environment, FileSystemLoader
@@ -105,6 +105,7 @@ class Jnj2():
         self.pre = pre
         self.post = post
         self.lastArgs = None
+        self.minify = os.environ.get("MINIFY") == "1"
 
     def save(self, template, destino=None, parse=None, **kwargs):
         self.lastArgs = kwargs
@@ -127,8 +128,29 @@ class Jnj2():
         if not os.path.exists(directorio):
             os.makedirs(directorio)
 
+        html = self.do_minimity(html)
         with open(destino, "wb") as fh:
             fh.write(bytes(html, 'UTF-8'))
+        return html
+
+    def do_minimity(self, html: str):
+        if not self.minify:
+            return html
+        html = minify(
+            html,
+            do_not_minify_doctype=True,
+            ensure_spec_compliant_unquoted_attribute_values=True,
+            keep_spaces_between_attributes=True,
+            keep_html_and_head_opening_tags=True,
+            keep_closing_tags=True,
+            minify_js=True,
+            minify_css=True,
+            remove_processing_instructions=True
+        )
+        blocks = ("html", "head", "body", "style", "script", "meta", "p", "div", "main", "header", "footer", "table", "tr", "tbody", "thead", "tfoot" "ol", "li", "ul", "h1", "h2", "h3", "h4", "h5", "h6")
+        html = re.sub(r"<(" + "|".join(blocks) + "\b)([^>]*)>", r"\n<\1\2>\n", html)
+        html = re.sub(r"</(" + "|".join(blocks) + ")>", r"\n</\1>\n", html)
+        html = re.sub(r"\n\n+", r"\n", html).strip()
         return html
 
     def set_target(self, html):
@@ -155,10 +177,13 @@ class Jnj2():
                 del a.attrs["target"]
         return str(soup)
 
-    def create_script(self, destino, indent=2, replace=False, **kargv):
+    def create_script(self, destino, replace=False, **kargv):
         destino = self.destino + destino
         if not replace and os.path.isfile(destino):
             return
+        indent = 2
+        if self.minify:
+            indent = None
         separators = (',', ':') if indent is None else None
         with open(destino, "w") as f:
             for i, (k, v) in enumerate(kargv.items()):
@@ -166,8 +191,13 @@ class Jnj2():
                     f.write("\n")
                 f.write("const "+k+" = ")
                 if not isinstance(v, str):
-                    json.dump(v, f, indent=indent,
-                              separators=separators, default=myconverter)
+                    json.dump(
+                        v,
+                        f,
+                        indent=indent,
+                        separators=separators,
+                        default=myconverter
+                    )
                 else:
                     f.write(v)
                 f.write(";")
