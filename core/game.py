@@ -553,10 +553,14 @@ class Game:
 
     @cached_property
     def tags(self) -> tuple[str]:
-        tags = set(self.extra_tags)
+        no_heredar = ("Tragaperras", )
+        tags = set()
         for g in map(Game.get, self.content_id):
             if g.id != self.id:
-                tags = tags.union(g.tags)
+                tags = tags.union(g.tags).difference(no_heredar)
+        tags = tags.union(self.extra_tags)
+        if self.isSlotMachine:
+            tags.add("Tragaperras")
         if self.compras:
             tags.add("Compras")
         if self.isBundle:
@@ -606,8 +610,6 @@ class Game:
                 tags.insert(0, "Mudo")
             elif True not in au_su:
                 tags.insert(0, "SinTraducir")
-        if self.isSlotMachine:
-            tags.append("Tragaperras")
         return tuple(tags)
 
     @cached_property
