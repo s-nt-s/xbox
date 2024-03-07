@@ -152,7 +152,7 @@
           <code class="price {%if j.discount %}ofertaTrue{%endif%}" {%if j.discount%}
             title="{{j.discount | round | int}}% de descuento" {%endif%}>{{j.int_price}} €</code><br />
           {# {% if j.langs %} [ {{" / ".join(j.langs) }} ] {% endif %} #} {%
-          if j.tags %} {% for t in j.tags %} {% if t == "Compras" %}
+          if j.full_tags %} {% for t in j.full_tags %} {% if t == "Compras" %}
           <span class="tag" title="{{j.compras|join(' - ')}}">#{{t}}</span>
           {% elif t in ("Subtitulado", "Doblado", "Mudo") %}
           <span class="tag"><strong>#{{t}}</strong></span>

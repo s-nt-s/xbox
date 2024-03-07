@@ -593,7 +593,11 @@ class Game:
             # if x == 'SharedSplitScreen':
             #    x = 'SplitScreen'
             tags.add(x)
-        tags = sorted(tags.difference({'Subtitulado', 'Doblado', 'Mudo'}))
+        return tuple(sorted(tags))
+
+    @cached_property
+    def full_tags(self):
+        tags = list(self.tags)
         if self.audio_subtitles is not None:
             if self.audio_subtitles['subtitles']:
                 tags.insert(0, "Subtitulado")
@@ -705,8 +709,7 @@ class GameList:
         tags = set()
         for i in self.items:
             tags = tags.union(i.tags)
-        tags = sorted(tags - set({'GamePass', 'Free', 'Doblado', 'Subtitulado', 'Mudo'}))
-        return tuple(tags)
+        return tuple(sorted(tags))
 
     @cached_property
     def mx(self):
