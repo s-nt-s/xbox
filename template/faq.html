@@ -27,11 +27,11 @@
       <li>filtrar por reviews, estrellas y porcentaje de descuento</li>
       <li>evitar "juegos" que realmente son tragaperras</li>
       <li>
-        evitar "juegos" que realmente son paquetes de cosméticos y/o monedas
+        evitar "juegos" que realmente son paquetes de cosméticos, pases y/o monedas
         virtuales
       </li>
       <li>
-        evitar "juegos" que realmente son demos (ej: el episodio 1 gratiuito
+        evitar "juegos" que realmente son demos (ej: el episodio 1 gratuito
         de una temporada de 5 episodios)
       </li>
       <li>
@@ -44,14 +44,14 @@
         Series S|X del mismo juego
       </li>
       <li>
-        filtrar juegos con diálogos según estén traducidos al español o no
+        filtrar juegos por nivel de adaptación al español
       </li>
       <li>
         encontrar juegos que no aparecen en el
         <a href="{{browser}}">buscador oficial</a>
       </li>
       <li>
-        evitar perder el tiempo con páginas paginando (aquí se muestran todos
+        evitar perder el tiempo paginando (aquí se muestran todos
         los resultados de golpe)
       </li>
     </ul>
@@ -87,7 +87,7 @@
 
     <h1>¿De donde se obtiene la información de cada juego?</h1>
     <p>
-      La información se obtiene de diversos <code>json</code> obtenidos via
+      La información se obtiene de diversos <code>json</code> recolectados via
       scraping. Puedes consultar una copia de ellos en
       <a href="../json.tar.xz"><code>json.tar.xz</code></a>
     </p>
@@ -101,7 +101,7 @@
     <p>
       A continuación se listan los descartes en forma de árbol, siendo el
       <i>padre</i> el juego que si aparece en el listado y los
-      <i>hijos</i> los juegos descargados
+      <i>hijos</i> los juegos descartados
     </p>
     <ul>
       {% for g, cm in older %}
@@ -136,7 +136,7 @@
     <p>
       A continuación se listan los descartes en forma de árbol, siendo el
       <i>padre</i> el juego que si aparece en el listado y los
-      <i>hijos</i> los juegos descargados
+      <i>hijos</i> los juegos descartados
     </p>
     <ul>
       {% for g, cm in complements %}
@@ -162,7 +162,7 @@
     </ul>
     {% endif %}
     {% if better_deal %}
-    <h2>Juegos que están a mejor paquetes en otro paquete</h2>
+    <h2>Juegos que están a mejor precio en otro paquete</h2>
     <ul>
       {% for c in better_deal %}
       <li><a href="{{c.url}}">{{c.title}}</a></li>
