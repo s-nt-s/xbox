@@ -597,12 +597,15 @@ class Game:
     def full_tags(self):
         tags = list(self.tags)
         if self.audio_subtitles is not None:
+            au_su = (self.audio_subtitles['subtitles'], self.audio_subtitles['audio'])
             if self.audio_subtitles['subtitles']:
                 tags.insert(0, "Subtitulado")
             if self.audio_subtitles['audio']:
                 tags.insert(0, "Doblado")
-            if (self.audio_subtitles['subtitles'], self.audio_subtitles['audio']) == (None, None):
+            if au_su == (None, None):
                 tags.insert(0, "Mudo")
+            elif True not in au_su:
+                tags.insert(0, "SinTraducir")
         if self.isSlotMachine:
             tags.append("Tragaperras")
         return tuple(tags)
