@@ -13,7 +13,6 @@
 				.hideIfJS { display:none; }
 			</style>`);
   </script>
-  <base target="_blank" />
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <title>Juegos Xbox</title>
@@ -37,8 +36,8 @@
           </label>
           <label for="price_max">
             -
-            <input type="number" step="1" required id="price_max" min="0" max="{{gl.mx.price}}"
-              value="{{gl.mx.price}}" title="max: {{gl.mx.price}}" />
+            <input type="number" step="1" required id="price_max" min="0" max="{{gl.mx.price}}" value="{{gl.mx.price}}"
+              title="max: {{gl.mx.price}}" />
             €
           </label>
         </p>
@@ -51,7 +50,7 @@
             <input type="number" step="1" required id="reviews_max" min="0" max="{{gl.mx.reviews}}"
               value="{{gl.mx.reviews}}" title="max: {{gl.mx.reviews}}" />
             🗳
-          </label>
+          </label> <a class="warn" href="https://github.com/s-nt-s/xbox/issues/2">⚠</a>
         </p>
         <p>
           <label for="rate_min"><span>Estrellas:</span>
@@ -91,27 +90,33 @@
         {% with id="vds", txt="Audio español, subtítulos extranjeros" %}
         {% include "lang.html" %}
         {% endwith %}
+        {% if not gl.everything_has_subtitles %}
         {% with id="vd", txt="Audio español (no hay subtítulos)" %}
         {% include "lang.html" %}
         {% endwith %}
+        {% endif %}
         {% with id="vose", txt="Audio extranjero, subtítulos en español" %}
         {% include "lang.html" %}
         {% endwith %}
         {% with id="vos", txt="Audio extranjero, subtítulos extranjeros" %}
         {% include "lang.html" %}
         {% endwith %}
+        {% if not gl.everything_has_subtitles %}
         {% with id="vo", txt="Audio extranjero (no hay subtítulos)" %}
         {% include "lang.html" %}
         {% endwith %}
+        {% endif %}
         {% with id="se", txt="Subtítulos en español (no hay audio)" %}
         {% include "lang.html" %}
         {% endwith %}
         {% with id="s", txt="Subtítulos extranjeros (no hay audio)" %}
         {% include "lang.html" %}
         {% endwith %}
+        {% if not gl.everything_has_subtitles %}
         {% with id="mute", txt="No hay audio ni subtítulos" %}
         {% include "lang.html" %}
         {% endwith %}
+        {% endif %}
         {% with id="null", txt="Sin información disponible sobre idioma" %}
         {% include "lang.html" %}
         {% endwith %}

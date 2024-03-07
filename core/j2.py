@@ -3,6 +3,7 @@ import os
 import re
 from datetime import date, datetime
 from urllib.parse import quote_plus
+from typing import List, Tuple
 
 import bs4
 from jinja2 import Environment, FileSystemLoader
@@ -68,6 +69,27 @@ def toTag(html, *args):
     return tag
 
 
+def get_default_target_links(soup: bs4.Tag):
+    def _isRemote(href: str):
+        proto = href.split("://")[0].lower()
+        return proto in ("http", "https")
+
+    for a in soup.select("body a"):
+        href = a.attrs.get("href")
+        target = a.attrs.get("target")
+        if href is None:
+            continue
+        if target not in ("_blank", "_self", None):
+            continue
+        isRemote = _isRemote(href)
+        if target is not None:
+            if target != "_blank" and isRemote:
+                continue
+            if target != "_self" and not isRemote:
+                continue
+        yield (isRemote, a)
+
+
 class Jnj2():
 
     def __init__(self, origen, destino, pre=None, post=None):
@@ -97,6 +119,8 @@ class Jnj2():
         if self.post:
             html = self.post(html, **kwargs)
 
+        html = self.set_target(html)
+
         destino = self.destino + destino
         directorio = os.path.dirname(destino)
 
@@ -106,6 +130,30 @@ class Jnj2():
         with open(destino, "wb") as fh:
             fh.write(bytes(html, 'UTF-8'))
         return html
+
+    def set_target(self, html):
+        soup = bs4.BeautifulSoup(html, 'html.parser')
+        links = tuple(get_default_target_links(soup))
+        re_count = 0
+        lc_count = 0
+        for isRemote, a in links:
+            if isRemote:
+                re_count = re_count + 1
+            else:
+                lc_count = lc_count + 1
+        def_blank = re_count > lc_count
+        if def_blank:
+            soup.select_one("html > head").append(
+                toTag('<base target="_blank"/>')
+            )
+        for isRemote, a in links:
+            if isRemote and not def_blank:
+                a.attrs["target"] = "_blank"
+            elif not isRemote and def_blank:
+                a.attrs["target"] = "_self"
+            elif "target" in a.attrs:
+                del a.attrs["target"]
+        return str(soup)
 
     def create_script(self, destino, indent=2, replace=False, **kargv):
         destino = self.destino + destino

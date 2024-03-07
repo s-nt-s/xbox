@@ -1,183 +1,181 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <base target="_blank" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta
-      name="Last-Modified"
-      content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}"
-    />
-    <link rel="stylesheet" href="../main.css" />
-    <title>FAQ</title>
-  </head>
-  <body>
-    {% with root=".." %} {% include "header.html" %} {% endwith %}
-    <main>
-      <h1>¿Qué juegos aparecen en la web?</h1>
-      <p>
-        Esta web solo recoge juegos disponibles para
-        <strong>Xbox Series S|X</strong>.
-      </p>
 
-      <h1>
-        ¿Por qué usar esto en vez del
-        <a href="{{browser}}">buscador oficial</a>?
-      </h1>
-      <p>Esta web añade facilidades para:</p>
-      <ul>
-        <li>filtrar por reviews, estrellas y porcentaje de descuento</li>
-        <li>evitar "juegos" que realmente son tragaperras</li>
-        <li>
-          evitar "juegos" que realmente son paquetes de cosméticos y/o monedas
-          virtuales
-        </li>
-        <li>
-          evitar "juegos" que realmente son demos (ej: el episodio 1 gratiuito
-          de una temporada de 5 episodios)
-        </li>
-        <li>
-          evitar "juegos" incompletos (ej: el episodio 1 de pago de una
-          temporada de 5 episodios que se puede comprar completa)
-        </li>
-        <li>evitar juegos en preorder</li>
-        <li>
-          evitar versiones Xbox One cuando hay disponible una versión Xbox
-          Series S|X del mismo juego
-        </li>
-        <li>
-          filtrar juegos con diálogos según estén traducidos al español o no
-        </li>
-        <li>
-          encontrar juegos que no aparecen en el
-          <a href="{{browser}}">buscador oficial</a>
-        </li>
-        <li>
-          evitar perder el tiempo con páginas paginando (aquí se muestran todos
-          los resultados de golpe)
-        </li>
-      </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="Last-Modified" content="{{now.strftime('%Y-%m-%d %H:%M:%S')}}" />
+  <link rel="stylesheet" href="../main.css" />
+  <title>FAQ</title>
+</head>
 
-      <h1>¿De donde se obtiene el listado de juegos disponibles?</h1>
-      <p>Para confeccionar el listado se usa como fuente:</p>
-      <ol>
-        <li><a href="{{browser}}">El buscador de juegos,</a></li>
-        <li>
-          las colecciones
-          <ul>
-            {% for c in collections|sort(attribute='title,id') %}
-            <li><a href="{{c.url}}">{{c.title}}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li>
-          y los catálogos
-          <ul>
-            {% for c in catalogs|sort(attribute='title,id') %}
-            <li>
-              <a href="{{c.url}}"><code>{{c.id}}</code> {{c.title}}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-      </ol>
-      <p>
-        <strong>¡IMPORTANTE!</strong>: Si conoces más catálogos y/o colecciones,
-        por favor, por un
-        <a href="https://github.com/s-nt-s/xbox/issues" target="_blank"
-          >issue</a
-        >
-      </p>
+<body>
+  {% with root=".." %} {% include "header.html" %} {% endwith %}
+  <main>
+    <h1>¿Qué juegos aparecen en la web?</h1>
+    <p>
+      Esta web solo recoge juegos disponibles para
+      <strong>Xbox Series S|X</strong>.
+    </p>
 
-      <h1>¿De donde se obtiene la información de cada juego?</h1>
-      <p>
-        La información se obtiene de diversos <code>json</code> obtenidos via
-        scraping. Puedes consultar una copia de ellos en
-        <a href="../json.tar.xz" target="_self"><code>json.tar.xz</code></a>
-      </p>
+    <h1>
+      ¿Por qué usar esto en vez del
+      <a href="{{browser}}">buscador oficial</a>?
+    </h1>
+    <p>Esta web añade facilidades para:</p>
+    <ul>
+      <li>filtrar por reviews, estrellas y porcentaje de descuento</li>
+      <li>evitar "juegos" que realmente son tragaperras</li>
+      <li>
+        evitar "juegos" que realmente son paquetes de cosméticos y/o monedas
+        virtuales
+      </li>
+      <li>
+        evitar "juegos" que realmente son demos (ej: el episodio 1 gratiuito
+        de una temporada de 5 episodios)
+      </li>
+      <li>
+        evitar "juegos" incompletos (ej: el episodio 1 de pago de una
+        temporada de 5 episodios que se puede comprar completa)
+      </li>
+      <li>evitar juegos en preorder</li>
+      <li>
+        evitar versiones Xbox One cuando hay disponible una versión Xbox
+        Series S|X del mismo juego
+      </li>
+      <li>
+        filtrar juegos con diálogos según estén traducidos al español o no
+      </li>
+      <li>
+        encontrar juegos que no aparecen en el
+        <a href="{{browser}}">buscador oficial</a>
+      </li>
+      <li>
+        evitar perder el tiempo con páginas paginando (aquí se muestran todos
+        los resultados de golpe)
+      </li>
+    </ul>
 
-      <h1>¿Qué versión de los juegos intergeneracionales se muestra?</h1>
-      <p>
-        Algunos juegos están disponibles por separado en una versión para Xbox
-        One y en otra Xbox Series X|S. Cuando se da este caso solo se mantiene
-        la versión Xbox Series X|S y se descarta la otra.
-      </p>
-      <p>
-        A continuación se listan los descartes en forma de árbol, siendo el
-        <i>padre</i> el juego que si aparece en el listado y los
-        <i>hijos</i> los juegos descargados
-      </p>
-      <ul>
-        {% for g, cm in older %}
-        <li>
-          <a href="{{g.url}}">{{g.title}}</a>
-          <ul>
-            {% for c in cm %}
-            <li><a href="{{c.url}}">{{c.title}}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% endfor %}
-      </ul>
+    <h1>¿De donde se obtiene el listado de juegos disponibles?</h1>
+    <p>Para confeccionar el listado se usa como fuente:</p>
+    <ol>
+      <li><a href="{{browser}}">El buscador de juegos,</a></li>
+      <li>
+        las colecciones
+        <ul>
+          {% for c in collections|sort(attribute='title,id') %}
+          <li><a href="{{c.url}}">{{c.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li>
+        y los catálogos
+        <ul>
+          {% for c in catalogs|sort(attribute='title,id') %}
+          <li>
+            <a href="{{c.url}}"><code>{{c.id}}</code> {{c.title}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ol>
+    <p>
+      <strong>¡IMPORTANTE!</strong>: Si conoces más catálogos y/o colecciones,
+      por favor, por un
+      <a href="https://github.com/s-nt-s/xbox/issues">issue</a>
+    </p>
 
-      <h1>¿Qué juegos se han descartado?</h1>
-      <p>
-        Se han descartado:
-      </p>
-      <ul>
-        <li>Paquetes que solo aportan paja (monedas, pases de batalla, skins...) respecto al juego base</li>
-        <li>Paquetes que solo aportan paja (monedas, pases de batalla, skins...) respecto al otro paquete más barato</li>
-        <li>Paquetes que no suponen una mejora de precio sobre comprar su contenido por separado</li>
-        <li>Juegos que están incluidos en paquetes que tienen menor precio que el propio juego</li>
-      </ul>
-      <h2>Paquetes que solo aportan paja respecto al juego base</h2>
-      <p>
-        Algunos paquetes solo incluyen el juego base (normalmente un juego gratuito)
-        y complementos (normalmente monedas, pases de batalla, skins).
-        En esos casos se ha optado por incluir solo al
-        juego base y descartar los paquetes.
-      </p>
-      <p>
-        A continuación se listan los descartes en forma de árbol, siendo el
-        <i>padre</i> el juego que si aparece en el listado y los
-        <i>hijos</i> los juegos descargados
-      </p>
-      <ul>
-        {% for g, cm in complements %}
-        <li>
-          <a href="{{g.url}}">{{g.title}}</a>
-          <ul>
-            {% for c in cm %}
-            <li><a href="{{c.url}}">{{c.title}}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% endfor %}
-      </ul>
-      {% if bad_deal %}
-      <h2>Paquetes que no suponen una mejora de precio</h2>
-      <p>Los siguientes paquetes cuestan más que comprar su contenido por separado,
-        o comprar otro paquete con menos paja.
-      </p>
-      <ul>
-        {% for c in bad_deal %}
-        <li><a href="{{c.url}}">{{c.title}}</a></li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-      {% if better_deal %}
-      <h2>Juegos que están a mejor paquetes en otro paquete</h2>
-      <ul>
-        {% for c in better_deal %}
-        <li><a href="{{c.url}}">{{c.title}}</a></li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-      <h1>¿Cual es la fuente de las puntuaciones y reseñas?</h1>
-      <p>Los datos de xbox pero con matices, lee <a href="https://github.com/s-nt-s/xbox/issues/2" target="_blank">este issue</a> para obtener más información.</p>
-    </main>
-    {% with root="." %}
-    {% include "footer.html" %}
-    {% endwith %}
-  </body>
+    <h1>¿De donde se obtiene la información de cada juego?</h1>
+    <p>
+      La información se obtiene de diversos <code>json</code> obtenidos via
+      scraping. Puedes consultar una copia de ellos en
+      <a href="../json.tar.xz"><code>json.tar.xz</code></a>
+    </p>
+
+    <h1>¿Qué versión de los juegos intergeneracionales se muestra?</h1>
+    <p>
+      Algunos juegos están disponibles por separado en una versión para Xbox
+      One y en otra Xbox Series X|S. Cuando se da este caso solo se mantiene
+      la versión Xbox Series X|S y se descarta la otra.
+    </p>
+    <p>
+      A continuación se listan los descartes en forma de árbol, siendo el
+      <i>padre</i> el juego que si aparece en el listado y los
+      <i>hijos</i> los juegos descargados
+    </p>
+    <ul>
+      {% for g, cm in older %}
+      <li>
+        <a href="{{g.url}}">{{g.title}}</a>
+        <ul>
+          {% for c in cm %}
+          <li><a href="{{c.url}}">{{c.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h1>¿Qué juegos se han descartado?</h1>
+    <p>
+      Se han descartado:
+    </p>
+    <ul>
+      <li>Paquetes que solo aportan paja (monedas, pases de batalla, skins...) respecto al juego base</li>
+      <li>Paquetes que solo aportan paja (monedas, pases de batalla, skins...) respecto al otro paquete más barato</li>
+      <li>Paquetes que no suponen una mejora de precio sobre comprar su contenido por separado</li>
+      <li>Juegos que están incluidos en paquetes que tienen menor precio que el propio juego</li>
+    </ul>
+    <h2>Paquetes que solo aportan paja respecto al juego base</h2>
+    <p>
+      Algunos paquetes solo incluyen el juego base (normalmente un juego gratuito)
+      y complementos (normalmente monedas, pases de batalla, skins).
+      En esos casos se ha optado por incluir solo al
+      juego base y descartar los paquetes.
+    </p>
+    <p>
+      A continuación se listan los descartes en forma de árbol, siendo el
+      <i>padre</i> el juego que si aparece en el listado y los
+      <i>hijos</i> los juegos descargados
+    </p>
+    <ul>
+      {% for g, cm in complements %}
+      <li>
+        <a href="{{g.url}}">{{g.title}}</a>
+        <ul>
+          {% for c in cm %}
+          <li><a href="{{c.url}}">{{c.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+    {% if bad_deal %}
+    <h2>Paquetes que no suponen una mejora de precio</h2>
+    <p>Los siguientes paquetes cuestan más que comprar su contenido por separado,
+      o comprar otro paquete con menos paja.
+    </p>
+    <ul>
+      {% for c in bad_deal %}
+      <li><a href="{{c.url}}">{{c.title}}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if better_deal %}
+    <h2>Juegos que están a mejor paquetes en otro paquete</h2>
+    <ul>
+      {% for c in better_deal %}
+      <li><a href="{{c.url}}">{{c.title}}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <h1>¿Cual es la fuente de las puntuaciones y reseñas?</h1>
+    <p>Los datos de xbox pero con matices, lee <a href="https://github.com/s-nt-s/xbox/issues/2">este
+        issue</a> para obtener más información.</p>
+  </main>
+  {% with root="." %}
+  {% include "footer.html" %}
+  {% endwith %}
+</body>
+
 </html>
