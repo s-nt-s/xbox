@@ -557,8 +557,6 @@ class Game:
         for g in map(Game.get, self.content_id):
             if g.id != self.id:
                 tags = tags.union(g.tags)
-        if self.isSlotMachine:
-            tags.add("Tragaperras")
         if self.compras:
             tags.add("Compras")
         if self.isBundle:
@@ -605,6 +603,8 @@ class Game:
                 tags.insert(0, "Doblado")
             if (self.audio_subtitles['subtitles'], self.audio_subtitles['audio']) == (None, None):
                 tags.insert(0, "Mudo")
+        if self.isSlotMachine:
+            tags.append("Tragaperras")
         return tuple(tags)
 
     @cached_property
