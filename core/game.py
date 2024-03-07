@@ -586,9 +586,9 @@ class Game:
                 continue
             if x in ("Capability4k", 'CapabilityHDR', 'DolbyAtmos', 'SpatialSound', 'XblClubs', 'XblAchievements', 'XblPresence', 'XblCloudSaves', 'XboxLive', 'DTSX', 'RayTracing'):
                 continue
-            if x in ('XblCrossPlatformCoop', 'XblCrossPlatformMultiPlayer', 'XboxLiveCrossGenMP'):
+            if x in ('XblCrossPlatformCoop', 'XblCrossPlatformMultiPlayer'):
                 x = 'CrossPlatform'
-            if x in ('XblOnlineMultiPlayer', 'XblOnlineCoop'):
+            if x in ('XblOnlineMultiPlayer', 'XblOnlineCoop', 'XboxLiveCrossGenMP'):
                 x = 'OnlineMultiPlayer'
             if x in ('XblLocalMultiPlayer', 'XblLocalCoop', 'SharedSplitScreen'):
                 x = 'LocalMultiPlayer'
