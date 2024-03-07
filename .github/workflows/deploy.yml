@@ -63,11 +63,11 @@ jobs:
       - name: Build site
         run: |
           python build_site.py
-          echo "=== DWN ===" > ./out/execution.log
-          echo "$(date +'%Y-%m-%d')" > ./out/execution.log
+      - name: LOG
+        run: |
+          echo "$(date +'%Y-%m-%d') === DWN ===" > ./out/execution.log
           cat ./log/dwn.log >> ./out/execution.log
-          echo "=== BUILD ===" >> ./out/execution.log
-          echo "$(date +'%Y-%m-%d')" > ./out/execution.log
+          echo "$(date +'%Y-%m-%d') === BUILD ===" >> ./out/execution.log
           cat ./log/build_site.log >> ./out/execution.log
       - name: ZIP
         run: |
