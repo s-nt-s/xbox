@@ -691,6 +691,10 @@ class GameList:
         return info
 
     @cached_property
+    def everything_has_subtitles(self):
+        return any(i.audio_subtitles['subtitles'] is not None for i in self.items)
+
+    @cached_property
     def discounts(self):
         arr = set(floor(x['discount']) for x in self.info.values())
         arr = tuple(sorted(arr))

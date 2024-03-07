@@ -212,6 +212,7 @@ j.create_script(
     PREVIEW=sorted((i.id for i in glist.items if i.isPreview)),
     TRIAL=sorted((i.id for i in glist.items if i.isTrial)),
     GAMEPASS=sorted((i.id for i in glist.items if i.isInGamepass)),
+    everything_has_subtitles=glist.everything_has_subtitles,
     MX=glist.mx,
     replace=True,
 )

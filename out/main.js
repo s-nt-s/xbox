@@ -21,9 +21,9 @@ function firsOptionValue(id) {
 class FormQuery {
   static ALIAS = Object.freeze({
     "bbb": "price=1-10&reviews=1000&rate=4",
-    "doblado": "lang=vdse+vds+vd",
+    "doblado": everything_has_subtitles ? "lang=vdse+vds" : "lang=vdse+vds+vd",
     "subtitulado": "lang=vdse+vose+se",
-    "traducido": "lang=vdse+vds+vd+vose+se+mute"
+    "traducido": everything_has_subtitles ? "lang=vdse+vds+vose+se" : "lang=vdse+vds+vd+vose+se+mute"
   })
   static getListType() {
     const m = document.location.search.match(/^\?(gamepass|demos)(&|$)/);
@@ -410,7 +410,7 @@ document.addEventListener(
     FormQuery.RANGE = Object.freeze(Array.from(new Set(
       $$("input[id$=_max],input[id$=_min]").filter(n => !n.disabled).map((n) =>
         n.id.replace(/_(max|min)$/, "")
-    ))));
+      ))));
     setOrder();
     ifLocal();
     fixImg();
