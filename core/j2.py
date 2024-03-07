@@ -120,6 +120,7 @@ class Jnj2():
         if self.post:
             html = self.post(html, **kwargs)
 
+        html = self.do_minimity(html)
         html = self.set_target(html)
 
         destino = self.destino + destino
@@ -128,7 +129,6 @@ class Jnj2():
         if not os.path.exists(directorio):
             os.makedirs(directorio)
 
-        html = self.do_minimity(html)
         with open(destino, "wb") as fh:
             fh.write(bytes(html, 'UTF-8'))
         return html
