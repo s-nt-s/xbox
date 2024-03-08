@@ -4,11 +4,14 @@ import re
 from datetime import date, datetime
 from urllib.parse import quote_plus
 from minify_html import minify
+from _collections_abc import dict_items
+from typing import Dict
 
 import bs4
 from jinja2 import Environment, FileSystemLoader
 
 re_br = re.compile(r"<br/>(\s*</)")
+re_sp = re.compile(r"\s+")
 
 
 def jinja_quote_plus(s: str):
@@ -23,9 +26,34 @@ def to_value(s: str):
     return re.sub(r'[\s&\-\'"\+]+', '-', s).lower()
 
 
-def myconverter(o):
-    if isinstance(o, (datetime, date)):
-        return o.__str__()
+class CustomEncoder(json.JSONEncoder):
+    def default(self, o):
+        if isinstance(o, (datetime, date)):
+            return o.__str__()
+        if isinstance(o, dict_items):
+            return ["<<Map>>", list(o), "<</END>>"]
+        if isinstance(o, dict):
+            return ["<<Map>>", list(o.items()), "<</END>>"]
+        return super().default(o)
+
+    def __parse(self, o):
+        if isinstance(o, dict):
+            return ["<<Map>>", list(
+                    map(lambda kv: (
+                        kv[0], self.__parse(kv[1])), o.items())
+                    ), "<</END>>"]
+        if isinstance(o, set):
+            o = list(map(self.__parse, o))
+            if len(o) > 0 and len(set(map(lambda x: type(x), o))) == 1:
+                if isinstance(o[0], (str, int, float)):
+                    o = sorted(o)
+            return ["<<Set>>", o, "<</END>>"]
+        if isinstance(o, (list, tuple)):
+            return list(map(self.__parse, o))
+        return o
+
+    def encode(self, o):
+        return super().encode(self.__parse(o))
 
 
 def millar(value):
@@ -147,8 +175,10 @@ class Jnj2():
             minify_css=True,
             remove_processing_instructions=True
         )
-        blocks = ("html", "head", "body", "style", "script", "meta", "p", "div", "main", "header", "footer", "table", "tr", "tbody", "thead", "tfoot" "ol", "li", "ul", "h1", "h2", "h3", "h4", "h5", "h6")
-        html = re.sub(r"<(" + "|".join(blocks) + "\b)([^>]*)>", r"\n<\1\2>\n", html)
+        blocks = ("html", "head", "body", "style", "script", "meta", "p", "div", "main", "header", "footer",
+                  "table", "tr", "tbody", "thead", "tfoot" "ol", "li", "ul", "h1", "h2", "h3", "h4", "h5", "h6")
+        html = re.sub(r"<(" + "|".join(blocks) +
+                      "\b)([^>]*)>", r"\n<\1\2>\n", html)
         html = re.sub(r"</(" + "|".join(blocks) + ")>", r"\n</\1>\n", html)
         html = re.sub(r"\n\n+", r"\n", html).strip()
         return html
@@ -190,16 +220,21 @@ class Jnj2():
                 if i > 0:
                     f.write("\n")
                 f.write("const "+k+" = ")
-                if not isinstance(v, str):
-                    json.dump(
-                        v,
-                        f,
-                        indent=indent,
-                        separators=separators,
-                        default=myconverter
-                    )
-                else:
-                    f.write(v)
+                if isinstance(v, str):
+                    f.write(v+";")
+                    continue
+                js = json.dumps(
+                    v,
+                    indent=indent,
+                    separators=separators,
+                    cls=CustomEncoder
+                )
+                js = re.sub(r'\[\s*"<<(Map|Set)>>"\s*,\s*', r'new \1(', js)
+                js = re.sub(r'\s*,\s*"<</END>>"\s*\]', ')', js)
+                if not self.minify:
+                    js = re.sub(r'\s*\[[^\[\]]+\]\s*',
+                                lambda x: re_sp.sub(" ", x.group()).strip(), js)
+                f.write(js)
                 f.write(";")
 
     def exists(self, destino):

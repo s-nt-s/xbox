@@ -45,7 +45,7 @@ def do_filter2(i: Game):
     if i.summary is None:
         logger.debug(i.id+" descartado por summary=None")
         return False
-    #if not i.isGame:
+    # if not i.isGame:
     #    logger.debug(i.id+" descartado por !isGame")
     #    return False
     if i.notAvailable:
@@ -100,7 +100,8 @@ def get_games() -> Tuple[Game]:
         for b in map(Game.get, i.decendents_id):
             games.add(b)
     games = tuple(sorted(games, key=lambda g: g.id))
-    logger.debug(f"GAMES ({len(games)}) = " + " ".join(map(lambda g: g.id, games)))
+    logger.debug(f"GAMES ({len(games)}) = " +
+                 " ".join(map(lambda g: g.id, games)))
     return games
 
 
@@ -158,30 +159,35 @@ for pid, cids in gfilter.is_older_version_of(items, all_games=ALL_GAMES.values()
 
 for g in gfilter.is_bad_deal(items):
     if len(set(g.bundle).difference(items.keys())) == 0:
-        logger.debug(g.id+" descartado por ser mal negocio (más barato por separado 1/2)")
+        logger.debug(
+            g.id+" descartado por ser mal negocio (más barato por separado 1/2)")
         BADD.append(g)
         del items[g.id]
 
 for pid, cids in gfilter.is_in_better_deal(items):
     cids = tuple([c for c in cids if c in items])
     if len(cids) > 0:
-        logger.debug(pid+" descartado por ser mal negocio (más barato en un bundle)")
+        logger.debug(
+            pid+" descartado por ser mal negocio (más barato en un bundle)")
         BETD.append(Game.get(pid))
         del items[pid]
 
 for g in gfilter.is_bad_deal(items):
     bdl = tuple((i for i in map(Game.get, g.bundle) if not i.isUseless))
     bdlGame = set((i.id for i in bdl if i.isGame))
-    bdlntSl = tuple((i.id for i in bdl if i.notSoldSeparately or i.notAvailable))
+    bdlntSl = tuple(
+        (i.id for i in bdl if i.notSoldSeparately or i.notAvailable))
     if len(bdlntSl) == 0 and len(bdlGame.difference(items.keys())) == 0:
-        logger.debug(g.id+" descartado por ser mal negocio (más barato por separado 2/2)")
+        logger.debug(
+            g.id+" descartado por ser mal negocio (más barato por separado 2/2)")
         BADD.append(g)
         del items[g.id]
 
 for best, worse in gfilter.is_useless_bundle(items):
     worse = tuple([w.id for w in worse if w.id in items])
     if best.id in items and len(worse):
-        logger.debug(best.id+" descarta a los siguientes por ser mal negocio: " + " ".join(worse))
+        logger.debug(
+            best.id+" descarta a los siguientes por ser mal negocio: " + " ".join(worse))
         for g in worse:
             BADD.append(Game.get(g))
             del items[g]
@@ -198,7 +204,7 @@ def game_info(gamelist: GameList):
     lst = dict(gamelist.info)
     for k, g in lst.items():
         g = dict(g)
-        g['tags'] = tuple(map(to_value, g['tags']))
+        g['tags'] = set(tuple(map(to_value, g['tags'])))
         lst[k] = g
     return lst
 
@@ -206,12 +212,12 @@ def game_info(gamelist: GameList):
 j = Jnj2("template/", "out/")
 j.create_script(
     "info.js",
-    ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
+    # ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
     GAME=game_info(glist),
-    DEMO=sorted((i.id for i in glist.items if i.isDemo)),
-    PREVIEW=sorted((i.id for i in glist.items if i.isPreview)),
-    TRIAL=sorted((i.id for i in glist.items if i.isTrial)),
-    GAMEPASS=sorted((i.id for i in glist.items if i.isInGamepass)),
+    DEMO=set((i.id for i in glist.items if i.isDemo)),
+    PREVIEW=set((i.id for i in glist.items if i.isPreview)),
+    TRIAL=set((i.id for i in glist.items if i.isTrial)),
+    GAMEPASS=set((i.id for i in glist.items if i.isInGamepass)),
     everything_has_subtitles=glist.everything_has_subtitles,
     MX=glist.mx,
     replace=True,

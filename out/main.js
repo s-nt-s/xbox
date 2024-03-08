@@ -1,8 +1,10 @@
 const isLocal = ["", "localhost"].includes(document.location.hostname);
 const $$ = (slc) => Array.from(document.querySelectorAll(slc));
-const DEMO_AND_TRIAL = Array.from((new Set(DEMO.concat(TRIAL))));
-const DEMO_AND_PREVIEW = Array.from((new Set(DEMO.concat(PREVIEW))));
-const REAL_GAMES = Array.from(Object.keys(GAME).filter(g => !DEMO_AND_PREVIEW.includes(g)));
+const DEMO_AND_TRIAL = new Set([...DEMO, ...TRIAL]);
+const REAL_GAMES = (() => {
+  const DEMO_AND_PREVIEW = new Set([...DEMO, ...PREVIEW]);
+  return new Set(Array.from(GAME.keys()).filter(g => !DEMO_AND_PREVIEW.has(g)));
+})();
 
 function firsOptionValue(id) {
   const elm = document.getElementById(id);
@@ -43,7 +45,7 @@ class FormQuery {
       tags: [],
       lang: [],
       range: {},
-      gamelist: [],
+      gamelist: new Set(),
     };
     if (lst != null && lst.length > 0) d[lst] = true;
     document.querySelectorAll("input[id], select[id]").forEach((n) => {
@@ -60,7 +62,7 @@ class FormQuery {
       }
       d[n.id] = v;
     });
-    d.range = getRanges(...FormQuery.RANGE.filter(r=>(document.getElementById(r+'_min')?.disabled) === false));
+    d.range = getRanges(...FormQuery.RANGE.filter(r => (document.getElementById(r + '_min')?.disabled) === false));
     d.gamelist = (() => {
       if (d.gamepass) return GAMEPASS;
       if (d.demos) return DEMO_AND_TRIAL;
@@ -199,9 +201,9 @@ class FormQuery {
       return [k, true];
     }
     let v = tmp[1];
-    if (FormQuery.RANGE.includes(k) && v.match(/^\d+$/) && MX[k]!=null) {
-      if (k == "price") v='0-'+v;
-      else v=v+'-'+MX[k];
+    if (FormQuery.RANGE.includes(k) && v.match(/^\d+$/) && MX[k] != null) {
+      if (k == "price") v = '0-' + v;
+      else v = v + '-' + MX[k];
     }
     const n = Number(v);
     if (!isNaN(n)) return [k, n];
@@ -276,51 +278,54 @@ function getRanges() {
 }
 
 function _filter(form, id) {
-  const j = GAME[id];
+  const j = GAME.get(id);
   if (j == null) {
-    console.log(i.id, "no encontrado", i);
+    console.log(i.get('id'), "no encontrado", i);
     return false;
   }
-  if (j.discount != null && j.discount < (form.discount ?? j.discount)) return false;
+  const discount = j.get('discount')
+  if (discount != null && discount < (form.discount ?? discount)) return false;
 
   const fl = (() => {
     if (form.tags.length == 0) {
       if (form.mode[0] == "S") return false;
       if (form.mode[0] == "H") return true;
     }
-    const hs = form.tags.filter((v) => j.tags.includes(v));
+    const hs = form.tags.filter((v) => j.get('tags').has(v));
     if (form.mode == "SO") return hs.length > 0;
     if (form.mode == "HO") return hs.length == 0;
     if (form.mode == "SA") return hs.length == form.tags.length;
     if (form.mode == "HA") return hs.length != form.tags.length;
-    console.log(form.mode, form.tags, j.tags, hs);
+    console.log(form.mode, form.tags, j.get('tags'), hs);
   })();
   if (!fl) return false;
 
   const ok_rgs = Object.entries(form.range).map(([k, value]) => {
-    let vl = j[k];
+    let vl = j.get(k);
     if (vl == null) {
-      console.log(i.id, "no tine", k);
+      console.log(i.get('id'), "no tine", k);
       return true;
     }
     return vl >= value["min"] && vl <= value["max"];
   });
   if (ok_rgs.includes(false)) return false;
 
-  const lang = (()=> {
+  const lang = (() => {
     const lang = form.lang;
     if (lang == null || lang.length == 0) return true;
-    if (j.spa == null) return lang.includes("null");
-    const {audio, subtitles} = j.spa;
-    if (lang.includes("mute") && (audio === null  && subtitles === null))  return true;
-    if (lang.includes("vdse") && (audio === true  && subtitles === true))  return true;
-    if (lang.includes("vds")  && (audio === true  && subtitles === false)) return true;
-    if (lang.includes("vd")   && (audio === true  && subtitles === null))  return true;
-    if (lang.includes("vose") && (audio === false && subtitles === true))  return true;
-    if (lang.includes("vos")  && (audio === false && subtitles === false)) return true;
-    if (lang.includes("vo")   && (audio === false && subtitles === null))  return true;
-    if (lang.includes("se")   && (audio === null  && subtitles === true))  return true;
-    if (lang.includes("s")    && (audio === null  && subtitles === false)) return true;
+    const spa = j.get('spa');
+    if (spa == null) return lang.includes("null");
+    const audio = spa.get('audio');
+    const subtitles = spa.get('subtitles');
+    if (lang.includes("mute") && (audio === null && subtitles === null)) return true;
+    if (lang.includes("vdse") && (audio === true && subtitles === true)) return true;
+    if (lang.includes("vds") && (audio === true && subtitles === false)) return true;
+    if (lang.includes("vd") && (audio === true && subtitles === null)) return true;
+    if (lang.includes("vose") && (audio === false && subtitles === true)) return true;
+    if (lang.includes("vos") && (audio === false && subtitles === false)) return true;
+    if (lang.includes("vo") && (audio === false && subtitles === null)) return true;
+    if (lang.includes("se") && (audio === null && subtitles === true)) return true;
+    if (lang.includes("s") && (audio === null && subtitles === false)) return true;
     return false;
   })();
 
@@ -341,10 +346,10 @@ function filtrar(new_type) {
     n.classList.remove("off");
     ok++;
   });
-  if (ok == form.gamelist.length) {
+  if (ok == form.gamelist.size) {
     document.title = `${ok} juegos`;
   } else {
-    document.title = `${ok}/${form.gamelist.length} juegos`;
+    document.title = `${ok}/${form.gamelist.size} juegos`;
   }
   const div = document.getElementById("games");
   div.classList.remove("hideIfJS");
@@ -395,13 +400,12 @@ function setOrder() {
   document.querySelectorAll('#order option:not([value="' + def_order + '"])').forEach(o => {
     ((v) => {
       if (v == 'T') return $$("a.title").sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim())).map(t => t.closest("div.game"));
-      if (v == 'D') return Object.entries(GAME).map(([k, v]) => [k, v.antiquity]).sort((a, b) => a[1] - b[1]).map(i => document.getElementById("g" + i[0]));
+      if (v == 'D') return Array.from(GAME.entries()).map(([k, v]) => [k, v.antiquity]).sort((a, b) => a[1] - b[1]).map(i => document.getElementById("g" + i[0]));
       return [];
     })(o.value).forEach((d, index) => {
       d.setAttribute("data-order-" + o.value.toLocaleLowerCase(), index);
     });
   })
-
 }
 
 document.addEventListener(

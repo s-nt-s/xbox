@@ -202,7 +202,8 @@ class Game:
                 rate=uAverageRating,
                 reviews=uRatingCount
             )
-        logger.warning(f"{self.id} {rTotalRatingsCount} reviews vs {uRatingCount} reviews decendents_id={self.decendents_id}")
+        logger.warning(
+            f"{self.id} {rTotalRatingsCount} reviews vs {uRatingCount} reviews decendents_id={self.decendents_id}")
         return dict(
             rate=rAverageRating,
             reviews=rTotalRatingsCount
@@ -601,7 +602,8 @@ class Game:
     def full_tags(self):
         tags = list(self.tags)
         if self.audio_subtitles is not None:
-            au_su = (self.audio_subtitles['subtitles'], self.audio_subtitles['audio'])
+            au_su = (self.audio_subtitles['subtitles'],
+                     self.audio_subtitles['audio'])
             if self.audio_subtitles['subtitles']:
                 tags.insert(0, "Subtitulado")
             if self.audio_subtitles['audio']:
