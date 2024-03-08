@@ -62,7 +62,7 @@ class FormQuery {
       }
       d[n.id] = v;
     });
-    d.range = getRanges(...FormQuery.RANGE.filter(r=>(document.getElementById(r+'_min')?.disabled) === false));
+    d.range = getRanges(...FormQuery.RANGE.filter(r => (document.getElementById(r + '_min')?.disabled) === false));
     d.gamelist = (() => {
       if (d.gamepass) return GAMEPASS;
       if (d.demos) return DEMO_AND_TRIAL;
@@ -201,9 +201,9 @@ class FormQuery {
       return [k, true];
     }
     let v = tmp[1];
-    if (FormQuery.RANGE.includes(k) && v.match(/^\d+$/) && MX[k]!=null) {
-      if (k == "price") v='0-'+v;
-      else v=v+'-'+MX[k];
+    if (FormQuery.RANGE.includes(k) && v.match(/^\d+$/) && MX[k] != null) {
+      if (k == "price") v = '0-' + v;
+      else v = v + '-' + MX[k];
     }
     const n = Number(v);
     if (!isNaN(n)) return [k, n];
@@ -302,27 +302,27 @@ function _filter(form, id) {
   const ok_rgs = Object.entries(form.range).map(([k, value]) => {
     let vl = j[k];
     if (vl == null) {
-      console.log(i.id, "no tine", k);
+      console.log(j.id, "no tine", k);
       return true;
     }
     return vl >= value["min"] && vl <= value["max"];
   });
   if (ok_rgs.includes(false)) return false;
 
-  const lang = (()=> {
+  const lang = (() => {
     const lang = form.lang;
     if (lang == null || lang.length == 0) return true;
     if (j.spa == null) return lang.includes("null");
-    const {audio, subtitles} = j.spa;
-    if (lang.includes("mute") && (audio === null  && subtitles === null))  return true;
-    if (lang.includes("vdse") && (audio === true  && subtitles === true))  return true;
-    if (lang.includes("vds")  && (audio === true  && subtitles === false)) return true;
-    if (lang.includes("vd")   && (audio === true  && subtitles === null))  return true;
-    if (lang.includes("vose") && (audio === false && subtitles === true))  return true;
-    if (lang.includes("vos")  && (audio === false && subtitles === false)) return true;
-    if (lang.includes("vo")   && (audio === false && subtitles === null))  return true;
-    if (lang.includes("se")   && (audio === null  && subtitles === true))  return true;
-    if (lang.includes("s")    && (audio === null  && subtitles === false)) return true;
+    const { audio, subtitles } = j.spa;
+    if (lang.includes("mute") && (audio === null && subtitles === null)) return true;
+    if (lang.includes("vdse") && (audio === true && subtitles === true)) return true;
+    if (lang.includes("vds") && (audio === true && subtitles === false)) return true;
+    if (lang.includes("vd") && (audio === true && subtitles === null)) return true;
+    if (lang.includes("vose") && (audio === false && subtitles === true)) return true;
+    if (lang.includes("vos") && (audio === false && subtitles === false)) return true;
+    if (lang.includes("vo") && (audio === false && subtitles === null)) return true;
+    if (lang.includes("se") && (audio === null && subtitles === true)) return true;
+    if (lang.includes("s") && (audio === null && subtitles === false)) return true;
     return false;
   })();
 
