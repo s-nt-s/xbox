@@ -206,7 +206,7 @@ def game_info(gamelist: GameList):
 j = Jnj2("template/", "out/")
 j.create_script(
     "info.js",
-    ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
+    #ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
     GAME=game_info(glist),
     DEMO=sorted((i.id for i in glist.items if i.isDemo)),
     PREVIEW=sorted((i.id for i in glist.items if i.isPreview)),

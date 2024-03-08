@@ -1,8 +1,10 @@
 const isLocal = ["", "localhost"].includes(document.location.hostname);
 const $$ = (slc) => Array.from(document.querySelectorAll(slc));
 const DEMO_AND_TRIAL = Array.from((new Set(DEMO.concat(TRIAL))));
-const DEMO_AND_PREVIEW = Array.from((new Set(DEMO.concat(PREVIEW))));
-const REAL_GAMES = Array.from(Object.keys(GAME).filter(g => !DEMO_AND_PREVIEW.includes(g)));
+const REAL_GAMES = (() => {
+  const DEMO_AND_PREVIEW = Array.from((new Set(DEMO.concat(PREVIEW))));
+  return Array.from(Object.keys(GAME).filter(g => !DEMO_AND_PREVIEW.includes(g)));
+})();
 
 function firsOptionValue(id) {
   const elm = document.getElementById(id);
