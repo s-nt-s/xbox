@@ -2,6 +2,8 @@ import requests
 from functools import cached_property, cache
 from typing import Tuple, Dict, Union
 import logging
+from os import environ
+from .cache import Cache
 
 logger = logging.getLogger(__name__)
 
@@ -23,7 +25,14 @@ class IGDB:
         self.s = requests.Session()
         self.s.headers.update({"Accept": "application/json"})
 
-    def login(self, id: str, secret: str):
+    @staticmethod
+    @cache
+    def get(*args, **kwargs):
+        db = IGDB()
+        db.login(*args, **kwargs)
+        return db
+
+    def login(self, id: str = environ.get('IGDB_ID'), secret: str = environ.get('IGDB_SECRET')):
         r = self.s.post(
             f"https://id.twitch.tv/oauth2/token?client_id={id}&client_secret={secret}&grant_type=client_credentials")
         access_token = r.json()['access_token']
@@ -35,9 +44,9 @@ class IGDB:
         logger.debug("login OK")
 
     @cache
-    def get(self, path: str, query: str, chunkme: Union[Tuple, None] = None) -> Tuple[Dict]:
+    def post(self, path: str, query: str, chunkme: Union[Tuple, None] = None) -> Tuple[Dict]:
         if chunkme is not None:
-            return self.__get_chunk(path, query, chunkme, 2000)
+            return self.__post_chunk(path, query, chunkme, 2000)
         hasLimit = True
         arr = []
         ori_quey = str(query)
@@ -46,29 +55,29 @@ class IGDB:
             query = query + ' limit 500;'
             hasLimit = False
         while True:
-            chunk = self.__get(path, query+offset)
+            chunk = self.__post(path, query+offset)
             arr.extend(chunk)
             if len(chunk) < 500 or hasLimit:
                 logger.debug(f"{len(arr):>4} {path} {ori_quey}")
                 return tuple(arr)
             offset = f'offset {len(arr)};'
 
-    def __get_chunk(self, path: str, query: str, chunkme: Tuple, chunksize: int) -> Tuple[Dict]:
+    def __post_chunk(self, path: str, query: str, chunkme: Tuple, chunksize: int) -> Tuple[Dict]:
         if chunkme is None:
-            raise ValueError("chunkme debe not None")
+            raise ValueError("chunkme no debe ser None")
         if not isinstance(chunkme, tuple):
             raise ValueError(f"chunkme debe ser una tupla, no un {type(chunkme)}")
         if len(chunkme) == 0:
             raise ValueError("chunkme debe ser una tupla no vacía")
         if len(chunkme) <= chunksize:
-            return self.get(path, query.format(chunkme), chunkme=None)
+            return self.post(path, query.format(chunkme), chunkme=None)
         arr = []
         for chunk in get_chunks(chunkme, chunksize):
-            arr.extend(self.get(path, query.format(chunk), chunkme=None))
+            arr.extend(self.post(path, query.format(chunk), chunkme=None))
         logger.debug(f"{len(arr):>4} {path} {query.format(chunkme)}")
         return tuple(arr)
 
-    def __get(self, path, query):
+    def __post(self, path, query):
         url = 'https://api.igdb.com/v4/'+path
         r = self.s.post(url, data=query)
         js = r.json()
@@ -85,7 +94,7 @@ class IGDB:
 
     def get_ids(self, path: str, query: str, chunkme: Union[Tuple, None] = None, idname='id') -> Tuple[int]:
         ids = set()
-        for r in self.get(path, query, chunkme=chunkme):
+        for r in self.post(path, query, chunkme=chunkme):
             ids.add(r[idname])
         ids = tuple(sorted(ids))
         if chunkme is not None:
@@ -105,22 +114,16 @@ class IGDB:
     @cached_property
     def language_support_types(self):
         lang = {}
-        for r in self.get("language_support_types", 'fields name;'):
+        for r in self.post("language_support_types", 'fields name;'):
             lang[r['name'].lower()] = r['id']
         return lang
-
-    def get_spanish_games(self) -> Dict[str, Tuple[int]]:
-        lang_support = {}
-        for name, support_type in self.language_support_types.items():
-            lang_support[name] = self.get_ids('games', f'fields id; where release_dates.platform = {self.xbox} & language_supports.language = {self.spanish} & language_supports.language_support_type = {support_type};')
-        return lang_support
 
     @cached_property
     def id_to_xbox(self):
         # https://api-docs.igdb.com/?python#external-game-enums
         data = {}
         category = 11
-        for r in self.get('external_games', f'fields game, url; where category = {category};'):
+        for r in self.post('external_games', f'fields game, url; where category = {category};'):
             xbox: str = r['url'].split("/")[-1]
             if len(xbox) == 12 and xbox.upper() == xbox:
                 data[r['game']] = xbox
@@ -130,7 +133,7 @@ class IGDB:
     def xbox_to_id(self):
         return {v: k for k, v in self.id_to_xbox.items()}
 
-    @cache
+    @Cache("rec/igdb/language_supports/{}.json")
     def get_language_supports(self, support_type):
         ids = tuple(sorted(self.id_to_xbox.keys()))
         noSpa = " & ".join(map(lambda x: f'language_supports.language != {x}', self.spanish))
@@ -146,7 +149,7 @@ class IGDB:
         )
         return isSpa, isExt
 
-    @cache
+    @Cache("rec/igdb/spanish/{}.json")
     def get_spanish(self, xboxid):
         igdbid = self.xbox_to_id.get(xboxid)
         if igdbid is None:
