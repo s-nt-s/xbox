@@ -221,7 +221,6 @@ j.save(
     gl=glist,
     now=now
 )
-top_paid = EndPointCollection("TopPaid").json()[1]['Id']
 
 
 def dict_to_game_list(obj: Dict[str, Set[str]]):
@@ -238,7 +237,6 @@ j.save(
     browser=URL_GAMES_BROWSER,
     catalogs=api.get_catalog_list(),
     collections=api.get_collection_list(),
-    product=EndPointProduct(top_paid),
     complements=dict_to_game_list(COMP),
     older=dict_to_game_list(OLDR),
     bad_deal=BADD,
