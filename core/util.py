@@ -75,3 +75,12 @@ def dict_add(obj: Dict[str, Set], a: str, b: Union[str, List[str], Set[str], Tup
 
 def dict_tuple(obj: Dict[str, Union[Set, List, Tuple]]):
     return {k: tuple(sorted(set(v))) for k, v in obj.items()}
+
+
+def trim(s: str):
+    if s is None:
+        return None
+    s = s.strip()
+    if len(s) == 0:
+        return None
+    return s

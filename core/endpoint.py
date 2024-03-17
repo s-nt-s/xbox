@@ -8,21 +8,12 @@ from json.decoder import JSONDecodeError
 import logging
 from .findwireresponse import FindWireResponse, WireResponse
 import re
-from .util import dict_del
+from .util import dict_del, trim
 
 logger = logging.getLogger(__name__)
 
 S = requests.Session()
 re_sp = re.compile(r"\s+")
-
-
-def _trim(s: str):
-    if s is None:
-        return None
-    s = s.strip()
-    if len(s) == 0:
-        return None
-    return s
 
 
 class AccessDenied(Exception):
@@ -133,7 +124,7 @@ class EndPointCollection(EndPoint):
     @EndPointCache("rec/collection/{id}.txt")
     def ids(self) -> Tuple[str]:
         obj = self.json()
-        ids = list(map(lambda x: _trim(x['Id']), (i for i in obj)))
+        ids = list(map(lambda x: trim(x['Id']), (i for i in obj)))
         if None in ids:
             ids.remove(None)
         return tuple(ids)
@@ -204,7 +195,7 @@ class EndPointCatalog(EndPoint):
     @EndPointCache("rec/catalog/{id}.txt")
     def ids(self) -> Tuple[str]:
         obj = self.json()
-        ids = sorted(map(lambda x: _trim(x['id']), obj[1:]))
+        ids = sorted(map(lambda x: trim(x['id']), obj[1:]))
         if None in ids:
             ids.remove(None)
         return tuple(ids)

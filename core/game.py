@@ -9,7 +9,7 @@ import json
 from math import floor
 from .endpoint import EndPointProduct, EndPointProductPreloadState, EndPointActions, EndPointReviews
 from .api import Api
-from .util import dict_walk
+from .util import dict_walk, trim
 import logging
 from .cache import Cache
 from .igdb import IGDB
@@ -31,15 +31,6 @@ class OverwriteWith(Cache):
 
     def save(self, *args, **kwargs):
         return None
-
-
-def _trim(s: str):
-    if s is None:
-        return None
-    s = s.strip()
-    if len(s) == 0:
-        return None
-    return s
 
 
 @cache
@@ -224,23 +215,23 @@ class Game:
 
     @cached_property
     def productGroup(self) -> str:
-        return _trim(dict_walk(self.i, 'Properties/ProductGroupName'))
+        return trim(dict_walk(self.i, 'Properties/ProductGroupName'))
 
     @cached_property
     def developer(self) -> str:
-        return _trim(dict_walk(self.i, 'LocalizedProperties/0/DeveloperName'))
+        return trim(dict_walk(self.i, 'LocalizedProperties/0/DeveloperName'))
 
     @cached_property
     def publisher(self) -> str:
-        return _trim(dict_walk(self.i, 'LocalizedProperties/0/PublisherName'))
+        return trim(dict_walk(self.i, 'LocalizedProperties/0/PublisherName'))
 
     @cached_property
     def shortTitle(self) -> str:
-        return _trim(dict_walk(self.i, 'LocalizedProperties/0/ShortTitle'))
+        return trim(dict_walk(self.i, 'LocalizedProperties/0/ShortTitle'))
 
     @cached_property
     def productDescription(self) -> str:
-        return _trim(dict_walk(self.i, 'LocalizedProperties/0/ProductDescription'))
+        return trim(dict_walk(self.i, 'LocalizedProperties/0/ProductDescription'))
 
     @cached_property
     def url(self) -> str:
@@ -635,7 +626,7 @@ class Game:
         if obj is None:
             return tuple()
         ids = set([i['productId'] for i in obj])
-        ids = set(map(_trim, ids))
+        ids = set(map(trim, ids))
         for i in (self.id, None):
             if i in ids:
                 ids.remove(i)
@@ -652,7 +643,7 @@ class Game:
             aux.add(o['productId'])
         for o in _find(f'products/productSummaries/{self.id}/bundlesBySeed'):
             aux.add(o)
-        aux = set(map(_trim, aux))
+        aux = set(map(trim, aux))
         for i in (self.id, None):
             if i in aux:
                 aux.remove(i)
