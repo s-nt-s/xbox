@@ -52,7 +52,7 @@ jobs:
           retry_on: any
           command: python dwn.py --browse --game --action --review
       - name: DWN
-        continue-on-error: true
+        continue-on-error: false
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 55
