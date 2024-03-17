@@ -205,6 +205,8 @@ class EndPointProduct(EndPoint):
         return obj
 
     def parse(self, js: Dict) -> Union[Dict, None]:
+        if 'Products' not in js:
+            raise KeyError(f'Products not found in {self.url} {js}')
         for i in js['Products']:
             if i['ProductId'] == self.id:
                 return self.__parse(i)

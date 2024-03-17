@@ -29,6 +29,8 @@ class BulkRequestsGame(BulkRequestsFileJob):
     async def do(self, session: ClientSession) -> bool:
         async with session.get(self.url) as response:
             js = await response.json()
+            if 'Products' not in js:
+                raise KeyError(f'Products not found in {self.url} {js}')
             for i in js['Products']:
                 endpoint = EndPointProduct(i['ProductId'])
                 endpoint.save_in_cache(js)
