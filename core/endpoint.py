@@ -16,6 +16,15 @@ S = requests.Session()
 re_sp = re.compile(r"\s+")
 
 
+def _trim(s: str):
+    if s is None:
+        return None
+    s = s.strip()
+    if len(s) == 0:
+        return None
+    return s
+
+
 class AccessDenied(Exception):
     pass
 
@@ -55,7 +64,10 @@ class EndPointCache(Cache):
         try:
             obj = super().read(file, *args, **kwargs)
             if isinstance(obj, str):
-                return tuple(sorted(set(re.split(r"\s+", obj))))
+                lines = set(re.split(r"\s+", obj.strip()))
+                if "" in lines:
+                    lines.remove("")
+                return tuple(sorted(lines))
             return obj
         except JSONDecodeError:
             logger.critical("NOT JSON "+file)
@@ -121,8 +133,10 @@ class EndPointCollection(EndPoint):
     @EndPointCache("rec/collection/{id}.txt")
     def ids(self) -> Tuple[str]:
         obj = self.json()
-        gen = map(lambda x: x['Id'], (i for i in obj))
-        return tuple(sorted(gen))
+        ids = list(map(lambda x: _trim(x['Id']), (i for i in obj)))
+        if None in ids:
+            ids.remove(None)
+        return tuple(ids)
 
 
 class EndPointCatalogList(EndPoint):
@@ -190,8 +204,10 @@ class EndPointCatalog(EndPoint):
     @EndPointCache("rec/catalog/{id}.txt")
     def ids(self) -> Tuple[str]:
         obj = self.json()
-        gen = map(lambda x: x['id'], obj[1:])
-        return tuple(sorted(gen))
+        ids = sorted(map(lambda x: _trim(x['id']), obj[1:]))
+        if None in ids:
+            ids.remove(None)
+        return tuple(ids)
 
 
 class EndPointProduct(EndPoint):

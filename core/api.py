@@ -2,7 +2,7 @@ from functools import cache
 
 import requests
 
-from typing import Dict, Set, Tuple, NamedTuple
+from typing import Dict, Set, NamedTuple
 import re
 import logging
 from .search import EndPointSearchPreloadState, EndPointSearchXboxSeries

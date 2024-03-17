@@ -22,7 +22,6 @@ re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
 re_sp = re.compile(r"\s+")
 
 
-
 class OverwriteWith(Cache):
     def __init__(self, file: str, *args, **kwargs):
         super().__init__(file, *args, kwself="slf", **kwargs)
@@ -636,8 +635,10 @@ class Game:
         if obj is None:
             return tuple()
         ids = set([i['productId'] for i in obj])
-        if self.id in ids:
-            ids.remove(self.id)
+        ids = set(map(_trim, ids))
+        for i in (self.id, None):
+            if i in ids:
+                ids.remove(i)
         return tuple(sorted(ids))
 
     @cached_property
@@ -651,8 +652,10 @@ class Game:
             aux.add(o['productId'])
         for o in _find(f'products/productSummaries/{self.id}/bundlesBySeed'):
             aux.add(o)
-        if self.id in aux:
-            aux.remove(self.id)
+        aux = set(map(_trim, aux))
+        for i in (self.id, None):
+            if i in aux:
+                aux.remove(i)
         ids = set()
         for i in map(Game.get, aux):
             if self.id in i.bundle:
