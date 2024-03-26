@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  {% with root=".." %} {% include "header.html" %} {% endwith %}
+  {% include "header.html" %}
   <main>
     <h1>¿Qué juegos aparecen en la web?</h1>
     <p>
@@ -173,9 +173,7 @@
     <p>Los datos de xbox pero con matices, lee <a href="https://github.com/s-nt-s/xbox/issues/2">este
         issue</a> para obtener más información.</p>
   </main>
-  {% with root="." %}
   {% include "footer.html" %}
-  {% endwith %}
 </body>
 
 </html>

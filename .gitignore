@@ -1,8 +1,10 @@
+myenv
 out/*
-!out/main.css
-!out/main.js
 *_rec/
 rec/
+!out/main.css
+!out/main.js
+!out/rec/
 .idea
 *.log
 notas.txt

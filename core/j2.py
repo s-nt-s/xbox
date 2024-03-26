@@ -1,14 +1,31 @@
 import json
-import os
 import re
 from datetime import date, datetime
 from urllib.parse import quote_plus
 from minify_html import minify
+from unidecode import unidecode
+from _collections_abc import dict_items
+from os.path import relpath, dirname, exists, isfile
+from os import environ, makedirs
+from base64 import b64encode
 
 import bs4
 from jinja2 import Environment, FileSystemLoader
 
 re_br = re.compile(r"<br/>(\s*</)")
+re_sp = re.compile(r"\s+")
+PAGE_URL = environ['PAGE_URL']
+REPO_URL = environ['REPO_URL']
+
+def simplify(s: str):
+    s = s.replace("/", " ")
+    s = re_sp.sub(" ", s).strip().lower()
+    s = unidecode(s)
+    spl = s.rsplit(",", 1)
+    if len(spl) == 2 and spl[1].strip() in ('el', 'la', 'los', 'las'):
+        s = spl[0].strip()
+    s = re_sp.sub("-", s)
+    return s
 
 
 def jinja_quote_plus(s: str):
@@ -45,23 +62,6 @@ def decimal(value):
     return str(value).replace(".", ",")
 
 
-def mb(value):
-    if not isinstance(value, (int, float)):
-        return value
-    v = round(value)
-    if v == 0:
-        v = round(value*10)/10
-    if v != 0:
-        return str(v)+" MB"
-    value = value * 1024
-    v = round(v)
-    if v != 0:
-        return str(v)+" KB"
-    value = value * 1024
-    v = round(v)
-    return str(v)+" B"
-
-
 def toTag(html, *args):
     if len(args) > 0:
         html = html.format(*args)
@@ -92,27 +92,40 @@ def get_default_target_links(soup: bs4.Tag):
 
 class Jnj2():
 
-    def __init__(self, origen, destino, pre=None, post=None):
+    def __init__(self, origen, destino, favicon=None, pre=None, post=None):
         self.j2_env = Environment(
             loader=FileSystemLoader(origen), trim_blocks=True)
         self.j2_env.filters['millar'] = millar
         self.j2_env.filters['decimal'] = decimal
-        self.j2_env.filters['mb'] = mb
         self.j2_env.filters['quote_plus'] = jinja_quote_plus
         self.j2_env.filters['to_attr'] = to_attr
         self.j2_env.filters['to_value'] = to_value
+        self.j2_env.filters['simplify'] = simplify
         self.destino = destino
         self.pre = pre
         self.post = post
         self.lastArgs = None
-        self.minify = os.environ.get("MINIFY") == "1"
+        self.minify = environ.get("MINIFY") == "1"
+        self.favicon = favicon
+
+    def get_svg_favicon(self):
+        if self.favicon is None:
+            return None
+        svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">{self.favicon}</text></svg>'
+        b64 = b64encode(bytes(svg, 'utf-8')).decode('utf-8')
+        return "data:image/svg+xml;base64,"+b64
 
     def save(self, template, destino=None, parse=None, **kwargs):
         self.lastArgs = kwargs
         if destino is None:
             destino = template
         out = self.j2_env.get_template(template)
-        html = out.render(**kwargs)
+        html = out.render(
+            PAGE_URL=PAGE_URL,
+            REPO_URL=REPO_URL,
+            favicon=self.get_svg_favicon(),
+            **kwargs
+        )
         if self.pre:
             html = self.pre(html, **kwargs)
         if parse:
@@ -120,18 +133,46 @@ class Jnj2():
         if self.post:
             html = self.post(html, **kwargs)
 
+        destino = self.destino + destino
+        directorio = dirname(destino)
+
+        html = self.do_relative(directorio, html)
         html = self.do_minimity(html)
         html = self.set_target(html)
+        html = self.add_favicon(html)
 
-        destino = self.destino + destino
-        directorio = os.path.dirname(destino)
-
-        if not os.path.exists(directorio):
-            os.makedirs(directorio)
+        if not exists(directorio):
+            makedirs(directorio)
 
         with open(destino, "wb") as fh:
             fh.write(bytes(html, 'UTF-8'))
         return html
+
+    def add_favicon(self, html: str):
+        favicon = self.get_svg_favicon()
+        if favicon is None:
+            return html
+        soup = bs4.BeautifulSoup(html, 'html.parser')
+        soup.find("head").append(toTag(f'<link rel="icon" href="{favicon}"/>'))
+        return str(soup)
+
+    def do_relative(self, directorio: str, html: str):
+        path = "./" + directorio[len(self.destino):].lstrip("/")
+        soup = bs4.BeautifulSoup(html, 'html.parser')
+        n: bs4.Tag
+        for n in soup.findAll(["a", "img", "script", "link", "iframe", "frame"]):
+            attr = "src"
+            if n.name in ("a", "link"):
+                attr = "href"
+            link = n.attrs.get(attr)
+            if link is None or not link.startswith(PAGE_URL):
+                continue
+            link = "./" + link[len(PAGE_URL):].lstrip("/")
+            link = relpath(link, path)
+            if len(link) == 0:
+                link = "./"
+            n.attrs[attr] = link
+        return str(soup)
 
     def do_minimity(self, html: str):
         if not self.minify:
@@ -179,7 +220,7 @@ class Jnj2():
 
     def create_script(self, destino, replace=False, **kargv):
         destino = self.destino + destino
-        if not replace and os.path.isfile(destino):
+        if not replace and isfile(destino):
             return
         indent = 2
         if self.minify:
@@ -190,18 +231,20 @@ class Jnj2():
                 if i > 0:
                     f.write("\n")
                 f.write("const "+k+" = ")
-                if not isinstance(v, str):
-                    json.dump(
-                        v,
-                        f,
-                        indent=indent,
-                        separators=separators,
-                        default=myconverter
-                    )
-                else:
-                    f.write(v)
+                if isinstance(v, str):
+                    f.write(v+";")
+                    continue
+                js = json.dumps(
+                    v,
+                    indent=indent,
+                    separators=separators,
+                )
+                if not self.minify:
+                    js = re.sub(r'\s*\[[^\[\]]+\]\s*',
+                                lambda x: re_sp.sub(" ", x.group()).strip(), js)
+                f.write(js)
                 f.write(";")
 
     def exists(self, destino):
         destino = self.destino + destino
-        return os.path.isfile(destino)
+        return isfile(destino)

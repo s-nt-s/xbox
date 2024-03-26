@@ -19,9 +19,7 @@
 </head>
 
 <body>
-  {% with root="." %}
   {% include "header.html" %}
-  {% endwith %}
   <main>
     <div class="displayIfJS">
       <fieldset class="rangos" id="rangos">
@@ -164,9 +162,7 @@
       {% endfor %}
     </div>
   </main>
-  {% with root="." %}
   {% include "footer.html" %}
-  {% endwith %}
 </body>
 
 </html>

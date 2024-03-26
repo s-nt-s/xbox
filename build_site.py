@@ -203,7 +203,7 @@ def game_info(gamelist: GameList):
     return lst
 
 
-j = Jnj2("template/", "out/")
+j = Jnj2("template/", "out/", favicon="🎮")
 j.create_script(
     "info.js",
     #ANTIQUITY=f"((new Date().setHours(0, 0, 0, 0))-(new Date({now.year}, {now.month-1}, {now.day}))) / (1000 * 60 * 60 * 24)",
