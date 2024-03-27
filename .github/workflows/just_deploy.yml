@@ -21,6 +21,18 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Set TimeZone
+        run: |
+          sudo timedatectl set-timezone "Europe/Madrid"
+      - name: Set ENV variables
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}"
+          REPO_OWNER="${GITHUB_REPOSITORY_OWNER}"
+          PAGE_URL="https://${REPO_OWNER}.github.io/${REPO_NAME}"
+          REPO_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"
+          echo $PAGE_URL
+          echo "PAGE_URL=${PAGE_URL}" >> $GITHUB_ENV
+          echo "REPO_URL=${REPO_URL}" >> $GITHUB_ENV
       - name: Check out this repo
         uses: actions/checkout@v2
       - name: Set up Python
