@@ -374,7 +374,7 @@ class Game:
 
     @cached_property
     @OverwriteWith("fix/spanish/{id}.json")
-    def spanish(self) -> tuple[str]:
+    def spanish(self) -> Dict[str, bool]:
         spa = self.__get_spanish()
         if spa is not None and (spa['interface'], spa['subtitles']) != (None, None):
             return spa
@@ -680,7 +680,12 @@ class GameList:
 
     @cached_property
     def everything_has_subtitles(self):
-        return any(i.audio_subtitles['subtitles'] is not None for i in self.items)
+        for i in self.items:
+            if i.audio_subtitles is None:
+                continue
+            if i.audio_subtitles['subtitles'] is None:
+                return False
+        return True
 
     @cached_property
     def discounts(self):
