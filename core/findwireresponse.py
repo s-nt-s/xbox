@@ -1,4 +1,4 @@
-from typing import NamedTuple, Dict
+from typing import NamedTuple, Dict, Tuple
 import requests
 import json
 from .web import Driver
@@ -33,9 +33,14 @@ class FindWireResponse:
     WR: Dict[str, WireResponse] = {}
 
     @staticmethod
-    def __find_response(url: str, path: str, keyarg: str):
-        with Driver(browser="wirefirefox") as web:
-            web.get(url)
+    def __find_response(*urls: str, path: str = None, keyarg: str, browser="wirefirefox"):
+        with Driver(browser=browser) as web:
+            def __go_to_url():
+                for u in urls[:-1]:
+                    web.get(u)
+                    time.sleep(5)
+                web.get(urls[-1])
+            __go_to_url()
             while True:
                 if "No se encuentra la página solicitada" in str(web.get_soup()):
                     return 404
@@ -43,9 +48,13 @@ class FindWireResponse:
                     web.close()
                     logger.critical("AccessDenied when find_response")
                     time.sleep(600)
-                    web.get(url)
-                r: WireRequest
-                for r in web._driver.requests:
+                    __go_to_url()
+                if "Please complete a security check to continue" in str(web.get_soup()):
+                    web.close()
+                    logger.critical("Captcha when find_response")
+                    time.sleep(600)
+                    __go_to_url()
+                for r in web.wirerequests:
                     if path not in r.path:
                         continue
                     if r.response and r.response.body:
@@ -61,13 +70,34 @@ class FindWireResponse:
                             requests=r,
                             body=js
                         )
+                for r in web.logged_requests:
+                    r_url = r.get('url')
+                    if not isinstance(r_url, str) or path not in r_url:
+                        continue
+                    txt = r.get('response', {}).get("body")
+                    if not isinstance(txt, str):
+                        continue
+                    txt = txt.strip()
+                    try:
+                        js = json.loads(txt)
+                    except JSONDecodeError:
+                        continue
+                    return WireResponse(
+                        key=keyarg,
+                        requests=None,
+                        body=js
+                    )
 
     @staticmethod
-    def find_response(url: str, path: str, keypath=None, keyarg=None):
+    def find_response(*urls: str, path: str = None, keypath=None, keyarg=None, browser="wirefirefox"):
+        if not isinstance(path, str):
+            raise ValueError(f"path must be str, not {path}")
+        if len(urls) == 0:
+            raise ValueError("urls must len >= 1")
         if keypath is None:
             keypath = path
         if FindWireResponse.WR.get(keypath) is None:
-            r = FindWireResponse.__find_response(url, path, keyarg)
+            r = FindWireResponse.__find_response(*urls, path=path, keyarg=keyarg, browser=browser)
             if isinstance(r, int):
                 return r
             FindWireResponse.WR[keypath] = r

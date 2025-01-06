@@ -1,7 +1,7 @@
 import re
 from os.path import isfile
 from functools import cached_property, cache
-from typing import Union, Tuple, Dict, Set
+from typing import Union, Tuple, Dict, Set, NamedTuple
 from math import ceil
 from dataclasses import dataclass
 from datetime import date
@@ -20,6 +20,14 @@ YEAR = date.today().year+1
 re_compras = re.compile(r"\bcompras\b", re.IGNORECASE)
 re_date = re.compile(r"^\d{4}-\d{2}-\d{2}.*")
 re_sp = re.compile(r"\s+")
+
+
+class GameBasic(NamedTuple):
+    title: str
+    price: float
+    discount: float
+    url: str
+    img: str
 
 
 class OverwriteWith(Cache):

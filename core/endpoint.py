@@ -287,7 +287,7 @@ class EndPointWire(EndPoint):
     def find_response(self):
         return FindWireResponse.find_response(
             "https://www.xbox.com/es-es/games/store/a/"+self.id,
-            self.path+self.id,
+            path=self.path+self.id,
             keypath=self.path,
             keyarg=self.id
         )

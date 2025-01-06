@@ -1,7 +1,11 @@
 import os
 import re
 import time
+import base64
 from urllib.parse import parse_qsl, urljoin, urlsplit
+
+from os.path import dirname, join, isfile
+import stat
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -11,6 +15,8 @@ from webdriver_manager.core.utils import read_version_from_cmd
 from webdriver_manager.core.os_manager import PATTERN
 from selenium import webdriver
 from seleniumwire import webdriver as wirewebdriver
+from json.decoder import JSONDecodeError
+from seleniumwire.webdriver.request import Request as WireRequest
 from selenium.common.exceptions import (ElementNotInteractableException,
                                         ElementNotVisibleException,
                                         StaleElementReferenceException,
@@ -26,7 +32,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
 import logging
-from typing import Union
+from typing import Union, Tuple, Dict, Any, List
+import json
+from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 
@@ -178,7 +186,8 @@ class Web:
 FF_DEFAULT_PROFILE = {
     "browser.tabs.drawInTitlebar": True,
     "browser.uidensity": 1,
-    "dom.webdriver.enabled": False
+    "dom.webdriver.enabled": False,
+    "useAutomationExtension": False
 }
 
 
@@ -198,12 +207,18 @@ class Driver:
                 driver_version=get_version("/usr/bin/chromium"),
                 chrome_type=ChromeType.CHROMIUM
             ).install()
+            dr = dirname(Driver.DRIVER_PATH)
+            dp = join(dr, 'chromedriver')
+            if isfile(dp) and dp != Driver.DRIVER_PATH:
+                os.chmod(dp, os.stat(dp).st_mode | stat.S_IXUSR)
+                Driver.DRIVER_PATH = dp
         return Driver.DRIVER_PATH
 
     def __init__(self, browser=None, wait=60, useragent=None):
         # Driver.find_driver_path()
-        self._driver: WebDriver = None
         self.visible = (os.environ.get("DRIVER_VISIBLE") == "1")
+        logger.debug(f"Driver.visible={self.visible}")
+        self._driver: WebDriver = None
         self._wait = wait
         self.useragent = useragent
         self.browser = browser
@@ -214,8 +229,17 @@ class Driver:
     def __exit__(self, *args, **kwargs):
         self.close()
 
-    def _create_firefox(self):
+    def __get_ff_options(self):
         options = FFoptions()
+        options.set_preference("dom.webdriver.enabled", False)
+        options.set_preference("useAutomationExtension", False)
+        options.set_preference("general.platform.override", "Win32")
+        options.add_argument("--lang=es-ES") 
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        return options
+
+    def _create_firefox(self):
+        options = self.__get_ff_options()
         options.headless = not self.visible
         profile = webdriver.FirefoxProfile()
         if self.useragent:
@@ -226,6 +250,24 @@ class Driver:
             profile.DEFAULT_PREFERENCES['frozen'][k] = v
         profile.update_preferences()
         driver = webdriver.Firefox(
+            options=options, firefox_profile=profile)
+        driver.maximize_window()
+        driver.implicitly_wait(5)
+        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+        return driver
+
+    def _create_wirefirefox(self):
+        options = self.__get_ff_options()
+        options.headless = not self.visible
+        profile = wirewebdriver.FirefoxProfile()
+        if self.useragent:
+            profile.set_preference(
+                "general.useragent.override", self.useragent)
+        for k, v in FF_DEFAULT_PROFILE.items():
+            profile.set_preference(k, v)
+            profile.DEFAULT_PREFERENCES['frozen'][k] = v
+        profile.update_preferences()
+        driver = wirewebdriver.Firefox(
             options=options, firefox_profile=profile)
         driver.maximize_window()
         driver.implicitly_wait(5)
@@ -266,19 +308,56 @@ class Driver:
         driver.implicitly_wait(5)
         return driver
 
-    def _create_wirefirefox(self):
-        options = FFoptions()
-        options.headless = not self.visible
-        profile = wirewebdriver.FirefoxProfile()
+    def _create_wirechrome(self):
+        options = CMoptions()
+        if not self.visible:
+            options.add_argument('headless')
         if self.useragent:
-            profile.set_preference(
-                "general.useragent.override", self.useragent)
-        for k, v in FF_DEFAULT_PROFILE.items():
-            profile.set_preference(k, v)
-            profile.DEFAULT_PREFERENCES['frozen'][k] = v
-        profile.update_preferences()
-        driver = wirewebdriver.Firefox(
-            options=options, firefox_profile=profile)
+            options.add_argument('user-agent=' + self.useragent)
+        options.add_argument("start-maximized")
+        options.add_argument("--disable-extensions")
+        options.add_argument('--disable-blink-features=AutomationControlled')
+        options.add_argument("--lang=es-ES")
+        options.add_experimental_option(
+            'excludeSwitches', ['enable-automation'])
+        options.add_experimental_option('useAutomationExtension', False)
+
+        driver = wirewebdriver.Chrome(
+            Driver.find_driver_path(),
+            options=options
+        )
+        driver.maximize_window()
+        driver.implicitly_wait(5)
+        return driver
+
+    def _create_devchrome(self):
+        options = CMoptions()
+        if not self.visible:
+            options.add_argument('--headless=new')
+        if self.useragent:
+            options.add_argument('user-agent=' + self.useragent)
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("disable-infobars")
+        options.add_argument("--remote-debugging-port=9222")
+
+        options.add_argument("start-maximized")
+        options.add_argument("--disable-software-rasterizer")
+        options.add_argument("--disable-extensions")
+        options.add_argument('--disable-blink-features=AutomationControlled')
+        options.add_argument("--lang=es-ES")
+        options.add_experimental_option(
+            'excludeSwitches', ['enable-automation'])
+        options.add_experimental_option('useAutomationExtension', False)
+
+        capabilities = webdriver.DesiredCapabilities.CHROME
+        capabilities["goog:loggingPrefs"] = {"performance": "ALL"}
+        driver = webdriver.Chrome(
+            Driver.find_driver_path(),
+            options=options,
+            desired_capabilities=capabilities
+        )
         driver.maximize_window()
         driver.implicitly_wait(5)
         return driver
@@ -474,3 +553,81 @@ class Driver:
         with open(file, "r") as f:
             js = f.read()
         return self.execute_script(js)
+
+    @property
+    def wirerequests(self) -> Tuple[WireRequest]:
+        if self._driver is None:
+            return tuple()
+        try:
+            return tuple(self._driver.requests)
+        except AttributeError:
+            return tuple()
+
+    @property
+    def logged_requests(self) -> Tuple[Dict[str, Any]]:
+        request_map: Dict[str, Dict] = {}
+
+        for m in self.iter_logs_messages("performance"):
+            method = m["method"]
+            params: Dict = m["params"]
+            request_id = params.get("requestId")
+            if request_id is None:
+                continue
+            if request_id not in request_map:
+                request_map[request_id] = {
+                    'request_id': request_id,
+                    'response': {}
+                }
+            request: Dict = params.get("request")
+            response: Dict = params.get("response")
+            if method == "Network.requestWillBeSent":
+                request_map[request_id]["url"] = request["url"]
+                request_map[request_id]["method"] = request["method"]
+                request_map[request_id]["headers"] = request.get("headers", {})
+            elif method == "Network.responseReceived":
+                request_map[request_id]["response"]["status"] = response["status"]
+                request_map[request_id]["response"]["headers"] = response["headers"]
+            elif method == "Network.loadingFinished":
+                request_map[request_id]["response"]["body"] = self.__get_body_from_requests(request_id)
+
+        for request_id, request in request_map.items():
+            if request['response'].get('body') is None:
+                request["response"]["body"] = self.__get_body_from_requests(request_id)
+
+        return tuple(request_map.values())
+
+    def __get_body_from_requests(self, request_id: str) -> Union[str, None]:
+        if self._driver is None:
+            return None
+        try:
+            rsp = self._driver.execute_cdp_cmd(
+                "Network.getResponseBody",
+                {"requestId": request_id}
+            )
+            if not isinstance(rsp, dict) or "body" not in rsp:
+                return rsp
+            body = rsp["body"]
+            base64Encoded = rsp.get("base64Encoded")
+            if base64Encoded in (None, False) or body is None:
+                return body
+            return base64.b64decode(body)
+        except WebDriverException:
+            return None
+
+    def iter_logs_messages(self, log_type: str):
+        logs = self.get_log(log_type)
+        if logs is not None:
+            for log in logs:
+                try:
+                    obj: Dict[str, Any] = json.loads(log["message"])['message']
+                    yield obj
+                except (JSONDecodeError, AttributeError) as e:
+                    continue
+
+    def get_log(self, log_type: str):
+        if self._driver is None:
+            return None
+        try:
+            return self._driver.get_log(log_type=log_type)
+        except WebDriverException:
+            return None

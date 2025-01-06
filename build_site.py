@@ -6,7 +6,6 @@ from datetime import datetime
 from core.game import Game, GameList
 import filter.filter as gfilter
 from core.search import URL_GAMES_BROWSER
-from core.endpoint import EndPointCollection, EndPointProduct
 from core.util import dict_add
 from typing import List, Tuple, Dict, Set
 from core.log import config_log
