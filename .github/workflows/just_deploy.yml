@@ -1,6 +1,8 @@
 name: just_deploy
 on:
   workflow_dispatch:
+  schedule:
+  - cron: '0 4 * * *'
 permissions:
   contents: read
   pages: write
