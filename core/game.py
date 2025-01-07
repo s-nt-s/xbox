@@ -132,7 +132,7 @@ class Game:
         return dict_walk(
             self.i,
             'DisplaySkuAvailabilities/0/Availabilities/0/OrderManagementData/Price/ListPrice',
-            raise_if_not_found=True
+            instanceof=float
         )
 
     @cached_property
@@ -214,7 +214,7 @@ class Game:
         title: str = dict_walk(
             self.i,
             'LocalizedProperties/0/ProductTitle',
-            raise_if_not_found=True
+            instanceof=str
         )
         title = re.sub(r"—|–™", "-", title)
         title = re.sub(r"®|™", "", title)
@@ -467,7 +467,7 @@ class Game:
         return dict_walk(
             self.i,
             'DisplaySkuAvailabilities/0/Sku/Properties/IsBundle',
-            raise_if_not_found=True
+            instanceof=bool
         )
 
     @cached_property
@@ -479,7 +479,7 @@ class Game:
         return dict_walk(
             self.i,
             'DisplaySkuAvailabilities/0/Sku/Properties/IsPreOrder',
-            raise_if_not_found=True
+            instanceof=bool
         )
 
     @cached_property

@@ -1,7 +1,22 @@
-from typing import Union, Dict, List, Set, Tuple
+from typing import Union, Dict, List, Set, Tuple, Type
 
 
-def dict_walk(d: Union[Dict, List, None], path: str, raise_if_not_found=False):
+def dict_walk(obj: Union[Dict, List, None], path: str, instanceof: Union[None, Type, Tuple[Type, ...]] = None):
+    raise_if_not_found = False
+    if instanceof is not None:
+        if isinstance(instanceof, type) and instanceof is not type(None):
+            raise_if_not_found = True
+        elif isinstance(instanceof, tuple) and type(None) not in instanceof:
+            raise_if_not_found = True
+    v = _dict_walk(obj, path, raise_if_not_found=raise_if_not_found)
+    if isinstance(v, str):
+        v = trim(v)
+    if instanceof is not None and not isinstance(v, instanceof):
+        raise ValueError(f"{path} is {type(v)} instead of {instanceof}")
+    return v
+
+
+def _dict_walk(d: Union[Dict, List, None], path: str, raise_if_not_found=False):
     if d is None:
         if raise_if_not_found:
             raise ValueError(f"{d} must be a list or dict")
