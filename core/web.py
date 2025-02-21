@@ -358,7 +358,10 @@ class Driver:
             options=options,
             desired_capabilities=capabilities
         )
-        driver.maximize_window()
+        try:
+            driver.maximize_window()
+        except WebDriverException:
+            pass
         driver.implicitly_wait(5)
         return driver
 
