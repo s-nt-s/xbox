@@ -370,7 +370,7 @@ class Driver:
         if self._driver is None:
             crt = getattr(self, "_create_" + str(self.browser), None)
             if crt is None:
-                raise Exception("Not implemented yet: %s" % self.browser)
+                raise NotImplementedError("Not implemented yet: %s" % self.browser)
             self._driver = crt()
         return self._driver
 
@@ -535,9 +535,6 @@ class Driver:
         if after is not None:
             time.sleep(after)
         return 1
-
-    def execute_script(self, *args, **kwargs):
-        return self.driver.execute_script(*args, **kwargs)
 
     def pass_cookies(self, session=None):
         if self._driver is None:
