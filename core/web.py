@@ -553,7 +553,7 @@ class Driver:
     def run_script(self, file: str):
         with open(file, "r") as f:
             js = f.read()
-        return self.execute_script(js)
+        return self._driver.execute_script(js)
 
     @property
     def wirerequests(self) -> Tuple[WireRequest]:
