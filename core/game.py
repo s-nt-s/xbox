@@ -1,7 +1,7 @@
 import re
 from os.path import isfile
 from functools import cached_property, cache
-from typing import Union, Tuple, Dict, Set, NamedTuple
+from typing import Union, Tuple, Dict, Set, NamedTuple, List
 from math import ceil
 from dataclasses import dataclass
 from datetime import date
@@ -119,6 +119,15 @@ class Game:
             return None
         if 'ratingsSummary' in obj:
             return obj['ratingsSummary']
+        rating: List[Union[int, float]] = []
+        for r in (obj.get('reviews') or []):
+            if isinstance(r, dict) and isinstance(r.get('rating'), (int, float)):
+                rating.append(r.get('rating'))
+        if len(rating):
+            return {
+                'averageRating': sum(rating)/len(rating),
+                "totalRatingsCount": len(rating)
+            }
         if obj.get('totalReviews') == 0:
             return {
                 'averageRating': 0,
