@@ -1,6 +1,6 @@
 import requests
 from functools import cached_property, cache
-from typing import Tuple, Dict, Union
+from typing import Tuple, Dict, Union, Any
 import logging
 from os import environ
 from .cache import Cache
@@ -10,6 +10,26 @@ logger = logging.getLogger(__name__)
 
 class IGDBException(Exception):
     pass
+
+
+class IGDBMsgException(IGDBException):
+    def __init__(self, data: Dict[str, Any]):
+        self.__data = data
+        super().__init__(str(self))
+
+    def __str__(self):
+        arr = filter(
+            lambda x: x is not None,
+            [
+                self.__data.get('status'),
+                self.__data.get('title'),
+                self.__data.get('message'),
+                self.__data.get('cause'),
+            ]
+        )
+        if len(arr) == 0:
+            raise ValueError(f"{self.__data} no sirve para IGDBMsgException")
+        return " ".join(map(str, arr))
 
 
 def get_chunks(array, size):
@@ -81,6 +101,8 @@ class IGDB:
         url = 'https://api.igdb.com/v4/'+path
         r = self.s.post(url, data=query)
         js = r.json()
+        if isinstance(js, dict) and tuple(sorted(js.keys())) in (('message', ), ('cause', 'status', 'title')):
+            raise IGDBMsgException(js)
         if not isinstance(js, list):
             raise IGDBException(f"{url} {query} {str(js)}")
         if len(js) != 1:

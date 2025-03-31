@@ -12,7 +12,7 @@ from .api import Api
 from .util import dict_walk, trim
 import logging
 from .cache import Cache
-from .igdb import IGDB
+from .igdb import IGDB, IGDBMsgException
 
 logger = logging.getLogger(__name__)
 
@@ -395,7 +395,11 @@ class Game:
         spa = self.__get_spanish()
         if spa is not None and (spa['interface'], spa['subtitles']) != (None, None):
             return spa
-        spa2 = IGDB.get().get_spanish(self.id)
+        try:
+            spa2 = IGDB.get().get_spanish(self.id)
+        except IGDBMsgException as e:
+            logger.warning("IGDB: "+str(e))
+            return None
         if None in (spa, spa2):
             return (spa or spa2)
         if spa['audio'] is not None:
