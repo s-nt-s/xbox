@@ -18,7 +18,7 @@ class IGDBMsgException(IGDBException):
         super().__init__(str(self))
 
     def __str__(self):
-        arr = filter(
+        arr = tuple(filter(
             lambda x: x is not None,
             [
                 self.__data.get('status'),
@@ -26,7 +26,7 @@ class IGDBMsgException(IGDBException):
                 self.__data.get('message'),
                 self.__data.get('cause'),
             ]
-        )
+        ))
         if len(arr) == 0:
             raise ValueError(f"{self.__data} no sirve para IGDBMsgException")
         return " ".join(map(str, arr))
