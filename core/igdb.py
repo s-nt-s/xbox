@@ -25,6 +25,7 @@ class IGDBMsgException(IGDBException):
                 self.__data.get('title'),
                 self.__data.get('message'),
                 self.__data.get('cause'),
+                self.__data.get('details'),
             ]
         )
         if len(arr) == 0:
@@ -101,7 +102,7 @@ class IGDB:
         url = 'https://api.igdb.com/v4/'+path
         r = self.s.post(url, data=query)
         js = r.json()
-        if isinstance(js, dict) and tuple(sorted(js.keys())) in (('message', ), ('cause', 'status', 'title')):
+        if isinstance(js, dict) and set(js.keys()).intersection('message', 'cause', 'details', 'status', 'title'):
             raise IGDBMsgException(js)
         if not isinstance(js, list):
             raise IGDBException(f"{url} {query} {str(js)}")
