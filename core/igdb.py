@@ -102,7 +102,7 @@ class IGDB:
         url = 'https://api.igdb.com/v4/'+path
         r = self.s.post(url, data=query)
         js = r.json()
-        if isinstance(js, dict) and set(js.keys()).intersection('message', 'cause', 'details', 'status', 'title'):
+        if isinstance(js, dict) and set(js.keys()).intersection({'message', 'cause', 'details', 'status', 'title'}):
             raise IGDBMsgException(js)
         if not isinstance(js, list):
             raise IGDBException(f"{url} {query} {str(js)}")
