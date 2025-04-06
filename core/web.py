@@ -283,6 +283,7 @@ class Driver:
         options.add_argument("--disable-extensions")
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_argument("--lang=es-ES")
+        options.add_argument("--incognito")
         options.add_experimental_option(
             'excludeSwitches', ['enable-automation'])
         options.add_experimental_option('useAutomationExtension', False)
