@@ -86,18 +86,12 @@ for i in list(map(Game.get, api.get_ids())):
 
 
 def _asdict(g: GameBasic):
-    if not isinstance(g.discount, (int, float)):
-        return None
-    if not isinstance(g.price, (int, float)):
-        return None
-    if g.price == 0:
-        return None
-    if g.discount != 100:
-        return None
     d = g._asdict()
     for k, v in list(d.items()):
         if isinstance(v, str):
             d[k] = trim(v)
+        elif v == -1:
+            d[k] = None
         elif isinstance(v, float):
             i = int(v)
             if i == v:
@@ -105,5 +99,17 @@ def _asdict(g: GameBasic):
     return d
 
 
-gift = [result for x in sorted(games) if (result := _asdict(x)) is not None]
+def filter_games(g: GameBasic):
+    if not isinstance(g.discount, (int, float)):
+        return False
+    if not isinstance(g.price, (int, float)):
+        return False
+    if g.price == 0:
+        return False
+    if g.discount != 100:
+        return False
+    return g
+
+
+gift = [_asdict(x) for x in sorted(filter(filter_games, games))]
 FM.dump("out/gift.json", gift)

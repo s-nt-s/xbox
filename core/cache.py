@@ -46,7 +46,7 @@ class Cache:
         if os.stat(fl).st_mtime < self.maxOld:
             return True
         return False
-    
+
     def log(self, txt):
         if self.loglevel is not None:
             logger.log(self.loglevel, txt)

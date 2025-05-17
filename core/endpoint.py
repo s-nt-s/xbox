@@ -9,11 +9,21 @@ import logging
 from .findwireresponse import FindWireResponse, WireResponse
 import re
 from .util import dict_del, trim
+from requests.exceptions import RequestException, Timeout, TooManyRedirects, HTTPError, ConnectionError
+#                 id=endpoint.id,
 
 logger = logging.getLogger(__name__)
 
 S = requests.Session()
 re_sp = re.compile(r"\s+")
+
+
+def s_get(url: str):
+    try:
+        return S.get(url)
+    except (RequestException, Timeout, TooManyRedirects, HTTPError, ConnectionError):
+        logger.critical(f"Request failed: {url}")
+        raise
 
 
 class AccessDenied(Exception):
@@ -102,11 +112,11 @@ class EndPointCollection(EndPoint):
         return "https://reco-public.rec.mp.microsoft.com/channels/Reco/V8.0/Lists/Computed/"+self.id+"?Market=es&Language=es&ItemTypes=Game&deviceFamily=Windows.Xbox&count=2000"
 
     def get_list(self, url):
-        js = S.get(url).json()
+        js = s_get(url).json()
         rt = {i['Id']: i for i in js['Items']}
         tt = js['PagingInfo']['TotalItems']
         while len(rt) < tt:
-            js = S.get(url+"&skipitems="+str(len(rt))).json()
+            js = s_get(url+"&skipitems="+str(len(rt))).json()
             for i in js['Items']:
                 rt[i['Id']] = i
         rt = sorted(rt.values(), key=lambda x: x['Id'])
@@ -148,7 +158,7 @@ class EndPointCatalogList(EndPoint):
             "b8900d09-a491-44cc-916e-32b5acae621b",
             "aed03b50-b954-4ee4-a426-fe1686b64f85"
         ]
-        text = S.get(self.url).text
+        text = s_get(self.url).text
         for w in sorted(set(ids+re.findall(EndPointCatalogList.UUID, text))):
             e = EndPointCatalog(w)
             if set(e.title.split()).intersection({"PC", "Próximamente"}):
@@ -166,7 +176,7 @@ class EndPointCatalog(EndPoint):
 
     @EndPointCache("rec/catalog/{id}.json")
     def json(self) -> Union[Dict, None]:
-        js = S.get(self.url).json()
+        js = s_get(self.url).json()
         if js is None:
             logger.info("NON "+self.id)
         else:
@@ -220,7 +230,7 @@ class EndPointProduct(EndPoint):
 
     @EndPointCache("rec/product/{id}.json")
     def json(self) -> Union[Dict, None]:
-        js = S.get(self.url).json()
+        js = s_get(self.url).json()
         js = self.parse(js)
         return js
 
@@ -271,7 +281,7 @@ class EndPointProductPreloadState(EndPoint):
 
     @EndPointCache("rec/preload/{id}.json")
     def json(self) -> Union[Dict, None]:
-        text = S.get(self.url).text
+        text = s_get(self.url).text
         return self.parse(text)
 
 

@@ -52,7 +52,7 @@ class Api:
         return tuple(sorted(arr))
 
     def get_collection_list(self):
-        arr = set()
+        arr: Set[UrlTitle] = set()
         for c in EndPointCollection.COLS:
             endpoint = EndPointCollection(c)
             if endpoint.json() is None:

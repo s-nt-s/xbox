@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from core.api import Api
+from core.api import Api, UrlTitle
 from core.j2 import Jnj2, to_value
 from datetime import datetime
 from core.game import Game, GameList
@@ -9,6 +9,9 @@ from core.search import URL_GAMES_BROWSER
 from core.util import dict_add
 from typing import List, Tuple, Dict, Set
 from core.log import config_log
+from requests.exceptions import ConnectionError
+from core.web import Web, get_text
+from os import environ
 import logging
 
 import argparse
@@ -230,12 +233,28 @@ def dict_to_game_list(obj: Dict[str, Set[str]]):
     return arr
 
 
+def get_collections() -> Tuple[UrlTitle, ...]:
+    try:
+        return api.get_collection_list()
+    except ConnectionError:
+        pass
+    arr: List[UrlTitle] = []
+    soup = Web().get(environ["PAGE_URL"]+"/faq/index.html")
+    for a in soup.select("a[href^='https://reco-public.rec.mp.microsoft.com']"):
+        arr.append(UrlTitle(
+            id=len(arr),
+            url=a.attrs['href'],
+            title=get_text(a)
+        ))
+    return tuple(arr)
+
+
 j.save(
     "faq.html",
     destino="faq/index.html",
     browser=URL_GAMES_BROWSER,
     catalogs=api.get_catalog_list(),
-    collections=api.get_collection_list(),
+    collections=get_collections(),
     complements=dict_to_game_list(COMP),
     older=dict_to_game_list(OLDR),
     bad_deal=BADD,
