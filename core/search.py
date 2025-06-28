@@ -22,6 +22,8 @@ S = requests.Session()
 re_sp = re.compile(r"\s+")
 
 URL_GAMES_BROWSER = "https://www.xbox.com/es-ES/games/browse?locale=es-ES"
+URL_GAMES_BROWSER_DEAL = "https://www.xbox.com/es-ES/games/browse/DynamicChannel.GameDeals?locale=es-ES"
+
 PAGE_SIZE = 25
 
 
@@ -240,10 +242,22 @@ class SearchWire(Driver):
                         new_obj = {**new_obj, **aux}
                     if len(new_obj) > 0:
                         return new_obj
+                    error = self.__get_error()
+                    if error:
+                        logger.error(error)
+                        return new_obj
         except TimeoutError:
             if self.safe_wait(self.button) is None:
                 return {}
             return self.__find_ids(done)
+
+    def __get_error(self):
+        txt = get_text(self.get_soup().select_one("div[class*='_errorText_']"))
+        n = self.safe_wait("//div[contains(@class, '_errorText_')]", seconds=1)
+        if n is None:
+            return None
+        txt = re_sp.sub(' ', n.text).strip()
+        return txt
 
     def __iter_requests_json(self, path: str):
         r: WireRequest
@@ -258,5 +272,5 @@ class SearchWire(Driver):
             try:
                 yield json.loads(txt)
             except JSONDecodeError:
-                logger.critical("NOT JSON: "+r.path)
+                logger.critical(f"NOT JSON: {r.path}")
                 continue

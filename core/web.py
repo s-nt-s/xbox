@@ -465,6 +465,9 @@ class Driver:
             return self._driver.find_element_by_xpath(id)
         return self._driver.find_element_by_id(id)
 
+    def wait_ready(self):
+        self.waitjs('window.document.readyState === "complete"')
+
     def waitjs(self, js: str, val=True, seconds=None):
         if seconds is None:
             seconds = self._wait

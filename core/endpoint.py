@@ -102,8 +102,7 @@ class EndPoint(ABC):
 
 
 class EndPointCollection(EndPoint):
-    COLS = ("XboxIndieGames", "TopFree", "TopPaid", "New",
-            "BestRated", "ComingSoon", "Deal", "MostPlayed")
+    COLS = () #("XboxIndieGames", "TopFree", "TopPaid", "New", "BestRated", "ComingSoon", "Deal", "MostPlayed")
 
     @property
     def url(self):
