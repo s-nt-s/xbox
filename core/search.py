@@ -252,7 +252,6 @@ class SearchWire(Driver):
             return self.__find_ids(done)
 
     def __get_error(self):
-        txt = get_text(self.get_soup().select_one("div[class*='_errorText_']"))
         n = self.safe_wait("//div[contains(@class, '_errorText_')]", seconds=1)
         if n is None:
             return None
