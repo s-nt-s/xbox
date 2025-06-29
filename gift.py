@@ -76,13 +76,14 @@ if isinstance(r, WireResponse):
 
 api = Api()
 for i in list(map(Game.get, api.get_ids())):
-    games.add(GameBasic(
+    g = GameBasic(
         title=i.title,
-        price=i.price,
+        price=i.original_price,
         discount=i.discount,
         url=i.url,
         img=i.poster
-    ))
+    )
+    games.add(g)
 
 
 def _asdict(g: GameBasic):

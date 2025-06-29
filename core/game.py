@@ -145,6 +145,14 @@ class Game:
         )
 
     @cached_property
+    def original_price(self) -> float:
+        return dict_walk(
+            self.i,
+            'DisplaySkuAvailabilities/0/Availabilities/0/OrderManagementData/Price/MSRP',
+            instanceof=float
+        )
+
+    @cached_property
     def int_price(self) -> int:
         if self.price > 0 and self.price <= 1:
             return 1

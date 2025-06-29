@@ -157,6 +157,7 @@ def is_missing_preload(g: Union[str, Game]):
 
 
 def extra_dwn(ids: Tuple[str], tolerance, overwrite=False):
+    logger.info(f"Extra dwn {len(ids)} ids")
     ids = tuple(sorted(ids))
     dwn_game(tcp_limit=ARG.tcp_limit, ids=ids, tolerance=tolerance, overwrite=overwrite)
     ids = tuple(sorted(set((i.id for i in get_games(ids) if not i._isUseless))))
@@ -171,9 +172,13 @@ if ARG.all:
     tries = set()
     done = set(IDS)
     logger.info("Obteniendo juegos extra de los bundle")
+    print("")
+    count = len(done)
     while True:
         ids = set()
         for g in get_games(done):
+            count -= 1
+            print(count, "     ", end="\r")
             for b in g.bundle:
                 if b not in done:
                     ids.add(b)
