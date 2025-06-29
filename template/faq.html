@@ -60,6 +60,7 @@
     <p>Para confeccionar el listado se usa como fuente:</p>
     <ol>
       <li><a href="{{browser}}">El buscador de juegos,</a></li>
+      {%if collections %}
       <li>
         las colecciones
         <ul>
@@ -68,6 +69,7 @@
           {% endfor %}
         </ul>
       </li>
+      {%endif%}
       <li>
         y los catálogos
         <ul>
