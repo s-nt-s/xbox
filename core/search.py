@@ -47,23 +47,39 @@ class KeyNotFound(ValueError):
 
 class EndPointSearchCache(EndPointCache):
     def parse_file_name(self, *args, slf: "EndPointSearchPreloadState", **kwargs):
+        name = ""
+        if slf.root == URL_GAMES_BROWSER_DEAL:
+            name = "deal_"
         if slf.id:
-            name = "&".join((f"{k}={v}" for k, v in slf.id.items()))
+            name = name + "&".join((f"{k}={v}" for k, v in slf.id.items()))
         else:
-            name = "games_browse"
+            name = name + "games_browse"
+        return self.file.format(name)
+
+
+class EndPointSearchFilterCache(EndPointCache):
+    def parse_file_name(self, *args, slf: "EndPointSearchPreloadState", **kwargs):
+        name = ""
+        if slf.root == URL_GAMES_BROWSER_DEAL:
+            name = "deal_"
         return self.file.format(name)
 
 
 class EndPointSearchPreloadState(EndPoint):
 
-    def __init__(self, id: Dict[str, str] = None):
+    def __init__(self, id: Dict[str, str] = None, root=URL_GAMES_BROWSER):
         if id is None:
             id = {}
         self.id = {k: v for k, v in id.items() if v is not None}
+        self.__root = root
+
+    @property
+    def root(self):
+        return self.__root
 
     @property
     def url(self):
-        url = str(URL_GAMES_BROWSER)
+        url = str(self.__root)
         for filter, value in self.id.items():
             url = url + f'&{filter}={quote_plus(value)}'
         return url
@@ -79,7 +95,7 @@ class EndPointSearchPreloadState(EndPoint):
         text = S.get(self.url).text
         return self.parse(text)
 
-    @EndPointCache("rec/search/filters.json")
+    @EndPointSearchFilterCache("rec/search/{}filters.json")
     def filters(self) -> Union[Dict, None]:
         obj = dict_walk(self.json(), 'core2/filters/Browse/data')
         must = {
@@ -109,8 +125,14 @@ class EndPointSearchPreloadState(EndPoint):
         return tuple(sorted(self.productSummaries().keys()))
 
 
+class EndPointGiftPreloadState(EndPointSearchPreloadState):
+    def __init__(self):
+        super().__init__({'Price': "0"}, root=URL_GAMES_BROWSER_DEAL)
+
+
 class EndPointSearchXboxSeries(EndPointSearchPreloadState):
-    def __init__(self, id: Dict[str, str] = None):
+    def __init__(self, id: Dict[str, str] = None, root=URL_GAMES_BROWSER):
+        self.__root = root
         self.__keys = tuple(sorted(id.keys()))
         super().__init__({**{"PlayWith": "XboxSeriesX|S"}, **id})
 
@@ -131,9 +153,9 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
 
     @AuxCache("rec/search/aux/")
     def __productSummariesPage(self, query: Dict[str, str]):
-        ps = EndPointSearchPreloadState(query).productSummaries()
+        ps = EndPointSearchPreloadState(query, root=self.__root).productSummaries()
         if len(ps) >= PAGE_SIZE:
-            ps = SearchWire.do_games_browse_search(query)
+            ps = SearchWire.do_games_browse_search(self.__root, query)
         squery = " ".join(f"{k}={v}" for k, v in query.items())
         logger.info(f"{len(ps):>4} {squery}")
         return ps
@@ -188,21 +210,22 @@ class EndPointSearchXboxSeries(EndPointSearchPreloadState):
 
 class SearchWire(Driver):
     @staticmethod
-    def do_games_browse_search(query: Dict[str, str]):
+    def do_games_browse_search(root: str, query: Dict[str, str]):
         url = None
         while True:
             try:
                 with timeout(seconds=60*40):
-                    with SearchWire() as web:
+                    with SearchWire(root=root) as web:
                         url = web.query_to_url(query)
                         return web.query(query)
             except (ProxyException, JSONDecodeError, KeyNotFound, TimeoutError, EOFError) as e:
                 logger.critical(f"do_games_browse_search({url}) " + str(e))
                 time.sleep(60)
 
-    def __init__(self):
+    def __init__(self, root: str = URL_GAMES_BROWSER):
         super().__init__(browser="wirefirefox", wait=10)
         self.button = '//button[@aria-label="Cargar más"]'
+        self.__root = root
 
     def query(self, query: Dict[str, str]):
         url = self.query_to_url(query)
@@ -210,7 +233,7 @@ class SearchWire(Driver):
         return ids
 
     def query_to_url(self, query: Dict[str, str]):
-        url = URL_GAMES_BROWSER + '&' + \
+        url = self.__root + '&' + \
             '&'.join(map(lambda kv: kv[0]+'=' +
                      quote_plus(kv[1]), query.items()))
         return url

@@ -6,6 +6,7 @@ from core.api import Api
 from core.game import Game
 from core.web import Web, get_text
 from core.util import dict_walk, trim
+from core.search import EndPointGiftPreloadState
 import re
 
 MAX_PRICE = 1
@@ -74,8 +75,9 @@ if isinstance(r, WireResponse):
             img=None if len(imgs) == 0 else (imgs.get('Thumbnail') or tuple(imgs.values())[0])
         ))
 
+xbox_deal = EndPointGiftPreloadState().ids()
 api = Api()
-for i in list(map(Game.get, api.get_ids())):
+for i in map(Game.get, xbox_deal + api.get_ids()):
     g = GameBasic(
         title=i.title,
         price=i.original_price,
