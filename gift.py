@@ -75,17 +75,21 @@ if isinstance(r, WireResponse):
             img=None if len(imgs) == 0 else (imgs.get('Thumbnail') or tuple(imgs.values())[0])
         ))
 
-xbox_deal = EndPointGiftPreloadState().ids()
-api = Api()
-for i in map(Game.get, xbox_deal + api.get_ids()):
-    g = GameBasic(
+def to_basic(i: Game):
+    return GameBasic(
         title=i.title,
         price=i.original_price,
         discount=i.discount,
         url=i.url,
         img=i.poster
     )
-    games.add(g)
+
+
+for i in map(Game.get, EndPointGiftPreloadState().ids()):
+    if i.isGame:
+        games.add(to_basic(i))
+for i in map(Game.get, Api().get_ids()):
+    games.add(to_basic(i))
 
 
 def _asdict(g: GameBasic):
