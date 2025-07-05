@@ -35,7 +35,7 @@ def dict_walk(obj, path: str):
 
 
 class AuxCache(Cache):
-    def parse_file_name(self, obj, **kargv):
+    def parse_file_name(self, obj, **kwargs):
         name = re_sp.sub("", str(obj))
         name = "".join(c for c in name if c.isalpha() or c.isdigit())
         return f"{self.file}/{name}.json"
@@ -46,7 +46,7 @@ class KeyNotFound(ValueError):
 
 
 class EndPointSearchCache(EndPointCache):
-    def parse_file_name(self, *args, slf: "EndPointSearchPreloadState", **kargv):
+    def parse_file_name(self, *args, slf: "EndPointSearchPreloadState", **kwargs):
         if slf.id:
             name = "&".join((f"{k}={v}" for k, v in slf.id.items()))
         else:
