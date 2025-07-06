@@ -1,4 +1,4 @@
-from typing import NamedTuple, Dict, Tuple
+from typing import NamedTuple, Dict
 import requests
 import json
 from .web import Driver
@@ -14,19 +14,24 @@ class WireResponse(NamedTuple):
     key: str
     requests: WireRequest
     body: dict
+    headers: dict
 
-    def json(self, key) -> Dict:
+    def json(self, key, **kwargs) -> Dict:
         path = self.requests.path.replace(self.key, key)
         if path == self.requests.path:
             return self.body
-        s = requests.Session()
-        s.headers = self.requests.headers
         r = requests.request(
             self.requests.method,
             path,
-            headers=self.requests.headers
+            headers=self.requests.headers,
+            **kwargs
         )
         return r.json()
+
+    def get_session(self):
+        s = requests.Session()
+        s.headers = self.requests.headers
+        return s
 
 
 class FindWireResponse:
@@ -68,7 +73,8 @@ class FindWireResponse:
                         return WireResponse(
                             key=keyarg,
                             requests=r,
-                            body=js
+                            body=js,
+                            headers=r.headers
                         )
                 for r in web.logged_requests:
                     r_url = r.get('url')
@@ -85,7 +91,8 @@ class FindWireResponse:
                     return WireResponse(
                         key=keyarg,
                         requests=None,
-                        body=js
+                        body=js,
+                        headers=r.get("headers", {})
                     )
 
     @staticmethod

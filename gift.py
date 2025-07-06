@@ -4,7 +4,8 @@ from core.filemanager import FM
 from core.game import GameBasic
 from core.api import Api
 from core.game import Game
-from core.web import Web, get_text
+from core.web import Web, get_text, buildSoup
+import requests
 from core.util import dict_walk, trim
 from core.search import EndPointGiftPreloadState
 import re
@@ -29,8 +30,29 @@ def to_num(s: str, default=None):
     return f
 
 
+r = FindWireResponse.find_response(
+    "https://www.indiegala.com/games/on-sale",
+    path="https://www.indiegala.com/games/ajax/on-sale/release-date",
+    browser="devchrome",
+)
+if isinstance(r, WireResponse):
+    x = requests.get(
+        'https://www.indiegala.com/games/ajax/on-sale/percentage-off',
+        headers=r.headers
+    )
+    soup = buildSoup("https://www.indiegala.com/games/on-sale/", x.json()['html'])
+    for div in soup.select("div.main-list-results-item"):
+        games.add(GameBasic(
+            title=get_text(div.select_one("h3")),
+            price=to_num(get_text(div.select_one("div.main-list-results-item-price-old"))),
+            discount=abs(to_num(get_text(div.select_one("div.main-list-results-item-discount")))),
+            url=div.select_one("h3 a").attrs["href"],
+            img=div.select_one("img").attrs["data-img-src"],
+        ))
+
+
 w = Web()
-r = w.json(f"https://catalog.gog.com/v1/catalog?limit=140&price=between%3A0%2C1{MAX_PRICE}&order=desc%3Atrending&discounted=eq%3Atrue&productType=in%3Agame%2Cpack&page=1&countryCode=ES&locale=en-US&currencyCode=EUR")
+r = w.json(f"https://catalog.gog.com/v1/catalog?limit=140&price=between%3A0%2C1{MAX_PRICE}&order=desc%3Adiscount&discounted=eq%3Atrue&productType=in%3Agame%2Cpack&page=1&countryCode=ES&locale=en-US&currencyCode=EUR")
 for i in dict_walk(r, 'products', instanceof=list):
     price = dict_walk(i, 'price/base', instanceof=str)
     discount = dict_walk(i, 'price/discount', instanceof=str)
@@ -74,6 +96,8 @@ if isinstance(r, WireResponse):
             url="https://store.epicgames.com/es-ES/p/"+pageSlug,
             img=None if len(imgs) == 0 else (imgs.get('Thumbnail') or tuple(imgs.values())[0])
         ))
+
+
 
 def to_basic(i: Game):
     return GameBasic(
