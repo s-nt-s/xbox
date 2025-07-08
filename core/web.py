@@ -251,10 +251,17 @@ class Driver:
         profile.update_preferences()
         driver = webdriver.Firefox(
             options=options, firefox_profile=profile)
-        driver.maximize_window()
+        self.__safe_maximize_window(driver)
         driver.implicitly_wait(5)
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
         return driver
+
+    def __safe_maximize_window(self, driver: WebDriver):
+        try:
+            driver.maximize_window()
+        except WebDriverException as e:
+            logger.warning("Driver.maximize_window = "+re_sp.sub(" ", str(e)).strip())
+            pass
 
     def _create_wirefirefox(self):
         options = self.__get_ff_options()
@@ -269,7 +276,7 @@ class Driver:
         profile.update_preferences()
         driver = wirewebdriver.Firefox(
             options=options, firefox_profile=profile)
-        driver.maximize_window()
+        self.__safe_maximize_window(driver)
         driver.implicitly_wait(5)
         return driver
 
@@ -305,7 +312,7 @@ class Driver:
                 Driver.find_driver_path(),
                 options=options
             )
-        driver.maximize_window()
+        self.__safe_maximize_window(driver)
         driver.implicitly_wait(5)
         return driver
 
@@ -327,7 +334,7 @@ class Driver:
             Driver.find_driver_path(),
             options=options
         )
-        driver.maximize_window()
+        self.__safe_maximize_window(driver)
         driver.implicitly_wait(5)
         return driver
 
@@ -359,11 +366,7 @@ class Driver:
             options=options,
             desired_capabilities=capabilities
         )
-        try:
-            driver.maximize_window()
-        except WebDriverException as e:
-            logger.warning("Driver.maximize_window = "+re_sp.sub(" ", str(e)).strip())
-            pass
+        self.__safe_maximize_window(driver)
         driver.implicitly_wait(5)
         return driver
 
