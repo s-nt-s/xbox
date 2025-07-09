@@ -6,6 +6,7 @@ from seleniumwire.webdriver.request import Request as WireRequest
 from json.decoder import JSONDecodeError
 import time
 import logging
+from .timeout import timeout
 
 logger = logging.getLogger(__name__)
 
@@ -96,6 +97,15 @@ class FindWireResponse:
                     )
 
     @staticmethod
+    def __safe_find_response(*urls: str, path: str = None, keyarg: str, browser="wirefirefox"):
+        try:
+            with timeout(seconds=60*30):
+                return FindWireResponse.__find_response(*urls, path=path, keyarg=keyarg, browser=browser)
+        except TimeoutError as e:
+            logger.critical(f"Timeout in FindWireResponse.find_response({urls}, {path})")
+            return 404
+
+    @staticmethod
     def find_response(*urls: str, path: str = None, keypath=None, keyarg=None, browser="wirefirefox"):
         if not isinstance(path, str):
             raise ValueError(f"path must be str, not {path}")
@@ -104,7 +114,7 @@ class FindWireResponse:
         if keypath is None:
             keypath = path
         if FindWireResponse.WR.get(keypath) is None:
-            r = FindWireResponse.__find_response(*urls, path=path, keyarg=keyarg, browser=browser)
+            r = FindWireResponse.__safe_find_response(*urls, path=path, keyarg=keyarg, browser=browser)
             if isinstance(r, int):
                 return r
             FindWireResponse.WR[keypath] = r
