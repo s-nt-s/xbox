@@ -98,7 +98,6 @@ if isinstance(r, WireResponse):
         ))
 
 
-
 def to_basic(i: Game):
     return GameBasic(
         title=i.title,

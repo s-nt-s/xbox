@@ -27,6 +27,10 @@ URL_GAMES_BROWSER_DEAL = "https://www.xbox.com/es-ES/games/browse/DynamicChannel
 PAGE_SIZE = 25
 
 
+class RequestBlocked(Exception):
+    pass
+
+
 def dict_walk(obj, path: str):
     data = util_dict_walk(obj, path)
     if data is None:
@@ -249,7 +253,10 @@ class SearchWire(Driver):
         while True:
             if 1 != self.safe_click(self.button, by=By.XPATH):
                 return obj
-            new_obj = self.__find_ids(set(obj.keys()))
+            try:
+                new_obj = self.__find_ids(set(obj.keys()))
+            except RequestBlocked:
+                return obj
             if len(new_obj):
                 obj = {**obj, **new_obj}
 
@@ -282,6 +289,7 @@ class SearchWire(Driver):
         return txt
 
     def __iter_requests_json(self, path: str):
+        blockedCount = 0
         r: WireRequest
         for r in self._driver.requests:
             if path not in r.path:
@@ -294,5 +302,15 @@ class SearchWire(Driver):
             try:
                 yield json.loads(txt)
             except JSONDecodeError:
-                logger.critical(f"NOT JSON: {r.path}")
+                isBlocked = False
+                for msg in ("The request is blocked", ):
+                    if msg in txt:
+                        blockedCount = blockedCount + 1
+                        logger.critical(f"NOT JSON: {r.path} {msg}")
+                        isBlocked = True
+                        if blockedCount > 1:
+                            raise RequestBlocked()
+                if not isBlocked:
+                    blockedCount = 0
+                    logger.critical(f"NOT JSON: {r.path} {txt}")
                 continue
