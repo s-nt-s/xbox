@@ -699,6 +699,7 @@ class GameList:
             info[i.id] = dict(
                 antiquity=(today - i.releaseDate).days,
                 price=i.int_price,
+                float_price=i.price,
                 rate=i.rate,
                 reviews=i.reviews,
                 discount=i.discount,

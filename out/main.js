@@ -398,6 +398,7 @@ function setOrder() {
     ((v) => {
       if (v == 'T') return $$("a.title").sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim())).map(t => t.closest("div.game"));
       if (v == 'D') return Object.entries(GAME).map(([k, v]) => [k, v.antiquity]).sort((a, b) => a[1] - b[1]).map(i => document.getElementById("g" + i[0]));
+      if (v == '€') return Object.entries(GAME).map(([k, v]) => [k, v.float_price]).sort((a, b) => a[1] - b[1]).map(i => document.getElementById("g" + i[0]));
       if (v == 'P') return Object.entries(GAME).map(([k, v]) => [k, v.discount, v.price, v.rate]).sort((a, b) => {
         let v = b[1] - a[1];
         if (v != 0) return v;
