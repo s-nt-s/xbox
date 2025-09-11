@@ -352,7 +352,10 @@ function filtrar(new_type) {
   div.classList.remove("hideIfJS");
   if (form.order != div.getAttribute("data-order")) {
     console.log("order", div.getAttribute("data-order"), "->", form.order)
-    const _g = (x) => Number(x.getAttribute("data-order-" + form.order.toLocaleLowerCase()))
+    const _g = (x) => {
+      const name = form.order.toLocaleLowerCase();
+      return Number(x.getAttribute("data-order-" + (name=="€"?"price":name)))
+    }
     $$("div.game").sort((a, b) => _g(a) - _g(b)).forEach(i => div.append(i))
     div.setAttribute("data-order", form.order);
   }
@@ -409,7 +412,8 @@ function setOrder() {
       }).map(i => document.getElementById("g" + i[0]));
       return [];
     })(o.value).forEach((d, index) => {
-      d.setAttribute("data-order-" + o.value.toLocaleLowerCase(), index);
+      const name = o.value.toLocaleLowerCase();
+      d.setAttribute("data-order-" + (name=="€"?"price":name), index);
     });
   })
 
