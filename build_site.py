@@ -13,6 +13,7 @@ from requests.exceptions import ConnectionError
 from core.web import Web, get_text
 from os import environ
 import logging
+from typing import Callable, Any
 
 import argparse
 
@@ -205,6 +206,19 @@ def game_info(gamelist: GameList):
     return lst
 
 
+def sort_ids(fnc: Callable[[Game], Any], reverse=False):
+    arr = sorted(glist.items, key=fnc, reverse=reverse)
+    return tuple(map(lambda x: x.id, arr))
+
+
+print("Generando web")
+ORDER: dict[str, tuple[str, ...]] = dict()
+ORDER['D'] = sort_ids(lambda g: g.releaseDate, reverse=True)
+ORDER['T'] = sort_ids(lambda g: g.title)
+ORDER['P'] = sort_ids(lambda g: (g.discount, g.price), reverse=True)
+ORDER['€'] = sort_ids(lambda g: (g.price, g.discount), reverse=False)
+
+
 j = Jnj2("template/", "out/", favicon="🎮")
 j.create_script(
     "info.js",
@@ -214,6 +228,7 @@ j.create_script(
     PREVIEW=sorted((i.id for i in glist.items if i.isPreview)),
     TRIAL=sorted((i.id for i in glist.items if i.isTrial)),
     GAMEPASS=sorted((i.id for i in glist.items if i.isInGamepass)),
+    ORDER=ORDER,
     everything_has_subtitles=glist.everything_has_subtitles,
     MX=glist.mx,
     replace=True,

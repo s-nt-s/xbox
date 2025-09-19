@@ -352,11 +352,7 @@ function filtrar(new_type) {
   div.classList.remove("hideIfJS");
   if (form.order != div.getAttribute("data-order")) {
     console.log("order", div.getAttribute("data-order"), "->", form.order)
-    const _g = (x) => {
-      const name = form.order.toLocaleLowerCase();
-      return Number(x.getAttribute("data-order-" + (name=="€"?"price":name)))
-    }
-    $$("div.game").sort((a, b) => _g(a) - _g(b)).forEach(i => div.append(i))
+    ORDER[form.order].forEach(i => div.append(document.getElementById("g" + i)));
     div.setAttribute("data-order", form.order);
   }
   FormQuery.form_to_query(new_type);
@@ -394,29 +390,6 @@ function setOrder() {
   const def_order = $$("#order option").filter(o => o.getAttribute("selected") != null)[0].value;
   const div = document.getElementById("games");
   div.setAttribute("data-order", def_order);
-  div.querySelectorAll("div.game").forEach((d, index) => {
-    d.setAttribute("data-order-" + def_order.toLocaleLowerCase(), index);
-  })
-  document.querySelectorAll('#order option:not([value="' + def_order + '"])').forEach(o => {
-    ((v) => {
-      if (v == 'T') return $$("a.title").sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim())).map(t => t.closest("div.game"));
-      if (v == 'D') return Object.entries(GAME).map(([k, v]) => [k, v.antiquity]).sort((a, b) => a[1] - b[1]).map(i => document.getElementById("g" + i[0]));
-      if (v == '€') return Object.entries(GAME).map(([k, v]) => [k, v.float_price]).sort((a, b) => a[1] - b[1]).map(i => document.getElementById("g" + i[0]));
-      if (v == 'P') return Object.entries(GAME).map(([k, v]) => [k, v.discount, v.price, v.rate]).sort((a, b) => {
-        let v = b[1] - a[1];
-        if (v != 0) return v;
-        v = a[2] - b[2];
-        if (v != 0) return v;
-        v = b[3] - a[3];
-        return v;
-      }).map(i => document.getElementById("g" + i[0]));
-      return [];
-    })(o.value).forEach((d, index) => {
-      const name = o.value.toLocaleLowerCase();
-      d.setAttribute("data-order-" + (name=="€"?"price":name), index);
-    });
-  })
-
 }
 
 document.addEventListener(
